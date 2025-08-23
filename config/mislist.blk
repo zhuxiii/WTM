@@ -1,0 +1,100 @@
+{
+  "benchmark": {
+    "benchmark": {
+      "m": [
+        "benchmark_pacific",
+        "benchmark_tank",
+        "benchmark_tank_corpses",
+        "benchmark_tank_paused",
+        "benchmark_tank_paused_24h",
+        "benchmark_planes_battle",
+        "benchmark_planes_battle_paused",
+        "location_bencrmark_air_alps",
+        "location_bencrmark_air_norway_green",
+        "location_bencrmark_air_phiphi_crater",
+        "location_bencrmark_air_stalingrad_w",
+        "location_bencrmark_air_zhengzhou"
+      ]
+    }
+  },
+  "skirmish": {
+    "air": {
+      "m": [
+        "air_africa_desert_GS",
+        "air_alps_GS",
+        "air_hurtgen_GS",
+        "air_norway_green_GS",
+        "air_phiphi_crater_GS",
+        "air_stalingrad_w_GS",
+        "air_zhengzhou_GS"
+      ]
+    },
+    "tank": {
+      "m": [
+        "abandoned_factory_Dom",
+        "africa_desert_Dom",
+        "american_valley_Dom",
+        "japan_Dom",
+        "normandy_Dom",
+        "poland_Dom",
+        "rheinland_Dom",
+        "stalingrad_factory_Dom",
+        "vietnam_hills_Dom",
+        "container_port_Dom1"
+      ]
+    },
+    "ship": {
+      "m": [
+        "glaciers_NTdm",
+        "greece_NTdm",
+        "lofoten_islands_NTdm",
+        "pacific_island_small_NTdm",
+        "scotland_NTdm",
+        "ships_graveyard_NTdm",
+        "white_rocks_NTdm"
+      ]
+    },
+    "debug_air": {
+      "m": [
+        "air_africa_desert_GS",
+        "air_alps_GS",
+        "air_hurtgen_GS",
+        "air_norway_green_GS",
+        "air_phiphi_crater_GS",
+        "air_stalingrad_w_GS",
+        "air_zhengzhou_GS",
+        "air_grand_canyon_GS"
+      ]
+    },
+    "debug_tank": {
+      "m": [
+        "abandoned_factory_Dom",
+        "africa_desert_Dom",
+        "american_valley_Dom",
+        "japan_Dom",
+        "normandy_Dom",
+        "poland_Dom",
+        "rheinland_Dom",
+        "stalingrad_factory_Dom",
+        "vietnam_hills_Dom",
+        "container_port_Dom1"
+      ]
+    },
+    "debug_ship": {
+      "m": [
+        "glaciers_NTdm",
+        "greece_NTdm",
+        "lofoten_islands_NTdm",
+        "pacific_island_small_NTdm",
+        "scotland_NTdm",
+        "ships_graveyard_NTdm",
+        "white_rocks_NTdm"
+      ]
+    }
+  },
+  "test": {
+    "test_single": {
+      "m": "small_mission"
+    }
+  }
+}

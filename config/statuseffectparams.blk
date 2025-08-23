@@ -1,0 +1,46 @@
+{
+  "reloadTimeMult": {
+    "reloadTimeMult": 1.5,
+    "actionTime": 30.0,
+    "isStopOnRepair": true
+  },
+  "shotFreqMult": {
+    "shotFreqMult": 0.5,
+    "actionTime": 60.0,
+    "isStopOnRepair": true
+  },
+  "shotFreqMult2": {
+    "shotFreqMult": 0.85,
+    "actionTime": 30.0,
+    "isStopOnRepair": true
+  },
+  "maxSpeedMult": {
+    "maxSpeedMult": 0.5,
+    "actionTime": 30.0,
+    "isStopOnRepair": true
+  },
+  "moveControl": {
+    "allowMoveControl": false,
+    "actionTime": 30.0,
+    "isStopOnRepair": true
+  },
+  "throttleBlock": {
+    "gearBlockValue": 0.5,
+    "actionTime": 30.0,
+    "isStopOnRepair": true
+  },
+  "throttleBlock2": {
+    "gearBlockValue": 0.4,
+    "actionTime": 20.0,
+    "isRepairOnStop": true,
+    "isStopOnRepair": true
+  },
+  "maxSpeedMultTank": {
+    "maxSpeedMult": 0.5,
+    "isStopOnRepair": true
+  },
+  "maxPowerMultTank": {
+    "powerMult": 0.5,
+    "isStopOnRepair": true
+  }
+}

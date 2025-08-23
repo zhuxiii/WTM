@@ -1,0 +1,85 @@
+{
+  "entity": [
+    {
+      "_template": "backmodel_spawn_point",
+      "transform": [
+        [
+          0.965926,
+          0.0,
+          -0.258819
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.258819,
+          0.0,
+          0.965926
+        ],
+        [
+          3009.05,
+          7.0,
+          -2570.1
+        ]
+      ],
+      "spawnPointType": "ship",
+      "forPremiumVehicle": true
+    },
+    {
+      "_template": "backmodel_spawn_point",
+      "transform": [
+        [
+          0.707107,
+          0.0,
+          0.707107
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.707107,
+          0.0,
+          0.707107
+        ],
+        [
+          2465.5,
+          6.99945,
+          -2056.45
+        ]
+      ],
+      "spawnPointType": "ship",
+      "forPremiumVehicle": false
+    },
+    {
+      "_template": "backmodel_spawn_point",
+      "transform": [
+        [
+          0.965926,
+          0.0,
+          -0.258819
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.258819,
+          0.0,
+          0.965926
+        ],
+        [
+          2891.4,
+          7.00015,
+          -2961.35
+        ]
+      ],
+      "spawnPointType": "ship",
+      "forPremiumVehicle": false
+    }
+  ]
+}
