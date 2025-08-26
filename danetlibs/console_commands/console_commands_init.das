@@ -2,7 +2,6 @@ options no_aot
 
 require ecs
 require ecs.fs
-require app
 require ECSGlobalTags
 
 
@@ -14,6 +13,10 @@ def load_console_commands(base_path : string) : bool
     ok = load_sub_folder(base_path, "main") && ok
 
   return ok
+
+
+
+rn ok
 
 
 

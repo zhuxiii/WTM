@@ -5,6 +5,11 @@
   "volumeCloudsActive": true,
   "z_far": 30000.0,
   "addLandToSky": false,
+  "fixedLocalProbePos": [
+    0.0,
+    500.0,
+    0.0
+  ],
   "mapCoord0": [
     -16384.0,
     -16384.0

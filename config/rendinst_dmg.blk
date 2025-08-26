@@ -15128,6 +15128,61 @@
       "apexDestructionOptionsPresetName": "apexWoodDmPreset",
       "isParent": true
     },
+    "japan_pagoda_water_a": {
+      "physRes": "japan_pagoda_water_a_destr_phobj",
+      "hp": 12.0,
+      "impulseThreshold": 0.0,
+      "fx": "ad_fence_wood_small",
+      "fxScale": 1.0,
+      "isParent": true
+    },
+    "japan_pagoda_water_b": {
+      "physRes": "japan_pagoda_water_b_destr_phobj",
+      "hp": 12.0,
+      "impulseThreshold": 0.0,
+      "fx": "ad_fence_wood_small",
+      "fxScale": 1.0,
+      "isParent": true
+    },
+    "japan_pagoda_water_c": {
+      "physRes": "japan_pagoda_water_c_destr_phobj",
+      "hp": 12.0,
+      "impulseThreshold": 0.0,
+      "fx": "ad_fence_wood_small",
+      "fxScale": 1.0,
+      "isParent": true
+    },
+    "japan_pagoda_water_angle": {
+      "physRes": "japan_pagoda_water_angle_destr_phobj",
+      "hp": 12.0,
+      "impulseThreshold": 0.0,
+      "fx": "ad_fence_wood_small",
+      "fxScale": 1.0,
+      "isParent": true
+    },
+    "japan_pagoda_water_entrance": {
+      "physRes": "japan_pagoda_water_entrance_destr_phobj",
+      "hp": 12.0,
+      "impulseThreshold": 0.0,
+      "fx": "ad_fence_wood_small",
+      "fxScale": 1.0,
+      "isParent": true
+    },
+    "japan_pagoda_water_pantone": {
+      "physRes": "japan_pagoda_water_pantone_destr_phobj",
+      "hp": 12.0,
+      "impulseThreshold": 0.0,
+      "fx": "ad_fence_wood_small",
+      "fxScale": 1.0,
+      "isParent": true
+    },
+    "stone_bridge_korea_b": {
+      "physRes": "stone_bridge_korea_b_destr_phobj",
+      "hp": 200.0,
+      "impulseThreshold": 10.0,
+      "fx": "ad_dust_bollard",
+      "fxScale": 1.5
+    },
     "korea_summerhouse_a": {
       "nextRes": "korea_summerhouse_a_dmg",
       "hp": 100.0,

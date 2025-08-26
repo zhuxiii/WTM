@@ -1,71 +1,5 @@
 {
-  "default": {
-    "t1": {
-      "caliberToArmor": 1.0,
-      "ricochetProbability0deg": [
-        0.0,
-        1.0
-      ],
-      "ricochetProbability25deg": [
-        25.0,
-        1.0
-      ],
-      "ricochetProbability30deg": [
-        30.0,
-        0.6
-      ],
-      "ricochetProbability40deg": [
-        40.0,
-        0.35
-      ],
-      "ricochetProbability41deg": [
-        41.0,
-        0.005
-      ],
-      "ricochetProbability43deg": [
-        43.0,
-        0.0
-      ],
-      "ricochetProbability90deg": [
-        90.0,
-        0.0
-      ]
-    }
-  },
-  "defaultExt": {
-    "t1": {
-      "caliberToArmor": 1.0,
-      "ricochetProbability0deg": [
-        0.0,
-        1.0
-      ],
-      "ricochetProbability25deg": [
-        25.0,
-        1.0
-      ],
-      "ricochetProbability30deg": [
-        30.0,
-        0.6
-      ],
-      "ricochetProbability40deg": [
-        40.0,
-        0.35
-      ],
-      "ricochetProbability41deg": [
-        41.0,
-        0.005
-      ],
-      "ricochetProbability43deg": [
-        43.0,
-        0.0
-      ],
-      "ricochetProbability90deg": [
-        90.0,
-        0.0
-      ]
-    }
-  },
-  "ap": {
+  "ap_ground": {
     "t1": {
       "caliberToArmor": 1.0,
       "ricochetProbability0deg": [
@@ -98,7 +32,7 @@
       ]
     }
   },
-  "apbc": {
+  "apbc_ground": {
     "t1": {
       "caliberToArmor": 1.0,
       "ricochetProbability0deg": [
@@ -139,7 +73,7 @@
       ]
     }
   },
-  "apcr": {
+  "apcr_ground": {
     "t1": {
       "caliberToArmor": 1.0,
       "ricochetProbability0deg": [
@@ -150,7 +84,7 @@
         18.0,
         1.0
       ],
-      "ricochetProbability22deg": [
+      "ricochetProbability20deg": [
         20.0,
         0.5
       ],
@@ -164,22 +98,22 @@
       ]
     }
   },
-  "apds": {
+  "apds_ground": {
     "t1": {
       "caliberToArmor": 1.0,
       "ricochetProbability0deg": [
         0.0,
         1.0
       ],
-      "ricochetProbability18deg": [
+      "ricochetProbability10deg": [
         10.0,
         1.0
       ],
-      "ricochetProbability22deg": [
+      "ricochetProbability14deg": [
         14.0,
         0.1
       ],
-      "ricochetProbability24deg": [
+      "ricochetProbability15deg": [
         15.0,
         0.0
       ],
@@ -189,22 +123,22 @@
       ]
     }
   },
-  "apds_fs": {
+  "apds_fs_ground": {
     "t1": {
       "caliberToArmor": 1.0,
       "ricochetProbability0deg": [
         0.0,
         1.0
       ],
-      "ricochetProbability18deg": [
+      "ricochetProbability10deg": [
         10.0,
         1.0
       ],
-      "ricochetProbability22deg": [
+      "ricochetProbability13deg": [
         13.0,
         0.5
       ],
-      "ricochetProbability24deg": [
+      "ricochetProbability14deg": [
         14.0,
         0.0
       ],
@@ -214,23 +148,91 @@
       ]
     }
   },
-  "apds_fs_full_body_steel": {
+  "he_ground": {
     "t1": {
       "caliberToArmor": 1.0,
       "ricochetProbability0deg": [
         0.0,
         1.0
       ],
-      "ricochetProbability18deg": [
-        12.0,
+      "ricochetProbability09deg": [
+        9.0,
         1.0
       ],
-      "ricochetProbability22deg": [
-        14.0,
+      "ricochetProbability10deg": [
+        10.0,
         0.5
       ],
-      "ricochetProbability24deg": [
-        18.0,
+      "ricochetProbability11deg": [
+        11.0,
+        0.0
+      ],
+      "ricochetProbability90deg": [
+        90.0,
+        0.0
+      ]
+    }
+  },
+  "bomb_ground": {
+    "t1": {
+      "caliberToArmor": 1.0,
+      "ricochetProbability0deg": [
+        0.0,
+        1.0
+      ],
+      "ricochetProbability09deg": [
+        9.0,
+        1.0
+      ],
+      "ricochetProbability10deg": [
+        10.0,
+        0.5
+      ],
+      "ricochetProbability11deg": [
+        11.0,
+        0.0
+      ],
+      "ricochetProbability90deg": [
+        90.0,
+        0.0
+      ]
+    }
+  },
+  "hesh_ground": {
+    "t1": {
+      "caliberToArmor": 1.0,
+      "ricochetProbability0deg": [
+        0.0,
+        1.0
+      ],
+      "ricochetProbability10deg": [
+        10.0,
+        1.0
+      ],
+      "ricochetProbability15deg": [
+        15.0,
+        0.2
+      ],
+      "ricochetProbability17deg": [
+        17.0,
+        0.0
+      ]
+    }
+  },
+  "he_small_caliber_ground": {
+    "t1": {
+      "caliberToArmor": 1.0,
+      "ricochetProbability0deg": [
+        0.0,
+        0.0
+      ],
+      "ricochetProbability01deg": [
+        1.0,
+        0.0
+      ]
+    }
+  }
+}        18.0,
         0.0
       ],
       "ricochetProbability90deg": [

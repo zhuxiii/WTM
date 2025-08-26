@@ -1,6 +1,5 @@
 options no_aot
 
-require app
 require ecs.fs
 require DagorSystem
 require strings
@@ -20,6 +19,10 @@ def load_assets_import(base_path : string) : bool
       ok = load_sub_folder(base_path, "debug_ui") && ok
 
   return ok
+
+
+
+rn ok
 
 
 

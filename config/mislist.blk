@@ -55,13 +55,17 @@
       ]
     },
     "debug_air": {
-      "m": [
-        "air_africa_desert_GS",
-        "air_alps_GS",
-        "air_hurtgen_GS",
-        "air_norway_green_GS",
-        "air_phiphi_crater_GS",
-        "air_stalingrad_w_GS",
+      "m": "air_grand_canyon_GS"
+    },
+    "debug_tank": {},
+    "debug_ship": {}
+  },
+  "test": {
+    "test_single": {
+      "m": "small_mission"
+    }
+  }
+}      "air_stalingrad_w_GS",
         "air_zhengzhou_GS",
         "air_grand_canyon_GS"
       ]

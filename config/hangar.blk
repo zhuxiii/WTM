@@ -107,6 +107,7 @@
   "verticalCameraShiftShip": 0.1,
   "verticalCameraShiftTank": 0.3,
   "countDecalsAtUnitInHangar": 4,
+  "forceMusic": "anniversary_2025",
   "hangarMission": "gameData/scenes/hangar_field_mission_wtm.blk",
   "hangarSoundEngineMult": 0.4,
   "hangarSoundMult": 0.15,
@@ -202,20 +203,20 @@
     {
       "hangarPlace": "tank",
       "modelPos": [
-        1462.09,
-        8.04794,
-        1481.27
+        473.4,
+        139.6,
+        3602.11
       ],
-      "modelRotation": -43.8,
+      "modelRotation": -26.5,
       "unitOffset": [
         0.0,
         0.0,
         0.0
       ],
       "initCameraOffset": [
-        -5.1,
-        -2.0,
-        -5.0
+        -15.1,
+        1.0,
+        -15.0
       ],
       "cameraEllipsoidWeights": [
         0.3,
@@ -227,9 +228,9 @@
     {
       "hangarPlace": "hydroplane",
       "modelPos": [
-        2932.2,
+        2939.8,
         3.5,
-        -2744.22
+        -2749.8
       ],
       "modelRotation": -197.0,
       "unitOffset": [
@@ -248,9 +249,9 @@
     {
       "hangarPlace": "ship",
       "modelPos": [
-        3007.3,
+        3026.1,
         3.5,
-        -2753.8
+        -2759.2
       ],
       "modelRotation": 164.0,
       "unitOffset": [
@@ -1830,9 +1831,9 @@
             -2120.9
           ],
           "to": [
-            1626.9,
+            764.1,
             7.0,
-            -6242.0
+            -5806.5
           ],
           "timeToStop": 100.0,
           "cameraRelativeSpeed": 0.3,
@@ -1956,9 +1957,9 @@
             -2120.9
           ],
           "to": [
-            1626.9,
+            764.1,
             7.0,
-            -6242.0
+            -5806.5
           ],
           "timeToStop": 100.0,
           "cameraRelativeSpeed": 0.5,
@@ -2325,116 +2326,6 @@
                 ]
               }
             ]
-          },
-          "way": {
-            "wp_0": {
-              "type": "Point",
-              "tm": [
-                [
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                [
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                [
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                [
-                  2163.9,
-                  8.05,
-                  1666.9
-                ]
-              ],
-              "objLayer": 0,
-              "props": {}
-            },
-            "wp_1": {
-              "type": "Point",
-              "tm": [
-                [
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                [
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                [
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                [
-                  1541.8,
-                  8.05,
-                  4677.3
-                ]
-              ],
-              "objLayer": 0,
-              "props": {}
-            },
-            "wp_2": {
-              "type": "Point",
-              "tm": [
-                [
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                [
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                [
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                [
-                  -663.2,
-                  8.05,
-                  -3826.3
-                ]
-              ],
-              "objLayer": 0,
-              "props": {}
-            },
-            "wp_3": {
-              "type": "Point",
-              "tm": [
-                [
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                [
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                [
-                  0.0,
-                  0.0,
-                  0.0
-                ],
-                [
-                  1304.3,
-                  8.05,
-                  -992.9
-                ]
-              ],
-              "objLayer": 0,
-              "props": {}
-            }
           }
         }
       ]
@@ -3626,12 +3517,12 @@
           "musicName": "naval/music/cutscene_offer_planes",
           "from": [
             3183.9,
-            650.0,
+            175.0,
             -1748.8
           ],
           "to": [
             1352.6,
-            650.0,
+            175.0,
             -2557.3
           ],
           "startRoll": -10.0,
@@ -3704,9 +3595,9 @@
                   0.0
                 ],
                 [
-                  2781.2,
-                  650.0,
-                  -1892.2
+                  2506.5,
+                  175.0,
+                  -1855.5
                 ]
               ],
               "objLayer": 0,
@@ -3731,9 +3622,9 @@
                   0.0
                 ],
                 [
-                  1794.7,
-                  650.0,
-                  -2763.1
+                  1865.0,
+                  175.0,
+                  -2139.2
                 ]
               ],
               "objLayer": 0,
@@ -4103,6 +3994,142 @@
             1.0,
             -0.6
           ]
+        },
+        "end": {
+          "nodeName": "track_l_dm",
+          "offset": [
+            0.1,
+            2.0,
+            0.6
+          ]
+        }
+      }
+    },
+    {
+      "fov": 70.0,
+      "zNear": 0.05,
+      "time": 8.0,
+      "from": {
+        "start": {
+          "nodeName": "track_r_dm",
+          "offset": [
+            0.1,
+            1.0,
+            0.1
+          ]
+        },
+        "end": {
+          "nodeName": "track_r_dm",
+          "offset": [
+            3.0,
+            1.0,
+            1.1
+          ]
+        }
+      },
+      "to": {
+        "start": {
+          "nodeName": "track_r_dm",
+          "offset": [
+            0.1,
+            1.0,
+            -0.6
+          ]
+        },
+        "end": {
+          "nodeName": "track_r_dm",
+          "offset": [
+            0.1,
+            2.0,
+            0.6
+          ]
+        }
+      }
+    },
+    {
+      "fov": 70.0,
+      "zNear": 0.05,
+      "time": 8.0,
+      "from": {
+        "start": {
+          "nodeName": "wheel_l_01_dm",
+          "offset": [
+            0.1,
+            1.0,
+            0.1
+          ]
+        },
+        "end": {
+          "nodeName": "wheel_l_01_dm",
+          "offset": [
+            3.0,
+            1.0,
+            1.1
+          ]
+        }
+      },
+      "to": {
+        "start": {
+          "nodeName": "wheel_l_01_dm",
+          "offset": [
+            0.1,
+            1.0,
+            -0.6
+          ]
+        },
+        "end": {
+          "nodeName": "wheel_l_01_dm",
+          "offset": [
+            0.1,
+            2.0,
+            0.6
+          ]
+        }
+      }
+    },
+    {
+      "fov": 70.0,
+      "zNear": 0.05,
+      "time": 8.0,
+      "from": {
+        "start": {
+          "nodeName": "wheel_r_01_dm",
+          "offset": [
+            0.1,
+            1.0,
+            0.1
+          ]
+        },
+        "end": {
+          "nodeName": "wheel_r_01_dm",
+          "offset": [
+            3.0,
+            1.0,
+            1.1
+          ]
+        }
+      },
+      "to": {
+        "start": {
+          "nodeName": "wheel_r_01_dm",
+          "offset": [
+            0.1,
+            1.0,
+            -0.6
+          ]
+        },
+        "end": {
+          "nodeName": "wheel_r_01_dm",
+          "offset": [
+            0.1,
+            2.0,
+            0.6
+          ]
+        }
+      }
+    }
+  ]
+}         ]
         },
         "end": {
           "nodeName": "track_l_dm",

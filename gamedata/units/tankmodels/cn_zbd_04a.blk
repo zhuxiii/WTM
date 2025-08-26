@@ -1811,6 +1811,16 @@
       ]
     }
   },
+  "fuelTanks": {
+    "r1": {
+      "part": "fuel_tank_exterior_r_01_dm",
+      "external": true
+    },
+    "l1": {
+      "part": "fuel_tank_exterior_l_01_dm",
+      "external": true
+    }
+  },
   "class_tags": {},
   "commonWeapons": {
     "remotelyGuidedWeaponsMax": 1,

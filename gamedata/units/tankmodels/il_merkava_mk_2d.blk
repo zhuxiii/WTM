@@ -61,6 +61,18 @@
     0.0,
     -4.0
   ],
+  "dm_for_shop": {
+    "armorThicknessFront": [
+      0.6,
+      0.1,
+      0.3
+    ],
+    "armorThicknessSide": [
+      0.25,
+      0.0,
+      0.75
+    ]
+  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "CHA_tank",
@@ -2488,7 +2500,10 @@
           ]
         }
       }
-    ]
+    ],
+    "hideNodes": {
+      "node": "ex_armor_body_17"
+    }
   },
   "weapon_presets": {
     "preset": {
@@ -3911,7 +3926,10 @@
                 ]
               }
             }
-          ]
+          ],
+          "hideNodes": {
+            "node": "ex_armor_body_17"
+          }
         }
       }
     }
@@ -4006,15 +4024,7 @@
       "details_03"
     ]
   }
-}aw": 24.0,
-              "speedPitch": 15.0,
-              "fireConeAngle": 1.0,
-              "bullets": 30,
-              "salvoAmount": 100.0,
-              "ChainfireTime": 0.0,
-              "DelayAfterShoot": 5.0,
-              "AttackMaxDistance": 1000.0,
-              "AttackMaxRadius": 1000.0,
+}1000.0,
               "AttackMaxHeight": 1000.0,
               "accuracyAir": 0.0,
               "accuracyGnd": 1.5,

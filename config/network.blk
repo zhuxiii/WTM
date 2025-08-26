@@ -446,6 +446,22 @@
           "https://cloud-production-02.gaijin.net/char"
         ]
       }
+    },
+    "skinsDecalsCDN": {
+      "replaceUrls": "wtm-production.skinsDecalsCDN.baseUrls",
+      "hashesReqUrl": "https://public-configs.warthunder.com/wtm-production/dldata.info"
     }
+  },
+  "wtm-production.skinsDecalsCDN.baseUrls": {
+    "url": [
+      {
+        "weight": 5.0,
+        "url": "https://dldata-wtmobile-aws.cdn.gaijin.net/wtm-production/"
+      },
+      {
+        "weight": 1.0,
+        "url": "https://dldata-wtmobile-aws.cdn.gaijin.net/wtm-production/"
+      }
+    ]
   }
 }

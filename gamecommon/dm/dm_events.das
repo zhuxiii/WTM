@@ -16,8 +16,11 @@ struct EventOnHitEntity
   pos : float3
   dir : float3
   norm : float3
+  vel : float3
   distance : float
   piercingShift : float
+  startPos : float3
+  startVel : float3
   collNodeId : int
 
 [cpp_event(unicast, with_scheme)]

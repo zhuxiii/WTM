@@ -12,6 +12,11 @@
   "wind_scale": 1.2,
   "max_wind_strength": 6.5,
   "water_level": 0.0,
+  "fixedLocalProbePos": [
+    0.0,
+    50.0,
+    0.0
+  ],
   "mapCoord0": [
     -8192.0,
     -8192.0

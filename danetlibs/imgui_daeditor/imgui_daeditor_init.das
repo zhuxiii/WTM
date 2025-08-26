@@ -2,7 +2,6 @@ options no_aot
 
 require ecs
 require ecs.fs
-require app
 require ECSGlobalTags
 
 
@@ -35,6 +34,10 @@ def load_imgui_daeditor(base_path : string) : bool
 
   ok = ok 
   return ok
+
+
+
+rn ok
 
 
 

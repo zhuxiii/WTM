@@ -457,7 +457,7 @@
           "action": {
             "type": "forcedExplosion",
             "probability": 1.0,
-            "relativeDamage": 0.2,
+            "relativeDamage": 0.3,
             "damageType": "explosion",
             "fxEvent": "ammo_expl",
             "parts": {
@@ -475,7 +475,7 @@
           "action": {
             "type": "forcedExplosion",
             "probability": 1.0,
-            "relativeDamage": 0.2,
+            "relativeDamage": 0.3,
             "damageType": "explosion",
             "fxEvent": "ammo_expl",
             "parts": {
@@ -493,7 +493,7 @@
           "action": {
             "type": "forcedExplosion",
             "probability": 1.0,
-            "relativeDamage": 0.2,
+            "relativeDamage": 0.3,
             "damageType": "explosion",
             "fxEvent": "ammo_expl",
             "parts": {

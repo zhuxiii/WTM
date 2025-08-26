@@ -1,6 +1,6 @@
 options no_aot
 
-require app
+require app 
 require DagorImgui
 require imgui/imgui_boost
 require daslib/strings_boost

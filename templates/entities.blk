@@ -12,7 +12,9 @@
     "%wtlibs/templates/fx.blk",
     "%wtlibs/templates/lights.blk",
     "%wtlibs/templates/damage_model.blk",
-    "%wtlibs/templates/microdetail.blk"
+    "%wtlibs/templates/microdetail.blk",
+    "%wtlibs/templates/bloom.blk",
+    "%wtlibs/templates/postfx.blk"
   ],
   "delayed_action": {
     "delayed_action__doAtTime": -1.0,

@@ -1905,7 +1905,8 @@
     "TrackSoundName": "tracks_heavy",
     "turret_turn": "turret_turn_manual_y",
     "EngineNameAi": "engine_tank_ai_heavy",
-    "TrackSoundNameAi": "tracks_ai_heavy"
+    "TrackSoundNameAi": "tracks_ai_heavy",
+    "EngineNameEx": "engine_panzer6"
   },
   "class_tags": {},
   "commonWeapons": {

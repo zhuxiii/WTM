@@ -77,7 +77,7 @@ def tank_engine_state_init_es(evt : CmdInitComponent;
     tank_engine__startDelayTimer = tank_engine__startDelay
     tank_engine__stopDelayTimer = tank_engine__stopDelay
 
-[es, unused_argument(evt)]
+[es]
 def tank_engine_state_toggle_es(evt : EventTryToggleGMEngine;
                                 eid : EntityId;
                                 tank_engine__isWorking : bool;
@@ -88,7 +88,7 @@ def tank_engine_state_toggle_es(evt : EventTryToggleGMEngine;
   sendEvent(eid, EventGmEngineOnOff(
       value = !tank_engine__isWorking))
 
-[es, unused_argument(evt)]
+[es]
 def tank_engine_state_turn_on_es(evt : EventTryEnableEngine;
                                  eid : EntityId;
                                  tank_engine__isWorking : bool;
@@ -111,4 +111,5 @@ def tank_engine_state_respawn_handler_es(evt : Event;
                                          var tank_engine__soundStarted : bool&)
   tank_engine__isWorking = true
   tank_engine__commandSent = false
+  tank_engine__soundStarted = false= false
   tank_engine__soundStarted = false

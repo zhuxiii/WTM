@@ -1103,7 +1103,10 @@
     "sfxPathStudio": "aircraft/effects"
   },
   "smokescreen_medium": {
-    "fx": "smoke_smokescreen_medium_cmps_fx"
+    "fx": "smoke_smokescreen_medium_cmps_fx",
+    "sfxPathStudio": "ground/explosions",
+    "sfxEvent": "explosion_gr_smoke",
+    "soundEnableDistance": 1000.0
   },
   "smokescreen_hydroplane": {
     "fx": "smoke_smokescreen_hydroplane_cmps_fx"

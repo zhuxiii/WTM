@@ -795,7 +795,7 @@ def private walk_and_convert_enumeration(data : uint8 const?; info : TypeDeclPtr
         value := name)
 }
 
-def private walk_and_convert(data : uint8 const?; info : TypeDeclPtr; at : LineInfo) : ExpressionPtr {
+def walk_and_convert(data : uint8 const?; info : TypeDeclPtr; at : LineInfo) : ExpressionPtr {
     
     if (info.dim |> length != 0) {
         return <- walk_and_convert_dim(data, info, at)
@@ -1270,4 +1270,6 @@ def getVectorOffset(bt : Type; ident : string) {
     }
     let count = getVectorElementCount(bt)
     return ofs >= count ? -1 : ofs
+}
+ofs
 }

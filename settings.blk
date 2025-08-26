@@ -114,6 +114,10 @@
       "forSource": "../../prog/1stPartyLibs/daScript/daslib",
       "forVromfs": "daslib"
     },
+    "%gameLibs": {
+      "forSource": "../../prog/gameLibs",
+      "forVromfs": "gameLibs"
+    },
     "%dasGameLibs": {
       "forSource": "../../prog/gameLibs/das",
       "forVromfs": "das"
@@ -307,7 +311,6 @@
         "campaign": "ships"
       }
     },
-    "pkg_battle_royale_event": {},
     "pkg_tier_1_naval": {
       "conditions": {
         "campaign": "ships",
@@ -1105,6 +1108,18 @@
         "mRank": 6
       }
     },
+    "pkg_germ_sub_walrus": {
+      "conditions": {
+        "campaign": "ships",
+        "mRank": 6
+      }
+    },
+    "pkg_us_cruiser_rckt_bainbridge": {
+      "conditions": {
+        "campaign": "ships",
+        "mRank": 6
+      }
+    },
     "pkg_ussr_kv_122": {
       "conditions": {
         "campaign": "tanks",
@@ -1657,6 +1672,24 @@
         "mRank": 10
       }
     },
+    "pkg_germ_leopard_2a4m_can": {
+      "conditions": {
+        "campaign": "tanks",
+        "mRank": 11
+      }
+    },
+    "pkg_ussr_2s19_m1": {
+      "conditions": {
+        "campaign": "tanks",
+        "mRank": 7
+      }
+    },
+    "pkg_us_m4_t26": {
+      "conditions": {
+        "campaign": "tanks",
+        "mRank": 5
+      }
+    },
     "pkg_environment_uhq": {
       "base": false,
       "hq": false,
@@ -1735,7 +1768,6 @@
     "ssaa": 1.0,
     "waterQuality": "high",
     "waterGeomQuality": 1,
-    "clipmapScale": 1.0,
     "physicsQuality": 5,
     "giQuality": "low",
     "skyQuality": 1,
@@ -1792,7 +1824,7 @@
     "blendedAirplanesSkies": true,
     "lmeshAsyncCulling": false,
     "allowETC2": true,
-    "heightmapFlowmapDepthUsePointFilter": true,
+    "varyingTexFilterSupportForcePointFilter": true,
     "riexCanIncreaseRenderBuffer": false,
     "riMaxModelsPerLevel": 1024,
     "riAllowGenJobsQueueReorder": true,
@@ -1801,7 +1833,8 @@
     "taaSigmaScaleMax": 2.5,
     "taaSigmaScaleMaxHangar": 7.5,
     "taaMotionScale": 2500.0,
-    "volumetricAfterBurner": false,
+    "shouldRenderLerxVapor": true,
+    "volumetricAfterBurner": true,
     "backbufferHolderReadable": false,
     "useUnderwaterFogPrepassPlane": true,
     "csmAllowDynrendPrepareJobsInThreads": false,
@@ -1828,8 +1861,12 @@
     "listAllAaOptions": true,
     "mobile_demonpostfx": true,
     "enableWaterPresetInterpolation": false,
+    "occlusionNeedsPlayerDepth": false,
+    "vaporStepSize": 0.4,
+    "vaporCalcSunTransmittance": false,
+    "replaceEnviProbeWithLocal": true,
     "raytraced_shadows": {
-      "maxBlasBuildsPerFrame": 30,
+      "maxBlasBuildFrames": 30,
       "additionalElementsCheck": false,
       "geometryLimit": 1024,
       "shoulRebuildSkinnedElems": false
@@ -1992,7 +2029,7 @@
     "virtualTextureAnisotropy": 1,
     "cachesCount": 2,
     "buffersCount": 2,
-    "growTexSizeWithRenderingResolution": true,
+    "growTexSizeWithRenderingResolution": false,
     "shaderlodMode": "always_high",
     "updateFeedbackSameThread": true,
     "dynamicDDScaleTarget": 0.75,
@@ -2155,7 +2192,7 @@
     "enabled": false
   },
   "unitedVdata.dynModel": {
-    "use": false,
+    "use": true,
     "canRebuild": false,
     "common": {
       "exactSize": true,
@@ -2636,14 +2673,8 @@
     },
     "tex_quality_limit": {
       "codename": [
-        "iPod 7th Gen",
-        "iPhone 6S",
-        "iPhone 6S Plus",
-        "iPhone 7",
-        "iPhone 7 Plus",
         "iPhone 8",
         "iPhone 8 Plus",
-        "iPhone SE 1st Gen",
         "iPhone SE 2nd Gen",
         "iPhone X",
         "iPad 5",
@@ -2651,31 +2682,13 @@
         "iPad 7",
         "iPad 8",
         "iPad 9",
-        "iPad Air 2",
         "iPad Air 3",
-        "iPad Mini 4",
         "iPad Mini 5",
         "iPad Pro 9.7 inch"
       ],
       "graphics": {
         "memoryToLimitTexQuality": 3072,
         "maxTexQuality": "medium"
-      }
-    },
-    "apple_a8": {
-      "codename": [
-        "iPad Mini 4",
-        "iPad Air 2"
-      ],
-      "graphics": {
-        "shaderlod": "low",
-        "underwaterFogUseSimple": true,
-        "enableWaterReflections": false,
-        "forceLowPreset": true
-      },
-      "clipmap": {
-        "hwfeedback": false,
-        "texTileSize": 128
       }
     },
     "unisoc_devices": {
@@ -2685,7 +2698,8 @@
         "T612",
         "T615",
         "T616",
-        "T618"
+        "T618",
+        "Exynos 850"
       ],
       "graphics": {
         "fallbackFxaaLowToBilinear": true
@@ -2699,6 +2713,19 @@
             "sceneResolutionPreset": "low"
           }
         }
+      }
+    },
+    "xiaomi_memory_leaks_debug": {
+      "codename": [
+        "23046RP50C",
+        "23013RK75C",
+        "23049PCD8G"
+      ],
+      "vulkan": {
+        "useCustomAllocationCallbacks": true
+      },
+      "android": {
+        "checkMemoryLeaksMb": 500
       }
     }
   },
@@ -2868,7 +2895,9 @@
         "volumeCloudsQuality": 4,
         "applyCloudsShadow": false,
         "xrayOutlinesScale": 1.0,
-        "underwaterCausticsEnabled": false
+        "underwaterCausticsEnabled": false,
+        "useVapor": false,
+        "planarReflectionTexDiv": 8
       },
       "render": {
         "grassInCompatibility": false
@@ -2950,17 +2979,19 @@
         "volumeCloudsQuality": 3,
         "applyCloudsShadow": true,
         "xrayOutlinesScale": 1.0,
-        "underwaterCausticsEnabled": false
+        "underwaterCausticsEnabled": false,
+        "useVapor": false,
+        "planarReflectionTexDiv": 6
       },
       "render": {
         "grassInCompatibility": true
       },
       "clipmap": {
         "texSize": [
-          3072,
-          3072
+          2048,
+          4096
         ],
-        "texTileSize": 256,
+        "texTileSize": 128,
         "swFeedbackMipTiles0": 6,
         "swFeedbackMipTiles1": 6,
         "swFeedbackMipTiles2": 4,
@@ -3032,7 +3063,9 @@
         "volumeCloudsQuality": 1,
         "applyCloudsShadow": true,
         "xrayOutlinesScale": 1.0,
-        "underwaterCausticsEnabled": true
+        "underwaterCausticsEnabled": true,
+        "useVapor": true,
+        "planarReflectionTexDiv": 4
       },
       "render": {
         "grassInCompatibility": true
@@ -3040,9 +3073,9 @@
       "clipmap": {
         "texSize": [
           3072,
-          4096
+          3072
         ],
-        "texTileSize": 256,
+        "texTileSize": 192,
         "swFeedbackMipTiles0": 10,
         "swFeedbackMipTiles1": 8,
         "swFeedbackMipTiles2": 4,
@@ -3114,7 +3147,9 @@
         "volumeCloudsQuality": 1,
         "applyCloudsShadow": true,
         "xrayOutlinesScale": 1.0,
-        "underwaterCausticsEnabled": true
+        "underwaterCausticsEnabled": true,
+        "useVapor": true,
+        "planarReflectionTexDiv": 4
       },
       "render": {
         "grassInCompatibility": true
@@ -3196,7 +3231,9 @@
         "volumeCloudsQuality": 1,
         "applyCloudsShadow": true,
         "xrayOutlinesScale": 1.0,
-        "underwaterCausticsEnabled": true
+        "underwaterCausticsEnabled": true,
+        "useVapor": true,
+        "planarReflectionTexDiv": 4
       },
       "render": {
         "grassInCompatibility": true
@@ -3275,14 +3312,16 @@
         "volumeCloudsQuality": 3,
         "applyCloudsShadow": false,
         "xrayOutlinesScale": 1.0,
-        "underwaterCausticsEnabled": false
+        "underwaterCausticsEnabled": false,
+        "useVapor": false,
+        "planarReflectionTexDiv": 4
       },
       "clipmap": {
         "texSize": [
-          3072,
-          2048
+          2048,
+          3072
         ],
-        "texTileSize": 256,
+        "texTileSize": 128,
         "swFeedbackMipTiles0": 4,
         "swFeedbackMipTiles1": 4,
         "swFeedbackMipTiles2": 4,
@@ -3346,12 +3385,14 @@
         "volumeCloudsQuality": 1,
         "applyCloudsShadow": true,
         "xrayOutlinesScale": 1.0,
-        "underwaterCausticsEnabled": false
+        "underwaterCausticsEnabled": false,
+        "useVapor": true,
+        "planarReflectionTexDiv": 4
       },
       "clipmap": {
         "texSize": [
-          4096,
-          4096
+          3072,
+          3072
         ],
         "swFeedbackMipTiles0": 12,
         "swFeedbackMipTiles1": 10,
@@ -3361,7 +3402,7 @@
         "texelSizeMul": 1.0,
         "max_clipmap_tex_mips": 10,
         "virtualTextureAnisotropy": 4,
-        "texTileSize": 256,
+        "texTileSize": 192,
         "cachesCount": 2,
         "buffersCount": 2,
         "shaderlodMode": "auto",
@@ -3417,12 +3458,14 @@
         "volumeCloudsQuality": 1,
         "applyCloudsShadow": true,
         "xrayOutlinesScale": 1.0,
-        "underwaterCausticsEnabled": true
+        "underwaterCausticsEnabled": true,
+        "useVapor": true,
+        "planarReflectionTexDiv": 4
       },
       "clipmap": {
         "texSize": [
-          4096,
-          4096
+          3072,
+          3072
         ],
         "swFeedbackMipTiles0": 12,
         "swFeedbackMipTiles1": 10,
@@ -3432,7 +3475,7 @@
         "texelSizeMul": 1.0,
         "max_clipmap_tex_mips": 10,
         "virtualTextureAnisotropy": 4,
-        "texTileSize": 256,
+        "texTileSize": 192,
         "cachesCount": 2,
         "buffersCount": 2,
         "shaderlodMode": "always_high",
@@ -3488,7 +3531,9 @@
         "volumeCloudsQuality": 1,
         "applyCloudsShadow": true,
         "xrayOutlinesScale": 1.0,
-        "underwaterCausticsEnabled": true
+        "underwaterCausticsEnabled": true,
+        "useVapor": true,
+        "planarReflectionTexDiv": 4
       },
       "clipmap": {
         "texSize": [
@@ -3547,6 +3592,16 @@
                 ],
                 "driverMinVer0": 512,
                 "driverMinVer1": 445,
+                "data": {
+                  "affected": true
+                }
+              },
+              {
+                "gpu": "620",
+                "driverMinVer0": 512,
+                "driverMinVer1": 444,
+                "driverMaxVer0": 512,
+                "driverMaxVer1": 445,
                 "data": {
                   "affected": true
                 }
@@ -3720,12 +3775,6 @@
     "graphics": {
       "asyncPSO": true,
       "asyncLoadPSOCache": true
-    },
-    "debug": {
-      "showFreeMemThresholdMb": 0
-    }
-  }
-}ncLoadPSOCache": true
     },
     "debug": {
       "showFreeMemThresholdMb": 0

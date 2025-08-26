@@ -56,6 +56,11 @@
   "clipmap_tex_mips": 5,
   "addLandToSky": true,
   "max_wind_strength": 3.0,
+  "fixedLocalProbePos": [
+    0.0,
+    50.0,
+    0.0
+  ],
   "tank_z_far": 12000.0,
   "mapCoord0": [
     -32768.0,

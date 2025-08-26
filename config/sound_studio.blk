@@ -122,7 +122,7 @@
           "preload": false
         }
       },
-      "pkg_lvl_hangar_bd": {
+      "pkg_battle_royale_event": {
         "mobile_event.assets": {
           "async": true,
           "preload": false
@@ -239,6 +239,78 @@
           "optional": true
         },
         "mobile_tanks_kwk40.assets": {
+          "async": true,
+          "preload": false,
+          "optional": true
+        }
+      },
+      "pkg_extended_m4a1": {
+        "mobile_tanks_m4a1": {
+          "async": true,
+          "preload": false,
+          "optional": true
+        },
+        "mobile_tanks_m4a1.assets": {
+          "async": true,
+          "preload": false,
+          "optional": true
+        }
+      },
+      "pkg_extended_76mm_m1": {
+        "mobile_tanks_76mm_m1": {
+          "async": true,
+          "preload": false,
+          "optional": true
+        },
+        "mobile_tanks_76mm_m1.assets": {
+          "async": true,
+          "preload": false,
+          "optional": true
+        }
+      },
+      "pkg_extended_comet": {
+        "mobile_tanks_comet": {
+          "async": true,
+          "preload": false,
+          "optional": true
+        },
+        "mobile_tanks_comet.assets": {
+          "async": true,
+          "preload": false,
+          "optional": true
+        }
+      },
+      "pkg_extended_76mm_qf17": {
+        "mobile_tanks_76mm_qf17": {
+          "async": true,
+          "preload": false,
+          "optional": true
+        },
+        "mobile_tanks_76mm_qf17.assets": {
+          "async": true,
+          "preload": false,
+          "optional": true
+        }
+      },
+      "pkg_extended_panzer6": {
+        "mobile_tanks_panzer6": {
+          "async": true,
+          "preload": false,
+          "optional": true
+        },
+        "mobile_tanks_panzer6.assets": {
+          "async": true,
+          "preload": false,
+          "optional": true
+        }
+      },
+      "pkg_extended_88mm_kwk36": {
+        "mobile_tanks_88mm_kwk36": {
+          "async": true,
+          "preload": false,
+          "optional": true
+        },
+        "mobile_tanks_88mm_kwk36.assets": {
           "async": true,
           "preload": false,
           "optional": true
@@ -4493,6 +4565,36 @@
     "ai": {
       "outside": {
         "path": "ground/engines/ai/t34",
+        "eventBack": "engine",
+        "rpmSmooth": 1.0,
+        "loadScale": 6.0,
+        "loadSmooth": 0.05,
+        "distSmooth": 0.9,
+        "distScaleOnNotHero": 1.0
+      }
+    }
+  },
+  "engine_m4a1": {
+    "outside": {
+      "path": "ground/engines/m4a1",
+      "eventFront": "",
+      "eventBack": "engine",
+      "eventSurround": "",
+      "eventLod1": "engine",
+      "rpmSmooth": 1.0,
+      "loadScale": 6.0,
+      "loadSmooth": 0.05,
+      "distSmooth": 0.9,
+      "distScaleOnNotHero": 1.0,
+      "offsetPos": [
+        -1.0,
+        1.0,
+        0.0
+      ]
+    },
+    "ai": {
+      "outside": {
+        "path": "ground/engines/ai/m4a1",
         "eventBack": "engine",
         "rpmSmooth": 1.0,
         "loadScale": 6.0,
@@ -11186,15 +11288,6 @@
   "turret_fall_sfx": {
     "pathStudio": "ground/effects",
     "nameHitGround": "turret_fall",
-    "nameHitBuilding": "turret_fall",
-    "nameHitUnit": "turret_fall"
-  },
-  "cachedMusic": {
-    "enabled": true
-  }
-}
-  }
-}turret_fall",
     "nameHitBuilding": "turret_fall",
     "nameHitUnit": "turret_fall"
   },

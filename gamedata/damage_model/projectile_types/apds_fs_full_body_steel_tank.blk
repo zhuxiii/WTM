@@ -1,7 +1,7 @@
 {
   "normalizationPreset": "apcr",
   "ricochetPreset": "apds_fs_full_body_steel",
-  "groundRicochetPreset": "apds_fs_full_body_steel",
+  "groundRicochetPreset": "apds_fs_ground",
   "secondaryShattersPreset": "apds_fs",
   "stabilityThreshold": 0.05,
   "stabilityCaliberToArmorThreshold": 5.0,
@@ -47,5 +47,7 @@
     "caliber": 10.0,
     "circleCount": 2,
     "pointCount": 6
+  }
+}: 6
   }
 }

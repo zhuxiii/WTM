@@ -11,6 +11,7 @@ require DagorResources
 require GeomNodeTree
 require math
 require strings
+require ecs
 
 require imgui/imgui_boost
 require imgui/imgui_node_editor_boost
@@ -20,6 +21,10 @@ require daslib/defer
 require daslib/safe_addr
 
 var private @ignore_heap_usage context : EditorContext? 
+
+[event(broadcast)]
+struct AnimGraphViewerSetAnimState
+  state_idx : int
 
 [finalize]
 def shutdown()
@@ -169,6 +174,28 @@ def get_param_value_str(var state : IAnimStateHolder; var graph : AnimationGraph
 
   return paramValue
 
+def draw_param_hint(var graph : AnimationGraph; var state : IAnimStateHolder; id : int; name : string)
+  if IsItemHovered() && id >= 0
+    imgui_node_editor::Suspend()
+    BeginTooltip()
+    imgui::Text(name)
+    imgui::Text("Param ID: {id}")
+    let paramType = graph |> anim_graph_getParamType(id)
+    imgui::Text("Param type: {paramType}")
+    imgui::Text("Value: {get_param_value_str(state, graph, id)}")
+    if paramType == PT_ScalarParamInt
+      let value = state |> anim_state_holder_getParamInt(id)
+      let enumName = animV20_get_enum_name_by_id(value)
+      if enumName != ""
+        imgui::Text("Possible enum: {enumName}")
+    elif paramType == PT_ScalarParam
+      let value = state |> anim_state_holder_getParam(id)
+      let enumName = animV20_get_enum_name_by_id(roundi(value))
+      if enumName != ""
+        imgui::Text("Possible enum: {enumName}")
+    EndTooltip()
+    imgui_node_editor::Resume()
+
 def add_input_param(paramId, idx : int; postfix : string; nodeId : int; var state : IAnimStateHolder; var graph : AnimationGraph; var context : AnimgraphContext)
   let paramIdx = get_input_node_idx(nodeId, idx)
   in_pin(paramIdx) <|
@@ -189,6 +216,7 @@ def add_input_param(paramId, idx : int; postfix : string; nodeId : int; var stat
     else
       text = "Param: id={paramId}"
     Text(text)
+    draw_param_hint(graph, state, paramId, paramName)
     context.params |> push <|  (paramId, paramIdx)
 
 
@@ -252,6 +280,7 @@ def render_AnimBlendNodeContinuousLeaf(var nod : IAnimBlendNode?; var graph : An
         imgui::Text("  source a2d: {sourceRes}")
     imgui::Text("isAdditive: {node.isAdditive}")
     imgui::Text("weight: {fmt(":.2f", weight)}")
+    imgui::Text("time: {float(node.dt)/TIME_TicksPerSec}")
     imgui::Text("duration: {*node |> anim_blend_node_getDuration(state)}")
     imgui::Text("avg speed: {*node |> anim_blend_node_getAvgSpeed(state)}")
 
@@ -277,6 +306,7 @@ def render_AnimBlendNodeParametricLeaf(var nod : IAnimBlendNode?; var graph : An
         imgui::Text("  source a2d: {sourceRes}")
     imgui::Text("isAdditive: {node.isAdditive}")
     imgui::Text("weight: {fmt(":.2f", weight)}")
+    imgui::Text("time: {float(node.dt)/TIME_TicksPerSec}")
     imgui::Text("duration: {*node |> anim_blend_node_getDuration(state)}")
     imgui::Text("avg speed: {*node |> anim_blend_node_getAvgSpeed(state)}")
 
@@ -303,6 +333,7 @@ def render_AnimBlendNodeSingleLeaf(var nod : IAnimBlendNode?; var graph : Animat
     imgui::Text("isAdditive: {node.isAdditive}")
     imgui::Text("isAnimationIgnored: {node.isAnimationIgnored}")
     imgui::Text("weight: {fmt(":.2f", weight)}")
+    imgui::Text("time: {float(node.dt)/TIME_TicksPerSec}")
     imgui::Text("duration: {*node |> anim_blend_node_getDuration(state)}")
     imgui::Text("avg speed: {*node |> anim_blend_node_getAvgSpeed(state)}")
 
@@ -643,6 +674,7 @@ def render_anim_graph2(animchar : AnimcharBaseComponent; var graph : AnimationGr
     var forcedState = -1
     var resetState = false
     var drawMode : DrawNodesMode = DrawNodesMode.ACTIVE
+    var prevDrawMode : DrawNodesMode = DrawNodesMode.ACTIVE
     var nodesToShow : table<int; tuple<generation : int; active : bool>>
     var nodesToShowMaxInactiveCount = 50
     var graphHash = 0
@@ -665,7 +697,7 @@ def render_anim_graph2(animchar : AnimcharBaseComponent; var graph : AnimationGr
         blk |> datablock_for_each_block() <| $(stateBlk)
           let bookmarkName = stateBlk |> datablock_getBlockName()
           if bookmarkName != "" && bookmarks |> find_index(bookmarkName) < 0
-            bookmarks |> push(bookmarkName)
+            bookmarks |> push_clone(bookmarkName)
 
     invoke(load, "animgraph_viewer_bookmarked_states", bookmarkedStates)
     invoke(load, "animgraph_viewer_bookmarked_params", bookmarkedParams)
@@ -682,6 +714,11 @@ def render_anim_graph2(animchar : AnimcharBaseComponent; var graph : AnimationGr
     focusContent = true
     pbcListShowActiveOnly = true
     bnlListShowActiveOnly = true
+
+  if prevDrawMode != drawMode
+    prevDrawMode = drawMode
+    autoAlign = true
+    focusContent = true
 
   graph |> anim_graph_getAnimNodeNames <| $(nodes)
     graph |> animchar_getAnimBlendNodeWeights(state) <| $(abn_wt; bnl_wt; pbc_wt)
@@ -727,11 +764,12 @@ def render_anim_graph2(animchar : AnimcharBaseComponent; var graph : AnimationGr
 
           if imgui::Button("{stateName} ({stateIdx})##states_{stateName}")
             graph |> anim_graph_enqueueState(state, stateIdx)
+            broadcastEvent(AnimGraphViewerSetAnimState(state_idx = stateIdx))
 
           if imgui::BeginPopupContextItem("StateContextMenu##states_{stateName}")
-            let bookmarkIndex = bookmarkedStates |> find_index(stateName)
+            let bookmarkIndex = bookmarkedStates |> find_index("{stateName}")
             if bookmarkIndex < 0 && imgui::MenuItem("Bookmark")
-              bookmarkedStates |> push(stateName)
+              bookmarkedStates |> push_clone(stateName)
               saveBookmarks = true
             elif bookmarkIndex >= 0 && imgui::MenuItem("Remove Bookmark")
               bookmarkedStates |> erase(bookmarkIndex)
@@ -745,7 +783,7 @@ def render_anim_graph2(animchar : AnimcharBaseComponent; var graph : AnimationGr
           if imgui::BeginPopupContextItem("ParamContextMenu##{prefix}params_{name}")
             let bookmarkIndex = bookmarkedParams |> find_index(name)
             if bookmarkIndex < 0 && imgui::MenuItem("Bookmark")
-              bookmarkedParams |> push(name)
+              bookmarkedParams |> push_clone(name)
               saveBookmarks = true
             elif bookmarkIndex >= 0 && imgui::MenuItem("Remove Bookmark")
               eraseBookmarkParamId = bookmarkIndex
@@ -860,6 +898,7 @@ def render_anim_graph2(animchar : AnimcharBaseComponent; var graph : AnimationGr
 
           if imgui::Button("{stateName} ({stateIdx})##bookmarkStates_{stateName}")
             graph |> anim_graph_enqueueState(state, stateIdx)
+            broadcastEvent(AnimGraphViewerSetAnimState(state_idx = stateIdx))
 
           if imgui::BeginPopupContextItem("StateContextMenu##bookmarkStates_{stateIdx}")
             let bookmarkIndex = bookmarkedStates |> find_index(stateName)
@@ -1120,8 +1159,8 @@ def render_anim_graph2(animchar : AnimcharBaseComponent; var graph : AnimationGr
               continue
             let paramName = graph |> anim_graph_getParamName(it.paramId)
             BeginNode(++paramsOffset) <|
-              out_pin(++paramsOffset, paramName, 0f) <|
-                pass
+              out_pin(++paramsOffset, "{paramName} ({it.paramId}): {get_param_value_str(state, graph, it.paramId)}", 0f) <|
+                draw_param_hint(graph, state, it.paramId, paramName)
               imgui_node_editor::Link(idx, paramsOffset, it.inIdx, float4(1, 1, 1, 1))
 
 

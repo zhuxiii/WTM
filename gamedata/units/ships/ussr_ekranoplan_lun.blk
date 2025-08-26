@@ -568,8 +568,8 @@
       },
       "engine": {
         "pos": [
-          0.0,
-          -2.0,
+          10.0,
+          -0.5,
           0.0
         ],
         "engineDmPart": "engine_room_02_dm",
@@ -608,36 +608,8 @@
       },
       "hydrofoils": {
         "targetAltitude": 6.0,
+        "maxTiltAngle": 20.0,
         "hydrofoil": [
-          {
-            "euler": [
-              2.0,
-              -90.0,
-              0.0
-            ],
-            "pos": [
-              -30.0,
-              13.0,
-              0.0
-            ],
-            "size": [
-              10.0,
-              4.0
-            ],
-            "maxV": 140.0,
-            "glider": {
-              "sensitivity": 0.8
-            },
-            "polar": {
-              "Cl0": 0.15,
-              "CdMin": 0.09,
-              "lineClCoeff": 0.052,
-              "ClCritHigh": 0.2,
-              "ClCritLow": -0.15,
-              "alphaCritHigh": 7.0,
-              "alphaCritLow": -3.0
-            }
-          },
           {
             "euler": [
               -1.4,
@@ -681,6 +653,35 @@
             "size": [
               12.0,
               4.5
+            ],
+            "maxV": 140.0,
+            "glider": {
+              "sensitivity": 0.8
+            },
+            "polar": {
+              "Cl0": 0.15,
+              "CdMin": 0.09,
+              "lineClCoeff": 0.052,
+              "ClCritHigh": 0.2,
+              "ClCritLow": -0.15,
+              "alphaCritHigh": 7.0,
+              "alphaCritLow": -3.0
+            }
+          },
+          {
+            "euler": [
+              2.0,
+              0.0,
+              0.0
+            ],
+            "pos": [
+              -35.0,
+              14.0,
+              0.0
+            ],
+            "size": [
+              4.0,
+              12.0
             ],
             "maxV": 140.0,
             "glider": {

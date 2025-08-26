@@ -1,7 +1,6 @@
 options no_aot
 
 require ecs
-require app
 require DagorMath
 require DagorImgui
 require DagorConsole
@@ -229,4 +228,4 @@ def flip_tm(idx : int)
   query() <| $ [es(REQUIRE=daeditor__selected)] (var transform : float3x4)
     for i in range(3)
       let k = (i + idx) % 3
-      transform[k] *= m[i]
+      transform[k] *= m[i]rm[k] *= m[i]
