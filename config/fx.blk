@@ -1103,10 +1103,7 @@
     "sfxPathStudio": "aircraft/effects"
   },
   "smokescreen_medium": {
-    "fx": "smoke_smokescreen_medium_cmps_fx",
-    "sfxPathStudio": "ground/explosions",
-    "sfxEvent": "explosion_gr_smoke",
-    "soundEnableDistance": 1000.0
+    "fx": "smoke_smokescreen_medium_cmps_fx"
   },
   "smokescreen_hydroplane": {
     "fx": "smoke_smokescreen_hydroplane_cmps_fx"
@@ -3852,6 +3849,11 @@
     "sfxEvent": "impact_aa"
   },
   "hit_19_27mm_dirt_he_pony": {
+    "fx": "hit_tiny_dirt_he_cmps_fx",
+    "sfxPathStudio": "event/explosions",
+    "sfxEvent": "impact_aa"
+  }
+} {
     "fx": "hit_tiny_dirt_he_cmps_fx",
     "sfxPathStudio": "event/explosions",
     "sfxEvent": "impact_aa"

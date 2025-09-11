@@ -61,6 +61,58 @@
       1.0
     ]
   },
+  "steeringTable": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.001
+      ],
+      [
+        -30.0,
+        0.01
+      ],
+      [
+        -60.0,
+        0.5
+      ],
+      [
+        -70.0,
+        0.7
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.001
+      ],
+      [
+        30.0,
+        0.01
+      ],
+      [
+        60.0,
+        0.5
+      ],
+      [
+        74.0,
+        0.7
+      ],
+      [
+        75.0,
+        1.0
+      ]
+    ]
+  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank_modern",
@@ -1215,14 +1267,12 @@
     ]
   },
   "sound": {
-    "EngineName": "engine_type10",
-    "TrackSoundPath": "tanks/engines_tanks",
+    "EngineName": "engine_light_diesel",
     "TrackSoundPathStudio": "ground/engines",
-    "TrackSoundName": "tracks",
-    "TrackSoundNameCockpit": "tracks_interior",
+    "TrackSoundName": "tracks_mbt",
     "turret_turn": "turret_turn_servo",
-    "EngineNameAi": "engine_tank_ai_middle",
-    "TrackSoundNameAi": "tracks_ai_middle"
+    "EngineNameAi": "engine_tank_ai_light",
+    "TrackSoundNameAi": "tracks_ai_mbt"
   },
   "DamageEffects": {
     "part": [
@@ -2394,7 +2444,7 @@
     },
     "mechanics": {
       "steerType": "clutch_braking",
-      "maxBrakeForce": 280000.0,
+      "maxBrakeForce": 230000.0,
       "driveGearRadius": 0.315,
       "mainGearRatio": 1.0,
       "sideGearRatio": 6.3,
@@ -2845,7 +2895,7 @@
       },
       {
         "name": "fuel_exterior",
-        "lifetime": 15.0,
+        "lifetime": 50.0,
         "fx": {
           "name": "tank_ex_fuel_explosion",
           "centerDmgPart": true
@@ -2853,7 +2903,7 @@
       },
       {
         "name": "fuel_internal",
-        "lifetime": 15.0,
+        "lifetime": 50.0,
         "fx": {
           "name": "tank_ex_fuel_explosion",
           "centerDmgPart": true
@@ -2957,7 +3007,7 @@
     "headPos": [
       0.0,
       3.6,
-      -13.7
+      -13.9
     ],
     "headPosOnShooting": [
       0.1,
@@ -3315,9 +3365,10 @@
               "createGunEffects": true,
               "defaultYaw": 0.0,
               "defaultPitch": 0.0,
+              "shotFreq": 40.0,
               "allowableDelta": 360.0,
               "salvo": 2,
-              "salvoDelay": 0.5,
+              "salvoDelay": 5.0,
               "speedYaw": 24.0,
               "speedPitch": 15.0,
               "fireConeAngle": 1.0,

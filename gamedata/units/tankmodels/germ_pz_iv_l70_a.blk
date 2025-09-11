@@ -1409,7 +1409,7 @@
       },
       {
         "name": "fuel_exterior",
-        "lifetime": 15.0,
+        "lifetime": 50.0,
         "fx": {
           "name": "tank_ex_fuel_explosion",
           "centerDmgPart": true
@@ -1417,7 +1417,7 @@
       },
       {
         "name": "fuel_internal",
-        "lifetime": 15.0,
+        "lifetime": 50.0,
         "fx": {
           "name": "tank_ex_fuel_explosion",
           "centerDmgPart": true

@@ -15901,6 +15901,22 @@
         {
           "name": "wheel_l_04_",
           "modelNames": "btr_80a_hungary"
+        },
+        {
+          "name": "wheel_r_01_",
+          "modelNames": "m53_59"
+        },
+        {
+          "name": "wheel_l_01_",
+          "modelNames": "m53_59"
+        },
+        {
+          "name": "wheel_r_02_",
+          "modelNames": "m53_59"
+        },
+        {
+          "name": "wheel_l_02_",
+          "modelNames": "m53_59"
         }
       ]
     },
@@ -18995,20 +19011,6 @@
   "speedLinesPresets": {
     "default": {
       "minSpeedLimit": 0.65,
-      "maxSpeedLimit": 0.85,
-      "speedFactor": 0.0,
-      "timeFactor": 1.0,
-      "screenLimit": 0.125,
-      "interpolationFactor": 1.0
-    }
-  },
-  "planeCriticalSpeed": {
-    "minAltitude": 50.0,
-    "minFlapsForSpeedReduction": 0.11,
-    "flapsSpeedReduction": 15.0,
-    "minDirVelAngleDegrees": 6.0
-  }
-} "minSpeedLimit": 0.65,
       "maxSpeedLimit": 0.85,
       "speedFactor": 0.0,
       "timeFactor": 1.0,

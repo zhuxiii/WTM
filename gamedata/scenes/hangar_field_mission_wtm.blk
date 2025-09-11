@@ -301,41 +301,6 @@
       "_template": "unit_loader",
       "setting__unitType": "objectGroups",
       "setting__playerNo": -1,
-      "setting__unit_class": "hangar_objects",
-      "setting__name": "test_bridge",
-      "setting__weapons": "",
-      "setting__skin": "",
-      "setting__army": 2,
-      "setting__count": 1,
-      "setting__active": true,
-      "setting__loadSound": false,
-      "setting__tm": [
-        [
-          0.979691,
-          0.0,
-          0.20051
-        ],
-        [
-          0.0,
-          1.0,
-          0.0
-        ],
-        [
-          -0.20051,
-          0.0,
-          0.979691
-        ],
-        [
-          1462.09,
-          8.38,
-          1483.27
-        ]
-      ]
-    },
-    {
-      "_template": "unit_loader",
-      "setting__unitType": "objectGroups",
-      "setting__playerNo": -1,
       "setting__unit_class": "hangar_water_objects",
       "setting__name": "test_bridge",
       "setting__weapons": "",
@@ -364,6 +329,41 @@
           2932.2,
           7.0,
           -2266.4
+        ]
+      ]
+    },
+    {
+      "_template": "unit_loader",
+      "setting__unitType": "objectGroups",
+      "setting__playerNo": -1,
+      "setting__unit_class": "hangar_objects",
+      "setting__name": "test_bridge",
+      "setting__weapons": "",
+      "setting__skin": "",
+      "setting__army": 2,
+      "setting__count": 1,
+      "setting__active": true,
+      "setting__loadSound": false,
+      "setting__tm": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          433.677,
+          139.21,
+          3663.34
         ]
       ]
     },
@@ -550,11 +550,84 @@
     },
     {
       "_template": "unit_loader",
+      "setting__unitType": "aircraft",
+      "setting__playerNo": -1,
+      "setting__className": "fw_190a_1",
+      "setting__unit_class": "fw_190a_1",
+      "setting__name": "armada_33",
+      "setting__weapons": "",
+      "setting__skin": "",
+      "setting__army": 1,
+      "setting__count": 1,
+      "setting__attack_type": "dont_aim",
+      "setting__loadSound": false,
+      "setting__tm": [
+        [
+          0.994509,
+          0.0,
+          0.104648
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.104648,
+          0.0,
+          0.994509
+        ],
+        [
+          363.0,
+          139.262,
+          3521.65
+        ]
+      ]
+    },
+    {
+      "_template": "unit_loader",
+      "setting__unitType": "aircraft",
+      "setting__playerNo": -1,
+      "setting__className": "fw_190a_1",
+      "setting__unit_class": "fw_190a_1",
+      "setting__name": "armada_34",
+      "setting__weapons": "",
+      "setting__skin": "",
+      "setting__army": 1,
+      "setting__count": 1,
+      "setting__isDead": true,
+      "setting__attack_type": "dont_aim",
+      "setting__loadSound": false,
+      "setting__tm": [
+        [
+          0.994509,
+          0.0,
+          0.104648
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.104648,
+          0.0,
+          0.994509
+        ],
+        [
+          346.45,
+          139.9,
+          3528.3
+        ]
+      ]
+    },
+    {
+      "_template": "unit_loader",
       "setting__unitType": "ship",
       "setting__playerNo": -1,
       "setting__className": "ships/us_destroyer_fletcher",
       "setting__unit_class": "us_destroyer_fletcher",
-      "setting__name": "armada_33",
+      "setting__name": "armada_35",
       "setting__weapons": "",
       "setting__skin": "",
       "setting__army": 1,

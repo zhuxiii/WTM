@@ -4,6 +4,7 @@
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/fighter_metaparts.blk",
   "harmonizationSuffix": "_tomoe",
   "exhaustEffectsBlk": "gameData/FlightModels/exhaustEffects/exhaustEffects_common.blk",
+  "useTouchTargeting": true,
   "gearSinkRangeLR": 0.187,
   "gearSinkRangeC": 0.193,
   "gyroSight": false,
@@ -1943,9 +1944,8 @@
   "WeaponSlots": {
     "HideNodes": {
       "node": [
-        "pylon_bomb1",
-        "pylon_bomb2",
-        "pylon_bomb3"
+        "bomb_pylon_250kg",
+        "bomb_pylon_50kg"
       ]
     },
     "WeaponSlot": [
@@ -2006,41 +2006,75 @@
         "index": 1,
         "tier": 7,
         "order": 1,
-        "WeaponPreset": {
-          "iconType": "bomb_50kg",
-          "name": "type97mod6_60kg",
-          "ShowNodes": {
-            "node": "pylon_bomb1"
+        "WeaponPreset": [
+          {
+            "iconType": "bomb_50kg",
+            "name": "type97mod6_60kg",
+            "ShowNodes": {
+              "node": "bomb_pylon_50kg"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/bombGuns/jp_navy_type97mod6_60kg.blk",
+              "emitter": "bomb2",
+              "bullets": 1,
+              "external": true,
+              "separate": true
+            }
           },
-          "Weapon": {
-            "trigger": "bombs",
-            "blk": "gameData/Weapons/bombGuns/jp_navy_type97mod6_60kg.blk",
-            "emitter": "bomb2",
-            "bullets": 1,
-            "external": true,
-            "separate": true
+          {
+            "iconType": "bomb_250kg",
+            "name": "type92mod25",
+            "ShowNodes": {
+              "node": "bomb_pylon_250kg"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/jp_type92mod25.blk",
+              "emitter": "bomb1",
+              "bullets": 1,
+              "separate": true,
+              "external": true
+            }
           }
-        }
+        ]
       },
       {
         "index": 2,
         "tier": 5,
         "order": 2,
-        "WeaponPreset": {
-          "iconType": "bomb_50kg",
-          "name": "type97mod6_60kg",
-          "ShowNodes": {
-            "node": "pylon_bomb2"
+        "WeaponPreset": [
+          {
+            "iconType": "bomb_50kg",
+            "name": "type97mod6_60kg",
+            "ShowNodes": {
+              "node": "bomb_pylon_50kg"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/bombGuns/jp_navy_type97mod6_60kg.blk",
+              "emitter": "bomb1",
+              "bullets": 1,
+              "external": true,
+              "separate": true
+            }
           },
-          "Weapon": {
-            "trigger": "bombs",
-            "blk": "gameData/Weapons/bombGuns/jp_navy_type97mod6_60kg.blk",
-            "emitter": "bomb1",
-            "bullets": 1,
-            "external": true,
-            "separate": true
+          {
+            "iconType": "bomb_250kg",
+            "name": "type92mod25",
+            "ShowNodes": {
+              "node": "bomb_pylon_250kg"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/jp_type92mod25.blk",
+              "emitter": "bomb2",
+              "bullets": 1,
+              "separate": true,
+              "external": true
+            }
           }
-        }
+        ]
       }
     ]
   },
@@ -2176,10 +2210,16 @@
   },
   "vehicleSkins": {
     "steel": {
-      "replace_tex": {
-        "from": "ki_94_2_green_c*",
-        "to": "ki_94_2_green_c*"
-      }
+      "replace_tex": [
+        {
+          "from": "ki_94_2_green_c*",
+          "to": "ki_94_2_silver_a*"
+        },
+        {
+          "from": "ki_94_2_green_n*",
+          "to": "ki_94_2_silver_n*"
+        }
+      ]
     }
   }
 }

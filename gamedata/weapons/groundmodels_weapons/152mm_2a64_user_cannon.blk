@@ -28,8 +28,7 @@
   "shouldCollideWithRendinsts": true,
   "sound_path": "tanks/weapon_tanks/cannons",
   "sound_pathStudio": "ground/weapon/cannons",
-  "sound": "155mm_bkan",
-  "sound_inside": "155mm_bkan_interior",
+  "sound": "cannon_large",
   "sfxReloadBullet": "grd_cannon_reload_auto",
   "fxMultipleSpawn": true,
   "isBulletBelt": false,
@@ -1361,6 +1360,11 @@
         },
         "stone_snow": {
           "fx": "hit_106_132mm_snow_he"
+        }
+      }
+    }
+  }
+}_snow_he"
         }
       }
     }

@@ -15183,6 +15183,18 @@
       "fx": "ad_dust_bollard",
       "fxScale": 1.5
     },
+    "japanese_junk_boat": {
+      "physRes": "japanese_junk_boat_destr_phobj",
+      "hp": 50.0,
+      "impulseThreshold": 1.0,
+      "fx": "ad_wood_big"
+    },
+    "japanese_pleasure_boat": {
+      "physRes": "japanese_pleasure_boat_destr_phobj",
+      "hp": 25.0,
+      "impulseThreshold": 1.0,
+      "fx": "ad_wood_big"
+    },
     "korea_summerhouse_a": {
       "nextRes": "korea_summerhouse_a_dmg",
       "hp": 100.0,
@@ -19369,6 +19381,12 @@
       "fx": "ad_metal",
       "fxScale": 3.0,
       "physRes": "highway_road_sign_b_oposite_destr_phobj"
+    },
+    "american_road_sign_f": {
+      "physRes": "american_road_sign_f_destr_phobj",
+      "hp": 10.0,
+      "impulseThreshold": 1.0,
+      "fx": "ad_metal"
     },
     "greece_towns_building_pier": {
       "physRes": "greece_towns_building_pier_destr_phobj",

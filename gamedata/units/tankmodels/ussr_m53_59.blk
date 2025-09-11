@@ -1886,13 +1886,11 @@
     }
   },
   "sound": {
-    "EngineName": "engine_ystervark",
-    "TrackSoundPath": "tanks/engines_tanks",
+    "EngineName": "engine_light_diesel",
     "TrackSoundPathStudio": "ground/engines",
     "TrackSoundName": "tracks_wheels",
-    "TrackSoundNameCockpit": "tracks_wheels_interior",
     "turret_turn": "turret_turn_manual",
-    "EngineNameAi": "engine_truck_ai",
+    "EngineNameAi": "engine_tank_ai_middle",
     "TrackSoundNameAi": "tracks_ai_wheels"
   },
   "class_tags": {},
@@ -3158,7 +3156,7 @@
       },
       {
         "name": "fuel_exterior",
-        "lifetime": 15.0,
+        "lifetime": 50.0,
         "fx": {
           "name": "tank_ex_fuel_explosion",
           "centerDmgPart": true
@@ -3166,7 +3164,7 @@
       },
       {
         "name": "fuel_internal",
-        "lifetime": 15.0,
+        "lifetime": 50.0,
         "fx": {
           "name": "tank_ex_fuel_explosion",
           "centerDmgPart": true
@@ -3366,6 +3364,13 @@
   },
   "battleHideNodes": {
     "n": [
+      "details",
+      "details_01",
+      "details_02",
+      "details_03"
+    ]
+  }
+}: [
       "details",
       "details_01",
       "details_02",

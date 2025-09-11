@@ -2320,14 +2320,12 @@
     "horizontal": true
   },
   "sound": {
-    "EngineName": "engine_leo2a5",
-    "TrackSoundPath": "tanks/engines_tanks",
+    "EngineName": "engine_medium_diesel",
     "TrackSoundPathStudio": "ground/engines",
     "TrackSoundName": "tracks_mbt",
-    "TrackSoundNameCockpit": "tracks_mbt_interior",
+    "turret_turn": "turret_turn_servo",
     "EngineNameAi": "engine_tank_ai_middle",
-    "TrackSoundNameAi": "tracks_ai_mbt",
-    "turret_turn": "turret_turn_servo"
+    "TrackSoundNameAi": "tracks_ai_mbt"
   },
   "tags": {
     "country_germany": true,
@@ -3168,7 +3166,7 @@
       },
       {
         "name": "fuel_exterior",
-        "lifetime": 15.0,
+        "lifetime": 50.0,
         "fx": {
           "name": "tank_ex_fuel_explosion",
           "centerDmgPart": true
@@ -3176,7 +3174,7 @@
       },
       {
         "name": "fuel_internal",
-        "lifetime": 15.0,
+        "lifetime": 50.0,
         "fx": {
           "name": "tank_ex_fuel_explosion",
           "centerDmgPart": true
@@ -3771,9 +3769,10 @@
               "createGunEffects": true,
               "defaultYaw": 0.0,
               "defaultPitch": 0.0,
+              "shotFreq": 40.0,
               "allowableDelta": 360.0,
               "salvo": 2,
-              "salvoDelay": 0.5,
+              "salvoDelay": 5.0,
               "speedYaw": 24.0,
               "speedPitch": 15.0,
               "fireConeAngle": 1.0,
@@ -3877,6 +3876,11 @@
     "n": [
       "details",
       "details_01",
+      "details_02",
+      "details_03"
+    ]
+  }
+}ls_01",
       "details_02",
       "details_03"
     ]

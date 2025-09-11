@@ -29,8 +29,7 @@
   "shouldCollideWithRendinsts": true,
   "sound_path": "tanks/weapon_tanks/cannons",
   "sound_pathStudio": "ground/weapon/cannons",
-  "sound": "30mm_mk30_2_abm",
-  "sound_inside": "30mm_mk30_2_abm_interior",
+  "sound": "cannon_small",
   "soundLoop": false,
   "sfxReloadBullet": "grd_cannon_belt_reload",
   "isBulletBelt": false,
@@ -2497,6 +2496,12 @@
           },
           "stone_snow": {
             "fx": "hit_28_38mm_snow_ap"
+          }
+        }
+      }
+    ]
+  }
+}now_ap"
           }
         }
       }

@@ -25,7 +25,7 @@
       90.0
     ],
     "bulletType": "torpedo",
-    "distToLive": 8000.0,
+    "distToLive": 3500.0,
     "maxSpeedInWater": 31.0,
     "diveDepth": 3.0,
     "diveDepthRange": [

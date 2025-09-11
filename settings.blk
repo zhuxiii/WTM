@@ -589,6 +589,12 @@
         "mRank": 2
       }
     },
+    "pkg_lvl_avn_japan": {
+      "conditions": {
+        "campaign": "ships",
+        "mRank": 2
+      }
+    },
     "pkg_lvl_air_locations": {
       "conditions": {
         "campaign": "air"
@@ -1118,6 +1124,12 @@
       "conditions": {
         "campaign": "ships",
         "mRank": 6
+      }
+    },
+    "pkg_it_battleship_dante_alighieri": {
+      "conditions": {
+        "campaign": "ships",
+        "mRank": 3
       }
     },
     "pkg_ussr_kv_122": {
@@ -1688,6 +1700,12 @@
       "conditions": {
         "campaign": "tanks",
         "mRank": 5
+      }
+    },
+    "pkg_germ_leopard_2_pt14": {
+      "conditions": {
+        "campaign": "tanks",
+        "mRank": 10
       }
     },
     "pkg_environment_uhq": {
@@ -2321,11 +2339,19 @@
       "cascadeTransition": false,
       "cascade0Dist": 800.0,
       "minHeight": -20.0,
-      "maxHeight": 100.0,
-      "maxHeightRange": 150.0,
+      "maxHeight": 300.0,
+      "maxHeightRange": 350.0,
       "riExLod0InCascade0": true,
       "maxUpdateTexelPart": 0.005,
       "minSizeForRiextraCascade1": 10.0,
+      "small_ship": {
+        "maxHeight": 100.0,
+        "maxHeightRange": 150.0
+      },
+      "big_ship": {
+        "maxHeight": 100.0,
+        "maxHeightRange": 150.0
+      },
       "aircraft": {
         "maxDist": 2000.0,
         "depthBias": 0.00025,
@@ -2335,6 +2361,8 @@
         "maxHeightRange": 4550.0
       },
       "tank": {
+        "maxHeight": 100.0,
+        "maxHeightRange": 150.0,
         "maxDist": 2000.0,
         "depthBias": 0.005,
         "depthBiasForCascade0": 0.0005,
@@ -3595,16 +3623,6 @@
                 "data": {
                   "affected": true
                 }
-              },
-              {
-                "gpu": "620",
-                "driverMinVer0": 512,
-                "driverMinVer1": 444,
-                "driverMaxVer0": 512,
-                "driverMaxVer1": 445,
-                "data": {
-                  "affected": true
-                }
               }
             ]
           },
@@ -3643,13 +3661,25 @@
             ]
           },
           "brokenSubpasses": {
-            "entry": {
-              "driverMaxVer0": 512,
-              "driverMaxVer1": 420,
-              "data": {
-                "affected": true
+            "entry": [
+              {
+                "driverMaxVer0": 512,
+                "driverMaxVer1": 420,
+                "data": {
+                  "affected": true
+                }
+              },
+              {
+                "gpu": "620",
+                "driverMinVer0": 512,
+                "driverMinVer1": 444,
+                "driverMaxVer0": 512,
+                "driverMaxVer1": 445,
+                "data": {
+                  "affected": true
+                }
               }
-            }
+            ]
           },
           "hasFloatClearBug": {
             "entry": {

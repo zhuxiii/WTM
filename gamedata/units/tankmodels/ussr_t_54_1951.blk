@@ -2387,7 +2387,7 @@
       },
       {
         "name": "fuel_exterior",
-        "lifetime": 15.0,
+        "lifetime": 50.0,
         "fx": {
           "name": "tank_ex_fuel_explosion",
           "centerDmgPart": true
@@ -2395,7 +2395,7 @@
       },
       {
         "name": "fuel_internal",
-        "lifetime": 15.0,
+        "lifetime": 50.0,
         "fx": {
           "name": "tank_ex_fuel_explosion",
           "centerDmgPart": true
@@ -2978,25 +2978,25 @@
       "camo_scale": 0.0,
       "camo_rotation": 0.0,
       "decal0Line0": [
-        4.17924,
-        -1.94379e-7,
-        1.20025,
-        1.02252
+        4.17925,
+        -0.0000141249,
+        1.20024,
+        1.02254
       ],
       "decal0Line1": [
-        0.542942,
+        0.542929,
         -3.87787,
         -1.89052,
         4.89129
       ],
       "decal0Line2": [
-        -4.17924,
-        -1.94379e-7,
+        -4.17925,
+        0.0000137037,
         1.20025,
-        -0.0225196
+        -0.0225363
       ],
       "decal0Line3": [
-        0.542943,
+        0.542929,
         -3.87787,
         1.89052,
         4.89129
@@ -3022,102 +3022,102 @@
       "decal0Wrap": false,
       "decal0Abs": true,
       "decal0OppositeMirrored": false,
-      "decal0WidthBox": 0.252221,
-      "decal0Tex": "ussr_numbers_red_7",
+      "decal0WidthBox": 0.252223,
+      "decal0Tex": "ussr_numbers_red_5",
       "decal1Line0": [
-        4.07117,
-        -9.71877e-8,
-        1.52697,
-        0.560898
+        4.1652,
+        -1.32577e-7,
+        1.56224,
+        0.690095
       ],
       "decal1Line1": [
-        0.692803,
-        -3.87481,
-        -1.84713,
-        4.92769
+        0.708806,
+        -3.96431,
+        -1.8898,
+        4.99664
       ],
       "decal1Line2": [
-        -4.07117,
-        -1.29584e-7,
-        1.52697,
-        0.439103
+        -4.1652,
+        -1.40863e-7,
+        1.56224,
+        0.309906
       ],
       "decal1Line3": [
-        0.692804,
-        -3.87481,
-        1.84713,
-        4.92769
+        0.708806,
+        -3.96431,
+        1.8898,
+        4.99664
       ],
       "decal1HaveCP": true,
       "decal1CPNormDepth": [
         0.312954,
         0.453711,
         -0.83439,
-        -1.73127
+        -1.73126
       ],
       "decal1CPNormDepth1": [
         0.312954,
         0.453711,
         0.83439,
-        -1.73127
+        -1.73126
       ],
       "decal1RotScale": [
         1.5708,
-        0.229985
+        0.224793
       ],
       "decal1Mirrored": false,
       "decal1Wrap": false,
       "decal1Abs": true,
       "decal1OppositeMirrored": false,
-      "decal1WidthBox": 0.243637,
-      "decal1Tex": "ussr_numbers_red_2",
+      "decal1WidthBox": 0.242498,
+      "decal1Tex": "ussr_numbers_red_0",
       "decal2Line0": [
-        4.0393,
-        -2.59196e-7,
-        1.61068,
-        -0.0962565
+        4.15741,
+        -2.65552e-7,
+        1.60157,
+        0.0148724
       ],
       "decal2Line1": [
-        0.709521,
-        -3.90393,
-        -1.77935,
-        5.01779
+        0.701708,
+        -4.00484,
+        -1.82152,
+        5.1332
       ],
       "decal2Line2": [
-        -4.0393,
-        -2.59196e-7,
-        1.61068,
-        1.09626
+        -4.15741,
+        -2.32358e-7,
+        1.60157,
+        0.985129
       ],
       "decal2Line3": [
-        0.709522,
-        -3.90393,
-        1.77935,
-        5.01779
+        0.701708,
+        -4.00484,
+        1.82152,
+        5.1332
       ],
       "decal2HaveCP": true,
       "decal2CPNormDepth": [
-        0.332518,
-        0.44051,
-        -0.833896,
-        -1.71804
+        0.323139,
+        0.438138,
+        -0.838818,
+        -1.71378
       ],
       "decal2CPNormDepth1": [
-        0.332518,
-        0.44051,
-        0.833896,
-        -1.71804
+        0.323139,
+        0.438138,
+        0.838818,
+        -1.71378
       ],
       "decal2RotScale": [
         1.5708,
-        0.22996
+        0.224455
       ],
       "decal2Mirrored": false,
       "decal2Wrap": false,
       "decal2Abs": true,
       "decal2OppositeMirrored": false,
-      "decal2WidthBox": 0.25604,
-      "decal2Tex": "ussr_numbers_red_7"
+      "decal2WidthBox": 0.254031,
+      "decal2Tex": "ussr_numbers_red_5"
     }
   },
   "vehicleSkins": {

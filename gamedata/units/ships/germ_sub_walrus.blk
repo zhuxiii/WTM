@@ -708,7 +708,7 @@
         ],
         "emitterGenFmt": "bone_torpedo_%02d",
         "useEmitter": true,
-        "bullets": 40,
+        "bullets": 48,
         "startFx": "underwater_start_torpedo",
         "startFxOffset": [
           4.0,
@@ -721,7 +721,7 @@
         "gyroAngle": 185.0,
         "courseSmoothness": 100.0,
         "maxAngularSpeed": 0.8,
-        "shotFreq": 0.083,
+        "shotFreq": 0.1,
         "turret": {
           "head": "tt_01",
           "gun": "tt_01"
@@ -827,7 +827,7 @@
               ],
               "emitterGenFmt": "bone_torpedo_%02d",
               "useEmitter": true,
-              "bullets": 40,
+              "bullets": 48,
               "startFx": "underwater_start_torpedo",
               "startFxOffset": [
                 4.0,
@@ -840,7 +840,7 @@
               "gyroAngle": 185.0,
               "courseSmoothness": 100.0,
               "maxAngularSpeed": 0.8,
-              "shotFreq": 0.083,
+              "shotFreq": 0.1,
               "turret": {
                 "head": "tt_01",
                 "gun": "tt_01"
@@ -1639,4 +1639,5 @@
       ]
     }
   }
+} }
 }

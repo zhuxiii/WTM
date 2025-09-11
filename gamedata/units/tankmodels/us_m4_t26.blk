@@ -681,14 +681,12 @@
     "ex_decor_r_10_dm": true
   },
   "sound": {
-    "EngineName": "engine_sherman_m4a1",
-    "TrackSoundPath": "tanks/engines_tanks",
+    "EngineName": "engine_medium_petrol",
     "TrackSoundPathStudio": "ground/engines",
-    "TrackSoundName": "tracks",
-    "TrackSoundNameCockpit": "tracks_interior",
+    "TrackSoundName": "tracks_medium",
     "turret_turn": "turret_turn_manual_y",
     "EngineNameAi": "engine_tank_ai_middle",
-    "TrackSoundNameAi": "tracks_ai_middle",
+    "TrackSoundNameAi": "tracks_ai_medium",
     "gun_turn": "turret_turn_mg_light"
   },
   "DamageEffects": {
@@ -2465,7 +2463,7 @@
       },
       {
         "name": "fuel_exterior",
-        "lifetime": 15.0,
+        "lifetime": 50.0,
         "fx": {
           "name": "tank_ex_fuel_explosion",
           "centerDmgPart": true
@@ -2473,7 +2471,7 @@
       },
       {
         "name": "fuel_internal",
-        "lifetime": 15.0,
+        "lifetime": 50.0,
         "fx": {
           "name": "tank_ex_fuel_explosion",
           "centerDmgPart": true
@@ -2904,6 +2902,12 @@
   "battleHideNodes": {
     "n": [
       "details",
+      "details_01",
+      "details_02",
+      "details_03"
+    ]
+  }
+}    "details",
       "details_01",
       "details_02",
       "details_03"

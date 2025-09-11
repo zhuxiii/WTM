@@ -116,6 +116,7 @@
   "water_level": 0.0,
   "soundAmbientPath": "sounds/ambient",
   "soundAmbientPathStudio": "aircraft/ambient",
+  "forceDisableRefraction": false,
   "render": {
     "lmesh": true,
     "onlyUnderwaterLmesh": false,

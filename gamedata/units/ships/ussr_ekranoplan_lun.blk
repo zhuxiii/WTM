@@ -556,8 +556,14 @@
       "maxReverseSpeed": 9.0,
       "speedToTime": {
         "row": [
-          54.0,
-          10.3
+          [
+            15.0,
+            7.0
+          ],
+          [
+            54.0,
+            10.3
+          ]
         ]
       },
       "reverseSpeedToTime": {
@@ -614,7 +620,7 @@
             "euler": [
               -1.4,
               90.0,
-              10.0
+              1.5
             ],
             "pos": [
               10.0,
@@ -623,7 +629,7 @@
             ],
             "size": [
               12.0,
-              4.5
+              3.5
             ],
             "maxV": 140.0,
             "glider": {
@@ -631,11 +637,11 @@
             },
             "polar": {
               "Cl0": 0.15,
-              "CdMin": 0.09,
+              "CdMin": 0.15,
               "lineClCoeff": 0.052,
               "ClCritHigh": 0.2,
               "ClCritLow": -0.15,
-              "alphaCritHigh": 7.0,
+              "alphaCritHigh": 10.0,
               "alphaCritLow": -3.0
             }
           },
@@ -643,7 +649,7 @@
             "euler": [
               1.4,
               -90.0,
-              10.0
+              1.5
             ],
             "pos": [
               10.0,
@@ -652,7 +658,7 @@
             ],
             "size": [
               12.0,
-              4.5
+              3.5
             ],
             "maxV": 140.0,
             "glider": {
@@ -660,27 +666,27 @@
             },
             "polar": {
               "Cl0": 0.15,
-              "CdMin": 0.09,
+              "CdMin": 0.15,
               "lineClCoeff": 0.052,
               "ClCritHigh": 0.2,
               "ClCritLow": -0.15,
-              "alphaCritHigh": 7.0,
+              "alphaCritHigh": 10.0,
               "alphaCritLow": -3.0
             }
           },
           {
             "euler": [
-              2.0,
+              0.0,
               0.0,
               0.0
             ],
             "pos": [
               -35.0,
-              14.0,
+              13.0,
               0.0
             ],
             "size": [
-              4.0,
+              2.0,
               12.0
             ],
             "maxV": 140.0,
