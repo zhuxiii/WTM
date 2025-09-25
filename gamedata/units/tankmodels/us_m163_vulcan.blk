@@ -2832,13 +2832,7 @@
     "tank_tool_kit_expendable": {},
     "machinegun_belt_ap": {},
     "machinegun_belt_tracer": {},
-    "machinegun_belt_stealth": {},
-    "art_support_smoke": {},
-    "art_support_mortars": {},
-    "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {}
+    "machinegun_belt_stealth": {}
   },
   "upgraded_skin": {
     "replace_tex": {
@@ -2894,6 +2888,16 @@
       ],
       "decal0Mirrored": false,
       "decal0Wrap": false,
+      "decal0Abs": false,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.200001,
+      "decal0Tex": "usa_tank_emblem_08"
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}   "decal0Wrap": false,
       "decal0Abs": false,
       "decal0OppositeMirrored": false,
       "decal0WidthBox": 0.200001,

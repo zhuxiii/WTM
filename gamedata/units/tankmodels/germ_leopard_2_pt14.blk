@@ -2541,9 +2541,7 @@
     "machinegun_belt_stealth": {},
     "art_support_smoke": {},
     "art_support_mortars": {},
-    "art_support_highcaliber": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {}
+    "art_support_highcaliber": {}
   },
   "ammoStowages": {
     "ammo1": {
@@ -2760,6 +2758,11 @@
     "forest": {
       "replace_tex": {
         "from": "ger_camo_bronzegruen*",
+        "to": "ger_camo_bronzegruen*"
+      }
+    }
+  }
+}": "ger_camo_bronzegruen*",
         "to": "ger_camo_bronzegruen*"
       }
     }

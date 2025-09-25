@@ -2971,9 +2971,7 @@
     "art_support_smoke": {},
     "art_support_mortars": {},
     "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {}
+    "tank_smoke_screen_smoke_shell": {}
   },
   "upgraded_skin": {
     "replace_tex": {
@@ -3032,6 +3030,10 @@
       "decal0Abs": true,
       "decal0OppositeMirrored": false,
       "decal0WidthBox": 0.211089,
+      "decal0Tex": "usa_tank_emblem_08"
+    }
+  }
+}      "decal0WidthBox": 0.211089,
       "decal0Tex": "usa_tank_emblem_08"
     }
   }

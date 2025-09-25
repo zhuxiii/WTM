@@ -2803,15 +2803,9 @@
     "art_support": {},
     "tank_extinguisher": {},
     "tank_tool_kit_expendable": {},
-    "machinegun_belt_ap": {},
-    "machinegun_belt_tracer": {},
-    "machinegun_belt_stealth": {},
     "art_support_smoke": {},
     "art_support_mortars": {},
-    "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {}
+    "art_support_highcaliber": {}
   },
   "ammoStowages": {
     "ammo1": {
@@ -3289,6 +3283,19 @@
       "decal3Wrap": false,
       "decal3Abs": false,
       "decal3OppositeMirrored": false,
+      "decal3WidthBox": 0.208365,
+      "decal3Tex": "ussr_numbers_6"
+    }
+  },
+  "battleHideNodes": {
+    "n": [
+      "details",
+      "details_01",
+      "details_02",
+      "details_03"
+    ]
+  }
+}ositeMirrored": false,
       "decal3WidthBox": 0.208365,
       "decal3Tex": "ussr_numbers_6"
     }

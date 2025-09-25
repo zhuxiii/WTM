@@ -2480,10 +2480,7 @@
     "machinegun_belt_stealth": {},
     "art_support_smoke": {},
     "art_support_mortars": {},
-    "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {}
+    "art_support_highcaliber": {}
   },
   "cockpit": {
     "zoomOutFov": 40.0,
@@ -2506,60 +2503,79 @@
   "default_skin": {
     "replace_tex": {
       "from": "ussr_camo_green*",
-      "to": "ussr_camo_forest_01*"
+      "to": "ussr_camo_green*"
     }
   },
   "defaultDecals": {
     "default": {
       "skin_condition": 100.0,
       "camo_scale": 0.0,
-      "camo_rotation": 0.0,
-      "decal0Line0": [
-        4.24407,
-        -0.00116427,
-        -0.629031,
-        2.40915
-      ],
-      "decal0Line1": [
-        -0.00106762,
-        -2.14521,
-        -0.00323262,
-        5.60224
-      ],
-      "decal0Line2": [
-        -4.24407,
-        0.00116389,
-        -0.629031,
-        -1.40915
-      ],
-      "decal0Line3": [
-        -0.00106743,
-        -2.14521,
-        0.00323265,
-        5.60224
-      ],
-      "decal0HaveCP": true,
-      "decal0CPNormDepth": [
-        -0.146612,
-        0.00156358,
-        -0.989193,
-        -0.986017
-      ],
-      "decal0CPNormDepth1": [
-        -0.146612,
-        0.00156358,
-        0.989193,
-        -0.986017
-      ],
-      "decal0RotScale": [
-        1.57107,
-        0.466153
-      ],
-      "decal0Mirrored": false,
-      "decal0Wrap": false,
-      "decal0Abs": true,
-      "decal0OppositeMirrored": false,
-      "decal0WidthBox": 0.200262,
+      "camo_rotation": 0.0
+    }
+  },
+  "ammo": {
+    "combustionTime": 10.0,
+    "detonateProb": 0.15,
+    "detonatePortion": [
+      0.3,
+      0.9
+    ],
+    "explodeHitPower": 1250.0,
+    "hitPowerMult": 1.0,
+    "nearHitPower": [
+      1.0,
+      50.0
+    ],
+    "midHitPower": [
+      0.9,
+      400.0
+    ],
+    "farHitPower": [
+      0.1,
+      1000.0
+    ],
+    "endHitPower": [
+      0.01,
+      1500.0
+    ],
+    "relativeVelHitShift": [
+      300.0,
+      1000.0
+    ],
+    "nearArmorPower": [
+      10.0,
+      50.0
+    ],
+    "midArmorPower": [
+      7.0,
+      400.0
+    ],
+    "farArmorPower": [
+      0.2,
+      700.0
+    ],
+    "relativeVelArmorShift": [
+      200.0,
+      1000.0
+    ],
+    "explodeTreshold": 0.0001,
+    "explodeArmorPower": 30.0,
+    "explodeRadius": [
+      1.5,
+      10.0
+    ]
+  },
+  "wreckedParts": {
+    "part": {
+      "node": "bone_turret",
+      "mass": 4300.0,
+      "cutDamage": 350.0,
+      "deviation": 0.4,
+      "rotation": 2.5,
+      "collisionNode": "cls_turret_01"
+    }
+  }
+}     "decal0WidthBox": 0.200262,
       "decal0Tex": "ussr_numbers_1",
       "decal1Line0": [
         2.12214,

@@ -54,11 +54,6 @@
   "clipmap_tex_mips": 5,
   "addLandToSky": true,
   "max_wind_strength": 3.0,
-  "fixedLocalProbePos": [
-    0.0,
-    50.0,
-    0.0
-  ],
   "rendinstMaxHeight": 2000.0,
   "mapCoord0": [
     -16384.0,
@@ -737,6 +732,10 @@
       "vietnam_soil_erosion_cliff_a_overlay*"
     ]
   },
+  "technicsSkins": {
+    "groundSkin": "forest"
+  }
+}  },
   "technicsSkins": {
     "groundSkin": "forest"
   }

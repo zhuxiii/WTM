@@ -2783,8 +2783,6 @@
     "art_support_mortars": {},
     "art_support_highcaliber": {},
     "tank_smoke_screen_smoke_shell": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {},
     "tank_additional_armor": {}
   },
   "vehicleSkins": {
@@ -2965,6 +2963,13 @@
       "replace_tex": {
         "from": "us_camo_olive*",
         "to": "usa_modern_snow_temperate*"
+      }
+    }
+  ],
+  "battleHideNodes": {
+    "n": "details"
+  }
+}n_snow_temperate*"
       }
     }
   ],

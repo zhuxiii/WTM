@@ -2677,7 +2677,6 @@
     "art_support_highcaliber": {},
     "tank_smoke_screen_low_cooldown": {},
     "tank_smoke_screen_long_duration": {},
-    "tank_engine_smoke_screen_system": {},
     "tank_smoke_screen_system_mod": {
       "tier": 4,
       "modClass": "protection",
@@ -3135,6 +3134,9 @@
       "decal3OppositeMirrored": false,
       "decal3WidthBox": 0.20045,
       "decal3Tex": "china_numbers_6"
+    }
+  }
+} "decal3Tex": "china_numbers_6"
     }
   }
 }

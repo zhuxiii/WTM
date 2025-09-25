@@ -2898,7 +2898,6 @@
     "art_support_smoke": {},
     "art_support_mortars": {},
     "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
     "tank_smoke_screen_low_cooldown": {},
     "tank_smoke_screen_long_duration": {},
     "tank_smoke_screen_system_mod": {
@@ -3464,6 +3463,9 @@
       "decal3OppositeMirrored": false,
       "decal3WidthBox": 0.207346,
       "decal3Tex": "japan_numbers_red_3"
+    }
+  }
+}l3Tex": "japan_numbers_red_3"
     }
   }
 }

@@ -12,11 +12,6 @@
   "wind_scale": 1.2,
   "max_wind_strength": 6.5,
   "water_level": 0.0,
-  "fixedLocalProbePos": [
-    0.0,
-    50.0,
-    0.0
-  ],
   "mapCoord0": [
     -4096.0,
     -4096.0
@@ -97,6 +92,9 @@
       "microdetail_generic_granules_a_tex_n*"
     ],
     "land_micro_details_uv_scale": 1.11
+  },
+  "technicsSkins": {}
+}micro_details_uv_scale": 1.11
   },
   "technicsSkins": {}
 }

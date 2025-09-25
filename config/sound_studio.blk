@@ -104,19 +104,19 @@
           "preload": false
         }
       },
-      "pkg_common": {
+      "pkg_sound_common": {
         "mobile.assets": {
           "async": true,
           "preload": false
         }
       },
-      "pkg_naval": {
+      "pkg_sound_naval": {
         "mobile_ships.assets": {
           "async": true,
           "preload": false
         }
       },
-      "pkg_ground": {
+      "pkg_sound_ground": {
         "mobile_tanks.assets": {
           "async": true,
           "preload": false

@@ -2832,12 +2832,10 @@
     "art_support_highcaliber": {},
     "tank_smoke_screen_smoke_shell": {}
   },
-  "vehicleSkins": {
-    "forest": {
-      "replace_tex": {
-        "from": "us_camo_olive*",
-        "to": "us_camo_olive_drab_olive*"
-      }
+  "default_skin": {
+    "replace_tex": {
+      "from": "us_camo_olive*",
+      "to": "us_camo_olive*"
     }
   },
   "defaultDecals": {
@@ -2845,11 +2843,17 @@
       "skin_condition": 100.0,
       "camo_scale": 0.0,
       "camo_rotation": 0.0
-    },
-    "forest": {
-      "skin_condition": 100.0,
-      "camo_scale": 0.0,
-      "camo_rotation": 0.0,
+    }
+  },
+  "battleHideNodes": {
+    "n": [
+      "details",
+      "details_01",
+      "details_02",
+      "details_03"
+    ]
+  }
+}rotation": 0.0,
       "decal0Line0": [
         -2.72312,
         -1.19032e-7,

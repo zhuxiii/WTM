@@ -2923,10 +2923,7 @@
     "machinegun_belt_stealth": {},
     "art_support_smoke": {},
     "art_support_mortars": {},
-    "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {}
+    "art_support_highcaliber": {}
   },
   "skin": [
     {
@@ -2980,6 +2977,14 @@
       "descLocId": "skin/ussr_camo_winter_lines/desc",
       "replace_tex": {
         "from": "ussr_camo_green*",
+        "to": "ussr_camo_winter_lines*"
+      }
+    }
+  ],
+  "battleHideNodes": {
+    "n": "details"
+  }
+}"ussr_camo_green*",
         "to": "ussr_camo_winter_lines*"
       }
     }

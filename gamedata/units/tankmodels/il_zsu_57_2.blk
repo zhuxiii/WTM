@@ -3047,6 +3047,18 @@
         "from": "ussr_camo_green*",
         "to": "isr_camo_sandgreen*"
       }
+    },
+    "desert": {
+      "replace_tex": {
+        "from": "ussr_camo_green*",
+        "to": "isr_camo_threecolor*"
+      }
+    },
+    "winter": {
+      "replace_tex": {
+        "from": "ussr_camo_green*",
+        "to": "fr_camo_winter_green_white*"
+      }
     }
   },
   "defaultDecals": {
@@ -3056,6 +3068,16 @@
       "camo_rotation": 0.0
     },
     "forest": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    },
+    "desert": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    },
+    "winter": {
       "skin_condition": 100.0,
       "camo_scale": 0.0,
       "camo_rotation": 0.0

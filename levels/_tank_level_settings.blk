@@ -20,11 +20,6 @@
   "clipmap_tex_mips": 5,
   "addLandToSky": true,
   "max_wind_strength": 3.0,
-  "fixedLocalProbePos": [
-    0.0,
-    50.0,
-    0.0
-  ],
   "render": {
     "lmesh": true,
     "onlyUnderwaterLmesh": false,
@@ -44,6 +39,11 @@
       -32768.0
     ],
     "earthWorldMax": [
+      32768.0,
+      32768.0
+    ]
+  }
+}earthWorldMax": [
       32768.0,
       32768.0
     ]

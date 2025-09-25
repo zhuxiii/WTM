@@ -2513,9 +2513,6 @@
     "art_support_smoke": {},
     "art_support_mortars": {},
     "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {},
     "tank_additional_armor": {
       "invertEnableLogic": true,
       "turn_it_off": true,
@@ -2699,6 +2696,13 @@
       "decal1Abs": true,
       "decal1OppositeMirrored": false,
       "decal1WidthBox": 0.208645,
+      "decal1Tex": "ussr_1gv_tank_brigade_emblem_t34"
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}x": 0.208645,
       "decal1Tex": "ussr_1gv_tank_brigade_emblem_t34"
     }
   },

@@ -2848,7 +2848,6 @@
     "art_support_highcaliber": {},
     "tank_smoke_screen_low_cooldown": {},
     "tank_smoke_screen_long_duration": {},
-    "tank_engine_smoke_screen_system": {},
     "tank_smoke_screen_system_mod": {
       "tier": 4,
       "modClass": "protection",
@@ -3399,6 +3398,9 @@
       "deviation": 0.4,
       "rotation": 2.5,
       "collisionNode": "cls_turret"
+    }
+  }
+}  "collisionNode": "cls_turret"
     }
   }
 }

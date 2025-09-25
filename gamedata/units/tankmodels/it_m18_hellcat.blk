@@ -2906,9 +2906,7 @@
     "art_support_smoke": {},
     "art_support_mortars": {},
     "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {}
+    "tank_smoke_screen_smoke_shell": {}
   },
   "dmgAngles": {
     "hatch_06": [
@@ -3050,6 +3048,13 @@
       "replace_tex": {
         "from": "us_camo_olive*",
         "to": "it_camo_two_color_spots*"
+      }
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}_two_color_spots*"
       }
     }
   },

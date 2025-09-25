@@ -2527,7 +2527,6 @@
     "detectionHeight": 2.64
   },
   "modifications": {
-    "tank_additional_armor": {},
     "art_support": {},
     "tank_extinguisher": {},
     "tank_tool_kit_expendable": {},
@@ -2606,51 +2605,66 @@
       "skin_condition": 100.0,
       "camo_scale": 0.0,
       "camo_rotation": 0.0
-    },
-    "forest": {
-      "skin_condition": 100.0,
-      "camo_scale": 0.0,
-      "camo_rotation": 0.0
     }
   },
-  "default_skin": {
-    "set_tex": [
-      {
-        "from": "kv_1s_body_c*",
-        "to": "kv_1s_skin_body_c*",
-        "param": "camo_skin_tex"
-      },
-      {
-        "from": "kv_1s_turret_c*",
-        "to": "kv_1s_skin_turret_c*",
-        "param": "camo_skin_tex"
-      },
-      {
-        "from": "kv_1s_gun_c*",
-        "to": "kv_1s_skin_gun_c*",
-        "param": "camo_skin_tex"
-      }
-    ]
+  "upgraded_skin": {
+    "replace_tex": {
+      "from": "ussr_camo_green*",
+      "to": "ussr_camo_forest_01*"
+    }
   },
-  "vehicleSkins": {
-    "forest": {
-      "set_tex": [
-        {
-          "from": "kv_1s_body_c*",
-          "to": "kv_1s_noskin_body_c*",
-          "param": "camo_skin_tex"
-        },
-        {
-          "from": "kv_1s_turret_c*",
-          "to": "kv_1s_noskin_turret_c*",
-          "param": "camo_skin_tex"
-        },
-        {
-          "from": "kv_1s_gun_c*",
-          "to": "kv_1s_noskin_gun_c*",
-          "param": "camo_skin_tex"
-        }
-      ]
+  "upgradedDecals": {
+    "upgraded": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0,
+      "decal0Line0": [
+        4.23199,
+        -1.60199e-7,
+        0.76356,
+        -1.72446
+      ],
+      "decal0Line1": [
+        0.205301,
+        -4.14196,
+        -1.13787,
+        8.0494
+      ],
+      "decal0Line2": [
+        -4.23199,
+        -1.52189e-7,
+        0.763561,
+        2.72473
+      ],
+      "decal0Line3": [
+        0.205302,
+        -4.14196,
+        1.13787,
+        8.04982
+      ],
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        0.17102,
+        0.268874,
+        -0.947871,
+        -1.46524
+      ],
+      "decal0CPNormDepth1": [
+        0.17102,
+        0.268874,
+        0.947871,
+        -1.4649
+      ],
+      "decal0RotScale": [
+        1.5708,
+        0.232541
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.245827,
+      "decal0Tex": "back_19"
     }
   },
   "battleHideNodes": {

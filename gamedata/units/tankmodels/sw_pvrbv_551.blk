@@ -2919,10 +2919,7 @@
     "machinegun_belt_stealth": {},
     "art_support_smoke": {},
     "art_support_mortars": {},
-    "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {}
+    "art_support_highcaliber": {}
   },
   "ammoStowages": {
     "ammo1": {
@@ -3008,6 +3005,14 @@
       "descLocId": "skin/fr_camo_winter_green_white/desc",
       "replace_tex": {
         "from": "se_camo_green*",
+        "to": "fr_camo_winter_green_white*"
+      }
+    }
+  ],
+  "battleHideNodes": {
+    "n": "details"
+  }
+}e_camo_green*",
         "to": "fr_camo_winter_green_white*"
       }
     }

@@ -1884,7 +1884,7 @@
       },
       {
         "trigger": "gunner4",
-        "triggerGroup": "coaxial",
+        "triggerGroup": "machinegun",
         "blk": "gameData/Weapons/groundModels_weapons/12_7mm_M2_HB_user_machinegun.blk",
         "emitter": "bone_mg_v_01",
         "flash": "emtr_mg_flame_01",
@@ -1928,7 +1928,7 @@
       },
       {
         "trigger": "gunner4",
-        "triggerGroup": "coaxial",
+        "triggerGroup": "machinegun",
         "blk": "gameData/Weapons/groundModels_weapons/12_7mm_M2_HB_user_machinegun.blk",
         "emitter": "bone_mg_v_01",
         "flash": "emtr_mg_flame_02",
@@ -2794,10 +2794,7 @@
     "machinegun_belt_stealth": {},
     "art_support_smoke": {},
     "art_support_mortars": {},
-    "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {}
+    "art_support_highcaliber": {}
   },
   "defaultDecals": {
     "default": {
@@ -3097,6 +3094,14 @@
       "descLocId": "skin/us_camo_winter_grid/desc",
       "replace_tex": {
         "from": "us_camo_olive*",
+        "to": "us_camo_winter_grid*"
+      }
+    }
+  ],
+  "battleHideNodes": {
+    "n": "details"
+  }
+}us_camo_olive*",
         "to": "us_camo_winter_grid*"
       }
     }

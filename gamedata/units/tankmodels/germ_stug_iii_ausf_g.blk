@@ -2448,15 +2448,10 @@
     "art_support": {},
     "tank_extinguisher": {},
     "tank_tool_kit_expendable": {},
-    "machinegun_belt_ap": {},
-    "machinegun_belt_tracer": {},
-    "machinegun_belt_stealth": {},
     "art_support_smoke": {},
     "art_support_mortars": {},
     "art_support_highcaliber": {},
     "tank_smoke_screen_smoke_shell": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {},
     "tank_additional_armor": {
       "invertEnableLogic": true,
       "turn_it_off": true,
@@ -2655,6 +2650,23 @@
       "replace_tex": {
         "from": "ger_camo_dunkelgelb*",
         "to": "ger_camo_dunkelgelb_green_braun_blots_man*"
+      }
+    }
+  ],
+  "dmgAngles": {
+    "hatch_02": [
+      45.0,
+      90.0
+    ],
+    "hatch_03": [
+      45.0,
+      90.0
+    ]
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}
       }
     }
   ],

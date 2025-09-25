@@ -2784,7 +2784,6 @@
     "detectionHeight": 2.87
   },
   "modifications": {
-    "upgraded": {},
     "art_support": {},
     "tank_extinguisher": {},
     "tank_tool_kit_expendable": {},
@@ -3401,6 +3400,10 @@
           "to": "type_16_skin_mod_turret*",
           "param": "camo_skin_tex"
         }
+      ]
+    }
+  }
+}
       ]
     }
   }

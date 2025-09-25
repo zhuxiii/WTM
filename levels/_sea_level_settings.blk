@@ -12,11 +12,6 @@
   "wind_scale": 1.2,
   "max_wind_strength": 6.5,
   "water_level": 0.0,
-  "fixedLocalProbePos": [
-    0.0,
-    50.0,
-    0.0
-  ],
   "shader_vars": {
     "shore__waves_dist": [
       0.0,
@@ -33,6 +28,9 @@
   "render": {
     "lmesh": true,
     "onlyUnderwaterLmesh": true,
+    "riExtraMinSizeForReflection": 100.0
+  }
+}esh": true,
     "riExtraMinSizeForReflection": 100.0
   }
 }

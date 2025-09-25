@@ -140,7 +140,7 @@
       ]
     },
     "cumulativeDamage": {
-      "armorPower": 100.0,
+      "armorPower": 115.0,
       "distance": 2.5,
       "damage": 170.0,
       "onHitChanceMultFire": 25.0
@@ -1001,7 +1001,7 @@
         ]
       },
       "cumulativeDamage": {
-        "armorPower": 100.0,
+        "armorPower": 115.0,
         "distance": 2.5,
         "damage": 170.0,
         "onHitChanceMultFire": 25.0

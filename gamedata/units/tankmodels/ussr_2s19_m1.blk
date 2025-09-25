@@ -2776,7 +2776,6 @@
     "art_support_smoke": {},
     "art_support_mortars": {},
     "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
     "tank_smoke_screen_low_cooldown": {},
     "tank_smoke_screen_long_duration": {},
     "tank_engine_smoke_screen_system": {},
@@ -3311,86 +3310,100 @@
       }
     }
   },
+  "default_skin": {
+    "replace_tex": {
+      "from": "ussr_camo_green*",
+      "to": "ussr_camo_green*"
+    }
+  },
   "defaultDecals": {
     "default": {
       "skin_condition": 100.0,
       "camo_scale": 0.0,
       "camo_rotation": 0.0
-    },
-    "forest": {
+    }
+  },
+  "upgraded_skin": {
+    "replace_tex": {
+      "from": "ussr_camo_green*",
+      "to": "ussr_camo_deform*"
+    }
+  },
+  "upgradedDecals": {
+    "upgraded": {
       "skin_condition": 100.0,
       "camo_scale": 0.0,
       "camo_rotation": 0.0,
       "decal0Line0": [
-        5.71587,
-        -2.34226e-7,
-        0.00000161829,
-        11.4626
+        2.82087,
+        -1.15594e-7,
+        7.14582e-7,
+        4.52954
       ],
       "decal0Line1": [
-        6.12013e-8,
-        -2.78833,
-        -0.626898,
-        4.87733
+        4.0776e-8,
+        -2.75217,
+        -0.618768,
+        4.88398
       ],
       "decal0Line2": [
-        -5.71587,
-        -2.55519e-7,
-        0.00000170346,
-        -10.4626
+        -2.82087,
+        -1.15594e-7,
+        7.98651e-7,
+        -3.52954
       ],
       "decal0Line3": [
-        3.1105e-7,
-        -2.78833,
-        0.626898,
-        4.87733
+        2.87384e-7,
+        -2.75217,
+        0.618768,
+        4.88398
       ],
       "decal0HaveCP": true,
       "decal0CPNormDepth": [
-        2.89668e-7,
+        2.58714e-7,
         0.219354,
         -0.975645,
         -1.88304
       ],
       "decal0CPNormDepth1": [
-        2.89668e-7,
+        2.58714e-7,
         0.219354,
         0.975645,
         -1.88304
       ],
       "decal0RotScale": [
         1.5708,
-        0.349903
+        0.354501
       ],
       "decal0Mirrored": false,
       "decal0Wrap": false,
       "decal0Abs": false,
       "decal0OppositeMirrored": false,
-      "decal0WidthBox": 0.222223,
-      "decal0Tex": "ussr_numbers_1",
+      "decal0WidthBox": 0.222884,
+      "decal0Tex": "ussr_numbers_9",
       "decal1Line0": [
-        5.71341,
-        -2.34125e-7,
-        0.00000161759,
-        10.5262
+        5.6597,
+        -2.31924e-7,
+        0.00000160238,
+        9.5731
       ],
       "decal1Line1": [
-        6.1175e-8,
-        -2.78713,
-        -0.626629,
-        4.87735
+        6.05998e-8,
+        -2.76093,
+        -0.620738,
+        4.89171
       ],
       "decal1Line2": [
-        -5.71341,
-        -2.55409e-7,
-        0.00000170273,
-        -9.52624
+        -5.6597,
+        -2.53008e-7,
+        0.00000168672,
+        -8.57309
       ],
       "decal1Line3": [
-        3.10916e-7,
-        -2.78713,
-        0.626629,
-        4.87735
+        3.07993e-7,
+        -2.76093,
+        0.620738,
+        4.89171
       ],
       "decal1HaveCP": true,
       "decal1CPNormDepth": [
@@ -3407,40 +3420,31 @@
       ],
       "decal1RotScale": [
         1.5708,
-        0.350053
+        0.353376
       ],
       "decal1Mirrored": false,
       "decal1Wrap": false,
       "decal1Abs": false,
       "decal1OppositeMirrored": false,
-      "decal1WidthBox": 0.222258,
-      "decal1Tex": "ussr_numbers_1",
-      "decal2Line0": [
-        2.85839,
-        -1.17132e-7,
-        8.09275e-7,
-        4.9758
-      ],
-      "decal2Line1": [
-        6.12112e-8,
-        -2.78878,
-        -0.627,
-        4.87781
-      ],
-      "decal2Line2": [
-        -2.85839,
-        -1.2778e-7,
-        8.51868e-7,
-        -3.9758
-      ],
-      "decal2Line3": [
-        3.111e-7,
-        -2.78878,
-        0.627,
-        4.87781
-      ],
-      "decal2HaveCP": true,
-      "decal2CPNormDepth": [
+      "decal1WidthBox": 0.222796,
+      "decal1Tex": "ussr_numbers_1"
+    }
+  },
+  "smokeScreenExhaustEmitters": {
+    "emitter": [
+      "emtr_exhaust_01",
+      "emtr_exhaust_04"
+    ]
+  },
+  "battleHideNodes": {
+    "n": [
+      "details",
+      "details_01",
+      "details_02",
+      "details_03"
+    ]
+  }
+}rmDepth": [
         2.89668e-7,
         0.219354,
         -0.975645,

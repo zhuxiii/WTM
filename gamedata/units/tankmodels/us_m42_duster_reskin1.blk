@@ -2728,6 +2728,198 @@
       "skin_condition": 100.0,
       "camo_scale": 0.0,
       "camo_rotation": 0.0
+    },
+    "winter": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    },
+    "desert": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0,
+      "decal0Line0": [
+        5.34051e-8,
+        -5.34051e-8,
+        1.79198,
+        0.596175
+      ],
+      "decal0Line1": [
+        1.26712,
+        -1.26712,
+        -7.83299e-8,
+        -1.01998
+      ],
+      "decal0Line2": [
+        5.34051e-8,
+        -5.34051e-8,
+        -1.79198,
+        0.403825
+      ],
+      "decal0Line3": [
+        1.26712,
+        -1.26712,
+        7.83299e-8,
+        -1.01998
+      ],
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        0.707107,
+        0.707107,
+        0.0,
+        -2.66274
+      ],
+      "decal0CPNormDepth1": [
+        -0.707107,
+        -0.707107,
+        -0.0,
+        2.64363
+      ],
+      "decal0RotScale": [
+        1.5708,
+        0.558042
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": false,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.239397,
+      "decal0Tex": "usa_tank_emblem_08",
+      "decal1Line0": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "decal1Line1": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "decal1Line2": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "decal1Line3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "decal1HaveCP": false,
+      "decal1CPNormDepth": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "decal1CPNormDepth1": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "decal1RotScale": [
+        1.5708,
+        1.0
+      ],
+      "decal1Mirrored": false,
+      "decal1Wrap": false,
+      "decal1Abs": false,
+      "decal1OppositeMirrored": false,
+      "decal1WidthBox": 0.0,
+      "decal1Tex": "",
+      "decal2Line0": [
+        -3.17121,
+        -1.42198e-7,
+        -0.702294,
+        2.24281
+      ],
+      "decal2Line1": [
+        0.00367978,
+        -3.248,
+        -0.0166153,
+        7.57386
+      ],
+      "decal2Line2": [
+        3.17121,
+        -1.41819e-7,
+        -0.702294,
+        -1.24281
+      ],
+      "decal2Line3": [
+        0.00367949,
+        -3.248,
+        0.0166155,
+        7.57386
+      ],
+      "decal2HaveCP": true,
+      "decal2CPNormDepth": [
+        -0.216217,
+        -0.00523944,
+        0.976331,
+        -0.97434
+      ],
+      "decal2CPNormDepth1": [
+        -0.216217,
+        -0.00523944,
+        -0.976331,
+        -0.97434
+      ],
+      "decal2RotScale": [
+        1.5708,
+        0.307877
+      ],
+      "decal2Mirrored": false,
+      "decal2Wrap": false,
+      "decal2Abs": true,
+      "decal2OppositeMirrored": false,
+      "decal2WidthBox": 0.259259,
+      "decal2Tex": "back_02"
+    },
+    "desert2": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  },
+  "defaultAttachables": {
+    "desert": {
+      "attachable": {
+        "node": "ex_decor_r_01_dm",
+        "name": "box",
+        "tm": [
+          [
+            0.998834,
+            0.0287827,
+            -0.0387438
+          ],
+          [
+            0.0388182,
+            -0.00258928,
+            0.999243
+          ],
+          [
+            -0.0286605,
+            0.999582,
+            0.00370355
+          ],
+          [
+            2.19568,
+            -1.22589,
+            1.32755
+          ]
+        ],
+        "slotId": 1,
+        "traceNorm": [
+          -0.00944436,
+          0.998802,
+          -0.0480152
+        ]
+      }
     }
   },
   "skin": [

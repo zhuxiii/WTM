@@ -2855,44 +2855,22 @@
     "art_support": {},
     "tank_extinguisher": {},
     "tank_tool_kit_expendable": {},
-    "machinegun_belt_ap": {},
-    "machinegun_belt_tracer": {},
-    "machinegun_belt_stealth": {},
     "art_support_smoke": {},
     "art_support_mortars": {},
-    "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {}
+    "art_support_highcaliber": {}
   },
   "defaultDecals": {
     "default": {
       "skin_condition": 100.0,
       "camo_scale": 0.0,
       "camo_rotation": 0.0
-    }
-  },
-  "vehicleSkins": {
+    },
     "winter": {
-      "replace_tex": {
-        "from": "us_camo_olive*",
-        "to": "us_camo_winter_olive*"
-      },
-      "decal": {
-        "skin_condition": 100.0,
-        "camo_scale": 0.0,
-        "camo_rotation": 0.0
-      }
-    }
-  },
-  "upgraded_skin": {
-    "replace_tex": {
-      "from": "us_camo_olive*",
-      "to": "us_camo_desert_pink_dark_khaki*"
-    }
-  },
-  "upgradedDecals": {
-    "upgraded": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    },
+    "desert": {
       "skin_condition": 100.0,
       "camo_scale": 0.0,
       "camo_rotation": 0.0,
@@ -3037,10 +3015,72 @@
       "decal2OppositeMirrored": false,
       "decal2WidthBox": 0.259259,
       "decal2Tex": "back_02"
+    },
+    "desert2": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
     }
   },
-  "upgradedAttachables": {
+  "upgraded_skin": {
+    "replace_tex": {
+      "from": "us_camo_olive*",
+      "to": "us_camo_desert_pink_lines*"
+    },
+    "set_tex": [
+      {
+        "from": "m42_duster_body_c*",
+        "to": "m42_duster_skin_laikhe_body_c*",
+        "param": "camo_skin_tex"
+      },
+      {
+        "from": "m42_duster_turret_c*",
+        "to": "m42_duster_skin_laikhe_turret_c*",
+        "param": "camo_skin_tex"
+      }
+    ]
+  },
+  "upgradedDecals": {
     "upgraded": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  },
+  "vehicleSkins": {
+    "winter": {
+      "replace_tex": {
+        "from": "us_camo_olive*",
+        "to": "us_camo_winter_olive*"
+      }
+    },
+    "desert": {
+      "replace_tex": {
+        "from": "us_camo_olive*",
+        "to": "us_camo_desert_pink_dark_khaki*"
+      }
+    },
+    "desert2": {
+      "replace_tex": {
+        "from": "us_camo_olive*",
+        "to": "us_camo_desert_pink_olive_drab_dark_earth*"
+      },
+      "set_tex": [
+        {
+          "from": "m42_duster_body_c*",
+          "to": "m42_duster_skin_hgwt_body_c*",
+          "param": "camo_skin_tex"
+        },
+        {
+          "from": "m42_duster_turret_c*",
+          "to": "m42_duster_skin_hgwt_turret_c*",
+          "param": "camo_skin_tex"
+        }
+      ]
+    }
+  },
+  "defaultAttachables": {
+    "desert": {
       "attachable": {
         "node": "ex_decor_r_01_dm",
         "name": "box",

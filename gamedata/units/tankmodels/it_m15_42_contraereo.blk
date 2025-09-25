@@ -2942,9 +2942,6 @@
     "art_support": {},
     "tank_extinguisher": {},
     "tank_tool_kit_expendable": {},
-    "machinegun_belt_ap": {},
-    "machinegun_belt_tracer": {},
-    "machinegun_belt_stealth": {},
     "art_support_smoke": {},
     "art_support_mortars": {},
     "art_support_highcaliber": {},
@@ -3281,6 +3278,13 @@
       "replace_tex": {
         "from": "it_camo_olive_green*",
         "to": "it_camo_olive_green*"
+      }
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}    "to": "it_camo_olive_green*"
       }
     }
   },

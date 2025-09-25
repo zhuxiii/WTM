@@ -2686,13 +2686,13 @@
     "art_support": {},
     "tank_extinguisher": {},
     "tank_tool_kit_expendable": {},
+    "tank_additional_armor": {},
     "machinegun_belt_ap": {},
     "machinegun_belt_tracer": {},
     "machinegun_belt_stealth": {},
     "art_support_smoke": {},
     "art_support_mortars": {},
-    "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {}
+    "art_support_highcaliber": {}
   },
   "defaultDecals": {
     "forest": {
@@ -2874,5 +2874,7 @@
   },
   "battleHideNodes": {
     "n": "details"
+  }
+}s"
   }
 }

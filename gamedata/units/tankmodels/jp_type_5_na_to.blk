@@ -3019,10 +3019,7 @@
     "machinegun_belt_stealth": {},
     "art_support_smoke": {},
     "art_support_mortars": {},
-    "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {}
+    "art_support_highcaliber": {}
   },
   "upgraded_skin": {
     "replace_tex": {
@@ -3244,6 +3241,14 @@
       "descLocId": "skin/jp_camo_winter_early/desc",
       "replace_tex": {
         "from": "jp_camo_olive_kusairo*",
+        "to": "jp_camo_winter_early*"
+      }
+    }
+  ],
+  "battleHideNodes": {
+    "n": "details"
+  }
+}camo_olive_kusairo*",
         "to": "jp_camo_winter_early*"
       }
     }

@@ -2964,9 +2964,6 @@
     "art_support_smoke": {},
     "art_support_mortars": {},
     "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {},
     "ostketten_tank_tracks": {
       "disableModEffects": {
         "hideNodes": {
@@ -3294,6 +3291,14 @@
       "decal0Wrap": false,
       "decal0Abs": true,
       "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.215669,
+      "decal0Tex": "back_16"
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}lse,
       "decal0WidthBox": 0.215669,
       "decal0Tex": "back_16"
     }

@@ -2478,7 +2478,6 @@
     "art_support_highcaliber": {},
     "tank_smoke_screen_low_cooldown": {},
     "tank_smoke_screen_long_duration": {},
-    "tank_additional_armor": {},
     "tank_smoke_screen_system_mod": {
       "tier": 4,
       "effects": {
@@ -2755,6 +2754,9 @@
     }
   },
   "battleHideNodes": {
+    "n": "details"
+  }
+}odes": {
     "n": "details"
   }
 }

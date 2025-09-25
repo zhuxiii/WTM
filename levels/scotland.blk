@@ -12,11 +12,6 @@
   "wind_scale": 1.2,
   "max_wind_strength": 6.5,
   "water_level": 0.0,
-  "fixedLocalProbePos": [
-    0.0,
-    50.0,
-    0.0
-  ],
   "mapCoord0": [
     -4096.0,
     -4096.0
@@ -214,6 +209,11 @@
     },
     "scotland_rocks_hexagonal_wall_quarter": {
       "lod0": 300.0,
+      "lod1": 20000.0
+    }
+  },
+  "technicsSkins": {}
+},
       "lod1": 20000.0
     }
   },

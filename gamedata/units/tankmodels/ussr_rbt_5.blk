@@ -2154,19 +2154,16 @@
     "detectionHeight": 2.41
   },
   "modifications": {
-    "tank_additional_armor": {},
     "art_support": {},
     "tank_extinguisher": {},
     "tank_tool_kit_expendable": {},
+    "tank_additional_armor": {},
     "machinegun_belt_ap": {},
     "machinegun_belt_tracer": {},
     "machinegun_belt_stealth": {},
     "art_support_smoke": {},
     "art_support_mortars": {},
-    "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {}
+    "art_support_highcaliber": {}
   },
   "ammoStowages": {
     "ammo1": {
@@ -2269,6 +2266,15 @@
       }
     }
   },
+  "battleHideNodes": {
+    "n": [
+      "details",
+      "details_01",
+      "details_02",
+      "details_03"
+    ]
+  }
+}  },
   "battleHideNodes": {
     "n": [
       "details",

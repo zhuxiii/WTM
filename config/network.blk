@@ -138,7 +138,10 @@
       "flag": [
         "--http_peers http://seeder.gaijin.lan/content/",
         "--p2p_peers seeder.gaijin.lan:27032"
-      ]
+      ],
+      "addons": {
+        "enabled": true
+      }
     },
     "webVromfs": {
       "replaceUrls": "test.webVromfs.baseUrls"

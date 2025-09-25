@@ -2525,7 +2525,6 @@
     "detectionHeight": 3.0
   },
   "modifications": {
-    "upgraded": {},
     "art_support": {},
     "tank_extinguisher": {},
     "tank_tool_kit_expendable": {},
@@ -2535,7 +2534,6 @@
     "art_support_smoke": {},
     "art_support_mortars": {},
     "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
     "tank_smoke_screen_low_cooldown": {},
     "tank_smoke_screen_long_duration": {},
     "tank_smoke_screen_system_mod": {
@@ -3089,6 +3087,12 @@
         "from": "ger_camo_dunkelgelb*",
         "to": "ger_camo_winter_waves_bicolor*"
       }
+    }
+  ],
+  "battleHideNodes": {
+    "n": "details"
+  }
+} }
     }
   ],
   "battleHideNodes": {

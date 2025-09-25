@@ -19,11 +19,6 @@
   "clipmap_tex_mips": 5,
   "addLandToSky": true,
   "max_wind_strength": 3.0,
-  "fixedLocalProbePos": [
-    0.0,
-    50.0,
-    0.0
-  ],
   "mapCoord0": [
     -32768.0,
     -32768.0
@@ -51,6 +46,11 @@
   "tankGridSize": [
     2048.0,
     2048.0
+  ],
+  "fixedLocalProbePos": [
+    2160.0,
+    50.0,
+    1947.0
   ],
   "weatherPreset": "gameData/environments/weather_preset_1.blk",
   "weatherTypes": "gameData/environments/weather_types.blk",

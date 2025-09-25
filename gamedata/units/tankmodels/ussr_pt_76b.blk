@@ -2656,140 +2656,133 @@
   "default_skin": {
     "replace_tex": {
       "from": "ussr_camo_green*",
-      "to": "ussr_camo_forest_01*"
+      "to": "ussr_camo_green*"
     }
   },
   "defaultDecals": {
     "default": {
       "skin_condition": 100.0,
       "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  },
+  "upgraded_skin": {
+    "replace_tex": {
+      "from": "ussr_camo_green*",
+      "to": "ussr_camo_dkgreen_ltgreen_brown_ver_2*"
+    }
+  },
+  "upgradedDecals": {
+    "upgraded": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
       "camo_rotation": 0.0,
       "decal0Line0": [
+        3.72798,
         0.0,
-        0.0,
-        0.0,
-        0.0
+        1.06259,
+        -2.17687
       ],
       "decal0Line1": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
+        0.602206,
+        -3.19382,
+        -2.11277,
+        3.96187
       ],
       "decal0Line2": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
+        -3.72798,
+        1.15528e-7,
+        1.06259,
+        3.17687
       ],
       "decal0Line3": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
+        0.602206,
+        -3.19382,
+        2.11277,
+        3.96187
       ],
-      "decal0HaveCP": false,
+      "decal0HaveCP": true,
       "decal0CPNormDepth": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
+        0.225842,
+        0.566734,
+        -0.792343,
+        -1.91892
       ],
       "decal0CPNormDepth1": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
+        0.225842,
+        0.566734,
+        0.792343,
+        -1.91892
       ],
       "decal0RotScale": [
         1.5708,
-        1.0
+        0.257967
       ],
       "decal0Mirrored": false,
       "decal0Wrap": false,
       "decal0Abs": false,
       "decal0OppositeMirrored": false,
-      "decal0WidthBox": 0.0,
-      "decal0Tex": "",
+      "decal0WidthBox": 0.210782,
+      "decal0Tex": "back_20",
       "decal1Line0": [
-        4.3428,
-        -0.0939805,
-        -0.257054,
-        -2.16218
+        -3.74216,
+        -1.73674e-7,
+        1.04383,
+        3.18087
       ],
       "decal1Line1": [
-        -0.222338,
-        -3.59468,
-        -2.44206,
-        4.01312
+        0.595396,
+        -3.19104,
+        2.1345,
+        4.02096
       ],
       "decal1Line2": [
-        -4.34849,
-        -0.0939805,
-        -0.129098,
-        3.34212
+        3.74216,
+        -1.44728e-7,
+        1.04383,
+        -2.18087
       ],
       "decal1Line3": [
-        0.00488941,
-        -3.59468,
-        2.45216,
-        3.86921
+        0.595396,
+        -3.19104,
+        -2.1345,
+        4.02096
       ],
       "decal1HaveCP": true,
       "decal1CPNormDepth": [
-        -0.0366795,
-        0.563118,
-        -0.825562,
-        -1.7439
+        0.220688,
+        0.570394,
+        0.791169,
+        -1.91771
       ],
       "decal1CPNormDepth1": [
-        -0.0366795,
-        0.563118,
-        0.825562,
-        -1.7439
+        0.220688,
+        0.570394,
+        -0.791169,
+        -1.91771
       ],
       "decal1RotScale": [
-        1.59693,
-        0.22981
+        1.5708,
+        0.257399
       ],
       "decal1Mirrored": false,
       "decal1Wrap": false,
       "decal1Abs": false,
       "decal1OppositeMirrored": false,
-      "decal1WidthBox": 0.220963,
-      "decal1Tex": "ussr_numbers_7",
-      "decal2Line0": [
-        4.31416,
-        -0.189181,
-        0.525645,
-        -1.89097
-      ],
-      "decal2Line1": [
-        0.14427,
-        -3.57703,
-        -2.47146,
-        3.73328
-      ],
-      "decal2Line2": [
-        -4.27487,
-        -0.189181,
-        0.783403,
-        3.21868
-      ],
-      "decal2Line3": [
-        0.598524,
-        -3.57703,
-        2.40222,
-        3.46304
-      ],
-      "decal2HaveCP": true,
-      "decal2CPNormDepth": [
-        0.124064,
-        0.567431,
-        -0.814021,
-        -1.85886
-      ],
-      "decal2CPNormDepth1": [
+      "decal1WidthBox": 0.211851,
+      "decal1Tex": "back_20"
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  },
+  "smokeScreenExhaustEmitters": {
+    "emitter": [
+      "emtr_exhaust_01",
+      "emtr_exhaust_04"
+    ]
+  }
+}  "decal2CPNormDepth1": [
         0.124064,
         0.567431,
         0.814021,

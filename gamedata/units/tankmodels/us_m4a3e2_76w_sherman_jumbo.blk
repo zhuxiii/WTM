@@ -2933,28 +2933,27 @@
     "art_support_highcaliber": {},
     "tank_smoke_screen_smoke_shell": {}
   },
-  "vehicleSkins": {
-    "forest": {
-      "replace_tex": {
-        "from": "us_camo_olive*",
-        "to": "us_camo_olive_drab_olive*"
-      }
-    },
-    "desert": {
-      "replace_tex": {
-        "from": "us_camo_olive*",
-        "to": "usa_ww_1*"
-      }
-    },
-    "winter": {
-      "replace_tex": {
-        "from": "us_camo_olive*",
-        "to": "us_camo_winter_blots*"
-      }
+  "default_skin": {
+    "replace_tex": {
+      "from": "us_camo_olive*",
+      "to": "us_camo_olive*"
     }
   },
   "defaultDecals": {
-    "forest": {
+    "default": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  },
+  "upgraded_skin": {
+    "replace_tex": {
+      "from": "us_camo_olive*",
+      "to": "us_camo_desert_pink_lines*"
+    }
+  },
+  "upgradedDecals": {
+    "upgraded": {
       "skin_condition": 100.0,
       "camo_scale": 0.0,
       "camo_rotation": 0.0,
@@ -3099,6 +3098,9 @@
       "decal2OppositeMirrored": false,
       "decal2WidthBox": 0.24201,
       "decal2Tex": "back_02"
+    }
+  }
+}back_02"
     },
     "desert": {
       "skin_condition": 100.0,

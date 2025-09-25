@@ -2557,9 +2557,7 @@
     "art_support_smoke": {},
     "art_support_mortars": {},
     "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {}
+    "tank_smoke_screen_smoke_shell": {}
   },
   "ammoStowages": {
     "ammo1": {
@@ -2904,6 +2902,12 @@
       "decal3OppositeMirrored": false,
       "decal3WidthBox": 0.286837,
       "decal3Tex": "jp_9th_sensha_rentai_1_company"
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}h_sensha_rentai_1_company"
     }
   },
   "battleHideNodes": {

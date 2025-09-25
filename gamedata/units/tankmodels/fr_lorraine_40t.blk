@@ -2566,9 +2566,6 @@
     "art_support_smoke": {},
     "art_support_mortars": {},
     "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {},
     "tank_additional_armor": {}
   },
   "vehicleSkins": {
@@ -2609,6 +2606,14 @@
     },
     "winter": {
       "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}dition": 100.0,
       "camo_scale": 0.0,
       "camo_rotation": 0.0
     }

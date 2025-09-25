@@ -3084,9 +3084,7 @@
     "art_support_smoke": {},
     "art_support_mortars": {},
     "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {}
+    "tank_smoke_screen_smoke_shell": {}
   },
   "default_skin": {
     "replace_tex": {
@@ -3159,6 +3157,12 @@
       "decal0OppositeMirrored": false,
       "decal0WidthBox": 0.207738,
       "decal0Tex": "flag_italy"
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+} "decal0Tex": "flag_italy"
     }
   },
   "battleHideNodes": {

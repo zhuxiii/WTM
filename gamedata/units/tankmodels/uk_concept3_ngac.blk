@@ -2568,10 +2568,7 @@
     "machinegun_belt_stealth": {},
     "art_support_smoke": {},
     "art_support_mortars": {},
-    "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {}
+    "art_support_highcaliber": {}
   },
   "upgraded_skin": {
     "replace_tex": {
@@ -2677,6 +2674,13 @@
       "decal1Abs": true,
       "decal1OppositeMirrored": false,
       "decal1WidthBox": 0.203378,
+      "decal1Tex": "uk_vechicle_recognition_marking"
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}ox": 0.203378,
       "decal1Tex": "uk_vechicle_recognition_marking"
     }
   },

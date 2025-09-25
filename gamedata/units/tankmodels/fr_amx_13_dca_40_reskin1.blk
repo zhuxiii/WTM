@@ -2989,15 +2989,9 @@
     "art_support": {},
     "tank_extinguisher": {},
     "tank_tool_kit_expendable": {},
-    "machinegun_belt_ap": {},
-    "machinegun_belt_tracer": {},
-    "machinegun_belt_stealth": {},
     "art_support_smoke": {},
     "art_support_mortars": {},
-    "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {}
+    "art_support_highcaliber": {}
   },
   "default_skin": {
     "replace_tex": {
@@ -3204,6 +3198,16 @@
           1.57068,
           0.486538
         ],
+        "decal0Mirrored": false,
+        "decal0Wrap": false,
+        "decal0Abs": false,
+        "decal0OppositeMirrored": false,
+        "decal0WidthBox": 0.2,
+        "decal0Tex": "savoie_decal"
+      }
+    }
+  }
+}     ],
         "decal0Mirrored": false,
         "decal0Wrap": false,
         "decal0Abs": false,

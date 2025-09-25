@@ -20,11 +20,6 @@
   "clipmap_tex_mips": 5,
   "addLandToSky": true,
   "max_wind_strength": 3.0,
-  "fixedLocalProbePos": [
-    0.0,
-    50.0,
-    0.0
-  ],
   "mapCoord0": [
     -32768.0,
     -32768.0
@@ -213,6 +208,10 @@
       "coloring": 0.5
     },
     "microdetail_soil_b_tex_n*": {
+      "coloring": 0.5
+    }
+  }
+}detail_soil_b_tex_n*": {
       "coloring": 0.5
     }
   }

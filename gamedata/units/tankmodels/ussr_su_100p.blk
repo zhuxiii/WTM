@@ -2907,15 +2907,10 @@
     "art_support": {},
     "tank_extinguisher": {},
     "tank_tool_kit_expendable": {},
-    "machinegun_belt_ap": {},
-    "machinegun_belt_tracer": {},
-    "machinegun_belt_stealth": {},
     "art_support_smoke": {},
     "art_support_mortars": {},
     "art_support_highcaliber": {},
     "tank_smoke_screen_smoke_shell": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {},
     "tank_additional_armor": {}
   },
   "defaultDecals": {
@@ -3135,6 +3130,18 @@
         "from": "ussr_camo_green*",
         "to": "us_camo_modern_desert_tan*"
       }
+    },
+    "winter": {
+      "replace_tex": {
+        "from": "ussr_camo_green*",
+        "to": "ussr_camo_winter*"
+      }
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}}
     },
     "winter": {
       "replace_tex": {

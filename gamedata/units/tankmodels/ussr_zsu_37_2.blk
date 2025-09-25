@@ -2529,15 +2529,9 @@
     "art_support": {},
     "tank_extinguisher": {},
     "tank_tool_kit_expendable": {},
-    "machinegun_belt_ap": {},
-    "machinegun_belt_tracer": {},
-    "machinegun_belt_stealth": {},
     "art_support_smoke": {},
     "art_support_mortars": {},
-    "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {}
+    "art_support_highcaliber": {}
   },
   "upgraded_skin": {
     "replace_tex": {
@@ -2639,6 +2633,17 @@
         0.35828
       ],
       "decal1Mirrored": false,
+      "decal1Wrap": false,
+      "decal1Abs": false,
+      "decal1OppositeMirrored": false,
+      "decal1WidthBox": 0.20004,
+      "decal1Tex": "ussr_numbers_8"
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}alse,
       "decal1Wrap": false,
       "decal1Abs": false,
       "decal1OppositeMirrored": false,

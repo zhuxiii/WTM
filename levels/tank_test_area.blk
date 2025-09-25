@@ -56,11 +56,6 @@
   "clipmap_tex_mips": 5,
   "addLandToSky": true,
   "max_wind_strength": 3.0,
-  "fixedLocalProbePos": [
-    0.0,
-    50.0,
-    0.0
-  ],
   "tank_z_far": 12000.0,
   "mapCoord0": [
     -32768.0,
@@ -130,6 +125,10 @@
       "microdetail_metal_a_tex_n",
       "microdetail_snow_a_tex_n",
       "microdetail_generic_granules_a_tex_n"
+    ],
+    "land_micro_details_uv_scale": 0.51
+  }
+}ex_n"
     ],
     "land_micro_details_uv_scale": 0.51
   }

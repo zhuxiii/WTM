@@ -3150,9 +3150,7 @@
     "machinegun_belt_stealth": {},
     "art_support_smoke": {},
     "art_support_mortars": {},
-    "art_support_highcaliber": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {}
+    "art_support_highcaliber": {}
   },
   "vehicleSkins": {
     "forest": {
@@ -3427,6 +3425,11 @@
       "decal0Wrap": false,
       "decal0Abs": true,
       "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.200819,
+      "decal0Tex": "back_16"
+    }
+  }
+}d": false,
       "decal0WidthBox": 0.200819,
       "decal0Tex": "back_16"
     }

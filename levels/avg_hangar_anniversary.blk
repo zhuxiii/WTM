@@ -19,11 +19,6 @@
   "clipmap_tex_mips": 5,
   "addLandToSky": true,
   "max_wind_strength": 3.0,
-  "fixedLocalProbePos": [
-    0.0,
-    50.0,
-    0.0
-  ],
   "mapCoord0": [
     -32768.0,
     -32768.0
@@ -36,6 +31,8 @@
     12000.0,
     12000.0
   ],
+  "customLevelMap": "avg_abandoned_factory_map*",
+  "customLevelTankMap": "avg_abandoned_factory_tankmap*",
   "tankMapCoord0": [
     1584.0,
     1505.0
@@ -764,9 +761,6 @@
       "hangar_sound": "new_hangar/hangar_ships_xmas",
       "hangar_sound_tanks": "new_hangar/hangar_tanks_xmas",
       "hangar_sound_ships": "new_hangar/hangar_ships_xmas"
-    }
-  }
-}ships": "new_hangar/hangar_ships_xmas"
     }
   }
 }

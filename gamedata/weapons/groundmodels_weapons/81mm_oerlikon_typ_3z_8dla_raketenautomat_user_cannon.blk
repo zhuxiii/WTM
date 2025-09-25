@@ -145,7 +145,13 @@
       "ricochetEffect": "hit_133_160mm_metal_ap",
       "waterCollisionEffect": "hit_133_160mm_water",
       "explosionPatchRadius": 4.0,
-      "smokeEffect": "trail_smoke",
+      "fireEffect": "rocket_fire_short",
+      "smokeEffect": [
+        "",
+        "trail_smoke"
+      ],
+      "hazeEffect": "haze_missile",
+      "endSmokeViscosity": 0.05,
       "maxDistance": 6000.0,
       "minDistance": 30.0,
       "spawnExplosionWreckage": false,
@@ -585,7 +591,13 @@
         "ricochetEffect": "hit_133_160mm_metal_ap",
         "waterCollisionEffect": "hit_133_160mm_water",
         "explosionPatchRadius": 4.0,
-        "smokeEffect": "trail_smoke",
+        "fireEffect": "rocket_fire_short",
+        "smokeEffect": [
+          "",
+          "trail_smoke"
+        ],
+        "hazeEffect": "haze_missile",
+        "endSmokeViscosity": 0.05,
         "maxDistance": 6000.0,
         "minDistance": 30.0,
         "spawnExplosionWreckage": false,
@@ -1010,7 +1022,13 @@
         "ricochetEffect": "hit_133_160mm_metal_ap",
         "waterCollisionEffect": "hit_133_160mm_water",
         "explosionPatchRadius": 4.0,
-        "smokeEffect": "trail_smoke",
+        "fireEffect": "rocket_fire_short",
+        "smokeEffect": [
+          "",
+          "trail_smoke"
+        ],
+        "hazeEffect": "haze_missile",
+        "endSmokeViscosity": 0.05,
         "maxDistance": 6000.0,
         "minDistance": 30.0,
         "spawnExplosionWreckage": false,

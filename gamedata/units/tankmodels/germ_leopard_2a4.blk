@@ -3103,7 +3103,6 @@
     "art_support_highcaliber": {},
     "tank_smoke_screen_low_cooldown": {},
     "tank_smoke_screen_long_duration": {},
-    "tank_additional_armor": {},
     "tank_smoke_screen_system_mod": {
       "effects": {
         "commonWeapons": {
@@ -3851,6 +3850,10 @@
       "details",
       "details_01",
       "details_02",
+      "details_03"
+    ]
+  }
+}",
       "details_03"
     ]
   }

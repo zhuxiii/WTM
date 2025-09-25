@@ -2569,13 +2569,9 @@
     "art_support": {},
     "tank_extinguisher": {},
     "tank_tool_kit_expendable": {},
-    "machinegun_belt_ap": {},
-    "machinegun_belt_tracer": {},
-    "machinegun_belt_stealth": {},
     "art_support_smoke": {},
     "art_support_mortars": {},
     "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
     "tank_smoke_screen_low_cooldown": {},
     "tank_smoke_screen_long_duration": {},
     "tank_smoke_screen_system_mod": {
@@ -3101,6 +3097,84 @@
       "decal3OppositeMirrored": false,
       "decal3WidthBox": 0.200001,
       "decal3Tex": "japan_numbers_red_8"
+    }
+  },
+  "vehicleSkins": {
+    "forest": {
+      "replace_tex": {
+        "from": "jp_camo_sdf_green*",
+        "to": "jp_camo_modern_bicolor*"
+      }
+    },
+    "forest2": {
+      "replace_tex": {
+        "from": "jp_camo_sdf_green*",
+        "to": "jp_camo_post_sand_gray_green*"
+      }
+    }
+  },
+  "defaultDecals": {
+    "default": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    },
+    "forest": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    },
+    "forest2": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0,
+      "decal0Line0": [
+        4.47787,
+        -1.95734e-7,
+        1.41053e-7,
+        -0.773798
+      ],
+      "decal0Line1": [
+        -1.95734e-7,
+        -4.47787,
+        0.00000246856,
+        11.131
+      ],
+      "decal0Line2": [
+        -4.47787,
+        -1.95734e-7,
+        1.41053e-7,
+        1.7738
+      ],
+      "decal0Line3": [
+        1.95734e-7,
+        -4.47787,
+        -0.00000246856,
+        11.131
+      ],
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        3.15e-8,
+        -5.5128e-7,
+        -1.0,
+        -1.36763
+      ],
+      "decal0CPNormDepth1": [
+        3.15e-8,
+        -5.5128e-7,
+        1.0,
+        -1.36763
+      ],
+      "decal0RotScale": [
+        1.5708,
+        0.223321
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.200001,
+      "decal0Tex": "jp_5th_sensha_rentai_1_company"
     }
   }
 }

@@ -3388,9 +3388,7 @@
     "art_support_smoke": {},
     "art_support_mortars": {},
     "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {}
+    "tank_smoke_screen_smoke_shell": {}
   },
   "battleHideNodes": {
     "n": "details"
@@ -3399,6 +3397,13 @@
     "replace_tex": {
       "from": "us_camo_olive*",
       "to": "jp_camo_post_green*"
+    }
+  },
+  "defaultDecals": {
+    "default": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
     }
   },
   "upgraded_skin": {

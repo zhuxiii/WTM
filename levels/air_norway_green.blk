@@ -5,11 +5,6 @@
   "volumeCloudsActive": true,
   "z_far": 50000.0,
   "addLandToSky": false,
-  "fixedLocalProbePos": [
-    0.0,
-    500.0,
-    0.0
-  ],
   "mapCoord0": [
     -16384.0,
     -16384.0
@@ -354,6 +349,10 @@
     ]
   },
   "technicsSkins": {},
+  "render": {
+    "riExtraMinSizeForReflection": 0.0
+  }
+}
   "render": {
     "riExtraMinSizeForReflection": 0.0
   }

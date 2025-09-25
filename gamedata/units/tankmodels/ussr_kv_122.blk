@@ -2416,11 +2416,10 @@
     "machinegun_belt_ap": {},
     "machinegun_belt_tracer": {},
     "machinegun_belt_stealth": {},
+    "tank_additional_armor": {},
     "art_support_smoke": {},
     "art_support_mortars": {},
-    "art_support_highcaliber": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {}
+    "art_support_highcaliber": {}
   },
   "default_skin": {
     "replace_tex": {
@@ -2774,6 +2773,10 @@
       "cutDamage": 350.0,
       "deviation": 0.4,
       "rotation": 2.5,
+      "collisionNode": "cls_turret_01"
+    }
+  }
+},
       "collisionNode": "cls_turret_01"
     }
   }

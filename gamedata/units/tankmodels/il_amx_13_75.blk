@@ -2606,7 +2606,6 @@
     "art_support_smoke": {},
     "art_support_mortars": {},
     "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
     "tank_smoke_screen_low_cooldown": {},
     "tank_smoke_screen_long_duration": {},
     "tank_smoke_screen_system_mod": {
@@ -2808,6 +2807,18 @@
         "from": "fr_camo_vert_olive_arme*",
         "to": "isr_camo_sandgreen*"
       }
+    },
+    "desert": {
+      "replace_tex": {
+        "from": "fr_camo_vert_olive_arme*",
+        "to": "isr_camo_threecolor*"
+      }
+    },
+    "winter": {
+      "replace_tex": {
+        "from": "fr_camo_vert_olive_arme*",
+        "to": "fr_camo_winter_green_white*"
+      }
     }
   },
   "defaultDecals": {
@@ -2867,6 +2878,16 @@
       "decal0OppositeMirrored": false,
       "decal0WidthBox": 0.232536,
       "decal0Tex": "il_first_company"
+    },
+    "desert": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    },
+    "winter": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
     }
   }
 }

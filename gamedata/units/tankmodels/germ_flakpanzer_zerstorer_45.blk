@@ -3379,14 +3379,9 @@
     "art_support": {},
     "tank_extinguisher": {},
     "tank_tool_kit_expendable": {},
-    "machinegun_belt_ap": {},
-    "machinegun_belt_tracer": {},
-    "machinegun_belt_stealth": {},
     "art_support_smoke": {},
     "art_support_mortars": {},
-    "art_support_highcaliber": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {}
+    "art_support_highcaliber": {}
   },
   "sound": {
     "EngineName": "engine_medium_petrol",
@@ -3486,23 +3481,33 @@
       "collisionNode": "cls_turret_01"
     }
   },
+  "default_skin": {
+    "replace_tex": {
+      "from": "ger_camo_dunkelgelb*",
+      "to": "ger_camo_dunkelgelb*"
+    }
+  },
   "defaultDecals": {
     "default": {
       "skin_condition": 100.0,
       "camo_scale": 0.0,
       "camo_rotation": 0.0
-    },
-    "forest": {
+    }
+  },
+  "upgraded_skin": {
+    "replace_tex": {
+      "from": "ger_camo_dunkelgelb*",
+      "to": "ger_camo_dunkelgelb_green_braun_blots_small*"
+    }
+  },
+  "upgradedDecals": {
+    "upgraded": {
       "skin_condition": 100.0,
       "camo_scale": 0.0,
-      "camo_rotation": 0.0,
-      "decal0Line0": [
-        2.79054,
-        -4.15823e-8,
-        1.19549e-7,
-        -0.605783
-      ],
-      "decal0Line1": [
+      "camo_rotation": 0.0
+    }
+  }
+}[
         -1.21978e-7,
         -0.463213,
         2.75183,

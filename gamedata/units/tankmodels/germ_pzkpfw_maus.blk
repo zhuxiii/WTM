@@ -3035,17 +3035,20 @@
   "default_skin": {
     "replace_tex": {
       "from": "ger_camo_dunkelgelb*",
-      "to": "ger_camo_dunkelgelb_green*"
+      "to": "ger_camo_dunkelgelb*"
     }
   },
   "defaultDecals": {
     "default": {
       "skin_condition": 100.0,
       "camo_scale": 0.0,
-      "camo_rotation": -12.0,
-      "decal0Line0": [
-        2.05606,
-        -3.20225e-8,
+      "camo_rotation": 0.0
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}3.20225e-8,
         0.0000319816,
         3.26318
       ],

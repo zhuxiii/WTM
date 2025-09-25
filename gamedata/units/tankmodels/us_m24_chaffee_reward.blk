@@ -2564,9 +2564,7 @@
     "art_support_smoke": {},
     "art_support_mortars": {},
     "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {}
+    "tank_smoke_screen_smoke_shell": {}
   },
   "default_skin": {
     "replace_tex": {
@@ -2591,6 +2589,13 @@
         "skin_condition": 100.0,
         "camo_scale": 0.0,
         "camo_rotation": 0.0
+      }
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}amo_rotation": 0.0
       }
     }
   },
