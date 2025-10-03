@@ -43476,7 +43476,7 @@
     "Shop": {
       "shipCrewMax": 180,
       "shipCrewMin": 30,
-      "shipCrewRating": 2.66182,
+      "shipCrewRating": 2.72758,
       "maxSpeed": 16.56,
       "turningTime": 19,
       "addTorpedoesCountPack": 4,
@@ -43566,7 +43566,7 @@
     "Shop": {
       "shipCrewMax": 220,
       "shipCrewMin": 30,
-      "shipCrewRating": 2.72758,
+      "shipCrewRating": 3.03485,
       "maxSpeed": 14.4,
       "turningTime": 17,
       "addTorpedoesCountPack": 3,
@@ -48502,6 +48502,7 @@
           "caliber": 75.0,
           "armorPower": 182.683,
           "reloadTime": 4.7619,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": false
         },
@@ -48562,6 +48563,7 @@
           "caliber": 40.0,
           "armorPower": 49.8047,
           "reloadTime": 0.25,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": true
         }
@@ -48614,6 +48616,7 @@
           "caliber": 40.0,
           "armorPower": 49.8047,
           "reloadTime": 0.25,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": true
         }
@@ -48666,6 +48669,7 @@
           "caliber": 40.0,
           "armorPower": 49.8047,
           "reloadTime": 0.25,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": true
         }
@@ -51255,6 +51259,7 @@
           "caliber": 90.0,
           "armorPower": 197.866,
           "reloadTime": 4.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 36.0,
           "isBeltAmmo": false
         },
@@ -51312,6 +51317,7 @@
           "caliber": 90.0,
           "armorPower": 215.056,
           "reloadTime": 6.66667,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": false
         },
@@ -51375,6 +51381,7 @@
           "caliber": 75.0,
           "armorPower": 182.683,
           "reloadTime": 5.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": false
         },
@@ -53447,6 +53454,7 @@
           "caliber": 105.0,
           "armorPower": 266.821,
           "reloadTime": 5.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 18.0,
           "isBeltAmmo": false
         },
@@ -54159,6 +54167,7 @@
           "caliber": 85.0,
           "armorPower": 244.841,
           "reloadTime": 4.2735,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 20.0,
           "isBeltAmmo": false
         },
@@ -54222,6 +54231,7 @@
           "caliber": 85.0,
           "armorPower": 244.841,
           "reloadTime": 4.2735,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 20.0,
           "isBeltAmmo": false
         },
@@ -55475,6 +55485,7 @@
           "caliber": 90.0,
           "armorPower": 192.413,
           "reloadTime": 5.9988,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 24.0,
           "isBeltAmmo": false
         },
@@ -55752,6 +55763,7 @@
           "caliber": 136.0,
           "armorPower": 700.0,
           "reloadTime": 10.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 25.0,
           "isBeltAmmo": false
         },
@@ -55807,6 +55819,7 @@
           "caliber": 180.0,
           "armorPower": 500.0,
           "reloadTime": 11.1111,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 25.0,
           "isBeltAmmo": false
         },
@@ -56517,6 +56530,7 @@
           "caliber": 105.0,
           "armorPower": 258.0,
           "reloadTime": 4.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": false
         },
@@ -56818,6 +56832,7 @@
           "caliber": 105.0,
           "armorPower": 350.485,
           "reloadTime": 5.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 24.0,
           "isBeltAmmo": false
         },
@@ -58525,6 +58540,7 @@
           "caliber": 152.0,
           "armorPower": 480.0,
           "reloadTime": 10.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 18.0,
           "isBeltAmmo": false
         }
@@ -62445,6 +62461,7 @@
           "caliber": 60.0,
           "armorPower": 246.0,
           "reloadTime": 2.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 34.3,
           "isBeltAmmo": false
         },
@@ -62703,6 +62720,7 @@
           "caliber": 75.0,
           "armorPower": 182.683,
           "reloadTime": 5.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": false
         },
@@ -62837,6 +62855,7 @@
           "caliber": 120.0,
           "armorPower": 301.537,
           "reloadTime": 5.98802,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": false
         },
@@ -63508,6 +63527,7 @@
           "caliber": 85.0,
           "armorPower": 244.841,
           "reloadTime": 4.2735,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 20.0,
           "isBeltAmmo": false
         },
@@ -64276,6 +64296,7 @@
           "caliber": 40.0,
           "armorPower": 142.0,
           "reloadTime": 0.2,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 34.9,
           "isBeltAmmo": false
         },
@@ -64351,6 +64372,7 @@
           "caliber": 105.0,
           "armorPower": 400.0,
           "reloadTime": 5.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": false
         },
@@ -65165,6 +65187,7 @@
           "caliber": 90.0,
           "armorPower": 197.866,
           "reloadTime": 4.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 36.0,
           "isBeltAmmo": false
         },
@@ -65294,6 +65317,7 @@
           "caliber": 125.0,
           "armorPower": 480.0,
           "reloadTime": 7.10227,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": false
         },
@@ -65433,6 +65457,7 @@
           "caliber": 152.0,
           "armorPower": 1200.0,
           "reloadTime": 1.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 15.0,
           "isBeltAmmo": false
         }
@@ -65633,6 +65658,7 @@
           "caliber": 100.0,
           "armorPower": 390.0,
           "reloadTime": 5.9988,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 20.0,
           "isBeltAmmo": false
         },
@@ -65688,6 +65714,7 @@
           "caliber": 180.0,
           "armorPower": 500.0,
           "reloadTime": 11.1111,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 25.0,
           "isBeltAmmo": false
         },
@@ -66267,6 +66294,7 @@
           "caliber": 152.0,
           "armorPower": 380.0,
           "reloadTime": 7.49625,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 36.0,
           "isBeltAmmo": false
         },
@@ -66771,6 +66799,7 @@
           "caliber": 35.0,
           "armorPower": 127.063,
           "reloadTime": 0.29994,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": false
         },
@@ -66902,6 +66931,7 @@
           "caliber": 100.0,
           "armorPower": 273.154,
           "reloadTime": 4.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": false
         },
@@ -66959,6 +66989,7 @@
           "caliber": 155.0,
           "armorPower": 54.0,
           "reloadTime": 7.49625,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 10.0,
           "isBeltAmmo": false
         },
@@ -67037,6 +67068,7 @@
           "caliber": 75.0,
           "armorPower": 182.683,
           "reloadTime": 5.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": false
         },
@@ -67670,6 +67702,7 @@
           "caliber": 125.0,
           "armorPower": 440.0,
           "reloadTime": 7.10227,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 20.0,
           "isBeltAmmo": false
         },
@@ -67747,6 +67780,7 @@
           "caliber": 125.0,
           "armorPower": 440.0,
           "reloadTime": 7.10227,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 20.0,
           "isBeltAmmo": false
         },
@@ -67903,6 +67937,7 @@
           "caliber": 130.0,
           "armorPower": 800.0,
           "reloadTime": 8.33333,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 25.0,
           "isBeltAmmo": false
         }
@@ -68895,6 +68930,7 @@
           "caliber": 152.0,
           "armorPower": 380.0,
           "reloadTime": 5.9988,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 36.0,
           "isBeltAmmo": false
         },
@@ -68980,6 +69016,7 @@
           "caliber": 57.0,
           "armorPower": 126.093,
           "reloadTime": 0.300003,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 55.0,
           "isBeltAmmo": false
         },
@@ -68996,6 +69033,7 @@
           "caliber": 127.0,
           "armorPower": 430.0,
           "reloadTime": 10.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 25.0,
           "isBeltAmmo": false
         }
@@ -69672,6 +69710,7 @@
           "caliber": 105.0,
           "armorPower": 358.074,
           "reloadTime": 4.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": false
         },
@@ -69740,6 +69779,7 @@
           "caliber": 105.0,
           "armorPower": 358.074,
           "reloadTime": 4.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": false
         },
@@ -70297,6 +70337,7 @@
           "caliber": 105.0,
           "armorPower": 400.0,
           "reloadTime": 4.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": false
         },
@@ -70489,6 +70530,7 @@
           "caliber": 105.0,
           "armorPower": 400.0,
           "reloadTime": 5.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 42.0,
           "isBeltAmmo": false
         },
@@ -71016,6 +71058,9 @@
         "90mm_us_M332_APCR": {
           "icon": "hud_ammo_apcr"
         },
+        "90mm_us_T108_HEAT": {
+          "icon": "hud_ammo_heat"
+        },
         "default": {
           "icon": "hud_ammo_ap2_he0"
         },
@@ -71187,6 +71232,7 @@
           "caliber": 125.0,
           "armorPower": 550.0,
           "reloadTime": 7.10227,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 24.0,
           "isBeltAmmo": false
         },
@@ -71265,6 +71311,7 @@
           "caliber": 125.0,
           "armorPower": 550.0,
           "reloadTime": 7.10227,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 24.0,
           "isBeltAmmo": false
         },
@@ -72556,242 +72603,6 @@
       }
     }
   },
-  "us_m4a1_76w_sherman_event": {
-    "type": "tank",
-    "hangar_place": "tank",
-    "testFlight": "testFlight_ussr_tft",
-    "tags": {
-      "country_usa": true,
-      "tank": true,
-      "type_medium_tank": true
-    },
-    "bullets": {
-      "76mm_M1_m4a1_76w_sherman_user_cannon": {
-        "default": {
-          "icon": "hud_ammo_ap1_he1"
-        }
-      }
-    },
-    "Shop": {
-      "mainWeaponCaliber": 76.2,
-      "armorThicknessFront": [
-        0.45,
-        0.3,
-        0.25
-      ],
-      "armorThicknessSide": [
-        0.1,
-        0.05,
-        0.85
-      ],
-      "crew": 5,
-      "mass": 32673.0,
-      "maxSpeedForward": 10.5579,
-      "maxSpeedBackward": 1.37215,
-      "powerToWeightRatio": 12.2425,
-      "weapons": {
-        "76mm_M1_m4a1_76w_sherman_user_cannon": {
-          "wtype": "mainCannon",
-          "caliber": 76.2,
-          "armorPower": 149.238,
-          "reloadTime": 5.88235,
-          "gunnerTurretRotationSpeed": 24.0,
-          "isBeltAmmo": false
-        },
-        "7_62mm_M1919A4_user_machinegun": {
-          "wtype": "machinegun",
-          "caliber": 7.62,
-          "armorPower": 6.5,
-          "reloadTime": 0.120048,
-          "gunnerTurretRotationSpeed": 5.5,
-          "isBeltAmmo": true
-        },
-        "12_7mm_M2_HB_user_machinegun": {
-          "wtype": "machinegun",
-          "caliber": 12.7,
-          "armorPower": 23.3753,
-          "reloadTime": 0.104167,
-          "gunnerTurretRotationSpeed": 90.0,
-          "isBeltAmmo": true
-        }
-      }
-    }
-  },
-  "us_m6a1_event": {
-    "type": "tank",
-    "hangar_place": "tank",
-    "testFlight": "testFlight_ussr_tft",
-    "tags": {
-      "country_usa": true,
-      "tank": true,
-      "type_heavy_tank": true
-    },
-    "bullets": {
-      "76mm_M7_user_cannon": {
-        "default": {
-          "icon": "hud_ammo_ap1_he1"
-        }
-      },
-      "37mm_M3_user_cannon_for_M6A1": {
-        "37mm_usa_m3_APC": {
-          "icon": "hud_ammo_ap2_he0"
-        },
-        "default": {
-          "icon": "hud_ammo_ap1_he0"
-        }
-      }
-    },
-    "Shop": {
-      "mainWeaponCaliber": 76.2,
-      "armorThicknessFront": [
-        0.6,
-        0.25,
-        0.15
-      ],
-      "armorThicknessSide": [
-        0.2,
-        0.3,
-        0.5
-      ],
-      "crew": 6,
-      "mass": 56835.0,
-      "maxSpeedForward": 9.734,
-      "maxSpeedBackward": 1.26507,
-      "powerToWeightRatio": 14.0758,
-      "weapons": {
-        "76mm_M7_user_cannon": {
-          "wtype": "mainCannon",
-          "caliber": 76.2,
-          "armorPower": 149.238,
-          "reloadTime": 5.88235,
-          "gunnerTurretRotationSpeed": 18.0,
-          "isBeltAmmo": false
-        },
-        "37mm_M3_user_cannon_for_M6A1": {
-          "wtype": "auxCannon",
-          "caliber": 37.0,
-          "armorPower": 78.9644,
-          "reloadTime": 2.85714,
-          "gunnerTurretRotationSpeed": 18.0,
-          "isBeltAmmo": false
-        },
-        "12_7mm_M2_HB_user_machinegun": {
-          "wtype": "machinegun",
-          "caliber": 12.7,
-          "armorPower": 23.3753,
-          "reloadTime": 0.104167,
-          "gunnerTurretRotationSpeed": 5.0,
-          "isBeltAmmo": true
-        }
-      }
-    }
-  },
-  "us_m18_hellcat_event": {
-    "type": "tank",
-    "hangar_place": "tank",
-    "testFlight": "testFlight_ussr_tft",
-    "tags": {
-      "country_usa": true,
-      "tank": true,
-      "type_light_tank": true,
-      "scout": true,
-      "canRepairAnyAlly": true
-    },
-    "bullets": {
-      "76mm_M1_user_cannon": {
-        "76mm_usa_APCBC": {
-          "icon": "hud_ammo_ap2_he1"
-        },
-        "default": {
-          "icon": "hud_ammo_ap1_he0"
-        }
-      }
-    },
-    "Shop": {
-      "mainWeaponCaliber": 76.2,
-      "armorThicknessFront": [
-        0.05,
-        0.0,
-        0.95
-      ],
-      "armorThicknessSide": [
-        0.05,
-        0.0,
-        0.95
-      ],
-      "crew": 5,
-      "mass": 17690.0,
-      "maxSpeedForward": 20.0649,
-      "maxSpeedBackward": 6.47596,
-      "powerToWeightRatio": 22.6116,
-      "weapons": {
-        "76mm_M1_user_cannon": {
-          "wtype": "mainCannon",
-          "caliber": 76.2,
-          "armorPower": 134.336,
-          "reloadTime": 6.06061,
-          "gunnerTurretRotationSpeed": 24.0,
-          "isBeltAmmo": false
-        },
-        "12_7mm_M2_HB_user_machinegun": {
-          "wtype": "machinegun",
-          "caliber": 12.7,
-          "armorPower": 23.3753,
-          "reloadTime": 0.104167,
-          "gunnerTurretRotationSpeed": 90.0,
-          "isBeltAmmo": true
-        }
-      }
-    }
-  },
-  "us_m42_duster_event": {
-    "type": "tank",
-    "hangar_place": "tank",
-    "testFlight": "testFlight_ussr_tft",
-    "tags": {
-      "country_usa": true,
-      "tank": true,
-      "type_spaa": true
-    },
-    "bullets": {
-      "40mm_M2_user_cannon": {
-        "40mm_usa_M2_AP": {
-          "icon": "hud_ammo_bullet_ap"
-        },
-        "default": {
-          "icon": "hud_ammo_bullet_ap_he"
-        }
-      }
-    },
-    "Shop": {
-      "mainWeaponCaliber": 40.0,
-      "armorThicknessFront": [
-        0.05,
-        0.0,
-        0.95
-      ],
-      "armorThicknessSide": [
-        0.0,
-        0.0,
-        1.0
-      ],
-      "crew": 6,
-      "mass": 22450.0,
-      "maxSpeedForward": 20.1226,
-      "maxSpeedBackward": 5.22666,
-      "powerToWeightRatio": 22.2717,
-      "weapons": {
-        "40mm_M2_user_cannon": {
-          "wtype": "mainCannon",
-          "caliber": 40.0,
-          "armorPower": 38.6924,
-          "reloadTime": 0.5,
-          "gunnerTurretRotationSpeed": 40.0,
-          "isBeltAmmo": true
-        }
-      }
-    }
-  },
   "cn_ztz_96a": {
     "type": "tank",
     "hangar_place": "tank",
@@ -72830,6 +72641,7 @@
           "caliber": 125.0,
           "armorPower": 480.0,
           "reloadTime": 7.10227,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": false
         },
@@ -72991,6 +72803,7 @@
           "caliber": 100.0,
           "armorPower": 31.026,
           "reloadTime": 4.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 0.0,
           "isBeltAmmo": false
         },
@@ -73265,6 +73078,7 @@
           "caliber": 136.0,
           "armorPower": 700.0,
           "reloadTime": 1.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": false
         }
@@ -73598,6 +73412,7 @@
           "caliber": 125.0,
           "armorPower": 500.0,
           "reloadTime": 5.9988,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 20.0,
           "isBeltAmmo": false
         },
@@ -74360,6 +74175,7 @@
           "caliber": 155.0,
           "armorPower": 61.3456,
           "reloadTime": 5.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 11.25,
           "isBeltAmmo": false
         },
@@ -74676,6 +74492,7 @@
           "caliber": 90.0,
           "armorPower": 215.056,
           "reloadTime": 6.66667,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": false
         },
@@ -75499,6 +75316,7 @@
           "caliber": 105.0,
           "armorPower": 400.0,
           "reloadTime": 7.49625,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 40.0,
           "isBeltAmmo": false
         },
@@ -75697,6 +75515,7 @@
           "caliber": 57.0,
           "armorPower": 151.383,
           "reloadTime": 0.5,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 35.0,
           "isBeltAmmo": false
         },
@@ -76462,6 +76281,7 @@
           "caliber": 40.0,
           "armorPower": 142.0,
           "reloadTime": 0.2,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 34.9,
           "isBeltAmmo": false
         },
@@ -76529,6 +76349,7 @@
           "caliber": 40.0,
           "armorPower": 142.0,
           "reloadTime": 0.2,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 34.9,
           "isBeltAmmo": false
         },
@@ -77245,6 +77066,7 @@
           "caliber": 152.0,
           "armorPower": 380.0,
           "reloadTime": 7.49625,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 42.0,
           "isBeltAmmo": false
         },
@@ -77846,6 +77668,7 @@
           "caliber": 120.0,
           "armorPower": 442.0,
           "reloadTime": 5.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 18.0,
           "isBeltAmmo": false
         },
@@ -78231,6 +78054,7 @@
           "caliber": 155.0,
           "armorPower": 57.5,
           "reloadTime": 3.20513,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 10.0,
           "isBeltAmmo": false
         }
@@ -78358,6 +78182,7 @@
           "caliber": 105.0,
           "armorPower": 358.074,
           "reloadTime": 4.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": false
         },
@@ -78487,6 +78312,7 @@
           "caliber": 125.0,
           "armorPower": 550.0,
           "reloadTime": 6.50745,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 24.0,
           "isBeltAmmo": false
         },
@@ -78567,6 +78393,7 @@
           "caliber": 125.0,
           "armorPower": 550.0,
           "reloadTime": 7.10227,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 24.0,
           "isBeltAmmo": false
         },
@@ -78648,6 +78475,7 @@
           "caliber": 125.0,
           "armorPower": 550.0,
           "reloadTime": 7.10227,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 35.0,
           "isBeltAmmo": false
         },
@@ -79317,6 +79145,7 @@
           "caliber": 155.0,
           "armorPower": 61.3456,
           "reloadTime": 7.49625,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 11.0,
           "isBeltAmmo": false
         },
@@ -79380,6 +79209,7 @@
           "caliber": 75.0,
           "armorPower": 182.683,
           "reloadTime": 5.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": false
         },
@@ -79559,6 +79389,7 @@
           "caliber": 125.0,
           "armorPower": 440.0,
           "reloadTime": 7.10227,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 20.0,
           "isBeltAmmo": false
         },
@@ -79633,6 +79464,7 @@
           "caliber": 125.0,
           "armorPower": 550.0,
           "reloadTime": 7.10227,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 35.0,
           "isBeltAmmo": false
         },
@@ -79703,6 +79535,7 @@
           "caliber": 130.0,
           "armorPower": 800.0,
           "reloadTime": 8.33333,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 25.0,
           "isBeltAmmo": false
         }
@@ -79760,6 +79593,7 @@
           "caliber": 57.0,
           "armorPower": 151.383,
           "reloadTime": 0.5,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 60.0,
           "isBeltAmmo": false
         },
@@ -79980,6 +79814,7 @@
           "caliber": 105.0,
           "armorPower": 400.0,
           "reloadTime": 7.49625,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 40.0,
           "isBeltAmmo": false
         },
@@ -80220,6 +80055,7 @@
           "caliber": 105.0,
           "armorPower": 400.0,
           "reloadTime": 5.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": false
         },
@@ -80598,6 +80434,7 @@
           "caliber": 125.0,
           "armorPower": 480.0,
           "reloadTime": 7.10227,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": false
         },
@@ -80672,6 +80509,7 @@
           "caliber": 125.0,
           "armorPower": 480.0,
           "reloadTime": 7.10227,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": false
         },
@@ -80759,6 +80597,7 @@
           "caliber": 100.0,
           "armorPower": 31.026,
           "reloadTime": 4.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 0.0,
           "isBeltAmmo": false
         },
@@ -81158,6 +80997,7 @@
           "caliber": 120.0,
           "armorPower": 480.0,
           "reloadTime": 4.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": false
         },
@@ -81223,6 +81063,7 @@
           "caliber": 120.0,
           "armorPower": 480.0,
           "reloadTime": 4.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 30.0,
           "isBeltAmmo": false
         },
@@ -81652,6 +81493,7 @@
           "caliber": 125.0,
           "armorPower": 440.0,
           "reloadTime": 7.10227,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 20.0,
           "isBeltAmmo": false
         },
@@ -81723,6 +81565,7 @@
           "caliber": 125.0,
           "armorPower": 550.0,
           "reloadTime": 7.10227,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 24.0,
           "isBeltAmmo": false
         },
@@ -82186,6 +82029,7 @@
           "caliber": 125.0,
           "armorPower": 550.0,
           "reloadTime": 7.10227,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 24.0,
           "isBeltAmmo": false
         },
@@ -82469,6 +82313,7 @@
           "caliber": 152.0,
           "armorPower": 62.4915,
           "reloadTime": 7.49625,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 10.0,
           "isBeltAmmo": false
         },
@@ -82541,6 +82386,7 @@
           "caliber": 152.0,
           "armorPower": 62.4915,
           "reloadTime": 7.49625,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 10.0,
           "isBeltAmmo": false
         },
@@ -82705,6 +82551,7 @@
           "caliber": 85.0,
           "armorPower": 244.841,
           "reloadTime": 4.2735,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 20.0,
           "isBeltAmmo": false
         },
@@ -83389,6 +83236,7 @@
           "caliber": 105.0,
           "armorPower": 400.0,
           "reloadTime": 5.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 45.8,
           "isBeltAmmo": false
         },
@@ -83453,6 +83301,7 @@
           "caliber": 120.0,
           "armorPower": 480.0,
           "reloadTime": 4.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 40.0,
           "isBeltAmmo": false
         },
@@ -83881,6 +83730,7 @@
           "caliber": 125.0,
           "armorPower": 550.0,
           "reloadTime": 6.50745,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 24.0,
           "isBeltAmmo": false
         },
@@ -84503,6 +84353,7 @@
           "caliber": 155.0,
           "armorPower": 61.3456,
           "reloadTime": 5.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 11.25,
           "isBeltAmmo": false
         },
@@ -85038,6 +84889,7 @@
           "caliber": 125.0,
           "armorPower": 550.0,
           "reloadTime": 6.50745,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 24.0,
           "isBeltAmmo": false
         },
@@ -85198,6 +85050,7 @@
           "caliber": 152.0,
           "armorPower": 480.0,
           "reloadTime": 10.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 18.0,
           "isBeltAmmo": false
         }
@@ -86058,6 +85911,7 @@
           "caliber": 155.0,
           "armorPower": 61.3456,
           "reloadTime": 5.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 11.25,
           "isBeltAmmo": false
         },
@@ -86773,6 +86627,7 @@
           "caliber": 152.0,
           "armorPower": 480.0,
           "reloadTime": 10.0,
+          "autoLoader": true,
           "gunnerTurretRotationSpeed": 18.0,
           "isBeltAmmo": false
         }
@@ -87511,6 +87366,128 @@
     "operatorCountry": "country_germany_modern",
     "tags": {
       "country_germany": true,
+      "tank": true,
+      "type_light_tank": true,
+      "scout": true,
+      "canRepairAnyAlly": true
+    },
+    "bullets": {
+      "76mm_KwK_M32_user_cannon": {
+        "76mm_usa_M32_APDS": {
+          "icon": "hud_ammo_apds"
+        },
+        "76mm_usa_M32_HEAT": {
+          "icon": "hud_ammo_heat"
+        },
+        "default": {
+          "icon": "hud_ammo_apcr"
+        },
+        "76mm_usa_M32_HE": {
+          "isHE": true,
+          "icon": "hud_ammo_he"
+        }
+      }
+    },
+    "Shop": {
+      "mainWeaponCaliber": 76.2,
+      "armorThicknessFront": [
+        0.05,
+        0.05,
+        0.9
+      ],
+      "armorThicknessSide": [
+        0.0,
+        0.05,
+        0.95
+      ],
+      "crew": 4,
+      "mass": 23100.0,
+      "maxSpeedForward": 20.1226,
+      "maxSpeedBackward": 5.22666,
+      "powerToWeightRatio": 21.645,
+      "weapons": {
+        "76mm_KwK_M32_user_cannon": {
+          "wtype": "mainCannon",
+          "caliber": 76.2,
+          "armorPower": 206.993,
+          "reloadTime": 5.88235,
+          "gunnerTurretRotationSpeed": 24.0,
+          "isBeltAmmo": false
+        },
+        "7_62mm_M1919A4_user_machinegun": {
+          "wtype": "machinegun",
+          "caliber": 7.62,
+          "armorPower": 6.5,
+          "reloadTime": 0.120048,
+          "gunnerTurretRotationSpeed": 5.5,
+          "isBeltAmmo": true
+        },
+        "12_7mm_M2_HB_user_machinegun": {
+          "wtype": "machinegun",
+          "caliber": 12.7,
+          "armorPower": 23.3753,
+          "reloadTime": 0.104167,
+          "gunnerTurretRotationSpeed": 90.0,
+          "isBeltAmmo": true
+        }
+      }
+    }
+  },
+  "germ_flakpanzer_zerstorer_45_legacy": {
+    "type": "tank",
+    "hangar_place": "tank",
+    "testFlight": "testFlight_germany_tft",
+    "tags": {
+      "country_germany": true,
+      "tank": true,
+      "type_spaa": true
+    },
+    "bullets": {
+      "30mm_mk103_45_user_cannon": {
+        "default": {
+          "icon": "hud_ammo_bullet_ap_he"
+        },
+        "30mm_mk_103_38_HE": {
+          "icon": "hud_ammo_bullet_he"
+        },
+        "30mm_mk_103_38_AP": {
+          "icon": "hud_ammo_bullet_ap"
+        },
+        "30mm_mk_103_38_APCR": {
+          "icon": "hud_ammo_bullet_ap"
+        }
+      }
+    },
+    "Shop": {
+      "mainWeaponCaliber": 30.0,
+      "armorThicknessFront": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "armorThicknessSide": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "crew": 5,
+      "mass": 25000.0,
+      "maxSpeedForward": 10.7471,
+      "maxSpeedBackward": 2.0088,
+      "powerToWeightRatio": 12.0,
+      "weapons": {
+        "30mm_mk103_45_user_cannon": {
+          "wtype": "mainCannon",
+          "caliber": 30.0,
+          "armorPower": 30.7892,
+          "reloadTime": 0.133333,
+          "gunnerTurretRotationSpeed": 60.0,
+          "isBeltAmmo": true
+        }
+      }
+    }
+  }
+}true,
       "tank": true,
       "type_light_tank": true,
       "scout": true,

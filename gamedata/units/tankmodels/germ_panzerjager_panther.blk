@@ -2936,6 +2936,9 @@
       }
     }
   },
+  "enabled_modifications": {
+    "tank_smoke_screen_system_mod": true
+  },
   "dmgAngles": {
     "hatch_06": [
       90.0,

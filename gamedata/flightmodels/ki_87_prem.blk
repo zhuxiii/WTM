@@ -4,6 +4,7 @@
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/fighter_metaparts.blk",
   "harmonizationSuffix": "_tomoe",
   "exhaustEffectsBlk": "gameData/FlightModels/exhaustEffects/exhaustEffects_common.blk",
+  "useTouchTargeting": true,
   "gyroSight": false,
   "type": "typeFighter",
   "paratrooper": "japan_para",

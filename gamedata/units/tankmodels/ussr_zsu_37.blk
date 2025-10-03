@@ -2743,6 +2743,31 @@
     "art_support_mortars": {},
     "art_support_highcaliber": {}
   },
+  "defaultDecals": {
+    "default": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    },
+    "forest": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  },
+  "vehicleSkins": {
+    "forest": {
+      "replace_tex": {
+        "from": "ussr_camo_green*",
+        "to": "ussr_camo_dkgreen_ltgreen_brown_ver_2*"
+      },
+      "set_tex": {
+        "from": "zsu_37_turret_c*",
+        "to": "zsu_37_skin_turret_c*",
+        "param": "camo_skin_tex"
+      }
+    }
+  },
   "upgraded_skin": {
     "replace_tex": {
       "from": "ussr_camo_green*",
@@ -2899,17 +2924,6 @@
     {
       "name": "ussr_camo_winter_lines",
       "nameLocId": "skin/ussr_camo_winter_lines",
-      "descLocId": "skin/ussr_camo_winter_lines/desc",
-      "replace_tex": {
-        "from": "ussr_camo_green*",
-        "to": "ussr_camo_winter_lines*"
-      }
-    }
-  ],
-  "battleHideNodes": {
-    "n": "details"
-  }
-}es",
       "descLocId": "skin/ussr_camo_winter_lines/desc",
       "replace_tex": {
         "from": "ussr_camo_green*",
