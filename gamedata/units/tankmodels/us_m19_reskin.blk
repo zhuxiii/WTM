@@ -59,6 +59,58 @@
       0.9
     ]
   },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
+    ]
+  },
   "ikGunner": [
     {
       "model": "us_gunner_officer_char",
@@ -2364,7 +2416,13 @@
     "tracks": {
       "animationMultiplier": 0.6,
       "height": 0.05,
-      "width": 0.406
+      "width": 0.406,
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.2,
+        0.3
+      ]
     },
     "collisionProps": {
       "cls_turret": "convex_hull",
@@ -2380,6 +2438,7 @@
       "driveGearRadius": 0.268,
       "mainGearRatio": 1.91,
       "sideGearRatio": 3.0,
+      "alternativeGearControl": 3.0,
       "gearRatios": {
         "ratio": [
           -2.44,
@@ -3000,19 +3059,6 @@
     "forest": {
       "replace_tex": {
         "from": "us_camo_olive*",
-        "to": "us_camo_olive*"
-      },
-      "decal": {
-        "skin_condition": 100.0,
-        "camo_scale": 0.0,
-        "camo_rotation": 0.0
-      }
-    }
-  },
-  "battleHideNodes": {
-    "n": "details"
-  }
-}amo_olive*",
         "to": "us_camo_olive*"
       },
       "decal": {

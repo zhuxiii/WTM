@@ -90,6 +90,58 @@
       ]
     ]
   },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
+    ]
+  },
   "sound": {
     "EngineName": "engine_medium_diesel",
     "TrackSoundPathStudio": "ground/engines",
@@ -326,11 +378,6 @@
   },
   "class_tags": {},
   "VehiclePhys": {
-    "tracks": {
-      "animationMultiplier": 0.68,
-      "height": 0.04,
-      "width": 0.55
-    },
     "collisionProps": {
       "cls_turret_01": "convex_hull",
       "cls_turret_02": "convex_hull",
@@ -340,24 +387,6 @@
       "horsePowers": 500.0,
       "maxRPM": 1800.0,
       "minRPM": 600.0
-    },
-    "mechanics": {
-      "steerType": "clutch_braking",
-      "maxBrakeForce": 100000.0,
-      "driveGearRadius": 0.317,
-      "mainGearRatio": 1.02,
-      "sideGearRatio": 5.7,
-      "minGearChangeTime": 0.0,
-      "gearRatios": {
-        "ratio": [
-          -5.35,
-          0.0,
-          5.0,
-          2.39,
-          1.45,
-          0.756
-        ]
-      }
     },
     "suspension": {
       "maxDisplacementOffsets": [
@@ -402,6 +431,34 @@
       "cls_body_02": 0.5,
       "cls_gun": 0.5,
       "cls_turret": 0.5
+    },
+    "tracks": {
+      "animationMultiplier": 0.68,
+      "height": 0.04,
+      "width": 0.55,
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.0,
+        0.3
+      ]
+    },
+    "mechanics": {
+      "maxBrakeForce": 100000.0,
+      "driveGearRadius": 0.317,
+      "mainGearRatio": 1.02,
+      "sideGearRatio": 5.7,
+      "alternativeGearControl": 2.0,
+      "gearRatios": {
+        "ratio": [
+          -5.35,
+          0.0,
+          5.0,
+          2.39,
+          1.45,
+          0.756
+        ]
+      }
     }
   },
   "PhysSys": {
@@ -2774,13 +2831,6 @@
         "slotId": 0,
         "traceNorm": [
           -0.750617,
-          0.640593,
-          0.16191
-        ]
-      }
-    }
-  }
-}       -0.750617,
           0.640593,
           0.16191
         ]

@@ -56,6 +56,58 @@
       0.85
     ]
   },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
+    ]
+  },
   "ikGunner": [
     {
       "model": "german_gunner_early_char",
@@ -2239,7 +2291,13 @@
     "tracks": {
       "animationMultiplier": 0.47,
       "height": 0.06,
-      "width": 0.4
+      "width": 0.4,
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.1,
+        0.3
+      ]
     },
     "collisionProps": {
       "cls_body": "convex_hull",
@@ -2257,6 +2315,7 @@
       "driveGearRadius": 0.36,
       "mainGearRatio": 2.4,
       "sideGearRatio": 6.5,
+      "alternativeGearControl": 3.0,
       "gearRatios": {
         "ratio": [
           -5.35,
@@ -3072,19 +3131,6 @@
     "forest": {
       "replace_tex": {
         "from": "ger_camo_dunkelgelb*",
-        "to": "ger_camo_dunkelgelb*"
-      },
-      "decal": {
-        "skin_condition": 100.0,
-        "camo_scale": 0.0,
-        "camo_rotation": 0.0
-      }
-    }
-  },
-  "battleHideNodes": {
-    "n": "details"
-  }
-}elb*",
         "to": "ger_camo_dunkelgelb*"
       },
       "decal": {

@@ -577,6 +577,14 @@
       "details_02"
     ]
   },
+  "gunConvergence": {
+    "defaultDistance": 800.0,
+    "vertical": true,
+    "horizontal": true
+  },
+  "enabled_modifications": {
+    "tank_smoke_screen_system_mod": true
+  },
   "steeringTableAlternative": {
     "point": [
       [
@@ -628,14 +636,6 @@
         1.0
       ]
     ]
-  },
-  "gunConvergence": {
-    "defaultDistance": 800.0,
-    "vertical": true,
-    "horizontal": true
-  },
-  "enabled_modifications": {
-    "tank_smoke_screen_system_mod": true
   },
   "dm_for_shop": {
     "armorThicknessFront": [

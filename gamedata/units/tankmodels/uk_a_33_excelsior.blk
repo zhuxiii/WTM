@@ -1083,7 +1083,7 @@
       "trackMass": 2000.0,
       "CenterOfGravityClampY": [
         0.0,
-        0.7
+        0.4
       ],
       "cls_body_01": 0.5,
       "cls_turret_01": 0.4,
@@ -1095,6 +1095,7 @@
       "mainGearRatio": 1.092,
       "sideGearRatio": 5.603,
       "neutralGearRatio": 17.0,
+      "alternativeGearControl": 4.0,
       "gearRatios": {
         "ratio": [
           -22.91,
@@ -1153,7 +1154,13 @@
     "tracks": {
       "animationMultiplier": -0.7,
       "width": 0.65,
-      "height": -0.03
+      "height": -0.03,
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.0,
+        0.3
+      ]
     }
   },
   "PhysSys": {
@@ -1607,6 +1614,58 @@
       0.5,
       0.45,
       0.05
+    ]
+  },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
     ]
   },
   "DamageParts": {

@@ -656,80 +656,6 @@
     "gun_turn": "turret_turn_mg_light"
   },
   "class_tags": {},
-  "VehiclePhys": {
-    "Mass": {
-      "Empty": 19500.0,
-      "Fuel": 250.0,
-      "TakeOff": 20000.0,
-      "momentOfInertia": [
-        2.5,
-        2.5,
-        6.0
-      ],
-      "CenterOfGravity": [
-        0.2,
-        0.5,
-        0.0
-      ],
-      "CenterOfGravityClampY": [
-        0.0,
-        0.7
-      ],
-      "AdvancedMass": true,
-      "trackMass": 840.0
-    },
-    "tracks": {
-      "animationMultiplier": -0.49,
-      "height": 0.05,
-      "width": 0.4
-    },
-    "collisionProps": {
-      "cls_turret_01": "convex_hull",
-      "cls_body_01": "convex_hull"
-    },
-    "engine": {
-      "horsePowers": 240.0,
-      "maxRPM": 2000.0,
-      "minRPM": 600.0
-    },
-    "mechanics": {
-      "maxBrakeForce": 80000.0,
-      "driveGearRadius": 0.3,
-      "mainGearRatio": 1.0,
-      "sideGearRatio": 5.799,
-      "gearRatios": {
-        "ratio": [
-          -5.35,
-          -8.35,
-          0.0,
-          12.5,
-          10.5,
-          8.5,
-          6.0,
-          3.5,
-          2.5,
-          1.5,
-          1.0
-        ]
-      }
-    },
-    "suspension": {
-      "suspensionOffsets": [
-        -0.2,
-        -0.1,
-        0.06
-      ],
-      "defaultGearRadius": 0.28,
-      "topGearRadius": 0.133,
-      "frontBackGearRadius": 0.32,
-      "defaultDampeningForce": [
-        90000.0,
-        90000.0
-      ],
-      "dampeningRelaxationRatio": 1.0,
-      "dampeningCompressionRatio": 0.15
-    }
-  },
   "PhysSys": {
     "group": [
       {
@@ -2056,6 +1982,58 @@
       ]
     ]
   },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
+    ]
+  },
   "commonWeapons": {
     "Weapon": [
       {
@@ -2215,6 +2193,87 @@
     "preset": {
       "name": "jp_type_3_chi_nu_75cm_type_5_default",
       "blk": "gameData/units/tankModels/weaponPresets/jp_type_3_chi_nu_75cm_type_5_default.blk"
+    }
+  },
+  "VehiclePhys": {
+    "Mass": {
+      "Empty": 19500.0,
+      "Fuel": 250.0,
+      "TakeOff": 20000.0,
+      "momentOfInertia": [
+        2.5,
+        2.5,
+        6.0
+      ],
+      "CenterOfGravity": [
+        0.2,
+        0.1,
+        0.0
+      ],
+      "CenterOfGravityClampY": [
+        0.0,
+        0.7
+      ],
+      "AdvancedMass": true,
+      "trackMass": 840.0
+    },
+    "tracks": {
+      "animationMultiplier": -0.49,
+      "height": 0.05,
+      "width": 0.4,
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.0,
+        0.3
+      ]
+    },
+    "collisionProps": {
+      "cls_turret_01": "convex_hull",
+      "cls_body_01": "convex_hull"
+    },
+    "engine": {
+      "horsePowers": 240.0,
+      "maxRPM": 2000.0,
+      "minRPM": 600.0
+    },
+    "mechanics": {
+      "maxBrakeForce": 80000.0,
+      "driveGearRadius": 0.3,
+      "mainGearRatio": 1.0,
+      "sideGearRatio": 5.799,
+      "alternativeGearControl": 4.0,
+      "gearRatios": {
+        "ratio": [
+          -5.35,
+          -8.35,
+          0.0,
+          12.5,
+          10.5,
+          8.5,
+          6.0,
+          3.5,
+          2.5,
+          1.5,
+          1.0
+        ]
+      }
+    },
+    "suspension": {
+      "suspensionOffsets": [
+        -0.2,
+        -0.1,
+        0.06
+      ],
+      "defaultGearRadius": 0.28,
+      "topGearRadius": 0.133,
+      "frontBackGearRadius": 0.32,
+      "defaultDampeningForce": [
+        90000.0,
+        90000.0
+      ],
+      "dampeningRelaxationRatio": 1.0,
+      "dampeningCompressionRatio": 0.15
     }
   },
   "ammoLoadDistribution": {
@@ -2460,13 +2519,6 @@
       "name": "jp_camo_winter_early",
       "nameLocId": "skin/jp_camo_winter_early",
       "descLocId": "skin/jp_camo_winter_early/desc",
-      "replace_tex": {
-        "from": "jp_camo_olive_kusairo*",
-        "to": "jp_camo_winter_early*"
-      }
-    }
-  ]
-}c",
       "replace_tex": {
         "from": "jp_camo_olive_kusairo*",
         "to": "jp_camo_winter_early*"

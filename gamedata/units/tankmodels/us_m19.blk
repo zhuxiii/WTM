@@ -2364,7 +2364,13 @@
     "tracks": {
       "animationMultiplier": 0.6,
       "height": 0.05,
-      "width": 0.406
+      "width": 0.406,
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.2,
+        0.3
+      ]
     },
     "collisionProps": {
       "cls_turret": "convex_hull",
@@ -2380,6 +2386,7 @@
       "driveGearRadius": 0.268,
       "mainGearRatio": 1.91,
       "sideGearRatio": 3.0,
+      "alternativeGearControl": 3.0,
       "gearRatios": {
         "ratio": [
           -2.44,
@@ -3288,11 +3295,7 @@
   "battleHideNodes": {
     "n": "details"
   }
-}inter_grid",
-      "descLocId": "skin/us_camo_winter_grid/desc",
-      "replace_tex": {
-        "from": "us_camo_olive*",
-        "to": "us_camo_winter_grid*"
+}to": "us_camo_winter_grid*"
       }
     }
   ],

@@ -577,6 +577,26 @@
       "details_02"
     ]
   },
+  "gunConvergence": {
+    "defaultDistance": 800.0,
+    "vertical": true,
+    "horizontal": true
+  },
+  "enabled_modifications": {
+    "tank_smoke_screen_system_mod": true
+  },
+  "dm_for_shop": {
+    "armorThicknessFront": [
+      0.05,
+      0.05,
+      0.9
+    ],
+    "armorThicknessSide": [
+      0.0,
+      0.05,
+      0.95
+    ]
+  },
   "steeringTableAlternative": {
     "point": [
       [
@@ -627,26 +647,6 @@
         75.0,
         1.0
       ]
-    ]
-  },
-  "gunConvergence": {
-    "defaultDistance": 800.0,
-    "vertical": true,
-    "horizontal": true
-  },
-  "enabled_modifications": {
-    "tank_smoke_screen_system_mod": true
-  },
-  "dm_for_shop": {
-    "armorThicknessFront": [
-      0.05,
-      0.05,
-      0.9
-    ],
-    "armorThicknessSide": [
-      0.0,
-      0.05,
-      0.95
     ]
   },
   "ikGunner": [
@@ -2779,12 +2779,12 @@
       ],
       "CenterOfGravity": [
         0.4,
-        0.4,
+        0.2,
         0.0
       ],
       "CenterOfGravityClampY": [
         0.0,
-        0.7
+        0.3
       ],
       "AdvancedMass": true,
       "trackMass": 940.0
@@ -2797,6 +2797,12 @@
         5.0,
         0.0,
         0.5,
+        0.3
+      ],
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.1,
         0.3
       ]
     },
@@ -2814,6 +2820,7 @@
       "driveGearRadius": 0.35,
       "mainGearRatio": 1.2,
       "sideGearRatio": 8.526,
+      "alternativeGearControl": 2.0,
       "gearRatios": {
         "ratio": [
           -5.35,
@@ -3375,13 +3382,6 @@
     "part": {
       "node": "bone_turret",
       "mass": 4300.0,
-      "cutDamage": 350.0,
-      "deviation": 0.4,
-      "rotation": 2.5,
-      "collisionNode": "cls_turret"
-    }
-  }
-}00.0,
       "cutDamage": 350.0,
       "deviation": 0.4,
       "rotation": 2.5,

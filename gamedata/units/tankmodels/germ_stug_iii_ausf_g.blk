@@ -57,6 +57,58 @@
       0.7
     ]
   },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
+    ]
+  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank",
@@ -1825,7 +1877,7 @@
       ],
       "CenterOfGravityClampY": [
         0.0,
-        0.7
+        0.6
       ],
       "AdvancedMass": true,
       "trackMass": 940.0
@@ -1833,7 +1885,13 @@
     "tracks": {
       "animationMultiplier": 0.5,
       "height": 0.06,
-      "width": 0.4
+      "width": 0.4,
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.1,
+        0.3
+      ]
     },
     "collisionProps": {
       "cls_body_01": "convex_hull",
@@ -1851,6 +1909,7 @@
       "driveGearRadius": 0.425,
       "mainGearRatio": 1.325,
       "sideGearRatio": 9.0,
+      "alternativeGearControl": 5.0,
       "gearRatios": {
         "ratio": [
           -5.35,
@@ -2650,23 +2709,6 @@
       "replace_tex": {
         "from": "ger_camo_dunkelgelb*",
         "to": "ger_camo_dunkelgelb_green_braun_blots_man*"
-      }
-    }
-  ],
-  "dmgAngles": {
-    "hatch_02": [
-      45.0,
-      90.0
-    ],
-    "hatch_03": [
-      45.0,
-      90.0
-    ]
-  },
-  "battleHideNodes": {
-    "n": "details"
-  }
-}
       }
     }
   ],

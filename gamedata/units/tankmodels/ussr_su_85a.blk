@@ -57,6 +57,58 @@
       0.9
     ]
   },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
+    ]
+  },
   "ikGunner": [
     {
       "model": "soviet_gunner_char",
@@ -2091,7 +2143,13 @@
     "tracks": {
       "animationMultiplier": -0.68,
       "height": 0.026,
-      "width": 0.26
+      "width": 0.26,
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        0.8,
+        0.3
+      ]
     },
     "collisionProps": {
       "cls_body": "convex_hull",
@@ -2103,11 +2161,11 @@
       "minRPM": 900.0
     },
     "mechanics": {
-      "steerType": "clutch_braking",
       "maxBrakeForce": 49200.0,
       "driveGearRadius": 0.27,
       "mainGearRatio": 1.72,
       "sideGearRatio": 5.0,
+      "alternativeGearControl": 3.0,
       "gearRatios": {
         "ratio": [
           -7.64,
@@ -2852,17 +2910,6 @@
           "count": 1
         }
       }
-    }
-  },
-  "battleHideNodes": {
-    "n": [
-      "details",
-      "details_01",
-      "details_02",
-      "details_03"
-    ]
-  }
-}      }
     }
   },
   "battleHideNodes": {

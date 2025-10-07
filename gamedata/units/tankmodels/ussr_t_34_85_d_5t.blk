@@ -315,6 +315,7 @@
       "driveGearRadius": 0.317,
       "mainGearRatio": 1.0,
       "sideGearRatio": 5.18,
+      "alternativeGearControl": 2.0,
       "gearRatios": {
         "ratio": [
           -4.95,
@@ -364,7 +365,7 @@
       ],
       "CenterOfGravityClampY": [
         0.0,
-        0.6
+        0.4
       ],
       "AdvancedMass": true,
       "trackMass": 1150.0
@@ -893,6 +894,58 @@
       0.15,
       0.05,
       0.8
+    ]
+  },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
     ]
   },
   "tank_crew": {
@@ -2865,9 +2918,6 @@
       "decal3OppositeMirrored": false,
       "decal3WidthBox": 0.21519,
       "decal3Tex": "ussr_numbers_2"
-    }
-  }
-}"decal3Tex": "ussr_numbers_2"
     }
   }
 }

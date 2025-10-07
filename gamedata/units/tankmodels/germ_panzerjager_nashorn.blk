@@ -57,6 +57,58 @@
       0.95
     ]
   },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
+    ]
+  },
   "ikGunner": [
     {
       "model": "german_gunner_early_char",
@@ -2321,7 +2373,7 @@
       ],
       "CenterOfGravityClampY": [
         0.0,
-        0.7
+        0.3
       ],
       "AdvancedMass": true,
       "trackMass": 940.0
@@ -2329,7 +2381,13 @@
     "tracks": {
       "animationMultiplier": 0.5,
       "height": 0.06,
-      "width": 0.4
+      "width": 0.4,
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.1,
+        0.3
+      ]
     },
     "collisionProps": {
       "cls_body": "convex_hull",
@@ -2343,11 +2401,11 @@
       "minRPM": 600.0
     },
     "mechanics": {
-      "steerType": "clutch_braking",
       "maxBrakeForce": 80000.0,
       "driveGearRadius": 0.35,
       "mainGearRatio": 1.2,
       "sideGearRatio": 8.246,
+      "alternativeGearControl": 5.0,
       "gearRatios": {
         "ratio": [
           -5.35,
@@ -3291,14 +3349,6 @@
       "decal0Wrap": false,
       "decal0Abs": true,
       "decal0OppositeMirrored": false,
-      "decal0WidthBox": 0.215669,
-      "decal0Tex": "back_16"
-    }
-  },
-  "battleHideNodes": {
-    "n": "details"
-  }
-}lse,
       "decal0WidthBox": 0.215669,
       "decal0Tex": "back_16"
     }

@@ -804,6 +804,26 @@
       "details_02"
     ]
   },
+  "gunConvergence": {
+    "defaultDistance": 800.0,
+    "vertical": true,
+    "horizontal": true
+  },
+  "enabled_modifications": {
+    "tank_smoke_screen_system_mod": true
+  },
+  "dm_for_shop": {
+    "armorThicknessFront": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "armorThicknessSide": [
+      0.15,
+      0.15,
+      0.7
+    ]
+  },
   "steeringTableAlternative": {
     "point": [
       [
@@ -854,26 +874,6 @@
         75.0,
         1.0
       ]
-    ]
-  },
-  "gunConvergence": {
-    "defaultDistance": 800.0,
-    "vertical": true,
-    "horizontal": true
-  },
-  "enabled_modifications": {
-    "tank_smoke_screen_system_mod": true
-  },
-  "dm_for_shop": {
-    "armorThicknessFront": [
-      0.6,
-      0.3,
-      0.1
-    ],
-    "armorThicknessSide": [
-      0.15,
-      0.15,
-      0.7
     ]
   },
   "DamageParts": {
@@ -1667,7 +1667,7 @@
       ],
       "CenterOfGravityClampY": [
         0.0,
-        0.7
+        0.4
       ],
       "AdvancedMass": true,
       "trackMass": 940.0
@@ -1680,6 +1680,12 @@
         5.0,
         0.0,
         0.6,
+        0.3
+      ],
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.1,
         0.3
       ]
     },
@@ -1697,6 +1703,7 @@
       "driveGearRadius": 0.35,
       "mainGearRatio": 1.2,
       "sideGearRatio": 8.526,
+      "alternativeGearControl": 5.0,
       "gearRatios": {
         "ratio": [
           -5.35,

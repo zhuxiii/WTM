@@ -293,6 +293,7 @@
     "pkg_downloadable": {},
     "pkg_sound_common": {
       "hq": false,
+      "modelsPatch": false,
       "conditions": [
         {
           "campaign": "air",
@@ -310,6 +311,7 @@
     },
     "pkg_sound_naval": {
       "hq": false,
+      "modelsPatch": false,
       "conditions": {
         "campaign": "ships",
         "isDownloadFirst": true
@@ -317,6 +319,7 @@
     },
     "pkg_sound_ground": {
       "hq": false,
+      "modelsPatch": false,
       "conditions": {
         "campaign": "tanks",
         "isDownloadFirst": true
@@ -941,6 +944,7 @@
       "shouldSaveGameVersionToCache": true,
       "shouldReportIncompatibleVersion": true,
       "requireSameGameVersion": false,
+      "shouldDownloadAddonsPerFile": true,
       "startMetric": "background_addons_update_start",
       "stopMetric": "background_addons_update_stop",
       "flag": [
@@ -1383,7 +1387,8 @@
         "23049PCD8G"
       ],
       "vulkan": {
-        "useCustomAllocationCallbacks": true
+        "useCustomAllocationCallbacks": true,
+        "resetCommandsReleasesToSystem": true
       },
       "android": {
         "checkMemoryLeaksMb": 500
@@ -2454,12 +2459,7 @@
       "showFreeMemThresholdMb": 0
     }
   }
-} "volumeCloudsQuality": 4,
-        "applyCloudsShadow": false,
-        "xrayOutlinesScale": 1.0,
-        "underwaterCausticsEnabled": false,
-        "useVapor": false,
-        "planarReflectionTexDiv": 8
+}  "planarReflectionTexDiv": 8
       },
       "render": {
         "grassInCompatibility": false

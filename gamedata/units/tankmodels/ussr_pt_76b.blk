@@ -73,6 +73,58 @@
       0.95
     ]
   },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
+    ]
+  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank",
@@ -1908,7 +1960,13 @@
     "tracks": {
       "height": 0.054,
       "width": 0.35,
-      "animationMultiplier": -0.68
+      "animationMultiplier": -0.68,
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.1,
+        0.3
+      ]
     },
     "collisionProps": {
       "cls_turret": "convex_hull",
@@ -1920,11 +1978,11 @@
       "minRPM": 600.0
     },
     "mechanics": {
-      "steerType": "clutch_braking",
       "maxBrakeForce": 70000.0,
       "driveGearRadius": 0.27,
       "mainGearRatio": 1.2,
       "sideGearRatio": 5.556,
+      "alternativeGearControl": 2.0,
       "gearRatios": {
         "ratio": [
           -4.952,
@@ -2782,41 +2840,7 @@
       "emtr_exhaust_04"
     ]
   }
-}  "decal2CPNormDepth1": [
-        0.124064,
-        0.567431,
-        0.814021,
-        -1.85886
-      ],
-      "decal2RotScale": [
-        1.62363,
-        0.229876
-      ],
-      "decal2Mirrored": false,
-      "decal2Wrap": false,
-      "decal2Abs": false,
-      "decal2OppositeMirrored": false,
-      "decal2WidthBox": 0.205574,
-      "decal2Tex": "ussr_numbers_6",
-      "decal3Line0": [
-        4.218,
-        0.00317617,
-        1.0565,
-        -2.27983
-      ],
-      "decal3Line1": [
-        0.599588,
-        -3.58739,
-        -2.38304,
-        3.47953
-      ],
-      "decal3Line2": [
-        -4.21906,
-        0.00317611,
-        1.05228,
-        3.27455
-      ],
-      "decal3Line3": [
+}      "decal3Line3": [
         0.592119,
         -3.58739,
         2.3849,

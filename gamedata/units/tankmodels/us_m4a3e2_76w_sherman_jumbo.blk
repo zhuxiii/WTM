@@ -988,12 +988,12 @@
       ],
       "CenterOfGravity": [
         0.1,
-        0.8,
+        0.4,
         0.0
       ],
       "CenterOfGravityClampY": [
         0.0,
-        0.7
+        0.3
       ],
       "AdvancedMass": false,
       "trackMass": 1150.0
@@ -1011,6 +1011,12 @@
       "fricFrontal": [
         1.0,
         0.8
+      ],
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.0,
+        0.3
       ]
     },
     "collisionProps": {
@@ -1027,6 +1033,7 @@
       "driveGearRadius": 0.34,
       "mainGearRatio": 4.7,
       "sideGearRatio": 2.74,
+      "alternativeGearControl": 1.0,
       "gearRatios": {
         "ratio": [
           -5.64,
@@ -1716,6 +1723,58 @@
       0.25,
       0.05,
       0.7
+    ]
+  },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
     ]
   },
   "DamageEffects": {
@@ -3100,45 +3159,7 @@
       "decal2Tex": "back_02"
     }
   }
-}back_02"
-    },
-    "desert": {
-      "skin_condition": 100.0,
-      "camo_scale": 0.0,
-      "camo_rotation": 0.0,
-      "decal0Line0": [
-        2.61285,
-        -1.12752e-7,
-        0.315826,
-        0.806897
-      ],
-      "decal0Line1": [
-        0.0554339,
-        -2.59102,
-        -0.458611,
-        5.95173
-      ],
-      "decal0Line2": [
-        -2.61285,
-        -1.07849e-7,
-        0.315826,
-        0.193006
-      ],
-      "decal0Line3": [
-        0.0554342,
-        -2.59102,
-        0.458611,
-        5.95159
-      ],
-      "decal0HaveCP": true,
-      "decal0CPNormDepth": [
-        0.118138,
-        0.175521,
-        -0.977362,
-        -1.33492
-      ],
-      "decal0CPNormDepth1": [
-        0.118138,
+}.118138,
         0.175521,
         0.977362,
         -1.33522

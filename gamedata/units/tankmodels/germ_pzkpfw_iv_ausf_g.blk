@@ -832,58 +832,6 @@
       "details_02"
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "gunConvergence": {
     "defaultDistance": 800.0,
     "vertical": true,
@@ -1657,6 +1605,58 @@
       0.15,
       0.1,
       0.75
+    ]
+  },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
     ]
   },
   "DamageParts": {
@@ -2473,7 +2473,7 @@
       ],
       "CenterOfGravityClampY": [
         0.0,
-        0.7
+        0.4
       ],
       "AdvancedMass": true,
       "trackMass": 940.0
@@ -2481,7 +2481,13 @@
     "tracks": {
       "animationMultiplier": 0.5,
       "height": 0.06,
-      "width": 0.4
+      "width": 0.4,
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.1,
+        0.3
+      ]
     },
     "collisionProps": {
       "cls_turret_01": "convex_hull",
@@ -2497,6 +2503,7 @@
       "driveGearRadius": 0.35,
       "mainGearRatio": 1.2,
       "sideGearRatio": 8.246,
+      "alternativeGearControl": 5.0,
       "gearRatios": {
         "ratio": [
           -5.35,

@@ -1530,6 +1530,58 @@
       0.9
     ]
   },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
+    ]
+  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank",
@@ -2192,14 +2244,14 @@
       ],
       "CenterOfGravity": [
         0.4,
-        0.4,
+        0.2,
         0.0
       ],
       "AdvancedMass": true,
       "trackMass": 940.0,
       "CenterOfGravityClampY": [
         0.0,
-        0.7
+        0.3
       ]
     },
     "tracks": {
@@ -2210,6 +2262,12 @@
         5.0,
         0.0,
         0.5,
+        0.3
+      ],
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.0,
         0.3
       ]
     },
@@ -2228,6 +2286,7 @@
       "driveGearRadius": 0.35,
       "mainGearRatio": 1.45,
       "sideGearRatio": 6.825,
+      "alternativeGearControl": 1.0,
       "gearRatios": {
         "ratio": [
           -5.35,
@@ -2880,10 +2939,6 @@
       "replace_tex": {
         "from": "ger_camo_dunkelgelb*",
         "to": "ger_camo_dunkelgelb_green_braun_blots_man*"
-      }
-    }
-  ]
-}een_braun_blots_man*"
       }
     }
   ]

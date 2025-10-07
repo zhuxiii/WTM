@@ -57,6 +57,58 @@
       0.75
     ]
   },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
+    ]
+  },
   "ikGunner": [
     {
       "model": "uk_gunner_officer_char",
@@ -2226,7 +2278,7 @@
       ],
       "CenterOfGravity": [
         0.15,
-        0.8,
+        0.4,
         0.0
       ],
       "CenterOfGravityClampY": [
@@ -2239,7 +2291,13 @@
     "tracks": {
       "animationMultiplier": 0.68,
       "height": 0.05,
-      "width": 0.4
+      "width": 0.4,
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.0,
+        0.3
+      ]
     },
     "collisionProps": {
       "cls_turret_01": "convex_hull",
@@ -2251,12 +2309,11 @@
       "minRPM": 600.0
     },
     "mechanics": {
-      "steerType": "clutch_braking",
       "maxBrakeForce": 120000.0,
       "driveGearRadius": 0.3,
       "mainGearRatio": 4.244,
       "sideGearRatio": 2.56,
-      "gearType": "differential",
+      "alternativeGearControl": 4.0,
       "gearRatios": {
         "ratio": [
           -6.24,

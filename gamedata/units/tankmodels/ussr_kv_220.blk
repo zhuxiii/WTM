@@ -1260,6 +1260,58 @@
       ]
     ]
   },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
+    ]
+  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank",
@@ -2426,6 +2478,12 @@
       "fricFrontal": [
         1.0,
         0.8
+      ],
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.0,
+        0.3
       ]
     },
     "collisionProps": {
@@ -2443,6 +2501,7 @@
       "driveGearRadius": 0.405,
       "mainGearRatio": 2.54,
       "sideGearRatio": 5.7,
+      "alternativeGearControl": 2.0,
       "gearRatios": {
         "ratio": [
           -3.24,
@@ -2575,43 +2634,7 @@
       "collisionNode": "cls_turret_01"
     }
   }
-}     "decal0WidthBox": 0.200262,
-      "decal0Tex": "ussr_numbers_1",
-      "decal1Line0": [
-        2.12214,
-        -9.38039e-8,
-        -0.314926,
-        2.08451
-      ],
-      "decal1Line1": [
-        -0.000554064,
-        -2.14538,
-        -0.00373288,
-        5.58881
-      ],
-      "decal1Line2": [
-        -2.12214,
-        -9.38039e-8,
-        -0.314926,
-        -1.08451
-      ],
-      "decal1Line3": [
-        -0.00055388,
-        -2.14538,
-        0.00373301,
-        5.58881
-      ],
-      "decal1HaveCP": true,
-      "decal1CPNormDepth": [
-        -0.146793,
-        0.00175905,
-        -0.989166,
-        -0.986564
-      ],
-      "decal1CPNormDepth1": [
-        -0.146793,
-        0.00175905,
-        0.989166,
+}      0.989166,
         -0.986564
       ],
       "decal1RotScale": [

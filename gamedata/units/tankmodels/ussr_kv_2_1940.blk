@@ -97,6 +97,58 @@
       ]
     ]
   },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
+    ]
+  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank",
@@ -1524,6 +1576,12 @@
       "fricFrontal": [
         1.0,
         0.8
+      ],
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.0,
+        0.3
       ]
     },
     "collisionProps": {
@@ -1541,6 +1599,7 @@
       "driveGearRadius": 0.405,
       "mainGearRatio": 2.54,
       "sideGearRatio": 5.7,
+      "alternativeGearControl": 2.0,
       "gearRatios": {
         "ratio": [
           -3.24,
@@ -2540,14 +2599,6 @@
       "descLocId": "skin/ussr_camo_winter_lines/desc",
       "replace_tex": {
         "from": "ussr_camo_green*",
-        "to": "ussr_camo_winter_lines*"
-      }
-    }
-  ],
-  "battleHideNodes": {
-    "n": "details"
-  }
-}"ussr_camo_green*",
         "to": "ussr_camo_winter_lines*"
       }
     }

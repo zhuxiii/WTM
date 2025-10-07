@@ -60,6 +60,58 @@
       0.95
     ]
   },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
+    ]
+  },
   "ikGunner": [
     {
       "model": "us_gunner_char",
@@ -2254,7 +2306,7 @@
       ],
       "CenterOfGravityClampY": [
         0.0,
-        0.5
+        0.3
       ],
       "AdvancedMass": true,
       "trackMass": 700.0,
@@ -2264,7 +2316,13 @@
     "tracks": {
       "animationMultiplier": -0.66,
       "height": 0.06,
-      "width": 0.35
+      "width": 0.35,
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.1,
+        0.3
+      ]
     },
     "collisionProps": {
       "cls_turret": "convex_hull",
@@ -2280,6 +2338,7 @@
       "driveGearRadius": 0.385,
       "mainGearRatio": 6.588,
       "sideGearRatio": 3.0,
+      "alternativeGearControl": 1.0,
       "gearRatios": {
         "ratio": [
           -0.756,
@@ -3409,14 +3468,6 @@
   ],
   "dmgAngles": {
     "hatch_06": [
-      20.0,
-      45.0
-    ]
-  },
-  "battleHideNodes": {
-    "n": "details"
-  }
-}: [
       20.0,
       45.0
     ]
