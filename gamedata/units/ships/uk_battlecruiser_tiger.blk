@@ -2148,7 +2148,7 @@
       {
         "trigger": "gunner16",
         "triggerGroup": "machinegun",
-        "blk": "gameData/Weapons/navalModels_weapons/76mm_45_3in_20cwt_qf_mk1_naval_user_cannon.blk",
+        "blk": "gameData/Weapons/navalModels_weapons/40mm_39_2pdr_qf_mk2c_naval_user_cannon.blk",
         "emitter": "emtr_gun_flame_25",
         "flash": "emtr_gun_flame_25",
         "useEmitter": true,
@@ -2191,14 +2191,6 @@
             85.0
           ]
         },
-        "limitsTable": {
-          "lim1": [
-            155.0,
-            180.0,
-            10.0,
-            85.0
-          ]
-        },
         "gunStabilizer": {
           "hasVerticalGunFreeMode": true,
           "hasHorizontal": true,
@@ -2213,7 +2205,7 @@
       {
         "trigger": "gunner17",
         "triggerGroup": "machinegun",
-        "blk": "gameData/Weapons/navalModels_weapons/76mm_45_3in_20cwt_qf_mk1_naval_user_cannon.blk",
+        "blk": "gameData/Weapons/navalModels_weapons/40mm_39_2pdr_qf_mk2c_naval_user_cannon.blk",
         "emitter": "emtr_gun_flame_26",
         "flash": "emtr_gun_flame_26",
         "useEmitter": true,
@@ -2253,14 +2245,6 @@
           ],
           "pitch": [
             -10.0,
-            85.0
-          ]
-        },
-        "limitsTable": {
-          "lim1": [
-            -180.0,
-            -155.0,
-            10.0,
             85.0
           ]
         },
@@ -2313,19 +2297,11 @@
         },
         "limits": {
           "yaw": [
-            -180.0,
+            -160.0,
             0.0
           ],
           "pitch": [
             -10.0,
-            85.0
-          ]
-        },
-        "limitsTable": {
-          "lim1": [
-            -180.0,
-            -165.0,
-            10.0,
             85.0
           ]
         },
@@ -2379,18 +2355,10 @@
         "limits": {
           "yaw": [
             0.0,
-            180.0
+            160.0
           ],
           "pitch": [
             -10.0,
-            85.0
-          ]
-        },
-        "limitsTable": {
-          "lim1": [
-            165.0,
-            180.0,
-            10.0,
             85.0
           ]
         },
@@ -2443,20 +2411,12 @@
         },
         "limits": {
           "yaw": [
-            -180.0,
+            -170.0,
             0.0
           ],
           "pitch": [
             -10.0,
             80.0
-          ]
-        },
-        "limitsTable": {
-          "lim1": [
-            -180.0,
-            -157.0,
-            10.0,
-            90.0
           ]
         },
         "gunStabilizer": {
@@ -2508,20 +2468,12 @@
         },
         "limits": {
           "yaw": [
-            -180.0,
-            0.0
+            0.0,
+            170.0
           ],
           "pitch": [
             -10.0,
             80.0
-          ]
-        },
-        "limitsTable": {
-          "lim1": [
-            157.0,
-            180.0,
-            10.0,
-            90.0
           ]
         },
         "gunStabilizer": {
@@ -3955,7 +3907,7 @@
             {
               "trigger": "gunner16",
               "triggerGroup": "machinegun",
-              "blk": "gameData/Weapons/navalModels_weapons/76mm_45_3in_20cwt_qf_mk1_naval_user_cannon.blk",
+              "blk": "gameData/Weapons/navalModels_weapons/40mm_39_2pdr_qf_mk2c_naval_user_cannon.blk",
               "emitter": "emtr_gun_flame_25",
               "flash": "emtr_gun_flame_25",
               "useEmitter": true,
@@ -3998,14 +3950,6 @@
                   85.0
                 ]
               },
-              "limitsTable": {
-                "lim1": [
-                  155.0,
-                  180.0,
-                  10.0,
-                  85.0
-                ]
-              },
               "gunStabilizer": {
                 "hasVerticalGunFreeMode": true,
                 "hasHorizontal": true,
@@ -4020,7 +3964,7 @@
             {
               "trigger": "gunner17",
               "triggerGroup": "machinegun",
-              "blk": "gameData/Weapons/navalModels_weapons/76mm_45_3in_20cwt_qf_mk1_naval_user_cannon.blk",
+              "blk": "gameData/Weapons/navalModels_weapons/40mm_39_2pdr_qf_mk2c_naval_user_cannon.blk",
               "emitter": "emtr_gun_flame_26",
               "flash": "emtr_gun_flame_26",
               "useEmitter": true,
@@ -4060,14 +4004,6 @@
                 ],
                 "pitch": [
                   -10.0,
-                  85.0
-                ]
-              },
-              "limitsTable": {
-                "lim1": [
-                  -180.0,
-                  -155.0,
-                  10.0,
                   85.0
                 ]
               },
@@ -4120,19 +4056,11 @@
               },
               "limits": {
                 "yaw": [
-                  -180.0,
+                  -160.0,
                   0.0
                 ],
                 "pitch": [
                   -10.0,
-                  85.0
-                ]
-              },
-              "limitsTable": {
-                "lim1": [
-                  -180.0,
-                  -165.0,
-                  10.0,
                   85.0
                 ]
               },
@@ -4186,18 +4114,10 @@
               "limits": {
                 "yaw": [
                   0.0,
-                  180.0
+                  160.0
                 ],
                 "pitch": [
                   -10.0,
-                  85.0
-                ]
-              },
-              "limitsTable": {
-                "lim1": [
-                  165.0,
-                  180.0,
-                  10.0,
                   85.0
                 ]
               },
@@ -4250,20 +4170,12 @@
               },
               "limits": {
                 "yaw": [
-                  -180.0,
+                  -170.0,
                   0.0
                 ],
                 "pitch": [
                   -10.0,
                   80.0
-                ]
-              },
-              "limitsTable": {
-                "lim1": [
-                  -180.0,
-                  -157.0,
-                  10.0,
-                  90.0
                 ]
               },
               "gunStabilizer": {
@@ -4315,20 +4227,12 @@
               },
               "limits": {
                 "yaw": [
-                  -180.0,
-                  0.0
+                  0.0,
+                  170.0
                 ],
                 "pitch": [
                   -10.0,
                   80.0
-                ]
-              },
-              "limitsTable": {
-                "lim1": [
-                  157.0,
-                  180.0,
-                  10.0,
-                  90.0
                 ]
               },
               "gunStabilizer": {
@@ -5760,7 +5664,7 @@
             {
               "trigger": "gunner16",
               "triggerGroup": "machinegun",
-              "blk": "gameData/Weapons/navalModels_weapons/76mm_45_3in_20cwt_qf_mk1_naval_user_cannon.blk",
+              "blk": "gameData/Weapons/navalModels_weapons/40mm_39_2pdr_qf_mk2c_naval_user_cannon.blk",
               "emitter": "emtr_gun_flame_25",
               "flash": "emtr_gun_flame_25",
               "useEmitter": true,
@@ -5803,14 +5707,6 @@
                   85.0
                 ]
               },
-              "limitsTable": {
-                "lim1": [
-                  155.0,
-                  180.0,
-                  10.0,
-                  85.0
-                ]
-              },
               "gunStabilizer": {
                 "hasVerticalGunFreeMode": true,
                 "hasHorizontal": true,
@@ -5825,7 +5721,7 @@
             {
               "trigger": "gunner17",
               "triggerGroup": "machinegun",
-              "blk": "gameData/Weapons/navalModels_weapons/76mm_45_3in_20cwt_qf_mk1_naval_user_cannon.blk",
+              "blk": "gameData/Weapons/navalModels_weapons/40mm_39_2pdr_qf_mk2c_naval_user_cannon.blk",
               "emitter": "emtr_gun_flame_26",
               "flash": "emtr_gun_flame_26",
               "useEmitter": true,
@@ -5865,14 +5761,6 @@
                 ],
                 "pitch": [
                   -10.0,
-                  85.0
-                ]
-              },
-              "limitsTable": {
-                "lim1": [
-                  -180.0,
-                  -155.0,
-                  10.0,
                   85.0
                 ]
               },
@@ -5925,19 +5813,11 @@
               },
               "limits": {
                 "yaw": [
-                  -180.0,
+                  -160.0,
                   0.0
                 ],
                 "pitch": [
                   -10.0,
-                  85.0
-                ]
-              },
-              "limitsTable": {
-                "lim1": [
-                  -180.0,
-                  -165.0,
-                  10.0,
                   85.0
                 ]
               },
@@ -5991,18 +5871,10 @@
               "limits": {
                 "yaw": [
                   0.0,
-                  180.0
+                  160.0
                 ],
                 "pitch": [
                   -10.0,
-                  85.0
-                ]
-              },
-              "limitsTable": {
-                "lim1": [
-                  165.0,
-                  180.0,
-                  10.0,
                   85.0
                 ]
               },
@@ -6055,20 +5927,12 @@
               },
               "limits": {
                 "yaw": [
-                  -180.0,
+                  -170.0,
                   0.0
                 ],
                 "pitch": [
                   -10.0,
                   80.0
-                ]
-              },
-              "limitsTable": {
-                "lim1": [
-                  -180.0,
-                  -157.0,
-                  10.0,
-                  90.0
                 ]
               },
               "gunStabilizer": {
@@ -6120,20 +5984,12 @@
               },
               "limits": {
                 "yaw": [
-                  -180.0,
-                  0.0
+                  0.0,
+                  170.0
                 ],
                 "pitch": [
                   -10.0,
                   80.0
-                ]
-              },
-              "limitsTable": {
-                "lim1": [
-                  157.0,
-                  180.0,
-                  10.0,
-                  90.0
                 ]
               },
               "gunStabilizer": {
@@ -6706,6 +6562,157 @@
         "fx": {
           "name": "fire_after_hit_huge",
           "setOrientation": true
+        }
+      },
+      {
+        "name": "fire_after_hit_huge",
+        "lifetime": 8.0,
+        "fx": {
+          "name": "smoke_after_hit_huge",
+          "setOrientation": true
+        }
+      },
+      {
+        "name": "fire_after_hit_big",
+        "lifetime": 8.0,
+        "fx": {
+          "name": "fire_after_hit_big",
+          "setOrientation": true
+        }
+      },
+      {
+        "name": "fire_after_hit_big",
+        "lifetime": 8.0,
+        "fx": {
+          "name": "smoke_after_hit_big",
+          "setOrientation": true
+        }
+      },
+      {
+        "name": "fire_after_hit_med",
+        "lifetime": 8.0,
+        "fx": {
+          "name": "fire_after_hit_med",
+          "setOrientation": true
+        }
+      },
+      {
+        "name": "fire_after_hit_med",
+        "lifetime": 8.0,
+        "fx": {
+          "name": "smoke_after_hit_med",
+          "setOrientation": true
+        }
+      },
+      {
+        "name": "fire_after_hit_small",
+        "lifetime": 5.0,
+        "fx": {
+          "name": "fire_after_hit_small",
+          "setOrientation": true
+        }
+      },
+      {
+        "name": "fire_after_hit_small",
+        "lifetime": 5.0,
+        "fx": {
+          "name": "smoke_after_hit_small",
+          "setOrientation": true
+        }
+      }
+    ]
+  },
+  "breaches": {
+    "repairSpeed": 150.0,
+    "waterMassVel": -1300000.0,
+    "waterMassMult": 75.0,
+    "sizeToRepair": [
+      0.01,
+      5.0,
+      25.0,
+      600.0
+    ],
+    "additionalWaterDeathThreshold": 100000000.0,
+    "additionalWaterCoverPartsThreshold": 7000000.0,
+    "additionalWaterShouldDiePercent": 0.15,
+    "fatalBreachDrownTime": 30.0,
+    "maxHeelingAngle": 36.0,
+    "maxHeelingTime": 50.0,
+    "criticalHeelingAnglePercent": 0.5,
+    "maxCriticalHeelingTime": 1.0,
+    "heelingDeathHeightOffsetMult": 1.0,
+    "sideCenterOfMassOffsetPercent": 0.35,
+    "additionalWaterInfluenceOnSpeed": 1.6
+  },
+  "shipCover": {
+    "cover": [
+      {
+        "part": "compartment_01_dm",
+        "weight": 1.0,
+        "maxWaterAlive": 0.6
+      },
+      {
+        "part": "compartment_02_dm",
+        "weight": 1.0,
+        "maxWaterAlive": 0.6
+      },
+      {
+        "part": "compartment_03_dm",
+        "weight": 1.0,
+        "maxWaterAlive": 0.6
+      }
+    ]
+  },
+  "smokeWall": {
+    "distance": 450.0,
+    "speed": 350.0,
+    "height": 0.0,
+    "length": 450.0,
+    "fxOffset": 65.0
+  },
+  "winch": {
+    "length": 600.0
+  },
+  "difficulty": {
+    "arcade": {
+      "shipRudderAreaMult": 1.0,
+      "tankRearmOnCaptureZone": true
+    }
+  },
+  "battleHideNodes": {
+    "n": [
+      "portholes",
+      "details"
+    ]
+  },
+  "default_skin": {
+    "name": "prem_camo",
+    "replace_tex": [
+      {
+        "from": "camo_navygrey_5*",
+        "to": "camo_nord_bluegreen*"
+      },
+      {
+        "from": "camo_deckgrey*",
+        "to": "camo_nord_bluegreen*"
+      }
+    ]
+  },
+  "vehicleSkins": {
+    "factory": {
+      "replace_tex": [
+        {
+          "from": "camo_navygrey_5*",
+          "to": "camo_navygrey_5*"
+        },
+        {
+          "from": "camo_deckgrey*",
+          "to": "camo_deckgrey*"
+        }
+      ]
+    }
+  }
+}true
         }
       },
       {

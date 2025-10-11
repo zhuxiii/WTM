@@ -921,9 +921,9 @@
         "type": "killedGroundTimed",
         "num": 100,
         "delay": [
-          5,
-          5,
-          5
+          10,
+          10,
+          10
         ],
         "isShip": true,
         "condition": {

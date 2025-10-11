@@ -1387,8 +1387,7 @@
         "23049PCD8G"
       ],
       "vulkan": {
-        "useCustomAllocationCallbacks": true,
-        "resetCommandsReleasesToSystem": true
+        "useCustomAllocationCallbacks": true
       },
       "android": {
         "checkMemoryLeaksMb": 500
@@ -2456,6 +2455,10 @@
       "asyncLoadPSOCache": true
     },
     "debug": {
+      "showFreeMemThresholdMb": 0
+    }
+  }
+}{
       "showFreeMemThresholdMb": 0
     }
   }

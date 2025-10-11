@@ -43765,15 +43765,15 @@
           "ammoCount": 1800,
           "isBeltAmmo": false
         },
-        "76mm_45_3in_20cwt_qf_mk1_naval_user_cannon_aaa": {
+        "40mm_39_2pdr_qf_mk2c_naval_user_cannon_aaa": {
           "wtype": "aaa",
-          "damage": 100.0,
-          "shotFreq": 0.2,
+          "damage": 38.0,
+          "shotFreq": 3.33,
           "aimMaxDist": 3500.0,
           "gunsCount": 2,
-          "caliber": 76.2,
+          "caliber": 40.0,
           "ammoCount": 300,
-          "isBeltAmmo": false
+          "isBeltAmmo": true
         },
         "102mm_45_4in_bl_mark9_10_naval_user_cannon_aaa": {
           "wtype": "aaa",
@@ -87719,4 +87719,5 @@
       }
     }
   }
+}  }
 }
