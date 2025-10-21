@@ -2680,7 +2680,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2974,7 +2973,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -3520,6 +3518,11 @@
       "decal3Wrap": false,
       "decal3Abs": true,
       "decal3OppositeMirrored": true,
+      "decal3WidthBox": 0.247554,
+      "decal3Tex": "ussr_numbers_8"
+    }
+  }
+}siteMirrored": true,
       "decal3WidthBox": 0.247554,
       "decal3Tex": "ussr_numbers_8"
     }

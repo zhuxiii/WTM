@@ -1713,7 +1713,9 @@
     "TrackSoundName": "tracks_heavy",
     "turret_turn": "turret_turn_manual_y",
     "EngineNameAi": "engine_tank_ai_heavy",
-    "TrackSoundNameAi": "tracks_ai_heavy"
+    "TrackSoundNameAi": "tracks_ai_heavy",
+    "EngineNameEx": "engine_panther",
+    "TrackSoundNameEx": "tracks_panther"
   },
   "class_tags": {},
   "commonWeapons": {
@@ -2996,9 +2998,6 @@
     }
   ],
   "battleHideNodes": {
-    "n": "details"
-  }
-}tleHideNodes": {
     "n": "details"
   }
 }

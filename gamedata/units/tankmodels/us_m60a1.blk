@@ -2754,7 +2754,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -3031,6 +3030,9 @@
       "decal0OppositeMirrored": false,
       "decal0WidthBox": 0.211089,
       "decal0Tex": "usa_tank_emblem_08"
+    }
+  }
+}   "decal0Tex": "usa_tank_emblem_08"
     }
   }
 }      "decal0WidthBox": 0.211089,

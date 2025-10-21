@@ -1871,7 +1871,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2759,7 +2758,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -3261,6 +3259,13 @@
       "decal0Abs": false,
       "decal0OppositeMirrored": false,
       "decal0WidthBox": 0.207281,
+      "decal0Tex": "ge_1st_panzerdivision"
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}
       "decal0Tex": "ge_1st_panzerdivision"
     }
   },

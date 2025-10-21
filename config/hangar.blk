@@ -50,7 +50,7 @@
     100.0
   ],
   "decalRotationSpeed": 90.0,
-  "decalScaleSpeed": 0.5,
+  "decalScaleSpeed": 0.8,
   "decalScaleRange": [
     0.1,
     3.0
@@ -103,10 +103,12 @@
   "fmGearsSpringsCoeffMul": 1.0,
   "modelVerticalShift": 0.0,
   "cameraAngleViscosity": 1.5,
+  "decalCameraViscosity": 0.4,
   "ignoreHqOnZoom": true,
   "verticalCameraShiftShip": 0.1,
   "verticalCameraShiftTank": 0.3,
   "countDecalsAtUnitInHangar": 4,
+  "isCustomDecalPos": true,
   "hangarMission": "gameData/scenes/hangar_field_mission_wtm.blk",
   "hangarSoundEngineMult": 0.4,
   "hangarSoundMult": 0.15,
@@ -227,9 +229,9 @@
     {
       "hangarPlace": "hydroplane",
       "modelPos": [
-        2932.2,
+        2939.8,
         3.5,
-        -2744.2
+        -2749.8
       ],
       "modelRotation": -197.0,
       "unitOffset": [
@@ -597,7 +599,7 @@
     },
     {
       "unitName": "corsair_fmk2",
-      "weapon": "f4u-1a_bomb_1000lb",
+      "weapon": "corsair_fmk2_1000lb_x2",
       "type": "plane",
       "skin": "",
       "country": "country_britain",
@@ -1859,11 +1861,11 @@
             -2120.9
           ],
           "to": [
-            764.1,
+            672.5,
             7.0,
-            -5806.5
+            -5692.0
           ],
-          "timeToStop": 100.0,
+          "timeToStop": 500.0,
           "cameraRelativeSpeed": 0.3,
           "shootToPos": [
             5668.0,
@@ -1985,9 +1987,9 @@
             -2120.9
           ],
           "to": [
-            764.1,
+            1626.9,
             7.0,
-            -5806.5
+            -6242.0
           ],
           "timeToStop": 100.0,
           "cameraRelativeSpeed": 0.5,
@@ -2110,7 +2112,7 @@
           }
         },
         {
-          "id": "v3",
+          "id": "v2",
           "musicName": "naval/music/cutscene_offer",
           "from": [
             1027.1,
@@ -2155,69 +2157,6 @@
                   0.35,
                   0.1,
                   0.0
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "id": "v4",
-          "musicName": "naval/music/cutscene_offer",
-          "from": [
-            1027.1,
-            0.0,
-            -891.5
-          ],
-          "to": [
-            1094.1,
-            0.0,
-            -3400.1
-          ],
-          "timeToStop": 500.0,
-          "cameraRelativeSpeed": 0.3,
-          "shootToPos": [
-            5668.0,
-            60.0,
-            -10632.5
-          ],
-          "shootAfterTime": 3.0,
-          "numShots": 1,
-          "cameraPath": {
-            "point": [
-              {
-                "from": [
-                  0.8,
-                  0.01,
-                  0.7
-                ],
-                "to": [
-                  0.75,
-                  0.01,
-                  0.1
-                ]
-              },
-              {
-                "from": [
-                  1.0,
-                  0.01,
-                  0.6
-                ],
-                "to": [
-                  0.7,
-                  0.01,
-                  0.1
-                ]
-              },
-              {
-                "from": [
-                  1.3,
-                  0.01,
-                  0.5
-                ],
-                "to": [
-                  0.66,
-                  0.05,
-                  0.1
                 ]
               }
             ]
@@ -2417,6 +2356,116 @@
                 ]
               }
             ]
+          },
+          "way": {
+            "wp_0": {
+              "type": "Point",
+              "tm": [
+                [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  2163.9,
+                  8.05,
+                  1666.9
+                ]
+              ],
+              "objLayer": 0,
+              "props": {}
+            },
+            "wp_1": {
+              "type": "Point",
+              "tm": [
+                [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  1541.8,
+                  8.05,
+                  4677.3
+                ]
+              ],
+              "objLayer": 0,
+              "props": {}
+            },
+            "wp_2": {
+              "type": "Point",
+              "tm": [
+                [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  -663.2,
+                  8.05,
+                  -3826.3
+                ]
+              ],
+              "objLayer": 0,
+              "props": {}
+            },
+            "wp_3": {
+              "type": "Point",
+              "tm": [
+                [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.0,
+                  0.0,
+                  0.0
+                ],
+                [
+                  1304.3,
+                  8.05,
+                  -992.9
+                ]
+              ],
+              "objLayer": 0,
+              "props": {}
+            }
           }
         }
       ]
@@ -2953,16 +3002,16 @@
           "id": "v4",
           "musicName": "naval/music/cutscene_offer_planes",
           "from": [
-            4959.7,
-            400.0,
-            -250.5
+            3727.1,
+            200.0,
+            1672.4
           ],
           "to": [
-            1906.8,
-            400.2,
-            2802.4
+            -443.2,
+            200.2,
+            550.0
           ],
-          "startRoll": 70.0,
+          "startRoll": -70.0,
           "startSpeed": 200.0,
           "shootToPos": [
             2022.3,
@@ -2979,9 +3028,9 @@
               "point": [
                 {
                   "from": [
-                    4651.2,
-                    385.0,
-                    467.5
+                    3110.1,
+                    185.0,
+                    2100.4
                   ],
                   "to": [
                     -20.0,
@@ -2991,9 +3040,9 @@
                 },
                 {
                   "from": [
-                    4639.3,
-                    385.0,
-                    428.6
+                    3100.9,
+                    185.0,
+                    2140.0
                   ],
                   "to": [
                     0.0,
@@ -3011,7 +3060,7 @@
                   "from": [
                     -1.5,
                     0.0,
-                    -1.0
+                    1.0
                   ],
                   "to": [
                     -1.5,
@@ -3023,7 +3072,7 @@
                   "from": [
                     1.25,
                     0.0,
-                    -1.0
+                    1.0
                   ],
                   "to": [
                     -0.5,
@@ -3035,7 +3084,7 @@
                   "from": [
                     3.0,
                     0.75,
-                    1.5
+                    -1.5
                   ],
                   "to": [
                     0.0,
@@ -3066,9 +3115,9 @@
                   0.0
                 ],
                 [
-                  4925.8,
-                  400.0,
-                  3.3
+                  3570.9,
+                  200.0,
+                  1875.3
                 ]
               ],
               "objLayer": 0,
@@ -3093,9 +3142,9 @@
                   0.0
                 ],
                 [
-                  4255.2,
-                  400.0,
-                  362.5
+                  2810.5,
+                  200.0,
+                  1851.0
                 ]
               ],
               "objLayer": 0,
@@ -3120,9 +3169,9 @@
                   0.0
                 ],
                 [
-                  3679.4,
-                  400.0,
-                  672.4
+                  2156.9,
+                  200.0,
+                  1831.5
                 ]
               ],
               "objLayer": 0,
@@ -3147,9 +3196,9 @@
                   0.0
                 ],
                 [
-                  3135.0,
-                  400.0,
-                  896.6
+                  1573.3,
+                  200.0,
+                  1753.5
                 ]
               ],
               "objLayer": 0,
@@ -3608,12 +3657,12 @@
           "musicName": "naval/music/cutscene_offer_planes",
           "from": [
             3183.9,
-            175.0,
+            650.0,
             -1748.8
           ],
           "to": [
             1352.6,
-            175.0,
+            650.0,
             -2557.3
           ],
           "startRoll": -10.0,
@@ -3686,9 +3735,9 @@
                   0.0
                 ],
                 [
-                  2506.5,
-                  175.0,
-                  -1855.5
+                  2781.2,
+                  650.0,
+                  -1892.2
                 ]
               ],
               "objLayer": 0,
@@ -3713,9 +3762,9 @@
                   0.0
                 ],
                 [
-                  1865.0,
-                  175.0,
-                  -2139.2
+                  1794.7,
+                  650.0,
+                  -2763.1
                 ]
               ],
               "objLayer": 0,
@@ -4189,38 +4238,6 @@
             0.1,
             1.0,
             0.1
-          ]
-        },
-        "end": {
-          "nodeName": "wheel_r_01_dm",
-          "offset": [
-            3.0,
-            1.0,
-            1.1
-          ]
-        }
-      },
-      "to": {
-        "start": {
-          "nodeName": "wheel_r_01_dm",
-          "offset": [
-            0.1,
-            1.0,
-            -0.6
-          ]
-        },
-        "end": {
-          "nodeName": "wheel_r_01_dm",
-          "offset": [
-            0.1,
-            2.0,
-            0.6
-          ]
-        }
-      }
-    }
-  ]
-}          0.1
           ]
         },
         "end": {

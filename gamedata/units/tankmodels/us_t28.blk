@@ -2895,16 +2895,17 @@
       "details",
       "details_01",
       "details_02",
-      "details_03"
+      "details_03",
+      "details_04",
+      "details_05",
+      "details_06",
+      "details_07",
+      "details_08",
+      "details_09",
+      "details_10"
     ]
   }
-}t": {
-      "skin_condition": 100.0,
-      "camo_scale": 0.0,
-      "camo_rotation": 0.0,
-      "decal0Line0": [
-        1.08764,
-        0.0,
+}0,
         -0.353356,
         2.37868
       ],

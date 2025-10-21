@@ -2642,7 +2642,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 0.7,
           "verticalSpeedLimitKPH": 16.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2995,6 +2994,10 @@
         "skin_condition": 100.0,
         "camo_scale": 0.0,
         "camo_rotation": 0.0
+      }
+    }
+  }
+}        "camo_rotation": 0.0
       }
     }
   }

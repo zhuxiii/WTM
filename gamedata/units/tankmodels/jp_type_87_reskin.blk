@@ -2339,7 +2339,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2468,7 +2467,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2673,7 +2671,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -2802,7 +2799,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -2978,6 +2974,17 @@
     "winter": {
       "replace_tex": {
         "from": "jp_camo_sdf_green*",
+        "to": "jp_camo_winter_late*"
+      }
+    },
+    "desert": {
+      "replace_tex": {
+        "from": "jp_camo_sdf_green*",
+        "to": "camo_f_purp_orng*"
+      }
+    }
+  }
+}"jp_camo_sdf_green*",
         "to": "jp_camo_winter_late*"
       }
     },

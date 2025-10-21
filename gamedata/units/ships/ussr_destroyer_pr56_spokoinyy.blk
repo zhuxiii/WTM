@@ -869,8 +869,7 @@
           "horizontalSpeedLimitKPH": 100.0,
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
-          "verticalSpeedLimitKPH": 100.0,
-          "speedFromVehicleVerticalMult": -1.0
+          "verticalSpeedLimitKPH": 100.0
         }
       },
       {
@@ -949,8 +948,7 @@
           "horizontalSpeedLimitKPH": 100.0,
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
-          "verticalSpeedLimitKPH": 100.0,
-          "speedFromVehicleVerticalMult": -1.0
+          "verticalSpeedLimitKPH": 100.0
         }
       },
       {
@@ -1029,8 +1027,7 @@
           "horizontalSpeedLimitKPH": 100.0,
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
-          "verticalSpeedLimitKPH": 100.0,
-          "speedFromVehicleVerticalMult": -1.0
+          "verticalSpeedLimitKPH": 100.0
         }
       },
       {
@@ -1109,8 +1106,7 @@
           "horizontalSpeedLimitKPH": 100.0,
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
-          "verticalSpeedLimitKPH": 100.0,
-          "speedFromVehicleVerticalMult": -1.0
+          "verticalSpeedLimitKPH": 100.0
         }
       },
       {
@@ -1167,8 +1163,7 @@
           "horizontalSpeedLimitKPH": 100.0,
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
-          "verticalSpeedLimitKPH": 100.0,
-          "speedFromVehicleVerticalMult": -1.0
+          "verticalSpeedLimitKPH": 100.0
         }
       },
       {
@@ -1225,8 +1220,7 @@
           "horizontalSpeedLimitKPH": 100.0,
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
-          "verticalSpeedLimitKPH": 100.0,
-          "speedFromVehicleVerticalMult": -1.0
+          "verticalSpeedLimitKPH": 100.0
         }
       },
       {
@@ -1283,8 +1277,7 @@
           "horizontalSpeedLimitKPH": 100.0,
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
-          "verticalSpeedLimitKPH": 100.0,
-          "speedFromVehicleVerticalMult": -1.0
+          "verticalSpeedLimitKPH": 100.0
         }
       },
       {
@@ -1341,8 +1334,7 @@
           "horizontalSpeedLimitKPH": 100.0,
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
-          "verticalSpeedLimitKPH": 100.0,
-          "speedFromVehicleVerticalMult": -1.0
+          "verticalSpeedLimitKPH": 100.0
         }
       },
       {
@@ -1609,8 +1601,7 @@
                 "horizontalSpeedLimitKPH": 100.0,
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
-                "verticalSpeedLimitKPH": 100.0,
-                "speedFromVehicleVerticalMult": -1.0
+                "verticalSpeedLimitKPH": 100.0
               }
             },
             {
@@ -1689,8 +1680,7 @@
                 "horizontalSpeedLimitKPH": 100.0,
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
-                "verticalSpeedLimitKPH": 100.0,
-                "speedFromVehicleVerticalMult": -1.0
+                "verticalSpeedLimitKPH": 100.0
               }
             },
             {
@@ -1769,8 +1759,7 @@
                 "horizontalSpeedLimitKPH": 100.0,
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
-                "verticalSpeedLimitKPH": 100.0,
-                "speedFromVehicleVerticalMult": -1.0
+                "verticalSpeedLimitKPH": 100.0
               }
             },
             {
@@ -1849,8 +1838,7 @@
                 "horizontalSpeedLimitKPH": 100.0,
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
-                "verticalSpeedLimitKPH": 100.0,
-                "speedFromVehicleVerticalMult": -1.0
+                "verticalSpeedLimitKPH": 100.0
               }
             },
             {
@@ -1907,8 +1895,7 @@
                 "horizontalSpeedLimitKPH": 100.0,
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
-                "verticalSpeedLimitKPH": 100.0,
-                "speedFromVehicleVerticalMult": -1.0
+                "verticalSpeedLimitKPH": 100.0
               }
             },
             {
@@ -1965,8 +1952,7 @@
                 "horizontalSpeedLimitKPH": 100.0,
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
-                "verticalSpeedLimitKPH": 100.0,
-                "speedFromVehicleVerticalMult": -1.0
+                "verticalSpeedLimitKPH": 100.0
               }
             },
             {
@@ -2023,8 +2009,7 @@
                 "horizontalSpeedLimitKPH": 100.0,
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
-                "verticalSpeedLimitKPH": 100.0,
-                "speedFromVehicleVerticalMult": -1.0
+                "verticalSpeedLimitKPH": 100.0
               }
             },
             {
@@ -2081,8 +2066,7 @@
                 "horizontalSpeedLimitKPH": 100.0,
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
-                "verticalSpeedLimitKPH": 100.0,
-                "speedFromVehicleVerticalMult": -1.0
+                "verticalSpeedLimitKPH": 100.0
               }
             },
             {
@@ -2346,8 +2330,7 @@
                 "horizontalSpeedLimitKPH": 100.0,
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
-                "verticalSpeedLimitKPH": 100.0,
-                "speedFromVehicleVerticalMult": -1.0
+                "verticalSpeedLimitKPH": 100.0
               }
             },
             {
@@ -2426,8 +2409,7 @@
                 "horizontalSpeedLimitKPH": 100.0,
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
-                "verticalSpeedLimitKPH": 100.0,
-                "speedFromVehicleVerticalMult": -1.0
+                "verticalSpeedLimitKPH": 100.0
               }
             },
             {
@@ -2506,8 +2488,7 @@
                 "horizontalSpeedLimitKPH": 100.0,
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
-                "verticalSpeedLimitKPH": 100.0,
-                "speedFromVehicleVerticalMult": -1.0
+                "verticalSpeedLimitKPH": 100.0
               }
             },
             {
@@ -2586,8 +2567,7 @@
                 "horizontalSpeedLimitKPH": 100.0,
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
-                "verticalSpeedLimitKPH": 100.0,
-                "speedFromVehicleVerticalMult": -1.0
+                "verticalSpeedLimitKPH": 100.0
               }
             },
             {
@@ -2644,8 +2624,7 @@
                 "horizontalSpeedLimitKPH": 100.0,
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
-                "verticalSpeedLimitKPH": 100.0,
-                "speedFromVehicleVerticalMult": -1.0
+                "verticalSpeedLimitKPH": 100.0
               }
             },
             {
@@ -2702,8 +2681,7 @@
                 "horizontalSpeedLimitKPH": 100.0,
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
-                "verticalSpeedLimitKPH": 100.0,
-                "speedFromVehicleVerticalMult": -1.0
+                "verticalSpeedLimitKPH": 100.0
               }
             },
             {
@@ -2760,8 +2738,7 @@
                 "horizontalSpeedLimitKPH": 100.0,
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
-                "verticalSpeedLimitKPH": 100.0,
-                "speedFromVehicleVerticalMult": -1.0
+                "verticalSpeedLimitKPH": 100.0
               }
             },
             {
@@ -2818,8 +2795,7 @@
                 "horizontalSpeedLimitKPH": 100.0,
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
-                "verticalSpeedLimitKPH": 100.0,
-                "speedFromVehicleVerticalMult": -1.0
+                "verticalSpeedLimitKPH": 100.0
               }
             },
             {
@@ -3650,6 +3626,65 @@
     ],
     "additionalWaterDeathThreshold": 9600000.0,
     "additionalWaterCoverPartsThreshold": 3000000.0,
+    "additionalWaterShouldDiePercent": 0.525,
+    "fatalBreachDrownTime": 20.0,
+    "maxHeelingAngle": 35.0,
+    "maxHeelingTime": 10.0,
+    "criticalHeelingAnglePercent": 0.75,
+    "maxCriticalHeelingTime": 3.0,
+    "heelingDeathHeightOffsetMult": 0.0,
+    "sideCenterOfMassOffsetPercent": 0.2,
+    "additionalWaterInfluenceOnSpeed": 3.0
+  },
+  "shipCover": {
+    "cover": [
+      {
+        "part": "compartment_01_dm",
+        "weight": 1.0,
+        "maxWaterAlive": 0.6
+      },
+      {
+        "part": "compartment_02_dm",
+        "weight": 1.0,
+        "maxWaterAlive": 0.6
+      },
+      {
+        "part": "compartment_03_dm",
+        "weight": 1.0,
+        "maxWaterAlive": 0.6
+      }
+    ]
+  },
+  "winch": {
+    "length": 170.0
+  },
+  "smokeWall": {
+    "distance": 450.0,
+    "speed": 350.0,
+    "height": 0.0,
+    "length": 450.0,
+    "fxOffset": 65.0
+  },
+  "difficulty": {
+    "arcade": {
+      "shipRudderAreaMult": 1.0,
+      "tankRearmOnCaptureZone": true
+    }
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": [
+      {
+        "from": "camo_hazegray*",
+        "to": "camo_violetgray_geometry*"
+      },
+      {
+        "from": "camo_rot_5*",
+        "to": "camo_inside_white*"
+      }
+    ]
+  }
+} 3000000.0,
     "additionalWaterShouldDiePercent": 0.525,
     "fatalBreachDrownTime": 20.0,
     "maxHeelingAngle": 35.0,

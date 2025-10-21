@@ -3882,6 +3882,21 @@
         "ammo_percent": 100,
         "repair_percent": 100
       }
+    },
+    "airSpeedBoost": {
+      "fxName": "smoke_point_circle_blue",
+      "fxScale": 0.3,
+      "objectModelName": "br_pickup_rep_art_ammo",
+      "miniMapIconId": "iconPickupAllInOne",
+      "miniMapIconColor": [
+        0,
+        150,
+        255,
+        255
+      ],
+      "rewards": {
+        "air_speed_boost_percent": 10
+      }
     }
   },
   "markUnitPresets": {

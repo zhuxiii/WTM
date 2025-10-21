@@ -118,14 +118,14 @@
     0.0,
     4.0
   ],
-  "allowPlayerSetDecals": false,
+  "needCheckPremiumDecals": false,
   "decalScaleRange": [
     0.1,
     3.0
   ],
   "decalScaleRangeShip": [
-    0.1,
-    5.0
+    1.0,
+    20.0
   ],
   "timeBeforeEngineNoticeFire": 0.5,
   "noAnimationForTankMisfire": true,
@@ -379,6 +379,8 @@
   "adaptiveCamAngleMult": 1.0,
   "shiftUpSteerThreshold": 0.35,
   "rtsModeForAircraftCarrier": true,
+  "allowSpectatingEnemiesInLastManStanding": false,
+  "minTorpedoHitTimeThreatShow": 10.0,
   "tracers": {
     "headFadeTime": 4.0,
     "headSpeedScale": [
@@ -15920,6 +15922,38 @@
         },
         {
           "name": "wheel_r_01_",
+          "modelNames": "boxer_3105"
+        },
+        {
+          "name": "wheel_l_01_",
+          "modelNames": "boxer_3105"
+        },
+        {
+          "name": "wheel_r_02_",
+          "modelNames": "boxer_3105"
+        },
+        {
+          "name": "wheel_l_02_",
+          "modelNames": "boxer_3105"
+        },
+        {
+          "name": "wheel_r_03_",
+          "modelNames": "boxer_3105"
+        },
+        {
+          "name": "wheel_l_03_",
+          "modelNames": "boxer_3105"
+        },
+        {
+          "name": "wheel_r_04_",
+          "modelNames": "boxer_3105"
+        },
+        {
+          "name": "wheel_l_04_",
+          "modelNames": "boxer_3105"
+        },
+        {
+          "name": "wheel_r_01_",
           "modelNames": "boxer_cockerill_3105"
         },
         {
@@ -19016,7 +19050,8 @@
       "extra_gun_4": true,
       "rockets": true,
       "rockets_secondary": true,
-      "machinegun": true
+      "machinegun": true,
+      "special": true
     },
     "ai": {
       "machinegun": true

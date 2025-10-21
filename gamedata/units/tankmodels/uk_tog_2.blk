@@ -639,46 +639,6 @@
       "ammo_body_03_dm": {},
       "ammo_body_04_dm": {},
       "ammo_body_05_dm": {},
-      "ammo_body_06_dm": {},
-      "ammo_body_07_dm": {},
-      "ammo_body_08_dm": {},
-      "ammo_body_09_dm": {},
-      "ammo_body_10_dm": {},
-      "ammo_body_11_dm": {},
-      "ammo_body_12_dm": {},
-      "ammo_body_13_dm": {},
-      "ammo_body_14_dm": {},
-      "ammo_body_15_dm": {},
-      "ammo_body_16_dm": {},
-      "ammo_body_17_dm": {},
-      "ammo_body_18_dm": {},
-      "ammo_body_19_dm": {},
-      "ammo_body_20_dm": {},
-      "ammo_body_21_dm": {},
-      "ammo_body_22_dm": {},
-      "ammo_body_23_dm": {},
-      "ammo_body_24_dm": {},
-      "ammo_body_25_dm": {},
-      "ammo_body_26_dm": {},
-      "ammo_body_27_dm": {},
-      "ammo_body_28_dm": {},
-      "ammo_body_29_dm": {},
-      "ammo_body_30_dm": {},
-      "ammo_body_31_dm": {},
-      "ammo_body_32_dm": {},
-      "ammo_body_33_dm": {},
-      "ammo_body_34_dm": {},
-      "ammo_body_35_dm": {},
-      "ammo_body_36_dm": {},
-      "ammo_body_37_dm": {},
-      "ammo_body_38_dm": {},
-      "ammo_body_39_dm": {},
-      "ammo_body_40_dm": {},
-      "ammo_body_41_dm": {},
-      "ammo_body_42_dm": {},
-      "ammo_body_43_dm": {},
-      "ammo_body_44_dm": {},
-      "ammo_body_45_dm": {},
       "ammo_body_46_dm": {},
       "ammo_body_47_dm": {},
       "ammo_body_48_dm": {},
@@ -1928,7 +1888,7 @@
         "speedYaw": 15.0,
         "speedPitch": 4.0,
         "fireConeAngle": 1.0,
-        "bullets": 45,
+        "bullets": 5,
         "salvoAmount": 100.0,
         "ChainfireTime": 0.0,
         "DelayAfterShoot": 5.0,
@@ -3017,6 +2977,32 @@
           "count": 1
         }
       }
+    },
+    "ammo2": {
+      "weaponTrigger": "gunner2",
+      "removeLoadedAmmo": false,
+      "fatalFire": true,
+      "fatalExplosion": true,
+      "shells": {
+        "fireEvent": "ammo_fire",
+        "explosionEvent": "ammo_explosion",
+        "wreckedPartId": 0,
+        "ammo_body_01_dm": {
+          "count": 1
+        },
+        "ammo_body_02_dm": {
+          "count": 1
+        },
+        "ammo_body_03_dm": {
+          "count": 1
+        },
+        "ammo_body_04_dm": {
+          "count": 1
+        },
+        "ammo_body_05_dm": {
+          "count": 1
+        }
+      }
     }
   },
   "modifications": {
@@ -3076,6 +3062,39 @@
         {
           "from": "tog_2_turret_c*",
           "to": "tog_2_skin_turret_c*",
+          "param": "camo_skin_tex"
+        }
+      ]
+    }
+  },
+  "defaultDecals": {
+    "default": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    },
+    "forest": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  },
+  "battleHideNodes": {
+    "n": [
+      "details",
+      "details_01",
+      "details_02",
+      "details_03",
+      "details_04",
+      "details_05",
+      "details_06",
+      "details_07",
+      "details_08",
+      "details_09",
+      "details_10"
+    ]
+  }
+}_skin_turret_c*",
           "param": "camo_skin_tex"
         }
       ]

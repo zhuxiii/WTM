@@ -3102,80 +3102,67 @@
       "decal0Abs": true,
       "decal0OppositeMirrored": true,
       "decal0WidthBox": 0.204894,
-      "decal0Tex": "ge_bundeswehr_insignia",
-      "decal1Line0": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
+      "decal0Tex": "ge_bundeswehr_insignia"
+    },
+    "desert": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0,
+      "decal0Line0": [
+        2.79131,
+        -0.0661274,
+        0.541932,
+        -0.28587
       ],
-      "decal1Line1": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
+      "decal0Line1": [
+        0.201138,
+        -2.50011,
+        -1.34106,
+        3.99129
       ],
-      "decal1Line2": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
+      "decal0Line2": [
+        -2.79131,
+        0.0661273,
+        0.541932,
+        1.28587
       ],
-      "decal1Line3": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
+      "decal0Line3": [
+        0.201139,
+        -2.50011,
+        1.34106,
+        3.99129
       ],
-      "decal1HaveCP": false,
-      "decal1CPNormDepth": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        0.178451,
+        0.476215,
+        -0.861031,
+        -1.95039
       ],
-      "decal1CPNormDepth1": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
+      "decal0CPNormDepth1": [
+        0.178451,
+        0.476215,
+        0.861031,
+        -1.95039
       ],
-      "decal1RotScale": [
-        1.5708,
-        1.0
+      "decal0RotScale": [
+        1.59724,
+        0.351593
       ],
-      "decal1Mirrored": false,
-      "decal1Wrap": false,
-      "decal1Abs": false,
-      "decal1OppositeMirrored": false,
-      "decal1WidthBox": 0.0,
-      "decal1Tex": "",
-      "decal2Line0": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal2Line1": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal2Line2": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal2Line3": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal2HaveCP": false,
-      "decal2CPNormDepth": [
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": true,
+      "decal0WidthBox": 0.204894,
+      "decal0Tex": "ge_bundeswehr_insignia"
+    },
+    "winter": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  }
+}al2CPNormDepth": [
         0.0,
         0.0,
         0.0,

@@ -801,7 +801,9 @@
     "turret_turn": "turret_turn_manual_y",
     "EngineNameAi": "engine_tank_ai_heavy",
     "TrackSoundNameAi": "tracks_ai_heavy",
-    "gun_turn": "turret_turn_mg_light"
+    "gun_turn": "turret_turn_mg_light",
+    "EngineNameEx": "engine_sherman_m4a3",
+    "TrackSoundNameEx": "tracks_sherman_m4a1"
   },
   "DamageEffects": {
     "part": [
@@ -1869,7 +1871,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 0.7,
           "verticalSpeedLimitKPH": 24.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [

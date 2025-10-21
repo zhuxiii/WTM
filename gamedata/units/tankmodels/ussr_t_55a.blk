@@ -1850,8 +1850,6 @@
           "horizontalSpeedLimitKPH": 75.0,
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
-          "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2882,6 +2880,13 @@
     "emitter": [
       "emtr_exhaust_01",
       "emtr_exhaust_04",
+      "emtr_exhaust_02"
+    ]
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}t_04",
       "emtr_exhaust_02"
     ]
   },

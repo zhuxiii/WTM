@@ -2975,7 +2975,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -3163,7 +3162,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -3601,6 +3599,11 @@
     "winter": {
       "replace_tex": {
         "from": "uk_camo_very_dark_drab*",
+        "to": "fr_camo_winter_green_white*"
+      }
+    }
+  }
+}    "from": "uk_camo_very_dark_drab*",
         "to": "fr_camo_winter_green_white*"
       }
     }

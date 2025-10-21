@@ -438,9 +438,9 @@
       118
     ],
     "allyColor": [
-      176,
-      176,
-      52,
+      255,
+      174,
+      127,
       158
     ],
     "enemyColor": [
@@ -456,9 +456,9 @@
       255
     ],
     "colorCaptureZoneFriend": [
-      176,
-      176,
-      52,
+      255,
+      174,
+      127,
       255
     ],
     "colorCaptureZoneEnemy": [
@@ -659,15 +659,15 @@
       148
     ],
     "colorFriend": [
-      176,
-      176,
-      52,
+      255,
+      174,
+      127,
       150
     ],
     "colorFriendGround": [
-      176,
-      176,
-      52,
+      255,
+      174,
+      127,
       150
     ],
     "colorEnemy": [
@@ -683,15 +683,15 @@
       150
     ],
     "colorFriendInvulnerable": [
-      176,
-      176,
-      52,
+      255,
+      174,
+      127,
       100
     ],
     "colorFriendGroundInvulnerable": [
-      176,
-      176,
-      52,
+      255,
+      174,
+      127,
       100
     ],
     "colorEnemyInvulnerable": [
@@ -737,9 +737,9 @@
       255
     ],
     "colorFriendObjective": [
-      176,
-      176,
-      52,
+      255,
+      174,
+      127,
       255
     ],
     "bombingZoneAlly": "bombingzone_small_side_allies.svg:14:18:K",
@@ -1916,9 +1916,9 @@
       255
     ],
     "colorFriend": [
-      176,
-      176,
-      52,
+      255,
+      174,
+      127,
       255
     ],
     "colorTeam": [
@@ -1940,9 +1940,9 @@
       255
     ],
     "colorWaypointAlly": [
-      176,
-      176,
-      52,
+      255,
+      174,
+      127,
       255
     ],
     "colorWaypointEnemy": [
@@ -1958,9 +1958,9 @@
       255
     ],
     "colorFriendObjective": [
-      176,
-      176,
-      52,
+      255,
+      174,
+      127,
       255
     ],
     "enlargementScale": 2.0,
@@ -2034,9 +2034,9 @@
       80
     ],
     "fontColorFriendV2": [
-      176,
-      176,
-      52,
+      255,
+      174,
+      127,
       255
     ],
     "fontColorEnemyV2": [
@@ -2083,15 +2083,15 @@
     "notVisibleTextAlpha": 100,
     "notVisibleTextK": 0.25,
     "colorFriend": [
-      176,
-      176,
-      52,
+      255,
+      174,
+      127,
       255
     ],
     "colorFriendGround": [
-      176,
-      176,
-      52,
+      255,
+      174,
+      127,
       255
     ],
     "colorEnemy": [
@@ -2149,9 +2149,9 @@
       255
     ],
     "colorWaypointAlly": [
-      176,
-      176,
-      52,
+      255,
+      174,
+      127,
       255
     ],
     "colorWaypointEnemy": [
@@ -2210,9 +2210,9 @@
       200
     ],
     "colorFriendObjective": [
-      176,
-      176,
-      52,
+      255,
+      174,
+      127,
       255
     ],
     "targetHpBarScale": 2.0,
@@ -3290,7 +3290,21 @@
       255,
       255,
       255
-    ]
+    ],
+    "velocityColor": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "noseColor": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "velocitySizeScale": 1.2,
+    "noseSizeScale": 1.2
   },
   "compass": {
     "targetOffset": [
@@ -3411,9 +3425,9 @@
       100
     ],
     "colorFriend": [
-      176,
-      176,
-      52,
+      255,
+      174,
+      127,
       255
     ],
     "colorEnemy": [
@@ -3981,6 +3995,7 @@
           "triggerNo": 10,
           "bulletType": 0,
           "bulletTypeInGroup": 0,
+          "isCoaxialShareCooldown": true,
           "triggerGroup": [
             "machinegun",
             "coaxial"
@@ -4017,7 +4032,8 @@
         "showLoadedCount": true
       },
       "rocket_asw_activate": {
-        "shortcutIdx": -1
+        "shortcutIdx": -1,
+        "showLoadedCount": true
       },
       "torpedo_sight_activate": {
         "shortcutIdx": -1
@@ -4028,6 +4044,9 @@
       "torpedo_activate": {
         "shortcutIdx": -1,
         "showReloadProgress": true
+      },
+      "acoustic_decoy_activate": {
+        "shortcutIdx": -1
       },
       "depth_charge_activate": {
         "shortcutIdx": -1

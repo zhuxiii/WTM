@@ -281,6 +281,11 @@
             "name": "fr_panhard_ebr_1951",
             "weight": 1.0,
             "country": "france"
+          },
+          {
+            "name": "germ_pzkpfw_IV_ausf_F2",
+            "weight": 1.0,
+            "country": "germany"
           }
         ]
       },
@@ -700,6 +705,16 @@
             "name": "sw_strv_105",
             "weight": 1.0,
             "country": "sweden"
+          },
+          {
+            "name": "germ_kpz_70",
+            "weight": 1.0,
+            "country": "germany"
+          },
+          {
+            "name": "germ_leopard_I_a1",
+            "weight": 1.0,
+            "country": "germany"
           }
         ]
       },
@@ -1017,22 +1032,7 @@
   "necessaryMods": {
     "mod": "manual_extinguisher"
   }
-}erm_cruiser_admiral_hipper",
-            "weight": 1.0,
-            "country": "germany"
-          },
-          {
-            "name": "uk_cruiser_southampton",
-            "weight": 1.0,
-            "country": "germany"
-          },
-          {
-            "name": "ussr_cruiser_kirov",
-            "weight": 1.0,
-            "country": "germany"
-          },
-          {
-            "name": "jp_cruiser_tone",
+}       "name": "jp_cruiser_tone",
             "weight": 1.0,
             "country": "germany"
           }

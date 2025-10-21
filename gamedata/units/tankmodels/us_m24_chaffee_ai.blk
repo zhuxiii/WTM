@@ -1643,7 +1643,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 0.7,
           "verticalSpeedLimitKPH": 24.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -1821,9 +1820,9 @@
         0.05
       ],
       "suspensionOffsets": [
-        -0.19,
-        -0.11,
-        0.09
+        -0.17,
+        -0.15,
+        0.07
       ],
       "defaultGearRadius": 0.324,
       "topGearRadius": 0.147,
@@ -2526,6 +2525,10 @@
       "replace_tex": {
         "from": "us_camo_olive*",
         "to": "us_camo_winter_grid*"
+      }
+    }
+  ]
+}"to": "us_camo_winter_grid*"
       }
     }
   ]

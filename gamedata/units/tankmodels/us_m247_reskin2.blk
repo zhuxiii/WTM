@@ -2543,7 +2543,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2660,7 +2659,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2723,7 +2721,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2885,7 +2882,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -3002,7 +2998,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -3065,7 +3060,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -3180,48 +3174,55 @@
       "camo_scale": 0.0,
       "camo_rotation": 0.0,
       "decal0Line0": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
+        2.62989,
+        -1.50783e-7,
+        -0.00229538,
+        -0.909657
       ],
       "decal0Line1": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
+        -0.000731564,
+        -2.49279,
+        -0.838032,
+        4.82714
       ],
       "decal0Line2": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
+        -2.62989,
+        -1.36853e-7,
+        -0.00229543,
+        1.90967
       ],
       "decal0Line3": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
+        -0.000731334,
+        -2.49279,
+        0.838032,
+        4.82361
       ],
-      "decal0HaveCP": false,
+      "decal0HaveCP": true,
       "decal0CPNormDepth": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
+        -0.000827317,
+        0.318657,
+        -0.94787,
+        -2.09893
       ],
       "decal0CPNormDepth1": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
+        -0.000827317,
+        0.318657,
+        0.94787,
+        -2.10292
       ],
       "decal0RotScale": [
         1.5708,
-        1.0
+        0.380244
       ],
       "decal0Mirrored": false,
       "decal0Wrap": false,
+      "decal0Abs": false,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.240856,
+      "decal0Tex": "usa_tank_emblem_08"
+    }
+  }
+}false,
       "decal0Abs": false,
       "decal0OppositeMirrored": false,
       "decal0WidthBox": 0.0,

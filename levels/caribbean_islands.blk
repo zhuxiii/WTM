@@ -14,7 +14,7 @@
   "water_level": 0.0,
   "precisionNotDetectedUnits": 200.0,
   "notDetectedUnitsSizeMul": 0.9,
-  "soundAmbientPathStudio": "event/ambience",
+  "soundAmbientPathStudio": "aircraft/ambient",
   "soundAmbientEvent": "global_amb",
   "clipmap_tex_mips": 6,
   "mapCoord0": [
@@ -114,7 +114,7 @@
       "lod1": 8000.0
     }
   }
-}": {
+} {
       "lod0": 140.0,
       "lod1": 8000.0
     }

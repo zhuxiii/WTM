@@ -32,7 +32,7 @@ def is_out_of_range(pos : float3; max_range : float; player_eid, possessed : Ent
 
     
     
-    let lookingEid = get_Eid(player_eid, "possessed") ?? ecs::INVALID_ENTITY_ID;
+    let lookingEid = get_Eid(player_eid, "possessed") ?? INVALID_ENTITY_ID;
     let playerTm = get_TMatrix(lookingEid, "transform")
     if playerTm != null
       return length_sq(pos - (*playerTm)[3]) > square(max_range)
@@ -123,3 +123,4 @@ def target_entity_pos_range_friendly_enemy(target : EntityId; max_range_friendly
         if !is_out_of_range(pos, maxRange, eid, possessed)
           recipients |> push(connid |> get_client_connection())
   return <- recipients
+nts

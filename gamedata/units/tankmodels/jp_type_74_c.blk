@@ -2668,7 +2668,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "forceEnabled": true,
           "errorKPHToDegrees": {
             "row": [
@@ -2850,7 +2849,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2991,7 +2989,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "forceEnabled": true,
                 "errorKPHToDegrees": {
                   "row": [
@@ -3173,7 +3170,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -3458,6 +3454,14 @@
         0.229859
       ],
       "decal3Mirrored": false,
+      "decal3Wrap": false,
+      "decal3Abs": true,
+      "decal3OppositeMirrored": false,
+      "decal3WidthBox": 0.207346,
+      "decal3Tex": "japan_numbers_red_3"
+    }
+  }
+}  "decal3Mirrored": false,
       "decal3Wrap": false,
       "decal3Abs": true,
       "decal3OppositeMirrored": false,

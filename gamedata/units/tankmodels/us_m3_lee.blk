@@ -1719,7 +1719,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 0.7,
           "verticalSpeedLimitKPH": 16.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -1796,7 +1795,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 0.7,
           "verticalSpeedLimitKPH": 16.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2771,6 +2769,12 @@
       "nameLocId": "skin/us_camo_winter_grid",
       "descLocId": "skin/us_camo_winter_grid/desc",
       "replace_tex": {
+        "from": "us_camo_olive*",
+        "to": "us_camo_winter_grid*"
+      }
+    }
+  ]
+}x": {
         "from": "us_camo_olive*",
         "to": "us_camo_winter_grid*"
       }

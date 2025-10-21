@@ -2945,7 +2945,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -3077,7 +3076,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -3140,7 +3138,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -3213,6 +3210,14 @@
       "camo_scale": 0.0,
       "camo_rotation": 0.0
     }
+  },
+  "upgraded_skin": {
+    "replace_tex": {
+      "from": "uk_camo_very_dark_drab*",
+      "to": "rsa_camo_gray_earth_stone*"
+    }
+  }
+}  }
   },
   "upgraded_skin": {
     "replace_tex": {

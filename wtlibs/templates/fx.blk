@@ -1,7 +1,10 @@
 {
   "import": "%wtlibs/templates/essentials.blk",
   "ecs_fx": {
-    "_use": "replicating",
+    "_use": [
+      "ecs_no_debug",
+      "replicating"
+    ],
     "_replicate": true,
     "transform": [
       [
@@ -48,7 +51,7 @@
     "_use": "replicating",
     "_group": {
       "_track": true,
-      "ground_effect__fx_name": "effect_geyser",
+      "ground_effect__fx_name": "ground_sparkles_10m",
       "ground_effect__biome_group_name": "",
       "ground_effect__grid_cell_size": 1.0,
       "ground_effect__grid_world_origin": [
@@ -94,13 +97,7 @@
         1.0,
         0.0
       ],
-      "ground_effect__biome_ids:array": {
-        "idx": [
-          1,
-          4,
-          58
-        ]
-      }
+      "ground_effect__biome_ids:array": {}
     },
     "ground_effect__manager": {
       "_tags": "render"
@@ -388,6 +385,9 @@
     "sound_area__bgrid:list<b>": {},
     "sound_area__event:SoundEvent": {
       "_tags": "sound"
+    }
+  }
+}   "_tags": "sound"
     }
   }
 }

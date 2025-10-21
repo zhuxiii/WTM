@@ -3150,12 +3150,6 @@
         "to": "fr_camo_carc*"
       }
     },
-    "forest2": {
-      "replace_tex": {
-        "from": "fr_camo_vert_olive_arme*",
-        "to": "fr_camo_carc*"
-      }
-    },
     "forest3": {
       "replace_tex": {
         "from": "fr_camo_vert_olive_arme*",
@@ -3163,12 +3157,6 @@
       }
     },
     "desert": {
-      "replace_tex": {
-        "from": "fr_camo_vert_olive_arme*",
-        "to": "fr_camo_desert_brown*"
-      }
-    },
-    "desert2": {
       "replace_tex": {
         "from": "fr_camo_vert_olive_arme*",
         "to": "fr_camo_desert_brown*"
@@ -3187,12 +3175,6 @@
       }
     },
     "winter": {
-      "replace_tex": {
-        "from": "fr_camo_vert_olive_arme*",
-        "to": "fr_camo_carc_winter*"
-      }
-    },
-    "winter2": {
       "replace_tex": {
         "from": "fr_camo_vert_olive_arme*",
         "to": "fr_camo_carc_winter*"
@@ -3243,6 +3225,26 @@
     },
     "desert4": {
       "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    },
+    "winter": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    },
+    "winter2": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    },
+    "winter3": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  }
+}condition": 100.0,
       "camo_scale": 0.0,
       "camo_rotation": 0.0
     },

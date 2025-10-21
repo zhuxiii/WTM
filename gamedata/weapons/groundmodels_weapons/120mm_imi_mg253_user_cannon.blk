@@ -542,7 +542,7 @@
       "damageCaliber": 0.025,
       "ballisticCaliber": 0.025,
       "speed": 1705.0,
-      "Cx": 0.55,
+      "Cx": 0.73,
       "maxDistance": 10000.0,
       "normalizationPreset": "default",
       "ricochetPreset": "apds_fs_long",
@@ -618,43 +618,12 @@
           10000.0
         ]
       },
-      "armorpower": {
-        "ArmorPower0m": [
-          625.0,
-          10.0
-        ],
-        "ArmorPower100m": [
-          622.0,
-          100.0
-        ],
-        "ArmorPower500m": [
-          613.0,
-          500.0
-        ],
-        "ArmorPower1000m": [
-          601.0,
-          1000.0
-        ],
-        "ArmorPower1500m": [
-          588.0,
-          1500.0
-        ],
-        "ArmorPower2000m": [
-          575.0,
-          2000.0
-        ],
-        "ArmorPower3000m": [
-          549.0,
-          3000.0
-        ],
-        "ArmorPower10000m": [
-          5.0,
-          10000.0
-        ],
-        "ArmorPower20000m": [
-          0.0,
-          20000.0
-        ]
+      "damage": {
+        "kinetic": {
+          "lanzOdermattMaterial": "tungsten",
+          "lanzOdermattWorkingLength": 620.0,
+          "lanzOdermattDensity": 17500.0
+        }
       },
       "visual": {
         "range_percent_of_ammo": [
@@ -755,7 +724,7 @@
       "damageCaliber": 0.025,
       "ballisticCaliber": 0.025,
       "speed": 1705.0,
-      "Cx": 0.55,
+      "Cx": 0.73,
       "maxDistance": 10000.0,
       "normalizationPreset": "default",
       "ricochetPreset": "apds_fs_long",
@@ -831,43 +800,12 @@
           10000.0
         ]
       },
-      "armorpower": {
-        "ArmorPower0m": [
-          625.0,
-          10.0
-        ],
-        "ArmorPower100m": [
-          622.0,
-          100.0
-        ],
-        "ArmorPower500m": [
-          613.0,
-          500.0
-        ],
-        "ArmorPower1000m": [
-          601.0,
-          1000.0
-        ],
-        "ArmorPower1500m": [
-          588.0,
-          1500.0
-        ],
-        "ArmorPower2000m": [
-          575.0,
-          2000.0
-        ],
-        "ArmorPower3000m": [
-          549.0,
-          3000.0
-        ],
-        "ArmorPower10000m": [
-          5.0,
-          10000.0
-        ],
-        "ArmorPower20000m": [
-          0.0,
-          20000.0
-        ]
+      "damage": {
+        "kinetic": {
+          "lanzOdermattMaterial": "tungsten",
+          "lanzOdermattWorkingLength": 620.0,
+          "lanzOdermattDensity": 17500.0
+        }
       },
       "visual": {
         "range_percent_of_ammo": [
@@ -1130,6 +1068,50 @@
         },
         "ice": {
           "fx": "hit_106_132mm_snow_ap"
+        },
+        "roadSnow": {
+          "fx": "hit_106_132mm_snow_ap"
+        },
+        "snowLower": {
+          "fx": "hit_106_132mm_snow_ap"
+        },
+        "glass": {
+          "fx": "hit_106_132mm_metal_ap"
+        },
+        "wood": {
+          "fx": "hit_106_132mm_wood_ap"
+        },
+        "steel": {
+          "fx": "hit_106_132mm_metal_ap"
+        },
+        "metal": {
+          "fx": "hit_106_132mm_metal_ap"
+        },
+        "buildings": {
+          "fx": "hit_106_132mm_stone_ap"
+        },
+        "verLandMesh": {
+          "fx": "hit_106_132mm_stone_ap"
+        },
+        "concrete": {
+          "fx": "hit_106_132mm_stone_ap"
+        },
+        "rocks": {
+          "fx": "hit_106_132mm_stone_ap"
+        },
+        "rocksSlippery": {
+          "fx": "hit_106_132mm_stone_ap"
+        },
+        "fabric": {
+          "fx": "hit_106_132mm_stone_ap"
+        },
+        "stone_snow": {
+          "fx": "hit_106_132mm_snow_ap"
+        }
+      }
+    }
+  }
+}m_snow_ap"
         },
         "roadSnow": {
           "fx": "hit_106_132mm_snow_ap"

@@ -717,8 +717,7 @@
           "horizontalSpeedLimitKPH": 100.0,
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
-          "verticalSpeedLimitKPH": 100.0,
-          "speedFromVehicleVerticalMult": -1.0
+          "verticalSpeedLimitKPH": 100.0
         }
       },
       {
@@ -1007,8 +1006,7 @@
                 "horizontalSpeedLimitKPH": 100.0,
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
-                "verticalSpeedLimitKPH": 100.0,
-                "speedFromVehicleVerticalMult": -1.0
+                "verticalSpeedLimitKPH": 100.0
               }
             },
             {
@@ -1978,6 +1976,13 @@
         "from": "camo_syntheticblackpaint*",
         "to": "camo_arctic_minesweeper_block*"
       },
+      {
+        "from": "camo_bottom_green*",
+        "to": "camo_fadedgreen*"
+      }
+    ]
+  }
+} },
       {
         "from": "camo_bottom_green*",
         "to": "camo_fadedgreen*"

@@ -2339,7 +2339,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2468,7 +2467,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2672,7 +2670,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -2801,7 +2798,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -2910,193 +2906,146 @@
       "camo_scale": 0.0,
       "camo_rotation": 0.0,
       "decal0Line0": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal0Line1": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal0Line2": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal0Line3": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal0HaveCP": false,
-      "decal0CPNormDepth": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal0CPNormDepth1": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal0RotScale": [
-        1.5708,
-        1.0
-      ],
-      "decal0Mirrored": false,
-      "decal0Wrap": false,
-      "decal0Abs": false,
-      "decal0OppositeMirrored": false,
-      "decal0WidthBox": 0.0,
-      "decal0Tex": "",
-      "decal1Line0": [
         1.9093,
         -1.45612e-7,
         2.03706,
         -1.05464
       ],
-      "decal1Line1": [
+      "decal0Line1": [
         0.564292,
         -2.6827,
         -0.528903,
         4.06843
       ],
-      "decal1Line2": [
+      "decal0Line2": [
         -1.9093,
         -1.2481e-7,
         2.03706,
         2.05464
       ],
-      "decal1Line3": [
+      "decal0Line3": [
         0.564292,
         -2.6827,
         0.528902,
         4.06843
       ],
-      "decal1HaveCP": true,
-      "decal1CPNormDepth": [
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
         0.701063,
         0.277013,
         -0.657096,
         -2.3264
       ],
-      "decal1CPNormDepth1": [
+      "decal0CPNormDepth1": [
         0.701063,
         0.277013,
         0.657096,
         -2.3264
       ],
-      "decal1RotScale": [
+      "decal0RotScale": [
         1.5708,
         0.358171
       ],
-      "decal1Mirrored": false,
-      "decal1Wrap": false,
-      "decal1Abs": true,
-      "decal1OppositeMirrored": false,
-      "decal1WidthBox": 0.230188,
-      "decal1Tex": "jp_3rd_anti_aircraft_platoon",
-      "decal2Line0": [
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.230188,
+      "decal0Tex": "jp_3rd_anti_aircraft_platoon",
+      "decal1Line0": [
         4.34732,
         -1.90027e-7,
         -0.00000123249,
         -0.362651
       ],
-      "decal2Line1": [
+      "decal1Line1": [
         -1.90026e-7,
         -4.34732,
         0.00000515479,
         10.7747
       ],
-      "decal2Line2": [
+      "decal1Line2": [
         -4.34732,
         -1.90027e-7,
         -0.00000123249,
         1.36265
       ],
-      "decal2Line3": [
+      "decal1Line3": [
         1.90029e-7,
         -4.34732,
         -0.00000515479,
         10.7747
       ],
-      "decal2HaveCP": true,
-      "decal2CPNormDepth": [
+      "decal1HaveCP": true,
+      "decal1CPNormDepth": [
         -2.83506e-7,
         -0.00000118574,
         -1.0,
         -1.36763
       ],
-      "decal2CPNormDepth1": [
+      "decal1CPNormDepth1": [
         -2.83506e-7,
         -0.00000118574,
         1.0,
         -1.36763
       ],
-      "decal2RotScale": [
+      "decal1RotScale": [
         1.5708,
         0.230027
+      ],
+      "decal1Mirrored": false,
+      "decal1Wrap": false,
+      "decal1Abs": false,
+      "decal1OppositeMirrored": false,
+      "decal1WidthBox": 0.200001,
+      "decal1Tex": "japan_numbers_red_5",
+      "decal2Line0": [
+        4.35322,
+        -1.90285e-7,
+        6.85642e-7,
+        -1.08214
+      ],
+      "decal2Line1": [
+        -1.90285e-7,
+        -4.35322,
+        0.00000129506,
+        10.7943
+      ],
+      "decal2Line2": [
+        -4.35322,
+        -1.90285e-7,
+        6.85642e-7,
+        2.08214
+      ],
+      "decal2Line3": [
+        1.90285e-7,
+        -4.35322,
+        -0.00000129506,
+        10.7943
+      ],
+      "decal2HaveCP": true,
+      "decal2CPNormDepth": [
+        1.57502e-7,
+        -2.97495e-7,
+        -1.0,
+        -1.36763
+      ],
+      "decal2CPNormDepth1": [
+        1.57502e-7,
+        -2.97495e-7,
+        1.0,
+        -1.36763
+      ],
+      "decal2RotScale": [
+        1.5708,
+        0.229715
       ],
       "decal2Mirrored": false,
       "decal2Wrap": false,
       "decal2Abs": false,
       "decal2OppositeMirrored": false,
       "decal2WidthBox": 0.200001,
-      "decal2Tex": "japan_numbers_red_5",
-      "decal3Line0": [
-        4.35322,
-        -1.90285e-7,
-        6.85642e-7,
-        -1.08214
-      ],
-      "decal3Line1": [
-        -1.90285e-7,
-        -4.35322,
-        0.00000129506,
-        10.7943
-      ],
-      "decal3Line2": [
-        -4.35322,
-        -1.90285e-7,
-        6.85642e-7,
-        2.08214
-      ],
-      "decal3Line3": [
-        1.90285e-7,
-        -4.35322,
-        -0.00000129506,
-        10.7943
-      ],
-      "decal3HaveCP": true,
-      "decal3CPNormDepth": [
-        1.57502e-7,
-        -2.97495e-7,
-        -1.0,
-        -1.36763
-      ],
-      "decal3CPNormDepth1": [
-        1.57502e-7,
-        -2.97495e-7,
-        1.0,
-        -1.36763
-      ],
-      "decal3RotScale": [
-        1.5708,
-        0.229715
-      ],
-      "decal3Mirrored": false,
-      "decal3Wrap": false,
-      "decal3Abs": false,
-      "decal3OppositeMirrored": false,
-      "decal3WidthBox": 0.200001,
-      "decal3Tex": "japan_numbers_red_8"
+      "decal2Tex": "japan_numbers_red_8"
     }
   },
   "vehicleSkins": {
@@ -3128,6 +3077,56 @@
       "skin_condition": 100.0,
       "camo_scale": 0.0,
       "camo_rotation": 0.0,
+      "decal0Line0": [
+        4.47787,
+        -1.95734e-7,
+        1.41053e-7,
+        -0.773798
+      ],
+      "decal0Line1": [
+        -1.95734e-7,
+        -4.47787,
+        0.00000246856,
+        11.131
+      ],
+      "decal0Line2": [
+        -4.47787,
+        -1.95734e-7,
+        1.41053e-7,
+        1.7738
+      ],
+      "decal0Line3": [
+        1.95734e-7,
+        -4.47787,
+        -0.00000246856,
+        11.131
+      ],
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        3.15e-8,
+        -5.5128e-7,
+        -1.0,
+        -1.36763
+      ],
+      "decal0CPNormDepth1": [
+        3.15e-8,
+        -5.5128e-7,
+        1.0,
+        -1.36763
+      ],
+      "decal0RotScale": [
+        1.5708,
+        0.223321
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.200001,
+      "decal0Tex": "jp_5th_sensha_rentai_1_company"
+    }
+  }
+} "camo_rotation": 0.0,
       "decal0Line0": [
         4.47787,
         -1.95734e-7,

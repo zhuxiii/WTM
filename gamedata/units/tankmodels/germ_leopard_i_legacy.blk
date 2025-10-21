@@ -3192,58 +3192,6 @@
       "decal0WidthBox": 0.204894,
       "decal0Tex": "ge_bundeswehr_insignia"
     },
-    "forest3": {
-      "skin_condition": 100.0,
-      "camo_scale": 0.0,
-      "camo_rotation": 0.0,
-      "decal0Line0": [
-        2.78571,
-        -0.0658366,
-        0.570059,
-        -0.706344
-      ],
-      "decal0Line1": [
-        0.219188,
-        -2.48911,
-        -1.35857,
-        3.91896
-      ],
-      "decal0Line2": [
-        -2.78571,
-        0.0658365,
-        0.57006,
-        1.70634
-      ],
-      "decal0Line3": [
-        0.219188,
-        -2.48911,
-        1.35857,
-        3.91895
-      ],
-      "decal0HaveCP": true,
-      "decal0CPNormDepth": [
-        0.186463,
-        0.483288,
-        -0.855374,
-        -1.96466
-      ],
-      "decal0CPNormDepth1": [
-        0.186463,
-        0.483288,
-        0.855374,
-        -1.96466
-      ],
-      "decal0RotScale": [
-        1.59724,
-        0.351593
-      ],
-      "decal0Mirrored": false,
-      "decal0Wrap": false,
-      "decal0Abs": true,
-      "decal0OppositeMirrored": true,
-      "decal0WidthBox": 0.2046,
-      "decal0Tex": "ge_bundeswehr_insignia"
-    },
     "desert": {
       "skin_condition": 100.0,
       "camo_scale": 0.0,
@@ -3301,7 +3249,17 @@
       "decal0WidthBox": 0.204894,
       "decal0Tex": "ge_bundeswehr_insignia"
     },
-    "desert3": {
+    "winter": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    },
+    "winter2": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    },
+    "winter3": {
       "skin_condition": 100.0,
       "camo_scale": 0.0,
       "camo_rotation": 0.0,
@@ -3352,14 +3310,53 @@
       "decal0OppositeMirrored": true,
       "decal0WidthBox": 0.2046,
       "decal0Tex": "ge_bundeswehr_insignia"
+    }
+  },
+  "vehicleSkins": {
+    "forest": {
+      "replace_tex": {
+        "from": "ger_camo_bronzegruen*",
+        "to": "ger_camo_bronzegruen*"
+      }
+    },
+    "forest2": {
+      "replace_tex": {
+        "from": "ger_camo_bronzegruen*",
+        "to": "ger_camo_carc*"
+      }
+    },
+    "desert": {
+      "replace_tex": {
+        "from": "ger_camo_bronzegruen*",
+        "to": "ger_camo_modern_threecolor*"
+      }
+    },
+    "desert2": {
+      "replace_tex": {
+        "from": "ger_camo_bronzegruen*",
+        "to": "ger_camo_dunkelgelb_africa*"
+      }
     },
     "winter": {
-      "skin_condition": 100.0,
-      "camo_scale": 0.0,
-      "camo_rotation": 0.0
+      "replace_tex": {
+        "from": "ger_camo_bronzegruen*",
+        "to": "ussr_camo_winter*"
+      }
     },
     "winter2": {
-      "skin_condition": 100.0,
+      "replace_tex": {
+        "from": "ger_camo_bronzegruen*",
+        "to": "ger_camo_carc_winter*"
+      }
+    },
+    "winter3": {
+      "replace_tex": {
+        "from": "ger_camo_bronzegruen*",
+        "to": "ger_camo_carc_winter*"
+      }
+    }
+  }
+}: 100.0,
       "camo_scale": 0.0,
       "camo_rotation": 0.0
     },

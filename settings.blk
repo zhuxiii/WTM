@@ -178,12 +178,11 @@
         "src": "../../skyquake/prog/gamebase_wtm/mis_vrom"
       },
       {
-        "vrom": "regional.vromfs.bin",
-        "vromOptional": true,
-        "cacheOnly": true
+        "vrom": "dldata.production.vromfs.bin",
+        "vromOptional": true
       },
       {
-        "vrom": "wwdata.vromfs.bin",
+        "vrom": "dldata.staging.vromfs.bin",
         "vromOptional": true
       },
       {
@@ -325,41 +324,9 @@
         "isDownloadFirst": true
       }
     },
-    "pkg_extended_strv103": {
+    "pkg_sound_event": {
       "hq": false,
-      "conditions": {
-        "isExtendedSound": true
-      }
-    },
-    "pkg_extended_105mm_l74": {
-      "hq": false,
-      "conditions": {
-        "isExtendedSound": true
-      }
-    },
-    "pkg_extended_t34": {
-      "hq": false,
-      "conditions": {
-        "isExtendedSound": true
-      }
-    },
-    "pkg_extended_76mm_l11": {
-      "hq": false,
-      "conditions": {
-        "isExtendedSound": true
-      }
-    },
-    "pkg_extended_panzer4": {
-      "hq": false,
-      "conditions": {
-        "isExtendedSound": true
-      }
-    },
-    "pkg_extended_75mm_kwk40": {
-      "hq": false,
-      "conditions": {
-        "isExtendedSound": true
-      }
+      "modelsPatch": false
     }
   },
   "video": {
@@ -519,6 +486,10 @@
     "vaporCalcSunTransmittance": false,
     "replaceEnviProbeWithLocal": true,
     "allowRIsInDynamicCube": false,
+    "guiHdrTonemap": [
+      1.25,
+      1.2
+    ],
     "raytraced_shadows": {
       "maxBlasBuildFrames": 30,
       "additionalElementsCheck": false,
@@ -614,6 +585,8 @@
     "verifyDynrendContexts": true,
     "logMissingResources": false,
     "verifyDynmodelMaterials": true,
+    "verifyRendinstMaterials": true,
+    "verifyNoTranspRendinstMaterials": true,
     "benchFirstFramesToSkip": 100,
     "unsupportedVfxShaders": {
       "shader": [
@@ -944,7 +917,6 @@
       "shouldSaveGameVersionToCache": true,
       "shouldReportIncompatibleVersion": true,
       "requireSameGameVersion": false,
-      "shouldDownloadAddonsPerFile": true,
       "startMetric": "background_addons_update_start",
       "stopMetric": "background_addons_update_stop",
       "flag": [
@@ -957,6 +929,7 @@
       "disableFastVersionCheck": true,
       "flag": [
         "--verbose",
+        "--clear",
         "--onlypacks",
         "--seed"
       ]
@@ -1290,29 +1263,48 @@
     },
     "fps_limiter": {
       "codename": [
-        "iPad Pro 3 11 inch",
-        "iPad Pro 3 12.9 inch",
-        "iPad Pro 4 11 inch",
-        "iPad Pro 4 12.9 inch",
-        "iPad Pro 5 11 inch",
-        "iPad Pro 5 12.9 inch",
-        "iPad Pro 6 11 inch",
-        "iPad Pro 6 12.9 inch",
-        "iPad Pro 7 11 inch",
-        "iPad Pro 7 12.9 inch",
-        "iPad15,",
-        "iPad16,",
-        "iPad17,",
-        "iPad18,",
-        "iPhone 15 Pro",
-        "iPhone 15 Pro Max",
-        "iPhone16,",
-        "iPhone17,",
-        "iPhone18,",
-        "iPhone19,"
+        "iPhone 8",
+        "iPhone 8 Plus",
+        "iPhone X",
+        "iPhone XS",
+        "iPhone XS Max",
+        "iPhone XR",
+        "iPhone 11",
+        "iPhone 11 Pro",
+        "iPhone 11 Pro Max",
+        "iPhone 12 Mini",
+        "iPhone 12",
+        "iPhone 12 Pro",
+        "iPhone 12 Pro Max",
+        "iPhone 13 Pro",
+        "iPhone 13 Pro Max",
+        "iPhone 13 Mini",
+        "iPhone 13",
+        "iPhone 14",
+        "iPhone 14 Plus",
+        "iPhone 14 Pro",
+        "iPhone 14 Pro Max",
+        "iPhone SE 2nd Gen",
+        "iPhone SE 3rd Gen",
+        "iPad 5",
+        "iPad 6",
+        "iPad 7",
+        "iPad 8",
+        "iPad 9",
+        "iPad Pro 9.7 inch",
+        "iPad Pro 12.9 inch",
+        "iPad Pro 2",
+        "iPad Pro 2 10.5 inch",
+        "iPad Mini 5",
+        "iPad Mini 6",
+        "iPad Air 3",
+        "iPad Air 4",
+        "iPad Air 5",
+        "iPad Air 6 11 inch",
+        "iPad Air 6 13 inch"
       ],
       "video": {
-        "fpsLimit": 60
+        "fpsLimit": 30
       }
     },
     "texture_uhq": {
@@ -1387,7 +1379,8 @@
         "23049PCD8G"
       ],
       "vulkan": {
-        "useCustomAllocationCallbacks": true
+        "useCustomAllocationCallbacks": true,
+        "resetCommandsReleasesToSystem": true
       },
       "android": {
         "checkMemoryLeaksMb": 500
@@ -1579,6 +1572,7 @@
         "swFeedbackInnerMipTiles": 2,
         "swFeedbackOuterMipTiles": 4,
         "virtualTextureAnisotropy": 1,
+        "virtualTextureAnisotropyGroundVehicle": 1,
         "texelSizeMul": 2.0,
         "hwfeedback": false,
         "cachesCount": 1,
@@ -1663,6 +1657,7 @@
         "swFeedbackInnerMipTiles": 2,
         "swFeedbackOuterMipTiles": 4,
         "virtualTextureAnisotropy": 2,
+        "virtualTextureAnisotropyGroundVehicle": 4,
         "texelSizeMul": 1.0,
         "hwfeedback": true,
         "cachesCount": 2,
@@ -1747,6 +1742,7 @@
         "swFeedbackInnerMipTiles": 4,
         "swFeedbackOuterMipTiles": 4,
         "virtualTextureAnisotropy": 4,
+        "virtualTextureAnisotropyGroundVehicle": 4,
         "texelSizeMul": 1.0,
         "hwfeedback": true,
         "cachesCount": 2,
@@ -1831,6 +1827,7 @@
         "swFeedbackInnerMipTiles": 4,
         "swFeedbackOuterMipTiles": 6,
         "virtualTextureAnisotropy": 4,
+        "virtualTextureAnisotropyGroundVehicle": 8,
         "texelSizeMul": 1.0,
         "hwfeedback": true,
         "cachesCount": 2,
@@ -1914,7 +1911,8 @@
         "swFeedbackMipTiles2": 6,
         "swFeedbackInnerMipTiles": 4,
         "swFeedbackOuterMipTiles": 6,
-        "virtualTextureAnisotropy": -1,
+        "virtualTextureAnisotropy": 16,
+        "virtualTextureAnisotropyGroundVehicle": 16,
         "texelSizeMul": 0.5,
         "hwfeedback": true,
         "cachesCount": 2,
@@ -2080,7 +2078,7 @@
     "high": {
       "graphics": {
         "sceneResolutionPreset": "medium",
-        "defaultPresetAA": "high_fxaa",
+        "defaultPresetAA": "mobile_taa",
         "fxDensityMul": 1.0,
         "shadowQuality": "high",
         "hangarShadowQuality": "high",
@@ -2457,22 +2455,11 @@
     "debug": {
       "showFreeMemThresholdMb": 0
     }
+  },
+  "stcode": {
+    "tag": "$version"
   }
-}{
-      "showFreeMemThresholdMb": 0
-    }
-  }
-}  "planarReflectionTexDiv": 8
-      },
-      "render": {
-        "grassInCompatibility": false
-      },
-      "clipmap": {
-        "texSize": [
-          1024,
-          1024
-        ],
-        "texTileSize": 64,
+}    "texTileSize": 64,
         "swFeedbackMipTiles0": 2,
         "swFeedbackMipTiles1": 2,
         "swFeedbackMipTiles2": 2,

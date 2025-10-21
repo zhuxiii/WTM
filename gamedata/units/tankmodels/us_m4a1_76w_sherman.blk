@@ -835,8 +835,8 @@
     "EngineNameAi": "engine_tank_ai_middle",
     "TrackSoundNameAi": "tracks_ai_medium",
     "gun_turn": "turret_turn_mg_light",
-    "EngineNameEx": "engine_m4a1",
-    "TrackSoundNameEx": "tracks_m4a1"
+    "EngineNameEx": "engine_sherman_m4a1",
+    "TrackSoundNameEx": "tracks_sheman_m4a1"
   },
   "DamageEffects": {
     "part": [
@@ -1903,7 +1903,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 0.7,
           "verticalSpeedLimitKPH": 24.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -3414,6 +3413,9 @@
     }
   ],
   "battleHideNodes": {
+    "n": "details"
+  }
+}odes": {
     "n": "details"
   }
 }

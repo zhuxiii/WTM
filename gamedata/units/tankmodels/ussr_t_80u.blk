@@ -74,7 +74,14 @@
       "details",
       "details_01",
       "details_02",
-      "details_03"
+      "details_03",
+      "details_04",
+      "details_05",
+      "details_06",
+      "details_07",
+      "details_08",
+      "details_09",
+      "details_10"
     ]
   },
   "dm_for_shop": {
@@ -2417,7 +2424,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2543,7 +2549,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -3360,7 +3365,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -3486,7 +3490,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -3790,54 +3793,7 @@
       "decal2Abs": false,
       "decal2OppositeMirrored": false,
       "decal2WidthBox": 0.2,
-      "decal2Tex": "ussr_numbers_8",
-      "decal3Line0": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal3Line1": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal3Line2": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal3Line3": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal3HaveCP": false,
-      "decal3CPNormDepth": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal3CPNormDepth1": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal3RotScale": [
-        1.5708,
-        1.0
-      ],
-      "decal3Mirrored": false,
-      "decal3Wrap": false,
-      "decal3Abs": false,
-      "decal3OppositeMirrored": false,
-      "decal3WidthBox": 0.0,
-      "decal3Tex": ""
+      "decal2Tex": "ussr_numbers_8"
     }
   },
   "ammoStowages": {
@@ -4114,6 +4070,48 @@
           },
           "ammo_body_44_dm": {
             "count": 1
+          },
+          "ammo_body_29_dm": {
+            "count": 1
+          },
+          "ammo_body_30_dm": {
+            "count": 1
+          },
+          "ammo_body_31_dm": {
+            "count": 1
+          },
+          "ammo_body_32_dm": {
+            "count": 1
+          },
+          "ammo_body_33_dm": {
+            "count": 1
+          },
+          "ammo_body_34_dm": {
+            "count": 1
+          },
+          "ammo_body_35_dm": {
+            "count": 1
+          },
+          "ammo_body_36_dm": {
+            "count": 1
+          },
+          "ammo_body_37_dm": {
+            "count": 1
+          },
+          "ammo_body_38_dm": {
+            "count": 1
+          }
+        }
+      ]
+    }
+  },
+  "smokeScreenExhaustEmitters": {
+    "emitter": [
+      "emtr_exhaust_01",
+      "emtr_exhaust_04"
+    ]
+  }
+}         "count": 1
           },
           "ammo_body_29_dm": {
             "count": 1

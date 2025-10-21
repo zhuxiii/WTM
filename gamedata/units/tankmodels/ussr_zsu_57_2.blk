@@ -3292,17 +3292,17 @@
       "details",
       "details_01",
       "details_02",
-      "details_03"
+      "details_03",
+      "details_04",
+      "details_05",
+      "details_06",
+      "details_07",
+      "details_08",
+      "details_09",
+      "details_10"
     ]
   }
-}ositeMirrored": false,
-      "decal3WidthBox": 0.208365,
-      "decal3Tex": "ussr_numbers_6"
-    }
-  },
-  "battleHideNodes": {
-    "n": [
-      "details",
+}    "details",
       "details_01",
       "details_02",
       "details_03"

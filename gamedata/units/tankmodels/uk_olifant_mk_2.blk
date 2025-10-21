@@ -2094,7 +2094,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2198,7 +2197,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -3145,7 +3143,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -3249,7 +3246,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -3499,6 +3495,20 @@
   },
   "dmgAngles": {
     "hatch_10": [
+      45.0,
+      90.0
+    ]
+  },
+  "smokeScreenExhaustEmitters": {
+    "emitter": [
+      "emtr_exhaust_01",
+      "emtr_exhaust_04"
+    ]
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}atch_10": [
       45.0,
       90.0
     ]

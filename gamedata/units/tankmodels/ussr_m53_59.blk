@@ -3346,16 +3346,17 @@
       "details",
       "details_01",
       "details_02",
-      "details_03"
+      "details_03",
+      "details_04",
+      "details_05",
+      "details_06",
+      "details_07",
+      "details_08",
+      "details_09",
+      "details_10"
     ]
   }
-}ssr_camo_dkgreen_ltgreen_brown*"
-      }
-    },
-    "desert": {
-      "replace_tex": {
-        "from": "ussr_camo_green*",
-        "to": "ussr_camo_czechoslovak_yellow_green*"
+}sr_camo_czechoslovak_yellow_green*"
       }
     },
     "winter": {

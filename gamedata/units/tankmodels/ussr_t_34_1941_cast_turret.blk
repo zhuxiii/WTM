@@ -2796,77 +2796,68 @@
       "camo_scale": -50.0,
       "camo_rotation": -56.0,
       "decal0Line0": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal0Line1": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal0Line2": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal0Line3": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal0HaveCP": false,
-      "decal0CPNormDepth": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal0CPNormDepth1": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal0RotScale": [
-        1.5708,
-        1.0
-      ],
-      "decal0Mirrored": false,
-      "decal0Wrap": false,
-      "decal0Abs": false,
-      "decal0OppositeMirrored": false,
-      "decal0WidthBox": 0.0,
-      "decal0Tex": "",
-      "decal1Line0": [
         2.49505,
         -1.52471e-7,
         0.564139,
         -1.59018
       ],
-      "decal1Line1": [
+      "decal0Line1": [
         0.295487,
         -2.17906,
         -1.30687,
         3.50256
       ],
-      "decal1Line2": [
+      "decal0Line2": [
         -2.49505,
         -1.52471e-7,
         0.564139,
         2.59018
       ],
-      "decal1Line3": [
+      "decal0Line3": [
         0.295487,
         -2.17906,
         1.30687,
         3.50256
       ],
-      "decal1HaveCP": true,
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        0.187864,
+        0.523784,
+        -0.830877,
+        -1.69224
+      ],
+      "decal0CPNormDepth1": [
+        0.187864,
+        0.523784,
+        0.830877,
+        -1.69224
+      ],
+      "decal0RotScale": [
+        1.5708,
+        0.390926
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.203894,
+      "decal0Tex": "ussr_1gv_tank_brigade_emblem_light"
+    }
+  },
+  "vehicleSkins": {
+    "forest": {
+      "replace_tex": {
+        "from": "ussr_camo_green*",
+        "to": "ussr_camo_green*"
+      },
+      "decal": {
+        "skin_condition": 100.0,
+        "camo_scale": 0.0,
+        "camo_rotation": 0.0
+      }
+    }
+  }
+}rue,
       "decal1CPNormDepth": [
         0.187864,
         0.523784,

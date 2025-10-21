@@ -3302,17 +3302,17 @@
       "details",
       "details_01",
       "details_02",
-      "details_03"
+      "details_03",
+      "details_04",
+      "details_05",
+      "details_06",
+      "details_07",
+      "details_08",
+      "details_09",
+      "details_10"
     ]
   }
-}teMirrored": true,
-      "decal0WidthBox": 0.206192,
-      "decal0Tex": "hu_af_roundel_1991"
-    }
-  },
-  "battleHideNodes": {
-    "n": [
-      "details",
+}    "details",
       "details_01",
       "details_02",
       "details_03"

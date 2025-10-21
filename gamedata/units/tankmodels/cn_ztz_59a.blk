@@ -1806,7 +1806,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 40.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2769,7 +2768,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 40.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -3176,6 +3174,12 @@
     }
   },
   "enabled_modifications": {
+    "tank_smoke_screen_system_mod": true
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}ions": {
     "tank_smoke_screen_system_mod": true
   },
   "battleHideNodes": {

@@ -2075,7 +2075,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2995,7 +2994,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -3300,6 +3298,13 @@
       "cutDamage": 350.0,
       "deviation": 0.4,
       "rotation": 2.5,
+      "collisionNode": "cls_turret"
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}": 2.5,
       "collisionNode": "cls_turret"
     }
   },

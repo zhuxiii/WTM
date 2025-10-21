@@ -2015,7 +2015,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2873,7 +2872,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -3317,6 +3315,15 @@
       "decal0OppositeMirrored": false,
       "decal0WidthBox": 0.200001,
       "decal0Tex": "flag_sweden"
+    }
+  },
+  "battleHideNodes": {
+    "n": [
+      "details_01",
+      "details_02"
+    ]
+  }
+}weden"
     }
   },
   "battleHideNodes": {

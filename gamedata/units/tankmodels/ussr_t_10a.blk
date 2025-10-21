@@ -1110,7 +1110,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 0.7,
           "verticalSpeedLimitKPH": 24.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2069,7 +2068,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 0.7,
                 "verticalSpeedLimitKPH": 24.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -2986,6 +2984,13 @@
       "decal0Abs": false,
       "decal0OppositeMirrored": false,
       "decal0WidthBox": 0.283383,
+      "decal0Tex": "back_20"
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}ox": 0.283383,
       "decal0Tex": "back_20"
     }
   },

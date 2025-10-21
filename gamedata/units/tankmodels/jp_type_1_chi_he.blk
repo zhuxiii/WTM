@@ -1362,7 +1362,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 0.7,
           "verticalSpeedLimitKPH": 10.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -1495,7 +1494,7 @@
       ],
       "CenterOfGravityClampY": [
         0.0,
-        0.7
+        0.3
       ],
       "AdvancedMass": true,
       "trackMass": 840.0
@@ -2324,6 +2323,10 @@
       }
     }
   ],
+  "battleHideNodes": {
+    "n": "details"
+  }
+}
   "battleHideNodes": {
     "n": "details"
   }

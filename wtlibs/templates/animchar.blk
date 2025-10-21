@@ -93,5 +93,8 @@
     "animchar_attaches_bbox_precalculated": {
       "_tags": "render"
     }
+  },
+  "requires_trans_render": {
+    "requires_trans_render:tag": {}
   }
 }

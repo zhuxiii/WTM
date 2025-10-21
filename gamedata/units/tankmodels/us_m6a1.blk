@@ -1793,7 +1793,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 0.7,
           "verticalSpeedLimitKPH": 24.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -1872,7 +1871,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 0.7,
           "verticalSpeedLimitKPH": 24.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -3154,6 +3152,13 @@
       "replace_tex": {
         "from": "us_camo_olive*",
         "to": "us_camo_winter_grid*"
+      }
+    }
+  ],
+  "battleHideNodes": {
+    "n": "details"
+  }
+} "to": "us_camo_winter_grid*"
       }
     }
   ],

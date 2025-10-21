@@ -1786,7 +1786,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2564,7 +2563,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -2958,99 +2956,52 @@
       "decal0WidthBox": 0.200001,
       "decal0Tex": "uk_vechicle_recognition_marking",
       "decal1Line0": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal1Line1": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal1Line2": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal1Line3": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal1HaveCP": false,
-      "decal1CPNormDepth": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal1CPNormDepth1": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal1RotScale": [
-        1.5708,
-        1.0
-      ],
-      "decal1Mirrored": false,
-      "decal1Wrap": false,
-      "decal1Abs": false,
-      "decal1OppositeMirrored": false,
-      "decal1WidthBox": 0.0,
-      "decal1Tex": "",
-      "decal2Line0": [
         2.79147,
         -1.22019e-7,
         2.91172e-7,
         -0.389089
       ],
-      "decal2Line1": [
+      "decal1Line1": [
         -1.22019e-7,
         -2.79147,
         -9.30061e-7,
         5.7493
       ],
-      "decal2Line2": [
+      "decal1Line2": [
         -2.79147,
         -1.22019e-7,
         2.91173e-7,
         1.38909
       ],
-      "decal2Line3": [
+      "decal1Line3": [
         1.22019e-7,
         -2.79147,
         9.30061e-7,
         5.7493
       ],
-      "decal2HaveCP": true,
-      "decal2CPNormDepth": [
+      "decal1HaveCP": true,
+      "decal1CPNormDepth": [
         1.04308e-7,
         3.33179e-7,
         -1.0,
         -1.70822
       ],
-      "decal2CPNormDepth1": [
+      "decal1CPNormDepth1": [
         1.04308e-7,
         3.33179e-7,
         1.0,
         -1.70822
       ],
-      "decal2RotScale": [
+      "decal1RotScale": [
         1.5708,
         0.358234
       ],
-      "decal2Mirrored": false,
-      "decal2Wrap": false,
-      "decal2Abs": true,
-      "decal2OppositeMirrored": true,
-      "decal2WidthBox": 0.200002,
-      "decal2Tex": "uk_red_squadron_hq"
+      "decal1Mirrored": false,
+      "decal1Wrap": false,
+      "decal1Abs": true,
+      "decal1OppositeMirrored": true,
+      "decal1WidthBox": 0.200002,
+      "decal1Tex": "uk_red_squadron_hq"
     }
   },
   "skin": [
@@ -3111,6 +3062,35 @@
     {
       "name": "uk_camo_winter_olive",
       "nameLocId": "skin/winter",
+      "descLocId": "skin/winter/desc",
+      "replace_tex": {
+        "from": "uk_camo_middle_deep_bronze_greens*",
+        "to": "us_camo_winter_olive*"
+      }
+    },
+    {
+      "name": "uk_camo_middle_deep_bronze_greens",
+      "nameLocId": "skin/uk_camo_middle_deep_bronze_greens",
+      "descLocId": "skin/uk_camo_middle_deep_bronze_greens/desc",
+      "replace_tex": {
+        "from": "uk_camo_middle_deep_bronze_greens*",
+        "to": "uk_camo_middle_deep_bronze_greens*"
+      }
+    },
+    {
+      "name": "fr_camo_winter_green_white",
+      "nameLocId": "skin/fr_camo_winter_green_white",
+      "descLocId": "skin/fr_camo_winter_green_white/desc",
+      "replace_tex": {
+        "from": "uk_camo_middle_deep_bronze_greens*",
+        "to": "fr_camo_winter_green_white*"
+      }
+    }
+  ],
+  "battleHideNodes": {
+    "n": "details"
+  }
+}      "nameLocId": "skin/winter",
       "descLocId": "skin/winter/desc",
       "replace_tex": {
         "from": "uk_camo_middle_deep_bronze_greens*",

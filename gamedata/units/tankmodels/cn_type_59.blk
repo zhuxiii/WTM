@@ -2404,7 +2404,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 40.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2912,6 +2911,10 @@
       "replace_tex": {
         "from": "ussr_camo_green*",
         "to": "cn_f_green_black*"
+      }
+    }
+  }
+}   "to": "cn_f_green_black*"
       }
     }
   }

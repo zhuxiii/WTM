@@ -1140,98 +1140,51 @@
       "decal1Tex": "back_16",
       "decal2Line0": [
         0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal2Line1": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal2Line2": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal2Line3": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal2HaveCP": false,
-      "decal2CPNormDepth": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal2CPNormDepth1": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal2RotScale": [
-        1.5708,
-        1.0
-      ],
-      "decal2Mirrored": false,
-      "decal2Wrap": false,
-      "decal2Abs": false,
-      "decal2OppositeMirrored": false,
-      "decal2WidthBox": 0.0,
-      "decal2Tex": "",
-      "decal3Line0": [
-        0.0,
         -1.69831e-7,
         3.88529,
         -2.36093
       ],
-      "decal3Line1": [
+      "decal2Line1": [
         0.0,
         -3.88529,
         -1.69831e-7,
         5.80756
       ],
-      "decal3Line2": [
+      "decal2Line2": [
         0.0,
         -1.69831e-7,
         -3.88529,
         3.36093
       ],
-      "decal3Line3": [
+      "decal2Line3": [
         0.0,
         -3.88529,
         1.69831e-7,
         5.80756
       ],
-      "decal3HaveCP": true,
-      "decal3CPNormDepth": [
+      "decal2HaveCP": true,
+      "decal2CPNormDepth": [
         1.0,
         0.0,
         0.0,
         -1.95871
       ],
-      "decal3CPNormDepth1": [
+      "decal2CPNormDepth1": [
         -1.0,
         -0.0,
         -0.0,
         1.9479
       ],
-      "decal3RotScale": [
+      "decal2RotScale": [
         1.5708,
         0.257381
       ],
-      "decal3Mirrored": false,
-      "decal3Wrap": false,
-      "decal3Abs": false,
-      "decal3OppositeMirrored": false,
-      "decal3WidthBox": 0.259668,
-      "decal3Tex": "ge_afrika_korps_emblem"
+      "decal2Mirrored": false,
+      "decal2Wrap": false,
+      "decal2Abs": false,
+      "decal2OppositeMirrored": false,
+      "decal2WidthBox": 0.259668,
+      "decal2Tex": "ge_afrika_korps_emblem"
     }
   },
   "battleHideNodes": {
@@ -2424,6 +2377,37 @@
     "replace_tex": {
       "from": "ger_camo_grey*"
     }
+  },
+  "skin": [
+    {
+      "name": "winter",
+      "nameLocId": "skin/winter",
+      "descLocId": "skin/winter/desc",
+      "replace_tex": {
+        "from": "ger_camo_grey*",
+        "to": "ger_camo_winter_grey*"
+      }
+    },
+    {
+      "name": "ger_camo_dunkelgelb_africa",
+      "nameLocId": "skin/ger_camo_dunkelgelb_africa",
+      "descLocId": "skin/ger_camo_dunkelgelb_africa/desc",
+      "replace_tex": {
+        "from": "ger_camo_grey*",
+        "to": "ger_camo_dunkelgelb_africa*"
+      }
+    },
+    {
+      "name": "ger_camo_winter_lines",
+      "nameLocId": "skin/ger_camo_winter_lines",
+      "descLocId": "skin/ger_camo_winter_lines/desc",
+      "replace_tex": {
+        "from": "ger_camo_grey*",
+        "to": "ger_camo_winter_lines*"
+      }
+    }
+  ]
+}    }
   },
   "skin": [
     {

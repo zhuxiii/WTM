@@ -5,6 +5,7 @@
       0.0,
       0.0
     ],
+    "torpedo_auto_aim__debug": false,
     "_replicated": "torpedo_auto_aim__targetAngles",
     "enableTorpedoAutoAim:tag": {},
     "enableTorpedoCourseCorrection:tag": {}
@@ -282,7 +283,8 @@
     "damageLogPlayers:object": {},
     "damageLogStats:object": {},
     "streakLog:object": {},
-    "battleRoyaleLog:array": {}
+    "battleRoyaleLog:array": {},
+    "raceLog:array": {}
   },
   "statistic_players": {
     "statisticPlayers:object": {},
@@ -294,89 +296,59 @@
   "simple_tank_wtm": {
     "_use": "simple_tank"
   },
-  "lightning_animchar": {
-    "animchar__res": "lightning_short_aa_char",
-    "animchar_render__enabled": false,
-    "transform": [
-      [
-        1.0,
-        0.0,
-        0.0
-      ],
-      [
-        0.0,
-        1.0,
-        0.0
-      ],
-      [
-        0.0,
-        0.0,
-        1.0
-      ],
-      [
-        0.0,
-        30.0,
-        0.0
-      ]
-    ],
+  "game_mode_info": {
+    "_singleton": true,
+    "game_mode_name": "",
+    "mrank_min": 0,
+    "mrank_max": 0,
+    "lap_time_fast": 0.0,
+    "lap_time_faster": 0.0,
+    "lap_time_fastest": 0.0,
+    "userstat_modes:list<t>": {}
+  },
+  "battle_perfstat": {
     "_group": {
-      "_tags": "render",
-      "animchar_render__dist_sq": 0.0,
-      "animchar_storage": {}
+      "_tags": "gameClient",
+      "battle_perfstat__peakMemoryKb": 0,
+      "battle_perfstat__refTime": 0,
+      "battle_perfstat__segment_0_5": 0.0,
+      "battle_perfstat__segment_5_15": 0.0,
+      "battle_perfstat__segment_15_25": 0.0,
+      "battle_perfstat__segment_25_30": 0.0,
+      "battle_perfstat__segment_30_35": 0.0,
+      "battle_perfstat__segment_35_40": 0.0,
+      "battle_perfstat__segment_40_50": 0.0,
+      "battle_perfstat__segment_50_60": 0.0,
+      "battle_perfstat__segment_60_80": 0.0,
+      "battle_perfstat__segment_80_100": 0.0,
+      "battle_perfstat__segment_100_110": 0.0,
+      "battle_perfstat__segment_110_120": 0.0,
+      "battle_perfstat__segment_120_130": 0.0,
+      "battle_perfstat__segment_130_150": 0.0,
+      "battle_perfstat__segment_150_200": 0.0,
+      "battle_perfstat__segment_200_plus": 0.0,
+      "battle_perfstat__normalizationValue": 5.0
     }
   },
-  "lightning_animchar_manager": {
-    "_singleton": true,
-    "_use": "replicating",
-    "lightning__animchars_eids_base:list<eid>": {},
-    "lightning_tag:tag": {},
-    "lightning__animchars:list<t>": {
-      "animchar__res": [
-        "lightning_short_aa_char",
-        "lightning_short_ab_char",
-        "lightning_short_ba_char",
-        "lightning_short_bb_char",
-        "lightning_short_ca_char",
-        "lightning_short_cb_char"
-      ]
-    }
-  },
-  "lightning_volumetric": {
-    "_singleton": true,
-    "_use": "replicating",
-    "lightning__is_volumetric": true,
-    "lightning_tag:tag": {},
-    "lightning:LightningFX": {
-      "_tags": "render"
+  "hangar_battle_data": {
+    "isBattleDataReceived": false,
+    "server_player__userId:u64": {
+      "value": -1
     },
+    "hangarBattleData:object": {}
+  },
+  "air_speed_booster": {
     "_group": {
-      "_track": true,
-      "lightning__base_strike_time_interval": [
-        0.8,
-        1.0
-      ],
-      "lightning__base_sleep_time_interval": [
-        5.0,
-        12.0
-      ],
-      "lightning__base_distance_interval": [
-        5000.0,
-        10000.0
-      ],
-      "lightning__base_azimuth_interval": [
-        0.0,
-        1.0
-      ],
-      "lightning__base_offset": 400.0,
-      "lightning__series_strike_time_interval": [
-        0.8,
-        1.0
-      ],
-      "lightning__series_sleep_time_interval": [
-        0.12,
-        0.2
-      ],
-      "lightning__series_distance_deviation": 1000.0,
+      "_tags": "server",
+      "air_speed_booster__value": 0.0,
+      "air_speed_booster__time": 15.0,
+      "air_speed_booster__aerobaticSmokeId": 17,
+      "air_speed_booster__aerobaticSmokeIdSaved": -1,
+      "air_speed_booster__enableWep": true,
+      "air_speed_booster__ownerEid:eid": {}
+    }
+  }
+}s_distance_deviation": 1000.0,
       "lightning__series_azimuth_deviation": 0.1,
       "lightning__series_radius_interval": [
         0.5,

@@ -763,7 +763,7 @@
         ],
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
-        "shotFreq": 0.059,
+        "shotFreq": 0.05,
         "ChainfireTime": 2.0,
         "DelayAfterShoot": 0.0,
         "aimMinDist": 10.0,
@@ -819,7 +819,7 @@
         ],
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
-        "shotFreq": 0.059,
+        "shotFreq": 0.05,
         "ChainfireTime": 2.0,
         "DelayAfterShoot": 0.0,
         "aimMinDist": 10.0,
@@ -875,7 +875,7 @@
         ],
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
-        "shotFreq": 0.059,
+        "shotFreq": 0.05,
         "ChainfireTime": 2.0,
         "DelayAfterShoot": 0.0,
         "aimMinDist": 10.0,
@@ -931,7 +931,7 @@
         ],
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
-        "shotFreq": 0.059,
+        "shotFreq": 0.05,
         "ChainfireTime": 2.0,
         "DelayAfterShoot": 0.0,
         "aimMinDist": 10.0,
@@ -987,7 +987,7 @@
         ],
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
-        "shotFreq": 0.059,
+        "shotFreq": 0.05,
         "ChainfireTime": 2.0,
         "DelayAfterShoot": 0.0,
         "aimMinDist": 10.0,
@@ -1043,7 +1043,7 @@
         ],
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
-        "shotFreq": 0.059,
+        "shotFreq": 0.05,
         "ChainfireTime": 2.0,
         "DelayAfterShoot": 0.0,
         "aimMinDist": 10.0,
@@ -1126,8 +1126,7 @@
           "horizontalSpeedLimitKPH": 100.0,
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
-          "verticalSpeedLimitKPH": 100.0,
-          "speedFromVehicleVerticalMult": -1.0
+          "verticalSpeedLimitKPH": 100.0
         }
       },
       {
@@ -1182,8 +1181,7 @@
           "horizontalSpeedLimitKPH": 100.0,
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
-          "verticalSpeedLimitKPH": 100.0,
-          "speedFromVehicleVerticalMult": -1.0
+          "verticalSpeedLimitKPH": 100.0
         }
       },
       {
@@ -1971,6 +1969,12 @@
   "vehicleSkins": {
     "factory": {
       "replace_tex": {
+        "from": "ekranoplan_lun_skin_c*",
+        "to": "ekranoplan_lun_c*"
+      }
+    }
+  }
+}ex": {
         "from": "ekranoplan_lun_skin_c*",
         "to": "ekranoplan_lun_c*"
       }

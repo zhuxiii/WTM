@@ -749,7 +749,9 @@
     "turret_turn": "turret_turn_manual_y",
     "EngineNameAi": "engine_tank_ai_heavy",
     "TrackSoundNameAi": "tracks_ai_heavy",
-    "gun_turn": "turret_turn_mg_light"
+    "gun_turn": "turret_turn_mg_light",
+    "EngineNameEx": "engine_sherman_m4a3",
+    "TrackSoundNameEx": "tracks_sherman_m4a1"
   },
   "DamageEffects": {
     "part": [
@@ -2740,7 +2742,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 0.7,
           "verticalSpeedLimitKPH": 24.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2961,75 +2962,75 @@
       "camo_scale": 0.0,
       "camo_rotation": 0.0,
       "decal0Line0": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal0Line1": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal0Line2": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal0Line3": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal0HaveCP": false,
-      "decal0CPNormDepth": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal0CPNormDepth1": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal0RotScale": [
-        1.5708,
-        1.0
-      ],
-      "decal0Mirrored": false,
-      "decal0Wrap": false,
-      "decal0Abs": false,
-      "decal0OppositeMirrored": false,
-      "decal0WidthBox": 0.0,
-      "decal0Tex": "",
-      "decal1Line0": [
         1.626,
         -7.10746e-8,
         -0.000401677,
         -0.525348
       ],
-      "decal1Line1": [
+      "decal0Line1": [
         -8.37728e-7,
         -1.626,
         -0.00310344,
         2.90184
       ],
-      "decal1Line2": [
+      "decal0Line2": [
         -1.626,
         -7.10744e-8,
         -0.000401676,
         1.52535
       ],
-      "decal1Line3": [
+      "decal0Line3": [
         -6.95579e-7,
         -1.626,
         0.00310344,
         2.90184
+      ],
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        -0.000247033,
+        0.00190863,
+        -0.999998,
+        -1.3259
+      ],
+      "decal0CPNormDepth1": [
+        -0.000247033,
+        0.00190863,
+        0.999998,
+        -1.3259
+      ],
+      "decal0RotScale": [
+        1.5708,
+        0.615006
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.216679,
+      "decal0Tex": "french_tank_emblem_02",
+      "decal1Line0": [
+        2.79117,
+        -1.22006e-7,
+        -0.000689513,
+        0.373241
+      ],
+      "decal1Line1": [
+        -0.00000143803,
+        -2.79117,
+        -0.00532732,
+        4.62192
+      ],
+      "decal1Line2": [
+        -2.79117,
+        -1.22005e-7,
+        -0.000689512,
+        0.62676
+      ],
+      "decal1Line3": [
+        -0.00000119402,
+        -2.79117,
+        0.00532732,
+        4.62192
       ],
       "decal1HaveCP": true,
       "decal1CPNormDepth": [
@@ -3046,41 +3047,30 @@
       ],
       "decal1RotScale": [
         1.5708,
-        0.615006
+        0.358273
       ],
       "decal1Mirrored": false,
       "decal1Wrap": false,
       "decal1Abs": true,
       "decal1OppositeMirrored": false,
-      "decal1WidthBox": 0.216679,
-      "decal1Tex": "french_tank_emblem_02",
-      "decal2Line0": [
-        2.79117,
-        -1.22006e-7,
-        -0.000689513,
-        0.373241
-      ],
-      "decal2Line1": [
-        -0.00000143803,
-        -2.79117,
-        -0.00532732,
-        4.62192
-      ],
-      "decal2Line2": [
-        -2.79117,
-        -1.22005e-7,
-        -0.000689512,
-        0.62676
-      ],
-      "decal2Line3": [
-        -0.00000119402,
-        -2.79117,
-        0.00532732,
-        4.62192
-      ],
-      "decal2HaveCP": true,
-      "decal2CPNormDepth": [
-        -0.000247033,
+      "decal1WidthBox": 0.216831,
+      "decal1Tex": "french_tank_emblem_03"
+    }
+  },
+  "vehicleSkins": {
+    "forest": {
+      "replace_tex": {
+        "from": "us_camo_olive*",
+        "to": "fr_camo_vert_olive_arme*"
+      },
+      "decal": {
+        "skin_condition": 100.0,
+        "camo_scale": 0.0,
+        "camo_rotation": 0.0
+      }
+    }
+  }
+}000247033,
         0.00190863,
         -0.999998,
         -1.3259

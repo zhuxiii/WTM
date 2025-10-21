@@ -27,21 +27,21 @@
   "bloom_settings": {
     "_singleton": true,
     "_use": "replicating",
-    "_group": {
-      "_track": true,
-      "_tags": "render",
-      "bloom_settings__threshold": 5.8,
-      "bloom_settings__radius": 1.0,
-      "bloom_settings__upSample": 0.2,
-      "bloom_settings__mul": 0.1,
-      "bloom_settings__halation_color": [
-        0,
-        0,
-        255,
-        0
-      ],
-      "bloom_settings__halation_brightness": 2.0,
-      "bloom_settings__halation_mip_factor": 2.0,
+    "bloom_settings__threshold": 5.8,
+    "bloom_settings__radius": 1.0,
+    "bloom_settings__upSample": 0.2,
+    "bloom_settings__mul": 0.1,
+    "bloom_settings__halation_color": [
+      0,
+      0,
+      255,
+      0
+    ],
+    "bloom_settings__halation_brightness": 2.0,
+    "bloom_settings__halation_mip_factor": 2.0,
+    "bloom_settings__halation_end_mip": 1
+  }
+}om_settings__halation_mip_factor": 2.0,
       "bloom_settings__halation_end_mip": 1
     }
   }

@@ -1092,6 +1092,7 @@
       "driveGearRadius": 0.33,
       "mainGearRatio": 5.77,
       "sideGearRatio": 2.71,
+      "alternativeGearControl": 3.0,
       "gearRatios": {
         "ratio": [
           -7.0,
@@ -2530,7 +2531,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 0.7,
           "verticalSpeedLimitKPH": 10.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2791,7 +2791,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 0.7,
                 "verticalSpeedLimitKPH": 10.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -3337,6 +3336,12 @@
         "camo_scale": 0.0,
         "camo_rotation": 0.0
       }
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}     }
     }
   },
   "battleHideNodes": {

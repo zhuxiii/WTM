@@ -1847,7 +1847,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2722,7 +2721,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -3249,6 +3247,11 @@
       "decal1Wrap": false,
       "decal1Abs": false,
       "decal1OppositeMirrored": false,
+      "decal1WidthBox": 0.206255,
+      "decal1Tex": "ge_93rd_pz_bat"
+    }
+  }
+}iteMirrored": false,
       "decal1WidthBox": 0.206255,
       "decal1Tex": "ge_93rd_pz_bat"
     }

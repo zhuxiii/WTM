@@ -2538,7 +2538,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2706,7 +2705,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -3488,7 +3486,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -3656,7 +3653,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -4253,20 +4249,31 @@
       "decal2Abs": true,
       "decal2OppositeMirrored": false,
       "decal2WidthBox": 0.265889,
-      "decal2Tex": "usa_commander_a_co",
-      "decal3Line0": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal3Line1": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal3Line2": [
+      "decal2Tex": "usa_commander_a_co"
+    }
+  },
+  "smokeScreenExhaustEmitters": {
+    "emitter": [
+      "emtr_exhaust_01",
+      "emtr_exhaust_04"
+    ]
+  },
+  "battleHideNodes": {
+    "n": [
+      "details",
+      "details_01",
+      "details_02",
+      "details_03",
+      "details_04",
+      "details_05",
+      "details_06",
+      "details_07",
+      "details_08",
+      "details_09",
+      "details_10"
+    ]
+  }
+}3Line2": [
         0.0,
         0.0,
         0.0,

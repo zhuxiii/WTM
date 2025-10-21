@@ -1,16 +1,22 @@
 {
+  "lens_flare_config_override": {
+    "_use": "replicating",
+    "_track": true,
+    "sun_flare_provider__flare_config_override": "",
+    "dynamic_light_lens_flare__flare_config_override": ""
+  },
   "lens_flare_sun_settings": {
     "_use": "lens_flare_config",
     "_tags": "render",
     "_track": true,
     "lens_flare_config__name": "lens_flares_sun_cinematic",
-    "lens_flare_config__smooth_screen_fadeout_distance": 0.3,
+    "lens_flare_config__smooth_screen_fadeout_distance": 0.2,
     "lens_flare_config__exposure_reduction": 0.9,
     "lens_flare_config__scale": [
-      0.05,
-      0.05
+      0.03,
+      0.03
     ],
-    "lens_flare_config__intensity": 8.0,
+    "lens_flare_config__intensity": 2.0,
     "lens_flare_config__use_occlusion": true,
     "lens_flare_config__elements:array": {
       "lens_flare_config__elements:object": [
@@ -21,11 +27,11 @@
             21.33
           ],
           "flare_component__tint": [
-            0.6,
-            0.2,
-            0.0
+            0.4,
+            0.35,
+            0.3
           ],
-          "flare_component__gradient__gradient": 0.993,
+          "flare_component__gradient__gradient": 0.989,
           "flare_component__gradient__falloff": 0.03,
           "flare_component__enabled": true,
           "flare_component__roundness": 0.19
@@ -48,47 +54,10 @@
           "flare_component__roundness": 1.0
         },
         {
-          "flare_component__intensity": 0.025,
+          "flare_component__intensity": 0.01,
           "flare_component__side_count": 4,
           "flare_component__scale": [
-            55.0,
-            1.9
-          ],
-          "flare_component__tint": [
-            0.25,
-            0.25,
-            0.9
-          ],
-          "flare_component__gradient__gradient": 0.9938,
-          "flare_component__gradient__falloff": 0.1,
-          "flare_component__enabled": true,
-          "flare_component__rotation_offset": 0.0,
-          "flare_component__roundness": 1.0
-        },
-        {
-          "flare_component__axis_offset": 0.015,
-          "flare_component__intensity": 0.04,
-          "flare_component__side_count": 4,
-          "flare_component__scale": [
-            35.0,
-            1.0
-          ],
-          "flare_component__tint": [
-            0.25,
-            0.25,
-            0.9
-          ],
-          "flare_component__gradient__gradient": 0.9938,
-          "flare_component__gradient__falloff": 0.1,
-          "flare_component__enabled": true,
-          "flare_component__rotation_offset": 0.0,
-          "flare_component__roundness": 1.0
-        },
-        {
-          "flare_component__intensity": 0.015,
-          "flare_component__side_count": 4,
-          "flare_component__scale": [
-            15.0,
+            12.0,
             0.6
           ],
           "flare_component__tint": [
@@ -103,7 +72,7 @@
           "flare_component__roundness": 1.0
         },
         {
-          "flare_component__intensity": 0.015,
+          "flare_component__intensity": 0.01,
           "flare_component__side_count": 4,
           "flare_component__scale": [
             15.0,
@@ -121,10 +90,10 @@
           "flare_component__roundness": 1.0
         },
         {
-          "flare_component__intensity": 0.015,
+          "flare_component__intensity": 0.01,
           "flare_component__side_count": 4,
           "flare_component__scale": [
-            15.0,
+            10.0,
             0.4
           ],
           "flare_component__tint": [
@@ -468,6 +437,7 @@
     "_tags": "render",
     "_track": true,
     "lens_flare_config__name": "lens_flares_dynamic_lights_cinematic",
+    "lens_flare_config__exposure_reduction": -0.5,
     "lens_flare_config__smooth_screen_fadeout_distance": 0.3,
     "lens_flare_config__scale": [
       0.05,
@@ -478,31 +448,65 @@
     "lens_flare_config__elements:array": {
       "lens_flare_config__elements:object": [
         {
-          "flare_component__intensity": 0.08,
+          "flare_component__intensity": 0.1,
           "flare_component__side_count": 9,
           "flare_component__scale": [
-            41.33,
+            51.33,
             21.33
           ],
           "flare_component__tint": [
-            0.3,
-            0.4,
-            1.0
+            1.0,
+            0.6,
+            0.8
           ],
           "flare_component__gradient__gradient": 0.993,
-          "flare_component__gradient__falloff": 0.04,
+          "flare_component__gradient__falloff": 0.06,
           "flare_component__enabled": true,
           "flare_component__roundness": 0.19
+        },
+        {
+          "flare_component__intensity": 0.05,
+          "flare_component__side_count": 4,
+          "flare_component__scale": [
+            10.0,
+            10.0
+          ],
+          "flare_component__tint": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "flare_component__gradient__gradient": 1.0,
+          "flare_component__gradient__falloff": 0.2,
+          "flare_component__enabled": true,
+          "flare_component__roundness": 1.0
+        },
+        {
+          "flare_component__intensity": 0.001,
+          "flare_component__side_count": 4,
+          "flare_component__scale": [
+            40.0,
+            40.0
+          ],
+          "flare_component__tint": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "flare_component__gradient__gradient": 1.0,
+          "flare_component__gradient__falloff": 0.2,
+          "flare_component__enabled": true,
+          "flare_component__roundness": 1.0
         },
         {
           "flare_component__intensity": 0.01,
           "flare_component__side_count": 4,
           "flare_component__scale": [
-            195.0,
+            100.0,
             2.9
           ],
           "flare_component__tint": [
-            0.25,
+            0.45,
             0.35,
             0.9
           ],
@@ -532,83 +536,8 @@
           "flare_component__roundness": 1.0
         },
         {
-          "flare_component__axis_offset": 0.24,
-          "flare_component__intensity": 0.00025,
-          "flare_component__side_count": 8,
-          "flare_component__scale": [
-            1.0,
-            1.0
-          ],
-          "flare_component__tint": [
-            0.0,
-            0.5,
-            0.9
-          ],
-          "flare_component__gradient__gradient": 0.1,
-          "flare_component__auto_rotation": true,
-          "flare_component__gradient__falloff": 1.0,
-          "flare_component__enabled": true,
-          "flare_component__roundness": 0.114
-        },
-        {
-          "flare_component__axis_offset": 0.3,
-          "flare_component__intensity": 0.001,
-          "flare_component__side_count": 4,
-          "flare_component__gradient__inverted": true,
-          "flare_component__scale": [
-            1.3,
-            1.3
-          ],
-          "flare_component__tint": [
-            0.0,
-            0.0,
-            1.0
-          ],
-          "flare_component__gradient__gradient": 0.5,
-          "flare_component__gradient__falloff": 2.0,
-          "flare_component__enabled": true,
-          "flare_component__roundness": 1.0
-        },
-        {
-          "flare_component__axis_offset": 0.7,
-          "flare_component__intensity": 0.0005,
-          "flare_component__side_count": 4,
-          "flare_component__gradient__inverted": true,
-          "flare_component__scale": [
-            0.2,
-            0.2
-          ],
-          "flare_component__tint": [
-            0.0,
-            0.0,
-            1.0
-          ],
-          "flare_component__gradient__gradient": 1.3,
-          "flare_component__gradient__falloff": 1.0,
-          "flare_component__enabled": true,
-          "flare_component__roundness": 1.0
-        },
-        {
-          "flare_component__axis_offset": 0.35,
-          "flare_component__intensity": 0.0005,
-          "flare_component__side_count": 8,
-          "flare_component__scale": [
-            1.5,
-            1.5
-          ],
-          "flare_component__tint": [
-            0.3,
-            0.5,
-            1.0
-          ],
-          "flare_component__gradient__gradient": 0.1,
-          "flare_component__gradient__falloff": 1.0,
-          "flare_component__enabled": true,
-          "flare_component__roundness": 0.1
-        },
-        {
           "flare_component__axis_offset": 0.4,
-          "flare_component__intensity": 0.00025,
+          "flare_component__intensity": 0.0009,
           "flare_component__side_count": 4,
           "flare_component__scale": [
             2.75,
@@ -626,7 +555,7 @@
         },
         {
           "flare_component__axis_offset": 0.58,
-          "flare_component__intensity": 0.00015,
+          "flare_component__intensity": 0.00025,
           "flare_component__side_count": 8,
           "flare_component__scale": [
             3.5,
@@ -645,7 +574,7 @@
         },
         {
           "flare_component__axis_offset": 0.63,
-          "flare_component__intensity": 0.0015,
+          "flare_component__intensity": 0.00125,
           "flare_component__side_count": 8,
           "flare_component__scale": [
             1.5,
@@ -663,7 +592,7 @@
         },
         {
           "flare_component__axis_offset": 0.79,
-          "flare_component__intensity": 0.0015,
+          "flare_component__intensity": 0.005,
           "flare_component__side_count": 4,
           "flare_component__scale": [
             15.0,
@@ -716,6 +645,71 @@
           "flare_component__radial_distortion__enabled": true,
           "flare_component__auto_rotation": false,
           "flare_component__gradient__falloff": 1.0,
+          "flare_component__enabled": true,
+          "flare_component__radial_distortion__distortion_curve_pow": 1.0,
+          "flare_component__radial_distortion__relative_to_center": true,
+          "flare_component__roundness": 0.114,
+          "flare_component__radial_distortion__radial_edge_size": [
+            0.9,
+            1.5
+          ]
+        },
+        {
+          "flare_component__axis_offset": 0.905,
+          "flare_component__intensity": 0.001,
+          "flare_component__side_count": 8,
+          "flare_component__scale": [
+            1.5,
+            0.1
+          ],
+          "flare_component__tint": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "flare_component__gradient__gradient": 0.2,
+          "flare_component__radial_distortion__enabled": true,
+          "flare_component__auto_rotation": false,
+          "flare_component__gradient__falloff": 1.0,
+          "flare_component__enabled": true,
+          "flare_component__radial_distortion__distortion_curve_pow": 1.0,
+          "flare_component__radial_distortion__relative_to_center": true,
+          "flare_component__roundness": 0.114,
+          "flare_component__radial_distortion__radial_edge_size": [
+            0.75,
+            1.5
+          ]
+        },
+        {
+          "flare_component__axis_offset": 0.91,
+          "flare_component__intensity": 0.003,
+          "flare_component__side_count": 8,
+          "flare_component__scale": [
+            1.5,
+            0.1
+          ],
+          "flare_component__tint": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "flare_component__gradient__gradient": 0.2,
+          "flare_component__radial_distortion__enabled": true,
+          "flare_component__auto_rotation": false,
+          "flare_component__gradient__falloff": 1.0,
+          "flare_component__enabled": true,
+          "flare_component__radial_distortion__distortion_curve_pow": 1.0,
+          "flare_component__radial_distortion__relative_to_center": true,
+          "flare_component__roundness": 0.114,
+          "flare_component__radial_distortion__radial_edge_size": [
+            0.5,
+            1.5
+          ]
+        }
+      ]
+    }
+  }
+}falloff": 1.0,
           "flare_component__enabled": true,
           "flare_component__radial_distortion__distortion_curve_pow": 1.0,
           "flare_component__radial_distortion__relative_to_center": true,

@@ -21,6 +21,7 @@
       "userstat_stat_id": "last_kill",
       "mode": {
         "type": "finalBlow",
+        "includeAI": false,
         "condition": {
           "type": "online"
         }
@@ -1722,11 +1723,8 @@
             "type": "gameModeInfoString",
             "name": "name",
             "exactName": true,
-            "value": [
-              "ship_new_players_battle_single",
-              "ship_new_players_battle_coop",
-              "ship_event_in_random_battles_arcade"
-            ]
+            "allowed": false,
+            "value": "event_1_april_pirates"
           }
         ]
       }
@@ -1850,11 +1848,8 @@
             "type": "gameModeInfoString",
             "name": "name",
             "exactName": true,
-            "value": [
-              "ship_new_players_battle_single",
-              "ship_new_players_battle_coop",
-              "ship_event_in_random_battles_arcade"
-            ]
+            "allowed": false,
+            "value": "event_1_april_pirates"
           }
         ]
       }
@@ -1973,11 +1968,8 @@
             "type": "gameModeInfoString",
             "name": "name",
             "exactName": true,
-            "value": [
-              "ship_new_players_battle_single",
-              "ship_new_players_battle_coop",
-              "ship_event_in_random_battles_arcade"
-            ]
+            "allowed": false,
+            "value": "event_1_april_pirates"
           }
         ]
       }
@@ -2105,11 +2097,8 @@
             "type": "gameModeInfoString",
             "name": "name",
             "exactName": true,
-            "value": [
-              "ship_new_players_battle_single",
-              "ship_new_players_battle_coop",
-              "ship_event_in_random_battles_arcade"
-            ]
+            "allowed": false,
+            "value": "event_1_april_pirates"
           }
         ]
       }
@@ -2609,6 +2598,26 @@
     },
     {
       "id": "marks_landing_after_critical_hit",
+      "type": "streak",
+      "amount_exp": 0,
+      "amount_warpoints": 250,
+      "isAfterFlight": false,
+      "userstat_stat_id": "soft_landing",
+      "mode": {
+        "type": "landings",
+        "num": 1,
+        "condition": [
+          {
+            "type": "online"
+          },
+          {
+            "type": "critical"
+          }
+        ]
+      }
+    }
+  ]
+}s_landing_after_critical_hit",
       "type": "streak",
       "amount_exp": 0,
       "amount_warpoints": 250,

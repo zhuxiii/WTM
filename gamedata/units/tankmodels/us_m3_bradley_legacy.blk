@@ -2952,7 +2952,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -3292,7 +3291,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -3512,54 +3510,7 @@
       "decal0Abs": false,
       "decal0OppositeMirrored": false,
       "decal0WidthBox": 0.234247,
-      "decal0Tex": "usa_2nd_plt_a_co",
-      "decal1Line0": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal1Line1": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal1Line2": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal1Line3": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal1HaveCP": false,
-      "decal1CPNormDepth": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal1CPNormDepth1": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal1RotScale": [
-        1.5708,
-        1.0
-      ],
-      "decal1Mirrored": false,
-      "decal1Wrap": false,
-      "decal1Abs": false,
-      "decal1OppositeMirrored": false,
-      "decal1WidthBox": 0.0,
-      "decal1Tex": ""
+      "decal0Tex": "usa_2nd_plt_a_co"
     },
     "forest": {
       "skin_condition": 100.0,
@@ -3567,6 +3518,49 @@
       "camo_rotation": 0.0
     },
     "forest2": {
+      "replace_tex": {
+        "from": "us_camo_olive*",
+        "to": "usa_modern_winter_verdant*"
+      }
+    },
+    "desert": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    },
+    "winter": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  },
+  "vehicleSkins": {
+    "forest": {
+      "replace_tex": {
+        "from": "us_camo_olive*",
+        "to": "us_camo_modern_green*"
+      }
+    },
+    "forest2": {
+      "replace_tex": {
+        "from": "us_camo_olive*",
+        "to": "usa_modern_winter_verdant*"
+      }
+    },
+    "desert": {
+      "replace_tex": {
+        "from": "us_camo_olive*",
+        "to": "usa_modern_red_desert*"
+      }
+    },
+    "winter": {
+      "replace_tex": {
+        "from": "us_camo_olive*",
+        "to": "usa_modern_snow_temperate_ot*"
+      }
+    }
+  }
+}2": {
       "replace_tex": {
         "from": "us_camo_olive*",
         "to": "usa_modern_winter_verdant*"

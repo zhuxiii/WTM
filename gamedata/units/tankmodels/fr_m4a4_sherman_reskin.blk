@@ -2305,6 +2305,12 @@
       "fricFrontal": [
         1.0,
         0.7
+      ],
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        0.8,
+        0.3
       ]
     },
     "collisionProps": {
@@ -2321,6 +2327,7 @@
       "driveGearRadius": 0.31,
       "mainGearRatio": 3.674,
       "sideGearRatio": 2.74,
+      "alternativeGearControl": 3.0,
       "gearRatios": {
         "ratio": [
           -5.64,
@@ -2391,6 +2398,58 @@
       }
     }
   },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
+    ]
+  },
   "dm_for_shop": {
     "armorThicknessFront": [
       0.8,
@@ -2456,7 +2515,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 0.7,
           "verticalSpeedLimitKPH": 24.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2835,11 +2893,6 @@
       "descLocId": "skin/fr_camo_winter_base/desc",
       "replace_tex": {
         "from": "fr_camo_vert_olive_arme*",
-        "to": "fr_camo_winter_base*"
-      }
-    }
-  ]
-} "fr_camo_vert_olive_arme*",
         "to": "fr_camo_winter_base*"
       }
     }

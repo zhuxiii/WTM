@@ -3428,12 +3428,6 @@
         "from": "fr_camo_vert_olive_arme*",
         "to": "fr_camo_winter_green_white*"
       }
-    },
-    "winter2": {
-      "replace_tex": {
-        "from": "fr_camo_vert_olive_arme*",
-        "to": "fr_camo_winter_green_white*"
-      }
     }
   },
   "defaultDecals": {
@@ -3466,6 +3460,14 @@
       "skin_condition": 100.0,
       "camo_scale": 0.0,
       "camo_rotation": 0.0
+    },
+    "winter2": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  }
+}    "camo_rotation": 0.0
     },
     "winter2": {
       "skin_condition": 100.0,

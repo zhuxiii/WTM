@@ -425,7 +425,7 @@
     "visible_battle_zone_shrink_progress": 0.0,
     "visible_battle_zone_shrink_start_progress": 0.0,
     "visible_battle_zone_is_inside_new_zone": true,
-    "visible_battle_zone__border_elem:HudSkinElem": {},
+    "hud_skin_elem": {},
     "visible_battle_zone_area:list<p3>": {},
     "visible_battle_zone_border:list<p3>": {},
     "visible_battle_zone_striped_border:list<p3>": {},
@@ -483,6 +483,10 @@
     ],
     "battle_royale_zone_bottom1": [
       0.0,
+      0.0
+    ]
+  }
+}     0.0,
       0.0
     ]
   }

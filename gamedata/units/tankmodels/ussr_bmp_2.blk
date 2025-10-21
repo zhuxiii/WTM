@@ -1990,7 +1990,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -3120,7 +3119,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -3575,6 +3573,14 @@
     "fov": 12.0,
     "zoomFov": 7.3,
     "hookNodeName": "atgm_sight"
+  },
+  "battleHideNodes": {
+    "n": [
+      "details_01",
+      "details_02"
+    ]
+  }
+}"atgm_sight"
   },
   "battleHideNodes": {
     "n": [

@@ -33,22 +33,6 @@
   "sfxReloadBullet": "grd_cannon_belt_reload",
   "isBulletBelt": false,
   "notUseDefaultBulletInGui": true,
-  "overheat": {
-    "overheat": [
-      [
-        7.0,
-        0.0
-      ],
-      [
-        9.0,
-        0.1
-      ],
-      [
-        11.0,
-        0.5
-      ]
-    ]
-  },
   "bullet": [
     {
       "mass": 0.4,
@@ -4118,7 +4102,7 @@
           0.1,
           2.0
         ],
-        "shellAnimation": "video/shells_animations/ap_t_shell.ivf",
+        "shellAnimation": "video/shells_animations/ap_belt.ivf",
         "bulletName": "30mm_UBR6",
         "relativeVelHitShift": [
           300.0,
@@ -4286,7 +4270,7 @@
           0.1,
           2.0
         ],
-        "shellAnimation": "video/shells_animations/ap_t_shell.ivf",
+        "shellAnimation": "video/shells_animations/ap_belt.ivf",
         "bulletName": "30mm_UBR6",
         "relativeVelHitShift": [
           300.0,
@@ -4454,7 +4438,7 @@
           0.1,
           2.0
         ],
-        "shellAnimation": "video/shells_animations/ap_t_shell.ivf",
+        "shellAnimation": "video/shells_animations/ap_belt.ivf",
         "bulletName": "30mm_UBR6",
         "relativeVelHitShift": [
           300.0,
@@ -4626,7 +4610,7 @@
           2.0
         ],
         "explodeOnRendinst": true,
-        "shellAnimation": "video/shells_animations/he_frag_t_shell.ivf",
+        "shellAnimation": "video/shells_animations/he_belt.ivf",
         "bulletName": "30mm_UOR6",
         "hitPowerMult": 2.0,
         "fuseDelayDist": 0.0,
@@ -4794,6 +4778,25 @@
           }
         }
       }
+    ]
+  },
+  "overheat": {
+    "overheat": [
+      [
+        13.0,
+        0.0
+      ],
+      [
+        15.0,
+        0.1
+      ],
+      [
+        17.0,
+        0.5
+      ]
+    ]
+  }
+}  }
     ]
   }
 }

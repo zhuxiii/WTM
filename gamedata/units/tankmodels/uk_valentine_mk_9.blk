@@ -1734,7 +1734,7 @@
       "fricSideRotAlternative": [
         5.0,
         0.0,
-        0.8,
+        0.75,
         0.3
       ]
     },
@@ -1748,7 +1748,7 @@
       "minRPM": 600.0
     },
     "mechanics": {
-      "maxBrakeForce": 62800.0,
+      "maxBrakeForce": 45800.0,
       "driveGearRadius": 0.36,
       "mainGearRatio": 0.856,
       "sideGearRatio": 1.162,
@@ -3004,7 +3004,14 @@
       "details",
       "details_01",
       "details_02",
-      "details_03"
+      "details_03",
+      "details_04",
+      "details_05",
+      "details_06",
+      "details_07",
+      "details_08",
+      "details_09",
+      "details_10"
     ]
   }
 }

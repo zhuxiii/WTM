@@ -3275,99 +3275,52 @@
       "decal1WidthBox": 0.224671,
       "decal1Tex": "back_02",
       "decal2Line0": [
+        -0.587568,
         0.0,
-        0.0,
-        0.0,
-        0.0
+        0.809175,
+        -0.718452
       ],
       "decal2Line1": [
+        0.809175,
         0.0,
-        0.0,
-        0.0,
-        0.0
+        0.587568,
+        2.19091
       ],
       "decal2Line2": [
+        -0.587568,
         0.0,
-        0.0,
-        0.0,
-        0.0
+        -0.809175,
+        -0.730729
       ],
       "decal2Line3": [
+        0.809175,
         0.0,
-        0.0,
-        0.0,
-        0.0
+        -0.587568,
+        2.182
       ],
-      "decal2HaveCP": false,
+      "decal2HaveCP": true,
       "decal2CPNormDepth": [
         0.0,
+        1.0,
         0.0,
-        0.0,
-        0.0
+        -1.68391
       ],
       "decal2CPNormDepth1": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
+        -0.0,
+        -1.0,
+        -0.0,
+        1.65641
       ],
       "decal2RotScale": [
-        1.5708,
+        0.942747,
         1.0
       ],
       "decal2Mirrored": false,
       "decal2Wrap": false,
       "decal2Abs": false,
       "decal2OppositeMirrored": false,
-      "decal2WidthBox": 0.0,
-      "decal2Tex": "",
-      "decal3Line0": [
-        -0.587568,
-        0.0,
-        0.809175,
-        -0.718452
-      ],
-      "decal3Line1": [
-        0.809175,
-        0.0,
-        0.587568,
-        2.19091
-      ],
-      "decal3Line2": [
-        -0.587568,
-        0.0,
-        -0.809175,
-        -0.730729
-      ],
-      "decal3Line3": [
-        0.809175,
-        0.0,
-        -0.587568,
-        2.182
-      ],
-      "decal3HaveCP": true,
-      "decal3CPNormDepth": [
-        0.0,
-        1.0,
-        0.0,
-        -1.68391
-      ],
-      "decal3CPNormDepth1": [
-        -0.0,
-        -1.0,
-        -0.0,
-        1.65641
-      ],
-      "decal3RotScale": [
-        0.942747,
-        1.0
-      ],
-      "decal3Mirrored": false,
-      "decal3Wrap": false,
-      "decal3Abs": false,
-      "decal3OppositeMirrored": false,
-      "decal3WidthBox": 0.391701,
-      "decal3Tex": "usa_tank_emblem_09"
+      "decal2WidthBox": 0.391701,
+      "decal2Tex": "usa_tank_emblem_09"
     }
   },
   "upgradedAttachables": {
@@ -3472,6 +3425,34 @@
       "name": "desert_pink_dark_khaki",
       "nameLocId": "skin/us_camo_desert_pink_dark_khaki",
       "descLocId": "skin/us_camo_desert_pink_dark_khaki/desc",
+      "replace_tex": {
+        "from": "us_camo_olive*",
+        "to": "us_camo_desert_pink_dark_khaki*"
+      }
+    },
+    {
+      "name": "camo_desert_pink_olive_drab_dark_earth",
+      "nameLocId": "skin/us_camo_desert_pink_olive_drab_dark_earth",
+      "descLocId": "skin/us_camo_desert_pink_olive_drab_dark_earth/desc",
+      "replace_tex": {
+        "from": "us_camo_olive*",
+        "to": "us_camo_desert_pink_olive_drab_dark_earth*"
+      }
+    },
+    {
+      "name": "us_camo_winter_grid",
+      "nameLocId": "skin/us_camo_winter_grid",
+      "descLocId": "skin/us_camo_winter_grid/desc",
+      "replace_tex": {
+        "from": "us_camo_olive*",
+        "to": "us_camo_winter_grid*"
+      }
+    }
+  ],
+  "battleHideNodes": {
+    "n": "details"
+  }
+}k_dark_khaki/desc",
       "replace_tex": {
         "from": "us_camo_olive*",
         "to": "us_camo_desert_pink_dark_khaki*"

@@ -53,7 +53,14 @@
       "details",
       "details_01",
       "details_02",
-      "details_03"
+      "details_03",
+      "details_04",
+      "details_05",
+      "details_06",
+      "details_07",
+      "details_08",
+      "details_09",
+      "details_10"
     ]
   },
   "controlDevices": {
@@ -1948,7 +1955,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2908,7 +2914,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -3288,54 +3293,7 @@
       "decal2Abs": true,
       "decal2OppositeMirrored": false,
       "decal2WidthBox": 0.206692,
-      "decal2Tex": "china_numbers_2",
-      "decal3Line0": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal3Line1": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal3Line2": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal3Line3": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal3HaveCP": false,
-      "decal3CPNormDepth": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal3CPNormDepth1": [
-        0.0,
-        0.0,
-        0.0,
-        0.0
-      ],
-      "decal3RotScale": [
-        1.5708,
-        1.0
-      ],
-      "decal3Mirrored": false,
-      "decal3Wrap": false,
-      "decal3Abs": false,
-      "decal3OppositeMirrored": false,
-      "decal3WidthBox": 0.0,
-      "decal3Tex": ""
+      "decal2Tex": "china_numbers_2"
     }
   },
   "ammo": {
@@ -3353,6 +3311,54 @@
     ],
     "midHitPower": [
       0.9,
+      400.0
+    ],
+    "farHitPower": [
+      0.1,
+      1000.0
+    ],
+    "endHitPower": [
+      0.01,
+      1500.0
+    ],
+    "relativeVelHitShift": [
+      300.0,
+      1000.0
+    ],
+    "nearArmorPower": [
+      10.0,
+      50.0
+    ],
+    "midArmorPower": [
+      7.0,
+      400.0
+    ],
+    "farArmorPower": [
+      0.2,
+      700.0
+    ],
+    "relativeVelArmorShift": [
+      200.0,
+      1000.0
+    ],
+    "explodeTreshold": 0.0001,
+    "explodeArmorPower": 30.0,
+    "explodeRadius": [
+      1.5,
+      10.0
+    ]
+  },
+  "wreckedParts": {
+    "part": {
+      "node": "bone_turret",
+      "mass": 4300.0,
+      "cutDamage": 350.0,
+      "deviation": 0.4,
+      "rotation": 2.5,
+      "collisionNode": "cls_turret"
+    }
+  }
+}  0.9,
       400.0
     ],
     "farHitPower": [

@@ -1910,7 +1910,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2018,7 +2017,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2867,6 +2865,14 @@
   },
   "dmgAngles": {
     "hatch_04": [
+      20.0,
+      30.0
+    ]
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+} "hatch_04": [
       20.0,
       30.0
     ]

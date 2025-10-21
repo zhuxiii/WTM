@@ -2484,7 +2484,8 @@
     "TrackSoundName": "tracks_medium",
     "turret_turn": "turret_turn_manual_y",
     "EngineNameAi": "engine_tank_ai_middle",
-    "TrackSoundNameAi": "tracks_ai_medium"
+    "TrackSoundNameAi": "tracks_ai_medium",
+    "EngineNameEx": "engine_panzer4"
   },
   "attachables": {
     "ex_decor_l_01_dm": true,
@@ -2521,7 +2522,7 @@
       ],
       "CenterOfGravityClampY": [
         0.0,
-        0.7
+        0.3
       ],
       "AdvancedMass": true,
       "trackMass": 940.0

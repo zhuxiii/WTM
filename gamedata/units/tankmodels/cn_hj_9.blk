@@ -1644,7 +1644,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -1699,7 +1698,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2495,7 +2493,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -2550,7 +2547,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -2893,6 +2889,19 @@
             "count": 1
           },
           "ammo_body_04_dm": {
+            "count": 1
+          },
+          "ammo_body_02_dm": {
+            "count": 1
+          }
+        }
+      ]
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}     "ammo_body_04_dm": {
             "count": 1
           },
           "ammo_body_02_dm": {

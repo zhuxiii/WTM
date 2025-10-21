@@ -760,7 +760,9 @@
     "TrackSoundName": "tracks_medium",
     "turret_turn": "turret_turn_manual_y",
     "EngineNameAi": "engine_tank_ai_middle",
-    "TrackSoundNameAi": "tracks_ai_medium"
+    "TrackSoundNameAi": "tracks_ai_medium",
+    "EngineNameEx": "engine_t34",
+    "TrackSoundNameEx": "tracks_t34"
   },
   "DamageEffects": {
     "part": [
@@ -2954,10 +2956,7 @@
   "battleHideNodes": {
     "n": "details"
   }
-}rom": "ussr_camo_green*",
-        "to": "ussr_camo_winter*"
-      }
-    }
+}}
   },
   "battleHideNodes": {
     "n": "details"

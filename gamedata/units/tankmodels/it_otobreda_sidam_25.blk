@@ -1726,7 +1726,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -1832,7 +1831,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -1936,7 +1934,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2042,7 +2039,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2809,6 +2805,17 @@
         "to": "it_camo_green*"
       }
     },
+    "forest2": {
+      "replace_tex": {
+        "from": "it_camo_olive_green*",
+        "to": "it_camo_modern_three_color*"
+      }
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+},
     "forest2": {
       "replace_tex": {
         "from": "it_camo_olive_green*",

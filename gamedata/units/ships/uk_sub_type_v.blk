@@ -701,8 +701,7 @@
           "horizontalSpeedLimitKPH": 100.0,
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
-          "verticalSpeedLimitKPH": 100.0,
-          "speedFromVehicleVerticalMult": -1.0
+          "verticalSpeedLimitKPH": 100.0
         }
       },
       {
@@ -924,8 +923,7 @@
                 "horizontalSpeedLimitKPH": 100.0,
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
-                "verticalSpeedLimitKPH": 100.0,
-                "speedFromVehicleVerticalMult": -1.0
+                "verticalSpeedLimitKPH": 100.0
               }
             },
             {
@@ -1824,6 +1822,13 @@
         "from": "camo_hellgrau_50*",
         "to": "camo_polish_bluegeometry*"
       },
+      {
+        "from": "camo_bottom_green*",
+        "to": "camo_rot_5*"
+      }
+    ]
+  }
+}      },
       {
         "from": "camo_bottom_green*",
         "to": "camo_rot_5*"

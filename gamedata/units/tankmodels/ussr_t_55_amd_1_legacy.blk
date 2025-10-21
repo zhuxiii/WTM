@@ -2578,8 +2578,6 @@
                 "horizontalSpeedLimitKPH": 75.0,
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
-                "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -3452,8 +3450,6 @@
           "horizontalSpeedLimitKPH": 75.0,
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
-          "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -3820,6 +3816,16 @@
       "replace_tex": {
         "from": "ussr_camo_green*",
         "to": "ussr_camo_winter_white_olive*"
+      }
+    },
+    "forest": {
+      "replace_tex": {
+        "from": "ussr_camo_green*",
+        "to": "ussr_camo_fiction_var1*"
+      }
+    }
+  }
+}   "to": "ussr_camo_winter_white_olive*"
       }
     },
     "forest": {

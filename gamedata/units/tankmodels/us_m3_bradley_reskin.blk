@@ -2944,7 +2944,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -3236,7 +3235,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -3497,6 +3495,12 @@
     },
     "winter": {
       "replace_tex": {
+        "from": "us_camo_olive*",
+        "to": "usa_modern_snow_temperate_ot*"
+      }
+    }
+  }
+} {
         "from": "us_camo_olive*",
         "to": "usa_modern_snow_temperate_ot*"
       }

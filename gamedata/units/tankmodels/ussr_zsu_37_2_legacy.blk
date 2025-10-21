@@ -2371,7 +2371,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 25.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2467,7 +2466,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 25.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2905,6 +2903,12 @@
     },
     "forest2": {
       "replace_tex": {
+        "from": "ussr_camo_green*",
+        "to": "ussr_camo_fiction_var1*"
+      }
+    }
+  }
+}
         "from": "ussr_camo_green*",
         "to": "ussr_camo_fiction_var1*"
       }

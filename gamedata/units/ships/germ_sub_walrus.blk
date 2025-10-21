@@ -458,7 +458,7 @@
     }
   },
   "ShopParams": {
-    "turning90degTimeSec": 19
+    "turning90degTimeSec": 14
   },
   "divingLockCooldown": {
     "submerging": 8.0,

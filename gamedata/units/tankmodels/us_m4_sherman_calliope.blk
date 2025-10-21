@@ -1467,7 +1467,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 0.7,
           "verticalSpeedLimitKPH": 24.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2704,6 +2703,10 @@
       }
     }
   },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}
   "battleHideNodes": {
     "n": "details"
   }

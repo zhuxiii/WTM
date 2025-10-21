@@ -3025,18 +3025,17 @@
       "details",
       "details_01",
       "details_02",
-      "details_03"
+      "details_03",
+      "details_04",
+      "details_05",
+      "details_06",
+      "details_07",
+      "details_08",
+      "details_09",
+      "details_10"
     ]
   }
-}ex": {
-        "from": "it_camo_olive_green*",
-        "to": "it_camo_winter_white*"
-      }
-    }
-  },
-  "battleHideNodes": {
-    "n": [
-      "details",
+}    "details",
       "details_01",
       "details_02",
       "details_03"

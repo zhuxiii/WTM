@@ -1801,7 +1801,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -1930,7 +1929,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -1983,7 +1981,6 @@
           "hasVertical": true,
           "verticalOmegaMult": 1.0,
           "verticalSpeedLimitKPH": 75.0,
-          "speedFromVehicleVerticalMult": -1.0,
           "errorKPHToDegrees": {
             "row": [
               [
@@ -2799,7 +2796,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -2928,7 +2924,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -2981,7 +2976,6 @@
                 "hasVertical": true,
                 "verticalOmegaMult": 1.0,
                 "verticalSpeedLimitKPH": 75.0,
-                "speedFromVehicleVerticalMult": -1.0,
                 "errorKPHToDegrees": {
                   "row": [
                     [
@@ -3152,12 +3146,6 @@
         "from": "ger_camo_bronzegruen*",
         "to": "ger_camo_carc*"
       }
-    },
-    "forest2": {
-      "replace_tex": {
-        "from": "ger_camo_bronzegruen*",
-        "to": "ger_camo_carc*"
-      }
     }
   },
   "defaultDecals": {
@@ -3304,6 +3292,30 @@
         -9.93869e-8,
         1.21551e-7,
         1.0,
+        -0.72771
+      ],
+      "decal0RotScale": [
+        1.5708,
+        0.358281
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.210035,
+      "decal0Tex": "ge_bundeswehr_insignia"
+    }
+  },
+  "dmgAngles": {
+    "hatch_04": [
+      20.0,
+      30.0
+    ]
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}       1.0,
         -0.72771
       ],
       "decal0RotScale": [
