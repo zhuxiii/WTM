@@ -48752,7 +48752,7 @@
     "tags": {
       "country_ussr": true,
       "tank": true,
-      "type_heavy_tank": true
+      "type_medium_tank": true
     },
     "bullets": {
       "76mm_L10_user_cannon": {

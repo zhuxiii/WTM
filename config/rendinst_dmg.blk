@@ -3315,6 +3315,60 @@
       "material": "metal"
     },
     {
+      "name": "american_gas_station_pump",
+      "destroyedModelName": "american_gas_station_pump_destr_phobj",
+      "destructionImpulse": 10000.0,
+      "fx": "ad_explosion_small"
+    },
+    {
+      "name": "debris_a",
+      "destroyedModelName": "debris_a_destr_phobj",
+      "destructionImpulse": 40000.0,
+      "fx": "ad_dust_stucco",
+      "fxScale": 1.0,
+      "material": "wood"
+    },
+    {
+      "name": "debris_b",
+      "destroyedModelName": "debris_b_destr_phobj",
+      "destructionImpulse": 40000.0,
+      "fx": "ad_dust_stucco",
+      "fxScale": 1.0,
+      "material": "wood"
+    },
+    {
+      "name": "debris_c",
+      "destroyedModelName": "debris_c_destr_phobj",
+      "destructionImpulse": 40000.0,
+      "fx": "ad_dust_stucco",
+      "fxScale": 1.0,
+      "material": "wood"
+    },
+    {
+      "name": "debris_barrel_a",
+      "destroyedModelName": "debris_barrel_a_destr_phobj",
+      "destructionImpulse": 40000.0,
+      "fx": "ad_dust_stucco",
+      "fxScale": 1.0,
+      "material": "metal"
+    },
+    {
+      "name": "tyre_d",
+      "destroyedModelName": "tyre_d_destr_phobj",
+      "destructionImpulse": 40000.0,
+      "fx": "ad_dust_stucco",
+      "fxScale": 1.0,
+      "material": "wood"
+    },
+    {
+      "name": "tyre_e",
+      "destroyedModelName": "tyre_e_destr_phobj",
+      "destructionImpulse": 40000.0,
+      "fx": "ad_dust_stucco",
+      "fxScale": 1.0,
+      "material": "wood"
+    },
+    {
       "name": "iceberg_chunk_1a",
       "destroyedModelName": "iceberg_chunk_1a_destr_phobj",
       "updateDist": 1000.0,
@@ -13917,11 +13971,19 @@
       "nextRes": "waste_container_a_dmg",
       "hp": 50.0,
       "impulseThreshold": 1.0,
+      "isParent": true,
       "fx": "ad_metal",
       "fxScale": 1.0
     },
-    "abandoned_container_a": {
-      "nextRes": "abandoned_container_a_dmg",
+    "abandoned_container_a_dmg": {
+      "physRes": "abandoned_container_a_destr_phobj",
+      "hp": 500.0,
+      "impulseThreshold": 1.0,
+      "fx": "ad_metal",
+      "fxScale": 1.0
+    },
+    "waste_container_a_pile": {
+      "physRes": "waste_container_a_pile_destr_phobj",
       "hp": 50.0,
       "impulseThreshold": 1.0,
       "fx": "ad_metal",
@@ -19667,6 +19729,22 @@
       "fx": "ad_car_wreck",
       "fxScale": 0.4,
       "material": "metal"
+    },
+    "stone_bridge_fulda_fence_a": {
+      "nextRes": "stone_bridge_fulda_fence_a_dmg",
+      "physRes": "stone_bridge_fulda_fence_a_destr_phobj",
+      "hp": 10.0,
+      "impulseThreshold": 1.5,
+      "fx": "ad_dust_stucco",
+      "fxScale": 1.0
+    },
+    "stone_bridge_fulda_column_a": {
+      "nextRes": "stone_bridge_fulda_column_a_dmg",
+      "physRes": "stone_bridge_fulda_column_a_destr_phobj",
+      "hp": 10.0,
+      "impulseThreshold": 1.5,
+      "fx": "ad_dust_stucco",
+      "fxScale": 1.0
     },
     "brick_fence_a": {
       "physRes": "brick_fence_a_destr_phobj",

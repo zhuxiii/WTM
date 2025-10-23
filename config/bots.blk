@@ -46,6 +46,11 @@
             "name": "i-15_1934",
             "weight": 1.0,
             "country": "ussr"
+          },
+          {
+            "name": "ki_10_2",
+            "weight": 1.0,
+            "country": "japan"
           }
         ]
       },
@@ -69,6 +74,11 @@
             "name": "i-153_m62",
             "weight": 1.0,
             "country": "ussr"
+          },
+          {
+            "name": "ki-27_otsu",
+            "weight": 1.0,
+            "country": "japan"
           }
         ]
       },
@@ -92,6 +102,11 @@
             "name": "yak-1_early",
             "weight": 1.0,
             "country": "ussr"
+          },
+          {
+            "name": "a5m4",
+            "weight": 1.0,
+            "country": "japan"
           }
         ]
       },
@@ -115,6 +130,11 @@
             "name": "yak-7b",
             "weight": 1.0,
             "country": "ussr"
+          },
+          {
+            "name": "a6m2_mod11",
+            "weight": 1.0,
+            "country": "japan"
           }
         ]
       },
@@ -138,6 +158,11 @@
             "name": "la-5fn",
             "weight": 1.0,
             "country": "ussr"
+          },
+          {
+            "name": "a6m2_zero",
+            "weight": 1.0,
+            "country": "japan"
           }
         ]
       },
@@ -161,13 +186,18 @@
             "name": "yak-3",
             "weight": 1.0,
             "country": "ussr"
+          },
+          {
+            "name": "a6m3_mod22_zero",
+            "weight": 1.0,
+            "country": "japan"
           }
         ]
       },
       {
         "range": [
           7,
-          50
+          7
         ],
         "aircraft": [
           {
@@ -184,6 +214,67 @@
             "name": "la-7b-20",
             "weight": 1.0,
             "country": "ussr"
+          },
+          {
+            "name": "a7m2",
+            "weight": 1.0,
+            "country": "japan"
+          }
+        ]
+      },
+      {
+        "range": [
+          8,
+          8
+        ],
+        "aircraft": [
+          {
+            "name": "f8f1b",
+            "weight": 1.0,
+            "country": "usa"
+          },
+          {
+            "name": "fw-190d-12",
+            "weight": 1.0,
+            "country": "germany"
+          },
+          {
+            "name": "la_9",
+            "weight": 1.0,
+            "country": "ussr"
+          },
+          {
+            "name": "ki_84_ko",
+            "weight": 1.0,
+            "country": "japan"
+          }
+        ]
+      },
+      {
+        "range": [
+          9,
+          50
+        ],
+        "aircraft": [
+          {
+            "name": "f-80a",
+            "weight": 1.0,
+            "country": "usa"
+          },
+          {
+            "name": "he-162a-1",
+            "weight": 1.0,
+            "country": "germany"
+          },
+          {
+            "name": "yak-15",
+            "weight": 1.0,
+            "country": "ussr"
+          },
+          {
+            "name": "kitsuka",
+            "weight": 1.0,
+            "country": "japan"
           }
         ]
       }
@@ -1032,86 +1123,7 @@
   "necessaryMods": {
     "mod": "manual_extinguisher"
   }
-}       "name": "jp_cruiser_tone",
-            "weight": 1.0,
-            "country": "germany"
-          }
-        ]
-      },
-      {
-        "range": [
-          3,
-          3
-        ],
-        "ship": [
-          {
-            "name": "germ_battleship_helgoland",
-            "weight": 1.0,
-            "country": "germany"
-          },
-          {
-            "name": "uk_battleship_dreadnought",
-            "weight": 1.0,
-            "country": "germany"
-          },
-          {
-            "name": "us_battleship_north_dakota",
-            "weight": 1.0,
-            "country": "germany"
-          },
-          {
-            "name": "ussr_battleship_imperatritsa_mariya",
-            "weight": 1.0,
-            "country": "germany"
-          },
-          {
-            "name": "jp_battleship_settsu",
-            "weight": 1.0,
-            "country": "germany"
-          },
-          {
-            "name": "germ_battleship_kaiser",
-            "weight": 1.0,
-            "country": "germany"
-          },
-          {
-            "name": "us_battleship_wyoming_class",
-            "weight": 1.0,
-            "country": "germany"
-          },
-          {
-            "name": "ussr_battleship_parizhskaya_kommuna",
-            "weight": 1.0,
-            "country": "germany"
-          },
-          {
-            "name": "uk_battleship_warspite",
-            "weight": 1.0,
-            "country": "germany"
-          },
-          {
-            "name": "jp_battleship_hyuga",
-            "weight": 1.0,
-            "country": "germany"
-          }
-        ]
-      },
-      {
-        "range": [
-          4,
-          4
-        ],
-        "ship": [
-          {
-            "name": "us_battlecruiser_alaska_class",
-            "weight": 1.0,
-            "country": "germany"
-          },
-          {
-            "name": "ussr_battlecruiser_stalingrad",
-            "weight": 1.0,
-            "country": "germany"
-          },
+}  },
           {
             "name": "jp_battleship_fuso",
             "weight": 1.0,

@@ -881,18 +881,12 @@
         },
         "limits": {
           "yaw": [
-            -115.0,
-            115.0
+            -135.0,
+            135.0
           ],
           "pitch": [
             10.0,
             10.0
-          ]
-        },
-        "limitsDeadzone": {
-          "yaw": [
-            -50.0,
-            50.0
           ]
         }
       },
@@ -1300,18 +1294,12 @@
               },
               "limits": {
                 "yaw": [
-                  -115.0,
-                  115.0
+                  -135.0,
+                  135.0
                 ],
                 "pitch": [
                   10.0,
                   10.0
-                ]
-              },
-              "limitsDeadzone": {
-                "yaw": [
-                  -50.0,
-                  50.0
                 ]
               }
             },
@@ -1707,18 +1695,12 @@
               },
               "limits": {
                 "yaw": [
-                  -115.0,
-                  115.0
+                  -135.0,
+                  135.0
                 ],
                 "pitch": [
                   10.0,
                   10.0
-                ]
-              },
-              "limitsDeadzone": {
-                "yaw": [
-                  -50.0,
-                  50.0
                 ]
               }
             },
@@ -2409,6 +2391,26 @@
   },
   "upgraded_skin": {
     "name": "prem_camo",
+    "replace_tex": {
+      "from": "camo_navygrey_5*",
+      "to": "camo_multicolor_cubes*"
+    }
+  },
+  "vehicleSkins": {
+    "grayriver": {
+      "replace_tex": {
+        "from": "camo_navygrey_5*",
+        "to": "camo_grayriver*"
+      }
+    },
+    "darkgray_blotch": {
+      "replace_tex": {
+        "from": "camo_navygrey_5*",
+        "to": "camo_darkgray_blotch*"
+      }
+    }
+  }
+}
     "replace_tex": {
       "from": "camo_navygrey_5*",
       "to": "camo_multicolor_cubes*"

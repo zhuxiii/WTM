@@ -919,7 +919,7 @@
       },
       {
         "trigger": "gunner1",
-        "triggerGroup": "secondary",
+        "triggerGroup": "primary",
         "blk": "gameData/Weapons/navalModels_weapons/76mm_ak_726_naval_user_cannon.blk",
         "emitter": "emtr_gun_flame_07",
         "flash": "emtr_gun_flame_07",
@@ -976,7 +976,7 @@
       },
       {
         "trigger": "gunner1",
-        "triggerGroup": "secondary",
+        "triggerGroup": "primary",
         "blk": "gameData/Weapons/navalModels_weapons/76mm_ak_726_naval_user_cannon.blk",
         "emitter": "emtr_gun_flame_08",
         "flash": "emtr_gun_flame_08",
@@ -1818,7 +1818,7 @@
             },
             {
               "trigger": "gunner1",
-              "triggerGroup": "secondary",
+              "triggerGroup": "primary",
               "blk": "gameData/Weapons/navalModels_weapons/76mm_ak_726_naval_user_cannon.blk",
               "emitter": "emtr_gun_flame_07",
               "flash": "emtr_gun_flame_07",
@@ -1875,7 +1875,7 @@
             },
             {
               "trigger": "gunner1",
-              "triggerGroup": "secondary",
+              "triggerGroup": "primary",
               "blk": "gameData/Weapons/navalModels_weapons/76mm_ak_726_naval_user_cannon.blk",
               "emitter": "emtr_gun_flame_08",
               "flash": "emtr_gun_flame_08",
@@ -2699,7 +2699,7 @@
             },
             {
               "trigger": "gunner1",
-              "triggerGroup": "secondary",
+              "triggerGroup": "primary",
               "blk": "gameData/Weapons/navalModels_weapons/76mm_ak_726_naval_user_cannon.blk",
               "emitter": "emtr_gun_flame_07",
               "flash": "emtr_gun_flame_07",
@@ -2756,7 +2756,7 @@
             },
             {
               "trigger": "gunner1",
-              "triggerGroup": "secondary",
+              "triggerGroup": "primary",
               "blk": "gameData/Weapons/navalModels_weapons/76mm_ak_726_naval_user_cannon.blk",
               "emitter": "emtr_gun_flame_08",
               "flash": "emtr_gun_flame_08",
@@ -3971,6 +3971,9 @@
         "from": "camo_hazegray*",
         "to": "camo_disruptive_gray*"
       }
+    }
+  }
+}
     }
   }
 }

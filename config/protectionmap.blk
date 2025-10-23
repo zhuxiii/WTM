@@ -2,9 +2,9 @@
   "gridSize": 128,
   "ineffectiveColor": [
     0,
-    64,
     0,
-    64
+    192,
+    96
   ],
   "chanceColor": [
     0,
@@ -14,8 +14,8 @@
   ],
   "effectiveColor": [
     0,
+    128,
     0,
-    255,
     128
   ],
   "yNulling": false,
@@ -51,5 +51,5 @@
       }
     }
   }
-}}
+}
 }

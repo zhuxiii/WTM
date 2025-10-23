@@ -2429,6 +2429,10 @@
       }
     }
   },
+  "metal": {
+    "enable_manual_hazard_tracking": false,
+    "enable_postmortem": true
+  },
   "win64": {
     "debug": {
       "emuTouchScreen": true
@@ -2459,10 +2463,7 @@
   "stcode": {
     "tag": "$version"
   }
-}    "texTileSize": 64,
-        "swFeedbackMipTiles0": 2,
-        "swFeedbackMipTiles1": 2,
-        "swFeedbackMipTiles2": 2,
+}       "swFeedbackMipTiles2": 2,
         "swFeedbackInnerMipTiles": 2,
         "swFeedbackOuterMipTiles": 4,
         "virtualTextureAnisotropy": 1,

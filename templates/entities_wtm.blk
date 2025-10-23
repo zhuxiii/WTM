@@ -270,7 +270,8 @@
     "transaction_id:u64": {
       "value": 0
     },
-    "sentStatsToUserstat:object": {}
+    "sentStatsToUserstat:object": {},
+    "sentMinStatsToUserstat:object": {}
   },
   "damage_log": {
     "nextStatsSyncTime": 0.0,
@@ -348,8 +349,7 @@
       "air_speed_booster__ownerEid:eid": {}
     }
   }
-}s_distance_deviation": 1000.0,
-      "lightning__series_azimuth_deviation": 0.1,
+}htning__series_azimuth_deviation": 0.1,
       "lightning__series_radius_interval": [
         0.5,
         0.8
