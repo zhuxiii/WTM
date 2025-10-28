@@ -3955,8 +3955,8 @@
   "upgradedDecals": {
     "upgraded": {
       "skin_condition": 100.0,
-      "camo_scale": -60.0,
-      "camo_rotation": 0.0
+      "camo_scale": -5.0,
+      "camo_rotation": 50.0
     }
   },
   "vehicleSkins": {

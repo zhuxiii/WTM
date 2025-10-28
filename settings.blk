@@ -290,6 +290,10 @@
     },
     "pkg_dev": {},
     "pkg_downloadable": {},
+    "pkg_hangar_event": {
+      "hq": false,
+      "modelsPatch": false
+    },
     "pkg_sound_common": {
       "hq": false,
       "modelsPatch": false,
@@ -375,6 +379,7 @@
     "compatibilityRendinstDistMul": 1.0,
     "advancedShore": true,
     "oneShoreForAllUnits": true,
+    "shoreWaveThreshold": 0.0,
     "lenseFlares": true,
     "anisotropy": 8,
     "forceAlphatestAnisotropy": 1,
@@ -446,6 +451,7 @@
     "allowETC2": true,
     "varyingTexFilterSupportForcePointFilter": true,
     "riexCanIncreaseRenderBuffer": false,
+    "riExMinSizeForHeighmap": 2.5,
     "riMaxModelsPerLevel": 1024,
     "riAllowGenJobsQueueReorder": true,
     "taaSigmaScaleMin": 1.5,
@@ -476,7 +482,7 @@
     "useGlowLights": false,
     "anchorStaticShadowsToUnitInHangar": true,
     "allowAnimatedDay": false,
-    "usePrecalculatedHarmonics": true,
+    "usePrecalculatedHarmonics": false,
     "harmonicsSimilarityEps": 0.05,
     "listAllAaOptions": true,
     "mobile_demonpostfx": true,
@@ -490,6 +496,7 @@
       1.25,
       1.2
     ],
+    "tiledRenderLights": true,
     "raytraced_shadows": {
       "maxBlasBuildFrames": 30,
       "additionalElementsCheck": false,
@@ -907,6 +914,7 @@
       "shouldReportIncompatibleVersion": true,
       "startMetric": "addons_update_start",
       "stopMetric": "addons_update_stop",
+      "package": "pkg_hangar_event",
       "flag": [
         "--clear",
         "--onlypacks"
@@ -2327,6 +2335,17 @@
                 "affected": true
               }
             }
+          },
+          "brokenUAVOnlyPasses": {
+            "entry": {
+              "driverMinVer0": 512,
+              "driverMinVer1": 615,
+              "driverMaxVer0": 512,
+              "driverMaxVer1": 615,
+              "data": {
+                "affected": true
+              }
+            }
           }
         }
       },
@@ -2463,27 +2482,7 @@
   "stcode": {
     "tag": "$version"
   }
-}       "swFeedbackMipTiles2": 2,
-        "swFeedbackInnerMipTiles": 2,
-        "swFeedbackOuterMipTiles": 4,
-        "virtualTextureAnisotropy": 1,
-        "texelSizeMul": 2.0,
-        "hwfeedback": false,
-        "cachesCount": 1,
-        "buffersCount": 1,
-        "shaderlodMode": "always_low",
-        "updateCountHigh": 4
-      },
-      "debug": {
-        "lodDistanceScale": 1.0
-      },
-      "video": {
-        "compatibilityFxGpuSparksEnabled": false
-      }
-    },
-    "medium": {
-      "graphics": {
-        "sceneResolutionPreset": "medium",
+}   "sceneResolutionPreset": "medium",
         "defaultPresetAA": "low_fxaa",
         "limitPlayerAirplaneUnitsLod": 1,
         "limitPlayerTankUnitsLod": 1,

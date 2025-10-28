@@ -8254,6 +8254,14 @@
     "name": "prem_camo",
     "replace_tex": [
       {
+        "from": "destroyer_class1936c_z47_c*",
+        "to": "destroyer_class1936c_z47_skin_c*"
+      },
+      {
+        "from": "destroyer_class1936c_z47_deckhouse_c*",
+        "to": "destroyer_class1936c_z47_deckhouse_skin_c*"
+      },
+      {
         "from": "camo_hellgrau_50*",
         "to": "camo_halloween_wtm*"
       },
@@ -8267,17 +8275,7 @@
       }
     ]
   }
-}ame": "fire_after_hit_huge",
-        "lifetime": 8.0,
-        "fx": {
-          "name": "fire_after_hit_huge",
-          "setOrientation": true
-        }
-      },
-      {
-        "name": "fire_after_hit_huge",
-        "lifetime": 8.0,
-        "fx": {
+}": {
           "name": "smoke_after_hit_huge",
           "setOrientation": true
         }

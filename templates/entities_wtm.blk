@@ -339,24 +339,25 @@
     "hangarBattleData:object": {}
   },
   "air_speed_booster": {
-    "_group": {
-      "_tags": "server",
-      "air_speed_booster__value": 0.0,
-      "air_speed_booster__time": 15.0,
-      "air_speed_booster__aerobaticSmokeId": 17,
-      "air_speed_booster__aerobaticSmokeIdSaved": -1,
-      "air_speed_booster__enableWep": true,
-      "air_speed_booster__ownerEid:eid": {}
-    }
+    "_use": "replicating",
+    "air_speed_booster__ownerEid:eid": {},
+    "_group": [
+      {
+        "_tags": "netClient",
+        "air_speed_booster__fov": 0.2,
+        "air_speed_booster__fovLast": 1.0
+      },
+      {
+        "_tags": "server",
+        "air_speed_booster__value": 0.0,
+        "air_speed_booster__time": 10.0,
+        "air_speed_booster__aerobaticSmokeId": 16,
+        "air_speed_booster__aerobaticSmokeIdSaved": -1,
+        "air_speed_booster__enableWep": true
+      }
+    ]
   }
-}htning__series_azimuth_deviation": 0.1,
-      "lightning__series_radius_interval": [
-        0.5,
-        0.8
-      ],
-      "lightning__series_strength_interval": [
-        0.8,
-        1.0
+}      1.0
       ],
       "lightning__series_size_interval": [
         2.0,

@@ -3884,18 +3884,12 @@
       }
     },
     "airSpeedBoost": {
-      "fxName": "smoke_point_circle_blue",
-      "fxScale": 0.3,
-      "objectModelName": "br_pickup_rep_art_ammo",
-      "miniMapIconId": "iconPickupAllInOne",
-      "miniMapIconColor": [
-        0,
-        150,
-        255,
-        255
-      ],
+      "fxName": "misc_markers_booster",
+      "fxScale": 1.0,
+      "pickupFxName": "misc_markers_pickup",
+      "pickupFxScale": 1.0,
       "rewards": {
-        "air_speed_boost_percent": 10
+        "air_speed_boost_percent": 600
       }
     }
   },
@@ -3916,6 +3910,16 @@
     "exp_destroyer_0": 2.0,
     "exp_cruiser_0": 2.0
   },
+  "depthChargeSalvoParams": {
+    "duration": 16.5,
+    "relativeCount": 1.0,
+    "explosionDepth": [
+      20.0,
+      40.0
+    ],
+    "checkBombs": true
+  }
+}  },
   "depthChargeSalvoParams": {
     "duration": 16.5,
     "relativeCount": 1.0,

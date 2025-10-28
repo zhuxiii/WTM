@@ -794,7 +794,7 @@
       }
     }
   },
-  "mk214_antitank": {
+  "mk214_ground_targets": {
     "bullet": {
       "bulletCount": 10,
       "mass": 0.9,
@@ -969,7 +969,7 @@
       }
     }
   },
-  "mk214_antibomber": {
+  "mk214_air_targets": {
     "bullet": {
       "mass": 1.52,
       "caliber": 0.05,
@@ -1175,9 +1175,8 @@
   "gunSound": {
     "path": "sounds/guns",
     "pathStudio": "aircraft/weapon",
-    "outside": "bk37_gun_outside",
-    "cockpit": "bk37_gun_inside",
-    "ai": "bk37_gun_ai"
+    "outside": "cannon_small_outside",
+    "ai": "cannon_small_ai"
   },
   "overheat": {
     "overheat": [
@@ -1208,6 +1207,9 @@
           0.05
         ]
       ]
+    }
+  }
+}      ]
     }
   }
 }

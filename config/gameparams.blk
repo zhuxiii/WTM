@@ -9052,6 +9052,7 @@
     "objectReflectionDistortion": 0.4,
     "waterReflectionZFar": 20000.0,
     "heightmapTexSize": 512,
+    "heightmapSize": -1,
     "foamTexWidth": 1024,
     "foamTexHeight": 1024,
     "waterSplitDist0": 1200.0,
