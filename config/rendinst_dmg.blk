@@ -23040,6 +23040,13 @@
       "fx": "ad_metal",
       "fxScale": 1.0
     },
+    "phonebooth_a": {
+      "physRes": "phonebooth_a_destr_phobj",
+      "hp": 10.0,
+      "impulseThreshold": 1.0,
+      "fx": "ad_metal",
+      "fxScale": 1.0
+    },
     "conex_box_e_b_ldoor": {
       "physRes": "conex_box_e_b_ldoor_destr_phobj",
       "hp": 10.0,

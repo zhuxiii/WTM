@@ -182,10 +182,6 @@
         "vromOptional": true
       },
       {
-        "vrom": "dldata.staging.vromfs.bin",
-        "vromOptional": true
-      },
-      {
         "vrom": "game-dev.vromfs.bin",
         "vromOptional": true
       },
@@ -330,7 +326,10 @@
     },
     "pkg_sound_event": {
       "hq": false,
-      "modelsPatch": false
+      "modelsPatch": false,
+      "conditions": {
+        "isDownloadFirst": true
+      }
     }
   },
   "video": {
@@ -496,7 +495,8 @@
       1.25,
       1.2
     ],
-    "tiledRenderLights": true,
+    "tiledRenderLights": false,
+    "highPrecisionShoreDistField": true,
     "raytraced_shadows": {
       "maxBlasBuildFrames": 30,
       "additionalElementsCheck": false,
@@ -1392,6 +1392,18 @@
       },
       "android": {
         "checkMemoryLeaksMb": 500
+      }
+    },
+    "broken_lights": {
+      "codename": [
+        "iPad Pro 2",
+        "iPad Pro 2 10.5 inch",
+        "iPad 5",
+        "iPad 6",
+        "iPad 7"
+      ],
+      "graphics": {
+        "tiledRenderLights": false
       }
     }
   },
@@ -2335,17 +2347,6 @@
                 "affected": true
               }
             }
-          },
-          "brokenUAVOnlyPasses": {
-            "entry": {
-              "driverMinVer0": 512,
-              "driverMinVer1": 615,
-              "driverMaxVer0": 512,
-              "driverMaxVer1": 615,
-              "data": {
-                "affected": true
-              }
-            }
           }
         }
       },
@@ -2443,6 +2444,9 @@
             "useSharedFenceWait": false,
             "waitApp": false,
             "waitWorker": false
+          },
+          "brokenUAVOnlyPasses": {
+            "affected": true
           }
         }
       }
@@ -2482,9 +2486,13 @@
   "stcode": {
     "tag": "$version"
   }
-}   "sceneResolutionPreset": "medium",
-        "defaultPresetAA": "low_fxaa",
-        "limitPlayerAirplaneUnitsLod": 1,
+}eMemThresholdMb": 0
+    }
+  },
+  "stcode": {
+    "tag": "$version"
+  }
+}tPlayerAirplaneUnitsLod": 1,
         "limitPlayerTankUnitsLod": 1,
         "limitPlayerShipUnitsLod": 1,
         "limitNonPlayerAirplaneUnitsLod": 1,

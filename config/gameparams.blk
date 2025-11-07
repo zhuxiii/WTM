@@ -104,7 +104,7 @@
   "rocketIndicatorShowUnguided": false,
   "rocketIndicatorShowSelf": false,
   "rocketIndicatorLosCheck": true,
-  "forceShowDetectedOnce": true,
+  "forceShowDetectedOnceShips": true,
   "rearmSupportPlaneInAir": false,
   "deltaTimeMultCCIP": 1.0,
   "warningMessageForLWS": true,
@@ -18576,7 +18576,8 @@
     "farEffect": 0.0
   },
   "picman": {
-    "searchBlkBeforeTaBin": true
+    "searchBlkBeforeTaBin": true,
+    "waitForTexLoading": false
   },
   "explosiveMassToTimeAssaultFuse": {
     "fuse_air_ab": {

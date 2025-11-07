@@ -3,6 +3,7 @@
   "fmFile": "fm/me-262a-1a_u4.blk",
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/jet_fighter_metaparts.blk",
   "harmonizationSuffix": "_tomoe",
+  "useTouchTargeting": true,
   "gyroSight": false,
   "type": "typeFighter",
   "paratrooper": "german",

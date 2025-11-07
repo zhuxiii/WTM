@@ -1693,36 +1693,41 @@
   },
   "commonWeapons": {
     "Weapon": {
-      "trigger": "gunner0",
-      "blk": "gameData/Weapons/gunShKAS_turret.blk",
-      "breechInCockpit": true,
-      "emitter": "gun1",
-      "flash": "flare1",
-      "dm": "gunner2_dm",
-      "gunnerDm": "gunner2_dm",
-      "gunDm": "gun1_dm",
-      "partsDP": "gun1_dm",
-      "bullets": 1000,
-      "turret": {
-        "head": "turret1",
-        "gun": "gun1"
-      },
-      "limits": {
-        "yaw": [
-          -30.0,
-          30.0
-        ],
-        "pitch": [
-          -5.0,
-          35.0
-        ]
-      }
+      "slot": 0,
+      "preset": "common"
     }
   },
   "weapon_presets": {
     "preset": {
       "name": "po-2_nw_default",
       "blk": "gameData/FlightModels/weaponPresets/empty.blk"
+    }
+  },
+  "WeaponSlots": {
+    "maxloadMass": 307.0,
+    "maxloadMassLeftConsoles": 150.0,
+    "maxloadMassRightConsoles": 150.0,
+    "maxDisbalance": 100.0,
+    "HideNodes": {
+      "node": [
+        "pylon_rocket1",
+        "pylon_rocket2",
+        "pylon_rocket3",
+        "pylon_rocket4",
+        "pylon_bomb1",
+        "pylon_bomb2",
+        "pylon_bomb3",
+        "pylon_bomb4",
+        "pylon_bomb5",
+        "pylon_bomb6"
+      ]
+    },
+    "WeaponSlot": {
+      "index": 0,
+      "notUseforDisbalanceCalculation": true,
+      "WeaponPreset": {
+        "name": "common"
+      }
     }
   },
   "damagePartsDependencyMap": {
