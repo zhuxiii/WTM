@@ -197,8 +197,6 @@ def cycle(var src : iterator<auto(TT)>) {
                 }
             }
             return false
-        } finally {
-            __builtin_array_clear_lock(arr)
         }
     } else {
         return <- generator<TT&> capture(<- src) () <| $() {
@@ -213,8 +211,6 @@ def cycle(var src : iterator<auto(TT)>) {
                 }
             }
             return false
-        } finally {
-            __builtin_array_clear_lock(arr)
         }
     }
 }
@@ -341,3 +337,24 @@ def sorted(var it : iterator<auto(TT)>) {
         return false
     }
 }
+)
+    sort(arr)
+    return <- generator<TT> capture(<- arr) () <| $() {
+        for (x in arr) {
+            yield x
+        }
+        return false
+    }
+}
+<<<<<<< HEAD
+)
+    sort(arr)
+    return <- generator<TT> capture(<- arr) () <| $() {
+        for (x in arr) {
+            yield x
+        }
+        return false
+    }
+}
+=======
+>>>>>>> parent of 31456a6 (1.21.0.16)

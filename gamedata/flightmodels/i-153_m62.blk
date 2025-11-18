@@ -2251,5 +2251,244 @@
       1.42614,
       -1.13606e-7
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": [
+      {
+        "from": "i_153_m62_a*",
+        "to": "i_153_camo_a*"
+      },
+      {
+        "from": "i_153_n*",
+        "to": "i_153_camo_n*"
+      }
+    ]
+  }
+}      "ROC": 0.0
+      }
+    ]
+  },
+  "balanceData": {
+    "accSpd": 0.120219,
+    "climbSpeed": 15.2,
+    "maxSpeed": 123.333,
+    "turnTime": 13.3
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.898301,
+      -0.426142,
+      1.1129
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.898301,
+      -0.426142,
+      1.61161
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.898301,
+      -0.426142,
+      0.955763
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.898301,
+      -0.426142,
+      1.66146
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.898301,
+      -0.426142,
+      2.72
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.898301,
+      -0.426142,
+      3.62686
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.898301,
+      -0.426142,
+      -1.1129
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.898301,
+      -0.426142,
+      -1.61161
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.898301,
+      -0.426142,
+      -0.955763
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.898301,
+      -0.426142,
+      -1.66146
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.898301,
+      -0.426142,
+      -2.72
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.898301,
+      -0.426142,
+      -3.62686
+    ],
+    "emtr_break_wing_tail": [
+      -3.21062,
+      0.0,
+      0.0
+    ],
+    "emtr_break_wing_biplane": [
+      -0.898301,
+      -0.0147357,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -3.53444,
+      0.575474,
+      0.362058
+    ],
+    "emtr_break_stab_l_to": [
+      -3.53444,
+      0.575474,
+      1.44823
+    ],
+    "emtr_break_stab_r_from": [
+      -3.53444,
+      0.575474,
+      -0.362058
+    ],
+    "emtr_break_stab_r_to": [
+      -3.53444,
+      0.575474,
+      -1.44823
+    ],
+    "emtr_break_fin_from": [
+      -3.45915,
+      0.708614,
+      -1.13606e-7
+    ],
+    "emtr_break_fin_to": [
+      -3.45915,
+      1.42614,
+      -1.13606e-7
+    ]
+  }
+}      "ROC": 0.0
+      }
+    ]
+  },
+  "balanceData": {
+    "accSpd": 0.120219,
+    "climbSpeed": 15.2,
+    "maxSpeed": 123.333,
+    "turnTime": 13.3
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.898301,
+      -0.426142,
+      1.1129
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.898301,
+      -0.426142,
+      1.61161
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.898301,
+      -0.426142,
+      0.955763
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.898301,
+      -0.426142,
+      1.66146
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.898301,
+      -0.426142,
+      2.72
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.898301,
+      -0.426142,
+      3.62686
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.898301,
+      -0.426142,
+      -1.1129
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.898301,
+      -0.426142,
+      -1.61161
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.898301,
+      -0.426142,
+      -0.955763
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.898301,
+      -0.426142,
+      -1.66146
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.898301,
+      -0.426142,
+      -2.72
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.898301,
+      -0.426142,
+      -3.62686
+    ],
+    "emtr_break_wing_tail": [
+      -3.21062,
+      0.0,
+      0.0
+    ],
+    "emtr_break_wing_biplane": [
+      -0.898301,
+      -0.0147357,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -3.53444,
+      0.575474,
+      0.362058
+    ],
+    "emtr_break_stab_l_to": [
+      -3.53444,
+      0.575474,
+      1.44823
+    ],
+    "emtr_break_stab_r_from": [
+      -3.53444,
+      0.575474,
+      -0.362058
+    ],
+    "emtr_break_stab_r_to": [
+      -3.53444,
+      0.575474,
+      -1.44823
+    ],
+    "emtr_break_fin_from": [
+      -3.45915,
+      0.708614,
+      -1.13606e-7
+    ],
+    "emtr_break_fin_to": [
+      -3.45915,
+      1.42614,
+      -1.13606e-7
+    ]
   }
 }

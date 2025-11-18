@@ -2876,5 +2876,274 @@
       1.68626,
       -0.00000969455
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": {
+      "from": "il_2m_type3_1945_green_brown_c*",
+      "to": "il_2m_type3_1945_black_c*"
+    }
+  }
+}      "name": "rbs_132_slot6",
+            "reqModification": "ro_132_mod",
+            "ShowNodes": {
+              "node": [
+                "pylon_rocket3",
+                "pylon_rocket4"
+              ]
+            },
+            "Weapon": [
+              {
+                "trigger": "rockets",
+                "external": true,
+                "separate": true,
+                "blk": "gameData/Weapons/rocketGuns/su_rbs132.blk",
+                "emitter": "rocket12",
+                "bullets": 1,
+                "order": 21
+              },
+              {
+                "trigger": "rockets",
+                "external": true,
+                "separate": true,
+                "blk": "gameData/Weapons/rocketGuns/su_rbs132.blk",
+                "emitter": "rocket11",
+                "bullets": 1,
+                "order": 23
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -1.22047,
+      -0.296886,
+      0.780292
+    ],
+    "_emtr_break_wing0_l_to": [
+      -1.22047,
+      -0.296886,
+      1.34366
+    ],
+    "emtr_break_wing1_l_from": [
+      -1.22047,
+      -0.296886,
+      2.18872
+    ],
+    "emtr_break_wing1_l_to": [
+      -1.22047,
+      -0.296886,
+      3.02524
+    ],
+    "emtr_break_wing2_l_from": [
+      -1.22047,
+      -0.296886,
+      4.28002
+    ],
+    "emtr_break_wing2_l_to": [
+      -1.22047,
+      -0.296886,
+      5.48115
+    ],
+    "_emtr_break_wing0_r_from": [
+      -1.22047,
+      -0.296886,
+      -0.780292
+    ],
+    "_emtr_break_wing0_r_to": [
+      -1.22047,
+      -0.296886,
+      -1.34366
+    ],
+    "emtr_break_wing1_r_from": [
+      -1.22047,
+      -0.296886,
+      -2.18872
+    ],
+    "emtr_break_wing1_r_to": [
+      -1.22047,
+      -0.296886,
+      -3.02524
+    ],
+    "emtr_break_wing2_r_from": [
+      -1.22047,
+      -0.296886,
+      -4.28002
+    ],
+    "emtr_break_wing2_r_to": [
+      -1.22047,
+      -0.296886,
+      -5.48115
+    ],
+    "emtr_break_wing_tail": [
+      -5.31458,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -6.79764,
+      0.107483,
+      0.49207
+    ],
+    "emtr_break_stab_l_to": [
+      -6.79764,
+      0.107483,
+      1.96828
+    ],
+    "emtr_break_stab_r_from": [
+      -6.79764,
+      0.107483,
+      -0.492072
+    ],
+    "emtr_break_stab_r_to": [
+      -6.79764,
+      0.107483,
+      -1.96829
+    ],
+    "emtr_break_fin_from": [
+      -6.33977,
+      0.726733,
+      -0.00000969455
+    ],
+    "emtr_break_fin_to": [
+      -6.33977,
+      1.68626,
+      -0.00000969455
+    ]
+  }
+}      "name": "rbs_132_slot6",
+            "reqModification": "ro_132_mod",
+            "ShowNodes": {
+              "node": [
+                "pylon_rocket3",
+                "pylon_rocket4"
+              ]
+            },
+            "Weapon": [
+              {
+                "trigger": "rockets",
+                "external": true,
+                "separate": true,
+                "blk": "gameData/Weapons/rocketGuns/su_rbs132.blk",
+                "emitter": "rocket12",
+                "bullets": 1,
+                "order": 21
+              },
+              {
+                "trigger": "rockets",
+                "external": true,
+                "separate": true,
+                "blk": "gameData/Weapons/rocketGuns/su_rbs132.blk",
+                "emitter": "rocket11",
+                "bullets": 1,
+                "order": 23
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -1.22047,
+      -0.296886,
+      0.780292
+    ],
+    "_emtr_break_wing0_l_to": [
+      -1.22047,
+      -0.296886,
+      1.34366
+    ],
+    "emtr_break_wing1_l_from": [
+      -1.22047,
+      -0.296886,
+      2.18872
+    ],
+    "emtr_break_wing1_l_to": [
+      -1.22047,
+      -0.296886,
+      3.02524
+    ],
+    "emtr_break_wing2_l_from": [
+      -1.22047,
+      -0.296886,
+      4.28002
+    ],
+    "emtr_break_wing2_l_to": [
+      -1.22047,
+      -0.296886,
+      5.48115
+    ],
+    "_emtr_break_wing0_r_from": [
+      -1.22047,
+      -0.296886,
+      -0.780292
+    ],
+    "_emtr_break_wing0_r_to": [
+      -1.22047,
+      -0.296886,
+      -1.34366
+    ],
+    "emtr_break_wing1_r_from": [
+      -1.22047,
+      -0.296886,
+      -2.18872
+    ],
+    "emtr_break_wing1_r_to": [
+      -1.22047,
+      -0.296886,
+      -3.02524
+    ],
+    "emtr_break_wing2_r_from": [
+      -1.22047,
+      -0.296886,
+      -4.28002
+    ],
+    "emtr_break_wing2_r_to": [
+      -1.22047,
+      -0.296886,
+      -5.48115
+    ],
+    "emtr_break_wing_tail": [
+      -5.31458,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -6.79764,
+      0.107483,
+      0.49207
+    ],
+    "emtr_break_stab_l_to": [
+      -6.79764,
+      0.107483,
+      1.96828
+    ],
+    "emtr_break_stab_r_from": [
+      -6.79764,
+      0.107483,
+      -0.492072
+    ],
+    "emtr_break_stab_r_to": [
+      -6.79764,
+      0.107483,
+      -1.96829
+    ],
+    "emtr_break_fin_from": [
+      -6.33977,
+      0.726733,
+      -0.00000969455
+    ],
+    "emtr_break_fin_to": [
+      -6.33977,
+      1.68626,
+      -0.00000969455
+    ]
   }
 }

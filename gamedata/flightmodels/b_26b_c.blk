@@ -3216,5 +3216,324 @@
       3.63684,
       0.0
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": {
+      "from": "b_26b_c_c*",
+      "to": "b_26b_c_shark_c*"
+    }
+  }
+}bs",
+                "blk": "gameData/Weapons/BombGuns/us_1600lb_ap_an_mk1.blk",
+                "emitter": "bomb_2000lb_2",
+                "bullets": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "tier": 6,
+        "order": 1,
+        "WeaponPreset": {
+          "iconType": "torppedo",
+          "name": "torpedo",
+          "reqModification": "tbf_itc",
+          "ShowNodes": {
+            "node": "torpedo_pylon1"
+          },
+          "Weapon": {
+            "trigger": "torpedoes",
+            "external": true,
+            "blk": "gameData/Weapons/torpedoes/us_mk13_mod1.blk",
+            "emitter": "torpedo",
+            "bullets": 1,
+            "dragCx": 0.008
+          }
+        }
+      }
+    ]
+  },
+  "turbulence": {
+    "segmentlength": 100.0,
+    "startSpeed": 28.0,
+    "maxSpeed": 140.0,
+    "maxPower": 6.0,
+    "initialRadius": 12.0,
+    "radiusSpeed": 2.0
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      82.0,
+      166.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 0.946715,
+    "climbSpeed": 7.73556,
+    "maxSpeed": 110.927,
+    "turnTime": 43.7131
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.562451,
+      0.480594,
+      1.5979
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.562451,
+      0.480594,
+      2.39179
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.562451,
+      0.480594,
+      4.2947
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.562451,
+      0.480594,
+      5.46223
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.562451,
+      0.480594,
+      7.46734
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.562451,
+      0.480594,
+      8.81597
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.562451,
+      0.480594,
+      -1.5979
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.562451,
+      0.480594,
+      -2.39179
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.562451,
+      0.480594,
+      -4.2947
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.562451,
+      0.480594,
+      -5.46223
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.562451,
+      0.480594,
+      -7.46734
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.562451,
+      0.480594,
+      -8.81597
+    ],
+    "emtr_break_wing_tail": [
+      -4.90156,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -8.36429,
+      1.18887,
+      0.948139
+    ],
+    "emtr_break_stab_l_to": [
+      -8.36429,
+      1.18887,
+      3.42711
+    ],
+    "emtr_break_stab_r_from": [
+      -8.36429,
+      1.18887,
+      -0.948139
+    ],
+    "emtr_break_stab_r_to": [
+      -8.36429,
+      1.18887,
+      -3.42711
+    ],
+    "emtr_break_fin_from": [
+      -7.19268,
+      1.67619,
+      0.0
+    ],
+    "emtr_break_fin_to": [
+      -7.19268,
+      3.63684,
+      0.0
+    ]
+  }
+}bs",
+                "blk": "gameData/Weapons/BombGuns/us_1600lb_ap_an_mk1.blk",
+                "emitter": "bomb_2000lb_2",
+                "bullets": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "index": 2,
+        "tier": 6,
+        "order": 1,
+        "WeaponPreset": {
+          "iconType": "torppedo",
+          "name": "torpedo",
+          "reqModification": "tbf_itc",
+          "ShowNodes": {
+            "node": "torpedo_pylon1"
+          },
+          "Weapon": {
+            "trigger": "torpedoes",
+            "external": true,
+            "blk": "gameData/Weapons/torpedoes/us_mk13_mod1.blk",
+            "emitter": "torpedo",
+            "bullets": 1,
+            "dragCx": 0.008
+          }
+        }
+      }
+    ]
+  },
+  "turbulence": {
+    "segmentlength": 100.0,
+    "startSpeed": 28.0,
+    "maxSpeed": 140.0,
+    "maxPower": 6.0,
+    "initialRadius": 12.0,
+    "radiusSpeed": 2.0
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      82.0,
+      166.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 0.946715,
+    "climbSpeed": 7.73556,
+    "maxSpeed": 110.927,
+    "turnTime": 43.7131
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.562451,
+      0.480594,
+      1.5979
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.562451,
+      0.480594,
+      2.39179
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.562451,
+      0.480594,
+      4.2947
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.562451,
+      0.480594,
+      5.46223
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.562451,
+      0.480594,
+      7.46734
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.562451,
+      0.480594,
+      8.81597
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.562451,
+      0.480594,
+      -1.5979
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.562451,
+      0.480594,
+      -2.39179
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.562451,
+      0.480594,
+      -4.2947
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.562451,
+      0.480594,
+      -5.46223
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.562451,
+      0.480594,
+      -7.46734
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.562451,
+      0.480594,
+      -8.81597
+    ],
+    "emtr_break_wing_tail": [
+      -4.90156,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -8.36429,
+      1.18887,
+      0.948139
+    ],
+    "emtr_break_stab_l_to": [
+      -8.36429,
+      1.18887,
+      3.42711
+    ],
+    "emtr_break_stab_r_from": [
+      -8.36429,
+      1.18887,
+      -0.948139
+    ],
+    "emtr_break_stab_r_to": [
+      -8.36429,
+      1.18887,
+      -3.42711
+    ],
+    "emtr_break_fin_from": [
+      -7.19268,
+      1.67619,
+      0.0
+    ],
+    "emtr_break_fin_to": [
+      -7.19268,
+      3.63684,
+      0.0
+    ]
   }
 }

@@ -1685,6 +1685,13 @@
       -2.93367e-8
     ]
   },
+  "upgraded_skin": {
+    "name": "prem",
+    "replace_tex": {
+      "from": "yak_3_a*",
+      "to": "yak_3_czech45_a*"
+    }
+  },
   "commonWeapons": {
     "Weapon": {
       "slot": 0,
@@ -1699,6 +1706,140 @@
   },
   "WeaponSlots": {
     "WeaponSlot": {
+      "index": 0,
+      "WeaponPreset": {
+        "name": "default_common",
+        "HideNodes": {
+          "node": "mgun"
+        },
+        "Weapon": [
+          {
+            "trigger": "cannon",
+            "blk": "gameData/Weapons/cannonB20S.blk",
+            "emitter": "flare1",
+            "flash": "flare1",
+            "shell": "emtr_shellrejection1",
+            "dm": "mgun1_dm",
+            "bullets": 130,
+            "spread": 1.0,
+            "traceOffset": 1
+          },
+          {
+            "trigger": "cannon",
+            "blk": "gameData/Weapons/cannonB20S.blk",
+            "emitter": "flare2",
+            "flash": "flare2",
+            "shell": "emtr_shellrejection1",
+            "dm": "mgun2_dm",
+            "bullets": 130,
+            "spread": 1.0
+          },
+          {
+            "trigger": "cannon",
+            "blk": "gameData/Weapons/cannonB20M.blk",
+            "emitter": "flare3",
+            "flash": "flare3",
+            "shell": "emtr_shellrejection1",
+            "dm": "cannon1_dm",
+            "bullets": 120,
+            "spread": 1.0
+          }
+        ]
+      }
+    }
+  },
+  "default_skin": {
+    "name": "yak_3p_red"
+  },
+  "skin": {
+    "name": "yak_3p_gray"
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      82.0,
+      194.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 2.45301,
+    "climbSpeed": 20.5,
+    "maxSpeed": 177.5,
+    "turnTime": 17.6
+  }
+}lot": {
+      "index": 0,
+      "WeaponPreset": {
+        "name": "default_common",
+        "HideNodes": {
+          "node": "mgun"
+        },
+        "Weapon": [
+          {
+            "trigger": "cannon",
+            "blk": "gameData/Weapons/cannonB20S.blk",
+            "emitter": "flare1",
+            "flash": "flare1",
+            "shell": "emtr_shellrejection1",
+            "dm": "mgun1_dm",
+            "bullets": 130,
+            "spread": 1.0,
+            "traceOffset": 1
+          },
+          {
+            "trigger": "cannon",
+            "blk": "gameData/Weapons/cannonB20S.blk",
+            "emitter": "flare2",
+            "flash": "flare2",
+            "shell": "emtr_shellrejection1",
+            "dm": "mgun2_dm",
+            "bullets": 130,
+            "spread": 1.0
+          },
+          {
+            "trigger": "cannon",
+            "blk": "gameData/Weapons/cannonB20M.blk",
+            "emitter": "flare3",
+            "flash": "flare3",
+            "shell": "emtr_shellrejection1",
+            "dm": "cannon1_dm",
+            "bullets": 120,
+            "spread": 1.0
+          }
+        ]
+      }
+    }
+  },
+  "default_skin": {
+    "name": "yak_3p_red"
+  },
+  "skin": {
+    "name": "yak_3p_gray"
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      82.0,
+      194.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 2.45301,
+    "climbSpeed": 20.5,
+    "maxSpeed": 177.5,
+    "turnTime": 17.6
+  }
+}lot": {
       "index": 0,
       "WeaponPreset": {
         "name": "default_common",

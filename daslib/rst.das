@@ -252,8 +252,15 @@ def describe_type(td : TypeDeclPtr) {
                 }
             }
             write(writer, ">")
-        } elif (baseType == Type.tBitfield) {
+        } elif (baseType == Type.tBitfield || baseType == Type.tBitfield8 || baseType == Type.tBitfield16 || baseType == Type.tBitfield64) {
             write(writer, das_to_string(baseType))
+            if (baseType == Type.tBitfield8) {
+                write(writer, " : uint8")
+            } elif (baseType == Type.tBitfield16) {
+                write(writer, " : uint16")
+            } elif (baseType == Type.tBitfield64) {
+                write(writer, " : uint64")
+            }
             write(writer, "<")
             var first = true
             for (an in td.argNames) {
@@ -384,11 +391,19 @@ def document_topic(doc_file : file; topic : string implicit) {
 def document_bitfield(doc_file : file; value : TypeDeclPtr) {
     var tab : array<array<string>>
     emplace(tab, array<string>("field", "bit", "value"))
-    for (an, bit in value.argNames, range(32)) {
+    var maxBits = 32
+    if (value.baseType == Type.tBitfield8) {
+        maxBits = 8
+    } elif (value.baseType == Type.tBitfield16) {
+        maxBits = 16
+    } elif (value.baseType == Type.tBitfield64) {
+        maxBits = 64
+    }
+    for (an, bit in value.argNames, range(maxBits)) {
         var line : array<string>
         push(line, string(an))
         push(line, string(bit))
-        push(line, string(1 << bit))
+        push(line, string(1ul << uint64(bit)))
         emplace(tab, line)
     }
     fwrite(doc_file, make_table(tab, true))
@@ -417,19 +432,34 @@ def document_tuple(doc_file : file; value : TypeDeclPtr) {
 }
 
 def document_typedef(doc_file : file; mod : Module?; name : string implicit; value) {
-    fwrite(doc_file, make_label(alias_label_name(value)))
-    fwrite(doc_file, make_domain("das:attribute"))
-    fwrite(doc_file, name)
-    if (value.baseType == Type.tBitfield) {
-        fwrite(doc_file, " is a bitfield\n\n")
+    if (value.baseType == Type.tBitfield || value.baseType == Type.tBitfield8 || value.baseType == Type.tBitfield16 || value.baseType == Type.tBitfield64) {
+        fwrite(doc_file, make_label(alias_label_name(value)))
+        fwrite(doc_file, make_domain("das:attribute"))
+        fwrite(doc_file, "bitfield {name}")
+        if (value.baseType == Type.tBitfield8) {
+            fwrite(doc_file, " : uint8")
+        } elif (value.baseType == Type.tBitfield16) {
+            fwrite(doc_file, " : uint16")
+        } elif (value.baseType == Type.tBitfield64) {
+            fwrite(doc_file, " : uint64")
+        }
+        fwrite(doc_file, "\n\n")
         document_bitfield(doc_file, value)
     } elif (value.baseType == Type.tVariant) {
-        fwrite(doc_file, " is a variant type\n\n")
+        fwrite(doc_file, make_label(alias_label_name(value)))
+        fwrite(doc_file, make_domain("das:attribute"))
+        fwrite(doc_file, "variant {name}")
+        fwrite(doc_file, "\n\n")
         document_variant(doc_file, value)
     } elif (value.baseType == Type.tTuple) {
-        fwrite(doc_file, " is a tuple type\n\n")
+        fwrite(doc_file, make_label(alias_label_name(value)))
+        fwrite(doc_file, make_domain("das:attribute"))
+        fwrite(doc_file, "tuple {name}")
         document_tuple(doc_file, value)
     } else {
+        fwrite(doc_file, make_label(alias_label_name(value)))
+        fwrite(doc_file, make_domain("das:attribute"))
+        fwrite(doc_file, name)
         var tp = describe(value, false, false, false)
         tp = replace(tp, "$::", "")
         fwrite(doc_file, " = {tp}\n\n")
@@ -759,6 +789,34 @@ def document_structure_annotations(doc_file : file; mod : Module?) {
     }
 }
 
+def document_enumeration_annotation(doc_file : file; mod : Module?; value) {
+    fwrite(doc_file, make_label(handle_label_name(value)))
+    fwrite(doc_file, make_domain("das:attribute"))
+    fwrite(doc_file, "{value.name}\n\n")
+    document_topic(doc_file, topic("enumeration_macro", mod, string(value.name)))
+}
+
+def document_enumeration_annotations(doc_file : file; mod : Module?) {
+    var any = false
+    module_for_each_annotation(mod) <| $(value) {
+        if (!value.isEnumerationAnnotation) {
+            return
+        }
+        any = true
+    }
+    if (!any) {
+        return
+    }
+    fwrite(doc_file, make_group("Handled enumerations"))
+    module_for_each_annotation(mod) <| $(value) {
+        if (!value.isEnumerationAnnotation) {
+            return
+        }
+        document_enumeration_annotation(doc_file, mod, value)
+    }
+}
+
+
 def document_function_annotation(doc_file : file; mod : Module?; value) {
     fwrite(doc_file, make_label(handle_label_name(value)))
     fwrite(doc_file, make_domain("das:attribute"))
@@ -796,7 +854,7 @@ def document_annotation(doc_file : file; mod : Module?; value) {
 def document_annotations(doc_file : file; mod : Module?) {
     var any = false
     module_for_each_annotation(mod) <| $(value) {
-        if (!value.isTypeAnnotation || value.isBasicStructureAnnotation) {
+        if (!value.isTypeAnnotation || value.isBasicStructureAnnotation || value.isEnumerationAnnotation) {
             return
         }
         any = true
@@ -806,7 +864,7 @@ def document_annotations(doc_file : file; mod : Module?) {
     }
     fwrite(doc_file, make_group("Handled types"))
     module_for_each_annotation(mod) <| $(value) {
-        if (!value.isTypeAnnotation || value.isBasicStructureAnnotation) {
+        if (!value.isTypeAnnotation || value.isBasicStructureAnnotation || value.isEnumerationAnnotation) {
             return
         }
         if (string(value.name) |> starts_with("dasvector`")) {
@@ -826,7 +884,7 @@ def document_structure_macro(doc_file : file; mod : Module?; value) {
 def document_structure_macros(doc_file : file; mod : Module?) {
     var any = false
     module_for_each_annotation(mod) <| $(value) {
-        if (value.isTypeAnnotation || value.isBasicStructureAnnotation || value.isFunctionAnnotation) {
+        if (value.isTypeAnnotation || value.isBasicStructureAnnotation || value.isFunctionAnnotation || value.isEnumerationAnnotation) {
             return
         }
         any = true
@@ -836,7 +894,7 @@ def document_structure_macros(doc_file : file; mod : Module?) {
     }
     fwrite(doc_file, make_group("Structure macros"))
     module_for_each_annotation(mod) <| $(value) {
-        if (value.isTypeAnnotation || value.isBasicStructureAnnotation || value.isFunctionAnnotation) {
+        if (value.isTypeAnnotation || value.isBasicStructureAnnotation || value.isFunctionAnnotation || value.isEnumerationAnnotation) {
             return
         }
         document_structure_macro(doc_file, mod, value)
@@ -1254,6 +1312,7 @@ def public document(name : string; mod : Module?; fname, substname : string; var
     document_variant_macros(doc_file, mod)
     document_typeinfo_macros(doc_file, mod)
     document_annotations(doc_file, mod)
+    document_enumeration_annotations(doc_file, mod)
     document_structure_macros(doc_file, mod)
     document_classes(doc_file, mod)
     document_functions(doc_file, mod, groups)

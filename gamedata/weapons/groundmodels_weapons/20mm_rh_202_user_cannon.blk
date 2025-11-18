@@ -14,7 +14,7 @@
   "aimMaxDist": 3000.0,
   "maxDeltaAngle": 0.08,
   "maxDeltaAngleVertical": 0.08,
-  "shotFreq": 15.0,
+  "shotFreq": 17.166,
   "shotFreqRndK": 0.02,
   "traceFreq": 3,
   "bEnablePause": false,
@@ -410,6 +410,46 @@
         },
         "verLandMesh": {
           "fx": "hit_19_27mm_stone_ap"
+        },
+        "concrete": {
+          "fx": "hit_19_27mm_stone_ap"
+        },
+        "rocks": {
+          "fx": "hit_19_27mm_stone_ap"
+        },
+        "rocksSlippery": {
+          "fx": "hit_19_27mm_stone_ap"
+        },
+        "fabric": {
+          "fx": "hit_19_27mm_stone_ap"
+        },
+        "stone_snow": {
+          "fx": "hit_19_27mm_snow_ap"
+        }
+      }
+    }
+  ]
+}_19_27mm_stone_ap"
+        },
+        "concrete": {
+          "fx": "hit_19_27mm_stone_ap"
+        },
+        "rocks": {
+          "fx": "hit_19_27mm_stone_ap"
+        },
+        "rocksSlippery": {
+          "fx": "hit_19_27mm_stone_ap"
+        },
+        "fabric": {
+          "fx": "hit_19_27mm_stone_ap"
+        },
+        "stone_snow": {
+          "fx": "hit_19_27mm_snow_ap"
+        }
+      }
+    }
+  ]
+}_19_27mm_stone_ap"
         },
         "concrete": {
           "fx": "hit_19_27mm_stone_ap"

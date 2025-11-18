@@ -3681,5 +3681,350 @@
       3.25154,
       -0.000402563
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": {
+      "from": "he_177a_5_c*",
+      "to": "he_177_a5r2_blue_c*"
+    }
+  }
+}           "separate": true
+            }
+          },
+          {
+            "iconType": "bomb_1500kg",
+            "name": "1000_ap",
+            "reqModification": "ju-88_etc1000",
+            "ShowNodes": {
+              "node": "pylon_bomb3"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/de_pc1000_ap.blk",
+              "emitter": "bomb75",
+              "bullets": 1,
+              "external": true,
+              "separate": true
+            }
+          },
+          {
+            "iconType": "bomb_1500kg",
+            "name": "1600_ap",
+            "reqModification": "etc1800",
+            "ShowNodes": {
+              "node": "pylon_bomb3"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/de_pc1600_ap.blk",
+              "emitter": "bomb75",
+              "bullets": 1,
+              "external": true,
+              "separate": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "default_skin_tomoe": {
+    "replace_tex": {
+      "from": "he_177a_5_c*",
+      "to": "he_177a_5_c_tomoe*"
+    }
+  },
+  "turbulence": {
+    "segmentlength": 100.0,
+    "startSpeed": 28.0,
+    "maxSpeed": 140.0,
+    "maxPower": 6.0,
+    "initialRadius": 12.0,
+    "radiusSpeed": 2.0
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      82.0,
+      194.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 0.377378,
+    "climbSpeed": 4.0,
+    "maxSpeed": 102.77,
+    "turnTime": 32.8668
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.870576,
+      -0.0105773,
+      1.62808
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.870576,
+      -0.0105773,
+      2.09371
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.870576,
+      -0.0105773,
+      5.46567
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.870576,
+      -0.0105773,
+      7.23586
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.870576,
+      -0.0105773,
+      9.89113
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.870576,
+      -0.0105773,
+      12.2249
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.870576,
+      -0.0105777,
+      -1.62808
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.870576,
+      -0.0105777,
+      -2.09371
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.870576,
+      -0.0105777,
+      -5.46567
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.870576,
+      -0.0105777,
+      -7.23586
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.870576,
+      -0.0105777,
+      -9.89113
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.870576,
+      -0.0105777,
+      -12.2249
+    ],
+    "emtr_break_wing_tail": [
+      -10.3076,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -11.4957,
+      -0.136096,
+      1.38694
+    ],
+    "emtr_break_stab_l_to": [
+      -11.4957,
+      -0.136096,
+      3.90375
+    ],
+    "emtr_break_stab_r_from": [
+      -11.4957,
+      -0.136096,
+      -1.38937
+    ],
+    "emtr_break_stab_r_to": [
+      -11.4957,
+      -0.136096,
+      -3.90618
+    ],
+    "emtr_break_fin_from": [
+      -11.0524,
+      1.1601,
+      -0.000402563
+    ],
+    "emtr_break_fin_to": [
+      -11.0524,
+      3.25154,
+      -0.000402563
+    ]
+  }
+}           "separate": true
+            }
+          },
+          {
+            "iconType": "bomb_1500kg",
+            "name": "1000_ap",
+            "reqModification": "ju-88_etc1000",
+            "ShowNodes": {
+              "node": "pylon_bomb3"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/de_pc1000_ap.blk",
+              "emitter": "bomb75",
+              "bullets": 1,
+              "external": true,
+              "separate": true
+            }
+          },
+          {
+            "iconType": "bomb_1500kg",
+            "name": "1600_ap",
+            "reqModification": "etc1800",
+            "ShowNodes": {
+              "node": "pylon_bomb3"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/de_pc1600_ap.blk",
+              "emitter": "bomb75",
+              "bullets": 1,
+              "external": true,
+              "separate": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "default_skin_tomoe": {
+    "replace_tex": {
+      "from": "he_177a_5_c*",
+      "to": "he_177a_5_c_tomoe*"
+    }
+  },
+  "turbulence": {
+    "segmentlength": 100.0,
+    "startSpeed": 28.0,
+    "maxSpeed": 140.0,
+    "maxPower": 6.0,
+    "initialRadius": 12.0,
+    "radiusSpeed": 2.0
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      82.0,
+      194.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 0.377378,
+    "climbSpeed": 4.0,
+    "maxSpeed": 102.77,
+    "turnTime": 32.8668
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.870576,
+      -0.0105773,
+      1.62808
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.870576,
+      -0.0105773,
+      2.09371
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.870576,
+      -0.0105773,
+      5.46567
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.870576,
+      -0.0105773,
+      7.23586
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.870576,
+      -0.0105773,
+      9.89113
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.870576,
+      -0.0105773,
+      12.2249
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.870576,
+      -0.0105777,
+      -1.62808
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.870576,
+      -0.0105777,
+      -2.09371
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.870576,
+      -0.0105777,
+      -5.46567
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.870576,
+      -0.0105777,
+      -7.23586
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.870576,
+      -0.0105777,
+      -9.89113
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.870576,
+      -0.0105777,
+      -12.2249
+    ],
+    "emtr_break_wing_tail": [
+      -10.3076,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -11.4957,
+      -0.136096,
+      1.38694
+    ],
+    "emtr_break_stab_l_to": [
+      -11.4957,
+      -0.136096,
+      3.90375
+    ],
+    "emtr_break_stab_r_from": [
+      -11.4957,
+      -0.136096,
+      -1.38937
+    ],
+    "emtr_break_stab_r_to": [
+      -11.4957,
+      -0.136096,
+      -3.90618
+    ],
+    "emtr_break_fin_from": [
+      -11.0524,
+      1.1601,
+      -0.000402563
+    ],
+    "emtr_break_fin_to": [
+      -11.0524,
+      3.25154,
+      -0.000402563
+    ]
   }
 }

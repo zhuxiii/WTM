@@ -66,6 +66,10 @@
     "water3d": true,
     "staticScene": true,
     "riExtraMinSizeForReflection": 5.0,
+    "riExToHeightmap": [
+      true,
+      true
+    ],
     "riExtraMinSizeForDraftDepth": 4.0
   },
   "clipmap": {
@@ -174,7 +178,14 @@
       0.7,
       0.1,
       3.0
-    ]
+    ],
+    "shore__waves_dist": [
+      -80.0,
+      110.0,
+      0.0,
+      200.0
+    ],
+    "shore_amplitude_to_length": 50.0
   },
   "randomGrass": {
     "density": 1.5,
@@ -738,6 +749,58 @@
       "lod0": 200.0,
       "lod1": 1500.0
     },
+    "tree_sea_bush_c": {
+      "lod0": 200.0,
+      "lod1": 1500.0
+    },
+    "tree_sea_bush_d": {
+      "lod0": 200.0,
+      "lod1": 1500.0
+    },
+    "tree_sea_bush_e": {
+      "lod0": 200.0,
+      "lod1": 1500.0
+    },
+    "tree_sea_bush_f": {
+      "lod0": 200.0,
+      "lod1": 1500.0
+    }
+  },
+  "overloaded_sounds": {
+    "id": "new_year",
+    "hangar_ambient_tracks": {
+      "hangar_sound": "new_hangar/hangar_ships_xmas",
+      "hangar_sound_tanks": "new_hangar/hangar_tanks_xmas",
+      "hangar_sound_ships": "new_hangar/hangar_ships_xmas"
+    }
+  }
+}
+    "tree_sea_bush_c": {
+      "lod0": 200.0,
+      "lod1": 1500.0
+    },
+    "tree_sea_bush_d": {
+      "lod0": 200.0,
+      "lod1": 1500.0
+    },
+    "tree_sea_bush_e": {
+      "lod0": 200.0,
+      "lod1": 1500.0
+    },
+    "tree_sea_bush_f": {
+      "lod0": 200.0,
+      "lod1": 1500.0
+    }
+  },
+  "overloaded_sounds": {
+    "id": "new_year",
+    "hangar_ambient_tracks": {
+      "hangar_sound": "new_hangar/hangar_ships_xmas",
+      "hangar_sound_tanks": "new_hangar/hangar_tanks_xmas",
+      "hangar_sound_ships": "new_hangar/hangar_ships_xmas"
+    }
+  }
+}
     "tree_sea_bush_c": {
       "lod0": 200.0,
       "lod1": 1500.0

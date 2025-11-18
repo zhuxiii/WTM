@@ -2109,5 +2109,226 @@
       1.32782,
       -1.16048e-7
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem",
+    "replace_tex": [
+      {
+        "from": "ki_61_hei_a*",
+        "to": "ki_61_hei_2_a*"
+      },
+      {
+        "from": "ki_61_hei_n*",
+        "to": "ki_61_hei_2_n*"
+      }
+    ]
+  }
+}_skin_tomoe": {
+    "replace_tex": {
+      "from": "ki_61_hei_a*",
+      "to": "ki_61_hei_a_tomoe*"
+    }
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.757069,
+      -0.32862,
+      0.713638
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.757069,
+      -0.32862,
+      1.28581
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.757069,
+      -0.32862,
+      2.14407
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.757069,
+      -0.32862,
+      2.84548
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.757069,
+      -0.32862,
+      3.89759
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.757069,
+      -0.32862,
+      4.74318
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.757069,
+      -0.32862,
+      -0.713638
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.757069,
+      -0.32862,
+      -1.28581
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.757069,
+      -0.32862,
+      -2.14407
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.757069,
+      -0.32862,
+      -2.84548
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.757069,
+      -0.32862,
+      -3.89759
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.757069,
+      -0.32862,
+      -4.74318
+    ],
+    "emtr_break_wing_tail": [
+      -4.66926,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -5.14491,
+      0.378137,
+      0.37876
+    ],
+    "emtr_break_stab_l_to": [
+      -5.14491,
+      0.378137,
+      1.51504
+    ],
+    "emtr_break_stab_r_from": [
+      -5.14491,
+      0.378137,
+      -0.37876
+    ],
+    "emtr_break_stab_r_to": [
+      -5.14491,
+      0.378137,
+      -1.51504
+    ],
+    "emtr_break_fin_from": [
+      -5.07015,
+      0.656254,
+      -1.16048e-7
+    ],
+    "emtr_break_fin_to": [
+      -5.07015,
+      1.32782,
+      -1.16048e-7
+    ]
+  }
+}_skin_tomoe": {
+    "replace_tex": {
+      "from": "ki_61_hei_a*",
+      "to": "ki_61_hei_a_tomoe*"
+    }
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.757069,
+      -0.32862,
+      0.713638
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.757069,
+      -0.32862,
+      1.28581
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.757069,
+      -0.32862,
+      2.14407
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.757069,
+      -0.32862,
+      2.84548
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.757069,
+      -0.32862,
+      3.89759
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.757069,
+      -0.32862,
+      4.74318
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.757069,
+      -0.32862,
+      -0.713638
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.757069,
+      -0.32862,
+      -1.28581
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.757069,
+      -0.32862,
+      -2.14407
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.757069,
+      -0.32862,
+      -2.84548
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.757069,
+      -0.32862,
+      -3.89759
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.757069,
+      -0.32862,
+      -4.74318
+    ],
+    "emtr_break_wing_tail": [
+      -4.66926,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -5.14491,
+      0.378137,
+      0.37876
+    ],
+    "emtr_break_stab_l_to": [
+      -5.14491,
+      0.378137,
+      1.51504
+    ],
+    "emtr_break_stab_r_from": [
+      -5.14491,
+      0.378137,
+      -0.37876
+    ],
+    "emtr_break_stab_r_to": [
+      -5.14491,
+      0.378137,
+      -1.51504
+    ],
+    "emtr_break_fin_from": [
+      -5.07015,
+      0.656254,
+      -1.16048e-7
+    ],
+    "emtr_break_fin_to": [
+      -5.07015,
+      1.32782,
+      -1.16048e-7
+    ]
   }
 }

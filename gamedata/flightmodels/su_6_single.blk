@@ -2538,5 +2538,262 @@
       1.72114,
       0.0210384
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": [
+      {
+        "from": "su_6_single_green_c*",
+        "to": "su_6_single_white_a*"
+      },
+      {
+        "from": "su_6_single_green_n*",
+        "to": "su_6_single_white_n*"
+      }
+    ]
+  }
+}Guns/su_rbs132.blk",
+                "emitter": "rocket20",
+                "bullets": 1,
+                "order": 29
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "turbulence": {
+    "segmentlength": 100.0,
+    "startSpeed": 28.0,
+    "maxSpeed": 140.0,
+    "maxPower": 6.0,
+    "initialRadius": 12.0,
+    "radiusSpeed": 2.0
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      82.0,
+      166.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "diveBomb": {
+    "approachHeight": 1500.0,
+    "aimHeight": 1000.0,
+    "dropHeight": 250.0,
+    "diveAngle": 35.0,
+    "aimAngle": 15.0
+  },
+  "balanceData": {
+    "accSpd": 0.725928,
+    "climbSpeed": 9.64,
+    "maxSpeed": 135.0,
+    "turnTime": 34.5848
+  },
+  "cutting": {
+    "emtr_break_wing1_l_from": [
+      -0.556072,
+      -0.442487,
+      1.66663
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.556072,
+      -0.442487,
+      2.66137
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.556072,
+      -0.442487,
+      4.1535
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.556072,
+      -0.442487,
+      5.18668
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.556072,
+      -0.442487,
+      -1.66663
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.556072,
+      -0.442487,
+      -2.66137
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.556072,
+      -0.442487,
+      -4.1535
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.556072,
+      -0.442487,
+      -5.18668
+    ],
+    "emtr_break_wing_tail": [
+      -3.13535,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -5.2771,
+      0.232561,
+      0.504361
+    ],
+    "emtr_break_stab_l_to": [
+      -5.2771,
+      0.232561,
+      1.898
+    ],
+    "emtr_break_stab_r_from": [
+      -5.2771,
+      0.232561,
+      -0.50436
+    ],
+    "emtr_break_stab_r_to": [
+      -5.2771,
+      0.232561,
+      -1.898
+    ],
+    "emtr_break_fin_from": [
+      -5.05333,
+      0.654142,
+      0.0210384
+    ],
+    "emtr_break_fin_to": [
+      -5.05333,
+      1.72114,
+      0.0210384
+    ]
+  }
+}Guns/su_rbs132.blk",
+                "emitter": "rocket20",
+                "bullets": 1,
+                "order": 29
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "turbulence": {
+    "segmentlength": 100.0,
+    "startSpeed": 28.0,
+    "maxSpeed": 140.0,
+    "maxPower": 6.0,
+    "initialRadius": 12.0,
+    "radiusSpeed": 2.0
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      82.0,
+      166.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "diveBomb": {
+    "approachHeight": 1500.0,
+    "aimHeight": 1000.0,
+    "dropHeight": 250.0,
+    "diveAngle": 35.0,
+    "aimAngle": 15.0
+  },
+  "balanceData": {
+    "accSpd": 0.725928,
+    "climbSpeed": 9.64,
+    "maxSpeed": 135.0,
+    "turnTime": 34.5848
+  },
+  "cutting": {
+    "emtr_break_wing1_l_from": [
+      -0.556072,
+      -0.442487,
+      1.66663
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.556072,
+      -0.442487,
+      2.66137
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.556072,
+      -0.442487,
+      4.1535
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.556072,
+      -0.442487,
+      5.18668
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.556072,
+      -0.442487,
+      -1.66663
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.556072,
+      -0.442487,
+      -2.66137
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.556072,
+      -0.442487,
+      -4.1535
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.556072,
+      -0.442487,
+      -5.18668
+    ],
+    "emtr_break_wing_tail": [
+      -3.13535,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -5.2771,
+      0.232561,
+      0.504361
+    ],
+    "emtr_break_stab_l_to": [
+      -5.2771,
+      0.232561,
+      1.898
+    ],
+    "emtr_break_stab_r_from": [
+      -5.2771,
+      0.232561,
+      -0.50436
+    ],
+    "emtr_break_stab_r_to": [
+      -5.2771,
+      0.232561,
+      -1.898
+    ],
+    "emtr_break_fin_from": [
+      -5.05333,
+      0.654142,
+      0.0210384
+    ],
+    "emtr_break_fin_to": [
+      -5.05333,
+      1.72114,
+      0.0210384
+    ]
   }
 }

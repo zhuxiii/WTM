@@ -398,7 +398,7 @@
         [
           3651.5,
           46.0,
-          3641.46
+          3641.45
         ]
       ]
     },
@@ -626,6 +626,72 @@
       "setting__unitType": "ship",
       "setting__playerNo": -1,
       "setting__className": "ships/us_destroyer_fletcher",
+      "setting__unit_class": "us_destroyer_fletcher",
+      "setting__name": "armada_35",
+      "setting__weapons": "",
+      "setting__skin": "",
+      "setting__army": 1,
+      "setting__count": 1,
+      "setting__attack_type": "dont_aim",
+      "setting__loadSound": false,
+      "setting__tm": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          2908.1,
+          8.13,
+          -2939.6
+        ]
+      ]
+    }
+  ]
+}assName": "ships/us_destroyer_fletcher",
+      "setting__unit_class": "us_destroyer_fletcher",
+      "setting__name": "armada_35",
+      "setting__weapons": "",
+      "setting__skin": "",
+      "setting__army": 1,
+      "setting__count": 1,
+      "setting__attack_type": "dont_aim",
+      "setting__loadSound": false,
+      "setting__tm": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          2908.1,
+          8.13,
+          -2939.6
+        ]
+      ]
+    }
+  ]
+}assName": "ships/us_destroyer_fletcher",
       "setting__unit_class": "us_destroyer_fletcher",
       "setting__name": "armada_35",
       "setting__weapons": "",

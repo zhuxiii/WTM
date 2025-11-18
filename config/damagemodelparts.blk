@@ -16,6 +16,12 @@
     "pressureDamageMult": 0.0,
     "explosionTorpedoDamageMult": 0.0
   },
+  "default_v1": {
+    "slopeMinCaliber": 29.0,
+    "simpleRicochet": true,
+    "checkFuseRelDamageThreshold": false,
+    "createSecondaryShatters": false
+  },
   "body": {
     "externalArmor": true,
     "body": {},
@@ -1216,6 +1222,120 @@
     "flap_c": {},
     "flap_airbrake_l": {},
     "flap_airbrake1_l": {},
+    "flap_airbrake_r": {},
+    "flap_airbrake1_r": {}
+  },
+  "pylon_bombN": {
+    "template": "pylon_bomb#1:16#"
+  },
+  "pylon_rocketN": {
+    "template": "pylon_rocket#1:16#"
+  },
+  "rocket": {},
+  "rocketN": {
+    "template": "rocket#1:4#"
+  },
+  "winder_l": {},
+  "winder_r": {},
+  "hook": {
+    "hook": {},
+    "hook1": {},
+    "hook_catch": {}
+  },
+  "cover": {
+    "coverN": {
+      "template": "cover#1:16#"
+    }
+  },
+  "prop01_N_dmg": {
+    "template": "prop01_#1:16#_dmg"
+  },
+  "emtr_inversion_l": {},
+  "emtr_inversion_r": {},
+  "emtr_oilN": {
+    "template": "emtr_oil#1:12#"
+  },
+  "emtr_waterN": {
+    "template": "emtr_water#1:6#"
+  },
+  "emtr_fuelN": {
+    "template": "emtr_fuel#1:8#"
+  },
+  "emtr_engineN": {
+    "template": "emtr_engine#1:6#"
+  },
+  "emtr_exhaustN": {
+    "template": "emtr_exhaust#1:12#"
+  },
+  "jet_flame": {},
+  "jet_flameN": {
+    "template": "jet_flame#1:16#"
+  },
+  "jet_flame_1": {},
+  "jet_flameN_1": {
+    "template": "jet_flame#1:16#_1"
+  },
+  "ext_armor": {
+    "ext_armor": {}
+  }
+}   "flap_airbrake1_l": {},
+    "flap_airbrake_r": {},
+    "flap_airbrake1_r": {}
+  },
+  "pylon_bombN": {
+    "template": "pylon_bomb#1:16#"
+  },
+  "pylon_rocketN": {
+    "template": "pylon_rocket#1:16#"
+  },
+  "rocket": {},
+  "rocketN": {
+    "template": "rocket#1:4#"
+  },
+  "winder_l": {},
+  "winder_r": {},
+  "hook": {
+    "hook": {},
+    "hook1": {},
+    "hook_catch": {}
+  },
+  "cover": {
+    "coverN": {
+      "template": "cover#1:16#"
+    }
+  },
+  "prop01_N_dmg": {
+    "template": "prop01_#1:16#_dmg"
+  },
+  "emtr_inversion_l": {},
+  "emtr_inversion_r": {},
+  "emtr_oilN": {
+    "template": "emtr_oil#1:12#"
+  },
+  "emtr_waterN": {
+    "template": "emtr_water#1:6#"
+  },
+  "emtr_fuelN": {
+    "template": "emtr_fuel#1:8#"
+  },
+  "emtr_engineN": {
+    "template": "emtr_engine#1:6#"
+  },
+  "emtr_exhaustN": {
+    "template": "emtr_exhaust#1:12#"
+  },
+  "jet_flame": {},
+  "jet_flameN": {
+    "template": "jet_flame#1:16#"
+  },
+  "jet_flame_1": {},
+  "jet_flameN_1": {
+    "template": "jet_flame#1:16#_1"
+  },
+  "ext_armor": {
+    "ext_armor": {}
+  }
+}   "flap_airbrake1_l": {},
     "flap_airbrake_r": {},
     "flap_airbrake1_r": {}
   },

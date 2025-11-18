@@ -2129,5 +2129,230 @@
       1.83472,
       -6.08463e-7
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": [
+      {
+        "from": "mig_9_a*",
+        "to": "mig_9_green_a*"
+      },
+      {
+        "from": "mig_9_n*",
+        "to": "mig_9_green_n*"
+      }
+    ]
+  }
+}uishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 6.41902,
+    "climbSpeed": 22.0,
+    "maxSpeed": 252.5,
+    "turnTime": 29.0
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.386203,
+      0.141412,
+      0.935936
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.386203,
+      0.141412,
+      1.34882
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.386203,
+      0.141412,
+      1.98988
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.386203,
+      0.141412,
+      2.58136
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.386203,
+      0.141412,
+      3.46858
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.386203,
+      0.141412,
+      4.08159
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.386203,
+      0.141412,
+      -0.933995
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.386203,
+      0.141412,
+      -1.34882
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.386203,
+      0.141412,
+      -1.98988
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.386203,
+      0.141412,
+      -2.58136
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.386203,
+      0.141412,
+      -3.46858
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.386203,
+      0.141412,
+      -4.08159
+    ],
+    "emtr_break_wing_tail": [
+      -4.52461,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -5.045,
+      0.944428,
+      0.369151
+    ],
+    "emtr_break_stab_l_to": [
+      -5.045,
+      0.944428,
+      1.4766
+    ],
+    "emtr_break_stab_r_from": [
+      -5.045,
+      0.944428,
+      -0.369151
+    ],
+    "emtr_break_stab_r_to": [
+      -5.045,
+      0.944428,
+      -1.47661
+    ],
+    "emtr_break_fin_from": [
+      -4.73271,
+      0.922234,
+      -6.08463e-7
+    ],
+    "emtr_break_fin_to": [
+      -4.73271,
+      1.83472,
+      -6.08463e-7
+    ]
+  }
+}uishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 6.41902,
+    "climbSpeed": 22.0,
+    "maxSpeed": 252.5,
+    "turnTime": 29.0
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.386203,
+      0.141412,
+      0.935936
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.386203,
+      0.141412,
+      1.34882
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.386203,
+      0.141412,
+      1.98988
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.386203,
+      0.141412,
+      2.58136
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.386203,
+      0.141412,
+      3.46858
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.386203,
+      0.141412,
+      4.08159
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.386203,
+      0.141412,
+      -0.933995
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.386203,
+      0.141412,
+      -1.34882
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.386203,
+      0.141412,
+      -1.98988
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.386203,
+      0.141412,
+      -2.58136
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.386203,
+      0.141412,
+      -3.46858
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.386203,
+      0.141412,
+      -4.08159
+    ],
+    "emtr_break_wing_tail": [
+      -4.52461,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -5.045,
+      0.944428,
+      0.369151
+    ],
+    "emtr_break_stab_l_to": [
+      -5.045,
+      0.944428,
+      1.4766
+    ],
+    "emtr_break_stab_r_from": [
+      -5.045,
+      0.944428,
+      -0.369151
+    ],
+    "emtr_break_stab_r_to": [
+      -5.045,
+      0.944428,
+      -1.47661
+    ],
+    "emtr_break_fin_from": [
+      -4.73271,
+      0.922234,
+      -6.08463e-7
+    ],
+    "emtr_break_fin_to": [
+      -4.73271,
+      1.83472,
+      -6.08463e-7
+    ]
   }
 }

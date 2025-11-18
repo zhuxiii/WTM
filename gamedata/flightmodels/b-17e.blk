@@ -3035,5 +3035,304 @@
       4.60043,
       0.0
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": {
+      "from": "boeing_b_17e_c*",
+      "to": "b_17e_brown_c*"
+    }
+  }
+}: "bomb_2000kg_group",
+            "name": "2000lb",
+            "reqModification": "b-17_lbc",
+            "Weapon": [
+              {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/us_2000lbs_anm66.blk",
+                "emitter": "bomb25",
+                "bullets": 1
+              },
+              {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/us_2000lbs_anm66.blk",
+                "emitter": "bomb26",
+                "bullets": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "turbulence": {
+    "segmentlength": 100.0,
+    "startSpeed": 28.0,
+    "maxSpeed": 140.0,
+    "maxPower": 6.0,
+    "initialRadius": 12.0,
+    "radiusSpeed": 2.0
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      82.0,
+      166.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 1.5643,
+    "climbSpeed": 7.2,
+    "maxSpeed": 142.22,
+    "turnTime": 22.0513
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.348946,
+      0.0854963,
+      1.84187
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.348946,
+      0.0854963,
+      4.07145
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.348946,
+      0.0854963,
+      7.41582
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.348946,
+      0.0854963,
+      7.7681
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.348946,
+      0.0854963,
+      10.8689
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.348946,
+      0.0854963,
+      12.7694
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.348945,
+      0.0854963,
+      -1.84187
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.348945,
+      0.0854963,
+      -4.07145
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.348945,
+      0.0854963,
+      -7.41582
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.348945,
+      0.0854963,
+      -7.7681
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.348945,
+      0.0854963,
+      -10.8689
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.348945,
+      0.0854963,
+      -12.7694
+    ],
+    "emtr_break_wing_tail": [
+      -9.62927,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -11.2327,
+      1.07568,
+      1.29338
+    ],
+    "emtr_break_stab_l_to": [
+      -11.2327,
+      1.07568,
+      5.17351
+    ],
+    "emtr_break_stab_r_from": [
+      -11.2327,
+      1.07568,
+      -1.29338
+    ],
+    "emtr_break_stab_r_to": [
+      -11.2327,
+      1.07568,
+      -5.17351
+    ],
+    "emtr_break_fin_from": [
+      -10.4174,
+      2.34839,
+      0.0
+    ],
+    "emtr_break_fin_to": [
+      -10.4174,
+      4.60043,
+      0.0
+    ]
+  }
+}: "bomb_2000kg_group",
+            "name": "2000lb",
+            "reqModification": "b-17_lbc",
+            "Weapon": [
+              {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/us_2000lbs_anm66.blk",
+                "emitter": "bomb25",
+                "bullets": 1
+              },
+              {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/us_2000lbs_anm66.blk",
+                "emitter": "bomb26",
+                "bullets": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "turbulence": {
+    "segmentlength": 100.0,
+    "startSpeed": 28.0,
+    "maxSpeed": 140.0,
+    "maxPower": 6.0,
+    "initialRadius": 12.0,
+    "radiusSpeed": 2.0
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      82.0,
+      166.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 1.5643,
+    "climbSpeed": 7.2,
+    "maxSpeed": 142.22,
+    "turnTime": 22.0513
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.348946,
+      0.0854963,
+      1.84187
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.348946,
+      0.0854963,
+      4.07145
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.348946,
+      0.0854963,
+      7.41582
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.348946,
+      0.0854963,
+      7.7681
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.348946,
+      0.0854963,
+      10.8689
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.348946,
+      0.0854963,
+      12.7694
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.348945,
+      0.0854963,
+      -1.84187
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.348945,
+      0.0854963,
+      -4.07145
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.348945,
+      0.0854963,
+      -7.41582
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.348945,
+      0.0854963,
+      -7.7681
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.348945,
+      0.0854963,
+      -10.8689
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.348945,
+      0.0854963,
+      -12.7694
+    ],
+    "emtr_break_wing_tail": [
+      -9.62927,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -11.2327,
+      1.07568,
+      1.29338
+    ],
+    "emtr_break_stab_l_to": [
+      -11.2327,
+      1.07568,
+      5.17351
+    ],
+    "emtr_break_stab_r_from": [
+      -11.2327,
+      1.07568,
+      -1.29338
+    ],
+    "emtr_break_stab_r_to": [
+      -11.2327,
+      1.07568,
+      -5.17351
+    ],
+    "emtr_break_fin_from": [
+      -10.4174,
+      2.34839,
+      0.0
+    ],
+    "emtr_break_fin_to": [
+      -10.4174,
+      4.60043,
+      0.0
+    ]
   }
 }

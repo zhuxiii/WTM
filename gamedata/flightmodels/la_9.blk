@@ -1937,5 +1937,208 @@
       "name": "la_9_default",
       "blk": "gameData/FlightModels/weaponPresets/la_9_killstreak_default.blk"
     }
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": {
+      "from": "la_9_a*",
+      "to": "la_9_grey_a*"
+    }
+  }
+}eak_wing0_l_to": [
+      -0.760587,
+      -0.377526,
+      1.16373
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.760587,
+      -0.377526,
+      1.7115
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.760587,
+      -0.377526,
+      2.31638
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.760587,
+      -0.377526,
+      3.22369
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.760587,
+      -0.377526,
+      3.9036
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.760587,
+      -0.377526,
+      -0.867665
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.760587,
+      -0.377526,
+      -1.16373
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.760587,
+      -0.377526,
+      -1.7115
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.760587,
+      -0.377526,
+      -2.31638
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.760587,
+      -0.377526,
+      -3.22369
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.760587,
+      -0.377526,
+      -3.9036
+    ],
+    "emtr_break_wing_tail": [
+      -4.38418,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -4.95833,
+      0.432688,
+      0.387014
+    ],
+    "emtr_break_stab_l_to": [
+      -4.95833,
+      0.432688,
+      1.54806
+    ],
+    "emtr_break_stab_r_from": [
+      -4.95833,
+      0.432688,
+      -0.38938
+    ],
+    "emtr_break_stab_r_to": [
+      -4.95833,
+      0.432688,
+      -1.55752
+    ],
+    "emtr_break_fin_from": [
+      -4.78325,
+      0.792737,
+      3.80031e-7
+    ],
+    "emtr_break_fin_to": [
+      -4.78325,
+      1.38124,
+      3.80031e-7
+    ]
+  },
+  "weapon_presets": {
+    "preset": {
+      "name": "la_9_default",
+      "blk": "gameData/FlightModels/weaponPresets/la_9_killstreak_default.blk"
+    }
+  }
+}eak_wing0_l_to": [
+      -0.760587,
+      -0.377526,
+      1.16373
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.760587,
+      -0.377526,
+      1.7115
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.760587,
+      -0.377526,
+      2.31638
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.760587,
+      -0.377526,
+      3.22369
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.760587,
+      -0.377526,
+      3.9036
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.760587,
+      -0.377526,
+      -0.867665
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.760587,
+      -0.377526,
+      -1.16373
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.760587,
+      -0.377526,
+      -1.7115
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.760587,
+      -0.377526,
+      -2.31638
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.760587,
+      -0.377526,
+      -3.22369
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.760587,
+      -0.377526,
+      -3.9036
+    ],
+    "emtr_break_wing_tail": [
+      -4.38418,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -4.95833,
+      0.432688,
+      0.387014
+    ],
+    "emtr_break_stab_l_to": [
+      -4.95833,
+      0.432688,
+      1.54806
+    ],
+    "emtr_break_stab_r_from": [
+      -4.95833,
+      0.432688,
+      -0.38938
+    ],
+    "emtr_break_stab_r_to": [
+      -4.95833,
+      0.432688,
+      -1.55752
+    ],
+    "emtr_break_fin_from": [
+      -4.78325,
+      0.792737,
+      3.80031e-7
+    ],
+    "emtr_break_fin_to": [
+      -4.78325,
+      1.38124,
+      3.80031e-7
+    ]
+  },
+  "weapon_presets": {
+    "preset": {
+      "name": "la_9_default",
+      "blk": "gameData/FlightModels/weaponPresets/la_9_killstreak_default.blk"
+    }
   }
 }

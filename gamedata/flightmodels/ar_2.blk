@@ -3368,5 +3368,328 @@
       1.66211,
       -0.00364143
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": [
+      {
+        "from": "ar2_a*",
+        "to": "ar2_black_a*"
+      },
+      {
+        "from": "ar2_n*",
+        "to": "ar2_black_n*"
+      }
+    ]
+  }
+}               ],
+                "tangage": [
+                  -100.0,
+                  45.0
+                ],
+                "roll": 55.0
+              },
+              "sightStartsFading": {
+                "altitude": [
+                  95.0,
+                  6000.0
+                ],
+                "tangage": [
+                  -30.0,
+                  18.0
+                ],
+                "roll": 40.0
+              },
+              "sightEnabled": {
+                "altitude": [
+                  20.0,
+                  15000.0
+                ],
+                "tangage": [
+                  -120.0,
+                  60.0
+                ],
+                "roll": 180.0
+              },
+              "maxDelayAt": {
+                "altitude": [
+                  -20000.0,
+                  20000.0
+                ],
+                "tangage": [
+                  -180.0,
+                  180.0
+                ],
+                "roll": 180.0
+              },
+              "noDelayAt": {
+                "altitude": [
+                  -19999.0,
+                  19999.0
+                ],
+                "tangage": [
+                  -179.0,
+                  179.0
+                ],
+                "roll": 179.0
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.564981,
+      0.0329877,
+      0.905871
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.564981,
+      0.0329877,
+      1.83506
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.564981,
+      0.0329877,
+      3.22885
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.564981,
+      0.0329877,
+      4.08473
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.564981,
+      0.0329877,
+      5.60577
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.564981,
+      0.0329877,
+      6.98326
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.56498,
+      0.0329877,
+      -0.905871
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.56498,
+      0.0329877,
+      -1.83506
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.56498,
+      0.0329877,
+      -3.22885
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.56498,
+      0.0329877,
+      -4.08473
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.56498,
+      0.0329877,
+      -5.60577
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.56498,
+      0.0329877,
+      -6.98326
+    ],
+    "emtr_break_wing_tail": [
+      -5.57412,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -6.39614,
+      0.414618,
+      0.522333
+    ],
+    "emtr_break_stab_l_to": [
+      -6.39614,
+      0.414618,
+      2.08933
+    ],
+    "emtr_break_stab_r_from": [
+      -6.39614,
+      0.414618,
+      -0.523544
+    ],
+    "emtr_break_stab_r_to": [
+      -6.39614,
+      0.414618,
+      -2.09418
+    ],
+    "emtr_break_fin_from": [
+      -6.86309,
+      0.837493,
+      -0.00364143
+    ],
+    "emtr_break_fin_to": [
+      -6.86309,
+      1.66211,
+      -0.00364143
+    ]
+  }
+}               ],
+                "tangage": [
+                  -100.0,
+                  45.0
+                ],
+                "roll": 55.0
+              },
+              "sightStartsFading": {
+                "altitude": [
+                  95.0,
+                  6000.0
+                ],
+                "tangage": [
+                  -30.0,
+                  18.0
+                ],
+                "roll": 40.0
+              },
+              "sightEnabled": {
+                "altitude": [
+                  20.0,
+                  15000.0
+                ],
+                "tangage": [
+                  -120.0,
+                  60.0
+                ],
+                "roll": 180.0
+              },
+              "maxDelayAt": {
+                "altitude": [
+                  -20000.0,
+                  20000.0
+                ],
+                "tangage": [
+                  -180.0,
+                  180.0
+                ],
+                "roll": 180.0
+              },
+              "noDelayAt": {
+                "altitude": [
+                  -19999.0,
+                  19999.0
+                ],
+                "tangage": [
+                  -179.0,
+                  179.0
+                ],
+                "roll": 179.0
+              }
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.564981,
+      0.0329877,
+      0.905871
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.564981,
+      0.0329877,
+      1.83506
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.564981,
+      0.0329877,
+      3.22885
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.564981,
+      0.0329877,
+      4.08473
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.564981,
+      0.0329877,
+      5.60577
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.564981,
+      0.0329877,
+      6.98326
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.56498,
+      0.0329877,
+      -0.905871
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.56498,
+      0.0329877,
+      -1.83506
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.56498,
+      0.0329877,
+      -3.22885
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.56498,
+      0.0329877,
+      -4.08473
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.56498,
+      0.0329877,
+      -5.60577
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.56498,
+      0.0329877,
+      -6.98326
+    ],
+    "emtr_break_wing_tail": [
+      -5.57412,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -6.39614,
+      0.414618,
+      0.522333
+    ],
+    "emtr_break_stab_l_to": [
+      -6.39614,
+      0.414618,
+      2.08933
+    ],
+    "emtr_break_stab_r_from": [
+      -6.39614,
+      0.414618,
+      -0.523544
+    ],
+    "emtr_break_stab_r_to": [
+      -6.39614,
+      0.414618,
+      -2.09418
+    ],
+    "emtr_break_fin_from": [
+      -6.86309,
+      0.837493,
+      -0.00364143
+    ],
+    "emtr_break_fin_to": [
+      -6.86309,
+      1.66211,
+      -0.00364143
+    ]
   }
 }

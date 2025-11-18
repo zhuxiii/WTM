@@ -2380,5 +2380,248 @@
       1.97113,
       0.0
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": [
+      {
+        "from": "ki_45_hei_brown_a*",
+        "to": "ki_45_hei_tei_gray_a*"
+      },
+      {
+        "from": "ki_45_hei_brown_n*",
+        "to": "ki_45_hei_tei_gray_n*"
+      }
+    ]
+  }
+}        "blk": "gameData/Weapons/BombGuns/jp_type92mod25.blk",
+              "emitter": "bomb2",
+              "bullets": 1,
+              "external": true,
+              "separate": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "default_skin_tomoe": {
+    "replace_tex": {
+      "from": "ki_45_hei_brown_a*",
+      "to": "ki_45_hei_brown_a_tomoe*"
+    }
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -1.00004,
+      0.122326,
+      0.798704
+    ],
+    "_emtr_break_wing0_l_to": [
+      -1.00004,
+      0.122326,
+      1.22598
+    ],
+    "emtr_break_wing1_l_from": [
+      -1.00004,
+      0.122326,
+      2.8233
+    ],
+    "emtr_break_wing1_l_to": [
+      -1.00004,
+      0.122326,
+      3.42131
+    ],
+    "emtr_break_wing2_l_from": [
+      -1.00004,
+      0.122326,
+      4.81518
+    ],
+    "emtr_break_wing2_l_to": [
+      -1.00004,
+      0.122326,
+      5.9216
+    ],
+    "_emtr_break_wing0_r_from": [
+      -1.00004,
+      0.122326,
+      -0.798704
+    ],
+    "_emtr_break_wing0_r_to": [
+      -1.00004,
+      0.122326,
+      -1.22598
+    ],
+    "emtr_break_wing1_r_from": [
+      -1.00004,
+      0.122326,
+      -2.8233
+    ],
+    "emtr_break_wing1_r_to": [
+      -1.00004,
+      0.122326,
+      -3.42131
+    ],
+    "emtr_break_wing2_r_from": [
+      -1.00004,
+      0.122326,
+      -4.81518
+    ],
+    "emtr_break_wing2_r_to": [
+      -1.00004,
+      0.122326,
+      -5.9216
+    ],
+    "emtr_break_wing_tail": [
+      -5.86756,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -6.6856,
+      0.673089,
+      0.525328
+    ],
+    "emtr_break_stab_l_to": [
+      -6.6856,
+      0.673089,
+      2.10131
+    ],
+    "emtr_break_stab_r_from": [
+      -6.6856,
+      0.673089,
+      -0.525328
+    ],
+    "emtr_break_stab_r_to": [
+      -6.6856,
+      0.673089,
+      -2.10131
+    ],
+    "emtr_break_fin_from": [
+      -6.24735,
+      1.0258,
+      0.0
+    ],
+    "emtr_break_fin_to": [
+      -6.24735,
+      1.97113,
+      0.0
+    ]
+  }
+}        "blk": "gameData/Weapons/BombGuns/jp_type92mod25.blk",
+              "emitter": "bomb2",
+              "bullets": 1,
+              "external": true,
+              "separate": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "default_skin_tomoe": {
+    "replace_tex": {
+      "from": "ki_45_hei_brown_a*",
+      "to": "ki_45_hei_brown_a_tomoe*"
+    }
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -1.00004,
+      0.122326,
+      0.798704
+    ],
+    "_emtr_break_wing0_l_to": [
+      -1.00004,
+      0.122326,
+      1.22598
+    ],
+    "emtr_break_wing1_l_from": [
+      -1.00004,
+      0.122326,
+      2.8233
+    ],
+    "emtr_break_wing1_l_to": [
+      -1.00004,
+      0.122326,
+      3.42131
+    ],
+    "emtr_break_wing2_l_from": [
+      -1.00004,
+      0.122326,
+      4.81518
+    ],
+    "emtr_break_wing2_l_to": [
+      -1.00004,
+      0.122326,
+      5.9216
+    ],
+    "_emtr_break_wing0_r_from": [
+      -1.00004,
+      0.122326,
+      -0.798704
+    ],
+    "_emtr_break_wing0_r_to": [
+      -1.00004,
+      0.122326,
+      -1.22598
+    ],
+    "emtr_break_wing1_r_from": [
+      -1.00004,
+      0.122326,
+      -2.8233
+    ],
+    "emtr_break_wing1_r_to": [
+      -1.00004,
+      0.122326,
+      -3.42131
+    ],
+    "emtr_break_wing2_r_from": [
+      -1.00004,
+      0.122326,
+      -4.81518
+    ],
+    "emtr_break_wing2_r_to": [
+      -1.00004,
+      0.122326,
+      -5.9216
+    ],
+    "emtr_break_wing_tail": [
+      -5.86756,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -6.6856,
+      0.673089,
+      0.525328
+    ],
+    "emtr_break_stab_l_to": [
+      -6.6856,
+      0.673089,
+      2.10131
+    ],
+    "emtr_break_stab_r_from": [
+      -6.6856,
+      0.673089,
+      -0.525328
+    ],
+    "emtr_break_stab_r_to": [
+      -6.6856,
+      0.673089,
+      -2.10131
+    ],
+    "emtr_break_fin_from": [
+      -6.24735,
+      1.0258,
+      0.0
+    ],
+    "emtr_break_fin_to": [
+      -6.24735,
+      1.97113,
+      0.0
+    ]
   }
 }

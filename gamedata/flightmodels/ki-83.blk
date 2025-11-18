@@ -2514,5 +2514,274 @@
       1.77479,
       0.0
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem",
+    "replace_tex": [
+      {
+        "from": "ki_83_a*",
+        "to": "ki_83_green_c*"
+      },
+      {
+        "from": "ki_83_n*",
+        "to": "ki_83_green_n*"
+      }
+    ]
+  }
+},
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      138.0,
+      223.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 1.14107,
+    "climbSpeed": 21.7,
+    "maxSpeed": 195.5,
+    "turnTime": 24.0
+  },
+  "user_skin": {
+    "replace_tex": {
+      "from": "ki_83_a*"
+    }
+  },
+  "default_skin_tomoe": {
+    "replace_tex": {
+      "from": "ki_83_a*",
+      "to": "ki_83_a_tomoe*"
+    }
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.77888,
+      0.161605,
+      0.777467
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.77888,
+      0.161605,
+      1.53648
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.77888,
+      0.161605,
+      3.27459
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.77888,
+      0.161605,
+      3.41133
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.77888,
+      0.161605,
+      4.94334
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.77888,
+      0.161605,
+      6.06487
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.77888,
+      0.161605,
+      -0.777467
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.77888,
+      0.161605,
+      -1.53648
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.77888,
+      0.161605,
+      -3.27459
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.77888,
+      0.161605,
+      -3.41133
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.77888,
+      0.161605,
+      -4.94334
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.77888,
+      0.161605,
+      -6.06487
+    ],
+    "emtr_break_wing_tail": [
+      -6.54671,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -7.23894,
+      0.708369,
+      0.594301
+    ],
+    "emtr_break_stab_l_to": [
+      -7.23894,
+      0.708369,
+      2.3772
+    ],
+    "emtr_break_stab_r_from": [
+      -7.23894,
+      0.708369,
+      -0.594301
+    ],
+    "emtr_break_stab_r_to": [
+      -7.23894,
+      0.708369,
+      -2.3772
+    ],
+    "emtr_break_fin_from": [
+      -7.13616,
+      0.62311,
+      0.0
+    ],
+    "emtr_break_fin_to": [
+      -7.13616,
+      1.77479,
+      0.0
+    ]
+  }
+},
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      138.0,
+      223.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 1.14107,
+    "climbSpeed": 21.7,
+    "maxSpeed": 195.5,
+    "turnTime": 24.0
+  },
+  "user_skin": {
+    "replace_tex": {
+      "from": "ki_83_a*"
+    }
+  },
+  "default_skin_tomoe": {
+    "replace_tex": {
+      "from": "ki_83_a*",
+      "to": "ki_83_a_tomoe*"
+    }
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.77888,
+      0.161605,
+      0.777467
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.77888,
+      0.161605,
+      1.53648
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.77888,
+      0.161605,
+      3.27459
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.77888,
+      0.161605,
+      3.41133
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.77888,
+      0.161605,
+      4.94334
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.77888,
+      0.161605,
+      6.06487
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.77888,
+      0.161605,
+      -0.777467
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.77888,
+      0.161605,
+      -1.53648
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.77888,
+      0.161605,
+      -3.27459
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.77888,
+      0.161605,
+      -3.41133
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.77888,
+      0.161605,
+      -4.94334
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.77888,
+      0.161605,
+      -6.06487
+    ],
+    "emtr_break_wing_tail": [
+      -6.54671,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -7.23894,
+      0.708369,
+      0.594301
+    ],
+    "emtr_break_stab_l_to": [
+      -7.23894,
+      0.708369,
+      2.3772
+    ],
+    "emtr_break_stab_r_from": [
+      -7.23894,
+      0.708369,
+      -0.594301
+    ],
+    "emtr_break_stab_r_to": [
+      -7.23894,
+      0.708369,
+      -2.3772
+    ],
+    "emtr_break_fin_from": [
+      -7.13616,
+      0.62311,
+      0.0
+    ],
+    "emtr_break_fin_to": [
+      -7.13616,
+      1.77479,
+      0.0
+    ]
   }
 }

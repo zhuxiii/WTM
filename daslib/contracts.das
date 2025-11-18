@@ -91,7 +91,7 @@ class IsAnyBitfieldMacro : IsAnyType {
         for (fna, typ in func.arguments, types) {
             for (argv in decl.arguments) {
                 if (fna.name == argv.name) {
-                    if (length(typ.dim) != 0 || typ.baseType != Type.tBitfield) {
+                    if (!typ.isBitfield) {
                         errors := "argument {argv.name} is not a bitfield"
                         return false
                     }
@@ -336,4 +336,17 @@ class IsValueHandle : IsAnyType {
         }
         return true
     }
+}                }
+            }
+        }
+        return true
+    }
+<<<<<<< HEAD
+}                }
+            }
+        }
+        return true
+    }
+=======
+>>>>>>> parent of 31456a6 (1.21.0.16)
 }

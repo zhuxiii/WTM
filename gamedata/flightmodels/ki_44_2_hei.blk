@@ -2041,5 +2041,220 @@
       1.15246,
       0.0
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": [
+      {
+        "from": "ki_44_2_hei_a*",
+        "to": "ki_44_2_hei_red_a*"
+      },
+      {
+        "from": "ki_44_2_hei_n*",
+        "to": "ki_44_2_hei_red_n*"
+      }
+    ]
+  }
+}   "to": "ki_44_2_hei_a_tomoe*"
+    }
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -1.20509,
+      -0.477358,
+      0.853209
+    ],
+    "_emtr_break_wing0_l_to": [
+      -1.20509,
+      -0.477358,
+      1.26449
+    ],
+    "emtr_break_wing1_l_from": [
+      -1.20509,
+      -0.477358,
+      1.90177
+    ],
+    "emtr_break_wing1_l_to": [
+      -1.20509,
+      -0.477358,
+      2.41032
+    ],
+    "emtr_break_wing2_l_from": [
+      -1.20509,
+      -0.477358,
+      3.17316
+    ],
+    "emtr_break_wing2_l_to": [
+      -1.20509,
+      -0.477358,
+      3.78942
+    ],
+    "_emtr_break_wing0_r_from": [
+      -1.20509,
+      -0.477358,
+      -0.853209
+    ],
+    "_emtr_break_wing0_r_to": [
+      -1.20509,
+      -0.477358,
+      -1.26449
+    ],
+    "emtr_break_wing1_r_from": [
+      -1.20509,
+      -0.477358,
+      -1.90177
+    ],
+    "emtr_break_wing1_r_to": [
+      -1.20509,
+      -0.477358,
+      -2.41032
+    ],
+    "emtr_break_wing2_r_from": [
+      -1.20509,
+      -0.477358,
+      -3.17315
+    ],
+    "emtr_break_wing2_r_to": [
+      -1.20509,
+      -0.477358,
+      -3.78942
+    ],
+    "emtr_break_wing_tail": [
+      -4.74898,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -5.28603,
+      0.135174,
+      0.350312
+    ],
+    "emtr_break_stab_l_to": [
+      -5.28603,
+      0.135174,
+      1.40125
+    ],
+    "emtr_break_stab_r_from": [
+      -5.28603,
+      0.135174,
+      -0.350312
+    ],
+    "emtr_break_stab_r_to": [
+      -5.28603,
+      0.135174,
+      -1.40125
+    ],
+    "emtr_break_fin_from": [
+      -5.88337,
+      0.504562,
+      0.0
+    ],
+    "emtr_break_fin_to": [
+      -5.88337,
+      1.15246,
+      0.0
+    ]
+  }
+}   "to": "ki_44_2_hei_a_tomoe*"
+    }
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -1.20509,
+      -0.477358,
+      0.853209
+    ],
+    "_emtr_break_wing0_l_to": [
+      -1.20509,
+      -0.477358,
+      1.26449
+    ],
+    "emtr_break_wing1_l_from": [
+      -1.20509,
+      -0.477358,
+      1.90177
+    ],
+    "emtr_break_wing1_l_to": [
+      -1.20509,
+      -0.477358,
+      2.41032
+    ],
+    "emtr_break_wing2_l_from": [
+      -1.20509,
+      -0.477358,
+      3.17316
+    ],
+    "emtr_break_wing2_l_to": [
+      -1.20509,
+      -0.477358,
+      3.78942
+    ],
+    "_emtr_break_wing0_r_from": [
+      -1.20509,
+      -0.477358,
+      -0.853209
+    ],
+    "_emtr_break_wing0_r_to": [
+      -1.20509,
+      -0.477358,
+      -1.26449
+    ],
+    "emtr_break_wing1_r_from": [
+      -1.20509,
+      -0.477358,
+      -1.90177
+    ],
+    "emtr_break_wing1_r_to": [
+      -1.20509,
+      -0.477358,
+      -2.41032
+    ],
+    "emtr_break_wing2_r_from": [
+      -1.20509,
+      -0.477358,
+      -3.17315
+    ],
+    "emtr_break_wing2_r_to": [
+      -1.20509,
+      -0.477358,
+      -3.78942
+    ],
+    "emtr_break_wing_tail": [
+      -4.74898,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -5.28603,
+      0.135174,
+      0.350312
+    ],
+    "emtr_break_stab_l_to": [
+      -5.28603,
+      0.135174,
+      1.40125
+    ],
+    "emtr_break_stab_r_from": [
+      -5.28603,
+      0.135174,
+      -0.350312
+    ],
+    "emtr_break_stab_r_to": [
+      -5.28603,
+      0.135174,
+      -1.40125
+    ],
+    "emtr_break_fin_from": [
+      -5.88337,
+      0.504562,
+      0.0
+    ],
+    "emtr_break_fin_to": [
+      -5.88337,
+      1.15246,
+      0.0
+    ]
   }
 }

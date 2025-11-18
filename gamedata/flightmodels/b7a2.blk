@@ -4335,5 +4335,450 @@
       2.02548,
       0.00011934
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": [
+      {
+        "from": "aichi_b7a2_dark_green_c*",
+        "to": "b7a2_metal_c*"
+      },
+      {
+        "from": "aichi_b7a2_dark_green_n*",
+        "to": "b7a2_metal_n*"
+      }
+    ]
+  }
+}teDm": true,
+        "dp": "gear_1l%d"
+      },
+      {
+        "dm": "gear_r_dm",
+        "separateDm": true,
+        "dp": "gear_r%d"
+      },
+      {
+        "dm": "gear_1r_dm",
+        "separateDm": true,
+        "dp": "gear_1r%d"
+      },
+      {
+        "dm": "gear_c_dm",
+        "separateDm": true,
+        "dp": "gear_c%d"
+      },
+      {
+        "dm": "gear_2c_dm",
+        "separateDm": true,
+        "dp": "gear_2c%d"
+      },
+      {
+        "dm": "gear_3c_dm",
+        "separateDm": true,
+        "dp": "gear_3c%d"
+      },
+      {
+        "dm": "engine1_dm",
+        "dp": [
+          "prop01_1",
+          "prop02_1",
+          "prop03_1",
+          "prop_side_1",
+          "fan01_1",
+          "fan02_1",
+          "fan03_1"
+        ]
+      },
+      {
+        "dm": "engine2_dm",
+        "dp": [
+          "prop01_2",
+          "prop02_2",
+          "prop03_2",
+          "prop_side_2",
+          "fan01_2",
+          "fan02_2",
+          "fan03_2"
+        ]
+      },
+      {
+        "dm": "engine3_dm",
+        "dp": [
+          "prop01_3",
+          "prop02_3",
+          "prop03_3",
+          "prop_side_3",
+          "fan01_3",
+          "fan02_3",
+          "fan03_3"
+        ]
+      },
+      {
+        "dm": "engine4_dm",
+        "dp": [
+          "prop01_4",
+          "prop02_4",
+          "prop03_4",
+          "prop_side_4",
+          "fan01_4",
+          "fan02_4",
+          "fan03_4"
+        ]
+      },
+      {
+        "dm": "engine5_dm",
+        "dp": [
+          "prop01_5",
+          "prop02_5",
+          "prop03_5",
+          "prop_side_5",
+          "fan01_5",
+          "fan02_5",
+          "fan03_5"
+        ]
+      },
+      {
+        "dm": "engine6_dm",
+        "dp": [
+          "prop01_6",
+          "prop02_6",
+          "prop03_6",
+          "prop_side_6",
+          "fan01_6",
+          "fan02_6",
+          "fan03_6"
+        ]
+      },
+      {
+        "dm": "flap_r_dm",
+        "dp": "flap1_r_dm"
+      },
+      {
+        "dm": "flap3_r_dm",
+        "dp": "flap2_r_dm"
+      },
+      {
+        "dm": "flap_l_dm",
+        "dp": "flap1_l_dm"
+      },
+      {
+        "dm": "flap3_l_dm",
+        "dp": "flap2_l_dm"
+      }
+    ]
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.456402,
+      -0.0922866,
+      0.929436
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.456402,
+      -0.0922866,
+      1.62126
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.456402,
+      -0.0922866,
+      2.659
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.456402,
+      -0.0922866,
+      3.60222
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.456402,
+      -0.0922866,
+      5.01705
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.456402,
+      -0.0922866,
+      5.88595
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.456402,
+      -0.0922866,
+      -0.929436
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.456402,
+      -0.0922866,
+      -1.62126
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.456402,
+      -0.0922866,
+      -2.659
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.456402,
+      -0.0922866,
+      -3.60222
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.456402,
+      -0.0922866,
+      -5.01705
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.456402,
+      -0.0922866,
+      -5.88595
+    ],
+    "emtr_break_wing_tail": [
+      -5.53847,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -6.04893,
+      0.803919,
+      0.586056
+    ],
+    "emtr_break_stab_l_to": [
+      -6.04893,
+      0.803919,
+      2.34422
+    ],
+    "emtr_break_stab_r_from": [
+      -6.04893,
+      0.803919,
+      -0.586008
+    ],
+    "emtr_break_stab_r_to": [
+      -6.04893,
+      0.803919,
+      -2.34403
+    ],
+    "emtr_break_fin_from": [
+      -6.00551,
+      1.00607,
+      0.00011934
+    ],
+    "emtr_break_fin_to": [
+      -6.00551,
+      2.02548,
+      0.00011934
+    ]
+  }
+}teDm": true,
+        "dp": "gear_1l%d"
+      },
+      {
+        "dm": "gear_r_dm",
+        "separateDm": true,
+        "dp": "gear_r%d"
+      },
+      {
+        "dm": "gear_1r_dm",
+        "separateDm": true,
+        "dp": "gear_1r%d"
+      },
+      {
+        "dm": "gear_c_dm",
+        "separateDm": true,
+        "dp": "gear_c%d"
+      },
+      {
+        "dm": "gear_2c_dm",
+        "separateDm": true,
+        "dp": "gear_2c%d"
+      },
+      {
+        "dm": "gear_3c_dm",
+        "separateDm": true,
+        "dp": "gear_3c%d"
+      },
+      {
+        "dm": "engine1_dm",
+        "dp": [
+          "prop01_1",
+          "prop02_1",
+          "prop03_1",
+          "prop_side_1",
+          "fan01_1",
+          "fan02_1",
+          "fan03_1"
+        ]
+      },
+      {
+        "dm": "engine2_dm",
+        "dp": [
+          "prop01_2",
+          "prop02_2",
+          "prop03_2",
+          "prop_side_2",
+          "fan01_2",
+          "fan02_2",
+          "fan03_2"
+        ]
+      },
+      {
+        "dm": "engine3_dm",
+        "dp": [
+          "prop01_3",
+          "prop02_3",
+          "prop03_3",
+          "prop_side_3",
+          "fan01_3",
+          "fan02_3",
+          "fan03_3"
+        ]
+      },
+      {
+        "dm": "engine4_dm",
+        "dp": [
+          "prop01_4",
+          "prop02_4",
+          "prop03_4",
+          "prop_side_4",
+          "fan01_4",
+          "fan02_4",
+          "fan03_4"
+        ]
+      },
+      {
+        "dm": "engine5_dm",
+        "dp": [
+          "prop01_5",
+          "prop02_5",
+          "prop03_5",
+          "prop_side_5",
+          "fan01_5",
+          "fan02_5",
+          "fan03_5"
+        ]
+      },
+      {
+        "dm": "engine6_dm",
+        "dp": [
+          "prop01_6",
+          "prop02_6",
+          "prop03_6",
+          "prop_side_6",
+          "fan01_6",
+          "fan02_6",
+          "fan03_6"
+        ]
+      },
+      {
+        "dm": "flap_r_dm",
+        "dp": "flap1_r_dm"
+      },
+      {
+        "dm": "flap3_r_dm",
+        "dp": "flap2_r_dm"
+      },
+      {
+        "dm": "flap_l_dm",
+        "dp": "flap1_l_dm"
+      },
+      {
+        "dm": "flap3_l_dm",
+        "dp": "flap2_l_dm"
+      }
+    ]
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.456402,
+      -0.0922866,
+      0.929436
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.456402,
+      -0.0922866,
+      1.62126
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.456402,
+      -0.0922866,
+      2.659
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.456402,
+      -0.0922866,
+      3.60222
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.456402,
+      -0.0922866,
+      5.01705
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.456402,
+      -0.0922866,
+      5.88595
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.456402,
+      -0.0922866,
+      -0.929436
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.456402,
+      -0.0922866,
+      -1.62126
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.456402,
+      -0.0922866,
+      -2.659
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.456402,
+      -0.0922866,
+      -3.60222
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.456402,
+      -0.0922866,
+      -5.01705
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.456402,
+      -0.0922866,
+      -5.88595
+    ],
+    "emtr_break_wing_tail": [
+      -5.53847,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -6.04893,
+      0.803919,
+      0.586056
+    ],
+    "emtr_break_stab_l_to": [
+      -6.04893,
+      0.803919,
+      2.34422
+    ],
+    "emtr_break_stab_r_from": [
+      -6.04893,
+      0.803919,
+      -0.586008
+    ],
+    "emtr_break_stab_r_to": [
+      -6.04893,
+      0.803919,
+      -2.34403
+    ],
+    "emtr_break_fin_from": [
+      -6.00551,
+      1.00607,
+      0.00011934
+    ],
+    "emtr_break_fin_to": [
+      -6.00551,
+      2.02548,
+      0.00011934
+    ]
   }
 }

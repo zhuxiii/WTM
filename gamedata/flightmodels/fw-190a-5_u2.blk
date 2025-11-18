@@ -1950,5 +1950,144 @@
         }
       }
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": {
+      "from": "fw_190a_5_a*",
+      "to": "fw_190a_5_white_1_a*"
+    }
+  }
+}           }
+            ]
+          },
+          {
+            "iconType": "bomb_250kg",
+            "name": "sc250_mid",
+            "reqModification": "Fw-190A-5_SC250",
+            "ShowNodes": {
+              "node": "pylon_bomb1"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/de_sc250.blk",
+              "emitter": "bomb1",
+              "bullets": 1,
+              "external": true
+            }
+          },
+          {
+            "iconType": "bomb_500kg",
+            "name": "sc500_mid",
+            "reqModification": "ju-88_etc1000",
+            "ShowNodes": {
+              "node": "pylon_bomb1"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/de_sc500.blk",
+              "emitter": "bomb1",
+              "bullets": 1,
+              "external": true
+            }
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "tier": 5,
+        "order": 2,
+        "WeaponPreset": {
+          "iconType": "rocket_40kg",
+          "name": "R6",
+          "reqModification": "Fw-190A-5_R6",
+          "ShowNodes": {
+            "part": "210mm_tube_r",
+            "node": "210mm_2"
+          },
+          "Weapon": {
+            "trigger": "rockets",
+            "separate": true,
+            "external": true,
+            "blk": "gameData/Weapons/rocketGuns/de_br20.blk",
+            "emitter": "210_mm_2",
+            "bullets": 1
+          },
+          "WeaponContainers": {
+            "blk": "gameData/Weapons/rocketGuns/de_br20.blk",
+            "node": [
+              "210mm_tube_l",
+              "210mm_tube_r"
+            ]
+          }
+        }
+      }
+    ]
+  }
+}           }
+            ]
+          },
+          {
+            "iconType": "bomb_250kg",
+            "name": "sc250_mid",
+            "reqModification": "Fw-190A-5_SC250",
+            "ShowNodes": {
+              "node": "pylon_bomb1"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/de_sc250.blk",
+              "emitter": "bomb1",
+              "bullets": 1,
+              "external": true
+            }
+          },
+          {
+            "iconType": "bomb_500kg",
+            "name": "sc500_mid",
+            "reqModification": "ju-88_etc1000",
+            "ShowNodes": {
+              "node": "pylon_bomb1"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/de_sc500.blk",
+              "emitter": "bomb1",
+              "bullets": 1,
+              "external": true
+            }
+          }
+        ]
+      },
+      {
+        "index": 3,
+        "tier": 5,
+        "order": 2,
+        "WeaponPreset": {
+          "iconType": "rocket_40kg",
+          "name": "R6",
+          "reqModification": "Fw-190A-5_R6",
+          "ShowNodes": {
+            "part": "210mm_tube_r",
+            "node": "210mm_2"
+          },
+          "Weapon": {
+            "trigger": "rockets",
+            "separate": true,
+            "external": true,
+            "blk": "gameData/Weapons/rocketGuns/de_br20.blk",
+            "emitter": "210_mm_2",
+            "bullets": 1
+          },
+          "WeaponContainers": {
+            "blk": "gameData/Weapons/rocketGuns/de_br20.blk",
+            "node": [
+              "210mm_tube_l",
+              "210mm_tube_r"
+            ]
+          }
+        }
+      }
+    ]
   }
 }

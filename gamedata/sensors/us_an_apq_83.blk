@@ -614,63 +614,65 @@
       }
     },
     "search": {
-      "stateInit": "search",
-      "transitions": {
-        "scan": {
-          "event": "update",
-          "actions": {
-            "scan": {}
-          }
-        },
-        "detect": {
-          "event": "targetInSight",
-          "actions": {
-            "setDistGatePos": {
-              "source": "continuousScale",
-              "width": 0.0
-            },
-            "setRelSpeedGatePos": {
-              "source": "continuousScale",
-              "width": 0.0
-            },
-            "detectTarget": {}
-          }
-        },
-        "addTarget": {
-          "event": "targetDetected",
-          "actions": {
-            "addTarget": {},
-            "updateActiveDetectedTarget": {}
-          }
-        },
-        "switchSelectedTarget": {
-          "command": "switchTarget",
-          "actions": {
-            "setNextDetectedTargetActive": {}
-          }
-        },
-        "setCueAzimuth": {
-          "command": "cueAxisX",
-          "actions": {
-            "setCueAzimuth": {}
-          }
-        },
-        "setCueDist": {
-          "command": "cueAxisY",
-          "actions": {
-            "setCueDist": {}
-          }
-        },
-        "setCueElevation": {
-          "command": "cueAxisZ",
-          "actions": {
-            "setCueElevation": {}
-          }
-        },
-        "setSelectedTarget": {
-          "command": "switchToTarget",
-          "actions": {
-            "setDetectedTargetActive": {}
+      "search": {
+        "stateInit": "search",
+        "transitions": {
+          "scan": {
+            "event": "update",
+            "actions": {
+              "scan": {}
+            }
+          },
+          "detect": {
+            "event": "targetInSight",
+            "actions": {
+              "setDistGatePos": {
+                "source": "continuousScale",
+                "width": 0.0
+              },
+              "setRelSpeedGatePos": {
+                "source": "continuousScale",
+                "width": 0.0
+              },
+              "detectTarget": {}
+            }
+          },
+          "addTarget": {
+            "event": "targetDetected",
+            "actions": {
+              "addTarget": {},
+              "updateActiveDetectedTarget": {}
+            }
+          },
+          "switchSelectedTarget": {
+            "command": "switchTarget",
+            "actions": {
+              "setNextDetectedTargetActive": {}
+            }
+          },
+          "setCueAzimuth": {
+            "command": "cueAxisX",
+            "actions": {
+              "setCueAzimuth": {}
+            }
+          },
+          "setCueDist": {
+            "command": "cueAxisY",
+            "actions": {
+              "setCueDist": {}
+            }
+          },
+          "setCueElevation": {
+            "command": "cueAxisZ",
+            "actions": {
+              "setCueElevation": {}
+            }
+          },
+          "setSelectedTarget": {
+            "command": "switchToTarget",
+            "actions": {
+              "setDetectedTargetActive": {}
+            }
           }
         }
       }
@@ -729,6 +731,52 @@
           "event": "targetNotDetected",
           "actions": {
             "extrapolateTargetsOfInterest": {},
+            "clearTargetsOfInterest": {
+              "timeOut": 1.0
+            },
+            "setCenterAzimuth": {
+              "source": "activeTargetOfInterest"
+            },
+            "setCenterElevation": {
+              "source": "activeTargetOfInterest"
+            },
+            "setDistGatePos": {
+              "source": "activeTargetOfInterest",
+              "width": 0.0
+            },
+            "setRelSpeedGatePos": {
+              "source": "activeTargetOfInterest",
+              "width": 0.0
+            }
+          }
+        }
+      }
+    }
+  }
+}est": {},
+            "clearTargetsOfInterest": {
+              "timeOut": 1.0
+            },
+            "setCenterAzimuth": {
+              "source": "activeTargetOfInterest"
+            },
+            "setCenterElevation": {
+              "source": "activeTargetOfInterest"
+            },
+            "setDistGatePos": {
+              "source": "activeTargetOfInterest",
+              "width": 0.0
+            },
+            "setRelSpeedGatePos": {
+              "source": "activeTargetOfInterest",
+              "width": 0.0
+            }
+          }
+        }
+      }
+    }
+  }
+}est": {},
             "clearTargetsOfInterest": {
               "timeOut": 1.0
             },

@@ -4096,5 +4096,362 @@
       2.04194,
       -5.05207
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem",
+    "replace_tex": [
+      {
+        "from": "g5n1_a*",
+        "to": "g5n1_brown_a*"
+      },
+      {
+        "from": "g5n1_n*",
+        "to": "g5n1_brown_n*"
+      }
+    ]
+  }
+}ons/BombGuns/jp_navy_mod25mark2_250kg.blk",
+                "emitter": "bomb34",
+                "bullets": 1
+              },
+              {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/jp_navy_mod25mark2_250kg.blk",
+                "emitter": "bomb35",
+                "bullets": 1
+              },
+              {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/jp_navy_mod25mark2_250kg.blk",
+                "emitter": "bomb36",
+                "bullets": 1
+              }
+            ]
+          },
+          {
+            "iconType": "bomb_1000kg_group",
+            "name": "mod80mark1_800kg",
+            "Weapon": [
+              {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/jp_navy_mod80mark1_800kg.blk",
+                "emitter": "bomb37",
+                "bullets": 1
+              },
+              {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/jp_navy_mod80mark1_800kg.blk",
+                "emitter": "bomb38",
+                "bullets": 1
+              },
+              {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/jp_navy_mod80mark1_800kg.blk",
+                "emitter": "bomb39",
+                "bullets": 1
+              },
+              {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/jp_navy_mod80mark1_800kg.blk",
+                "emitter": "bomb40",
+                "bullets": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "turbulence": {
+    "segmentlength": 100.0,
+    "startSpeed": 28.0,
+    "maxSpeed": 140.0,
+    "maxPower": 6.0,
+    "initialRadius": 12.0,
+    "radiusSpeed": 2.0
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      55.0,
+      138.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 1.5643,
+    "climbSpeed": 7.2,
+    "maxSpeed": 142.22,
+    "turnTime": 22.0513
+  },
+  "default_skin_tomoe": {
+    "replace_tex": {
+      "from": "g5n1_a*",
+      "to": "g5n1_a_tomoe*"
+    }
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      0.26591,
+      0.143546,
+      2.14055
+    ],
+    "_emtr_break_wing0_l_to": [
+      0.26591,
+      0.143546,
+      4.90449
+    ],
+    "emtr_break_wing1_l_from": [
+      0.26591,
+      0.143546,
+      9.05039
+    ],
+    "emtr_break_wing1_l_to": [
+      0.26591,
+      0.143546,
+      10.2171
+    ],
+    "emtr_break_wing2_l_from": [
+      0.26591,
+      0.143546,
+      14.2877
+    ],
+    "emtr_break_wing2_l_to": [
+      0.26591,
+      0.143546,
+      16.9882
+    ],
+    "_emtr_break_wing0_r_from": [
+      0.26591,
+      0.143546,
+      -2.14055
+    ],
+    "_emtr_break_wing0_r_to": [
+      0.26591,
+      0.143546,
+      -4.90449
+    ],
+    "emtr_break_wing1_r_from": [
+      0.26591,
+      0.143546,
+      -9.05039
+    ],
+    "emtr_break_wing1_r_to": [
+      0.26591,
+      0.143546,
+      -10.2171
+    ],
+    "emtr_break_wing2_r_from": [
+      0.26591,
+      0.143546,
+      -14.2877
+    ],
+    "emtr_break_wing2_r_to": [
+      0.26591,
+      0.143546,
+      -16.9882
+    ],
+    "emtr_break_wing_tail": [
+      -13.3082,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -14.774,
+      2.04194,
+      1.26302
+    ],
+    "emtr_break_stab_l_to": [
+      -14.774,
+      2.04194,
+      5.05207
+    ],
+    "emtr_break_stab_r_from": [
+      -14.774,
+      2.04194,
+      -1.26302
+    ],
+    "emtr_break_stab_r_to": [
+      -14.774,
+      2.04194,
+      -5.05207
+    ]
+  }
+}ons/BombGuns/jp_navy_mod25mark2_250kg.blk",
+                "emitter": "bomb34",
+                "bullets": 1
+              },
+              {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/jp_navy_mod25mark2_250kg.blk",
+                "emitter": "bomb35",
+                "bullets": 1
+              },
+              {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/jp_navy_mod25mark2_250kg.blk",
+                "emitter": "bomb36",
+                "bullets": 1
+              }
+            ]
+          },
+          {
+            "iconType": "bomb_1000kg_group",
+            "name": "mod80mark1_800kg",
+            "Weapon": [
+              {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/jp_navy_mod80mark1_800kg.blk",
+                "emitter": "bomb37",
+                "bullets": 1
+              },
+              {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/jp_navy_mod80mark1_800kg.blk",
+                "emitter": "bomb38",
+                "bullets": 1
+              },
+              {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/jp_navy_mod80mark1_800kg.blk",
+                "emitter": "bomb39",
+                "bullets": 1
+              },
+              {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/jp_navy_mod80mark1_800kg.blk",
+                "emitter": "bomb40",
+                "bullets": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "turbulence": {
+    "segmentlength": 100.0,
+    "startSpeed": 28.0,
+    "maxSpeed": 140.0,
+    "maxPower": 6.0,
+    "initialRadius": 12.0,
+    "radiusSpeed": 2.0
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      55.0,
+      138.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 1.5643,
+    "climbSpeed": 7.2,
+    "maxSpeed": 142.22,
+    "turnTime": 22.0513
+  },
+  "default_skin_tomoe": {
+    "replace_tex": {
+      "from": "g5n1_a*",
+      "to": "g5n1_a_tomoe*"
+    }
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      0.26591,
+      0.143546,
+      2.14055
+    ],
+    "_emtr_break_wing0_l_to": [
+      0.26591,
+      0.143546,
+      4.90449
+    ],
+    "emtr_break_wing1_l_from": [
+      0.26591,
+      0.143546,
+      9.05039
+    ],
+    "emtr_break_wing1_l_to": [
+      0.26591,
+      0.143546,
+      10.2171
+    ],
+    "emtr_break_wing2_l_from": [
+      0.26591,
+      0.143546,
+      14.2877
+    ],
+    "emtr_break_wing2_l_to": [
+      0.26591,
+      0.143546,
+      16.9882
+    ],
+    "_emtr_break_wing0_r_from": [
+      0.26591,
+      0.143546,
+      -2.14055
+    ],
+    "_emtr_break_wing0_r_to": [
+      0.26591,
+      0.143546,
+      -4.90449
+    ],
+    "emtr_break_wing1_r_from": [
+      0.26591,
+      0.143546,
+      -9.05039
+    ],
+    "emtr_break_wing1_r_to": [
+      0.26591,
+      0.143546,
+      -10.2171
+    ],
+    "emtr_break_wing2_r_from": [
+      0.26591,
+      0.143546,
+      -14.2877
+    ],
+    "emtr_break_wing2_r_to": [
+      0.26591,
+      0.143546,
+      -16.9882
+    ],
+    "emtr_break_wing_tail": [
+      -13.3082,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -14.774,
+      2.04194,
+      1.26302
+    ],
+    "emtr_break_stab_l_to": [
+      -14.774,
+      2.04194,
+      5.05207
+    ],
+    "emtr_break_stab_r_from": [
+      -14.774,
+      2.04194,
+      -1.26302
+    ],
+    "emtr_break_stab_r_to": [
+      -14.774,
+      2.04194,
+      -5.05207
+    ]
   }
 }

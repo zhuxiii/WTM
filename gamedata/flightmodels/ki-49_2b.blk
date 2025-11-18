@@ -3108,5 +3108,316 @@
       2.69845,
       0.000121693
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": [
+      {
+        "from": "ki49_2b_a*",
+        "to": "ki49_2b_formoza45_a*"
+      },
+      {
+        "from": "ki49_2b_n*",
+        "to": "ki49_2b_formoza45_n*"
+      }
+    ]
+  }
+}   "emitter": "bomb12",
+                "bullets": 1
+              }
+            ]
+          },
+          {
+            "iconType": "bomb_1000kg",
+            "name": "mod80mark1_800kg",
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/jp_navy_mod80mark1_800kg.blk",
+              "emitter": "bomb1",
+              "bullets": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "turbulence": {
+    "segmentlength": 100.0,
+    "startSpeed": 28.0,
+    "maxSpeed": 140.0,
+    "maxPower": 6.0,
+    "initialRadius": 12.0,
+    "radiusSpeed": 2.0
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      82.0,
+      166.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 1.14107,
+    "climbSpeed": 12.4702,
+    "maxSpeed": 114.168,
+    "turnTime": 24.6408
+  },
+  "default_skin_tomoe": {
+    "replace_tex": {
+      "from": "ki49_2b_a*",
+      "to": "ki49_2b_a_tomoe*"
+    }
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.683128,
+      0.18784,
+      1.16254
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.683128,
+      0.18784,
+      1.57014
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.683128,
+      0.18784,
+      3.31661
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.683128,
+      0.18784,
+      4.58
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.683128,
+      0.18784,
+      6.5
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.683128,
+      0.18784,
+      7.89811
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.683128,
+      0.187839,
+      -1.16254
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.683128,
+      0.187839,
+      -1.57014
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.683128,
+      0.187839,
+      -3.31661
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.683128,
+      0.187839,
+      -4.58
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.683128,
+      0.187839,
+      -6.5
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.683128,
+      0.187839,
+      -7.89811
+    ],
+    "emtr_break_wing_tail": [
+      -7.52357,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -8.76667,
+      0.485632,
+      0.788021
+    ],
+    "emtr_break_stab_l_to": [
+      -8.76667,
+      0.485632,
+      3.15209
+    ],
+    "emtr_break_stab_r_from": [
+      -8.76667,
+      0.485632,
+      -0.787973
+    ],
+    "emtr_break_stab_r_to": [
+      -8.76667,
+      0.485632,
+      -3.15189
+    ],
+    "emtr_break_fin_from": [
+      -8.46789,
+      1.12687,
+      0.000121693
+    ],
+    "emtr_break_fin_to": [
+      -8.46789,
+      2.69845,
+      0.000121693
+    ]
+  }
+}   "emitter": "bomb12",
+                "bullets": 1
+              }
+            ]
+          },
+          {
+            "iconType": "bomb_1000kg",
+            "name": "mod80mark1_800kg",
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/jp_navy_mod80mark1_800kg.blk",
+              "emitter": "bomb1",
+              "bullets": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "turbulence": {
+    "segmentlength": 100.0,
+    "startSpeed": 28.0,
+    "maxSpeed": 140.0,
+    "maxPower": 6.0,
+    "initialRadius": 12.0,
+    "radiusSpeed": 2.0
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      82.0,
+      166.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 1.14107,
+    "climbSpeed": 12.4702,
+    "maxSpeed": 114.168,
+    "turnTime": 24.6408
+  },
+  "default_skin_tomoe": {
+    "replace_tex": {
+      "from": "ki49_2b_a*",
+      "to": "ki49_2b_a_tomoe*"
+    }
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.683128,
+      0.18784,
+      1.16254
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.683128,
+      0.18784,
+      1.57014
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.683128,
+      0.18784,
+      3.31661
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.683128,
+      0.18784,
+      4.58
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.683128,
+      0.18784,
+      6.5
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.683128,
+      0.18784,
+      7.89811
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.683128,
+      0.187839,
+      -1.16254
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.683128,
+      0.187839,
+      -1.57014
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.683128,
+      0.187839,
+      -3.31661
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.683128,
+      0.187839,
+      -4.58
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.683128,
+      0.187839,
+      -6.5
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.683128,
+      0.187839,
+      -7.89811
+    ],
+    "emtr_break_wing_tail": [
+      -7.52357,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -8.76667,
+      0.485632,
+      0.788021
+    ],
+    "emtr_break_stab_l_to": [
+      -8.76667,
+      0.485632,
+      3.15209
+    ],
+    "emtr_break_stab_r_from": [
+      -8.76667,
+      0.485632,
+      -0.787973
+    ],
+    "emtr_break_stab_r_to": [
+      -8.76667,
+      0.485632,
+      -3.15189
+    ],
+    "emtr_break_fin_from": [
+      -8.46789,
+      1.12687,
+      0.000121693
+    ],
+    "emtr_break_fin_to": [
+      -8.46789,
+      2.69845,
+      0.000121693
+    ]
   }
 }

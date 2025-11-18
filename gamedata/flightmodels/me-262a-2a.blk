@@ -4136,5 +4136,350 @@
       1.75746,
       0.00192011
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": {
+      "from": "me262a_2a_camo1_a*",
+      "to": "me262a_2a_camo3_a*"
+    }
+  }
+}         "emitter": "rocket43",
+                "bullets": 1
+              },
+              {
+                "trigger": "rockets",
+                "external": true,
+                "jettisonable": false,
+                "blk": "gameData/Weapons/rocketGuns/de_r4m_orkan_rocket.blk",
+                "emitter": "rocket44",
+                "bullets": 1
+              },
+              {
+                "trigger": "rockets",
+                "external": true,
+                "jettisonable": false,
+                "blk": "gameData/Weapons/rocketGuns/de_r4m_orkan_rocket.blk",
+                "emitter": "rocket45",
+                "bullets": 1
+              },
+              {
+                "trigger": "rockets",
+                "external": true,
+                "jettisonable": false,
+                "blk": "gameData/Weapons/rocketGuns/de_r4m_orkan_rocket.blk",
+                "emitter": "rocket46",
+                "bullets": 1
+              },
+              {
+                "trigger": "rockets",
+                "external": true,
+                "jettisonable": false,
+                "blk": "gameData/Weapons/rocketGuns/de_r4m_orkan_rocket.blk",
+                "emitter": "rocket47",
+                "bullets": 1
+              },
+              {
+                "trigger": "rockets",
+                "external": true,
+                "jettisonable": false,
+                "blk": "gameData/Weapons/rocketGuns/de_r4m_orkan_rocket.blk",
+                "emitter": "rocket48",
+                "bullets": 1
+              }
+            ]
+          },
+          {
+            "iconType": "bomb_250kg",
+            "name": "sc250",
+            "ShowNodes": {
+              "node": "pylon2"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/de_sc250.blk",
+              "emitter": "bomb2",
+              "bullets": 1,
+              "external": true,
+              "separate": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "default_skin": {
+    "name": "prem",
+    "replace_tex": {
+      "from": "me262a_2a_camo3_a*",
+      "to": "me262a_2a_camo1_a*"
+    }
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.155672,
+      -0.301804,
+      1.13093
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.155672,
+      -0.301804,
+      1.55454
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.155672,
+      -0.301804,
+      2.81409
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.155672,
+      -0.301804,
+      3.25586
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.155672,
+      -0.301804,
+      4.28466
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.155672,
+      -0.301804,
+      5.02594
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.155672,
+      -0.301805,
+      -1.13093
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.155672,
+      -0.301805,
+      -1.55454
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.155672,
+      -0.301805,
+      -2.81409
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.155672,
+      -0.301805,
+      -3.25586
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.155672,
+      -0.301805,
+      -4.28466
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.155672,
+      -0.301805,
+      -5.02594
+    ],
+    "emtr_break_wing_tail": [
+      -4.56863,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -5.25159,
+      0.823369,
+      0.364244
+    ],
+    "emtr_break_stab_l_to": [
+      -5.25159,
+      0.823369,
+      1.45698
+    ],
+    "emtr_break_stab_r_from": [
+      -5.25159,
+      0.823369,
+      -0.364245
+    ],
+    "emtr_break_stab_r_to": [
+      -5.25159,
+      0.823369,
+      -1.45698
+    ],
+    "emtr_break_fin_from": [
+      -4.94166,
+      0.684498,
+      0.00192011
+    ],
+    "emtr_break_fin_to": [
+      -4.94166,
+      1.75746,
+      0.00192011
+    ]
+  }
+}         "emitter": "rocket43",
+                "bullets": 1
+              },
+              {
+                "trigger": "rockets",
+                "external": true,
+                "jettisonable": false,
+                "blk": "gameData/Weapons/rocketGuns/de_r4m_orkan_rocket.blk",
+                "emitter": "rocket44",
+                "bullets": 1
+              },
+              {
+                "trigger": "rockets",
+                "external": true,
+                "jettisonable": false,
+                "blk": "gameData/Weapons/rocketGuns/de_r4m_orkan_rocket.blk",
+                "emitter": "rocket45",
+                "bullets": 1
+              },
+              {
+                "trigger": "rockets",
+                "external": true,
+                "jettisonable": false,
+                "blk": "gameData/Weapons/rocketGuns/de_r4m_orkan_rocket.blk",
+                "emitter": "rocket46",
+                "bullets": 1
+              },
+              {
+                "trigger": "rockets",
+                "external": true,
+                "jettisonable": false,
+                "blk": "gameData/Weapons/rocketGuns/de_r4m_orkan_rocket.blk",
+                "emitter": "rocket47",
+                "bullets": 1
+              },
+              {
+                "trigger": "rockets",
+                "external": true,
+                "jettisonable": false,
+                "blk": "gameData/Weapons/rocketGuns/de_r4m_orkan_rocket.blk",
+                "emitter": "rocket48",
+                "bullets": 1
+              }
+            ]
+          },
+          {
+            "iconType": "bomb_250kg",
+            "name": "sc250",
+            "ShowNodes": {
+              "node": "pylon2"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/de_sc250.blk",
+              "emitter": "bomb2",
+              "bullets": 1,
+              "external": true,
+              "separate": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "default_skin": {
+    "name": "prem",
+    "replace_tex": {
+      "from": "me262a_2a_camo3_a*",
+      "to": "me262a_2a_camo1_a*"
+    }
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.155672,
+      -0.301804,
+      1.13093
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.155672,
+      -0.301804,
+      1.55454
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.155672,
+      -0.301804,
+      2.81409
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.155672,
+      -0.301804,
+      3.25586
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.155672,
+      -0.301804,
+      4.28466
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.155672,
+      -0.301804,
+      5.02594
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.155672,
+      -0.301805,
+      -1.13093
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.155672,
+      -0.301805,
+      -1.55454
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.155672,
+      -0.301805,
+      -2.81409
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.155672,
+      -0.301805,
+      -3.25586
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.155672,
+      -0.301805,
+      -4.28466
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.155672,
+      -0.301805,
+      -5.02594
+    ],
+    "emtr_break_wing_tail": [
+      -4.56863,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -5.25159,
+      0.823369,
+      0.364244
+    ],
+    "emtr_break_stab_l_to": [
+      -5.25159,
+      0.823369,
+      1.45698
+    ],
+    "emtr_break_stab_r_from": [
+      -5.25159,
+      0.823369,
+      -0.364245
+    ],
+    "emtr_break_stab_r_to": [
+      -5.25159,
+      0.823369,
+      -1.45698
+    ],
+    "emtr_break_fin_from": [
+      -4.94166,
+      0.684498,
+      0.00192011
+    ],
+    "emtr_break_fin_to": [
+      -4.94166,
+      1.75746,
+      0.00192011
+    ]
   }
 }

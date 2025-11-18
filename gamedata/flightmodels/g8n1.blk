@@ -3767,5 +3767,374 @@
       4.16999,
       0.00975157
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem",
+    "replace_tex": [
+      {
+        "from": "g8n1_aluminum_a*",
+        "to": "g8n1_orange_a*"
+      },
+      {
+        "from": "g8n1_aluminum_n*",
+        "to": "g8n1_orange_n*"
+      }
+    ]
+  }
+}lets": 1
+              }
+            ]
+          },
+          {
+            "iconType": "bomb_1500kg_group",
+            "name": "type_3_number_150_1500kg",
+            "Weapon": [
+              {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/jp_ijnaf_type_3_number_150_1500kg_ap.blk",
+                "emitter": "bomb27",
+                "bullets": 1
+              },
+              {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/jp_ijnaf_type_3_number_150_1500kg_ap.blk",
+                "emitter": "bomb29",
+                "bullets": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "default_skin_tomoe": {
+    "replace_tex": {
+      "from": "g8n1_aluminum_a*",
+      "to": "g8n1_aluminum_a_tomoe*"
+    }
+  },
+  "turbulence": {
+    "segmentlength": 100.0,
+    "startSpeed": 28.0,
+    "maxSpeed": 140.0,
+    "maxPower": 6.0,
+    "initialRadius": 12.0,
+    "radiusSpeed": 2.0
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      82.0,
+      166.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "damagePartsDependencyMap": {
+    "dp": [
+      {
+        "dm": "tail_dm",
+        "separateDm": true,
+        "dp": [
+          "antenna",
+          "wire_lc",
+          "wire_rc",
+          "wire_c"
+        ]
+      },
+      {
+        "dm": "flap2_l_dm",
+        "dp": "flap3_l_dm"
+      },
+      {
+        "dm": "flap2_r_dm",
+        "dp": "flap3_r_dm"
+      }
+    ]
+  },
+  "balanceData": {
+    "accSpd": 1.5643,
+    "climbSpeed": 7.2,
+    "maxSpeed": 142.22,
+    "turnTime": 22.0513
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -1.01995,
+      0.164773,
+      1.89926
+    ],
+    "_emtr_break_wing0_l_to": [
+      -1.01995,
+      0.164773,
+      2.42274
+    ],
+    "emtr_break_wing1_l_from": [
+      -1.01995,
+      0.164773,
+      5.70091
+    ],
+    "emtr_break_wing1_l_to": [
+      -1.01995,
+      0.164773,
+      6.52679
+    ],
+    "emtr_break_wing2_l_from": [
+      -1.01995,
+      0.164773,
+      10.8689
+    ],
+    "emtr_break_wing2_l_to": [
+      -1.01995,
+      0.164773,
+      12.9856
+    ],
+    "_emtr_break_wing0_r_from": [
+      -1.01995,
+      0.164773,
+      -1.89926
+    ],
+    "_emtr_break_wing0_r_to": [
+      -1.01995,
+      0.164773,
+      -2.42274
+    ],
+    "emtr_break_wing1_r_from": [
+      -1.01995,
+      0.164773,
+      -5.70091
+    ],
+    "emtr_break_wing1_r_to": [
+      -1.01995,
+      0.164773,
+      -6.52679
+    ],
+    "emtr_break_wing2_r_from": [
+      -1.01995,
+      0.164773,
+      -10.8689
+    ],
+    "emtr_break_wing2_r_to": [
+      -1.01995,
+      0.164773,
+      -12.9856
+    ],
+    "emtr_break_wing_tail": [
+      -11.0386,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -12.3945,
+      0.904696,
+      1.20421
+    ],
+    "emtr_break_stab_l_to": [
+      -12.3945,
+      0.904696,
+      4.81684
+    ],
+    "emtr_break_stab_r_from": [
+      -12.3945,
+      0.904696,
+      -1.20421
+    ],
+    "emtr_break_stab_r_to": [
+      -12.3945,
+      0.904696,
+      -4.81684
+    ],
+    "emtr_break_fin_from": [
+      -10.637,
+      1.83377,
+      0.00975157
+    ],
+    "emtr_break_fin_to": [
+      -10.637,
+      4.16999,
+      0.00975157
+    ]
+  }
+}lets": 1
+              }
+            ]
+          },
+          {
+            "iconType": "bomb_1500kg_group",
+            "name": "type_3_number_150_1500kg",
+            "Weapon": [
+              {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/jp_ijnaf_type_3_number_150_1500kg_ap.blk",
+                "emitter": "bomb27",
+                "bullets": 1
+              },
+              {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/jp_ijnaf_type_3_number_150_1500kg_ap.blk",
+                "emitter": "bomb29",
+                "bullets": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "default_skin_tomoe": {
+    "replace_tex": {
+      "from": "g8n1_aluminum_a*",
+      "to": "g8n1_aluminum_a_tomoe*"
+    }
+  },
+  "turbulence": {
+    "segmentlength": 100.0,
+    "startSpeed": 28.0,
+    "maxSpeed": 140.0,
+    "maxPower": 6.0,
+    "initialRadius": 12.0,
+    "radiusSpeed": 2.0
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      82.0,
+      166.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "damagePartsDependencyMap": {
+    "dp": [
+      {
+        "dm": "tail_dm",
+        "separateDm": true,
+        "dp": [
+          "antenna",
+          "wire_lc",
+          "wire_rc",
+          "wire_c"
+        ]
+      },
+      {
+        "dm": "flap2_l_dm",
+        "dp": "flap3_l_dm"
+      },
+      {
+        "dm": "flap2_r_dm",
+        "dp": "flap3_r_dm"
+      }
+    ]
+  },
+  "balanceData": {
+    "accSpd": 1.5643,
+    "climbSpeed": 7.2,
+    "maxSpeed": 142.22,
+    "turnTime": 22.0513
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -1.01995,
+      0.164773,
+      1.89926
+    ],
+    "_emtr_break_wing0_l_to": [
+      -1.01995,
+      0.164773,
+      2.42274
+    ],
+    "emtr_break_wing1_l_from": [
+      -1.01995,
+      0.164773,
+      5.70091
+    ],
+    "emtr_break_wing1_l_to": [
+      -1.01995,
+      0.164773,
+      6.52679
+    ],
+    "emtr_break_wing2_l_from": [
+      -1.01995,
+      0.164773,
+      10.8689
+    ],
+    "emtr_break_wing2_l_to": [
+      -1.01995,
+      0.164773,
+      12.9856
+    ],
+    "_emtr_break_wing0_r_from": [
+      -1.01995,
+      0.164773,
+      -1.89926
+    ],
+    "_emtr_break_wing0_r_to": [
+      -1.01995,
+      0.164773,
+      -2.42274
+    ],
+    "emtr_break_wing1_r_from": [
+      -1.01995,
+      0.164773,
+      -5.70091
+    ],
+    "emtr_break_wing1_r_to": [
+      -1.01995,
+      0.164773,
+      -6.52679
+    ],
+    "emtr_break_wing2_r_from": [
+      -1.01995,
+      0.164773,
+      -10.8689
+    ],
+    "emtr_break_wing2_r_to": [
+      -1.01995,
+      0.164773,
+      -12.9856
+    ],
+    "emtr_break_wing_tail": [
+      -11.0386,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -12.3945,
+      0.904696,
+      1.20421
+    ],
+    "emtr_break_stab_l_to": [
+      -12.3945,
+      0.904696,
+      4.81684
+    ],
+    "emtr_break_stab_r_from": [
+      -12.3945,
+      0.904696,
+      -1.20421
+    ],
+    "emtr_break_stab_r_to": [
+      -12.3945,
+      0.904696,
+      -4.81684
+    ],
+    "emtr_break_fin_from": [
+      -10.637,
+      1.83377,
+      0.00975157
+    ],
+    "emtr_break_fin_to": [
+      -10.637,
+      4.16999,
+      0.00975157
+    ]
   }
 }

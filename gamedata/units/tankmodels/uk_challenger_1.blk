@@ -2210,7 +2210,7 @@
       "cls_body": "convex_hull"
     },
     "engine": {
-      "horsePowers": 1217.0,
+      "horsePowers": 1314.0,
       "maxRPM": 2300.0,
       "minRPM": 660.0
     },
@@ -3432,6 +3432,352 @@
     "default": {
       "skin_condition": 100.0,
       "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  },
+  "upgraded_skin": {
+    "replace_tex": {
+      "from": "uk_camo_very_dark_drab*",
+      "to": "uk_camo_standart_modern_desert_bicolor*"
+    }
+  },
+  "upgradedDecals": {
+    "upgraded": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0,
+      "decal0Line0": [
+        1.32938,
+        -5.81088e-8,
+        -0.0026173,
+        -0.943286
+      ],
+      "decal0Line1": [
+        -0.0000122791,
+        -1.32936,
+        -0.00620727,
+        1.765
+      ],
+      "decal0Line2": [
+        -1.32938,
+        -5.81088e-8,
+        -0.0026173,
+        1.94329
+      ],
+      "decal0Line3": [
+        -0.0000121629,
+        -1.32936,
+        0.00620727,
+        1.765
+      ],
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        -0.00196879,
+        0.00466931,
+        -0.999987,
+        -1.75514
+      ],
+      "decal0CPNormDepth1": [
+        -0.00196879,
+        0.00466931,
+        0.999987,
+        -1.75514
+      ],
+      "decal0RotScale": [
+        1.5708,
+        0.752231
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.201524,
+      "decal0Tex": "usa_commander_a_co",
+      "decal1Line0": [
+        3.89741,
+        -1.70361e-7,
+        -0.00000290869,
+        -2.90479
+      ],
+      "decal1Line1": [
+        -1.70361e-7,
+        -3.89741,
+        5.98046e-7,
+        9.28658
+      ],
+      "decal1Line2": [
+        -3.89741,
+        -1.70361e-7,
+        -0.00000290869,
+        3.90479
+      ],
+      "decal1Line3": [
+        1.70362e-7,
+        -3.89741,
+        -5.98046e-7,
+        9.28658
+      ],
+      "decal1HaveCP": true,
+      "decal1CPNormDepth": [
+        -7.46314e-7,
+        -1.53447e-7,
+        -1.0,
+        -1.59308
+      ],
+      "decal1CPNormDepth1": [
+        -7.46314e-7,
+        -1.53447e-7,
+        1.0,
+        -1.59228
+      ],
+      "decal1RotScale": [
+        1.5708,
+        0.256581
+      ],
+      "decal1Mirrored": false,
+      "decal1Wrap": false,
+      "decal1Abs": false,
+      "decal1OppositeMirrored": false,
+      "decal1WidthBox": 0.200001,
+      "decal1Tex": "uk_queens_royal_hussars",
+      "decal2Line0": [
+        -1.15306e-7,
+        -1.15306e-7,
+        3.86901,
+        -1.99754
+      ],
+      "decal2Line1": [
+        -2.7358,
+        -2.7358,
+        -1.6912e-7,
+        13.029
+      ],
+      "decal2Line2": [
+        -1.15306e-7,
+        -1.15306e-7,
+        -3.86901,
+        2.99754
+      ],
+      "decal2Line3": [
+        -2.7358,
+        -2.7358,
+        1.6912e-7,
+        13.029
+      ],
+      "decal2HaveCP": true,
+      "decal2CPNormDepth": [
+        0.707107,
+        -0.707107,
+        0.0,
+        -1.6071
+      ],
+      "decal2CPNormDepth1": [
+        -0.707107,
+        0.707107,
+        -0.0,
+        1.53463
+      ],
+      "decal2RotScale": [
+        1.5708,
+        0.258464
+      ],
+      "decal2Mirrored": false,
+      "decal2Wrap": false,
+      "decal2Abs": false,
+      "decal2OppositeMirrored": false,
+      "decal2WidthBox": 0.223085,
+      "decal2Tex": "flag_great_britain"
+    }
+  },
+  "battleHideNodes": {
+    "n": [
+      "details",
+      "details_01",
+      "details_02",
+      "details_03",
+      "details_04",
+      "details_05",
+      "details_06",
+      "details_07",
+      "details_08",
+      "details_09",
+      "details_10"
+    ]
+  }
+}  "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  },
+  "upgraded_skin": {
+    "replace_tex": {
+      "from": "uk_camo_very_dark_drab*",
+      "to": "uk_camo_standart_modern_desert_bicolor*"
+    }
+  },
+  "upgradedDecals": {
+    "upgraded": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0,
+      "decal0Line0": [
+        1.32938,
+        -5.81088e-8,
+        -0.0026173,
+        -0.943286
+      ],
+      "decal0Line1": [
+        -0.0000122791,
+        -1.32936,
+        -0.00620727,
+        1.765
+      ],
+      "decal0Line2": [
+        -1.32938,
+        -5.81088e-8,
+        -0.0026173,
+        1.94329
+      ],
+      "decal0Line3": [
+        -0.0000121629,
+        -1.32936,
+        0.00620727,
+        1.765
+      ],
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        -0.00196879,
+        0.00466931,
+        -0.999987,
+        -1.75514
+      ],
+      "decal0CPNormDepth1": [
+        -0.00196879,
+        0.00466931,
+        0.999987,
+        -1.75514
+      ],
+      "decal0RotScale": [
+        1.5708,
+        0.752231
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.201524,
+      "decal0Tex": "usa_commander_a_co",
+      "decal1Line0": [
+        3.89741,
+        -1.70361e-7,
+        -0.00000290869,
+        -2.90479
+      ],
+      "decal1Line1": [
+        -1.70361e-7,
+        -3.89741,
+        5.98046e-7,
+        9.28658
+      ],
+      "decal1Line2": [
+        -3.89741,
+        -1.70361e-7,
+        -0.00000290869,
+        3.90479
+      ],
+      "decal1Line3": [
+        1.70362e-7,
+        -3.89741,
+        -5.98046e-7,
+        9.28658
+      ],
+      "decal1HaveCP": true,
+      "decal1CPNormDepth": [
+        -7.46314e-7,
+        -1.53447e-7,
+        -1.0,
+        -1.59308
+      ],
+      "decal1CPNormDepth1": [
+        -7.46314e-7,
+        -1.53447e-7,
+        1.0,
+        -1.59228
+      ],
+      "decal1RotScale": [
+        1.5708,
+        0.256581
+      ],
+      "decal1Mirrored": false,
+      "decal1Wrap": false,
+      "decal1Abs": false,
+      "decal1OppositeMirrored": false,
+      "decal1WidthBox": 0.200001,
+      "decal1Tex": "uk_queens_royal_hussars",
+      "decal2Line0": [
+        -1.15306e-7,
+        -1.15306e-7,
+        3.86901,
+        -1.99754
+      ],
+      "decal2Line1": [
+        -2.7358,
+        -2.7358,
+        -1.6912e-7,
+        13.029
+      ],
+      "decal2Line2": [
+        -1.15306e-7,
+        -1.15306e-7,
+        -3.86901,
+        2.99754
+      ],
+      "decal2Line3": [
+        -2.7358,
+        -2.7358,
+        1.6912e-7,
+        13.029
+      ],
+      "decal2HaveCP": true,
+      "decal2CPNormDepth": [
+        0.707107,
+        -0.707107,
+        0.0,
+        -1.6071
+      ],
+      "decal2CPNormDepth1": [
+        -0.707107,
+        0.707107,
+        -0.0,
+        1.53463
+      ],
+      "decal2RotScale": [
+        1.5708,
+        0.258464
+      ],
+      "decal2Mirrored": false,
+      "decal2Wrap": false,
+      "decal2Abs": false,
+      "decal2OppositeMirrored": false,
+      "decal2WidthBox": 0.223085,
+      "decal2Tex": "flag_great_britain"
+    }
+  },
+  "battleHideNodes": {
+    "n": [
+      "details",
+      "details_01",
+      "details_02",
+      "details_03",
+      "details_04",
+      "details_05",
+      "details_06",
+      "details_07",
+      "details_08",
+      "details_09",
+      "details_10"
+    ]
+  }
+}  "camo_scale": 0.0,
       "camo_rotation": 0.0
     }
   },

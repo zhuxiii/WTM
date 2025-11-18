@@ -2155,5 +2155,232 @@
       1.1171,
       -1.76441e-7
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": [
+      {
+        "from": "ki_10_2_light_grey_green_a*",
+        "to": "ki_10_2_3colors_a*"
+      },
+      {
+        "from": "ki_10_2_light_grey_green_n*",
+        "to": "ki_10_2_3colors_n*"
+      }
+    ]
+  }
+}      ]
+      }
+    }
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.77807,
+      -0.445777,
+      0.922964
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.77807,
+      -0.445777,
+      1.42231
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.77807,
+      -0.445777,
+      0.700894
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.77807,
+      -0.445777,
+      1.33796
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.77807,
+      -0.445777,
+      2.29356
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.77807,
+      -0.445777,
+      3.3735
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.77807,
+      -0.445777,
+      -0.922964
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.77807,
+      -0.445777,
+      -1.42231
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.77807,
+      -0.445777,
+      -0.700894
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.77807,
+      -0.445777,
+      -1.33796
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.77807,
+      -0.445777,
+      -2.29356
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.77807,
+      -0.445777,
+      -3.3735
+    ],
+    "emtr_break_wing_tail": [
+      -3.51162,
+      0.0,
+      0.0
+    ],
+    "emtr_break_wing_biplane": [
+      -0.77807,
+      -0.114332,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -3.97801,
+      0.170202,
+      0.346173
+    ],
+    "emtr_break_stab_l_to": [
+      -3.97801,
+      0.170202,
+      1.38469
+    ],
+    "emtr_break_stab_r_from": [
+      -3.97801,
+      0.170202,
+      -0.346173
+    ],
+    "emtr_break_stab_r_to": [
+      -3.97801,
+      0.170202,
+      -1.38469
+    ],
+    "emtr_break_fin_from": [
+      -4.20888,
+      0.500426,
+      -1.76441e-7
+    ],
+    "emtr_break_fin_to": [
+      -4.20888,
+      1.1171,
+      -1.76441e-7
+    ]
+  }
+}      ]
+      }
+    }
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.77807,
+      -0.445777,
+      0.922964
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.77807,
+      -0.445777,
+      1.42231
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.77807,
+      -0.445777,
+      0.700894
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.77807,
+      -0.445777,
+      1.33796
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.77807,
+      -0.445777,
+      2.29356
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.77807,
+      -0.445777,
+      3.3735
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.77807,
+      -0.445777,
+      -0.922964
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.77807,
+      -0.445777,
+      -1.42231
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.77807,
+      -0.445777,
+      -0.700894
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.77807,
+      -0.445777,
+      -1.33796
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.77807,
+      -0.445777,
+      -2.29356
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.77807,
+      -0.445777,
+      -3.3735
+    ],
+    "emtr_break_wing_tail": [
+      -3.51162,
+      0.0,
+      0.0
+    ],
+    "emtr_break_wing_biplane": [
+      -0.77807,
+      -0.114332,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -3.97801,
+      0.170202,
+      0.346173
+    ],
+    "emtr_break_stab_l_to": [
+      -3.97801,
+      0.170202,
+      1.38469
+    ],
+    "emtr_break_stab_r_from": [
+      -3.97801,
+      0.170202,
+      -0.346173
+    ],
+    "emtr_break_stab_r_to": [
+      -3.97801,
+      0.170202,
+      -1.38469
+    ],
+    "emtr_break_fin_from": [
+      -4.20888,
+      0.500426,
+      -1.76441e-7
+    ],
+    "emtr_break_fin_to": [
+      -4.20888,
+      1.1171,
+      -1.76441e-7
+    ]
   }
 }

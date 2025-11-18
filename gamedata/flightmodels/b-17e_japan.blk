@@ -2479,6 +2479,13 @@
       0.0
     ]
   },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": {
+      "from": "boeing_b_17e_c*",
+      "to": "b_17e_brown_c*"
+    }
+  },
   "default_skin": {
     "name": "default",
     "replace_tex": {
@@ -2942,6 +2949,230 @@
             -0.1
           ]
         },
+        {
+          "downNode": "Bip01 L Foot",
+          "midNode": "Bip01 L Calf",
+          "upNode": "Bip01 L Thigh",
+          "targetNode": "pedal_lfoot_",
+          "flexionDir": [
+            0.0,
+            1.0,
+            -0.2
+          ]
+        },
+        {
+          "downNode": "Bip01 R Foot",
+          "midNode": "Bip01 R Calf",
+          "upNode": "Bip01 R Thigh",
+          "targetNode": "pedal_rfoot_",
+          "flexionDir": [
+            0.0,
+            1.0,
+            0.2
+          ]
+        }
+      ]
+    },
+    {
+      "model": "pilot_japan_char",
+      "maxHeadHorAngle": 60.0,
+      "maxHeadDownAngle": 60.0,
+      "maxHeadUpAngle": 10.0,
+      "headNode": "Bip01 Head",
+      "pelvisNode": "Bip01 Pelvis",
+      "pelvisTargetNode": "Bip01 Pelvis_",
+      "suffix": "7",
+      "isTailPositioned": true,
+      "ikNode": [
+        {
+          "downNode": "Bip01 L Hand",
+          "midNode": "Bip01 L Forearm",
+          "upNode": "Bip01 L UpperArm",
+          "targetNode": "throttle_lhand_",
+          "flexionDir": [
+            0.0,
+            -1.0,
+            0.1
+          ]
+        },
+        {
+          "downNode": "Bip01 R Hand",
+          "midNode": "Bip01 R Forearm",
+          "upNode": "Bip01 R UpperArm",
+          "targetNode": "stick_rhand_",
+          "flexionDir": [
+            0.0,
+            -1.0,
+            -0.1
+          ]
+        },
+        {
+          "downNode": "Bip01 L Foot",
+          "midNode": "Bip01 L Calf",
+          "upNode": "Bip01 L Thigh",
+          "targetNode": "pedal_lfoot_",
+          "flexionDir": [
+            0.0,
+            1.0,
+            -0.2
+          ]
+        },
+        {
+          "downNode": "Bip01 R Foot",
+          "midNode": "Bip01 R Calf",
+          "upNode": "Bip01 R Thigh",
+          "targetNode": "pedal_rfoot_",
+          "flexionDir": [
+            0.0,
+            1.0,
+            0.2
+          ]
+        }
+      ]
+    }
+  ],
+  "attach": {
+    "pilot1": "pilot_japan_500",
+    "pilot2": "pilot_japan_500",
+    "gunner2": "gunner_sit_japan_500",
+    "gunner3": "gunner_lay_japan_500",
+    "gunner4": "gunner_sit_japan_500",
+    "gunner5": "gunner_sit_japan_500",
+    "gunner6": "gunner_sit_japan_500",
+    "gunner7": "gunner_sit_japan_500",
+    "gunner8": "gunner_sit_japan_500"
+  },
+  "weapon_presets": {
+    "preset": [
+      {
+        "name": "b-17e_japan_default",
+        "blk": "gameData/FlightModels/weaponPresets/empty.blk"
+      },
+      {
+        "name": "b-17e_japan_16x500lbs",
+        "blk": "gameData/FlightModels/weaponPresets/b-17e_16x500lbs.blk",
+        "reqModification": "b-17_sbc"
+      },
+      {
+        "name": "b-17e_japan_8x1000lbs",
+        "blk": "gameData/FlightModels/weaponPresets/b-17e_8x1000lbs.blk",
+        "reqModification": "b-17_mbc"
+      }
+    ]
+  }
+}  },
+        {
+          "downNode": "Bip01 L Foot",
+          "midNode": "Bip01 L Calf",
+          "upNode": "Bip01 L Thigh",
+          "targetNode": "pedal_lfoot_",
+          "flexionDir": [
+            0.0,
+            1.0,
+            -0.2
+          ]
+        },
+        {
+          "downNode": "Bip01 R Foot",
+          "midNode": "Bip01 R Calf",
+          "upNode": "Bip01 R Thigh",
+          "targetNode": "pedal_rfoot_",
+          "flexionDir": [
+            0.0,
+            1.0,
+            0.2
+          ]
+        }
+      ]
+    },
+    {
+      "model": "pilot_japan_char",
+      "maxHeadHorAngle": 60.0,
+      "maxHeadDownAngle": 60.0,
+      "maxHeadUpAngle": 10.0,
+      "headNode": "Bip01 Head",
+      "pelvisNode": "Bip01 Pelvis",
+      "pelvisTargetNode": "Bip01 Pelvis_",
+      "suffix": "7",
+      "isTailPositioned": true,
+      "ikNode": [
+        {
+          "downNode": "Bip01 L Hand",
+          "midNode": "Bip01 L Forearm",
+          "upNode": "Bip01 L UpperArm",
+          "targetNode": "throttle_lhand_",
+          "flexionDir": [
+            0.0,
+            -1.0,
+            0.1
+          ]
+        },
+        {
+          "downNode": "Bip01 R Hand",
+          "midNode": "Bip01 R Forearm",
+          "upNode": "Bip01 R UpperArm",
+          "targetNode": "stick_rhand_",
+          "flexionDir": [
+            0.0,
+            -1.0,
+            -0.1
+          ]
+        },
+        {
+          "downNode": "Bip01 L Foot",
+          "midNode": "Bip01 L Calf",
+          "upNode": "Bip01 L Thigh",
+          "targetNode": "pedal_lfoot_",
+          "flexionDir": [
+            0.0,
+            1.0,
+            -0.2
+          ]
+        },
+        {
+          "downNode": "Bip01 R Foot",
+          "midNode": "Bip01 R Calf",
+          "upNode": "Bip01 R Thigh",
+          "targetNode": "pedal_rfoot_",
+          "flexionDir": [
+            0.0,
+            1.0,
+            0.2
+          ]
+        }
+      ]
+    }
+  ],
+  "attach": {
+    "pilot1": "pilot_japan_500",
+    "pilot2": "pilot_japan_500",
+    "gunner2": "gunner_sit_japan_500",
+    "gunner3": "gunner_lay_japan_500",
+    "gunner4": "gunner_sit_japan_500",
+    "gunner5": "gunner_sit_japan_500",
+    "gunner6": "gunner_sit_japan_500",
+    "gunner7": "gunner_sit_japan_500",
+    "gunner8": "gunner_sit_japan_500"
+  },
+  "weapon_presets": {
+    "preset": [
+      {
+        "name": "b-17e_japan_default",
+        "blk": "gameData/FlightModels/weaponPresets/empty.blk"
+      },
+      {
+        "name": "b-17e_japan_16x500lbs",
+        "blk": "gameData/FlightModels/weaponPresets/b-17e_16x500lbs.blk",
+        "reqModification": "b-17_sbc"
+      },
+      {
+        "name": "b-17e_japan_8x1000lbs",
+        "blk": "gameData/FlightModels/weaponPresets/b-17e_8x1000lbs.blk",
+        "reqModification": "b-17_mbc"
+      }
+    ]
+  }
+}  },
         {
           "downNode": "Bip01 L Foot",
           "midNode": "Bip01 L Calf",

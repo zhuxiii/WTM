@@ -1689,6 +1689,177 @@
       0.0000267049
     ]
   },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": [
+      {
+        "from": "f2a1_c*",
+        "to": "f2a1_usmc_c*"
+      },
+      {
+        "from": "f2a1_n*",
+        "to": "f2a1_usmc_n*"
+      }
+    ]
+  },
+  "default_skin": {
+    "name": "thach",
+    "replace_tex": [
+      {
+        "from": "f2a1_c*",
+        "to": "f2a1_thach_c*"
+      },
+      {
+        "from": "f2a1_n*",
+        "to": "f2a1_thach_n*"
+      },
+      {
+        "from": "black_slim_yellow_rottex*",
+        "to": "gray_blue_yellow_red_rottex*"
+      }
+    ]
+  },
+  "weapon_presets": {
+    "preset": {
+      "name": "f2a-1_thach_default",
+      "blk": "gameData/FlightModels/weaponPresets/fw_190a_5_u14_default.blk"
+    }
+  }
+}-0.158736,
+      -0.141794,
+      -2.20071
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.158736,
+      -0.141794,
+      -2.80043
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.158736,
+      -0.141794,
+      -3.7
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.158736,
+      -0.141794,
+      -4.36255
+    ],
+    "emtr_break_wing_tail": [
+      -4.00495,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -4.34208,
+      0.0498736,
+      0.38482
+    ],
+    "emtr_break_stab_l_to": [
+      -4.34208,
+      0.0498736,
+      1.53928
+    ],
+    "emtr_break_stab_r_from": [
+      -4.34208,
+      0.0498736,
+      -0.384868
+    ],
+    "emtr_break_stab_r_to": [
+      -4.34208,
+      0.0498736,
+      -1.53947
+    ],
+    "emtr_break_fin_from": [
+      -3.42963,
+      0.641347,
+      0.0000267049
+    ],
+    "emtr_break_fin_to": [
+      -3.42963,
+      1.48629,
+      0.0000267049
+    ]
+  },
+  "default_skin": {
+    "name": "thach",
+    "replace_tex": [
+      {
+        "from": "f2a1_c*",
+        "to": "f2a1_thach_c*"
+      },
+      {
+        "from": "f2a1_n*",
+        "to": "f2a1_thach_n*"
+      },
+      {
+        "from": "black_slim_yellow_rottex*",
+        "to": "gray_blue_yellow_red_rottex*"
+      }
+    ]
+  },
+  "weapon_presets": {
+    "preset": {
+      "name": "f2a-1_thach_default",
+      "blk": "gameData/FlightModels/weaponPresets/fw_190a_5_u14_default.blk"
+    }
+  }
+}-0.158736,
+      -0.141794,
+      -2.20071
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.158736,
+      -0.141794,
+      -2.80043
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.158736,
+      -0.141794,
+      -3.7
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.158736,
+      -0.141794,
+      -4.36255
+    ],
+    "emtr_break_wing_tail": [
+      -4.00495,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -4.34208,
+      0.0498736,
+      0.38482
+    ],
+    "emtr_break_stab_l_to": [
+      -4.34208,
+      0.0498736,
+      1.53928
+    ],
+    "emtr_break_stab_r_from": [
+      -4.34208,
+      0.0498736,
+      -0.384868
+    ],
+    "emtr_break_stab_r_to": [
+      -4.34208,
+      0.0498736,
+      -1.53947
+    ],
+    "emtr_break_fin_from": [
+      -3.42963,
+      0.641347,
+      0.0000267049
+    ],
+    "emtr_break_fin_to": [
+      -3.42963,
+      1.48629,
+      0.0000267049
+    ]
+  },
   "default_skin": {
     "name": "thach",
     "replace_tex": [

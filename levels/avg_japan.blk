@@ -80,7 +80,8 @@
     "grass": true,
     "water3d": true,
     "staticScene": true,
-    "riExtraMinSizeForReflection": 5.0
+    "riExtraMinSizeForReflection": 5.0,
+    "riExToHeightmap": true
   },
   "clipmap": {
     "texelSize": 0.03125,
@@ -339,6 +340,47 @@
       "lod1": 1500.0
     }
   }
+}         30,
+          127
+        ]
+      }
+    ]
+  },
+  "technicsSkins": {
+    "groundSkin": "forest"
+  },
+  "overrideRiLodRange": {
+    "tree_sakura_bush_a": {
+      "lod0": 100.0,
+      "lod1": 1500.0
+    },
+    "tree_sakura_bush_b": {
+      "lod0": 100.0,
+      "lod1": 1500.0
+    }
+  }
+<<<<<<< HEAD
+}         30,
+          127
+        ]
+      }
+    ]
+  },
+  "technicsSkins": {
+    "groundSkin": "forest"
+  },
+  "overrideRiLodRange": {
+    "tree_sakura_bush_a": {
+      "lod0": 100.0,
+      "lod1": 1500.0
+    },
+    "tree_sakura_bush_b": {
+      "lod0": 100.0,
+      "lod1": 1500.0
+    }
+  }
+=======
+>>>>>>> parent of 31456a6 (1.21.0.16)
 }": {
       "lod0": 100.0,
       "lod1": 1500.0

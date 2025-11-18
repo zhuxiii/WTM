@@ -44,7 +44,7 @@
     "webVromfs": {
       "maxSize": 471859200,
       "timeoutSec": 10,
-      "mainThreadTimeoutSec": 10,
+      "mainThreadTimeoutSec": 30,
       "allowCacheVromFallback": true,
       "baseUrls": {
         "url": [
@@ -365,11 +365,6 @@
   },
   "wtm-production": {
     "appPerm": 74,
-    "matchServer": [
-      "mgate-wtm-01.warthunder.com:7853",
-      "mgate-wtm-02.warthunder.com:7853",
-      "mgate-wtm-03.warthunder.com:7853"
-    ],
     "useTamVoice": true,
     "circuitPostfix": "-wtm-production",
     "queryTimeoutMs": 180000,
@@ -383,6 +378,23 @@
     "zendeskApiUploadsURL": "https://support.gaijin.net/api/v2/uploads.json?filename={0}",
     "zendeskApiRequestsURL": "https://support.gaijin.net/api/v2/requests",
     "giftsURL": "https://api.gaijinent.com/user_gift.php",
+    "matching_ws": {
+      "server": [
+        "wss://mgate-wtm-01.warthunder.com:8080",
+        "wss://mgate-wtm-02.warthunder.com:8080",
+        "wss://mgate-wtm-03.warthunder.com:8080"
+      ]
+    },
+    "matching": {
+      "server": [
+        "mgate-wtm-01.warthunder.com:7853",
+        "mgate-wtm-02.warthunder.com:7853",
+        "mgate-wtm-03.warthunder.com:7853"
+      ]
+    },
+    "matching_fallback": {
+      "server": "wss://mgate-wtm-fallback-01.warthunder.com:8080"
+    },
     "androidExitOnANR": {
       "APP_CMD_INIT_WINDOW": true,
       "APP_CMD_TERM_WINDOW": true
@@ -458,6 +470,21 @@
       }
     ]
   }
+}  {
+        "weight": 1.0,
+        "url": "https://dldata-wtmobile-aws.cdn.gaijin.net/wtm-production/"
+      }
+    ]
+  }
+<<<<<<< HEAD
+}  {
+        "weight": 1.0,
+        "url": "https://dldata-wtmobile-aws.cdn.gaijin.net/wtm-production/"
+      }
+    ]
+  }
+=======
+>>>>>>> parent of 31456a6 (1.21.0.16)
 }-production.skinsDecalsCDN.baseUrls",
       "hashesReqUrl": "https://public-configs.warthunder.com/wtm-production/dldata.info"
     }

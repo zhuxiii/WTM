@@ -37,6 +37,7 @@
   "cumulativePierceDispersion": 0.05,
   "minSecondaryShatterAngleFromArmor": 15.0,
   "splashPenetrationPrecheck": true,
+  "shattersMinSolidArmorThicknessMult": 0.5,
   "defaultCaliberToArmorForGuiPenetrationTable": 1.25,
   "secondaryShattersCountLimitForTest": 30,
   "massKineticRange": 7.0,
@@ -78,6 +79,7 @@
       0.75
     ]
   ],
+  "botTankCanSetOnFire": false,
   "newbMultsShipMissionCount": 5,
   "botShipDamageMultNewbRange": [
     0.025,
@@ -6886,6 +6888,601 @@
       125000.0
     ]
   }
+}terHitModelName": "tank_shell_apbc_destr"
+    },
+    "ap_tank": {
+      "modelName": "tank_bullet_ap",
+      "gbufferModelName": "tank_shell_apbc",
+      "afterHitModelName": "tank_shell_apbc_destr"
+    },
+    "apbc_usa_tank": {
+      "modelName": "tank_bullet_apbc",
+      "gbufferModelName": "tank_shell_apbc",
+      "afterHitModelName": "tank_shell_apbc_destr"
+    },
+    "ap_large_caliber_tank": {
+      "modelName": "tank_bullet_ap",
+      "gbufferModelName": "tank_shell_apbc",
+      "afterHitModelName": "tank_shell_apbc_destr"
+    },
+    "apc_solid_medium_caliber_tank": {
+      "modelName": "tank_bullet_apc",
+      "gbufferModelName": "tank_shell_apbc",
+      "afterHitModelName": "tank_shell_apbc_destr"
+    },
+    "apcbc_solid_medium_caliber_tank": {
+      "modelName": "tank_bullet_apcbc",
+      "gbufferModelName": "tank_shell_apbc",
+      "afterHitModelName": "tank_shell_apbc_destr"
+    },
+    "heat_tank": {
+      "modelName": "tank_bullet_heat",
+      "gbufferModelName": "tank_shell_heat"
+    },
+    "sap_hei_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "sap_tank": {
+      "modelName": "tank_bullet_aphe",
+      "gbufferModelName": "tank_shell_apbc",
+      "afterHitModelName": "tank_shell_apbc_destr"
+    },
+    "sapbc_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "sapcbc_tank": {
+      "modelName": "tank_bullet_apcbc",
+      "gbufferModelName": "tank_shell_apbc",
+      "afterHitModelName": "tank_shell_apbc_destr"
+    },
+    "sapbc_flat_nose_tank": {
+      "modelName": "tank_bullet_aphebc",
+      "gbufferModelName": "tank_shell_apbc",
+      "afterHitModelName": "tank_shell_apbc_destr"
+    },
+    "common_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "special_common_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "heat_grenade_tank": {
+      "modelName": "tank_bullet_grenade_heat_fs",
+      "gbufferModelName": "tank_shell_heat_mp_vt_fs"
+    },
+    "heat_fs_tank": {
+      "modelName": "tank_bullet_heat_fs",
+      "gbufferModelName": "tank_shell_heat_fs"
+    },
+    "heat_fs_rocket": {
+      "modelName": "tank_bullet_heat_fs",
+      "gbufferModelName": "tank_shell_heat_fs"
+    },
+    "atgm_tank": {
+      "modelName": "tank_bullet_heat_fs",
+      "gbufferModelName": "tank_shell_he_fs"
+    },
+    "atgm_vt_fuze_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "atgm_he_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "sam_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "atgm_tandem_tank": {
+      "modelName": "tank_bullet_heat_fs",
+      "gbufferModelName": "tank_shell_he_fs"
+    },
+    "he_frag_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "he_frag_vog": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "he_frag_i_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "he_frag_radio_fuse": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "he_frag_dist_fuse": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "he_frag_base_fuse_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "he_grenade_tank": {},
+    "smoke_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_smoke"
+    },
+    "smoke_grenade_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_smoke"
+    },
+    "he_frag_fs_tank": {
+      "modelName": "tank_bullet_he_fs",
+      "gbufferModelName": "tank_shell_he_fs"
+    },
+    "rocket_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "rocket_ap_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "hesh_tank": {
+      "modelName": "tank_bullet_hesh",
+      "gbufferModelName": "tank_shell_hesh"
+    },
+    "hesh_tank_rr": {
+      "modelName": "tank_bullet_hesh",
+      "gbufferModelName": "tank_shell_hesh"
+    },
+    "shrapnel_tank": {
+      "modelName": "tank_bullet_shrapnel",
+      "gbufferModelName": "tank_shell_shrapnel"
+    },
+    "ahead_tank": {
+      "modelName": "tank_bullet_shrapnel",
+      "gbufferModelName": "tank_shell_shrapnel"
+    },
+    "football_kick": {
+      "modelName": "tank_bullet_apdc",
+      "gbufferModelName": "tank_shell_apds"
+    },
+    "barshot_ship": {
+      "modelName": "tank_bullet_barshot",
+      "gbufferModelName": "tank_shell_barshot",
+      "afterHitModelName": "tank_shell_barshot_destr"
+    },
+    "roundshot": {
+      "modelName": "tank_bullet_roundshot",
+      "gbufferModelName": "tank_shell_roundshot",
+      "afterHitModelName": "tank_shell_roundshot_destr"
+    }
+  },
+  "explosiveMassToSplashDamageForBombingZone": {
+    "p0": [
+      0.002,
+      15.0
+    ],
+    "p1": [
+      0.005,
+      20.0
+    ],
+    "p2": [
+      0.008,
+      25.0
+    ],
+    "p3": [
+      0.01,
+      30.0
+    ],
+    "p4": [
+      0.013,
+      35.0
+    ],
+    "p5": [
+      0.03,
+      70.0
+    ],
+    "p6": [
+      0.1,
+      110.0
+    ],
+    "p7": [
+      0.2,
+      130.0
+    ],
+    "p8": [
+      0.6,
+      200.0
+    ],
+    "p9": [
+      3.0,
+      300.0
+    ],
+    "p10": [
+      8.0,
+      400.0
+    ],
+    "p11": [
+      15.0,
+      500.0
+    ],
+    "p12": [
+      25.0,
+      600.0
+    ],
+    "p13": [
+      35.0,
+      910.0
+    ],
+    "p14": [
+      40.0,
+      1040.0
+    ],
+    "p15": [
+      60.0,
+      1680.0
+    ],
+    "p16": [
+      80.0,
+      2400.0
+    ],
+    "p17": [
+      120.0,
+      4600.0
+    ],
+    "p18": [
+      125.0,
+      4800.0
+    ],
+    "p19": [
+      160.0,
+      6400.0
+    ],
+    "p20": [
+      250.0,
+      11000.0
+    ],
+    "p21": [
+      315.0,
+      14500.0
+    ],
+    "p22": [
+      325.0,
+      15000.0
+    ],
+    "p23": [
+      485.0,
+      23300.0
+    ],
+    "p24": [
+      500.0,
+      24000.0
+    ],
+    "p25": [
+      600.0,
+      27600.0
+    ],
+    "p26": [
+      1000.0,
+      36000.0
+    ],
+    "p27": [
+      2700.0,
+      80000.0
+    ],
+    "p28": [
+      5000.0,
+      100000.0
+    ],
+    "p29": [
+      6500.0,
+      125000.0
+    ],
+    "p30": [
+      7000.0,
+      125000.0
+    ]
+  }
+<<<<<<< HEAD
+}terHitModelName": "tank_shell_apbc_destr"
+    },
+    "ap_tank": {
+      "modelName": "tank_bullet_ap",
+      "gbufferModelName": "tank_shell_apbc",
+      "afterHitModelName": "tank_shell_apbc_destr"
+    },
+    "apbc_usa_tank": {
+      "modelName": "tank_bullet_apbc",
+      "gbufferModelName": "tank_shell_apbc",
+      "afterHitModelName": "tank_shell_apbc_destr"
+    },
+    "ap_large_caliber_tank": {
+      "modelName": "tank_bullet_ap",
+      "gbufferModelName": "tank_shell_apbc",
+      "afterHitModelName": "tank_shell_apbc_destr"
+    },
+    "apc_solid_medium_caliber_tank": {
+      "modelName": "tank_bullet_apc",
+      "gbufferModelName": "tank_shell_apbc",
+      "afterHitModelName": "tank_shell_apbc_destr"
+    },
+    "apcbc_solid_medium_caliber_tank": {
+      "modelName": "tank_bullet_apcbc",
+      "gbufferModelName": "tank_shell_apbc",
+      "afterHitModelName": "tank_shell_apbc_destr"
+    },
+    "heat_tank": {
+      "modelName": "tank_bullet_heat",
+      "gbufferModelName": "tank_shell_heat"
+    },
+    "sap_hei_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "sap_tank": {
+      "modelName": "tank_bullet_aphe",
+      "gbufferModelName": "tank_shell_apbc",
+      "afterHitModelName": "tank_shell_apbc_destr"
+    },
+    "sapbc_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "sapcbc_tank": {
+      "modelName": "tank_bullet_apcbc",
+      "gbufferModelName": "tank_shell_apbc",
+      "afterHitModelName": "tank_shell_apbc_destr"
+    },
+    "sapbc_flat_nose_tank": {
+      "modelName": "tank_bullet_aphebc",
+      "gbufferModelName": "tank_shell_apbc",
+      "afterHitModelName": "tank_shell_apbc_destr"
+    },
+    "common_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "special_common_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "heat_grenade_tank": {
+      "modelName": "tank_bullet_grenade_heat_fs",
+      "gbufferModelName": "tank_shell_heat_mp_vt_fs"
+    },
+    "heat_fs_tank": {
+      "modelName": "tank_bullet_heat_fs",
+      "gbufferModelName": "tank_shell_heat_fs"
+    },
+    "heat_fs_rocket": {
+      "modelName": "tank_bullet_heat_fs",
+      "gbufferModelName": "tank_shell_heat_fs"
+    },
+    "atgm_tank": {
+      "modelName": "tank_bullet_heat_fs",
+      "gbufferModelName": "tank_shell_he_fs"
+    },
+    "atgm_vt_fuze_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "atgm_he_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "sam_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "atgm_tandem_tank": {
+      "modelName": "tank_bullet_heat_fs",
+      "gbufferModelName": "tank_shell_he_fs"
+    },
+    "he_frag_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "he_frag_vog": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "he_frag_i_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "he_frag_radio_fuse": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "he_frag_dist_fuse": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "he_frag_base_fuse_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "he_grenade_tank": {},
+    "smoke_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_smoke"
+    },
+    "smoke_grenade_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_smoke"
+    },
+    "he_frag_fs_tank": {
+      "modelName": "tank_bullet_he_fs",
+      "gbufferModelName": "tank_shell_he_fs"
+    },
+    "rocket_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "rocket_ap_tank": {
+      "modelName": "tank_bullet_he",
+      "gbufferModelName": "tank_shell_he"
+    },
+    "hesh_tank": {
+      "modelName": "tank_bullet_hesh",
+      "gbufferModelName": "tank_shell_hesh"
+    },
+    "hesh_tank_rr": {
+      "modelName": "tank_bullet_hesh",
+      "gbufferModelName": "tank_shell_hesh"
+    },
+    "shrapnel_tank": {
+      "modelName": "tank_bullet_shrapnel",
+      "gbufferModelName": "tank_shell_shrapnel"
+    },
+    "ahead_tank": {
+      "modelName": "tank_bullet_shrapnel",
+      "gbufferModelName": "tank_shell_shrapnel"
+    },
+    "football_kick": {
+      "modelName": "tank_bullet_apdc",
+      "gbufferModelName": "tank_shell_apds"
+    },
+    "barshot_ship": {
+      "modelName": "tank_bullet_barshot",
+      "gbufferModelName": "tank_shell_barshot",
+      "afterHitModelName": "tank_shell_barshot_destr"
+    },
+    "roundshot": {
+      "modelName": "tank_bullet_roundshot",
+      "gbufferModelName": "tank_shell_roundshot",
+      "afterHitModelName": "tank_shell_roundshot_destr"
+    }
+  },
+  "explosiveMassToSplashDamageForBombingZone": {
+    "p0": [
+      0.002,
+      15.0
+    ],
+    "p1": [
+      0.005,
+      20.0
+    ],
+    "p2": [
+      0.008,
+      25.0
+    ],
+    "p3": [
+      0.01,
+      30.0
+    ],
+    "p4": [
+      0.013,
+      35.0
+    ],
+    "p5": [
+      0.03,
+      70.0
+    ],
+    "p6": [
+      0.1,
+      110.0
+    ],
+    "p7": [
+      0.2,
+      130.0
+    ],
+    "p8": [
+      0.6,
+      200.0
+    ],
+    "p9": [
+      3.0,
+      300.0
+    ],
+    "p10": [
+      8.0,
+      400.0
+    ],
+    "p11": [
+      15.0,
+      500.0
+    ],
+    "p12": [
+      25.0,
+      600.0
+    ],
+    "p13": [
+      35.0,
+      910.0
+    ],
+    "p14": [
+      40.0,
+      1040.0
+    ],
+    "p15": [
+      60.0,
+      1680.0
+    ],
+    "p16": [
+      80.0,
+      2400.0
+    ],
+    "p17": [
+      120.0,
+      4600.0
+    ],
+    "p18": [
+      125.0,
+      4800.0
+    ],
+    "p19": [
+      160.0,
+      6400.0
+    ],
+    "p20": [
+      250.0,
+      11000.0
+    ],
+    "p21": [
+      315.0,
+      14500.0
+    ],
+    "p22": [
+      325.0,
+      15000.0
+    ],
+    "p23": [
+      485.0,
+      23300.0
+    ],
+    "p24": [
+      500.0,
+      24000.0
+    ],
+    "p25": [
+      600.0,
+      27600.0
+    ],
+    "p26": [
+      1000.0,
+      36000.0
+    ],
+    "p27": [
+      2700.0,
+      80000.0
+    ],
+    "p28": [
+      5000.0,
+      100000.0
+    ],
+    "p29": [
+      6500.0,
+      125000.0
+    ],
+    "p30": [
+      7000.0,
+      125000.0
+    ]
+  }
+=======
+>>>>>>> parent of 31456a6 (1.21.0.16)
 }e": "tank_shell_roundshot",
       "afterHitModelName": "tank_shell_roundshot_destr"
     }

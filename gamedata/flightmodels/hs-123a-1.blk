@@ -2178,5 +2178,236 @@
       1.33818,
       -0.000486137
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": {
+      "from": "hs_123a1_late_a*",
+      "to": "hs_123a1_green_a*"
+    }
+  }
+} ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 0.863331,
+    "climbSpeed": 12.0,
+    "maxSpeed": 84.7222
+  },
+  "cutting": {
+    "emtr_break_wing0_l_from": [
+      -0.536419,
+      -0.560893,
+      1.04735
+    ],
+    "emtr_break_wing0_l_to": [
+      -0.536419,
+      -0.560893,
+      1.5718
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.536419,
+      -0.560893,
+      0.86816
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.536419,
+      -0.560893,
+      1.36866
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.536419,
+      -0.560893,
+      2.24632
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.536419,
+      -0.560893,
+      3.44562
+    ],
+    "emtr_break_wing0_r_from": [
+      -0.536419,
+      -0.560893,
+      -1.04735
+    ],
+    "emtr_break_wing0_r_to": [
+      -0.536419,
+      -0.560893,
+      -1.5718
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.536419,
+      -0.560893,
+      -0.86816
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.536419,
+      -0.560893,
+      -1.36866
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.536419,
+      -0.560893,
+      -2.24632
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.536419,
+      -0.560893,
+      -3.44562
+    ],
+    "emtr_break_wing_tail": [
+      -4.63521,
+      0.0,
+      0.0
+    ],
+    "emtr_break_wing_biplane": [
+      -0.536419,
+      -0.0679646,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -5.10194,
+      0.338328,
+      0.371655
+    ],
+    "emtr_break_stab_l_to": [
+      -5.10194,
+      0.338328,
+      1.48662
+    ],
+    "emtr_break_stab_r_from": [
+      -5.10194,
+      0.338328,
+      -0.370601
+    ],
+    "emtr_break_stab_r_to": [
+      -5.10194,
+      0.338328,
+      -1.4824
+    ],
+    "emtr_break_fin_from": [
+      -5.2749,
+      0.616821,
+      -0.000486137
+    ],
+    "emtr_break_fin_to": [
+      -5.2749,
+      1.33818,
+      -0.000486137
+    ]
+  }
+} ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 0.863331,
+    "climbSpeed": 12.0,
+    "maxSpeed": 84.7222
+  },
+  "cutting": {
+    "emtr_break_wing0_l_from": [
+      -0.536419,
+      -0.560893,
+      1.04735
+    ],
+    "emtr_break_wing0_l_to": [
+      -0.536419,
+      -0.560893,
+      1.5718
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.536419,
+      -0.560893,
+      0.86816
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.536419,
+      -0.560893,
+      1.36866
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.536419,
+      -0.560893,
+      2.24632
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.536419,
+      -0.560893,
+      3.44562
+    ],
+    "emtr_break_wing0_r_from": [
+      -0.536419,
+      -0.560893,
+      -1.04735
+    ],
+    "emtr_break_wing0_r_to": [
+      -0.536419,
+      -0.560893,
+      -1.5718
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.536419,
+      -0.560893,
+      -0.86816
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.536419,
+      -0.560893,
+      -1.36866
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.536419,
+      -0.560893,
+      -2.24632
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.536419,
+      -0.560893,
+      -3.44562
+    ],
+    "emtr_break_wing_tail": [
+      -4.63521,
+      0.0,
+      0.0
+    ],
+    "emtr_break_wing_biplane": [
+      -0.536419,
+      -0.0679646,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -5.10194,
+      0.338328,
+      0.371655
+    ],
+    "emtr_break_stab_l_to": [
+      -5.10194,
+      0.338328,
+      1.48662
+    ],
+    "emtr_break_stab_r_from": [
+      -5.10194,
+      0.338328,
+      -0.370601
+    ],
+    "emtr_break_stab_r_to": [
+      -5.10194,
+      0.338328,
+      -1.4824
+    ],
+    "emtr_break_fin_from": [
+      -5.2749,
+      0.616821,
+      -0.000486137
+    ],
+    "emtr_break_fin_to": [
+      -5.2749,
+      1.33818,
+      -0.000486137
+    ]
   }
 }

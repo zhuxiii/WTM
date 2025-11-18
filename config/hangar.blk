@@ -186,7 +186,7 @@
       "modelPos": [
         3712.6,
         25.9,
-        3549.19
+        3549.2
       ],
       "modelRotation": 285.0,
       "unitOffset": [
@@ -231,7 +231,7 @@
       "modelPos": [
         2927.2,
         3.5,
-        -2742.61
+        -2742.6
       ],
       "modelRotation": -197.0,
       "unitOffset": [
@@ -4269,6 +4269,475 @@
       }
     }
   ]
+}wing_r_dm",
+          "offset": [
+            6.0,
+            2.0,
+            -2.0
+          ]
+        }
+      },
+      "to": {
+        "start": {
+          "nodeName": "wing_r_dm",
+          "offset": [
+            -1.0,
+            -1.0,
+            -2.0
+          ]
+        },
+        "end": {
+          "nodeName": "wing_r_dm",
+          "offset": [
+            1.0,
+            2.0,
+            2.0
+          ]
+        }
+      }
+    },
+    {
+      "fov": 60.0,
+      "zNear": 0.05,
+      "time": 7.0,
+      "from": {
+        "start": {
+          "nodeName": "wing_l_dm",
+          "offset": [
+            3.0,
+            1.0,
+            5.0
+          ]
+        },
+        "end": {
+          "nodeName": "wing_l_dm",
+          "offset": [
+            6.0,
+            2.0,
+            -2.0
+          ]
+        }
+      },
+      "to": {
+        "start": {
+          "nodeName": "wing_l_dm",
+          "offset": [
+            -1.0,
+            -1.0,
+            -2.0
+          ]
+        },
+        "end": {
+          "nodeName": "wing_l_dm",
+          "offset": [
+            1.0,
+            2.0,
+            2.0
+          ]
+        }
+      }
+    },
+    {
+      "fov": 70.0,
+      "zNear": 0.05,
+      "time": 8.0,
+      "from": {
+        "start": {
+          "nodeName": "track_l_dm",
+          "offset": [
+            0.1,
+            1.0,
+            0.1
+          ]
+        },
+        "end": {
+          "nodeName": "track_l_dm",
+          "offset": [
+            3.0,
+            1.0,
+            1.1
+          ]
+        }
+      },
+      "to": {
+        "start": {
+          "nodeName": "track_l_dm",
+          "offset": [
+            0.1,
+            1.0,
+            -0.6
+          ]
+        },
+        "end": {
+          "nodeName": "track_l_dm",
+          "offset": [
+            0.1,
+            2.0,
+            0.6
+          ]
+        }
+      }
+    },
+    {
+      "fov": 70.0,
+      "zNear": 0.05,
+      "time": 8.0,
+      "from": {
+        "start": {
+          "nodeName": "track_r_dm",
+          "offset": [
+            0.1,
+            1.0,
+            0.1
+          ]
+        },
+        "end": {
+          "nodeName": "track_r_dm",
+          "offset": [
+            3.0,
+            1.0,
+            1.1
+          ]
+        }
+      },
+      "to": {
+        "start": {
+          "nodeName": "track_r_dm",
+          "offset": [
+            0.1,
+            1.0,
+            -0.6
+          ]
+        },
+        "end": {
+          "nodeName": "track_r_dm",
+          "offset": [
+            0.1,
+            2.0,
+            0.6
+          ]
+        }
+      }
+    },
+    {
+      "fov": 70.0,
+      "zNear": 0.05,
+      "time": 8.0,
+      "from": {
+        "start": {
+          "nodeName": "wheel_l_01_dm",
+          "offset": [
+            0.1,
+            1.0,
+            0.1
+          ]
+        },
+        "end": {
+          "nodeName": "wheel_l_01_dm",
+          "offset": [
+            3.0,
+            1.0,
+            1.1
+          ]
+        }
+      },
+      "to": {
+        "start": {
+          "nodeName": "wheel_l_01_dm",
+          "offset": [
+            0.1,
+            1.0,
+            -0.6
+          ]
+        },
+        "end": {
+          "nodeName": "wheel_l_01_dm",
+          "offset": [
+            0.1,
+            2.0,
+            0.6
+          ]
+        }
+      }
+    },
+    {
+      "fov": 70.0,
+      "zNear": 0.05,
+      "time": 8.0,
+      "from": {
+        "start": {
+          "nodeName": "wheel_r_01_dm",
+          "offset": [
+            0.1,
+            1.0,
+            0.1
+          ]
+        },
+        "end": {
+          "nodeName": "wheel_r_01_dm",
+          "offset": [
+            3.0,
+            1.0,
+            1.1
+          ]
+        }
+      },
+      "to": {
+        "start": {
+          "nodeName": "wheel_r_01_dm",
+          "offset": [
+            0.1,
+            1.0,
+            -0.6
+          ]
+        },
+        "end": {
+          "nodeName": "wheel_r_01_dm",
+          "offset": [
+            0.1,
+            2.0,
+            0.6
+          ]
+        }
+      }
+    }
+  ]
+<<<<<<< HEAD
+}wing_r_dm",
+          "offset": [
+            6.0,
+            2.0,
+            -2.0
+          ]
+        }
+      },
+      "to": {
+        "start": {
+          "nodeName": "wing_r_dm",
+          "offset": [
+            -1.0,
+            -1.0,
+            -2.0
+          ]
+        },
+        "end": {
+          "nodeName": "wing_r_dm",
+          "offset": [
+            1.0,
+            2.0,
+            2.0
+          ]
+        }
+      }
+    },
+    {
+      "fov": 60.0,
+      "zNear": 0.05,
+      "time": 7.0,
+      "from": {
+        "start": {
+          "nodeName": "wing_l_dm",
+          "offset": [
+            3.0,
+            1.0,
+            5.0
+          ]
+        },
+        "end": {
+          "nodeName": "wing_l_dm",
+          "offset": [
+            6.0,
+            2.0,
+            -2.0
+          ]
+        }
+      },
+      "to": {
+        "start": {
+          "nodeName": "wing_l_dm",
+          "offset": [
+            -1.0,
+            -1.0,
+            -2.0
+          ]
+        },
+        "end": {
+          "nodeName": "wing_l_dm",
+          "offset": [
+            1.0,
+            2.0,
+            2.0
+          ]
+        }
+      }
+    },
+    {
+      "fov": 70.0,
+      "zNear": 0.05,
+      "time": 8.0,
+      "from": {
+        "start": {
+          "nodeName": "track_l_dm",
+          "offset": [
+            0.1,
+            1.0,
+            0.1
+          ]
+        },
+        "end": {
+          "nodeName": "track_l_dm",
+          "offset": [
+            3.0,
+            1.0,
+            1.1
+          ]
+        }
+      },
+      "to": {
+        "start": {
+          "nodeName": "track_l_dm",
+          "offset": [
+            0.1,
+            1.0,
+            -0.6
+          ]
+        },
+        "end": {
+          "nodeName": "track_l_dm",
+          "offset": [
+            0.1,
+            2.0,
+            0.6
+          ]
+        }
+      }
+    },
+    {
+      "fov": 70.0,
+      "zNear": 0.05,
+      "time": 8.0,
+      "from": {
+        "start": {
+          "nodeName": "track_r_dm",
+          "offset": [
+            0.1,
+            1.0,
+            0.1
+          ]
+        },
+        "end": {
+          "nodeName": "track_r_dm",
+          "offset": [
+            3.0,
+            1.0,
+            1.1
+          ]
+        }
+      },
+      "to": {
+        "start": {
+          "nodeName": "track_r_dm",
+          "offset": [
+            0.1,
+            1.0,
+            -0.6
+          ]
+        },
+        "end": {
+          "nodeName": "track_r_dm",
+          "offset": [
+            0.1,
+            2.0,
+            0.6
+          ]
+        }
+      }
+    },
+    {
+      "fov": 70.0,
+      "zNear": 0.05,
+      "time": 8.0,
+      "from": {
+        "start": {
+          "nodeName": "wheel_l_01_dm",
+          "offset": [
+            0.1,
+            1.0,
+            0.1
+          ]
+        },
+        "end": {
+          "nodeName": "wheel_l_01_dm",
+          "offset": [
+            3.0,
+            1.0,
+            1.1
+          ]
+        }
+      },
+      "to": {
+        "start": {
+          "nodeName": "wheel_l_01_dm",
+          "offset": [
+            0.1,
+            1.0,
+            -0.6
+          ]
+        },
+        "end": {
+          "nodeName": "wheel_l_01_dm",
+          "offset": [
+            0.1,
+            2.0,
+            0.6
+          ]
+        }
+      }
+    },
+    {
+      "fov": 70.0,
+      "zNear": 0.05,
+      "time": 8.0,
+      "from": {
+        "start": {
+          "nodeName": "wheel_r_01_dm",
+          "offset": [
+            0.1,
+            1.0,
+            0.1
+          ]
+        },
+        "end": {
+          "nodeName": "wheel_r_01_dm",
+          "offset": [
+            3.0,
+            1.0,
+            1.1
+          ]
+        }
+      },
+      "to": {
+        "start": {
+          "nodeName": "wheel_r_01_dm",
+          "offset": [
+            0.1,
+            1.0,
+            -0.6
+          ]
+        },
+        "end": {
+          "nodeName": "wheel_r_01_dm",
+          "offset": [
+            0.1,
+            2.0,
+            0.6
+          ]
+        }
+      }
+    }
+  ]
+=======
+>>>>>>> parent of 31456a6 (1.21.0.16)
 }          ]
         }
       }

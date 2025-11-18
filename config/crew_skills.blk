@@ -1905,6 +1905,10 @@
           0.1,
           0.05
         ],
+        "maxBrakeForce": [
+          0.85,
+          1.0
+        ],
         "gearChangeTime": [
           0.0,
           0.0
@@ -2165,6 +2169,238 @@
         ],
         "mulRudderArea": [
           1.0,
+          1.15
+        ],
+        "mulDamageReceived": [
+          1.0,
+          0.85
+        ]
+      },
+      "ship_artillery": {
+        "mainCaliberReloadMult": [
+          1.0,
+          1.0
+        ],
+        "auxCaliberReloadMult": [
+          1.0,
+          1.0
+        ],
+        "antiairCaliberReloadMult": [
+          1.0,
+          1.0
+        ],
+        "antiairGunnerMaxAngle": [
+          2.0,
+          1.0
+        ],
+        "auxGunnerMaxAngle": [
+          2.0,
+          1.0
+        ],
+        "distFuseAccuracy": [
+          1.5,
+          1.0
+        ],
+        "shipGunnerAirAccuracyMult": [
+          1.0,
+          0.85
+        ],
+        "shipGunReloadTimeMult": [
+          1.0,
+          0.85
+        ],
+        "shipGunAimMaxDistMult": [
+          1.0,
+          1.15
+        ],
+        "shipGunAttackMaxDistMult": [
+          1.0,
+          1.15
+        ],
+        "shipSplashDamageMult": [
+          1.0,
+          1.15
+        ],
+        "shipGunMaxDeltaAngleMult": [
+          1.0,
+          0.85
+        ],
+        "shipGunMaxDeltaAngleVerticalMult": [
+          1.0,
+          0.85
+        ]
+      },
+      "ship_damage_control": {
+        "unwatering": [
+          1.5,
+          1.0
+        ],
+        "extinguisherTimeMult": [
+          1.5,
+          1.0
+        ],
+        "fireDamageMult": [
+          1.0,
+          0.85
+        ],
+        "repairTimeMult": [
+          1.5,
+          1.0
+        ],
+        "surviveEffortMult": [
+          0.75,
+          1.0
+        ],
+        "torpedoMulDistToLive": [
+          1.0,
+          1.15
+        ],
+        "torpedoesCountPacks": [
+          0.0,
+          5.0
+        ],
+        "aswBombsCountPacks": [
+          0.0,
+          5.0
+        ],
+        "depthChargesCountPacks": [
+          0.0,
+          5.0
+        ]
+      },
+      "ship_dock_service": {
+        "torpedoGunSpreadMult": [
+          1.5,
+          1.0
+        ],
+        "rocketGunSpreadMult": [
+          1.5,
+          1.0
+        ],
+        "machineGunCoolDownMult": [
+          1.5,
+          1.0
+        ]
+      }
+    }
+  }
+}      1.0,
+          1.15
+        ],
+        "mulDamageReceived": [
+          1.0,
+          0.85
+        ]
+      },
+      "ship_artillery": {
+        "mainCaliberReloadMult": [
+          1.0,
+          1.0
+        ],
+        "auxCaliberReloadMult": [
+          1.0,
+          1.0
+        ],
+        "antiairCaliberReloadMult": [
+          1.0,
+          1.0
+        ],
+        "antiairGunnerMaxAngle": [
+          2.0,
+          1.0
+        ],
+        "auxGunnerMaxAngle": [
+          2.0,
+          1.0
+        ],
+        "distFuseAccuracy": [
+          1.5,
+          1.0
+        ],
+        "shipGunnerAirAccuracyMult": [
+          1.0,
+          0.85
+        ],
+        "shipGunReloadTimeMult": [
+          1.0,
+          0.85
+        ],
+        "shipGunAimMaxDistMult": [
+          1.0,
+          1.15
+        ],
+        "shipGunAttackMaxDistMult": [
+          1.0,
+          1.15
+        ],
+        "shipSplashDamageMult": [
+          1.0,
+          1.15
+        ],
+        "shipGunMaxDeltaAngleMult": [
+          1.0,
+          0.85
+        ],
+        "shipGunMaxDeltaAngleVerticalMult": [
+          1.0,
+          0.85
+        ]
+      },
+      "ship_damage_control": {
+        "unwatering": [
+          1.5,
+          1.0
+        ],
+        "extinguisherTimeMult": [
+          1.5,
+          1.0
+        ],
+        "fireDamageMult": [
+          1.0,
+          0.85
+        ],
+        "repairTimeMult": [
+          1.5,
+          1.0
+        ],
+        "surviveEffortMult": [
+          0.75,
+          1.0
+        ],
+        "torpedoMulDistToLive": [
+          1.0,
+          1.15
+        ],
+        "torpedoesCountPacks": [
+          0.0,
+          5.0
+        ],
+        "aswBombsCountPacks": [
+          0.0,
+          5.0
+        ],
+        "depthChargesCountPacks": [
+          0.0,
+          5.0
+        ]
+      },
+      "ship_dock_service": {
+        "torpedoGunSpreadMult": [
+          1.5,
+          1.0
+        ],
+        "rocketGunSpreadMult": [
+          1.5,
+          1.0
+        ],
+        "machineGunCoolDownMult": [
+          1.5,
+          1.0
+        ]
+      }
+    }
+  }
+}      1.0,
           1.15
         ],
         "mulDamageReceived": [

@@ -1674,6 +1674,19 @@
     "maxSpeed": 192.3,
     "turnTime": 19.4
   },
+  "upgraded_skin": {
+    "name": "prem",
+    "replace_tex": [
+      {
+        "from": "ki_84_ko_c*",
+        "to": "ki_84_modern_c*"
+      },
+      {
+        "from": "ki_84_ko_n*",
+        "to": "ki_84_modern_n*"
+      }
+    ]
+  },
   "cockpit": {
     "headPos": [
       -1.561,
@@ -2073,6 +2086,214 @@
       2.6649
     ],
     "emtr_break_wing2_l_from": [
+      -0.828414,
+      -0.397969,
+      3.65025
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.828414,
+      -0.397969,
+      4.43864
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.828414,
+      -0.397969,
+      -0.830492
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.828414,
+      -0.397969,
+      -1.29168
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.828414,
+      -0.397969,
+      -2.008
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.828414,
+      -0.397969,
+      -2.6649
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.828414,
+      -0.397969,
+      -3.65025
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.828414,
+      -0.397969,
+      -4.43864
+    ],
+    "emtr_break_wing_tail": [
+      -4.79508,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -5.38467,
+      0.461626,
+      0.451762
+    ],
+    "emtr_break_stab_l_to": [
+      -5.38467,
+      0.461626,
+      1.80705
+    ],
+    "emtr_break_stab_r_from": [
+      -5.38467,
+      0.461626,
+      -0.451762
+    ],
+    "emtr_break_stab_r_to": [
+      -5.38467,
+      0.461626,
+      -1.80705
+    ],
+    "emtr_break_fin_from": [
+      -5.86646,
+      0.785742,
+      0.0000375042
+    ],
+    "emtr_break_fin_to": [
+      -5.86646,
+      1.42552,
+      0.0000375042
+    ]
+  },
+  "vehicleSkins": {
+    "steel": {
+      "replace_tex": [
+        {
+          "from": "ki_84_otsu_c*",
+          "to": "ki_84_otsu_metal_c*"
+        },
+        {
+          "from": "ki_84_ko_n*",
+          "to": "ki_84_otsu_metal_n*"
+        }
+      ]
+    }
+  },
+  "weapon_presets": {
+    "preset": {
+      "name": "ki_84_hei_prem_default",
+      "blk": "gameData/FlightModels/weaponPresets/ki_84_default.blk"
+    }
+  },
+  "default_skin": {
+    "name": "prem",
+    "replace_tex": {
+      "from": "ki_84_otsu_c*",
+      "to": "ki_84_hei_brown_c*"
+    }
+  }
+}om": [
+      -0.828414,
+      -0.397969,
+      3.65025
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.828414,
+      -0.397969,
+      4.43864
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.828414,
+      -0.397969,
+      -0.830492
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.828414,
+      -0.397969,
+      -1.29168
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.828414,
+      -0.397969,
+      -2.008
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.828414,
+      -0.397969,
+      -2.6649
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.828414,
+      -0.397969,
+      -3.65025
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.828414,
+      -0.397969,
+      -4.43864
+    ],
+    "emtr_break_wing_tail": [
+      -4.79508,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -5.38467,
+      0.461626,
+      0.451762
+    ],
+    "emtr_break_stab_l_to": [
+      -5.38467,
+      0.461626,
+      1.80705
+    ],
+    "emtr_break_stab_r_from": [
+      -5.38467,
+      0.461626,
+      -0.451762
+    ],
+    "emtr_break_stab_r_to": [
+      -5.38467,
+      0.461626,
+      -1.80705
+    ],
+    "emtr_break_fin_from": [
+      -5.86646,
+      0.785742,
+      0.0000375042
+    ],
+    "emtr_break_fin_to": [
+      -5.86646,
+      1.42552,
+      0.0000375042
+    ]
+  },
+  "vehicleSkins": {
+    "steel": {
+      "replace_tex": [
+        {
+          "from": "ki_84_otsu_c*",
+          "to": "ki_84_otsu_metal_c*"
+        },
+        {
+          "from": "ki_84_ko_n*",
+          "to": "ki_84_otsu_metal_n*"
+        }
+      ]
+    }
+  },
+  "weapon_presets": {
+    "preset": {
+      "name": "ki_84_hei_prem_default",
+      "blk": "gameData/FlightModels/weaponPresets/ki_84_default.blk"
+    }
+  },
+  "default_skin": {
+    "name": "prem",
+    "replace_tex": {
+      "from": "ki_84_otsu_c*",
+      "to": "ki_84_hei_brown_c*"
+    }
+  }
+}om": [
       -0.828414,
       -0.397969,
       3.65025

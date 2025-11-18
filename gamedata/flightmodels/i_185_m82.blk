@@ -2437,5 +2437,262 @@
       1.36004,
       -0.000341181
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": [
+      {
+        "from": "i_185_m_82a_c*",
+        "to": "i_185_m_82a_grey_a*"
+      },
+      {
+        "from": "i_185_m_82a_n*",
+        "to": "i_185_m_82a_grey_n*"
+      }
+    ]
+  }
+}       2300.0,
+          15.0
+        ],
+        "climbRateMil2": [
+          3900.0,
+          11.2
+        ],
+        "climbRateMil3": [
+          5500.0,
+          10.8
+        ],
+        "climbRateMil4": [
+          10300.0,
+          0.4
+        ]
+      }
+    }
+  },
+  "balanceData": {
+    "accSpd": 2.62542,
+    "climbSpeed": 18.51,
+    "maxSpeed": 170.83,
+    "turnTime": 22.0
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.494383,
+      -0.420775,
+      0.890864
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.494383,
+      -0.420775,
+      1.18039
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.494383,
+      -0.420775,
+      1.69292
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.494383,
+      -0.420775,
+      2.30564
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.494383,
+      -0.420775,
+      3.22471
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.494383,
+      -0.420775,
+      3.89351
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.494383,
+      -0.420775,
+      -0.891677
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.494383,
+      -0.420775,
+      -1.18039
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.494383,
+      -0.420775,
+      -1.69292
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.494383,
+      -0.420775,
+      -2.30564
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.494383,
+      -0.420775,
+      -3.22471
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.494383,
+      -0.420775,
+      -3.89351
+    ],
+    "emtr_break_wing_tail": [
+      -3.81178,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -4.3364,
+      0.0758916,
+      0.34883
+    ],
+    "emtr_break_stab_l_to": [
+      -4.3364,
+      0.0758916,
+      1.39532
+    ],
+    "emtr_break_stab_r_from": [
+      -4.3364,
+      0.0758916,
+      -0.349684
+    ],
+    "emtr_break_stab_r_to": [
+      -4.3364,
+      0.0758916,
+      -1.39873
+    ],
+    "emtr_break_fin_from": [
+      -4.1948,
+      0.617468,
+      -0.000341181
+    ],
+    "emtr_break_fin_to": [
+      -4.1948,
+      1.36004,
+      -0.000341181
+    ]
+  }
+}       2300.0,
+          15.0
+        ],
+        "climbRateMil2": [
+          3900.0,
+          11.2
+        ],
+        "climbRateMil3": [
+          5500.0,
+          10.8
+        ],
+        "climbRateMil4": [
+          10300.0,
+          0.4
+        ]
+      }
+    }
+  },
+  "balanceData": {
+    "accSpd": 2.62542,
+    "climbSpeed": 18.51,
+    "maxSpeed": 170.83,
+    "turnTime": 22.0
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.494383,
+      -0.420775,
+      0.890864
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.494383,
+      -0.420775,
+      1.18039
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.494383,
+      -0.420775,
+      1.69292
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.494383,
+      -0.420775,
+      2.30564
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.494383,
+      -0.420775,
+      3.22471
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.494383,
+      -0.420775,
+      3.89351
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.494383,
+      -0.420775,
+      -0.891677
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.494383,
+      -0.420775,
+      -1.18039
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.494383,
+      -0.420775,
+      -1.69292
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.494383,
+      -0.420775,
+      -2.30564
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.494383,
+      -0.420775,
+      -3.22471
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.494383,
+      -0.420775,
+      -3.89351
+    ],
+    "emtr_break_wing_tail": [
+      -3.81178,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -4.3364,
+      0.0758916,
+      0.34883
+    ],
+    "emtr_break_stab_l_to": [
+      -4.3364,
+      0.0758916,
+      1.39532
+    ],
+    "emtr_break_stab_r_from": [
+      -4.3364,
+      0.0758916,
+      -0.349684
+    ],
+    "emtr_break_stab_r_to": [
+      -4.3364,
+      0.0758916,
+      -1.39873
+    ],
+    "emtr_break_fin_from": [
+      -4.1948,
+      0.617468,
+      -0.000341181
+    ],
+    "emtr_break_fin_to": [
+      -4.1948,
+      1.36004,
+      -0.000341181
+    ]
   }
 }

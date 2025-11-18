@@ -708,34 +708,61 @@
         }
       ]
     }
-  }
-}falloff": 1.0,
-          "flare_component__enabled": true,
-          "flare_component__radial_distortion__distortion_curve_pow": 1.0,
-          "flare_component__radial_distortion__relative_to_center": true,
-          "flare_component__roundness": 0.114,
-          "flare_component__radial_distortion__radial_edge_size": [
-            1.5,
-            2.5
-          ]
-        },
+  },
+  "lens_flare_dynamic_lights_settings_hangar": {
+    "_use": "lens_flare_config",
+    "_tags": "render",
+    "_track": true,
+    "lens_flare_config__name": "lens_flares_dynamic_lights_cinematic_hangar",
+    "lens_flare_config__exposure_reduction": -0.5,
+    "lens_flare_config__smooth_screen_fadeout_distance": 0.1,
+    "lens_flare_config__scale": [
+      0.05,
+      0.05
+    ],
+    "lens_flare_config__intensity": 50.0,
+    "lens_flare_config__spotlight_cone_angle_deg": 360.0,
+    "lens_flare_config__use_occlusion": true,
+    "lens_flare_config__elements:array": {
+      "lens_flare_config__elements:object": [
         {
-          "flare_component__axis_offset": 0.905,
-          "flare_component__intensity": 0.001,
-          "flare_component__side_count": 8,
+          "flare_component__intensity": 0.05,
+          "flare_component__side_count": 9,
           "flare_component__scale": [
-            1.5,
-            0.1
+            41.33,
+            31.33
           ],
           "flare_component__tint": [
-            0.0,
             1.0,
-            0.0
+            0.6,
+            0.8
           ],
-          "flare_component__gradient__gradient": 0.2,
-          "flare_component__radial_distortion__enabled": true,
-          "flare_component__auto_rotation": false,
-          "flare_component__gradient__falloff": 1.0,
+          "flare_component__gradient__gradient": 0.993,
+          "flare_component__gradient__falloff": 0.06,
+          "flare_component__enabled": true,
+          "flare_component__roundness": 0.19
+        },
+        {
+          "flare_component__intensity": 0.1,
+          "flare_component__side_count": 4,
+          "flare_component__scale": [
+            10.0,
+            10.0
+          ],
+          "flare_component__tint": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "flare_component__gradient__gradient": 1.0,
+          "flare_component__gradient__falloff": 0.2,
+          "flare_component__enabled": true,
+          "flare_component__roundness": 1.0
+        }
+      ]
+    }
+  }
+}      "flare_component__gradient__falloff": 1.0,
           "flare_component__enabled": true,
           "flare_component__radial_distortion__distortion_curve_pow": 1.0,
           "flare_component__radial_distortion__relative_to_center": true,
@@ -758,6 +785,40 @@
             0.0,
             1.0
           ],
+<<<<<<< HEAD
+          "flare_component__gradient__gradient": 1.0,
+          "flare_component__gradient__falloff": 0.2,
+          "flare_component__enabled": true,
+          "flare_component__roundness": 1.0
+        }
+      ]
+    }
+  }
+}      "flare_component__gradient__falloff": 1.0,
+          "flare_component__enabled": true,
+          "flare_component__radial_distortion__distortion_curve_pow": 1.0,
+          "flare_component__radial_distortion__relative_to_center": true,
+          "flare_component__roundness": 0.114,
+          "flare_component__radial_distortion__radial_edge_size": [
+            1.5,
+            2.5
+          ]
+        },
+        {
+          "flare_component__axis_offset": 0.91,
+          "flare_component__intensity": 0.003,
+          "flare_component__side_count": 8,
+          "flare_component__scale": [
+            1.5,
+            0.1
+          ],
+          "flare_component__tint": [
+            0.0,
+            0.0,
+            1.0
+          ],
+=======
+>>>>>>> parent of 31456a6 (1.21.0.16)
           "flare_component__gradient__gradient": 0.2,
           "flare_component__radial_distortion__enabled": true,
           "flare_component__auto_rotation": false,

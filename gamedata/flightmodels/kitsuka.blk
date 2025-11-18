@@ -1930,21 +1930,6 @@
         "WeaponPreset": {
           "iconType": "gun_30mm",
           "name": "addition_cannon",
-          "ShowDmParts": {
-            "node": [
-              "engine3_dm",
-              "engine4_dm",
-              "cannon2_dm"
-            ]
-          },
-          "ShowNodes": {
-            "node": [
-              "rocket_engine_1",
-              "rocket_engine_2",
-              "cannon_r",
-              "cannon_l"
-            ]
-          },
           "Weapon": {
             "trigger": "additional gun",
             "blk": "gameData/Weapons/cannonType5_external.blk",
@@ -2103,6 +2088,263 @@
       1.67065,
       -7.43748e-7
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": [
+      {
+        "from": "kitsuka_c*",
+        "to": "kitsuka_camo_c*"
+      },
+      {
+        "from": "kitsuka_n*",
+        "to": "kitsuka_camo_n*"
+      }
+    ]
+  }
+}s/jp_navy_mod80mark1_800kg.blk",
+              "emitter": "bomb_800",
+              "dm": "bomb_dm",
+              "bullets": 1,
+              "external": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "turbulence": {
+    "segmentlength": 100.0,
+    "startSpeed": 28.0,
+    "maxSpeed": 140.0,
+    "maxPower": 6.0,
+    "initialRadius": 12.0,
+    "radiusSpeed": 2.0
+  },
+  "engineFx": {
+    "haze": "haze_jet",
+    "trail": "trail_jet",
+    "exhaust": {
+      "standard": "jet_exhaust",
+      "afterburner": "jet_afterburner_exhaust",
+      "start": "jet_start_exhaust"
+    }
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      193.0,
+      277.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "arcadeOverride": {
+    "maxSpeedMultiplier": 1.01,
+    "wepOverspeed": 1.05
+  },
+  "balanceData": {
+    "accSpd": 4.03451,
+    "climbSpeed": 20.0,
+    "maxSpeed": 240.27,
+    "turnTime": 28.1492
+  },
+  "default_skin_tomoe": {
+    "replace_tex": {
+      "from": "kitsuka_c*",
+      "to": "kitsuka_c_tomoe*"
+    }
+  },
+  "cutting": {
+    "emtr_break_wing2_l_from": [
+      -0.977803,
+      -0.16919,
+      3.44826
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.977803,
+      -0.16919,
+      4.06579
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.977803,
+      -0.16919,
+      -3.44826
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.977803,
+      -0.16919,
+      -4.06579
+    ],
+    "emtr_break_wing_tail": [
+      -4.61936,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -5.11095,
+      0.793258,
+      0.381268
+    ],
+    "emtr_break_stab_l_to": [
+      -5.11095,
+      0.793258,
+      1.52507
+    ],
+    "emtr_break_stab_r_from": [
+      -5.11095,
+      0.793258,
+      -0.381268
+    ],
+    "emtr_break_stab_r_to": [
+      -5.11095,
+      0.793258,
+      -1.52507
+    ],
+    "emtr_break_fin_from": [
+      -5.42014,
+      1.03862,
+      -7.43748e-7
+    ],
+    "emtr_break_fin_to": [
+      -5.42014,
+      1.67065,
+      -7.43748e-7
+    ]
+<<<<<<< HEAD
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": [
+      {
+        "from": "kitsuka_c*",
+        "to": "kitsuka_camo_c*"
+      },
+      {
+        "from": "kitsuka_n*",
+        "to": "kitsuka_camo_n*"
+      }
+    ]
+  }
+}s/jp_navy_mod80mark1_800kg.blk",
+              "emitter": "bomb_800",
+              "dm": "bomb_dm",
+              "bullets": 1,
+              "external": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "turbulence": {
+    "segmentlength": 100.0,
+    "startSpeed": 28.0,
+    "maxSpeed": 140.0,
+    "maxPower": 6.0,
+    "initialRadius": 12.0,
+    "radiusSpeed": 2.0
+  },
+  "engineFx": {
+    "haze": "haze_jet",
+    "trail": "trail_jet",
+    "exhaust": {
+      "standard": "jet_exhaust",
+      "afterburner": "jet_afterburner_exhaust",
+      "start": "jet_start_exhaust"
+    }
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      193.0,
+      277.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "arcadeOverride": {
+    "maxSpeedMultiplier": 1.01,
+    "wepOverspeed": 1.05
+  },
+  "balanceData": {
+    "accSpd": 4.03451,
+    "climbSpeed": 20.0,
+    "maxSpeed": 240.27,
+    "turnTime": 28.1492
+  },
+  "default_skin_tomoe": {
+    "replace_tex": {
+      "from": "kitsuka_c*",
+      "to": "kitsuka_c_tomoe*"
+    }
+  },
+  "cutting": {
+    "emtr_break_wing2_l_from": [
+      -0.977803,
+      -0.16919,
+      3.44826
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.977803,
+      -0.16919,
+      4.06579
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.977803,
+      -0.16919,
+      -3.44826
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.977803,
+      -0.16919,
+      -4.06579
+    ],
+    "emtr_break_wing_tail": [
+      -4.61936,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -5.11095,
+      0.793258,
+      0.381268
+    ],
+    "emtr_break_stab_l_to": [
+      -5.11095,
+      0.793258,
+      1.52507
+    ],
+    "emtr_break_stab_r_from": [
+      -5.11095,
+      0.793258,
+      -0.381268
+    ],
+    "emtr_break_stab_r_to": [
+      -5.11095,
+      0.793258,
+      -1.52507
+    ],
+    "emtr_break_fin_from": [
+      -5.42014,
+      1.03862,
+      -7.43748e-7
+    ],
+    "emtr_break_fin_to": [
+      -5.42014,
+      1.67065,
+      -7.43748e-7
+    ]
+=======
+>>>>>>> parent of 31456a6 (1.21.0.16)
   }
 }_stab_r_from": [
       -5.11095,

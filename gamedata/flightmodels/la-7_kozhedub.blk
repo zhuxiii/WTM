@@ -1836,6 +1836,203 @@
       -0.00815762
     ]
   },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": {
+      "from": "la_7_a*",
+      "to": "la_7_east44_a*"
+    }
+  },
+  "weapon_presets": {
+    "preset": {
+      "name": "la-7_kozhedub_default",
+      "blk": "gameData/FlightModels/weaponPresets/la-7_default.blk"
+    }
+  },
+  "default_skin": {
+    "name": "prem",
+    "replace_tex": [
+      {
+        "from": "la_7_a*",
+        "to": "la_7_kozhedub_c*"
+      },
+      {
+        "from": "la_7_n*",
+        "to": "la_7_kozhedub_n*"
+      }
+    ]
+  }
+}
+      -0.26852,
+      3.21553
+    ],
+    "emtr_break_wing2_l_to": [
+      -1.18133,
+      -0.26852,
+      3.90492
+    ],
+    "_emtr_break_wing0_r_from": [
+      -1.18133,
+      -0.26852,
+      -0.862792
+    ],
+    "_emtr_break_wing0_r_to": [
+      -1.18133,
+      -0.26852,
+      -1.14405
+    ],
+    "emtr_break_wing1_r_from": [
+      -1.18133,
+      -0.26852,
+      -1.71966
+    ],
+    "emtr_break_wing1_r_to": [
+      -1.18133,
+      -0.26852,
+      -2.32454
+    ],
+    "emtr_break_wing2_r_from": [
+      -1.18133,
+      -0.26852,
+      -3.23185
+    ],
+    "emtr_break_wing2_r_to": [
+      -1.18133,
+      -0.26852,
+      -3.92123
+    ],
+    "emtr_break_wing_tail": [
+      -4.43836,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -4.91788,
+      0.608973,
+      0.337904
+    ],
+    "emtr_break_stab_l_to": [
+      -4.91788,
+      0.608973,
+      1.35162
+    ],
+    "emtr_break_stab_r_from": [
+      -4.91788,
+      0.608973,
+      -0.341167
+    ],
+    "emtr_break_stab_r_to": [
+      -4.91788,
+      0.608973,
+      -1.36467
+    ],
+    "emtr_break_fin_from": [
+      -5.14052,
+      0.962857,
+      -0.00815762
+    ],
+    "emtr_break_fin_to": [
+      -5.14052,
+      1.49975,
+      -0.00815762
+    ]
+  },
+  "weapon_presets": {
+    "preset": {
+      "name": "la-7_kozhedub_default",
+      "blk": "gameData/FlightModels/weaponPresets/la-7_default.blk"
+    }
+  },
+  "default_skin": {
+    "name": "prem",
+    "replace_tex": [
+      {
+        "from": "la_7_a*",
+        "to": "la_7_kozhedub_c*"
+      },
+      {
+        "from": "la_7_n*",
+        "to": "la_7_kozhedub_n*"
+      }
+    ]
+  }
+}
+      -0.26852,
+      3.21553
+    ],
+    "emtr_break_wing2_l_to": [
+      -1.18133,
+      -0.26852,
+      3.90492
+    ],
+    "_emtr_break_wing0_r_from": [
+      -1.18133,
+      -0.26852,
+      -0.862792
+    ],
+    "_emtr_break_wing0_r_to": [
+      -1.18133,
+      -0.26852,
+      -1.14405
+    ],
+    "emtr_break_wing1_r_from": [
+      -1.18133,
+      -0.26852,
+      -1.71966
+    ],
+    "emtr_break_wing1_r_to": [
+      -1.18133,
+      -0.26852,
+      -2.32454
+    ],
+    "emtr_break_wing2_r_from": [
+      -1.18133,
+      -0.26852,
+      -3.23185
+    ],
+    "emtr_break_wing2_r_to": [
+      -1.18133,
+      -0.26852,
+      -3.92123
+    ],
+    "emtr_break_wing_tail": [
+      -4.43836,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -4.91788,
+      0.608973,
+      0.337904
+    ],
+    "emtr_break_stab_l_to": [
+      -4.91788,
+      0.608973,
+      1.35162
+    ],
+    "emtr_break_stab_r_from": [
+      -4.91788,
+      0.608973,
+      -0.341167
+    ],
+    "emtr_break_stab_r_to": [
+      -4.91788,
+      0.608973,
+      -1.36467
+    ],
+    "emtr_break_fin_from": [
+      -5.14052,
+      0.962857,
+      -0.00815762
+    ],
+    "emtr_break_fin_to": [
+      -5.14052,
+      1.49975,
+      -0.00815762
+    ]
+  },
   "weapon_presets": {
     "preset": {
       "name": "la-7_kozhedub_default",

@@ -3145,5 +3145,308 @@
       0.201849,
       -3.02036
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": [
+      {
+        "from": "me_264_c*",
+        "to": "me_264_black_c*"
+      },
+      {
+        "from": "me_264_n*",
+        "to": "me_264_black_n*"
+      }
+    ]
+  }
+}mitter": "bomb4",
+                "external": false,
+                "bullets": 1,
+                "separate": true,
+                "machLimit": 1.01
+              },
+              {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/de_pc1000_ap.blk",
+                "emitter": "bomb2",
+                "external": false,
+                "bullets": 1,
+                "separate": true,
+                "machLimit": 1.01
+              }
+            ],
+            "BannedWeaponPreset": [
+              {
+                "slot": 2,
+                "preset": "sc250_slot2"
+              },
+              {
+                "slot": 2,
+                "preset": "sc500_slot2"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "turbulence": {
+    "segmentlength": 100.0,
+    "startSpeed": 28.0,
+    "maxSpeed": 140.0,
+    "maxPower": 6.0,
+    "initialRadius": 12.0,
+    "radiusSpeed": 2.0
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      82.0,
+      166.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 0.78981,
+    "climbSpeed": 3.05,
+    "maxSpeed": 128.3,
+    "turnTime": 35.5487
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.185258,
+      0.33251,
+      1.64207
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.185258,
+      0.33251,
+      2.02431
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.185258,
+      0.33251,
+      4.88668
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.185258,
+      0.33251,
+      5.78934
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.185258,
+      0.33251,
+      10.523
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.185258,
+      0.33251,
+      14.0551
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.185258,
+      0.33251,
+      -1.64207
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.185258,
+      0.33251,
+      -2.02431
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.185258,
+      0.33251,
+      -4.88668
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.185258,
+      0.33251,
+      -5.78934
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.185258,
+      0.33251,
+      -10.523
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.185258,
+      0.33251,
+      -14.0551
+    ],
+    "emtr_break_wing_tail": [
+      -11.5466,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -12.3905,
+      0.201849,
+      0.75509
+    ],
+    "emtr_break_stab_l_to": [
+      -12.3905,
+      0.201849,
+      3.02036
+    ],
+    "emtr_break_stab_r_from": [
+      -12.3905,
+      0.201849,
+      -0.75509
+    ],
+    "emtr_break_stab_r_to": [
+      -12.3905,
+      0.201849,
+      -3.02036
+    ]
+  }
+}mitter": "bomb4",
+                "external": false,
+                "bullets": 1,
+                "separate": true,
+                "machLimit": 1.01
+              },
+              {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/BombGuns/de_pc1000_ap.blk",
+                "emitter": "bomb2",
+                "external": false,
+                "bullets": 1,
+                "separate": true,
+                "machLimit": 1.01
+              }
+            ],
+            "BannedWeaponPreset": [
+              {
+                "slot": 2,
+                "preset": "sc250_slot2"
+              },
+              {
+                "slot": 2,
+                "preset": "sc500_slot2"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "turbulence": {
+    "segmentlength": 100.0,
+    "startSpeed": 28.0,
+    "maxSpeed": 140.0,
+    "maxPower": 6.0,
+    "initialRadius": 12.0,
+    "radiusSpeed": 2.0
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      82.0,
+      166.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 0.78981,
+    "climbSpeed": 3.05,
+    "maxSpeed": 128.3,
+    "turnTime": 35.5487
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.185258,
+      0.33251,
+      1.64207
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.185258,
+      0.33251,
+      2.02431
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.185258,
+      0.33251,
+      4.88668
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.185258,
+      0.33251,
+      5.78934
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.185258,
+      0.33251,
+      10.523
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.185258,
+      0.33251,
+      14.0551
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.185258,
+      0.33251,
+      -1.64207
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.185258,
+      0.33251,
+      -2.02431
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.185258,
+      0.33251,
+      -4.88668
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.185258,
+      0.33251,
+      -5.78934
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.185258,
+      0.33251,
+      -10.523
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.185258,
+      0.33251,
+      -14.0551
+    ],
+    "emtr_break_wing_tail": [
+      -11.5466,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -12.3905,
+      0.201849,
+      0.75509
+    ],
+    "emtr_break_stab_l_to": [
+      -12.3905,
+      0.201849,
+      3.02036
+    ],
+    "emtr_break_stab_r_from": [
+      -12.3905,
+      0.201849,
+      -0.75509
+    ],
+    "emtr_break_stab_r_to": [
+      -12.3905,
+      0.201849,
+      -3.02036
+    ]
   }
 }

@@ -3293,6 +3293,342 @@
       0.535769,
       -2.15092
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": [
+      {
+        "from": "tu_2_a*",
+        "to": "tu_2_postwar_a*"
+      },
+      {
+        "from": "tu_2_n*",
+        "to": "tu_2_postwar_n*"
+      }
+    ]
+  }
+}          {
+            "iconType": "bomb_1500kg",
+            "name": "brab1000_external",
+            "reqModification": "der_19pk",
+            "ShowNodes": {
+              "node": [
+                "bomb1000kg_pylon2",
+                "bomb_pylon2"
+              ]
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/su_brab_1000m43_ap.blk",
+              "emitter": "bomb_1000sv_2",
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01,
+              "bullets": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "turbulence": {
+    "segmentlength": 100.0,
+    "startSpeed": 28.0,
+    "maxSpeed": 140.0,
+    "maxPower": 6.0,
+    "initialRadius": 12.0,
+    "radiusSpeed": 2.0
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      82.0,
+      194.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "autoTune": {
+    "data": [
+      {
+        "alt": 0.0,
+        "speed": 482.0,
+        "ROC": 8.6
+      },
+      {
+        "alt": 5400.0,
+        "speed": 547.0,
+        "ROC": 8.8
+      },
+      {
+        "alt": 9500.0,
+        "speed": 200.0,
+        "ROC": 0.0
+      }
+    ]
+  },
+  "balanceData": {
+    "accSpd": 0.470497,
+    "climbSpeed": 8.1,
+    "maxSpeed": 103.612,
+    "turnTime": 42.3217
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.92162,
+      0.315376,
+      1.03996
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.92162,
+      0.315376,
+      1.83003
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.92162,
+      0.315376,
+      3.58814
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.92162,
+      0.315376,
+      4.551
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.92162,
+      0.315376,
+      6.37689
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.92162,
+      0.315376,
+      7.6038
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.92162,
+      0.315376,
+      -1.03996
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.92162,
+      0.315376,
+      -1.83003
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.92162,
+      0.315376,
+      -3.58814
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.92162,
+      0.315376,
+      -4.551
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.92162,
+      0.315376,
+      -6.37689
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.92162,
+      0.315376,
+      -7.6038
+    ],
+    "emtr_break_wing_tail": [
+      -7.0297,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -7.75711,
+      0.535769,
+      0.53773
+    ],
+    "emtr_break_stab_l_to": [
+      -7.75711,
+      0.535769,
+      2.15092
+    ],
+    "emtr_break_stab_r_from": [
+      -7.75711,
+      0.535769,
+      -0.53773
+    ],
+    "emtr_break_stab_r_to": [
+      -7.75711,
+      0.535769,
+      -2.15092
+    ]
+  }
+}35769,
+      -0.53773
+    ],
+    "emtr_break_stab_r_to": [
+      -7.75711,
+      0.535769,
+      -2.15092
+    ]
+  }
+}          {
+            "iconType": "bomb_1500kg",
+            "name": "brab1000_external",
+            "reqModification": "der_19pk",
+            "ShowNodes": {
+              "node": [
+                "bomb1000kg_pylon2",
+                "bomb_pylon2"
+              ]
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/su_brab_1000m43_ap.blk",
+              "emitter": "bomb_1000sv_2",
+              "external": true,
+              "separate": true,
+              "machLimit": 1.01,
+              "bullets": 1
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "turbulence": {
+    "segmentlength": 100.0,
+    "startSpeed": 28.0,
+    "maxSpeed": 140.0,
+    "maxPower": 6.0,
+    "initialRadius": 12.0,
+    "radiusSpeed": 2.0
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      82.0,
+      194.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "autoTune": {
+    "data": [
+      {
+        "alt": 0.0,
+        "speed": 482.0,
+        "ROC": 8.6
+      },
+      {
+        "alt": 5400.0,
+        "speed": 547.0,
+        "ROC": 8.8
+      },
+      {
+        "alt": 9500.0,
+        "speed": 200.0,
+        "ROC": 0.0
+      }
+    ]
+  },
+  "balanceData": {
+    "accSpd": 0.470497,
+    "climbSpeed": 8.1,
+    "maxSpeed": 103.612,
+    "turnTime": 42.3217
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.92162,
+      0.315376,
+      1.03996
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.92162,
+      0.315376,
+      1.83003
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.92162,
+      0.315376,
+      3.58814
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.92162,
+      0.315376,
+      4.551
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.92162,
+      0.315376,
+      6.37689
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.92162,
+      0.315376,
+      7.6038
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.92162,
+      0.315376,
+      -1.03996
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.92162,
+      0.315376,
+      -1.83003
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.92162,
+      0.315376,
+      -3.58814
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.92162,
+      0.315376,
+      -4.551
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.92162,
+      0.315376,
+      -6.37689
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.92162,
+      0.315376,
+      -7.6038
+    ],
+    "emtr_break_wing_tail": [
+      -7.0297,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -7.75711,
+      0.535769,
+      0.53773
+    ],
+    "emtr_break_stab_l_to": [
+      -7.75711,
+      0.535769,
+      2.15092
+    ],
+    "emtr_break_stab_r_from": [
+      -7.75711,
+      0.535769,
+      -0.53773
+    ],
+    "emtr_break_stab_r_to": [
+      -7.75711,
+      0.535769,
+      -2.15092
+    ]
   }
 }35769,
       -0.53773

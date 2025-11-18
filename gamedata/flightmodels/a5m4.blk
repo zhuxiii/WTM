@@ -2180,5 +2180,234 @@
       1.16074,
       2.79397e-9
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": [
+      {
+        "from": "a5m4_a*",
+        "to": "a5m4_promo_a*"
+      },
+      {
+        "from": "a5m4_n*",
+        "to": "a5m4_promo_n*"
+      }
+    ]
+  }
+}: 12.8,
+    "maxSpeed": 124.16,
+    "turnTime": 15.5
+  },
+  "default_skin_tomoe": {
+    "replace_tex": {
+      "from": "a5m4_a*",
+      "to": "a5m4_a_tomoe*"
+    }
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.905626,
+      -0.377556,
+      0.882606
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.905626,
+      -0.377556,
+      0.994874
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.905626,
+      -0.377556,
+      1.40267
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.905626,
+      -0.377556,
+      2.1086
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.905626,
+      -0.377556,
+      3.16748
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.905626,
+      -0.377556,
+      4.1047
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.905626,
+      -0.377556,
+      -0.882606
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.905626,
+      -0.377556,
+      -0.994874
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.905626,
+      -0.377556,
+      -1.40267
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.905626,
+      -0.377556,
+      -2.1086
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.905626,
+      -0.377556,
+      -3.16748
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.905626,
+      -0.377556,
+      -4.1047
+    ],
+    "emtr_break_wing_tail": [
+      -4.38505,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -4.73152,
+      -0.0109999,
+      0.398276
+    ],
+    "emtr_break_stab_l_to": [
+      -4.73152,
+      -0.0109999,
+      1.59311
+    ],
+    "emtr_break_stab_r_from": [
+      -4.73152,
+      -0.0109999,
+      -0.398276
+    ],
+    "emtr_break_stab_r_to": [
+      -4.73152,
+      -0.0109999,
+      -1.59311
+    ],
+    "emtr_break_fin_from": [
+      -4.2513,
+      0.448562,
+      2.79397e-9
+    ],
+    "emtr_break_fin_to": [
+      -4.2513,
+      1.16074,
+      2.79397e-9
+    ]
+  }
+}: 12.8,
+    "maxSpeed": 124.16,
+    "turnTime": 15.5
+  },
+  "default_skin_tomoe": {
+    "replace_tex": {
+      "from": "a5m4_a*",
+      "to": "a5m4_a_tomoe*"
+    }
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.905626,
+      -0.377556,
+      0.882606
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.905626,
+      -0.377556,
+      0.994874
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.905626,
+      -0.377556,
+      1.40267
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.905626,
+      -0.377556,
+      2.1086
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.905626,
+      -0.377556,
+      3.16748
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.905626,
+      -0.377556,
+      4.1047
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.905626,
+      -0.377556,
+      -0.882606
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.905626,
+      -0.377556,
+      -0.994874
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.905626,
+      -0.377556,
+      -1.40267
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.905626,
+      -0.377556,
+      -2.1086
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.905626,
+      -0.377556,
+      -3.16748
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.905626,
+      -0.377556,
+      -4.1047
+    ],
+    "emtr_break_wing_tail": [
+      -4.38505,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -4.73152,
+      -0.0109999,
+      0.398276
+    ],
+    "emtr_break_stab_l_to": [
+      -4.73152,
+      -0.0109999,
+      1.59311
+    ],
+    "emtr_break_stab_r_from": [
+      -4.73152,
+      -0.0109999,
+      -0.398276
+    ],
+    "emtr_break_stab_r_to": [
+      -4.73152,
+      -0.0109999,
+      -1.59311
+    ],
+    "emtr_break_fin_from": [
+      -4.2513,
+      0.448562,
+      2.79397e-9
+    ],
+    "emtr_break_fin_to": [
+      -4.2513,
+      1.16074,
+      2.79397e-9
+    ]
   }
 }

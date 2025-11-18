@@ -46,7 +46,7 @@
         "presents": true,
         "minValue": 200.0,
         "maxValue": 10000.0,
-        "maxUnambiguousValue": 210000.0
+        "maxUnambiguousValue": 220000.0
       }
     }
   },
@@ -161,6 +161,26 @@
             "detectTarget": {}
           }
         },
+        "addTarget": {
+          "event": "targetDetected",
+          "actions": {
+            "addTarget": {}
+          }
+        }
+      }
+    }
+  }
+}       },
+        "addTarget": {
+          "event": "targetDetected",
+          "actions": {
+            "addTarget": {}
+          }
+        }
+      }
+    }
+  }
+}       },
         "addTarget": {
           "event": "targetDetected",
           "actions": {

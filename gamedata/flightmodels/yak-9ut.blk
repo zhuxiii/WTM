@@ -1676,6 +1676,19 @@
       -0.00129932
     ]
   },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": [
+      {
+        "from": "yak_9ut_gray_a*",
+        "to": "yak_9u_winter_a*"
+      },
+      {
+        "from": "yak_9ut_gray_n*",
+        "to": "yak_9u_winter_n*"
+      }
+    ]
+  },
   "commonWeapons": {
     "Weapon": {
       "slot": 0,
@@ -1728,6 +1741,120 @@
       {
         "index": 1,
         "tier": 7,
+        "order": 1,
+        "WeaponPreset": [
+          {
+            "iconType": "gun_7mm",
+            "name": "23mm",
+            "isDefault": true,
+            "Weapon": {
+              "trigger": "additional gun",
+              "blk": "gameData/Weapons/cannonNS23.blk",
+              "emitter": "flare3",
+              "flash": "flare3",
+              "dm": "cannon1_dm",
+              "bullets": 80,
+              "spread": 1.0
+            }
+          },
+          {
+            "iconType": "gun_12mm",
+            "name": "37mm",
+            "Weapon": {
+              "trigger": "additional gun",
+              "blk": "gameData/Weapons/cannonN37.blk",
+              "emitter": "flare4",
+              "flash": "flare4",
+              "dm": "cannon2_dm",
+              "bullets": 28,
+              "spread": 1.0,
+              "counterIndex": 2
+            }
+          },
+          {
+            "iconType": "gun_30mm",
+            "name": "45mm",
+            "Weapon": {
+              "trigger": "additional gun",
+              "blk": "gameData/Weapons/cannonNS45.blk",
+              "emitter": "flare5",
+              "flash": "flare5",
+              "dm": "cannon3_dm",
+              "bullets": 29,
+              "spread": 1.0,
+              "counterIndex": 2
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "vehicleSkins": {
+    "red": {
+      "replace_tex": {
+        "from": "yak_9ut_gray_a*",
+        "to": "yak_9ut_red_1_a*"
+      }
+    }
+  }
+}    "tier": 7,
+        "order": 1,
+        "WeaponPreset": [
+          {
+            "iconType": "gun_7mm",
+            "name": "23mm",
+            "isDefault": true,
+            "Weapon": {
+              "trigger": "additional gun",
+              "blk": "gameData/Weapons/cannonNS23.blk",
+              "emitter": "flare3",
+              "flash": "flare3",
+              "dm": "cannon1_dm",
+              "bullets": 80,
+              "spread": 1.0
+            }
+          },
+          {
+            "iconType": "gun_12mm",
+            "name": "37mm",
+            "Weapon": {
+              "trigger": "additional gun",
+              "blk": "gameData/Weapons/cannonN37.blk",
+              "emitter": "flare4",
+              "flash": "flare4",
+              "dm": "cannon2_dm",
+              "bullets": 28,
+              "spread": 1.0,
+              "counterIndex": 2
+            }
+          },
+          {
+            "iconType": "gun_30mm",
+            "name": "45mm",
+            "Weapon": {
+              "trigger": "additional gun",
+              "blk": "gameData/Weapons/cannonNS45.blk",
+              "emitter": "flare5",
+              "flash": "flare5",
+              "dm": "cannon3_dm",
+              "bullets": 29,
+              "spread": 1.0,
+              "counterIndex": 2
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "vehicleSkins": {
+    "red": {
+      "replace_tex": {
+        "from": "yak_9ut_gray_a*",
+        "to": "yak_9ut_red_1_a*"
+      }
+    }
+  }
+}    "tier": 7,
         "order": 1,
         "WeaponPreset": [
           {

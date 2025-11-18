@@ -2265,7 +2265,7 @@
       "cls_body": "convex_hull"
     },
     "engine": {
-      "horsePowers": 1217.0,
+      "horsePowers": 1314.0,
       "maxRPM": 2300.0,
       "minRPM": 660.0
     },
@@ -3372,6 +3372,316 @@
           },
           "ammo_body_38_dm": {
             "count": 1
+          },
+          "ammo_body_39_dm": {
+            "count": 1
+          },
+          "ammo_body_40_dm": {
+            "count": 1
+          },
+          "ammo_body_41_dm": {
+            "count": 1
+          },
+          "ammo_body_42_dm": {
+            "count": 1
+          },
+          "ammo_body_43_dm": {
+            "count": 1
+          },
+          "ammo_body_44_dm": {
+            "count": 1
+          },
+          "ammo_body_45_dm": {
+            "count": 1
+          },
+          "ammo_body_46_dm": {
+            "count": 1
+          },
+          "ammo_body_47_dm": {
+            "count": 1
+          },
+          "ammo_body_48_dm": {
+            "count": 1
+          },
+          "ammo_body_49_dm": {
+            "count": 1
+          },
+          "ammo_body_50_dm": {
+            "count": 1
+          },
+          "ammo_body_51_dm": {
+            "count": 1
+          },
+          "ammo_body_52_dm": {
+            "count": 1
+          },
+          "ammo_body_53_dm": {
+            "count": 1
+          },
+          "ammo_body_54_dm": {
+            "count": 1
+          },
+          "ammo_body_55_dm": {
+            "count": 1
+          },
+          "ammo_body_56_dm": {
+            "count": 1
+          },
+          "ammo_body_57_dm": {
+            "count": 1
+          },
+          "ammo_body_58_dm": {
+            "count": 1
+          },
+          "ammo_body_59_dm": {
+            "count": 1
+          },
+          "ammo_body_60_dm": {
+            "count": 1
+          },
+          "ammo_body_61_dm": {
+            "count": 1
+          },
+          "ammo_body_62_dm": {
+            "count": 1
+          },
+          "ammo_body_63_dm": {
+            "count": 1
+          },
+          "ammo_body_64_dm": {
+            "count": 1
+          },
+          "ammo_body_65_dm": {
+            "count": 1
+          },
+          "ammo_body_66_dm": {
+            "count": 1
+          },
+          "ammo_body_67_dm": {
+            "count": 1
+          },
+          "ammo_body_68_dm": {
+            "count": 1
+          },
+          "ammo_body_69_dm": {
+            "count": 1
+          }
+        }
+      ]
+    }
+  },
+  "smokeScreenExhaustEmitters": {
+    "emitter": [
+      "emtr_exhaust_01",
+      "emtr_exhaust_04"
+    ]
+  },
+  "default_skin": {
+    "replace_tex": {
+      "from": "uk_camo_very_dark_drab*",
+      "to": "uk_camo_standart_modern_light_stone*"
+    },
+    "set_tex": [
+      {
+        "from": "challenger_1_body_c*",
+        "to": "challenger_1_skin_body_c*",
+        "param": "camo_skin_tex"
+      },
+      {
+        "from": "challenger_mk_3_c*",
+        "to": "challenger_mk_3_skin_c*",
+        "param": "camo_skin_tex"
+      }
+    ]
+  },
+  "vehicleSkins": {
+    "forest": {
+      "replace_tex": {
+        "from": "uk_camo_very_dark_drab*",
+        "to": "uk_camo_very_dark_drab*"
+      },
+      "set_tex": [
+        {
+          "from": "challenger_1_body_c*",
+          "to": "challenger_1_noskin_body_c*",
+          "param": "camo_skin_tex"
+        },
+        {
+          "from": "challenger_mk_3_c*",
+          "to": "challenger_mk_3_noskin_c*",
+          "param": "camo_skin_tex"
+        }
+      ]
+    }
+  },
+  "defaultDecals": {
+    "default": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    },
+    "forest": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  }
+} 1
+          },
+          "ammo_body_39_dm": {
+            "count": 1
+          },
+          "ammo_body_40_dm": {
+            "count": 1
+          },
+          "ammo_body_41_dm": {
+            "count": 1
+          },
+          "ammo_body_42_dm": {
+            "count": 1
+          },
+          "ammo_body_43_dm": {
+            "count": 1
+          },
+          "ammo_body_44_dm": {
+            "count": 1
+          },
+          "ammo_body_45_dm": {
+            "count": 1
+          },
+          "ammo_body_46_dm": {
+            "count": 1
+          },
+          "ammo_body_47_dm": {
+            "count": 1
+          },
+          "ammo_body_48_dm": {
+            "count": 1
+          },
+          "ammo_body_49_dm": {
+            "count": 1
+          },
+          "ammo_body_50_dm": {
+            "count": 1
+          },
+          "ammo_body_51_dm": {
+            "count": 1
+          },
+          "ammo_body_52_dm": {
+            "count": 1
+          },
+          "ammo_body_53_dm": {
+            "count": 1
+          },
+          "ammo_body_54_dm": {
+            "count": 1
+          },
+          "ammo_body_55_dm": {
+            "count": 1
+          },
+          "ammo_body_56_dm": {
+            "count": 1
+          },
+          "ammo_body_57_dm": {
+            "count": 1
+          },
+          "ammo_body_58_dm": {
+            "count": 1
+          },
+          "ammo_body_59_dm": {
+            "count": 1
+          },
+          "ammo_body_60_dm": {
+            "count": 1
+          },
+          "ammo_body_61_dm": {
+            "count": 1
+          },
+          "ammo_body_62_dm": {
+            "count": 1
+          },
+          "ammo_body_63_dm": {
+            "count": 1
+          },
+          "ammo_body_64_dm": {
+            "count": 1
+          },
+          "ammo_body_65_dm": {
+            "count": 1
+          },
+          "ammo_body_66_dm": {
+            "count": 1
+          },
+          "ammo_body_67_dm": {
+            "count": 1
+          },
+          "ammo_body_68_dm": {
+            "count": 1
+          },
+          "ammo_body_69_dm": {
+            "count": 1
+          }
+        }
+      ]
+    }
+  },
+  "smokeScreenExhaustEmitters": {
+    "emitter": [
+      "emtr_exhaust_01",
+      "emtr_exhaust_04"
+    ]
+  },
+  "default_skin": {
+    "replace_tex": {
+      "from": "uk_camo_very_dark_drab*",
+      "to": "uk_camo_standart_modern_light_stone*"
+    },
+    "set_tex": [
+      {
+        "from": "challenger_1_body_c*",
+        "to": "challenger_1_skin_body_c*",
+        "param": "camo_skin_tex"
+      },
+      {
+        "from": "challenger_mk_3_c*",
+        "to": "challenger_mk_3_skin_c*",
+        "param": "camo_skin_tex"
+      }
+    ]
+  },
+  "vehicleSkins": {
+    "forest": {
+      "replace_tex": {
+        "from": "uk_camo_very_dark_drab*",
+        "to": "uk_camo_very_dark_drab*"
+      },
+      "set_tex": [
+        {
+          "from": "challenger_1_body_c*",
+          "to": "challenger_1_noskin_body_c*",
+          "param": "camo_skin_tex"
+        },
+        {
+          "from": "challenger_mk_3_c*",
+          "to": "challenger_mk_3_noskin_c*",
+          "param": "camo_skin_tex"
+        }
+      ]
+    }
+  },
+  "defaultDecals": {
+    "default": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    },
+    "forest": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  }
+} 1
           },
           "ammo_body_39_dm": {
             "count": 1

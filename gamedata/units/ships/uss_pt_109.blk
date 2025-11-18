@@ -31,27 +31,14 @@
       "armorClass": "RHA_tank",
       "hp": 480.0,
       "armorThickness": 4.0,
+      "engine_dm": {
+        "armorThickness": 1.0,
+        "hp": 30.0,
+        "explosionDamageMult": 3.0
+      },
       "body_dm": {
-        "explosionDamageMult": 3.0
-      },
-      "gun3_dm": {
-        "armorThickness": 5.0,
-        "hp": 10.0,
-        "explosionDamageMult": 3.0
-      },
-      "gun2_dm": {
-        "armorThickness": 5.0,
-        "hp": 10.0,
-        "explosionDamageMult": 3.0
-      },
-      "gun1_dm": {
-        "armorThickness": 5.0,
-        "hp": 10.0,
-        "explosionDamageMult": 3.0
-      },
-      "gun0_dm": {
-        "armorThickness": 5.0,
-        "hp": 10.0,
+        "armorThickness": 4.0,
+        "hp": 60.0,
         "explosionDamageMult": 3.0
       }
     }
@@ -251,4 +238,63 @@
       }
     }
   ]
+}          90.0
+        ]
+      }
+    },
+    {
+      "trigger": "gunner3",
+      "blk": "gameData/weapons/groundModels_weapons/searchLight_ship_gun.blk",
+      "dm": "gun3_dm",
+      "emitter": "gun3",
+      "flash": "flame3",
+      "defaultYaw": 0.0,
+      "defaultPitch": 10.0,
+      "turret": {
+        "head": "turret3",
+        "gun": "gun3"
+      },
+      "limits": {
+        "yaw": [
+          -180.0,
+          180.0
+        ],
+        "pitch": [
+          10.0,
+          80.0
+        ]
+      }
+    }
+  ]
+<<<<<<< HEAD
+}          90.0
+        ]
+      }
+    },
+    {
+      "trigger": "gunner3",
+      "blk": "gameData/weapons/groundModels_weapons/searchLight_ship_gun.blk",
+      "dm": "gun3_dm",
+      "emitter": "gun3",
+      "flash": "flame3",
+      "defaultYaw": 0.0,
+      "defaultPitch": 10.0,
+      "turret": {
+        "head": "turret3",
+        "gun": "gun3"
+      },
+      "limits": {
+        "yaw": [
+          -180.0,
+          180.0
+        ],
+        "pitch": [
+          10.0,
+          80.0
+        ]
+      }
+    }
+  ]
+=======
+>>>>>>> parent of 31456a6 (1.21.0.16)
 }

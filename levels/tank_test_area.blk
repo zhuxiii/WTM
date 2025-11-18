@@ -89,7 +89,8 @@
     "grass": true,
     "water3d": true,
     "staticScene": true,
-    "riExtraMinSizeForReflection": 5.0
+    "riExtraMinSizeForReflection": 5.0,
+    "riExToHeightmap": true
   },
   "clipmap": {
     "texelSize": 0.03125,
@@ -128,6 +129,17 @@
     ],
     "land_micro_details_uv_scale": 0.51
   }
+}      "microdetail_generic_granules_a_tex_n"
+    ],
+    "land_micro_details_uv_scale": 0.51
+  }
+<<<<<<< HEAD
+}      "microdetail_generic_granules_a_tex_n"
+    ],
+    "land_micro_details_uv_scale": 0.51
+  }
+=======
+>>>>>>> parent of 31456a6 (1.21.0.16)
 }ex_n"
     ],
     "land_micro_details_uv_scale": 0.51

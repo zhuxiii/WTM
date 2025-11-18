@@ -74,7 +74,8 @@
     "grass": true,
     "water3d": true,
     "staticScene": true,
-    "riExtraMinSizeForReflection": 5.0
+    "riExtraMinSizeForReflection": 5.0,
+    "riExToHeightmap": true
   },
   "clipmap": {
     "texelSize": 0.03125,
@@ -138,6 +139,25 @@
   "technicsSkins": {
     "groundSkin": "winter"
   }
+} 20
+  },
+  "waterStub": {
+    "enable": true
+  },
+  "technicsSkins": {
+    "groundSkin": "winter"
+  }
+<<<<<<< HEAD
+} 20
+  },
+  "waterStub": {
+    "enable": true
+  },
+  "technicsSkins": {
+    "groundSkin": "winter"
+  }
+=======
+>>>>>>> parent of 31456a6 (1.21.0.16)
 }  },
   "technicsSkins": {
     "groundSkin": "winter"

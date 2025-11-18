@@ -26,7 +26,8 @@
     "grass": true,
     "water3d": true,
     "staticScene": true,
-    "riExtraMinSizeForReflection": 5.0
+    "riExtraMinSizeForReflection": 5.0,
+    "riExToHeightmap": true
   },
   "clipmap": {
     "texelSize": 0.03125,
@@ -43,6 +44,15 @@
       32768.0
     ]
   }
+}0
+    ]
+  }
+<<<<<<< HEAD
+}0
+    ]
+  }
+=======
+>>>>>>> parent of 31456a6 (1.21.0.16)
 }earthWorldMax": [
       32768.0,
       32768.0

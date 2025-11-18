@@ -20,7 +20,8 @@
     "mass": 735.0,
     "rocket": {
       "bulletName": "rgm84",
-      "mesh": "rocket_mm38_exocet",
+      "mesh": "rocket_rgm84_harpoon",
+      "shellAnimChar": "rocket_rgm84_harpoon_deployed_char",
       "normalizationPreset": "heat",
       "ricochetPreset": "atgm",
       "groundRicochetPreset": "he_ground",
@@ -327,6 +328,34 @@
             },
             {
               "radiusScale": 0.5,
+              "penetrationScale": 1.0,
+              "damageScale": 2.0,
+              "angles": [
+                260.0,
+                359.0
+              ],
+              "countPortion": 0.3
+            }
+          ]
+        }
+      }
+    }
+  }
+}usScale": 0.5,
+              "penetrationScale": 1.0,
+              "damageScale": 2.0,
+              "angles": [
+                260.0,
+                359.0
+              ],
+              "countPortion": 0.3
+            }
+          ]
+        }
+      }
+    }
+  }
+}usScale": 0.5,
               "penetrationScale": 1.0,
               "damageScale": 2.0,
               "angles": [

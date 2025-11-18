@@ -2144,5 +2144,236 @@
       1.20782,
       0.0035887
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": {
+      "from": "ta_152h_1_a*",
+      "to": "ta_152h_1_german45_a*"
+    }
+  }
+}
+        "from": "ta_152h_1_a*"
+      },
+      {
+        "from": "ta_152h_1_n*"
+      }
+    ]
+  },
+  "default_skin_tomoe": {
+    "replace_tex": {
+      "from": "ta_152h_1_a*",
+      "to": "ta_152h_1_a_tomoe*"
+    }
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.212179,
+      -0.480005,
+      0.95387
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.212179,
+      -0.480005,
+      1.64543
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.212179,
+      -0.480005,
+      2.68276
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.212179,
+      -0.480005,
+      3.53508
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.212179,
+      -0.480005,
+      4.81356
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.212179,
+      -0.480005,
+      5.74954
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.212179,
+      -0.480005,
+      -0.95387
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.212179,
+      -0.480005,
+      -1.64543
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.212179,
+      -0.480005,
+      -2.68276
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.212179,
+      -0.480005,
+      -3.53508
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.212179,
+      -0.480005,
+      -4.81356
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.212179,
+      -0.480005,
+      -5.74954
+    ],
+    "emtr_break_wing_tail": [
+      -5.17504,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -5.48426,
+      0.200523,
+      0.363386
+    ],
+    "emtr_break_stab_l_to": [
+      -5.48426,
+      0.200523,
+      1.45354
+    ],
+    "emtr_break_stab_r_from": [
+      -5.48426,
+      0.200523,
+      -0.364076
+    ],
+    "emtr_break_stab_r_to": [
+      -5.48426,
+      0.200523,
+      -1.4563
+    ],
+    "emtr_break_fin_from": [
+      -5.61869,
+      0.458278,
+      0.0035887
+    ],
+    "emtr_break_fin_to": [
+      -5.61869,
+      1.20782,
+      0.0035887
+    ]
+  }
+}
+        "from": "ta_152h_1_a*"
+      },
+      {
+        "from": "ta_152h_1_n*"
+      }
+    ]
+  },
+  "default_skin_tomoe": {
+    "replace_tex": {
+      "from": "ta_152h_1_a*",
+      "to": "ta_152h_1_a_tomoe*"
+    }
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.212179,
+      -0.480005,
+      0.95387
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.212179,
+      -0.480005,
+      1.64543
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.212179,
+      -0.480005,
+      2.68276
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.212179,
+      -0.480005,
+      3.53508
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.212179,
+      -0.480005,
+      4.81356
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.212179,
+      -0.480005,
+      5.74954
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.212179,
+      -0.480005,
+      -0.95387
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.212179,
+      -0.480005,
+      -1.64543
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.212179,
+      -0.480005,
+      -2.68276
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.212179,
+      -0.480005,
+      -3.53508
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.212179,
+      -0.480005,
+      -4.81356
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.212179,
+      -0.480005,
+      -5.74954
+    ],
+    "emtr_break_wing_tail": [
+      -5.17504,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -5.48426,
+      0.200523,
+      0.363386
+    ],
+    "emtr_break_stab_l_to": [
+      -5.48426,
+      0.200523,
+      1.45354
+    ],
+    "emtr_break_stab_r_from": [
+      -5.48426,
+      0.200523,
+      -0.364076
+    ],
+    "emtr_break_stab_r_to": [
+      -5.48426,
+      0.200523,
+      -1.4563
+    ],
+    "emtr_break_fin_from": [
+      -5.61869,
+      0.458278,
+      0.0035887
+    ],
+    "emtr_break_fin_to": [
+      -5.61869,
+      1.20782,
+      0.0035887
+    ]
   }
 }

@@ -4096,5 +4096,430 @@
       1.80244,
       -5.51567e-7
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": [
+      {
+        "from": "f4u_4_a*",
+        "to": "f4u_4_marines_c*"
+      },
+      {
+        "from": "f4u_4_n*",
+        "to": "f4u_4_marines_n*"
+      }
+    ]
+  }
+}      "dm": "engine1_dm",
+        "dp": [
+          "prop01_1",
+          "prop02_1",
+          "prop03_1",
+          "prop_side_1",
+          "fan01_1",
+          "fan02_1",
+          "fan03_1"
+        ]
+      },
+      {
+        "dm": "engine2_dm",
+        "dp": [
+          "prop01_2",
+          "prop02_2",
+          "prop03_2",
+          "prop_side_2",
+          "fan01_2",
+          "fan02_2",
+          "fan03_2"
+        ]
+      },
+      {
+        "dm": "engine3_dm",
+        "dp": [
+          "prop01_3",
+          "prop02_3",
+          "prop03_3",
+          "prop_side_3",
+          "fan01_3",
+          "fan02_3",
+          "fan03_3"
+        ]
+      },
+      {
+        "dm": "engine4_dm",
+        "dp": [
+          "prop01_4",
+          "prop02_4",
+          "prop03_4",
+          "prop_side_4",
+          "fan01_4",
+          "fan02_4",
+          "fan03_4"
+        ]
+      },
+      {
+        "dm": "engine5_dm",
+        "dp": [
+          "prop01_5",
+          "prop02_5",
+          "prop03_5",
+          "prop_side_5",
+          "fan01_5",
+          "fan02_5",
+          "fan03_5"
+        ]
+      },
+      {
+        "dm": "engine6_dm",
+        "dp": [
+          "prop01_6",
+          "prop02_6",
+          "prop03_6",
+          "prop_side_6",
+          "fan01_6",
+          "fan02_6",
+          "fan03_6"
+        ]
+      },
+      {
+        "dm": "gear_c_dm",
+        "dp": [
+          "hook",
+          "hook1",
+          "hook_catch"
+        ]
+      },
+      {
+        "dm": "flap1_l_dm",
+        "dp": "flap4_l"
+      },
+      {
+        "dm": "flap1_r_dm",
+        "dp": "flap4_r"
+      }
+    ]
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      138.0,
+      223.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 2.28503,
+    "climbSpeed": 15.1529,
+    "maxSpeed": 161.575,
+    "turnTime": 41.2926
+  },
+  "modifications": {},
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.456011,
+      -0.534612,
+      0.907866
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.456011,
+      -0.534612,
+      1.19074
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.456011,
+      -0.534612,
+      1.67994
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.456011,
+      -0.534612,
+      2.41382
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.456011,
+      -0.534612,
+      3.51464
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.456011,
+      -0.534612,
+      4.6098
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.456011,
+      -0.534612,
+      -0.907868
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.456011,
+      -0.534612,
+      -1.19074
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.456011,
+      -0.534612,
+      -1.67994
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.456011,
+      -0.534612,
+      -2.41382
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.456011,
+      -0.534612,
+      -3.51464
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.456011,
+      -0.534612,
+      -4.6098
+    ],
+    "emtr_break_wing_tail": [
+      -5.65844,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -6.36511,
+      0.424587,
+      0.493521
+    ],
+    "emtr_break_stab_l_to": [
+      -6.36511,
+      0.424587,
+      1.97408
+    ],
+    "emtr_break_stab_r_from": [
+      -6.36511,
+      0.424587,
+      -0.493521
+    ],
+    "emtr_break_stab_r_to": [
+      -6.36511,
+      0.424587,
+      -1.97409
+    ],
+    "emtr_break_fin_from": [
+      -5.79971,
+      0.854124,
+      -5.51567e-7
+    ],
+    "emtr_break_fin_to": [
+      -5.79971,
+      1.80244,
+      -5.51567e-7
+    ]
+  }
+}      "dm": "engine1_dm",
+        "dp": [
+          "prop01_1",
+          "prop02_1",
+          "prop03_1",
+          "prop_side_1",
+          "fan01_1",
+          "fan02_1",
+          "fan03_1"
+        ]
+      },
+      {
+        "dm": "engine2_dm",
+        "dp": [
+          "prop01_2",
+          "prop02_2",
+          "prop03_2",
+          "prop_side_2",
+          "fan01_2",
+          "fan02_2",
+          "fan03_2"
+        ]
+      },
+      {
+        "dm": "engine3_dm",
+        "dp": [
+          "prop01_3",
+          "prop02_3",
+          "prop03_3",
+          "prop_side_3",
+          "fan01_3",
+          "fan02_3",
+          "fan03_3"
+        ]
+      },
+      {
+        "dm": "engine4_dm",
+        "dp": [
+          "prop01_4",
+          "prop02_4",
+          "prop03_4",
+          "prop_side_4",
+          "fan01_4",
+          "fan02_4",
+          "fan03_4"
+        ]
+      },
+      {
+        "dm": "engine5_dm",
+        "dp": [
+          "prop01_5",
+          "prop02_5",
+          "prop03_5",
+          "prop_side_5",
+          "fan01_5",
+          "fan02_5",
+          "fan03_5"
+        ]
+      },
+      {
+        "dm": "engine6_dm",
+        "dp": [
+          "prop01_6",
+          "prop02_6",
+          "prop03_6",
+          "prop_side_6",
+          "fan01_6",
+          "fan02_6",
+          "fan03_6"
+        ]
+      },
+      {
+        "dm": "gear_c_dm",
+        "dp": [
+          "hook",
+          "hook1",
+          "hook_catch"
+        ]
+      },
+      {
+        "dm": "flap1_l_dm",
+        "dp": "flap4_l"
+      },
+      {
+        "dm": "flap1_r_dm",
+        "dp": "flap4_r"
+      }
+    ]
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      138.0,
+      223.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 2.28503,
+    "climbSpeed": 15.1529,
+    "maxSpeed": 161.575,
+    "turnTime": 41.2926
+  },
+  "modifications": {},
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.456011,
+      -0.534612,
+      0.907866
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.456011,
+      -0.534612,
+      1.19074
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.456011,
+      -0.534612,
+      1.67994
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.456011,
+      -0.534612,
+      2.41382
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.456011,
+      -0.534612,
+      3.51464
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.456011,
+      -0.534612,
+      4.6098
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.456011,
+      -0.534612,
+      -0.907868
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.456011,
+      -0.534612,
+      -1.19074
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.456011,
+      -0.534612,
+      -1.67994
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.456011,
+      -0.534612,
+      -2.41382
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.456011,
+      -0.534612,
+      -3.51464
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.456011,
+      -0.534612,
+      -4.6098
+    ],
+    "emtr_break_wing_tail": [
+      -5.65844,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -6.36511,
+      0.424587,
+      0.493521
+    ],
+    "emtr_break_stab_l_to": [
+      -6.36511,
+      0.424587,
+      1.97408
+    ],
+    "emtr_break_stab_r_from": [
+      -6.36511,
+      0.424587,
+      -0.493521
+    ],
+    "emtr_break_stab_r_to": [
+      -6.36511,
+      0.424587,
+      -1.97409
+    ],
+    "emtr_break_fin_from": [
+      -5.79971,
+      0.854124,
+      -5.51567e-7
+    ],
+    "emtr_break_fin_to": [
+      -5.79971,
+      1.80244,
+      -5.51567e-7
+    ]
   }
 }

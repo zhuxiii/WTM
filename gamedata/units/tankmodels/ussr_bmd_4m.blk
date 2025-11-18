@@ -3679,4 +3679,357 @@
       "details_10"
     ]
   }
+}           "forestallTime": 0.1,
+              "turret": {
+                "head": "bone_grenade",
+                "gun": "bone_grenade"
+              },
+              "limits": {
+                "yaw": [
+                  0.0,
+                  0.0
+                ],
+                "pitch": [
+                  0.0,
+                  0.0
+                ]
+              }
+            }
+          ],
+          "hideNodes": {
+            "node": [
+              "ex_decor_06",
+              "ex_decor_02",
+              "ex_decor_03",
+              "ex_decor_01",
+              "ex_decor_04",
+              "ex_decor_10"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "enabled_modifications": {
+    "tank_smoke_screen_system_mod": true
+  },
+  "smokeScreenExhaustEmitters": {
+    "emitter": [
+      "emtr_exhaust_01",
+      "emtr_exhaust_04"
+    ]
+  },
+  "default_skin": {
+    "replace_tex": {
+      "from": "ussr_camo_green*",
+      "to": "ussr_camo_deform*"
+    }
+  },
+  "defaultDecals": {
+    "default": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0,
+      "decal0Line0": [
+        1.60174,
+        -7.0038e-8,
+        0.0415191,
+        1.58297
+      ],
+      "decal0Line1": [
+        -8.18868e-8,
+        -1.60228,
+        4.56626e-7,
+        2.84689
+      ],
+      "decal0Line2": [
+        -1.60174,
+        -7.0038e-8,
+        0.0415191,
+        -0.582968
+      ],
+      "decal0Line3": [
+        5.81042e-8,
+        -1.60228,
+        -4.59611e-7,
+        2.84689
+      ],
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        0.0259125,
+        -2.86787e-7,
+        -0.999664,
+        -1.59279
+      ],
+      "decal0CPNormDepth1": [
+        0.0259125,
+        -2.86787e-7,
+        0.999664,
+        -1.59279
+      ],
+      "decal0RotScale": [
+        1.5708,
+        0.62411
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.235229,
+      "decal0Tex": "ussr_bmd_4m_decal",
+      "decal1Line0": [
+        -3.40772e-8,
+        -3.40772e-8,
+        1.14344,
+        0.498524
+      ],
+      "decal1Line1": [
+        -0.808536,
+        -0.808536,
+        -4.99815e-8,
+        3.68819
+      ],
+      "decal1Line2": [
+        -3.40772e-8,
+        -3.40772e-8,
+        -1.14344,
+        0.501476
+      ],
+      "decal1Line3": [
+        -0.808536,
+        -0.808536,
+        4.99815e-8,
+        3.68819
+      ],
+      "decal1HaveCP": true,
+      "decal1CPNormDepth": [
+        0.707107,
+        -0.707107,
+        0.0,
+        -1.30659
+      ],
+      "decal1CPNormDepth1": [
+        -0.707107,
+        0.707107,
+        -0.0,
+        1.2826
+      ],
+      "decal1RotScale": [
+        1.5708,
+        0.874552
+      ],
+      "decal1Mirrored": false,
+      "decal1Wrap": false,
+      "decal1Abs": false,
+      "decal1OppositeMirrored": false,
+      "decal1WidthBox": 0.257023,
+      "decal1Tex": "ussr_bmd_4m_decal"
+    },
+    "forest": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  },
+  "vehicleSkins": {
+    "forest": {
+      "replace_tex": {
+        "from": "ussr_camo_green*",
+        "to": "ussr_modern_green*"
+      }
+    }
+  },
+  "battleHideNodes": {
+    "n": [
+      "details",
+      "details_01",
+      "details_02",
+      "details_03",
+      "details_04",
+      "details_05",
+      "details_06",
+      "details_07",
+      "details_08",
+      "details_09",
+      "details_10"
+    ]
+  }
+<<<<<<< HEAD
+}           "forestallTime": 0.1,
+              "turret": {
+                "head": "bone_grenade",
+                "gun": "bone_grenade"
+              },
+              "limits": {
+                "yaw": [
+                  0.0,
+                  0.0
+                ],
+                "pitch": [
+                  0.0,
+                  0.0
+                ]
+              }
+            }
+          ],
+          "hideNodes": {
+            "node": [
+              "ex_decor_06",
+              "ex_decor_02",
+              "ex_decor_03",
+              "ex_decor_01",
+              "ex_decor_04",
+              "ex_decor_10"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "enabled_modifications": {
+    "tank_smoke_screen_system_mod": true
+  },
+  "smokeScreenExhaustEmitters": {
+    "emitter": [
+      "emtr_exhaust_01",
+      "emtr_exhaust_04"
+    ]
+  },
+  "default_skin": {
+    "replace_tex": {
+      "from": "ussr_camo_green*",
+      "to": "ussr_camo_deform*"
+    }
+  },
+  "defaultDecals": {
+    "default": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0,
+      "decal0Line0": [
+        1.60174,
+        -7.0038e-8,
+        0.0415191,
+        1.58297
+      ],
+      "decal0Line1": [
+        -8.18868e-8,
+        -1.60228,
+        4.56626e-7,
+        2.84689
+      ],
+      "decal0Line2": [
+        -1.60174,
+        -7.0038e-8,
+        0.0415191,
+        -0.582968
+      ],
+      "decal0Line3": [
+        5.81042e-8,
+        -1.60228,
+        -4.59611e-7,
+        2.84689
+      ],
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        0.0259125,
+        -2.86787e-7,
+        -0.999664,
+        -1.59279
+      ],
+      "decal0CPNormDepth1": [
+        0.0259125,
+        -2.86787e-7,
+        0.999664,
+        -1.59279
+      ],
+      "decal0RotScale": [
+        1.5708,
+        0.62411
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.235229,
+      "decal0Tex": "ussr_bmd_4m_decal",
+      "decal1Line0": [
+        -3.40772e-8,
+        -3.40772e-8,
+        1.14344,
+        0.498524
+      ],
+      "decal1Line1": [
+        -0.808536,
+        -0.808536,
+        -4.99815e-8,
+        3.68819
+      ],
+      "decal1Line2": [
+        -3.40772e-8,
+        -3.40772e-8,
+        -1.14344,
+        0.501476
+      ],
+      "decal1Line3": [
+        -0.808536,
+        -0.808536,
+        4.99815e-8,
+        3.68819
+      ],
+      "decal1HaveCP": true,
+      "decal1CPNormDepth": [
+        0.707107,
+        -0.707107,
+        0.0,
+        -1.30659
+      ],
+      "decal1CPNormDepth1": [
+        -0.707107,
+        0.707107,
+        -0.0,
+        1.2826
+      ],
+      "decal1RotScale": [
+        1.5708,
+        0.874552
+      ],
+      "decal1Mirrored": false,
+      "decal1Wrap": false,
+      "decal1Abs": false,
+      "decal1OppositeMirrored": false,
+      "decal1WidthBox": 0.257023,
+      "decal1Tex": "ussr_bmd_4m_decal"
+    },
+    "forest": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  },
+  "vehicleSkins": {
+    "forest": {
+      "replace_tex": {
+        "from": "ussr_camo_green*",
+        "to": "ussr_modern_green*"
+      }
+    }
+  },
+  "battleHideNodes": {
+    "n": [
+      "details",
+      "details_01",
+      "details_02",
+      "details_03",
+      "details_04",
+      "details_05",
+      "details_06",
+      "details_07",
+      "details_08",
+      "details_09",
+      "details_10"
+    ]
+  }
+=======
+>>>>>>> parent of 31456a6 (1.21.0.16)
 }

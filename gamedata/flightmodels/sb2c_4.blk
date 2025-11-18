@@ -2910,5 +2910,286 @@
       2.60958,
       0.00188086
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": [
+      {
+        "from": "sb2c_4_a*",
+        "to": "sb2c_4_blue_a*"
+      },
+      {
+        "from": "sb2c_4_n*",
+        "to": "sb2c_4_blue_n*"
+      }
+    ]
+  }
+}   "bullets": 1
+            },
+            {
+              "trigger": "rockets",
+              "external": true,
+              "separate": true,
+              "blk": "gameData/Weapons/rocketGuns/us_5_in_hvar_a.blk",
+              "emitter": "rocket6",
+              "bullets": 1
+            },
+            {
+              "trigger": "rockets",
+              "external": true,
+              "separate": true,
+              "blk": "gameData/Weapons/rocketGuns/us_5_in_hvar_a.blk",
+              "emitter": "rocket5",
+              "bullets": 1
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "jetwash": {
+    "radius": 10.0,
+    "minDist": 50.0,
+    "timeToLive": 45.0,
+    "maxPower": 6.0,
+    "maxSegments": 50
+  },
+  "turbulence": {
+    "segmentlength": 100.0,
+    "startSpeed": 28.0,
+    "maxSpeed": 140.0,
+    "maxPower": 6.0,
+    "initialRadius": 12.0,
+    "radiusSpeed": 2.0
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      82.0,
+      166.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 1.32112,
+    "climbSpeed": 6.12,
+    "maxSpeed": 125.1,
+    "turnTime": 23.0
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -1.18567,
+      -0.138279,
+      1.13969
+    ],
+    "_emtr_break_wing0_l_to": [
+      -1.18567,
+      -0.138279,
+      2.03061
+    ],
+    "emtr_break_wing1_l_from": [
+      -1.18567,
+      -0.138279,
+      3.36699
+    ],
+    "emtr_break_wing1_l_to": [
+      -1.18567,
+      -0.138279,
+      4.12487
+    ],
+    "_emtr_break_wing0_r_from": [
+      -1.18567,
+      -0.138279,
+      -1.13969
+    ],
+    "_emtr_break_wing0_r_to": [
+      -1.18567,
+      -0.138279,
+      -2.03061
+    ],
+    "emtr_break_wing1_r_from": [
+      -1.18567,
+      -0.138279,
+      -3.36699
+    ],
+    "emtr_break_wing1_r_to": [
+      -1.18567,
+      -0.138279,
+      -4.12487
+    ],
+    "emtr_break_wing_tail": [
+      -3.7967,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -5.46471,
+      0.866208,
+      0.631988
+    ],
+    "emtr_break_stab_l_to": [
+      -5.46471,
+      0.866208,
+      2.32509
+    ],
+    "emtr_break_stab_r_from": [
+      -5.46471,
+      0.866208,
+      -0.631988
+    ],
+    "emtr_break_stab_r_to": [
+      -5.46471,
+      0.866208,
+      -2.32509
+    ],
+    "emtr_break_fin_from": [
+      -5.59832,
+      1.37451,
+      0.00188086
+    ],
+    "emtr_break_fin_to": [
+      -5.59832,
+      2.60958,
+      0.00188086
+    ]
+  }
+}   "bullets": 1
+            },
+            {
+              "trigger": "rockets",
+              "external": true,
+              "separate": true,
+              "blk": "gameData/Weapons/rocketGuns/us_5_in_hvar_a.blk",
+              "emitter": "rocket6",
+              "bullets": 1
+            },
+            {
+              "trigger": "rockets",
+              "external": true,
+              "separate": true,
+              "blk": "gameData/Weapons/rocketGuns/us_5_in_hvar_a.blk",
+              "emitter": "rocket5",
+              "bullets": 1
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "jetwash": {
+    "radius": 10.0,
+    "minDist": 50.0,
+    "timeToLive": 45.0,
+    "maxPower": 6.0,
+    "maxSegments": 50
+  },
+  "turbulence": {
+    "segmentlength": 100.0,
+    "startSpeed": 28.0,
+    "maxSpeed": 140.0,
+    "maxPower": 6.0,
+    "initialRadius": 12.0,
+    "radiusSpeed": 2.0
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      82.0,
+      166.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 1.32112,
+    "climbSpeed": 6.12,
+    "maxSpeed": 125.1,
+    "turnTime": 23.0
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -1.18567,
+      -0.138279,
+      1.13969
+    ],
+    "_emtr_break_wing0_l_to": [
+      -1.18567,
+      -0.138279,
+      2.03061
+    ],
+    "emtr_break_wing1_l_from": [
+      -1.18567,
+      -0.138279,
+      3.36699
+    ],
+    "emtr_break_wing1_l_to": [
+      -1.18567,
+      -0.138279,
+      4.12487
+    ],
+    "_emtr_break_wing0_r_from": [
+      -1.18567,
+      -0.138279,
+      -1.13969
+    ],
+    "_emtr_break_wing0_r_to": [
+      -1.18567,
+      -0.138279,
+      -2.03061
+    ],
+    "emtr_break_wing1_r_from": [
+      -1.18567,
+      -0.138279,
+      -3.36699
+    ],
+    "emtr_break_wing1_r_to": [
+      -1.18567,
+      -0.138279,
+      -4.12487
+    ],
+    "emtr_break_wing_tail": [
+      -3.7967,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -5.46471,
+      0.866208,
+      0.631988
+    ],
+    "emtr_break_stab_l_to": [
+      -5.46471,
+      0.866208,
+      2.32509
+    ],
+    "emtr_break_stab_r_from": [
+      -5.46471,
+      0.866208,
+      -0.631988
+    ],
+    "emtr_break_stab_r_to": [
+      -5.46471,
+      0.866208,
+      -2.32509
+    ],
+    "emtr_break_fin_from": [
+      -5.59832,
+      1.37451,
+      0.00188086
+    ],
+    "emtr_break_fin_to": [
+      -5.59832,
+      2.60958,
+      0.00188086
+    ]
   }
 }

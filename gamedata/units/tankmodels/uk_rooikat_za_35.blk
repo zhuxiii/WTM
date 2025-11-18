@@ -2119,6 +2119,26 @@
       "blk": "gameData/units/tankModels/weaponPresets/uk_rooikat_za_35_default.blk"
     }
   },
+  "sensors": {
+    "sensor": [
+      {
+        "blk": "gameData/sensors/uk_rooikat_za_35_search_radar.blk",
+        "turretIndex": 0,
+        "designationFromBody": true,
+        "designationTurretIndex": 0,
+        "dmPart": "antenna_target_location_dm",
+        "radarParkingAzimuth": 180.0
+      },
+      {
+        "blk": "gameData/sensors/sam_tv_ir_track.blk",
+        "turretIndex": 0,
+        "dmPart": "optic_gun_dm"
+      },
+      {
+        "blk": "gameData/sensors/LaserBeamRidingSensor.blk"
+      }
+    ]
+  },
   "VehiclePhys": {
     "Mass": {
       "Empty": 31000.0,
@@ -3213,6 +3233,279 @@
   "battleHideNodes": {
     "n": "details"
   }
+}osOnShooting": [
+      0.0,
+      3.7,
+      0.4
+    ],
+    "detectionHeight": 2.42
+  },
+  "ammoStowages": {
+    "ammo1": {
+      "weaponTrigger": "gunner0",
+      "removeLoadedAmmo": false,
+      "fatalFire": true,
+      "fatalExplosion": true,
+      "shells": {
+        "fireEvent": "ammo_fire",
+        "explosionEvent": "ammo_explosion",
+        "wreckedPartId": 0,
+        "ammo_body_dm": {
+          "count": 460
+        }
+      }
+    }
+  },
+  "modifications": {
+    "upgraded": {},
+    "art_support": {},
+    "tank_extinguisher": {},
+    "tank_tool_kit_expendable": {},
+    "art_support_smoke": {},
+    "art_support_mortars": {},
+    "art_support_highcaliber": {},
+    "tank_smoke_screen_low_cooldown": {},
+    "tank_smoke_screen_long_duration": {},
+    "tank_engine_smoke_screen_system": {}
+  },
+  "enabled_modifications": {
+    "tank_engine_smoke_screen_system": true
+  },
+  "ammo": {
+    "combustionTime": 10.0,
+    "detonateProb": 0.15,
+    "detonatePortion": [
+      0.3,
+      0.9
+    ],
+    "explodeHitPower": 1250.0,
+    "hitPowerMult": 1.0,
+    "nearHitPower": [
+      1.0,
+      50.0
+    ],
+    "midHitPower": [
+      0.9,
+      400.0
+    ],
+    "farHitPower": [
+      0.1,
+      1000.0
+    ],
+    "endHitPower": [
+      0.01,
+      1500.0
+    ],
+    "relativeVelHitShift": [
+      300.0,
+      1000.0
+    ],
+    "nearArmorPower": [
+      10.0,
+      50.0
+    ],
+    "midArmorPower": [
+      7.0,
+      400.0
+    ],
+    "farArmorPower": [
+      0.2,
+      700.0
+    ],
+    "relativeVelArmorShift": [
+      200.0,
+      1000.0
+    ],
+    "explodeTreshold": 0.0001,
+    "explodeArmorPower": 30.0,
+    "explodeRadius": [
+      1.5,
+      10.0
+    ]
+  },
+  "wreckedParts": {
+    "part": {
+      "node": "bone_turret",
+      "mass": 4300.0,
+      "cutDamage": 350.0,
+      "deviation": 0.4,
+      "rotation": 2.5,
+      "collisionNode": "cls_turret"
+    }
+  },
+  "default_skin": {
+    "replace_tex": {
+      "from": "uk_camo_very_dark_drab*",
+      "to": "rsa_camo_dark_earth*"
+    }
+  },
+  "defaultDecals": {
+    "default": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  },
+  "upgraded_skin": {
+    "replace_tex": {
+      "from": "uk_camo_very_dark_drab*",
+      "to": "rsa_camo_gray_earth_stone*"
+    }
+  },
+  "upgradedDecals": {
+    "upgraded": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  },
+  "smokeScreenExhaustEmitters": {
+    "emitter": [
+      "emtr_exhaust_01",
+      "emtr_exhaust_04"
+    ]
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+<<<<<<< HEAD
+}osOnShooting": [
+      0.0,
+      3.7,
+      0.4
+    ],
+    "detectionHeight": 2.42
+  },
+  "ammoStowages": {
+    "ammo1": {
+      "weaponTrigger": "gunner0",
+      "removeLoadedAmmo": false,
+      "fatalFire": true,
+      "fatalExplosion": true,
+      "shells": {
+        "fireEvent": "ammo_fire",
+        "explosionEvent": "ammo_explosion",
+        "wreckedPartId": 0,
+        "ammo_body_dm": {
+          "count": 460
+        }
+      }
+    }
+  },
+  "modifications": {
+    "upgraded": {},
+    "art_support": {},
+    "tank_extinguisher": {},
+    "tank_tool_kit_expendable": {},
+    "art_support_smoke": {},
+    "art_support_mortars": {},
+    "art_support_highcaliber": {},
+    "tank_smoke_screen_low_cooldown": {},
+    "tank_smoke_screen_long_duration": {},
+    "tank_engine_smoke_screen_system": {}
+  },
+  "enabled_modifications": {
+    "tank_engine_smoke_screen_system": true
+  },
+  "ammo": {
+    "combustionTime": 10.0,
+    "detonateProb": 0.15,
+    "detonatePortion": [
+      0.3,
+      0.9
+    ],
+    "explodeHitPower": 1250.0,
+    "hitPowerMult": 1.0,
+    "nearHitPower": [
+      1.0,
+      50.0
+    ],
+    "midHitPower": [
+      0.9,
+      400.0
+    ],
+    "farHitPower": [
+      0.1,
+      1000.0
+    ],
+    "endHitPower": [
+      0.01,
+      1500.0
+    ],
+    "relativeVelHitShift": [
+      300.0,
+      1000.0
+    ],
+    "nearArmorPower": [
+      10.0,
+      50.0
+    ],
+    "midArmorPower": [
+      7.0,
+      400.0
+    ],
+    "farArmorPower": [
+      0.2,
+      700.0
+    ],
+    "relativeVelArmorShift": [
+      200.0,
+      1000.0
+    ],
+    "explodeTreshold": 0.0001,
+    "explodeArmorPower": 30.0,
+    "explodeRadius": [
+      1.5,
+      10.0
+    ]
+  },
+  "wreckedParts": {
+    "part": {
+      "node": "bone_turret",
+      "mass": 4300.0,
+      "cutDamage": 350.0,
+      "deviation": 0.4,
+      "rotation": 2.5,
+      "collisionNode": "cls_turret"
+    }
+  },
+  "default_skin": {
+    "replace_tex": {
+      "from": "uk_camo_very_dark_drab*",
+      "to": "rsa_camo_dark_earth*"
+    }
+  },
+  "defaultDecals": {
+    "default": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  },
+  "upgraded_skin": {
+    "replace_tex": {
+      "from": "uk_camo_very_dark_drab*",
+      "to": "rsa_camo_gray_earth_stone*"
+    }
+  },
+  "upgradedDecals": {
+    "upgraded": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  },
+  "smokeScreenExhaustEmitters": {
+    "emitter": [
+      "emtr_exhaust_01",
+      "emtr_exhaust_04"
+    ]
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+=======
+>>>>>>> parent of 31456a6 (1.21.0.16)
 }ExhaustEmitters": {
     "emitter": [
       "emtr_exhaust_01",

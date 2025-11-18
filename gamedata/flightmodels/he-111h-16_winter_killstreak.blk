@@ -2167,6 +2167,13 @@
       0.0
     ]
   },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": {
+      "from": "he_111h_16_a_winter*",
+      "to": "he_111h_16_summer43_a*"
+    }
+  },
   "weapon_presets": {
     "preset": {
       "name": "he-111h-16_winter_killstreak_default",
@@ -2351,6 +2358,174 @@
               "turret": {
                 "head": "turret4",
                 "gun": "gun4"
+              },
+              "limits": {
+                "yaw": [
+                  -40.0,
+                  30.0
+                ],
+                "pitch": [
+                  -15.0,
+                  40.0
+                ]
+              }
+            },
+            {
+              "trigger": "gunner4",
+              "blk": "gameData/Weapons/gunMG81_turret.blk",
+              "breechInCockpit": true,
+              "emitter": "gun5",
+              "flash": "flare5",
+              "dm": "gunner4_dm",
+              "gunnerDm": "gunner4_dm",
+              "gunDm": "gun5_dm",
+              "partsDP": "gun5_dm",
+              "bullets": 500,
+              "traceOffset": 1,
+              "turret": {
+                "head": "turret5",
+                "gun": "gun5"
+              },
+              "limits": {
+                "yaw": [
+                  -40.0,
+                  30.0
+                ],
+                "pitch": [
+                  -15.0,
+                  40.0
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "index": 1,
+        "tier": 6,
+        "order": 1,
+        "WeaponPreset": {
+          "iconType": "bomb_250kg_group",
+          "name": "250kg",
+          "Weapon": [
+            {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/de_sc250.blk",
+              "emitter": "bomb1",
+              "bullets": 1,
+              "bombBayHeight": 1.5
+            },
+            {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/de_sc250.blk",
+              "emitter": "bomb2",
+              "bullets": 1,
+              "bombBayHeight": 1.5
+            },
+            {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/de_sc250.blk",
+              "emitter": "bomb3",
+              "bullets": 1,
+              "bombBayHeight": 1.5
+            },
+            {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/de_sc250.blk",
+              "emitter": "bomb4",
+              "bullets": 1,
+              "bombBayHeight": 1.5
+            }
+          ]
+        }
+      }
+    ]
+  }
+}         "gun": "gun4"
+              },
+              "limits": {
+                "yaw": [
+                  -40.0,
+                  30.0
+                ],
+                "pitch": [
+                  -15.0,
+                  40.0
+                ]
+              }
+            },
+            {
+              "trigger": "gunner4",
+              "blk": "gameData/Weapons/gunMG81_turret.blk",
+              "breechInCockpit": true,
+              "emitter": "gun5",
+              "flash": "flare5",
+              "dm": "gunner4_dm",
+              "gunnerDm": "gunner4_dm",
+              "gunDm": "gun5_dm",
+              "partsDP": "gun5_dm",
+              "bullets": 500,
+              "traceOffset": 1,
+              "turret": {
+                "head": "turret5",
+                "gun": "gun5"
+              },
+              "limits": {
+                "yaw": [
+                  -40.0,
+                  30.0
+                ],
+                "pitch": [
+                  -15.0,
+                  40.0
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "index": 1,
+        "tier": 6,
+        "order": 1,
+        "WeaponPreset": {
+          "iconType": "bomb_250kg_group",
+          "name": "250kg",
+          "Weapon": [
+            {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/de_sc250.blk",
+              "emitter": "bomb1",
+              "bullets": 1,
+              "bombBayHeight": 1.5
+            },
+            {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/de_sc250.blk",
+              "emitter": "bomb2",
+              "bullets": 1,
+              "bombBayHeight": 1.5
+            },
+            {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/de_sc250.blk",
+              "emitter": "bomb3",
+              "bullets": 1,
+              "bombBayHeight": 1.5
+            },
+            {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/de_sc250.blk",
+              "emitter": "bomb4",
+              "bullets": 1,
+              "bombBayHeight": 1.5
+            }
+          ]
+        }
+      }
+    ]
+  }
+}         "gun": "gun4"
               },
               "limits": {
                 "yaw": [

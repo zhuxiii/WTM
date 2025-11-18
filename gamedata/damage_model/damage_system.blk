@@ -37,6 +37,7 @@
   "cumulativePierceDispersion": 0.05,
   "minSecondaryShatterAngleFromArmor": 15.0,
   "splashPenetrationPrecheck": true,
+  "shattersMinSolidArmorThicknessMult": 0.5,
   "ricochetPenetrationModifier": {
     "mod1": [
       0.0,
@@ -345,6 +346,39 @@
   "secondaryShatterDamage": {
     "damageType": "secondaryShatter"
   }
+}icDamage": {
+    "damageType": "generic"
+  },
+  "cumulativeDamage": {
+    "damageType": "cumulative"
+  },
+  "splashDamage": {
+    "damageType": "explosion"
+  },
+  "shatterDamage": {
+    "damageType": "shatter"
+  },
+  "secondaryShatterDamage": {
+    "damageType": "secondaryShatter"
+  }
+<<<<<<< HEAD
+}icDamage": {
+    "damageType": "generic"
+  },
+  "cumulativeDamage": {
+    "damageType": "cumulative"
+  },
+  "splashDamage": {
+    "damageType": "explosion"
+  },
+  "shatterDamage": {
+    "damageType": "shatter"
+  },
+  "secondaryShatterDamage": {
+    "damageType": "secondaryShatter"
+  }
+=======
+>>>>>>> parent of 31456a6 (1.21.0.16)
 }{
     "damageType": "secondaryShatter"
   }

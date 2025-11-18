@@ -2165,5 +2165,230 @@
       1.37932,
       -1.16048e-7
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem",
+    "replace_tex": [
+      {
+        "from": "ki_100_59sentai_a*",
+        "to": "ki_100_blue_a*"
+      },
+      {
+        "from": "ki_100_59sentai_n*",
+        "to": "ki_100_blue_n*"
+      }
+    ]
+  }
+}urnTime": 20.0
+  },
+  "default_skin_tomoe": {
+    "replace_tex": {
+      "from": "ki_100_59sentai_a*",
+      "to": "ki_100_59sentai_a_tomoe*"
+    }
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.757069,
+      -0.27712,
+      0.799623
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.757069,
+      -0.27712,
+      1.29625
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.757069,
+      -0.27712,
+      2.14407
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.757069,
+      -0.27712,
+      2.84548
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.757069,
+      -0.27712,
+      3.89759
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.757069,
+      -0.27712,
+      4.74318
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.757069,
+      -0.27712,
+      -0.799623
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.757069,
+      -0.27712,
+      -1.29625
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.757069,
+      -0.27712,
+      -2.14407
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.757069,
+      -0.27712,
+      -2.84548
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.757069,
+      -0.27712,
+      -3.89759
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.757069,
+      -0.27712,
+      -4.74318
+    ],
+    "emtr_break_wing_tail": [
+      -4.66926,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -5.14491,
+      0.429637,
+      0.37876
+    ],
+    "emtr_break_stab_l_to": [
+      -5.14491,
+      0.429637,
+      1.51504
+    ],
+    "emtr_break_stab_r_from": [
+      -5.14491,
+      0.429637,
+      -0.37876
+    ],
+    "emtr_break_stab_r_to": [
+      -5.14491,
+      0.429637,
+      -1.51504
+    ],
+    "emtr_break_fin_from": [
+      -5.07015,
+      0.707754,
+      -1.16048e-7
+    ],
+    "emtr_break_fin_to": [
+      -5.07015,
+      1.37932,
+      -1.16048e-7
+    ]
+  }
+}urnTime": 20.0
+  },
+  "default_skin_tomoe": {
+    "replace_tex": {
+      "from": "ki_100_59sentai_a*",
+      "to": "ki_100_59sentai_a_tomoe*"
+    }
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.757069,
+      -0.27712,
+      0.799623
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.757069,
+      -0.27712,
+      1.29625
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.757069,
+      -0.27712,
+      2.14407
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.757069,
+      -0.27712,
+      2.84548
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.757069,
+      -0.27712,
+      3.89759
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.757069,
+      -0.27712,
+      4.74318
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.757069,
+      -0.27712,
+      -0.799623
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.757069,
+      -0.27712,
+      -1.29625
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.757069,
+      -0.27712,
+      -2.14407
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.757069,
+      -0.27712,
+      -2.84548
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.757069,
+      -0.27712,
+      -3.89759
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.757069,
+      -0.27712,
+      -4.74318
+    ],
+    "emtr_break_wing_tail": [
+      -4.66926,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -5.14491,
+      0.429637,
+      0.37876
+    ],
+    "emtr_break_stab_l_to": [
+      -5.14491,
+      0.429637,
+      1.51504
+    ],
+    "emtr_break_stab_r_from": [
+      -5.14491,
+      0.429637,
+      -0.37876
+    ],
+    "emtr_break_stab_r_to": [
+      -5.14491,
+      0.429637,
+      -1.51504
+    ],
+    "emtr_break_fin_from": [
+      -5.07015,
+      0.707754,
+      -1.16048e-7
+    ],
+    "emtr_break_fin_to": [
+      -5.07015,
+      1.37932,
+      -1.16048e-7
+    ]
   }
 }

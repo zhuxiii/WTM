@@ -2385,6 +2385,247 @@
       -2.17179
     ]
   },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": [
+      {
+        "from": "dornier_do_17z_2_c*",
+        "to": "dornier_do_17z_2_white_c*"
+      },
+      {
+        "from": "dornier_do_17z_2_n*",
+        "to": "dornier_do_17z_2_white_n*"
+      }
+    ]
+  },
+  "weapon_presets": {
+    "preset": {
+      "name": "do_17z_2_killstreak_default",
+      "blk": "gameData/FlightModels/weaponPresets/do_17z_2_2xSC250.blk"
+    }
+  }
+}iusSpeed": 2.0
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      55.0,
+      138.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 0.212536,
+    "climbSpeed": 10.2,
+    "maxSpeed": 113.05,
+    "turnTime": 34.0
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -1.04204,
+      0.519877,
+      1.29204
+    ],
+    "_emtr_break_wing0_l_to": [
+      -1.04204,
+      0.519877,
+      1.78349
+    ],
+    "emtr_break_wing1_l_from": [
+      -1.04204,
+      0.519877,
+      3.61654
+    ],
+    "emtr_break_wing1_l_to": [
+      -1.04204,
+      0.519877,
+      4.71026
+    ],
+    "emtr_break_wing2_l_from": [
+      -1.04204,
+      0.519877,
+      6.37333
+    ],
+    "emtr_break_wing2_l_to": [
+      -1.04204,
+      0.519877,
+      7.42723
+    ],
+    "_emtr_break_wing0_r_from": [
+      -1.04204,
+      0.519877,
+      -1.29204
+    ],
+    "_emtr_break_wing0_r_to": [
+      -1.04204,
+      0.519877,
+      -1.78349
+    ],
+    "emtr_break_wing1_r_from": [
+      -1.04204,
+      0.519877,
+      -3.61654
+    ],
+    "emtr_break_wing1_r_to": [
+      -1.04204,
+      0.519877,
+      -4.71026
+    ],
+    "emtr_break_wing2_r_from": [
+      -1.04204,
+      0.519877,
+      -6.37333
+    ],
+    "emtr_break_wing2_r_to": [
+      -1.04204,
+      0.519877,
+      -7.42723
+    ],
+    "emtr_break_wing_tail": [
+      -8.55994,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -9.65894,
+      0.71523,
+      0.542875
+    ],
+    "emtr_break_stab_l_to": [
+      -9.65894,
+      0.71523,
+      2.1715
+    ],
+    "emtr_break_stab_r_from": [
+      -9.65894,
+      0.71523,
+      -0.542948
+    ],
+    "emtr_break_stab_r_to": [
+      -9.65894,
+      0.71523,
+      -2.17179
+    ]
+  },
+  "weapon_presets": {
+    "preset": {
+      "name": "do_17z_2_killstreak_default",
+      "blk": "gameData/FlightModels/weaponPresets/do_17z_2_2xSC250.blk"
+    }
+  }
+}iusSpeed": 2.0
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      55.0,
+      138.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 0.212536,
+    "climbSpeed": 10.2,
+    "maxSpeed": 113.05,
+    "turnTime": 34.0
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -1.04204,
+      0.519877,
+      1.29204
+    ],
+    "_emtr_break_wing0_l_to": [
+      -1.04204,
+      0.519877,
+      1.78349
+    ],
+    "emtr_break_wing1_l_from": [
+      -1.04204,
+      0.519877,
+      3.61654
+    ],
+    "emtr_break_wing1_l_to": [
+      -1.04204,
+      0.519877,
+      4.71026
+    ],
+    "emtr_break_wing2_l_from": [
+      -1.04204,
+      0.519877,
+      6.37333
+    ],
+    "emtr_break_wing2_l_to": [
+      -1.04204,
+      0.519877,
+      7.42723
+    ],
+    "_emtr_break_wing0_r_from": [
+      -1.04204,
+      0.519877,
+      -1.29204
+    ],
+    "_emtr_break_wing0_r_to": [
+      -1.04204,
+      0.519877,
+      -1.78349
+    ],
+    "emtr_break_wing1_r_from": [
+      -1.04204,
+      0.519877,
+      -3.61654
+    ],
+    "emtr_break_wing1_r_to": [
+      -1.04204,
+      0.519877,
+      -4.71026
+    ],
+    "emtr_break_wing2_r_from": [
+      -1.04204,
+      0.519877,
+      -6.37333
+    ],
+    "emtr_break_wing2_r_to": [
+      -1.04204,
+      0.519877,
+      -7.42723
+    ],
+    "emtr_break_wing_tail": [
+      -8.55994,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -9.65894,
+      0.71523,
+      0.542875
+    ],
+    "emtr_break_stab_l_to": [
+      -9.65894,
+      0.71523,
+      2.1715
+    ],
+    "emtr_break_stab_r_from": [
+      -9.65894,
+      0.71523,
+      -0.542948
+    ],
+    "emtr_break_stab_r_to": [
+      -9.65894,
+      0.71523,
+      -2.17179
+    ]
+  },
   "weapon_presets": {
     "preset": {
       "name": "do_17z_2_killstreak_default",

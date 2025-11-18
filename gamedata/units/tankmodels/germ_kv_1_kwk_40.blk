@@ -1646,7 +1646,7 @@
         "armorThickness": 75.0
       },
       "body_top_dm": {
-        "armorThickness": 40.0
+        "armorThickness": 75.0
       },
       "superstructure_back_dm": {
         "armorThickness": 60.0
@@ -1693,10 +1693,10 @@
         "armorClass": "RHA_tank"
       },
       "turret_01_front_dm": {
-        "armorThickness": 105.0
+        "armorThickness": 70.0
       },
       "turret_02_front_dm": {
-        "armorThickness": 105.0
+        "armorThickness": 70.0
       },
       "turret_bottom_dm": {
         "armorThickness": 105.0
@@ -1711,7 +1711,7 @@
         "armorThickness": 8.0
       },
       "turret_front_dm": {
-        "armorThickness": 105.0
+        "armorThickness": 80.0
       },
       "turret_side_dm": {
         "armorThickness": 105.0
@@ -2716,4 +2716,269 @@
       }
     }
   }
+} "default_skin": {
+    "replace_tex": {
+      "from": "ger_camo_dunkelgelb*",
+      "to": "ger_camo_hinterhalt_daimler*"
+    }
+  },
+  "defaultDecals": {
+    "default": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0,
+      "decal0Line0": [
+        2.78563,
+        0.000300759,
+        -0.173333,
+        -0.485059
+      ],
+      "decal0Line1": [
+        -0.0476161,
+        -2.68231,
+        -0.769895,
+        5.82075
+      ],
+      "decal0Line2": [
+        -2.78563,
+        -0.00030104,
+        -0.173332,
+        1.48506
+      ],
+      "decal0Line3": [
+        -0.0476159,
+        -2.68231,
+        0.769895,
+        5.82075
+      ],
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        -0.0597144,
+        0.276374,
+        -0.959193,
+        -1.39669
+      ],
+      "decal0CPNormDepth1": [
+        -0.0597144,
+        0.276374,
+        0.959193,
+        -1.39669
+      ],
+      "decal0RotScale": [
+        1.57068,
+        0.358292
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.206365,
+      "decal0Tex": "back_16",
+      "decal1Line0": [
+        -0.000170435,
+        0.0,
+        2.05527,
+        0.496325
+      ],
+      "decal1Line1": [
+        2.05527,
+        0.0,
+        0.000170435,
+        0.69613
+      ],
+      "decal1Line2": [
+        -0.000170435,
+        0.0,
+        -2.05527,
+        0.503642
+      ],
+      "decal1Line3": [
+        2.05527,
+        0.0,
+        -0.000170435,
+        0.696131
+      ],
+      "decal1HaveCP": true,
+      "decal1CPNormDepth": [
+        0.0,
+        1.0,
+        0.0,
+        -2.57809
+      ],
+      "decal1CPNormDepth1": [
+        -0.0,
+        -1.0,
+        -0.0,
+        2.51456
+      ],
+      "decal1RotScale": [
+        1.57071,
+        0.486555
+      ],
+      "decal1Mirrored": false,
+      "decal1Wrap": false,
+      "decal1Abs": false,
+      "decal1OppositeMirrored": false,
+      "decal1WidthBox": 0.200001,
+      "decal1Tex": "back_16"
+    }
+  },
+  "vehicleSkins": {
+    "desert": {
+      "replace_tex": {
+        "from": "ger_camo_dunkelgelb*",
+        "to": "ger_camo_dunkelgelb*"
+      },
+      "decal": {
+        "skin_condition": 100.0,
+        "camo_scale": 0.0,
+        "camo_rotation": 0.0
+      }
+    },
+    "winter": {
+      "replace_tex": {
+        "from": "ger_camo_dunkelgelb*",
+        "to": "tl_camo_red_grey_lines*"
+      },
+      "decal": {
+        "skin_condition": 100.0,
+        "camo_scale": 0.0,
+        "camo_rotation": 0.0
+      }
+    }
+  }
+<<<<<<< HEAD
+} "default_skin": {
+    "replace_tex": {
+      "from": "ger_camo_dunkelgelb*",
+      "to": "ger_camo_hinterhalt_daimler*"
+    }
+  },
+  "defaultDecals": {
+    "default": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0,
+      "decal0Line0": [
+        2.78563,
+        0.000300759,
+        -0.173333,
+        -0.485059
+      ],
+      "decal0Line1": [
+        -0.0476161,
+        -2.68231,
+        -0.769895,
+        5.82075
+      ],
+      "decal0Line2": [
+        -2.78563,
+        -0.00030104,
+        -0.173332,
+        1.48506
+      ],
+      "decal0Line3": [
+        -0.0476159,
+        -2.68231,
+        0.769895,
+        5.82075
+      ],
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        -0.0597144,
+        0.276374,
+        -0.959193,
+        -1.39669
+      ],
+      "decal0CPNormDepth1": [
+        -0.0597144,
+        0.276374,
+        0.959193,
+        -1.39669
+      ],
+      "decal0RotScale": [
+        1.57068,
+        0.358292
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.206365,
+      "decal0Tex": "back_16",
+      "decal1Line0": [
+        -0.000170435,
+        0.0,
+        2.05527,
+        0.496325
+      ],
+      "decal1Line1": [
+        2.05527,
+        0.0,
+        0.000170435,
+        0.69613
+      ],
+      "decal1Line2": [
+        -0.000170435,
+        0.0,
+        -2.05527,
+        0.503642
+      ],
+      "decal1Line3": [
+        2.05527,
+        0.0,
+        -0.000170435,
+        0.696131
+      ],
+      "decal1HaveCP": true,
+      "decal1CPNormDepth": [
+        0.0,
+        1.0,
+        0.0,
+        -2.57809
+      ],
+      "decal1CPNormDepth1": [
+        -0.0,
+        -1.0,
+        -0.0,
+        2.51456
+      ],
+      "decal1RotScale": [
+        1.57071,
+        0.486555
+      ],
+      "decal1Mirrored": false,
+      "decal1Wrap": false,
+      "decal1Abs": false,
+      "decal1OppositeMirrored": false,
+      "decal1WidthBox": 0.200001,
+      "decal1Tex": "back_16"
+    }
+  },
+  "vehicleSkins": {
+    "desert": {
+      "replace_tex": {
+        "from": "ger_camo_dunkelgelb*",
+        "to": "ger_camo_dunkelgelb*"
+      },
+      "decal": {
+        "skin_condition": 100.0,
+        "camo_scale": 0.0,
+        "camo_rotation": 0.0
+      }
+    },
+    "winter": {
+      "replace_tex": {
+        "from": "ger_camo_dunkelgelb*",
+        "to": "tl_camo_red_grey_lines*"
+      },
+      "decal": {
+        "skin_condition": 100.0,
+        "camo_scale": 0.0,
+        "camo_rotation": 0.0
+      }
+    }
+  }
+=======
+>>>>>>> parent of 31456a6 (1.21.0.16)
 }

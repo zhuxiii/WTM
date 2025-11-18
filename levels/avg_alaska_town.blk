@@ -65,6 +65,7 @@
     "water3d": true,
     "staticScene": true,
     "riExtraMinSizeForReflection": 5.0,
+    "riExToHeightmap": true,
     "riExtraMinSizeForDraftDepth": 4.0
   },
   "clipmap": {
@@ -162,6 +163,14 @@
       0.28,
       0.0
     ],
+    "shore__waves_dist": [
+      -80.0,
+      110.0,
+      0.0,
+      200.0
+    ],
+    "shore_amplitude_to_length": 50.0,
+    "shore_artistic_max_wave_height": 1.0,
     "water_aces_params": [
       1.0,
       0.1,
@@ -211,7 +220,7 @@
           0.0
         ],
         "res": "grass_reed_a",
-        "density": 0.5,
+        "density": 0.12,
         "horScale": 1.2,
         "horMinScale": 0.9,
         "verScale": 1.2,
@@ -263,7 +272,7 @@
           0.0
         ],
         "res": "grass_wheat_a",
-        "density": 1.2,
+        "density": 0.3,
         "horScale": 1.8,
         "horMinScale": 0.9,
         "verScale": 1.2,
@@ -315,7 +324,7 @@
           0.0
         ],
         "res": "grass_sword_a",
-        "density": 1.0,
+        "density": 0.25,
         "horScale": 1.2,
         "horMinScale": 0.9,
         "verScale": 1.2,
@@ -367,7 +376,7 @@
           0.0
         ],
         "res": "grass_tavolga_a",
-        "density": 1.0,
+        "density": 0.25,
         "horScale": 1.2,
         "horMinScale": 0.5,
         "verScale": 1.2,
@@ -419,7 +428,7 @@
           0.0
         ],
         "res": "grass_daisies_a",
-        "density": 1.0,
+        "density": 0.25,
         "horScale": 1.2,
         "horMinScale": 0.9,
         "verScale": 1.2,
@@ -471,7 +480,7 @@
           0.0
         ],
         "res": "grass_heather_a",
-        "density": 1.0,
+        "density": 0.25,
         "horScale": 1.2,
         "horMinScale": 0.5,
         "verScale": 1.2,
@@ -523,7 +532,7 @@
           0.0
         ],
         "res": "grass_paigle_a",
-        "density": 0.5,
+        "density": 0.12,
         "horScale": 1.2,
         "horMinScale": 0.5,
         "verScale": 1.2,
@@ -575,7 +584,7 @@
           0.0
         ],
         "res": "grass_simple_a",
-        "density": 3.5,
+        "density": 0.8,
         "horScale": 1.2,
         "horMinScale": 0.9,
         "verScale": 1.0,
@@ -627,7 +636,7 @@
           0.0
         ],
         "res": "grass_fill_a",
-        "density": 3.0,
+        "density": 0.75,
         "horScale": 1.2,
         "horMinScale": 0.5,
         "verScale": 1.2,
@@ -678,7 +687,7 @@
           0.0
         ],
         "res": "grass_fill_a",
-        "density": 3.0,
+        "density": 0.75,
         "horScale": 1.2,
         "horMinScale": 0.5,
         "verScale": 1.8,
@@ -750,6 +759,50 @@
     "tree_sea_bush_f": {
       "lod0": 200.0,
       "lod1": 1500.0
+    },
+    "tree_picea_obovata_tall_a": {
+      "lod0": 240.0,
+      "lod1": 600.0
+    },
+    "tree_picea_obovata_tall_b": {
+      "lod0": 240.0,
+      "lod1": 600.0
+    },
+    "tree_picea_obovata_medium_a": {
+      "lod0": 240.0,
+      "lod1": 600.0
+    },
+    "tree_picea_obovata_medium_b": {
+      "lod0": 240.0,
+      "lod1": 600.0
+    },
+    "tree_autumn_large_a": {
+      "lod0": 240.0,
+      "lod1": 600.0
+    },
+    "tree_autumn_large_b": {
+      "lod0": 240.0,
+      "lod1": 600.0
+    },
+    "tree_asian_pine_medium_a": {
+      "lod0": 240.0,
+      "lod1": 600.0
+    },
+    "tree_asian_pine_medium_b": {
+      "lod0": 240.0,
+      "lod1": 600.0
+    },
+    "tree_asian_pine_medium_c": {
+      "lod0": 240.0,
+      "lod1": 600.0
+    },
+    "tree_fall_poplar_large_a": {
+      "lod0": 240.0,
+      "lod1": 600.0
+    },
+    "tree_fall_poplar_large_b": {
+      "lod0": 240.0,
+      "lod1": 600.0
     }
   },
   "overloaded_sounds": {

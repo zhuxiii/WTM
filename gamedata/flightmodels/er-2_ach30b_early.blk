@@ -2961,5 +2961,280 @@
       0.482739,
       -2.69309
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem",
+    "replace_tex": [
+      {
+        "from": "er_2_ach30b_early_a*",
+        "to": "er_2_ach30b_early_day_c*"
+      },
+      {
+        "from": "er_2_ach30b_early_n*",
+        "to": "er_2_ach30b_early_day_n*"
+      }
+    ]
+  }
+}itter": "bomb1000_2",
+              "bullets": 1,
+              "external": true,
+              "bayDoorRange": [
+                0.0,
+                0.1
+              ],
+              "separate": true
+            }
+          },
+          {
+            "iconType": "bomb_1500kg",
+            "name": "brab1000",
+            "reqModification": "er-2_ach-30b_der-19-20",
+            "ShowNodes": {
+              "node": "pylon_bomb3"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/su_brab_1000m43_ap.blk",
+              "emitter": "bomb1000_2",
+              "bullets": 1,
+              "external": true,
+              "bayDoorRange": [
+                0.0,
+                0.1
+              ],
+              "separate": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "turbulence": {
+    "segmentlength": 100.0,
+    "startSpeed": 28.0,
+    "maxSpeed": 140.0,
+    "maxPower": 6.0,
+    "initialRadius": 12.0,
+    "radiusSpeed": 2.0
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      55.0,
+      138.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 0.470497,
+    "climbSpeed": 9.5,
+    "maxSpeed": 115.2,
+    "turnTime": 48.0
+  },
+  "default_skin": {
+    "name": "er-2_ach30b_early"
+  },
+  "cutting": {
+    "emtr_break_wing1_l_from": [
+      -1.05342,
+      -0.461081,
+      3.83107
+    ],
+    "emtr_break_wing1_l_to": [
+      -1.05342,
+      -0.461081,
+      4.36061
+    ],
+    "emtr_break_wing2_l_from": [
+      -1.05342,
+      -0.461081,
+      6.84038
+    ],
+    "emtr_break_wing2_l_to": [
+      -1.05342,
+      -0.461081,
+      8.70128
+    ],
+    "emtr_break_wing1_r_from": [
+      -1.05342,
+      -0.461081,
+      -3.83107
+    ],
+    "emtr_break_wing1_r_to": [
+      -1.05342,
+      -0.461081,
+      -4.36061
+    ],
+    "emtr_break_wing2_r_from": [
+      -1.05342,
+      -0.461081,
+      -6.84038
+    ],
+    "emtr_break_wing2_r_to": [
+      -1.05342,
+      -0.461081,
+      -8.70128
+    ],
+    "emtr_break_wing_tail": [
+      -8.11429,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -9.06595,
+      0.482739,
+      0.673271
+    ],
+    "emtr_break_stab_l_to": [
+      -9.06595,
+      0.482739,
+      2.69309
+    ],
+    "emtr_break_stab_r_from": [
+      -9.06595,
+      0.482739,
+      -0.673271
+    ],
+    "emtr_break_stab_r_to": [
+      -9.06595,
+      0.482739,
+      -2.69309
+    ]
+  }
+}itter": "bomb1000_2",
+              "bullets": 1,
+              "external": true,
+              "bayDoorRange": [
+                0.0,
+                0.1
+              ],
+              "separate": true
+            }
+          },
+          {
+            "iconType": "bomb_1500kg",
+            "name": "brab1000",
+            "reqModification": "er-2_ach-30b_der-19-20",
+            "ShowNodes": {
+              "node": "pylon_bomb3"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/BombGuns/su_brab_1000m43_ap.blk",
+              "emitter": "bomb1000_2",
+              "bullets": 1,
+              "external": true,
+              "bayDoorRange": [
+                0.0,
+                0.1
+              ],
+              "separate": true
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "turbulence": {
+    "segmentlength": 100.0,
+    "startSpeed": 28.0,
+    "maxSpeed": 140.0,
+    "maxPower": 6.0,
+    "initialRadius": 12.0,
+    "radiusSpeed": 2.0
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      55.0,
+      138.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "balanceData": {
+    "accSpd": 0.470497,
+    "climbSpeed": 9.5,
+    "maxSpeed": 115.2,
+    "turnTime": 48.0
+  },
+  "default_skin": {
+    "name": "er-2_ach30b_early"
+  },
+  "cutting": {
+    "emtr_break_wing1_l_from": [
+      -1.05342,
+      -0.461081,
+      3.83107
+    ],
+    "emtr_break_wing1_l_to": [
+      -1.05342,
+      -0.461081,
+      4.36061
+    ],
+    "emtr_break_wing2_l_from": [
+      -1.05342,
+      -0.461081,
+      6.84038
+    ],
+    "emtr_break_wing2_l_to": [
+      -1.05342,
+      -0.461081,
+      8.70128
+    ],
+    "emtr_break_wing1_r_from": [
+      -1.05342,
+      -0.461081,
+      -3.83107
+    ],
+    "emtr_break_wing1_r_to": [
+      -1.05342,
+      -0.461081,
+      -4.36061
+    ],
+    "emtr_break_wing2_r_from": [
+      -1.05342,
+      -0.461081,
+      -6.84038
+    ],
+    "emtr_break_wing2_r_to": [
+      -1.05342,
+      -0.461081,
+      -8.70128
+    ],
+    "emtr_break_wing_tail": [
+      -8.11429,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -9.06595,
+      0.482739,
+      0.673271
+    ],
+    "emtr_break_stab_l_to": [
+      -9.06595,
+      0.482739,
+      2.69309
+    ],
+    "emtr_break_stab_r_from": [
+      -9.06595,
+      0.482739,
+      -0.673271
+    ],
+    "emtr_break_stab_r_to": [
+      -9.06595,
+      0.482739,
+      -2.69309
+    ]
   }
 }

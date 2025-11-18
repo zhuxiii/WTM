@@ -1957,10 +1957,17 @@
     }
   },
   "weapon_presets": {
-    "preset": {
-      "name": "me-262a-1a_default",
-      "blk": "gameData/FlightModels/weaponPresets/empty.blk"
-    }
+    "preset": [
+      {
+        "name": "me-262a-1a_default",
+        "blk": "gameData/FlightModels/weaponPresets/empty.blk"
+      },
+      {
+        "name": "me-262a-1a_r4m_rocket24",
+        "blk": "gameData/FlightModels/weaponPresets/me-262a-1a_r4m_rocket24.blk",
+        "reqModification": "me262_r1"
+      }
+    ]
   },
   "WeaponSlots": {
     "HideNodes": {
@@ -4296,6 +4303,466 @@
         "dp": "gear_3c%d"
       },
       {
+        "dm": "engine1_dm",
+        "dp": [
+          "prop01_1",
+          "prop02_1",
+          "prop03_1",
+          "prop_side_1",
+          "fan01_1",
+          "fan02_1",
+          "fan03_1"
+        ]
+      },
+      {
+        "dm": "engine2_dm",
+        "dp": [
+          "prop01_2",
+          "prop02_2",
+          "prop03_2",
+          "prop_side_2",
+          "fan01_2",
+          "fan02_2",
+          "fan03_2"
+        ]
+      },
+      {
+        "dm": "engine3_dm",
+        "dp": [
+          "prop01_3",
+          "prop02_3",
+          "prop03_3",
+          "prop_side_3",
+          "fan01_3",
+          "fan02_3",
+          "fan03_3"
+        ]
+      },
+      {
+        "dm": "engine4_dm",
+        "dp": [
+          "prop01_4",
+          "prop02_4",
+          "prop03_4",
+          "prop_side_4",
+          "fan01_4",
+          "fan02_4",
+          "fan03_4"
+        ]
+      },
+      {
+        "dm": "engine5_dm",
+        "dp": [
+          "prop01_5",
+          "prop02_5",
+          "prop03_5",
+          "prop_side_5",
+          "fan01_5",
+          "fan02_5",
+          "fan03_5"
+        ]
+      },
+      {
+        "dm": "engine6_dm",
+        "dp": [
+          "prop01_6",
+          "prop02_6",
+          "prop03_6",
+          "prop_side_6",
+          "fan01_6",
+          "fan02_6",
+          "fan03_6"
+        ]
+      },
+      {
+        "dm": "wing2_l_dm",
+        "dp": "slat1_l"
+      },
+      {
+        "dm": "wing_l_dm",
+        "dp": "slat_l"
+      },
+      {
+        "dm": "wing2_r_dm",
+        "dp": "slat1_r"
+      },
+      {
+        "dm": "wing_r_dm",
+        "dp": "slat_r"
+      }
+    ]
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      193.0,
+      277.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "arcadeOverride": {
+    "maxSpeedMultiplier": 1.01,
+    "wepOverspeed": 1.05
+  },
+  "balanceData": {
+    "accSpd": 4.03451,
+    "climbSpeed": 20.0,
+    "maxSpeed": 240.27,
+    "turnTime": 28.1492
+  },
+  "default_skin_tomoe": {
+    "replace_tex": {
+      "from": "me262a_1_a*",
+      "to": "me262a_1_a_tomoe*"
+    }
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.155672,
+      -0.301804,
+      1.13093
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.155672,
+      -0.301804,
+      1.55454
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.155672,
+      -0.301804,
+      2.81409
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.155672,
+      -0.301804,
+      3.25586
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.155672,
+      -0.301804,
+      4.28466
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.155672,
+      -0.301804,
+      5.02594
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.155672,
+      -0.301805,
+      -1.13093
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.155672,
+      -0.301805,
+      -1.55454
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.155672,
+      -0.301805,
+      -2.81409
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.155672,
+      -0.301805,
+      -3.25586
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.155672,
+      -0.301805,
+      -4.28466
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.155672,
+      -0.301805,
+      -5.02594
+    ],
+    "emtr_break_wing_tail": [
+      -4.56863,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -5.25159,
+      0.823369,
+      0.364244
+    ],
+    "emtr_break_stab_l_to": [
+      -5.25159,
+      0.823369,
+      1.45698
+    ],
+    "emtr_break_stab_r_from": [
+      -5.25159,
+      0.823369,
+      -0.364245
+    ],
+    "emtr_break_stab_r_to": [
+      -5.25159,
+      0.823369,
+      -1.45698
+    ],
+    "emtr_break_fin_from": [
+      -4.94166,
+      0.684498,
+      0.00192011
+    ],
+    "emtr_break_fin_to": [
+      -4.94166,
+      1.75746,
+      0.00192011
+    ]
+  },
+  "vehicleSkins": {
+    "green": {
+      "replace_tex": [
+        {
+          "from": "me262a_1_a*",
+          "to": "me262a_1_green_a*"
+        },
+        {
+          "from": "me262a_1_n*",
+          "to": "me262a_1_green_n*"
+        }
+      ]
+    }
+  }
+}
+        "dm": "engine1_dm",
+        "dp": [
+          "prop01_1",
+          "prop02_1",
+          "prop03_1",
+          "prop_side_1",
+          "fan01_1",
+          "fan02_1",
+          "fan03_1"
+        ]
+      },
+      {
+        "dm": "engine2_dm",
+        "dp": [
+          "prop01_2",
+          "prop02_2",
+          "prop03_2",
+          "prop_side_2",
+          "fan01_2",
+          "fan02_2",
+          "fan03_2"
+        ]
+      },
+      {
+        "dm": "engine3_dm",
+        "dp": [
+          "prop01_3",
+          "prop02_3",
+          "prop03_3",
+          "prop_side_3",
+          "fan01_3",
+          "fan02_3",
+          "fan03_3"
+        ]
+      },
+      {
+        "dm": "engine4_dm",
+        "dp": [
+          "prop01_4",
+          "prop02_4",
+          "prop03_4",
+          "prop_side_4",
+          "fan01_4",
+          "fan02_4",
+          "fan03_4"
+        ]
+      },
+      {
+        "dm": "engine5_dm",
+        "dp": [
+          "prop01_5",
+          "prop02_5",
+          "prop03_5",
+          "prop_side_5",
+          "fan01_5",
+          "fan02_5",
+          "fan03_5"
+        ]
+      },
+      {
+        "dm": "engine6_dm",
+        "dp": [
+          "prop01_6",
+          "prop02_6",
+          "prop03_6",
+          "prop_side_6",
+          "fan01_6",
+          "fan02_6",
+          "fan03_6"
+        ]
+      },
+      {
+        "dm": "wing2_l_dm",
+        "dp": "slat1_l"
+      },
+      {
+        "dm": "wing_l_dm",
+        "dp": "slat_l"
+      },
+      {
+        "dm": "wing2_r_dm",
+        "dp": "slat1_r"
+      },
+      {
+        "dm": "wing_r_dm",
+        "dp": "slat_r"
+      }
+    ]
+  },
+  "fireParams": {
+    "engineExtinguishFireSpeed": [
+      193.0,
+      277.0
+    ],
+    "engineExtinguishFireSpeedChance": [
+      0.01,
+      0.1
+    ],
+    "fireDamagePowerRel": 0.05,
+    "nonExtinguishFireTime": 5.0
+  },
+  "arcadeOverride": {
+    "maxSpeedMultiplier": 1.01,
+    "wepOverspeed": 1.05
+  },
+  "balanceData": {
+    "accSpd": 4.03451,
+    "climbSpeed": 20.0,
+    "maxSpeed": 240.27,
+    "turnTime": 28.1492
+  },
+  "default_skin_tomoe": {
+    "replace_tex": {
+      "from": "me262a_1_a*",
+      "to": "me262a_1_a_tomoe*"
+    }
+  },
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -0.155672,
+      -0.301804,
+      1.13093
+    ],
+    "_emtr_break_wing0_l_to": [
+      -0.155672,
+      -0.301804,
+      1.55454
+    ],
+    "emtr_break_wing1_l_from": [
+      -0.155672,
+      -0.301804,
+      2.81409
+    ],
+    "emtr_break_wing1_l_to": [
+      -0.155672,
+      -0.301804,
+      3.25586
+    ],
+    "emtr_break_wing2_l_from": [
+      -0.155672,
+      -0.301804,
+      4.28466
+    ],
+    "emtr_break_wing2_l_to": [
+      -0.155672,
+      -0.301804,
+      5.02594
+    ],
+    "_emtr_break_wing0_r_from": [
+      -0.155672,
+      -0.301805,
+      -1.13093
+    ],
+    "_emtr_break_wing0_r_to": [
+      -0.155672,
+      -0.301805,
+      -1.55454
+    ],
+    "emtr_break_wing1_r_from": [
+      -0.155672,
+      -0.301805,
+      -2.81409
+    ],
+    "emtr_break_wing1_r_to": [
+      -0.155672,
+      -0.301805,
+      -3.25586
+    ],
+    "emtr_break_wing2_r_from": [
+      -0.155672,
+      -0.301805,
+      -4.28466
+    ],
+    "emtr_break_wing2_r_to": [
+      -0.155672,
+      -0.301805,
+      -5.02594
+    ],
+    "emtr_break_wing_tail": [
+      -4.56863,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -5.25159,
+      0.823369,
+      0.364244
+    ],
+    "emtr_break_stab_l_to": [
+      -5.25159,
+      0.823369,
+      1.45698
+    ],
+    "emtr_break_stab_r_from": [
+      -5.25159,
+      0.823369,
+      -0.364245
+    ],
+    "emtr_break_stab_r_to": [
+      -5.25159,
+      0.823369,
+      -1.45698
+    ],
+    "emtr_break_fin_from": [
+      -4.94166,
+      0.684498,
+      0.00192011
+    ],
+    "emtr_break_fin_to": [
+      -4.94166,
+      1.75746,
+      0.00192011
+    ]
+  },
+  "vehicleSkins": {
+    "green": {
+      "replace_tex": [
+        {
+          "from": "me262a_1_a*",
+          "to": "me262a_1_green_a*"
+        },
+        {
+          "from": "me262a_1_n*",
+          "to": "me262a_1_green_n*"
+        }
+      ]
+    }
+  }
+}
         "dm": "engine1_dm",
         "dp": [
           "prop01_1",
