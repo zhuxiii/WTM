@@ -63,7 +63,7 @@
   ],
   "smokeScreenDmPart": "engine_dm",
   "smokeScreenFxType": "tank_smokescreen",
-  "smokeScreenFx": "smokescreen_medium",
+  "smokeScreenFx": "smokescreen_medium_tank_engine_smoke",
   "controlDevices": {
     "device": [
       {
@@ -3206,8 +3206,7 @@
       "details_10"
     ]
   }
-},
-              "emitterGenRange": [
+}emitterGenRange": [
                 1,
                 4
               ],

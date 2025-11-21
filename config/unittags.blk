@@ -35164,7 +35164,7 @@
       "rollRate": 91.0,
       "pilotsCount": 1,
       "gunnersCount": 0,
-      "pylonCount": 0,
+      "pylonCount": 1,
       "massPerSec": 8.90506,
       "weapons": {
         "cannonN37": {
@@ -35178,6 +35178,15 @@
           "gunsCount": 2,
           "ammoCount": 200,
           "shotFreq": 10.0
+        },
+        "su_fab_250m": {
+          "reqModification": "aircraft_mod_1"
+        },
+        "su_fab_250_x2": {
+          "reqModification": "aircraft_mod_4"
+        },
+        "su_fab_500": {
+          "reqModification": "aircraft_mod_7"
         }
       }
     },
@@ -35187,10 +35196,12 @@
           "icon": "he_frag_i_t/he_frag_i_t/ap_i_t/"
         },
         "ns37_air_targets": {
-          "icon": "he_frag_i_t/he_frag_i/he_frag_i/"
+          "icon": "he_frag_i_t/he_frag_i/he_frag_i/",
+          "reqModification": "aircraft_mod_5"
         },
         "ns37_armor_targets": {
-          "icon": "ap_i_t/"
+          "icon": "ap_i_t/",
+          "reqModification": "aircraft_mod_2"
         }
       },
       "cannonNS23": {
@@ -35198,13 +35209,16 @@
           "icon": "ap_i/frag_i_t/"
         },
         "ns23_armor_targets": {
-          "icon": "frag_i_t/ap_i/ap_i/ap_i/"
+          "icon": "frag_i_t/ap_i/ap_i/ap_i/",
+          "reqModification": "aircraft_mod_8"
         },
         "ns23_air_targets": {
-          "icon": "frag_i_t/frag_i_t/frag_i_t/ap_i/"
+          "icon": "frag_i_t/frag_i_t/frag_i_t/ap_i/",
+          "reqModification": "aircraft_mod_6"
         },
         "ns23_stealth": {
-          "icon": "ap_i/"
+          "icon": "ap_i/",
+          "reqModification": "aircraft_mod_3"
         }
       }
     }
@@ -35362,9 +35376,15 @@
           "ammoCount": 600,
           "shotFreq": 12.5
         },
-        "hvar": {},
-        "250lbs": {},
-        "500lbs": {}
+        "hvar": {
+          "reqModification": "aircraft_mod_3"
+        },
+        "250lbs": {
+          "reqModification": "aircraft_mod_5"
+        },
+        "500lbs": {
+          "reqModification": "aircraft_mod_6"
+        }
       }
     },
     "bullets": {
@@ -35373,16 +35393,20 @@
           "icon": "he_frag_i/he_frag_i/ap_t/"
         },
         "an_m2_universal": {
-          "icon": "he_frag_i/ap_t/"
+          "icon": "he_frag_i/ap_t/",
+          "reqModification": "aircraft_mod_1"
         },
         "an_m2_air_targets": {
-          "icon": "he_frag_i/ap_t/he_frag_i/he_frag_i/"
+          "icon": "he_frag_i/ap_t/he_frag_i/he_frag_i/",
+          "reqModification": "aircraft_mod_7"
         },
         "an_m2_ground_targets": {
-          "icon": "ap_t/ap_t/he_frag_i/ball_shell/"
+          "icon": "ap_t/ap_t/he_frag_i/ball_shell/",
+          "reqModification": "aircraft_mod_2"
         },
         "an_m2_stealth": {
-          "icon": "he_frag_i/he_frag_i/he_frag_i/ball_shell/"
+          "icon": "he_frag_i/he_frag_i/he_frag_i/ball_shell/",
+          "reqModification": "aircraft_mod_4"
         }
       }
     }
@@ -46477,7 +46501,7 @@
     "crewTotalCount": 60,
     "tierGroup": 8,
     "tags": {
-      "country_germany": true,
+      "country_japan": true,
       "type_destroyer": true,
       "ship": true,
       "submarine": true
@@ -91234,38 +91258,7 @@
       }
     }
   }
-}r": 12.7,
-          "armorPower": 24.0,
-          "reloadTime": 0.1,
-          "gunnerTurretRotationSpeed": 90.0,
-          "isBeltAmmo": true
-        }
-      }
-    },
-    "bullets": {
-      "100mm_D10T2S_t_55_amd_1_user_cannon": {
-        "default": {
-          "icon": "hud_ammo_apfsds"
-        },
-        "100mm_ussr_HE": {
-          "isHE": true,
-          "icon": "hud_ammo_he"
-        },
-        "100mm_ussr_3BK17M": {
-          "icon": "hud_ammo_heat",
-          "reqLevel": 4
-        },
-        "100mm_ussr_BR412D": {
-          "icon": "hud_ammo_ap1_he1",
-          "reqLevel": 8
-        },
-        "100mm_ussr_ATGM": {
-          "icon": "hud_ammo_atgm_ap2_he2",
-          "reqLevel": 12
-        },
-        "100mm_ussr_Smoke": {
-          "reqModification": "tank_smoke_screen_smoke_shell",
-          "maxCount": 2
+}       "maxCount": 2
         }
       }
     }

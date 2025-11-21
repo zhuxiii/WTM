@@ -2232,12 +2232,6 @@
       ]
     }
   },
-  "sensors": {
-    "sensor": {
-      "blk": "gameData/sensors/us_an_apg_30.blk",
-      "dmPart": "radar_dm"
-    }
-  },
   "commonWeapons": {
     "Weapon": {
       "slot": 0,
@@ -2349,7 +2343,7 @@
         "tier": 8,
         "order": 1,
         "WeaponPreset": {
-          "iconType": "rockets_he_small",
+          "iconType": "rocket_7kg",
           "name": "hvar",
           "reqModification": "frc_mk2",
           "ShowNodes": {
@@ -2370,7 +2364,7 @@
         "tier": 7,
         "order": 3,
         "WeaponPreset": {
-          "iconType": "rockets_he_small",
+          "iconType": "rocket_7kg",
           "name": "hvar",
           "reqModification": "frc_mk2",
           "ShowNodes": {
@@ -2392,7 +2386,7 @@
         "order": 5,
         "WeaponPreset": [
           {
-            "iconType": "rockets_he_small",
+            "iconType": "rocket_7kg",
             "name": "hvar",
             "reqModification": "frc_mk2",
             "ShowNodes": {
@@ -2408,7 +2402,7 @@
             }
           },
           {
-            "iconType": "bombs_small",
+            "iconType": "bomb_250kg",
             "name": "250lbs",
             "reqModification": "fsbc_mk5",
             "ShowNodes": {
@@ -2431,7 +2425,7 @@
         "order": 7,
         "WeaponPreset": [
           {
-            "iconType": "rockets_he_small",
+            "iconType": "rocket_7kg",
             "name": "hvar",
             "reqModification": "frc_mk2",
             "ShowNodes": {
@@ -2447,7 +2441,7 @@
             }
           },
           {
-            "iconType": "bombs_small",
+            "iconType": "bomb_250kg",
             "name": "250lbs",
             "reqModification": "fsbc_mk5",
             "ShowNodes": {
@@ -2463,7 +2457,7 @@
             }
           },
           {
-            "iconType": "bombs_middle",
+            "iconType": "bomb_500kg",
             "name": "500lbs",
             "reqModification": "fmbc_mk1",
             "ShowNodes": {
@@ -2496,7 +2490,7 @@
         "order": 8,
         "WeaponPreset": [
           {
-            "iconType": "rockets_he_small",
+            "iconType": "rocket_7kg",
             "name": "hvar",
             "reqModification": "frc_mk2",
             "ShowNodes": {
@@ -2512,7 +2506,7 @@
             }
           },
           {
-            "iconType": "bombs_small",
+            "iconType": "bomb_250kg",
             "name": "250lbs",
             "reqModification": "fsbc_mk5",
             "ShowNodes": {
@@ -2528,7 +2522,7 @@
             }
           },
           {
-            "iconType": "bombs_middle",
+            "iconType": "bomb_500kg",
             "name": "500lbs",
             "reqModification": "fmbc_mk1",
             "ShowNodes": {
@@ -2561,7 +2555,7 @@
         "order": 6,
         "WeaponPreset": [
           {
-            "iconType": "rockets_he_small",
+            "iconType": "rocket_7kg",
             "name": "hvar",
             "reqModification": "frc_mk2",
             "ShowNodes": {
@@ -2577,7 +2571,7 @@
             }
           },
           {
-            "iconType": "bombs_small",
+            "iconType": "bomb_250kg",
             "name": "250lbs",
             "reqModification": "fsbc_mk5",
             "ShowNodes": {
@@ -2599,7 +2593,7 @@
         "tier": 2,
         "order": 4,
         "WeaponPreset": {
-          "iconType": "rockets_he_small",
+          "iconType": "rocket_7kg",
           "name": "hvar",
           "reqModification": "frc_mk2",
           "ShowNodes": {
@@ -2620,7 +2614,7 @@
         "tier": 1,
         "order": 2,
         "WeaponPreset": {
-          "iconType": "rockets_he_small",
+          "iconType": "rocket_7kg",
           "name": "hvar",
           "reqModification": "frc_mk2",
           "ShowNodes": {
@@ -2777,6 +2771,16 @@
       "replace_tex": [
         {
           "from": "f2h_2_usn_gloss_sea_blue_a*",
+          "to": "f2h_2_silver_c*"
+        },
+        {
+          "from": "f2h_2_usn_gloss_sea_blue_n*",
+          "to": "f2h_2_silver_n*"
+        }
+      ]
+    }
+  }
+}ue_a*",
           "to": "f2h_2_silver_c*"
         },
         {

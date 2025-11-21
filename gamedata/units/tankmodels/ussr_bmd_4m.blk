@@ -60,7 +60,7 @@
   ],
   "smokeScreenDmPart": "engine_dm",
   "smokeScreenFxType": "tank_smokescreen",
-  "smokeScreenFx": "smokescreen_medium",
+  "smokeScreenFx": "smokescreen_medium_tank_engine_smoke",
   "dm_for_shop": {
     "armorThicknessFront": [
       0.05,
@@ -71,6 +71,58 @@
       0.0,
       0.0,
       1.0
+    ]
+  },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
     ]
   },
   "DamageParts": {
@@ -2264,6 +2316,12 @@
       "trackMass": 1110.0
     },
     "tracks": {
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.1,
+        0.3
+      ],
       "animationMultiplier": -0.6,
       "height": 0.065,
       "width": 0.38
@@ -2280,7 +2338,7 @@
       "model": "utd_29t_01"
     },
     "mechanics": {
-      "steerType": "clutch_braking",
+      "alternativeGearControl": 5.0,
       "maxBrakeForce": 130000.0,
       "driveGearRadius": 0.35,
       "mainGearRatio": 1.357,
@@ -3679,35 +3737,7 @@
       "details_10"
     ]
   }
-}           "forestallTime": 0.1,
-              "turret": {
-                "head": "bone_grenade",
-                "gun": "bone_grenade"
-              },
-              "limits": {
-                "yaw": [
-                  0.0,
-                  0.0
-                ],
-                "pitch": [
-                  0.0,
-                  0.0
-                ]
-              }
-            }
-          ],
-          "hideNodes": {
-            "node": [
-              "ex_decor_06",
-              "ex_decor_02",
-              "ex_decor_03",
-              "ex_decor_01",
-              "ex_decor_04",
-              "ex_decor_10"
-            ]
-          }
-        }
-      }
+}}
     }
   },
   "enabled_modifications": {

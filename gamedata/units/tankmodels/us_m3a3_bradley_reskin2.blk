@@ -60,7 +60,7 @@
   ],
   "smokeScreenDmPart": "engine_dm",
   "smokeScreenFxType": "tank_smokescreen",
-  "smokeScreenFx": "smokescreen_medium",
+  "smokeScreenFx": "smokescreen_medium_tank_engine_smoke",
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank",
@@ -3586,7 +3586,7 @@
       "decal0Tex": "usa_commander_a_co"
     }
   }
-}  "decal0Mirrored": false,
+}: false,
       "decal0Wrap": false,
       "decal0Abs": false,
       "decal0OppositeMirrored": false,

@@ -58,7 +58,7 @@
   ],
   "smokeScreenDmPart": "engine_dm",
   "smokeScreenFxType": "tank_smokescreen",
-  "smokeScreenFx": "smokescreen_medium",
+  "smokeScreenFx": "smokescreen_medium_tank_engine_smoke",
   "drowningCheckHeightMultiplier": 0.9,
   "dm_for_shop": {
     "armorThicknessFront": [
@@ -3199,7 +3199,7 @@
       }
     }
   }
-}"to": "us_t32_akai_victory*"
+}_victory*"
       }
     }
   }

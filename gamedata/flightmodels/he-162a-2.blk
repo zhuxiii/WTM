@@ -1,5 +1,6 @@
 {
   "model": "he_162a_2",
+  "fmFile": "fm/he-162a-2.blk",
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/jet_fighter_metaparts.blk",
   "harmonizationSuffix": "_tomoe",
   "useTouchTargeting": true,

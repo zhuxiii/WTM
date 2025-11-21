@@ -1,5 +1,8 @@
 {
-  "fmFile": "fm/he-162a-2.blk",
+  "fmFile": [
+    "fm/he-162a-2.blk",
+    "fm/he-162a-2.blk"
+  ],
   "model": "he_162a_1",
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/jet_fighter_metaparts.blk",
   "harmonizationSuffix": "_tomoe",
@@ -1940,8 +1943,7 @@
       "to": "he_162a_1_prototype_a*"
     }
   }
-}ad": 1.0,
-            "counterIndex": 2
+}ex": 2
           }
         ]
       }

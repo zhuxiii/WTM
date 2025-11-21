@@ -59,7 +59,7 @@
   ],
   "smokeScreenDmPart": "engine_dm",
   "smokeScreenFxType": "tank_smokescreen",
-  "smokeScreenFx": "smokescreen_medium",
+  "smokeScreenFx": "smokescreen_medium_tank_engine_smoke",
   "rearmSmokeTimeOnField": 60.0,
   "rearmTimeOnField": 120.0,
   "canReloadNonGuns": true,
@@ -3560,8 +3560,7 @@
       }
     }
   }
-}2": {
-      "replace_tex": {
+}ce_tex": {
         "from": "us_camo_olive*",
         "to": "usa_modern_winter_verdant*"
       }

@@ -57,7 +57,7 @@
   ],
   "smokeScreenDmPart": "engine_dm",
   "smokeScreenFxType": "tank_smokescreen",
-  "smokeScreenFx": "smokescreen_medium",
+  "smokeScreenFx": "smokescreen_medium_tank_engine_smoke",
   "spawn_count": {
     "numSpawnsPerBattleSimulation": 2
   },
@@ -2990,8 +2990,7 @@
   "battleHideNodes": {
     "n": "details"
   }
-}ox": 0.283383,
-      "decal0Tex": "back_20"
+}   "decal0Tex": "back_20"
     }
   },
   "battleHideNodes": {

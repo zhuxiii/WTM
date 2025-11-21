@@ -68,7 +68,7 @@
   ],
   "smokeScreenDmPart": "engine_dm",
   "smokeScreenFxType": "tank_smokescreen",
-  "smokeScreenFx": "smokescreen_medium",
+  "smokeScreenFx": "smokescreen_medium_tank_engine_smoke",
   "battleHideNodes": {
     "n": [
       "details",
@@ -4111,7 +4111,7 @@
       "emtr_exhaust_04"
     ]
   }
-}         "count": 1
+}1
           },
           "ammo_body_29_dm": {
             "count": 1

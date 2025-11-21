@@ -1806,7 +1806,7 @@
       ],
       "CenterOfGravityClampY": [
         0.0,
-        0.5
+        0.3
       ],
       "AdvancedMass": false,
       "trackMass": 1500.0
@@ -1818,7 +1818,7 @@
       "fricSideRotAlternative": [
         5.0,
         0.0,
-        0.8,
+        1.1,
         0.3
       ]
     },
@@ -1832,7 +1832,7 @@
       "minRPM": 700.0
     },
     "mechanics": {
-      "alternativeGearControl": 3.0,
+      "alternativeGearControl": 5.0,
       "maxBrakeForce": 100000.0,
       "driveGearRadius": 0.28,
       "mainGearRatio": 1.27,

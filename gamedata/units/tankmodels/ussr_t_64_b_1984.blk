@@ -62,7 +62,7 @@
   ],
   "smokeScreenDmPart": "engine_dm",
   "smokeScreenFxType": "tank_smokescreen",
-  "smokeScreenFx": "smokescreen_medium",
+  "smokeScreenFx": "smokescreen_medium_tank_engine_smoke",
   "autoSightDistanceCorrection": true,
   "bladeAnimVar": "t_64_bv_1987_dozer_blade_action",
   "rearmSmokeTimeOnField": 60.0,

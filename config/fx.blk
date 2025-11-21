@@ -1107,6 +1107,10 @@
     "sfxPathStudio": "ground/explosions",
     "sfxEvent": "explosion_gr_smoke"
   },
+  "smokescreen_medium_tank_engine_smoke": {
+    "fx": "smoke_smokescreen_medium_cmps_fx",
+    "sfxPathStudio": "ground/explosions"
+  },
   "smokescreen_hydroplane": {
     "fx": "smoke_smokescreen_hydroplane_cmps_fx"
   },
@@ -4225,11 +4229,7 @@
     "sfxPath": "sounds/effects",
     "sfxPathStudio": "aircraft/effects"
   }
-}smoke_magenta_cmps_fx",
-    "sfxPath": "sounds/effects",
-    "sfxPathStudio": "aircraft/effects"
-  },
-  "aerobatics_smoke_tail_1": {
+}
     "fx": "aerobatics_smoke_white_cmps_fx",
     "sfxPath": "sounds/effects",
     "sfxPathStudio": "aircraft/effects"

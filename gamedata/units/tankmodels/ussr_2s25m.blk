@@ -60,7 +60,7 @@
   ],
   "smokeScreenDmPart": "engine_dm",
   "smokeScreenFxType": "tank_smokescreen",
-  "smokeScreenFx": "smokescreen_medium",
+  "smokeScreenFx": "smokescreen_medium_tank_engine_smoke",
   "battleHideNodes": {
     "n": [
       "details",
@@ -3619,8 +3619,7 @@
       "emtr_exhaust_04"
     ]
   }
-}: [
-      "emtr_exhaust_01",
+}haust_01",
       "emtr_exhaust_04"
     ]
   }

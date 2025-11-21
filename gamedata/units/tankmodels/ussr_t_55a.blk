@@ -57,7 +57,7 @@
   ],
   "smokeScreenDmPart": "engine_dm",
   "smokeScreenFxType": "tank_smokescreen",
-  "smokeScreenFx": "smokescreen_medium",
+  "smokeScreenFx": "smokescreen_medium_tank_engine_smoke",
   "dm_for_shop": {
     "armorThicknessFront": [
       0.7,
@@ -2886,8 +2886,7 @@
   "battleHideNodes": {
     "n": "details"
   }
-}t_04",
-      "emtr_exhaust_02"
+}_exhaust_02"
     ]
   },
   "battleHideNodes": {

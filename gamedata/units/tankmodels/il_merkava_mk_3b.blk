@@ -55,7 +55,7 @@
   "smokeScreenRad": 12.0,
   "smokeScreenDmPart": "engine_dm",
   "smokeScreenFxType": "tank_smokescreen",
-  "smokeScreenFx": "smokescreen_medium",
+  "smokeScreenFx": "smokescreen_medium_tank_engine_smoke",
   "smokeScreenOffset": [
     -1.0,
     0.0,
@@ -3977,7 +3977,7 @@
       "details_10"
     ]
   }
-}eVelFwdShift": 0.0,
+},
               "errMeasureVelDir": 0.0,
               "errTargettingOn100kmph": 0.0,
               "errTargetting": 3.0,

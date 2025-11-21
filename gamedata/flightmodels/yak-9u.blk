@@ -1745,14 +1745,15 @@
     "replace_tex": [
       {
         "from": "yak_9ut_gray_a*",
-        "to": "yak_9u_winter_a*"
+        "to": "yak_9u_green_a*"
       },
       {
         "from": "yak_9ut_gray_n*",
-        "to": "yak_9u_winter_n*"
+        "to": "yak_9u_green_n*"
       }
     ]
   }
+}
 }5476
     ],
     "emtr_break_wing1_l_to": [

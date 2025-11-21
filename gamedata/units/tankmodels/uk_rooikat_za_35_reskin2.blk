@@ -62,7 +62,7 @@
   ],
   "smokeScreenDmPart": "engine_dm",
   "smokeScreenFxType": "tank_smokescreen",
-  "smokeScreenFx": "smokescreen_medium",
+  "smokeScreenFx": "smokescreen_medium_tank_engine_smoke",
   "dm_for_shop": {
     "armorThicknessFront": [
       0.0,
@@ -3258,7 +3258,7 @@
       }
     }
   }
-}   "gunStabilizer": {
+}: {
           "hasVerticalGunFreeMode": false,
           "forceEnabled": true,
           "hasHorizontal": true,

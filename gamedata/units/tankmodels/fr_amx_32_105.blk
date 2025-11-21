@@ -60,7 +60,7 @@
   ],
   "smokeScreenDmPart": "engine_dm",
   "smokeScreenFxType": "tank_smokescreen",
-  "smokeScreenFx": "smokescreen_medium",
+  "smokeScreenFx": "smokescreen_medium_tank_engine_smoke",
   "controlDevices": {
     "device": [
       {
@@ -3501,7 +3501,7 @@
   "battleHideNodes": {
     "n": "details"
   }
-}    "to": "ger_camo_carc*"
+}o_carc*"
       }
     }
   ],

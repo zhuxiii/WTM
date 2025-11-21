@@ -1907,10 +1907,6 @@
     }
   },
   "WeaponSlots": {
-    "maxloadMass": 907.0,
-    "maxloadMassLeftConsoles": 450.0,
-    "maxloadMassRightConsoles": 450.0,
-    "maxDisbalance": 300.0,
     "HideNodes": {
       "node": [
         "pylon_rocket1",
@@ -1921,6 +1917,8 @@
         "pylon4",
         "pylon5",
         "pylon6",
+        "bomb_pylon1",
+        "bomb_pylon2",
         "drop_tank_l",
         "drop_tank_r"
       ]
@@ -1935,45 +1933,111 @@
         "tank7_dm"
       ]
     },
-    "WeaponSlot": {
-      "index": 0,
-      "notUseforDisbalanceCalculation": true,
-      "WeaponPreset": {
-        "name": "default_common",
-        "Weapon": [
+    "WeaponSlot": [
+      {
+        "index": 0,
+        "notUseforDisbalanceCalculation": true,
+        "WeaponPreset": {
+          "name": "default_common",
+          "Weapon": [
+            {
+              "trigger": "cannon",
+              "blk": "gameData/Weapons/cannonN37.blk",
+              "emitter": "flare1",
+              "flash": "flare1",
+              "dm": "cannon1_dm",
+              "bullets": 40,
+              "spread": 1.0,
+              "counterIndex": 1
+            },
+            {
+              "trigger": "machine gun",
+              "blk": "gameData/Weapons/cannonNS23.blk",
+              "emitter": "flare2",
+              "flash": "flare2",
+              "dm": "cannon2_dm",
+              "bullets": 100,
+              "spread": 1.0,
+              "counterIndex": 2
+            },
+            {
+              "trigger": "machine gun",
+              "blk": "gameData/Weapons/cannonNS23.blk",
+              "emitter": "flare3",
+              "flash": "flare3",
+              "dm": "cannon3_dm",
+              "bullets": 100,
+              "spread": 1.0,
+              "counterIndex": 3
+            }
+          ]
+        }
+      },
+      {
+        "index": 1,
+        "tier": 6,
+        "order": 1,
+        "notUseforDisbalanceCalculation": true,
+        "WeaponPreset": [
           {
-            "trigger": "cannon",
-            "blk": "gameData/Weapons/cannonN37.blk",
-            "emitter": "flare1",
-            "flash": "flare1",
-            "dm": "cannon1_dm",
-            "bullets": 40,
-            "spread": 1.0,
-            "counterIndex": 1
+            "iconType": "bomb_250kg",
+            "name": "su_fab_250m",
+            "ShowNodes": {
+              "node": "bomb_pylon1"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/bombGuns/su_fab_250m_46.blk",
+              "emitter": "bomb1",
+              "bullets": 1,
+              "external": true,
+              "separate": true
+            }
           },
           {
-            "trigger": "machine gun",
-            "blk": "gameData/Weapons/cannonNS23.blk",
-            "emitter": "flare2",
-            "flash": "flare2",
-            "dm": "cannon2_dm",
-            "bullets": 100,
-            "spread": 1.0,
-            "counterIndex": 2
+            "iconType": "bomb_250kg",
+            "name": "su_fab_250_x2",
+            "reqModification": "frc_mk2",
+            "ShowNodes": {
+              "node": "bomb_pylon2"
+            },
+            "Weapon": [
+              {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/bombGuns/su_fab_250m_46.blk",
+                "emitter": "bomb2",
+                "bullets": 1,
+                "external": true,
+                "separate": true
+              },
+              {
+                "trigger": "bombs",
+                "blk": "gameData/Weapons/bombGuns/su_fab_250m_46.blk",
+                "emitter": "bomb3",
+                "bullets": 1,
+                "external": true,
+                "separate": true
+              }
+            ]
           },
           {
-            "trigger": "machine gun",
-            "blk": "gameData/Weapons/cannonNS23.blk",
-            "emitter": "flare3",
-            "flash": "flare3",
-            "dm": "cannon3_dm",
-            "bullets": 100,
-            "spread": 1.0,
-            "counterIndex": 3
+            "iconType": "bomb_500kg",
+            "name": "su_fab_500",
+            "ShowNodes": {
+              "node": "bomb_pylon1"
+            },
+            "Weapon": {
+              "trigger": "bombs",
+              "blk": "gameData/Weapons/bombGuns/su_fab_500m_46.blk",
+              "emitter": "bomb1",
+              "bullets": 1,
+              "external": true,
+              "separate": true
+            }
           }
         ]
       }
-    }
+    ]
   },
   "turbulence": {
     "segmentlength": 100.0,
@@ -2243,11 +2307,19 @@
       "replace_tex": [
         {
           "from": "su_9_c*",
-          "to": "su_9_c*"
+          "to": "su_9_green_c*"
         },
         {
           "from": "su_9_n*",
-          "to": "su_9_n*"
+          "to": "su_9_green_n*"
+        },
+        {
+          "from": "su_9_pylon_c*",
+          "to": "su_9_green_pylon_c*"
+        },
+        {
+          "from": "su_9_pylon_n*",
+          "to": "su_9_green_pylon_n*"
         }
       ]
     }

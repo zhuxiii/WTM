@@ -62,7 +62,7 @@
   ],
   "smokeScreenDmPart": "engine_dm",
   "smokeScreenFxType": "tank_smokescreen",
-  "smokeScreenFx": "smokescreen_medium",
+  "smokeScreenFx": "smokescreen_medium_tank_engine_smoke",
   "dm_for_shop": {
     "armorThicknessFront": [
       0.0,
@@ -3237,7 +3237,7 @@
       "to": "rsa_camo_gray_earth_stone*"
     }
   }
-}peedPitch": 90.0,
+}
         "turret": {
           "head": "bone_commander_sight_h",
           "gun": "bone_commander_sight_v",

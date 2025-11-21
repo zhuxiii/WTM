@@ -61,7 +61,7 @@
   ],
   "smokeScreenDmPart": "engine_dm",
   "smokeScreenFxType": "tank_smokescreen",
-  "smokeScreenFx": "smokescreen_medium",
+  "smokeScreenFx": "smokescreen_medium_tank_engine_smoke",
   "DamageParts": {
     "formatVersion": 2,
     "hp": 10000.0,
@@ -4148,7 +4148,7 @@
       "details_10"
     ]
   }
-}to": "ussr_camo_green*"
+}een*"
       }
     }
   },

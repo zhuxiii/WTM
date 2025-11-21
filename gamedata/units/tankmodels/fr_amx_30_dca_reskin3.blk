@@ -63,7 +63,7 @@
   ],
   "smokeScreenDmPart": "engine_dm",
   "smokeScreenFxType": "tank_smokescreen",
-  "smokeScreenFx": "smokescreen_medium",
+  "smokeScreenFx": "smokescreen_medium_tank_engine_smoke",
   "controlDevices": {
     "device": [
       {
@@ -3197,7 +3197,7 @@
       "camo_rotation": 0.0
     }
   }
-}ons/groundModels_weapons/76mm_modern_smoke_grenade_launcher.blk",
+}eapons/76mm_modern_smoke_grenade_launcher.blk",
               "weaponType": "rockets",
               "useEmitter": true,
               "emitter": "emtr_mortar_flame_01",

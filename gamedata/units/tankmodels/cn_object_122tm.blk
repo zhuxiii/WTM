@@ -56,7 +56,7 @@
   ],
   "smokeScreenDmPart": "engine_dm",
   "smokeScreenFxType": "tank_smokescreen",
-  "smokeScreenFx": "smokescreen_medium",
+  "smokeScreenFx": "smokescreen_medium_tank_engine_smoke",
   "canReloadNonGuns": true,
   "rearmTimeOnField": 60.0,
   "dm_for_shop": {
@@ -2765,8 +2765,7 @@
   "battleHideNodes": {
     "n": "details"
   }
-}_exhaust_01",
-      "emtr_exhaust_04"
+}  "emtr_exhaust_04"
     ]
   },
   "battleHideNodes": {

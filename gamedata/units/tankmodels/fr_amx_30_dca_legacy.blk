@@ -63,7 +63,7 @@
   ],
   "smokeScreenDmPart": "engine_dm",
   "smokeScreenFxType": "tank_smokescreen",
-  "smokeScreenFx": "smokescreen_medium",
+  "smokeScreenFx": "smokescreen_medium_tank_engine_smoke",
   "controlDevices": {
     "device": [
       {
@@ -3254,8 +3254,7 @@
       "camo_rotation": 0.0
     }
   }
-}
-          "gunnerDm": "commander_dm",
+}Dm": "commander_dm",
           "verDriveDm": "commander_panoramic_sight_dm",
           "horDriveDm": "drive_turret_h_dm",
           "rotatedTurret": "bone_turret"

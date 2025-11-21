@@ -58,7 +58,7 @@
   ],
   "smokeScreenDmPart": "engine_dm",
   "smokeScreenFxType": "tank_smokescreen",
-  "smokeScreenFx": "smokescreen_medium",
+  "smokeScreenFx": "smokescreen_medium_tank_engine_smoke",
   "battleHideNodes": {
     "n": [
       "details",
@@ -3526,9 +3526,7 @@
       "camo_rotation": 0.0
     }
   }
-} 1
-          },
-          "ammo_body_39_dm": {
+}          "ammo_body_39_dm": {
             "count": 1
           },
           "ammo_body_40_dm": {

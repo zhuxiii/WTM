@@ -58,7 +58,7 @@
   ],
   "smokeScreenDmPart": "engine_dm",
   "smokeScreenFxType": "tank_smokescreen",
-  "smokeScreenFx": "smokescreen_medium",
+  "smokeScreenFx": "smokescreen_medium_tank_engine_smoke",
   "dm_for_shop": {
     "armorThicknessFront": [
       0.7,
@@ -4064,8 +4064,7 @@
       "details_10"
     ]
   }
-}          },
-          "ammo_body_14_dm": {
+}      "ammo_body_14_dm": {
             "count": 1
           },
           "ammo_body_15_dm": {

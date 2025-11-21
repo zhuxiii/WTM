@@ -55,7 +55,7 @@
   "smokeScreenRad": 12.0,
   "smokeScreenDmPart": "engine_dm",
   "smokeScreenFxType": "tank_smokescreen",
-  "smokeScreenFx": "smokescreen_medium",
+  "smokeScreenFx": "smokescreen_medium_tank_engine_smoke",
   "smokeScreenOffset": [
     -1.0,
     0.0,
@@ -4029,8 +4029,7 @@
       "details_10"
     ]
   }
-}": 1000.0,
-              "accuracyAir": 0.0,
+}       "accuracyAir": 0.0,
               "accuracyGnd": 1.5,
               "errMeasureVel": 0.0,
               "errMeasureVelFast": 0.0,

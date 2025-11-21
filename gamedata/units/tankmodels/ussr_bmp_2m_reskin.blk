@@ -62,7 +62,7 @@
   ],
   "smokeScreenDmPart": "engine_dm",
   "smokeScreenFxType": "tank_smokescreen",
-  "smokeScreenFx": "smokescreen_medium",
+  "smokeScreenFx": "smokescreen_medium_tank_engine_smoke",
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHAHH_tank_modern",
@@ -3702,8 +3702,7 @@
       "camo_rotation": 0.0
     }
   }
-}
-      "camo_scale": 0.0,
+}": 0.0,
       "camo_rotation": 0.0
     }
   }

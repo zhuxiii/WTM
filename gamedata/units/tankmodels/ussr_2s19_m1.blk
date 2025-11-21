@@ -57,7 +57,7 @@
   ],
   "smokeScreenDmPart": "engine_dm",
   "smokeScreenFxType": "tank_smokescreen",
-  "smokeScreenFx": "smokescreen_medium",
+  "smokeScreenFx": "smokescreen_medium_tank_engine_smoke",
   "dm_for_shop": {
     "armorThicknessFront": [
       0.05,
@@ -3450,8 +3450,7 @@
       "details_10"
     ]
   }
-},
-      "decal2CPNormDepth1": [
+}ormDepth1": [
         2.89668e-7,
         0.219354,
         0.975645,

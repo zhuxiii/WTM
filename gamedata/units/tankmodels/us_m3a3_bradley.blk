@@ -60,7 +60,7 @@
   ],
   "smokeScreenDmPart": "engine_dm",
   "smokeScreenFxType": "tank_smokescreen",
-  "smokeScreenFx": "smokescreen_medium",
+  "smokeScreenFx": "smokescreen_medium_tank_engine_smoke",
   "dm_for_shop": {
     "armorThicknessFront": [
       0.05,
@@ -3709,9 +3709,7 @@
       "details_02"
     ]
   }
-}  }
-  },
-  "smokeScreenExhaustEmitters": {
+}creenExhaustEmitters": {
     "emitter": [
       "emtr_exhaust_01",
       "emtr_exhaust_04"
