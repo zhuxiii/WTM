@@ -2252,6 +2252,58 @@
       0.6
     ]
   },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
+    ]
+  },
   "commonWeapons": {
     "Weapon": [
       {
@@ -2378,7 +2430,7 @@
       ],
       "CenterOfGravityClampY": [
         0.0,
-        0.7
+        0.3
       ],
       "AdvancedMass": false,
       "trackMass": 3000.0
@@ -2386,7 +2438,13 @@
     "tracks": {
       "animationMultiplier": 0.58,
       "height": 0.085,
-      "width": 0.5
+      "width": 0.5,
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        0.8,
+        0.3
+      ]
     },
     "collisionProps": {
       "cls_turret_01": "convex_hull",
@@ -2400,12 +2458,12 @@
       "minRPM": 700.0
     },
     "mechanics": {
-      "steerType": "clutch_braking",
       "maxBrakeForce": 250000.0,
       "driveGearRadius": 0.3502,
       "mainGearRatio": 17.58,
       "sideGearRatio": 6.25,
       "neutralGearRatio": 1.0,
+      "alternativeGearControl": 0.3,
       "gearRatios": {
         "ratio": [
           -0.756,
@@ -2905,47 +2963,7 @@
       "details_10"
     ]
   }
-}0,
-        -0.353356,
-        2.37868
-      ],
-      "decal0Line1": [
-        -0.353356,
-        0.0,
-        -1.08764,
-        -0.0992193
-      ],
-      "decal0Line2": [
-        1.08764,
-        0.0,
-        0.353356,
-        2.37214
-      ],
-      "decal0Line3": [
-        -0.353356,
-        0.0,
-        1.08764,
-        -0.119359
-      ],
-      "decal0HaveCP": true,
-      "decal0CPNormDepth": [
-        0.0,
-        1.0,
-        0.0,
-        -2.03506
-      ],
-      "decal0CPNormDepth1": [
-        -0.0,
-        -1.0,
-        -0.0,
-        1.80174
-      ],
-      "decal0RotScale": [
-        3.45572,
-        0.874432
-      ],
-      "decal0Mirrored": false,
-      "decal0Wrap": false,
+}0Wrap": false,
       "decal0Abs": false,
       "decal0OppositeMirrored": false,
       "decal0WidthBox": 0.257491,

@@ -922,17 +922,13 @@
       "requireSameGameVersion": false,
       "startMetric": "background_addons_update_start",
       "stopMetric": "background_addons_update_stop",
-      "flag": [
-        "--clear",
-        "--onlypacks"
-      ]
+      "flag": "--onlypacks"
     },
     "optional_game_resources": {
       "strictVersionCheck": false,
       "disableFastVersionCheck": true,
       "flag": [
         "--verbose",
-        "--clear",
         "--onlypacks",
         "--seed"
       ]
@@ -2491,7 +2487,8 @@
     }
   },
   "metal": {
-    "enable_manual_hazard_tracking": false
+    "enable_manual_hazard_tracking": false,
+    "enable_postmortem": true
   },
   "win64": {
     "debug": {
@@ -2528,6 +2525,8 @@
   },
   "stcode": {
     "tag": "$version"
+  }
+}  "tag": "$version"
   }
 }      }
       },

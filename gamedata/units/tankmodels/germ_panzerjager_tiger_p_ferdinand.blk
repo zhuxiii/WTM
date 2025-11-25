@@ -56,6 +56,58 @@
       0.95
     ]
   },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
+    ]
+  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank",
@@ -1709,13 +1761,19 @@
       "trackMass": 3300.0,
       "CenterOfGravityClampY": [
         0.0,
-        0.7
+        0.3
       ]
     },
     "tracks": {
       "animationMultiplier": 0.68,
       "width": 0.64,
-      "height": 0.06
+      "height": 0.06,
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.0,
+        0.3
+      ]
     },
     "collisionProps": {
       "cls_body_01": "convex_hull",
@@ -1732,6 +1790,7 @@
       "mainGearRatio": 14.5,
       "sideGearRatio": 1.0,
       "neutralGearRatio": 16.0,
+      "alternativeGearControl": 2.0,
       "gearRatios": {
         "ratio": [
           -0.9,
@@ -2550,19 +2609,6 @@
     "forest": {
       "replace_tex": {
         "from": "ger_camo_dunkelgelb*",
-        "to": "ger_camo_dunkelgelb*"
-      },
-      "decal": {
-        "skin_condition": 100.0,
-        "camo_scale": 0.0,
-        "camo_rotation": 0.0
-      }
-    }
-  },
-  "battleHideNodes": {
-    "n": "details"
-  }
-}elb*",
         "to": "ger_camo_dunkelgelb*"
       },
       "decal": {

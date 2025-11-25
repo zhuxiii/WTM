@@ -59,6 +59,58 @@
       0.95
     ]
   },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
+    ]
+  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank",
@@ -1798,7 +1850,7 @@
       ],
       "CenterOfGravityClampY": [
         0.0,
-        0.5
+        0.3
       ],
       "AdvancedMass": true,
       "trackMass": 700.0
@@ -1806,7 +1858,13 @@
     "tracks": {
       "animationMultiplier": -0.68,
       "height": 0.06,
-      "width": 0.53
+      "width": 0.53,
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.1,
+        0.3
+      ]
     },
     "collisionProps": {
       "cls_turret": "convex_hull",
@@ -1818,12 +1876,12 @@
       "minRPM": 600.0
     },
     "mechanics": {
-      "steerType": "clutch_braking",
       "maxBrakeForce": 92000.0,
       "driveGearRadius": 0.28,
       "mainGearRatio": 1.36,
       "sideGearRatio": 3.0,
       "neutralGearRatio": 7.0,
+      "alternativeGearControl": 5.0,
       "gearRatios": {
         "ratio": [
           -3.85,
@@ -3201,42 +3259,7 @@
   "battleHideNodes": {
     "n": "details"
   }
-}      4.59787
-      ],
-      "decal0Line2": [
-        -2.72845,
-        -1.24734e-7,
-        -0.584011,
-        -2.92579
-      ],
-      "decal0Line3": [
-        -0.283124,
-        -2.44044,
-        1.32273,
-        4.59787
-      ],
-      "decal0HaveCP": true,
-      "decal0CPNormDepth": [
-        -0.183063,
-        0.484793,
-        -0.855256,
-        -1.85863
-      ],
-      "decal0CPNormDepth1": [
-        -0.183063,
-        0.484793,
-        0.855256,
-        -1.85863
-      ],
-      "decal0RotScale": [
-        1.5708,
-        0.35839
-      ],
-      "decal0Mirrored": false,
-      "decal0Wrap": false,
-      "decal0Abs": false,
-      "decal0OppositeMirrored": false,
-      "decal0WidthBox": 0.286272,
+}    "decal0WidthBox": 0.286272,
       "decal0Tex": "germany_numbers_2",
       "decal1Line0": [
         2.70006,
