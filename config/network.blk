@@ -43,7 +43,7 @@
     },
     "webVromfs": {
       "maxSize": 471859200,
-      "timeoutSec": 10,
+      "timeoutSec": 60,
       "mainThreadTimeoutSec": 30,
       "allowCacheVromFallback": true,
       "baseUrls": {

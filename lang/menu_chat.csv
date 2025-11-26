@@ -1,0 +1,201 @@
+"<ID|readonly|noverify>";"<English>";"<French>";"<Italian>";"<German>";"<Spanish>";"<Russian>";"<Ukrainian>";"<Polish>";"<Portuguese>";"<Turkish>";"<Czech>";"<Greek>";"<Indonesian>";"<Thai>";"<Korean>";"<Chinese>";"<Japanese>";"<TChinese>";"<Comments>";"<max_chars>"
+"squad/has_non_accept_invites";"You squad has non-accepted invites";"Votre escouade a des invitations non acceptées";"Il tuo plotone ha degli inviti sospesi";"Die Staffel verfügt über nicht akzeptierte Einladungen";"Tu escuadrón tiene invitaciones sin aceptar";"В отряде есть непринятые приглашения";"У загоні є неприйняті запрошення";"Twój oddział nie zaakceptował wszystkich zaproszeń";"Seu esquadrão tem convites não aceites";"Takımının kabul edilmemiş davetiyeleri var";"Tvá skupina má nepřijaté pozvánky";"Η ομάδα σας έχει προσκλήσεις που δεν έχουν γίνει αποδεκτές";"Skuadmu punya undangan yang tidak diterima";"หมู่ของคุณมีคำเชิญที่ยังไม่ได้รับ";"편대에 수락받지 않은 초대가 있습니다.";"小\t队\t还\t有\t尚\t未\t确\t认\t的\t邀\t请";"部隊に\t未承認の\t招待があります。";"小\t隊\t中\t還\t有\t尚\t未\t回\t覆\t確\t認\t的\t邀\t請";;
+"squad/not_all_ready";"Not all squad members are ready.";"Tous les membres de l'escouade ne sont pas prêts.";"Non tutti i membri del plotone sono pronti.";"Es sind noch nicht alle Staffelmitglieder bereit.";"No están listos todos los miembros del escuadrón.";"Не все члены отряда готовы.";"Не всі члени загону готові.";"Nie wszyscy członkowie oddziału są gotowi.";"Nem todos os membros da esquadrilha estão prontos.";"Bütün takım üyeleri hazır değil.";"Všichni členové skupiny nejsou připraveni";"Δεν είναι όλα τα μέλη της ομάδας έτοιμα.";"Tidak semua anggota skuad siap.";"สมาชิกหมู่ยังพร้อมไม่ครบทุกคน";"아직 준비되지 않은 편대원이 있습니다.";"部\t分\t小\t队\t成\t员\t尚\t未\t准\t备\t就\t绪";"全ての\t分隊の\tメンバーが\t準備完了というわけではありません。";"還\t有\t小\t隊\t成\t員\t尚\t未\t準\t備\t就\t緒";;
+"squad/not_all_has_packs";"Some squad members don't have the right add-ons downloaded for battle.";"Certains membres de l'escouade n'ont pas les bons addons téléchargés pour la bataille.";"Alcuni membri del plotone non hanno scaricato gli add-on corretti per la battaglia.";"Einige Staffelmitglieder haben nicht die richtigen Add-Ons für die Schlacht heruntergeladen.";"Algunos miembros del escuadrón no tienen descargados los complementos adecuados para la batalla.";"У некоторых членов отряда не скачаны нужные дополнения для боя.";"Деякі члени ланки не завантажили необхідних доповнень для участі в бою.";"Niektórzy członkowie oddziału nie mają pobranych odpowiednich dodatków do bitwy.";"Alguns membros do pelotão não transferiram os suplementos necessários para a batalha.";"Bazı ekip üyeleri, saavşa başlamak için gerekli eklentilere sahip değil.";"Někteří členové skupiny nemají stažené správné addony pro bitvu.";"Ορισμένα μέλη της ομάδας δεν έχουν κατεβάσει τα σωστά πρόσθετα για τη μάχη.";"Beberapa anggota skuad belum mengunduh fitur tambahan yang tepat untuk pertempuran.";"สมาชิกหมู่บางคนยังไม่ได้ดาวน์โหลดส่วนเสริมที่จำเป็นสำหรับการต่อสู้นี้";"편대원 중 일부가 전투에 필요한 애드온을 가지고 있지 않습니다.";"小\t队\t成\t员\t尚\t未\t加\t载\t战\t斗\t所\t需\t游\t戏\t文\t件。";"一部の\t分隊\tメンバーは、\tバトルに\t必要な\tアドオンが\tダウンロードされていません。";"小\t隊\t成\t員\t尚\t未\t加\t載\t戰\t鬥\t所\t需\t遊\t戲\t文\t件。";;
+"squad/has_offline_members";"Not all squad members are in game";"Tous les membres de l’escouade ne sont pas en jeu";"Non tutti i membri del plotone sono collegati";"Nicht alle Staffelmitglieder sind mit dem Spiel verbunden.";"No todos los miembros del escuadrón están en el juego";"Не все члены отряда находятся в игре";"Не всі члени загону знаходяться в грі";"Nie wszyscy członkowie oddziału są obecni w grze";"Nem todos os membros da esquadrão estão no jogo";"Takım üyelerinin hepsi oyunda değil";"Všichni členové skupiny nejsou ve hře";"Δεν είναι όλα τα μέλη της ομάδας μέσα στο παιχνίδι";"Tidak semua anggota skuad sedang online";"สมาชิกหมู่ยังอยู่ในเกมไม่ครบทุกคน";"게임을 실행하지 않은 편대원이 있습니다.";"部\t分\t小\t队\t成\t员\t未\t登\t入\t游\t戏";"まだ\t全ての\t分隊員が\t準備を\t完了していません";"還\t有\t小\t隊\t成\t員\t尚\t未\t登\t入\t遊\t戲";;
+"squad/leave_squad_for_invite";"You need to leave the squad to accept the invitation.";"Vous devez quitter l’éscouade pour accepter l’invitation.";"Devi abbandonare il plotone per accettare l'invito.";"Du musst die Staffel verlassen, um diese Einladung anzunehmen.";"Necesitas abandonar el escuadrón para aceptar la invitación.";"Вам необходимо покинуть отряд для принятия приглашения.";"Вам потрібно залишити загін, щоб прийняти запрошення.";"Musisz opuścić oddział, by przyjąć zaproszenie.";"Você precisa deixar o esquadrão para aceitar o convite.";"Daveti kabul etmek için takımdan çıkmanız gerekiyor.";"Pro přijetí pozvánky musíš opustit skupinu";"Πρέπει να φύγετε από την ομάδα για να αποδεχτείτε την πρόσκληση.";"Kamu harus keluar dari skuad untuk menerima undangan ini.";"คุณต้องออกจากหมู่เพื่อตอบรับคำเชิญ";"초대를 받기 위해서는 편대를 떠나야 합니다";"退\t出\t当\t前\t小\t队\t后\t才\t能\t接\t受\t此\t邀\t请。";"招待を\t受けるには\t分隊を\t出る\t必要があります。";"退\t出\t當\t前\t小\t隊\t後\t才\t能\t接\t受\t此\t邀\t請。";;
+"squad/readyCheckBtn";"Readiness check";"Vérification de l'état de préparation";"Controllo stato prontezza";"Bereitschaftsprüfung";"Comprobación de preparación";"Проверка готовности";"Перевірка готовності";"Sprawdzenie gotowości";"Verificação de prontidão";"Hazır olma kontrolü";"Kontrola připravenosti";"Έλεγχος ετοιμότητας";"Pemeriksaan Kesiapan";"ตรวจสอบความพร้อม";"준비 상태 체크";"检\t查\t队\t员\t准\t备\t状\t态";"準備状態の\t確認";"檢\t查\t隊\t員\t準\t備\t狀\t態";;
+"squad/readyCheckInCooldownMsg";"You were just checking the squad's readiness.
+Try again later.";"Vous vérifiiez juste l'état de préparation de l'équipe.
+Réessayez plus tard.";"Hai solo provato la protezza del plotone.
+Riprova più tardi.";"Du hast gerade die Einsatzbereitschaft der Staffel überprüft.
+Versuche es später noch einmal.";"Estabas comprobando la preparación del escuadrón.
+Vuelve a intentarlo más tarde.";"Вы только что проверяли готовность отряда.
+Попробуйте позднее.";"Ви щойно перевіряли готовність ланки.
+Спробуйте ще раз пізніше.";"Właśnie sprawdzałeś gotowość oddziału.
+Spróbuj ponownie później.";"Estávam a verificar o estado de prontidão do seu pelotão.
+Por favor tente novamente mais tarde.";"Takımın hazır olma durumunu kontrol ediyoruz.
+Lütfen daha sonra tekrar deneyin.";"Právě jsi zkontroloval připravenost skupiny.
+Zkus to později.";"Μόλις ελέγξατε την ετοιμότητα της ομάδας.
+Προσπαθήστε ξανά αργότερα.";"Kamu baru saja memeriksa kesiapan skuad.
+Coba lagi nanti.";"คุณเพิ่งทำการตรวจสอบความพร้อมของสมาชิกหมู่ไป
+กรุณาลองใหม่ในภายหลัง";"편대원의 준비 상태를 체크하고 있습니다.
+나중에 다시 시도하세요.";"刚\t刚\t已\t检\t查\t了\t队\t员\t准\t备\t状\t态。
+请\t稍\t后\t再\t进\t行\t查\t验。";"分隊の\t準備状態を\t確認したばかりです。\t
+後でもう\t一度お\t試しください。";"剛\t剛\t已\t檢\t查\t了\t隊\t員\t準\t備\t狀\t態。
+請\t稍\t後\t再\t進\t行\t查\t驗。";;
+"squad/readyCheckMsg";"The squad leader requested a readiness check.
+Are you ready to fight now?";"Le chef d'escouade a demandé une vérification de l'état de préparation.
+Êtes-vous prêt à vous battre maintenant?";"Il capo plotone ha richiesto un controllo di prontezza.
+Sei pronto a combattere ora?";"Der Staffelführer hat eine Bereitschaftsprüfung angefordert.
+Bist Du bereit, jetzt zu kämpfen?";"El líder del escuadrón ha solicitado una comprobación de preparación.
+¿Estás preparado para luchar ahora?";"Лидер отряда запросил проверку готовности.
+Вы готовы к бою сейчас?";"Лідер ланки перевіряє готовність.
+Ви готові до бою?";"Dowódca oddziału poprosił o sprawdzenie gotowości.
+Czy jesteś gotowy do bitwy?";"O líder do esquadrão pediu uma verificação de prontidão.
+Está pronto para combater agora?";"Takım lideri hazır olup olmadığınızı soruyor.
+Savaşmaya hazır mısınız?";"Velitel skupiny si vyžádal kontrolu připravenosti.
+Jsi připraven k boji?";"Ο αρχηγός της ομάδας ζήτησε έλεγχο ετοιμότητας.
+Είστε έτοιμος να πολεμήσετε τώρα;";"Pemimpin skuad meminta pemeriksaan kesiapan.
+Sudah siap bertarung?";"หัวหน้าหมู่ขอตรวจสอบความพร้อม
+คุณพร้อมจะต่อสู้หรือยัง?";"편대장이 준비 상태를 확인하고 있습니다.
+전투 준비를 완료하셨습니까?";"队\t长\t要\t求\t查\t验\t队\t员\t准\t备\t状\t态。
+是\t否\t已\t经\t准\t备\t好\t参\t加\t战\t斗？";"分隊長が\t準備状態確認を\tリクエストしました。\t
+戦う\t準備はできていますか？";"隊\t長\t要\t求\t查\t驗\t隊\t員\t準\t備\t狀\t態。
+是\t否\t已\t經\t準\t備\t好\t參\t加\t戰\t鬥？";;
+"squad/readyCheckWait";"Pending a readiness check";"En attente d'un contrôle de préparation";"Controllo prontezza in attesa";"Bereitschaftsprüfung ausstehend";"Pendiente de una comprobación de preparación";"В ожидании проверки готовности";"Очікується перевірка готовності";"Oczekiwanie na sprawdzenie gotowości";"Verificação de prontidão pendente";"Hazır olma kontrolü bekleniyor";"Čeká se na kontrolu připravenosti";"Εκκρεμεί έλεγχος ετοιμότητας";"Menunggu pemeriksaan kesiapan";"รอการตรวจสอบความพร้อม";"준비 상태 체크 중";"准\t备\t状\t态\t待\t响\t应";"準備状態の\t確認中";"準\t備\t狀\t態\t待\t響\t應";;
+"squad/rankCheck";"Rank check";"Contrôle du rang";"Controllo Rango";"Überprüfung des Ranges";"Comprobación de rango";"Проверка рангов";"Перевірка рангу";"Sprawdzanie rangi";"Verificação de classificação";"Seviye kontrolü";"Kontrola Úrovně";"Έλεγχος βαθμού";"Pemeriksaan rank";"ตรวจสอบระดับ";"랭크 확인";"检\t查\t队\t伍\t等\t级";"ランクの\t確認";"檢\t查\t隊\t伍\t階\t級";;
+"msg/bigRankDiff/toBattle";"Players in your squad have selected vehicle with a large rank difference ({rankMin} and {rankMax}).
+This may result in poor game quality for players with lower ranked vehicle.
+Going into battle anyway?";"Les joueurs de votre équipe ont sélectionné un véhicule avec une grande différence de classement ({rankMin} et {rankMax}).
+Cela peut entraîner une mauvaise qualité de jeu pour les joueurs avec un véhicule de rang inférieur.
+Partir au combat malgré tout?";"I giocatori nel tuo plotone hanno scelto mezzi con una grossa differenza di ere ({rankMin} e {rankMax}).
+Questo può risultare in una brutta esperienza di gioco per chi ha mezzi di era più bassa.
+Vuoi entrare in battaglia lo stesso?";"Spieler in Deiner Staffel haben Fahrzeuge mit sehr unterschiedlichem Rang gewählt ({rankMin} und {rankMax}).
+Dies kann zu einer schlechten Spielqualität für Spieler mit einem niedrigeren Fahrzeugrang führen.
+Ziehst Du trotzdem in die Schlacht?";"Los jugadores de tu escuadrón han seleccionado vehículos con una gran diferencia de rango ({rankMin} y {rankMax}).
+Esto puede resultar en una mala calidad de juego para los jugadores con vehículos de menor rango.
+¿Ir a la batalla de todos modos?";"У игроков в вашем отряде выбрана техника с большой разницой рангов ({rankMin} и {rankMax}).
+Это может привести к ухудшению качества игры для игроков с техникой меньшего ранга.
+Все равно идем в бой?";"Гравці вашої ланки вибрали техніку зі значною різницею в ранзі (від {rankMin} до {rankMax}).
+Це може призвести до погіршення ігрового досвіду для гравців із технікою нижчого рангу.
+Все одно перейти до битви?";"Gracze w twoim oddziale wybrali maszyny z dużą różnicą rang ({rankMin} i {rankMax}).
+Może to skutkować niską jakością rozgrywki dla graczy z maszynami o niższej randze.
+Czy chcecie ruszyć w bój?";"Jogadores no seu pelotão selecionaram um veículo com uma grande diferença de classificação ({rankMin} e {rankMax}).
+Isto pode resultar numa qualidade de jogo mais baixa para jogadores com veículos de classificação inferior.
+Pretende entrar em combate mesmo assim?";"Ekibinizdeki oyuncular büyük seviye farkına sahip araçları seçti: ({rankMin} ve {rankMax}).
+Bunun bir sonucu olarak düşük seviyeli araç sahibi oyuncu için oyunun kalitesi düşebilir.
+Yine de devam etmek istiyor musunuz?";"Hráči ve tvé skupině si vybrali vozidlo s velkým rozdílem úrovní ({rankMin} a {rankMax}).
+To může mít za následek špatnou kvalitu hry pro hráče s technikou nižší úrovně.
+Chceš i přesto do bitvy?";"Οι παίκτες της ομάδας σας έχουν επιλέξει οχήματα με μεγάλη διαφορά κλάσης ({rankMin} και {rankMax}).
+Αυτό μπορεί να οδηγήσει σε κακή ποιότητα παιχνιδιού για τους παίκτες με οχήματα χαμηλότερης κλάσης.
+Θα πάτε στη μάχη ανεξάρτητα από αυτό;";"Pemain dalam skuadmu memilih kendaraan dengan rank yang jauh berbeda ({rankMin} dan {rankMax}).
+Hal ini bisa mengurangi kualitas permainan bagi pemain yang rank kendaraannya lebih rendah.
+Tetap masuk ke pertempuran?";"ผู้เล่นในหมู่ของคุณเลือกพาหนะที่มีความแตกต่างของระดับ ({rankMin} และ {rankMax}) สูง
+การทำเช่นนี้อาจส่งผลให้ผู้เล่นที่มีพาหนะระดับต่ำอาจได้รับประสบการณ์การเล่นเกมที่ไม่ดี
+ยืนยันจะต่อสู้ด้วยตัวเลือกนี้หรือไม่?";"편대원이 구성한 라인업의 랭크 차이가 너무 큽니다 ({rankMin}, {rankMax}).
+이대로 진행할 경우, 낮은 랭크의 장비를 가진 플레이어가 게임을 제대로 즐기지 못할 수 있습니다.
+무시하고 진행하시겠습니까?";"小\t队\t成\t员\t选\t择\t载\t具\t等\t级\t与\t当\t前\t匹\t配\t等\t级\t差\t距\t过\t大 ({rankMin} 级\t与 {rankMax} 级)。
+等\t级\t差\t距\t可\t能\t降\t低\t使\t用\t低\t等\t级\t载\t具\t玩\t家\t的\t游\t戏\t体\t验。
+确\t定\t要\t开\t始\t战\t斗\t吗？";"あなたの\t分隊の\tプレイヤーが、\tランク\t差の\t大きい\t車両を\t選択しました（{rankMin}と{rankMax}）。\t
+これにより、\tランクの\t低い\t車両を\t使用している\tプレイヤーは、\tゲームの\t質が\t低下する\t可能性があります。\t
+このまま\t戦闘を\t開始しますか？";"小\t隊\t成\t員\t選\t擇\t載\t具\t階\t級\t與\t當\t前\t匹\t配\t階\t級\t差\t距\t過\t大 ({rankMin} 階\t與 {rankMax} 階)。
+階\t級\t差\t距\t可\t能\t降\t低\t使\t用\t低\t階\t載\t具\t玩\t家\t的\t遊\t戲\t體\t驗。
+確\t定\t要\t開\t始\t戰\t鬥\t嗎？";;
+"msg/bigRankDiff/askChange";"The leader asks you to select a vehicle of the same rank as his:
+{rankText}";"Le chef vous demande de sélectionner un véhicule du même rang que le sien:
+{rankText}";"Il capo plotone ti chiede di scegliere un mezzo della stessa era dei suoi:
+{rankText}";"Der Staffelführer fordert Dich auf, ein Fahrzeug des gleichen Ranges wie sein eigenes zu wählen:
+{rankText}";"El líder te pide que elijas un vehículo del mismo rango que el suyo:
+{rankText}";"Лидер просит вас выставить технику такого же ранга как и у него:
+{rankText}";"Лідер просить вибрати техніку того ж рангу, що й у нього:
+{rankText}";"Lider prosi o wybranie maszyny tej samej rangi co jego:
+{rankText}";"O líder pediu para selecionar um veículo de classificação igual ao dele: 
+{rankText}";"Lider, sizin de onunla aynı seviyede araç seçmenizi istiyor:
+{rankText}";"Velitel tě požádá, abys vybral stroj stejné úrovně jako on:
+{rankText}";"Ο αρχηγός σάς ζητά να επιλέξετε ένα όχημα της ίδιας κλάσης με το δικό του:
+{rankText}";"Pemimpin memintamu untuk memilih kendaraan dengan rank yang sama seperti miliknya:
+{rankText}";"หัวหน้าหมู่ขอให้คุณเลือกพาหนะระดับเดียวกับเขา:
+{rankText}";"편대장이 자신과 같은 랭크({rankText})의 장비를 투입할 것을 지시했습니다.";"队\t长\t建\t议\t选\t择\t同\t等\t级\t载\t具\t参\t加\t战\t斗：
+{rankText} 级";"隊長より、\t同じ\tランクの\t車両を\t選択するよう\t求められています：\t
+{rankText}";"隊\t長\t建\t議\t選\t擇\t同\t階\t級\t載\t具\t參\t加\t戰\t鬥：
+{rankText} 階";;
+"msg/bigRankDiff/checkInCooldown";"You were just checking the squad's Rank.
+Try again later.";"Vous étiez en train de vérifier le rang de l'escouade.
+Réessayez plus tard.";"Stavi solo controllando i livelli del plotone.
+Prova di nuovo.";"Du hast gerade den Rang der Staffel überprüft.
+Versuche es später noch einmal.";"Estabas comprobando el Rango del escuadrón.
+Inténtalo más tarde.";"Вы только что проверяли ранги отряда.
+Попробуйте позднее.";"Ви щойно перевіряли ранг ланки.
+Спробуйте ще раз пізніше.";"Właśnie sprawdzałeś Rangę oddziału.
+Spróbuj ponownie później.";"Estava agora mesmo a ver a classificação do pelotão.
+Tente novamente mais tarde.";"Ekibin seviyesini henüz kontrol ettiniz.
+Lütfen daha sonra tekrar deneyin.";"Právě jsi zkontroloval úroveň skupiny.
+Zkus to později.";"Μόλις ελέγξατε την Κλάση της ομάδας.
+Προσπαθήστε ξανά αργότερα.";"Kamu baru saja memeriksa Rank skuad.
+Coba lagi nanti.";"คุณเพิ่งทำการตรวจสอบระดับของสมาชิกหมู่ไป
+กรุณาลองใหม่ในภายหลัง";"편대원의 랭크를 체크하고 있습니다.
+나중에 다시 시도하세요.";"刚\t刚\t已\t检\t查\t了\t小\t队\t成\t员\t的\t载\t具\t等\t级。
+请\t稍\t后\t再\t进\t行\t查\t验。";"分隊の\tランクを\t確認したばかりです。\t
+後でもう\t一度お\t試しください。";"你\t剛\t查\t看\t過\t小\t隊\t的\t階\t級。
+請\t稍\t後\t再\t試。";;
+"squad/requestAddonsDownload";"Request download";"Demander le téléchargement";"Download richiesto";"Download anfragen";"Solicitar descarga";"Запросить скачивание";"Запит на завантаження";"Poproś o pobranie";"Solicitar transferência";"İndirme iste";"Žádost o stažení";"Request download";"Minta pengunduhan";"Request download";"다운로드 요청";"请\t求\t下\t载";"ダウンロードを\tリクエスト";"請\t求\t下\t載";;
+"msg/squadAddons/checkInCooldown";"You just requested to download resources.
+Try again later.";"Vous venez de demander le téléchargement des ressources.
+Veuillez réessayer plus tard.";"Hai appena richiesto di scaricare le risorse.
+Riprova più tardi.";"Du hast gerade angefragt, Ressourcen herunterzuladen.
+Versuche es später noch einmal.";"Acabas de solicitar la descarga de recursos.
+Vuelve a intentarlo más tarde.";"Вы только что запрашивали скачивание ресурсов.
+Попробуйте позднее.";"Ви щойно надіслали запит на завантаження ресурсів.
+Спробуйте ще раз пізніше.";"Właśnie poprosiłeś o pobranie zasobów.
+Spróbuj ponownie później.";"Acabou de solicitar a transferência de recursos.
+Tente novamente mais tarde.";"Kaynakları indirmek için talepte bulundunuz.
+Daha sonra tekrar deneyin.";"Právě jsi požádal o stažení zdrojů.
+Zkus to znovu později.";"You just requested to download resources.
+Try again later.";"Kamu baru saja meminta pengunduhan sumber daya.
+Coba lagi nanti.";"You just requested to download resources.
+Try again later.";"조금 전에 다운로드를 요청했습니다.
+잠시 후 다시 시도해 주십시오.";"您\t刚\t刚\t已\t经\t提\t交\t过\t下\t载\t申\t请。
+请\t稍\t后\t重\t试。";"資源の\tダウンロードを\tリクエストしました。\t
+後でもう\t一度お\t試しください。";"您\t剛\t剛\t發\t起\t請\t求\t下\t載\t游\t戲\t資\t源。
+請\t稍\t後\t再\t試。";;
+"msg/squadAddons/askDownload";"To play in {modeName} mode, the squad leader asks you to download {count=add-on/add-ons}:
+{addon} ({size})";"Pour jouer en mode {modeName}, le chef d'escouade doit vous demander de télécharger un/des {count=add-on/add-ons}:{addon} ({size})";"Per gicare nella modalità {modeName}, il capo plotone ti chiede di scaricare {count=add-on/add-on}: {addon} ({size})";"Um im Modus {modeName} zu spielen, fordert dich der Truppführer auf, {count=add-on/add-ons} herunterzuladen:
+{addon} ({size})";"Para jugar en el modo {modeName}, el líder del escuadrón te pide que descargues {count=add-on/add-ons}:
+{addon} ({size})";"Для игры в режим {modeName} лидер отряд просит вас скачать {count=дополнение/дополнения/дополнений}:
+{addon} ({size})";"Для гри в режимі {modeName} командир загону просить вас завантажити {count=доповнення/доповнення/доповнень}:
+{addon} ({size})";"Aby grać w trybie {modeName}, dowódca oddziału prosi Cię o pobranie {count=dodatku/dodatków/dodatków}:
+{addon} ({size})";"Para jogar no modo {modeName}, o líder do esquadrão pede-lhe para transferir {count=suplemento/suplementos}:
+{addon} ({size})";"{modeName} modunda oynamak için manga lideri {count=eklentiyi/eklentileri} indirmenizi istiyor:
+{addon} ({size})";"Chceš-li hrát v režimu {modeName}, velitel jednotky tě požádá o stažení {count=add-onu/add-onů/add-onů}:
+{addon} ({size})";"To play in {modeName} mode, the squad leader asks you to download {count=add-on/add-ons}:
+{addon} ({size})";"Untuk bermain dalam mode {modeName}, pemimpin skuad memintamu untuk mengunduh {count=fitur tambahan}:
+{addon} ({size})";"To play in {modeName} mode, the squad leader asks you to download {count=add-on/add-ons}:
+{addon} ({size})";"{modeName} 모드를 플레이하기 위해선 애드온을 다운받아야 합니다:
+{addon} ({size})";"游\t玩 {modeName} 模\t式\t需\t要\t额\t外\t下\t载 {count=\t附\t件}：
+{addon}\t（{size}）";"{modeName}モードで\tプレイするために、\t分隊長があなたに{count=アドオン}の\tダウンロードを\t求めています：\t
+{addon} ({size})";"遊\t玩 {modeName} 模\t式\t需\t要\t額\t外\t下\t載 {count=\t附\t件}：
+{addon}\t（{size}）";;
+"squad/invite/desc";"Invites you to join his squad";"Vous invite à rejoindre son escouade";"Ti invita ad unirti al suo plotone";"Lädt Dich ein, seiner Staffel beizutreten";"Te invita a unirte a su escuadrón";"Приглашает вас в свой отряд";"Запрошує вас до своєї ланки";"Zaprasza cię do swojego oddziału";"Convite para você entrar no seu pelotão";"Sizi takımına katılmaya davet ediyor";"Tě zve k připojení do jeho skupiny";"Σας προσκαλεί να γίνετε μέλος της ομάδας του";"Mengundangmu untuk bergabung dengan skuadnya";"เชิญคุณเข้าร่วมหมู่ของเขา";"님이 편대에 초대하였습니다";"邀\t请\t加\t入\t对\t方\t小\t队";"あなたを\t分隊に\t招待しています";"邀\t請\t加\t入\t對\t方\t小\t隊";;
+"squad/invite/reject";"Rejected the invitation to the squad.";"A rejeté l'invitation à l'escouade.";"Invito al plotone rifiutato.";"Einladung zum Beitritt in die Staffel abgelehnt.";"Rechazó la invitación al escuadrón.";"Отказался вступить в отряд.";"Відхилено запрошення в ланку.";"Odrzucił zaproszenie do drużyny.";"Rejeitou o convite para o pelotão.";"Takıma katılma davetini reddetti.";"Odmítl pozvání do skupiny.";"Απέρριψε την πρόσκληση στην ομάδα.";"Menolak undangan untuk masuk ke dalam skuad.";"ปฏิเสธคำเชิญเข้าร่วมหมู่";"님이 편대 초대를 거절했습니다.";"拒\t绝\t了\t组\t队\t邀\t请。";"分隊への\t招待を\t拒否しました。";"拒\t絕\t了\t組\t隊\t邀\t請。";;
+"squad/only_leader_can_queue";"Only the squad leader can queue for a battle.";"Seul le chef d'escouade peut mettre une bataille en file d'attente.";"Solo il comandante del plotone può entrare in coda per la battaglia.";"Nur der Staffelführer kann die Staffel in die Warteschlange für eine Zufallsschlacht einreihen.";"Solo el líder del escuadrón puede ponerse a la cola de una batalla.";"Только лидер отряда может записать в очередь на бой.";"Тільки лідер загону може записати в чергу на бій.";"Tylko dowódca oddziału może kolejkować bitwę.";"Apenas o líder da esquadrilha pode selecionar batalha na fila de espera.";"Sadece takım lideri savaş için sıraya girebilir.";"Pouze velitel skupiny ji může zařadit do fronty na bitvu";"Μόνο ο αρχηγός της ομάδας μπορεί να μπει στην ουρά για μια μάχη.";"Hanya pemimpin skuad yang bisa mengantre untuk bertempur.";"หัวหน้าหมู่เท่านั้นที่สามารถเริ่มคิวร่วมการต่อสู้ได้";"편대장만이 편대 전체를 대기열에 입장시킬 수 있습니다.";"只\t有\t小\t队\t长\t能\t决\t定\t何\t时\t“加\t入\t战\t斗”";"出撃命令は\t分隊長のみが\t下せます。";"只\t有\t小\t隊\t長\t能\t決\t定\t何\t時\t“加\t入\t戰\t鬥”。";;
+"squad/only_leader_can_cancel";"Only the squad leader can cancel a queued battle.";"Seul le chef d'escouade peut annuler une bataille en file d'attente.";"Solo il comandante del plotone può annullare una battaglia in coda.";"Nur der Staffelführer kann die Staffel aus der Warteschlange entfernen.";"Solo el líder del escuadrón puede dejar de estar a la cola de una batalla.";"Только лидер отряда может отменить запись в очередь на бой.";"Тільки лідер загону може скасувати запис в чергу на бій.";"Tylko dowódca oddziału może anulować bitwę znajdującą się w kolejce.";"Apenas o líder da esquadrilha pode cancelar uma batalha na fila de espera.";"Savaş için girilmiş sıradan yalnızca takım lideri çıkabilir.";"Frontu na bitvu může zrušit pouze velitel skupiny";"Μόνο ο αρχηγός της ομάδας μπορεί να ακυρώσει μια μάχη σε ουρά.";"Hanya pemimpin skuad yang bisa membatalkan antrean pertempuran.";"หัวหน้าหมู่เท่านั้นที่สามารถยกเลิกคิวร่วมการต่อสู้ได้";"편대장만이 편대 전체를 대기열에서 퇴장시킬 수 있습니다.";"只\t有\t小\t队\t长\t能\t取\t消\t排\t队";"出撃取消命令は\t分隊長のみが\t下せます。";"只\t有\t小\t隊\t隊\t長\t才\t能\t取\t消\t戰\t鬥\t序\t列\t排\t隊";;
+"squad/gamemode_not_available_for_squad";"This mode is not available to the squad.";"Ce mode n'est pas disponible pour l'escouade.";"Questa modalità non è disponibile per il plotone.";"Dieser Modus ist für die Staffel nicht verfügbar.";"Este modo no está disponible para el escuadrón.";"Данный режим не доступен для отряда.";"Цей режим недоступний для ланки.";"Ten tryb nie jest dostępny dla oddziału.";"Modo indisponível para o pelotão.";"Bu mod ekip için uygun değil.";"Tento režim není pro skupinu k dispozici.";"Αυτή η λειτουργία δεν είναι διαθέσιμη στην ομάδα.";"Mode ini tidak tersedia untuk skuad.";"โหมดนี้ไม่สามารถใช้งานได้ในหมู่ปัจจุบัน";"편대에서 진행할 수 없는 모드입니다.";"该\t模\t式\t无\t法\t组\t队。";"この\tモードは、\tこの\t分隊は\t利用できません。";"該\t模\t式\t無\t法\t組\t隊。";;
+"squad/minimumSquadSizeWarning";"You need a squad with at least {count} members to play this mode";"Vous avez besoin d'une escouade avec au moins {count} membres pour jouer à ce mode";"Devi avere un plotone con almeno {count} membri per giocare in questa modalità";"Um diesen Modus zu spielen, benötigst Du eine Staffel mit mindestens {count} Mitgliedern";"Necesitas un escuadrón con al menos {count} miembros para jugar a este modo";"Для игры в этот режим нужен отряд с минимум {count} участниками";"Для гри в цьому режимі вам потрібна ланка, у якій членів щонайменше {count}";"Do gry w tym trybie potrzebny jest oddział składający się z co najmniej {count} członków";"Para jogar este modo é necessário um pelotão com pelo menos {count} membros";"Bu modu oynamak için en az {count} üyeli bir ekibe ihtiyacınız var";"Pro hraní tohoto režimu potřebuješ skupinu s alespoň {count} členy";"Χρειάζεστε μια ομάδα με τουλάχιστον {count} μέλη για να παίξετε αυτή τη λειτουργία";"Kamu membutuhkan skuad dengan setidaknya {count} anggota untuk memainkan mode ini";"คุณต้องการหมู่ที่มีสมาชิกอย่างน้อย {count} คนเพื่อเล่นโหมดนี้";"이 모드로 플레이하려면 최소 {count}명으로 구성된 편대가 있어야 합니다";"参\t加\t该\t模\t式\t战\t斗\t小\t队\t至\t少\t需\t要\t包\t括 {count} 名\t队\t员";"この\tモードを\tプレイするには、\t分隊に{count}人以上の\tメンバーが\t必要です";"參\t加\t該\t模\t式\t戰\t鬥\t小\t隊\t至\t少\t需\t要\t包\t括 {count} 名\t隊\t員";;
+"squad/modeNotAvailableForSquad";"This mode is not available for squad play";"Ce mode n'est pas disponible pour le jeu en escouade";"Questa modalità non è disponibile per i plotoni";"Dieser Modus ist für Staffeln nicht verfügbar";"Este modo no está disponible para jugar en escuadrón";"Данный режим не доступен для игры в отряде";"Цей режим недоступний для гри в ланці";"Ten tryb nie jest dostępny dla oddziału";"Modo indisponível para jogar em pelotão";"Bu mod ekip olarak oynamaya uygun değil";"Tento režim není k dispozici pro hru ve skupině";"Αυτή η λειτουργία δεν είναι διαθέσιμη για παιχνίδι ομάδας";"Mode ini tidak tersedia untuk permainan skuad";"โหมดนี้ไม่สามารถใช้งานได้ในการเล่นเป็นหมู่";"편대에서 진행할 수 없는 모드입니다.";"小\t队\t无\t法\t加\t入\t该\t模\t式\t进\t行\t战\t斗";"この\tモードは、\tこの\t分隊では\tプレイできません";"小\t隊\t無\t法\t加\t入\t該\t模\t式\t進\t行\t戰\t鬥";;
+"squad/inviteError";"Error joining group";"Erreur pour rejoindre l'escouade";"Errore durante l'accesso al gruppo";"Fehler beim Beitritt zur Gruppe";"Error al unirse al grupo";"Ошибка присоединения к группе";"Помилка приєднання до групи";"Błąd dołączania do oddziału";"Erro ao entrar para o grupo";"Gruba katılma hatası";"Chyba při připojování do skupiny";"Σφάλμα ένταξης στην ομάδα";"Terjadi kesalahan saat bergabung dengan kelompok";"ข้อผิดพลาดในการเข้าร่วมกลุ่ม";"편대 참가 도중 오류가 발생했습니다.";"加\t入\t小\t队\t时\t出\t错";"グループ\t参加\tエラー";"加\t入\t小\t隊\t時\t出\t錯";;
+"squad/member_info";"Squad member information";"Information sur les membres de l'escouade";"Informazioni membri plotone";"Informationen über Staffelmitglied";"Información de los miembros del escuadrón";"Информация о члене отряда";"Інформація про члена ланки";"Informacje o członkach oddziału";"Informações sobre membros do pelotão";"Ekip üyesi bilgisi";"Informace o členech skupiny";"Πληροφορίες για τα μέλη της ομάδας";"Informasi anggota skuad";"ข้อมูลสมาชิกหมู่";"편대원 정보";"小\t队\t成\t员\t信\t息";"分隊\tメンバー\t情報";"小\t隊\t成\t員\t信\t息";;
+"squad/cant_ready/leader_campaign_invalid";"You can't turn on readiness while the leader has an unavailable campaign selected.";"Vous ne pouvez pas activer la préparation tant que le leader a sélectionné une campagne indisponible.";"Non puoi cambiare lo stato di prontezza mentre il capo plotone ha selezionato una campagna non disponibile.";"Du kannst die Bereitschaft nicht aktivieren, wenn der Anführer eine nicht verfügbare Kampagne ausgewählt hat.";"No puedes activar la preparación mientras el líder tenga seleccionada una campaña no disponible.";"Нельзя включить готовность пока у лидера выбрана не доступная кампания.";"Ви не можете ввімкнути готовність, якщо лідер вибрав недоступну кампанію.";"Nie można włączyć gotowości, gdy przywódca ma wybraną niedostępną kampanię.";"Não pode ativar a prontidão enquanto o líder tem uma campanha indisponível selecionada.";"Lider uygun olmayan bir harekat seçtiğinden hazır duruma geçemezsiniz.";"Připravenost nelze zapnout, pokud má velitel vybranou nedostupné tažení.";"Δεν μπορείτε να ενεργοποιήσετε την ετοιμότητα όταν ο αρχηγός έχει επιλέξει μια μη διαθέσιμη εκστρατεία.";"Kamu tidak bisa mengaktifkan kesiapan saat pemimpin memilih kampanye yang tidak tersedia.";"คุณไม่สามารถกดพร้อมในขณะที่หัวหน้าเลือกแคมเปญที่เข้าเล่นไม่ได้";"편대장이 플레이 불가능한 캠페인을 선택했을 경우, 준비할 수 없습니다.";"小\t队\t无\t法\t加\t入\t队\t长\t当\t前\t选\t择\t的\t游\t戏\t模\t式，\t无\t法\t切\t换\t准\t备\t状\t态。";"分隊長が\tプレイ\t不可能な\tキャンペーンを\t選択している\t間、\t準備状態を\tオンにすることはできません。";"小\t隊\t無\t法\t加\t入\t隊\t長\t當\t前\t選\t擇\t的\t遊\t戲\t模\t式，\t無\t法\t切\t換\t準\t備\t狀\t態。";;
+"squad/cant_ready/need_change_campaign";"To participate in a battle, you must select the same armed forces as those selected by the leader.
+Switch to {campaign}?";"Pour participer à une bataille, vous devez sélectionner les mêmes forces armées que celles sélectionnées par le chef.
+Passer à {campaign}?";"Per partecipare in una battaglia, devi scegliere la stessa forza armata del capo plotone.
+Vuoi passare alla {campaign}?";"Um an einer Schlacht teilzunehmen, musst Du dieselben Streitkräfte auswählen, wie der Anführer.
+Wechseln zu {campaign}?";"Para participar en una batalla, debes seleccionar las mismas fuerzas armadas que las seleccionadas por el líder.
+¿Cambiar a {campaign}?";"Для участия в бою нужно выбрать те же вооруженные силы что выбраны у лидера.
+Переключить на {campaign}?";"Щоб узяти участь у битві, ви повинні вибрати ті самі збройні сили, що й лідер.
+Перемкнутися на {campaign}?";"Aby wziąć udział w bitwie, musisz wybrać te same siły zbrojne, które zostały wybrane przez przywódcę.
+Przejść do {campaign}?";"Para participar numa batalha, deve selecionar as mesmas forças armadas do pelo líder.
+Mudar para {campaign}?";"Savaşta yer almak için lider ile aynı silahlı kuvvetleri seçmelisiniz.
+{campaign} tarafına geç?";"Chceš-li se zúčastnit bitvy, musíš si vybrat stejné ozbrojené síly, jaké vybral velitel.
+Přepnout na {campaign}?";"Για να συμμετάσχετε σε μια μάχη, πρέπει να επιλέξετε τις ίδιες ένοπλες δυνάμεις με αυτές που έχει επιλέξει ο αρχηγός.
+Θα αλλάξετε σε {campaign};";"Kamu harus memilih angkatan bersenjata yang sama dengan yang dipilih pemimpin untuk berpartisipasi dalam pertempuran.
+Beralih ke {campaign}?";"คุณต้องเลือกกองทัพประเภทเดียวกับที่หัวหน้าเลือกเพื่อเข้าร่วมการต่อสู้
+เปลี่ยนเป็น{campaign}หรือไม่?";"전투에 참가하기 위해선 편대장과 같은 진영을 선택해야 합니다.
+{campaign}(으)로 바꾸시겠습니까?";"加\t入\t战\t斗\t需\t要\t使\t用\t队\t长\t当\t前\t使\t用\t军\t种\t类\t型。
+确\t定\t要\t切\t换\t至 {campaign} 吗？";"バトルに\t参加するには、\t分隊長が\t選んだ\t軍と\t同じものを\t選択する\t必要があります。\t
+{campaign}に\t切り\t替えますか？";"加\t入\t戰\t鬥\t需\t要\t使\t用\t隊\t長\t當\t前\t裝\t備\t載\t具\t類\t型。
+確\t定\t要\t切\t換\t至 {campaign} 嗎？";;
+"squad/remove_player";"Remove from squad";"Retirer de l'escouade";"Rimuovi dal plotone";"Aus Staffel entfernen";"Eliminar de escuadrón";"Удалить из отряда";"Видалити з загону";"Usuń z oddziału";"Remover da esquadrilha";"Takımdan çıkar";"Odebrat ze skupiny";"Αφαίρεση από την ομάδα";"Keluarkan dari skuad";"ไล่ออกจากหมู่";"편대에서 방출";"移\t出\t小\t队";"分隊から\t除名";"從\t小\t隊\t移\t出";;
+"squad/ask/remove";"Would you like to remove {name} from the group?";"Souhaitez-vous retirer {name} de l'escouade?";"Vuoi rimuovere {name} dal gruppo?";"Möchtest Du {name} aus der Gruppe entfernen?";"¿Te gustaría quitar a {name} del grupo?";"Удалить {name} из группы?";"Ви дійсно хочете вигнати {name} з групи?";"Czy chcesz wykluczyć {name} z oddziału?";"Pretende remover {name} do grupo?";"{name} isimli oyuncuyu gruptan çıkarmak istiyor musunuz?";"Chtěl by jsi odebrat {name} ze skupiny?";"Θέλετε να αφαιρέσετε τον {name} από την ομάδα;";"Kamu ingin mengeluarkan {name} dari kelompok?";"คุณต้องการไล่ {name} ออกจากกลุ่มหรือไม่?";"{name} 을(를) 편대에서 추방하시겠습니까?";"确\t定\t要\t将 {name} 移\t出\t小\t队\t吗？";"{name}を\tグループから\t外しますか？";"確\t定\t要\t將 {name} 移\t出\t小\t隊\t嗎？";;
+"squad/kickedMsgbox";"You were expelled from the group!";"Vous avez été expulsé(e) de l'escouade!";"Sei stato espulso dal gruppo!";"Du wurdest aus der Gruppe entfernt!";"¡Has sido expulsado del grupo!";"Вас исключили из группы!";"Вас вигнали з групи!";"Zostałeś wykluczony z oddziału!";"Você foi expulso do grupo!";"Gruptan atıldınız!";"Byl jsi odstraněn ze skupiny!";"Σας έδιωξαν από την ομάδα!";"Kamu dikeluarkan dari kelompok!";"คุณถูกไล่ออกจากกลุ่ม!";"편대에서 추방되었습니다!";"您\t已\t被\t踢\t出\t小\t队。";"あなたは\tグループから\t除名されました！";"您\t已\t被\t移\t出\t小\t隊。";;
+"squad/revoke_invite";"Revoke invitation";"Révoquer l’invitation";"Revoca invito";"Einladung widerrufen";"Revocar invitación";"Отозвать приглашение";"Відкликати запрошення";"Wycofaj zaproszenie";"Revogar o convite";"Daveti iptal et";"Zrušit pozvánku";"Ανάκληση πρόσκλησης";"Batalkan undangan";"ถอนคำเชิญ";"초대 취소";"取\t消\t邀\t请";"招待を\t取り\t消す";"取\t消\t邀\t請";;
+"squad/tranfer_leadership";"Make leader";"Désigner un chef d'escouade";"Rendi caposquadra";"Zum Staffelführer machen";"Hacer líder";"Сделать лидером";"Зробити лідером";"Mianuj dowódcę";"Tornar líder";"Lider belirle";"Předat velení";"Κάντε αρχηγό";"Jadikan pemimpin";"ตั้งเป็นหัวหน้า";"편대장으로 추대";"移\t交\t队\t长\t身\t份";"リーダーに\t任命する";"任\t命\t隊\t長\t身\t份";;
+"squad/invite_player";"Invite to squad";"Inviter à l'escouade";"Invita nel plotone";"In Staffel einladen";"Invitar a escuadrón";"Пригласить в отряд";"Запросити в загін";"Zaproś do oddziału";"Convidar para a esquadrilha";"Takıma davet et";"Pozvat do skupiny";"Προσκαλέστε στην ομάδα";"Undang ke skuad";"เชิญเข้าร่วมหมู่";"편대로 초대";"邀\t请\t加\t入\t小\t队";"分隊へ\t招待";"邀\t請\t加\t入\t小\t隊";;
+"squad/popup/tooManyInvited";"You have invited too many players.";"Vous avez invité trop de joueurs.";"Hai invitato troppi giocatori.";"Du hast zu viele Spieler eingeladen.";"Has invitado a demasiados jugadores.";"Вы пригласили слишком много игроков.";"Ви запросили забагато гравців.";"Zaprosiłeś zbyt wielu graczy.";"Demasiados jogadores convidados.";"Çok fazla oyuncu davet ettiniz.";"Pozval jsi moc hráčů.";"Έχετε προσκαλέσει πάρα πολλούς παίκτες.";"Kamu telah mengundang terlalu banyak pemain.";"คุณเชิญผู้เล่นจำนวนมากเกินไป";"너무 많은 플레이어를 초대했습니다.";"邀\t请\t玩\t家\t数\t过\t多。";"招待した\tプレイヤーが\t多すぎます。";"邀\t請\t玩\t家\t數\t過\t多。";;
+"squad/ask/leave";"Are you sure you want to leave the squad?";"Êtes-vous certain de vouloir quitter l'escouade ?";"Abbandonare il plotone?";"Möchtest du die Staffel wirklich verlassen?";"¿Seguro que quieres abandonar el escuadrón?";"Вы уверены, что хотите покинуть отряд?";"Ви впевнені, що хочете покинути загін?";"Czy na pewno chcesz opuścić oddział?";"Tens a certeza que queres deixar a esquadrilha?";"Takımdan ayrılmak istediğinden emin misin?";"Opravdu chceš opustit skupinu?";"Είστε σίγουρος ότι θέλετε να φύγετε από την ομάδα;";"Kamu yakin ingin meninggalkan skuad?";"แน่ใจหรือไม่ว่าต้องการออกจากหมู่?";"정말로 편대에서 나오시겠습니까?";"确\t定\t要\t离\t开\t小\t队\t吗？";"分隊から\t離脱しますが\t本当によろしいですか？";"確\t定\t要\t離\t開\t小\t隊\t嗎?";;
+"squad/msgbox_disbanded";"Group has been disbanded";"L'escouade a été dissoute";"Il gruppo è stato sciolto";"Die Gruppe wurde aufgelöst";"El grupo ha sido desbandado";"Группа была распущена";"Групу розпущено";"Grupa została rozwiązana";"Grupo foi dissolvido";"Grup dağıtıldı";"Skupina byla rozpuštěna";"Η ομάδα έχει διαλυθεί";"Kelompok telah dibubarkan";"กลุ่มถูกยุบแล้ว";"편대가 해산되었습니다";"小\t队\t已\t解\t散";"グループは\t解散しました";"小\t隊\t已\t解\t散";;
+"invite/noNewInvites";"You will see invites to join squad from people here, once you have them.";"Vous verrez des invitations à rejoindre une escouade de la part de personnes ici, une fois que vous les aurez acceptées.";"Vedrai gli inviti per unirti ai plotoni qui, non appena ne avrai.";"Du wirst hier Einladungen zum Beitritt in die Staffel sehen, sobald Du sie erhalten hast.";"Verás invitaciones para unirte al escuadrón de gente aquí, una vez que las tengas.";"Тут вы сможете увидеть приглашения в отряд от других игроков, как только вы их получите.";"Тут ви зможете побачити запрошення приєднатися до ланки.";"Gdy już je otrzymasz, zobaczysz zaproszenia do dołączenia do oddziału.";"Aqui serão apresentados convites para se juntar a esquadrões quando lhe forem enviados.";"Takıma katılma istekleri geldiğinde buradan görebilirsiniz.";"Jakmile je dostaneš, zobrazí se ti zde pozvánky do skupiny.";"Εδώ θα βλέπετε προσκλήσεις από ανθρώπους για να συμμετάσχετε σε ομάδες, μόλις τις στείλουν.";"Kamu bisa melihat undangan untuk bergabung dengan skuad dari pemain lain di sini.";"หากได้รับคำเชิญเข้าร่วมหมู่จากคนอื่นๆ คุณจะดูคำเชิญเหล่านั้นได้ที่นี่";"이곳에서 편대 초대 목록을 확인하실 수 있습니다.";"收\t到\t的\t组\t队\t邀\t请\t会\t显\t示\t在\t这\t里。";"分隊への\t参加招待を\t受け\t取った\t場合、\tここに\t表示されます。";"收\t到\t的\t組\t隊\t邀\t請\t會\t顯\t示\t在\t這\t裡。";;
+"invites/clearAll";"Clear all";"Tout effacer";"Annulla tutto";"Alles löschen";"Borrar todo";"Очистить все";"Очистити все";"Wyczyść wszystko";"Limpar tudo";"Hepsini temizle";"Vyčistit vše";"Εκκαθάριση όλων";"Hapus semua";"ล้างทั้งหมด";"모두 지우기";"全\t部\t清\t除";"すべて\tクリア";"全\t部\t清\t除";;
+roup has been disbanded";"L'escouade a été dissoute";"Il gruppo è stato sciolto";"Die Gruppe wurde aufgelöst";"El grupo ha sido desbandado";"Группа была распущена";"Групу розпущено";"Grupa została rozwiązana";"Grupo foi dissolvido";"Grup dağıtıldı";"Skupina byla rozpuštěna";"Η ομάδα έχει διαλυθεί";"Kelompok telah dibubarkan";"กลุ่มถูกยุบแล้ว";"편대가 해산되었습니다";"小\t队\t已\t解\t散";"グループは\t解散しました";"小\t隊\t已\t解\t散";;
+"invite/noNewInvites";"You will see invites to join squad from people here, once you have them.";"Vous verrez des invitations à rejoindre une escouade de la part de personnes ici, une fois que vous les aurez acceptées.";"Vedrai gli inviti per unirti ai plotoni qui, non appena ne avrai.";"Du wirst hier Einladungen zum Beitritt in die Staffel sehen, sobald Du sie erhalten hast.";"Verás invitaciones para unirte al escuadrón de gente aquí, una vez que las tengas.";"Тут вы сможете увидеть приглашения в отряд от других игроков, как только вы их получите.";"Тут ви зможете побачити запрошення приєднатися до ланки.";"Gdy już je otrzymasz, zobaczysz zaproszenia do dołączenia do oddziału.";"Aqui serão apresentados convites para se juntar a esquadrões quando lhe forem enviados.";"Takıma katılma istekleri geldiğinde buradan görebilirsiniz.";"Jakmile je dostaneš, zobrazí se ti zde pozvánky do skupiny.";"Εδώ θα βλέπετε προσκλήσεις από ανθρώπους για να συμμετάσχετε σε ομάδες, μόλις τις στείλουν.";"Kamu bisa melihat undangan untuk bergabung dengan skuad dari pemain lain di sini.";"หากได้รับคำเชิญเข้าร่วมหมู่จากคนอื่นๆ คุณจะดูคำเชิญเหล่านั้นได้ที่นี่";"이곳에서 편대 초대 목록을 확인하실 수 있습니다.";"收\t到\t的\t组\t队\t邀\t请\t会\t显\t示\t在\t这\t里。";"分隊への\t参加招待を\t受け\t取った\t場合、\tここに\t表示されます。";"收\t到\t的\t組\t隊\t邀\t請\t會\t顯\t示\t在\t這\t裡。";;
+"invites/clearAll";"Clear all";"Tout effacer";"Annulla tutto";"Alles löschen";"Borrar todo";"Очистить все";"Очистити все";"Wyczyść wszystko";"Limpar tudo";"Hepsini temizle";"Vyčistit vše";"Εκκαθάριση όλων";"Hapus semua";"ล้างทั้งหมด";"모두 지우기";"全\t部\t清\t除";"すべて\tクリア";"全\t部\t清\t除";;

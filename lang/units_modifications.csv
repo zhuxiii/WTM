@@ -1,0 +1,418 @@
+"<ID|readonly|noverify>";"<English>";"<French>";"<Italian>";"<German>";"<Spanish>";"<Russian>";"<Ukrainian>";"<Polish>";"<Portuguese>";"<Turkish>";"<Czech>";"<Greek>";"<Indonesian>";"<Thai>";"<Korean>";"<Chinese>";"<Japanese>";"<TChinese>";"<Comments>";"<max_chars>"
+"modification/art_support";"Artillery Support";"Support d'artillerie";"Supporto di Artiglieria";"Sperrfeuer anfordern";"Soporte de Artillería";"Артиллерия";"Артилерійська підтримка";"Wsparcie artyleryjskie";"Suporte de Artilharia";"Topçu Desteği";"Palebná podpora";"Υποστήριξη πυροβολικού";"Dukungan Artileri";"สนับสนุนด้วยปืนใหญ่";"포격 지원";"火\t炮\t支\t援";"砲撃支援";"火\t炮\t支\t援";"max 20 symbols";
+"modification/art_support/desc";"An ability to make a call for artillery strike on indicated square.
+Range - 700 m
+Accuracy - medium
+Explosive force - medium";"Capacité à lancer un appel à l'artillerie sur une case donnée.
+Portée - 700 m
+Précision - moyenne
+Force explosive - moyenne";"Possibilità di effettuare una chiamata di artiglieria sul riquadro indicato.
+Raggio - 700 m
+Precisione - media
+Forza esplosiva - media";"Die Fähigkeit, einen Artillerieangriff auf ein bestimmtes Feld zu rufen.
+Reichweite - 700 m
+Genauigkeit - mittel
+Sprengkraft - mittel";"La habilidad de solicitar un ataque de artillería en la casilla indicada.
+Alcance - 700 m
+Precisión - media
+Fuerza explosiva - media";"Возможность вызова артиллерийского удара по указанному квадрату.
+Дальность - 700 метров
+Точность - средняя
+Сила взрыва - средняя";"Можливість виклику артилерійського удару по вказаному квадрату.
+Дальність — 700 м
+Точність — середня
+Вибухова сила — середня";"Możliwość wezwania ostrzału artyleryjskiego we wskazanym kwadracie.
+Zasięg - 700 m
+Dokładność - średnia
+Siła rażenia - średnia";"Capacidade de pedir uma salva de artilharia sobre a quadrícula indicada.
+Alcance - 700 m
+Exatidão - média
+Força explosiva - média";"İşaretlenen bölgeye ateş desteği çağırma becerisi.
+Menzil - 700 m
+İsabet - orta
+Patlama kuvveti - orta";"Možnost přivolání dělostřelecké palby na vyznačený čtverec.
+Dostřel - 700 m
+Přesnost - střední
+Výbušná síla - střední";"Δυνατότητα να ληφθεί απόφαση για χτύπημα πυροβολικού σε συγκεκριμένο τετράγωνο.
+Εμβέλεια - 700 m
+Ακρίβεια - μέτρια
+Εκρηκτική δύναμη - μέτρια";"Kemampuan untuk meminta serangan artileri pada kotak yang ditunjukkan.
+Jangkauan - 700 m
+Akurasi - medium
+Daya ledak - medium";"ความสามารถในการเรียกการจู่โจมด้วยปืนใหญ่บนเขตที่ระบุ
+ระยะ - 700 ม.
+ความแม่นยำ - ปานกลาง
+แรงระเบิด - ปานกลาง";"정해진 범위에 지원 포격을 요청할 수 있습니다.
+범위 - 700m
+정확도 - 중간
+폭발력 - 중간";"允\t许\t向\t地\t图\t中\t指\t定\t区\t域\t呼\t叫\t炮\t火\t打\t击。
+呼\t叫\t范\t围：\t700 米
+精\t确\t度：\t中\t等
+爆\t炸\t威\t力：\t中\t等";"指定した\t地点に\t砲撃を\t要請する\t能力。\t
+射程 - 700 m
+精度 - 中
+爆発力 - 中";"可\t在\t指\t定\t坐\t標\t格\t內\t呼\t叫\t火\t炮\t攻\t擊\t的\t能\t力。
+範\t圍：\t700 公\t尺
+精\t準\t度：\t中\t等
+爆\t炸\t強\t度：\t中\t等";;
+"modification/art_support_highcaliber";"High calibre";"Gros calibre";"Grosso calibro";"Großkaliber";"Gran calibre";"Крупный калибр";"Великий калібр";"Duży kaliber";"Alto calibre";"Yüksek kalibre";"Velká ráže";"Μεγάλο διαμέτρημα";"Kaliber tinggi";"ประสิทธิภาพสูง";"대구경 포격";"大\t口\t径";"大口径";"大\t口\t徑";"max 20 symbols";
+"modification/art_support_highcaliber/desc";"A high calibre artillery salvo. Effective against heavy vehicles.
+Range - 700 m
+Accuracy - low
+Explosive force - high";"Une salve d'artillerie de gros calibre. Efficace contre les véhicules lourds.
+Portée - 700 m
+Précision - faible
+Force explosive - élevée";"Una salva d'artiglieria d'alto calibro. Efficace contro mezzi pesanti.
+Raggio - 700 m
+Precisione - bassa
+Forza esplosiva - alta";"Eine großkalibrige Artilleriesalve. Effektiv gegen schwere Fahrzeuge.
+Reichweite – 700 m
+Treffsicherheit – gering
+Sprengkraft – hoch";"Una salva de artillería de alto calibre. Eficaz contra vehículos pesados.
+Alcance - 700 m
+Precisión - baja
+Fuerza explosiva - alta";"Залп крупнокалиберной артиллерии. Эффективен против тяжёлой техники. 
+Дальность - 700 метров
+Точность - низкая
+Сила взрыва - большая";"Великокаліберний артилерійський залп. Ефективний проти важкої техніки.
+Дальність — 700 м
+Точність — низька
+Сила вибуху — висока";"Salwa artyleryjska dużego kalibru. Skuteczna przeciwko ciężkim pojazdom.
+Zasięg - 700 m
+Celność - niska
+Siła rażenia - wysoka";"Salva de artilharia de alto calibre. Eficaz contra veículos pesados.
+Alcance - 700 m
+Exatidão - baixa
+Força explosiva - alta";"Yüksek kalibre topçu salvosu. Ağır araçlara karşı etkili.
+Menzil - 700 m
+İsabet - düşük
+Patlama gücü - yüksek";"Dělostřelecká salva velké ráže. Účinná proti těžkým vozidlům.
+Dostřel - 700 m
+Přesnost - nízká
+Výbušná síla - vysoká";"Μια ομοβροντία πυροβολικού μεγάλου διαμετρήματος. Αποτελεσματικό ενάντια σε βαρέα οχήματα.
+Εμβέλεια - 700 m
+Ακρίβεια - χαμηλή
+Εκρηκτική δύναμη - υψηλή";"Salvo artileri kaliber tinggi. Efektif terhadap kendaraan berat.
+Jangkauan - 700 m
+Akurasi - rendah
+Daya ledak - tinggi";"ระดมยิงด้วยปืนใหญ่ประสิทธิภาพสูง ได้ผลดีกับพาหนะเกราะหนัก
+ระยะ - 700 ม.
+ความแม่นยำ - ต่ำ
+แรงระเบิด - สูง";"대구경 포탄이 투하됩니다. 두꺼운 장갑을 지닌 장비에도 타격을 입힐 수 있습니다.
+범위 - 700m
+정확도 - 낮음
+폭발력 - 높음";"呼\t叫\t大\t口\t径\t火\t炮\t齐\t射，\t可\t有\t效\t反\t制\t重\t型\t装\t甲\t单\t位。
+呼\t叫\t范\t围：\t700 米
+精\t确\t度：\t低
+爆\t炸\t威\t力：\t高";"大口径砲一斉射撃。\t重車両に\t対して\t効果的。\t
+射程 - 700 m
+精度 - 低
+爆発力 - 高";"呼\t叫\t大\t口\t徑\t火\t炮\t齊\t射，\t可\t有\t效\t反\t制\t重\t型\t裝\t甲\t單\t位。
+呼\t叫\t範\t圍：\t700 公\t尺
+精\t確\t度：\t低
+爆\t炸\t威\t力：\t高";;
+"modification/art_support_mortars";"Mortars";"Mortiers";"Mortai";"Mörser";"Morteros";"Миномёты";"Міномети";"Moździerze";"Morteiros";"Havan topu";"Minomety";"Όλμοι";"Mortir";"ปืนครก";"박격포격";"迫\t击\t炮";"迫撃砲";"迫\t擊\t炮";"max 20 symbols";
+"modification/art_support_mortars/desc";"Saturation fire from mortars. Effective against light vehicles.
+Range - 840 m
+Accuracy - very high
+Explosive force - low";"Tirs de saturation des mortiers. Efficace contre les véhicules légers.
+Portée - 840 m
+Précision - très élevée
+Force explosive - faible";"Saturazione di fuoco dai mortai. Efficace contro mezzi leggeri.
+Raggio - 840 m
+Precisione - molto alta
+Forza esplosiva - bassa";"Sperrfeuer aus Mörsern. Effektiv gegen leichte Fahrzeuge.
+Reichweite – 840 m
+Treffsicherheit – sehr hoch
+Sprengkraft – gering";"Fuego de saturación de morteros. Eficaz contra vehículos ligeros.
+Alcance - 840 m
+Precisión - muy alta
+Fuerza explosiva - baja";"Массированный огонь из миномётов. Эффективен против лёгкой техники. 
+Дальность - 840 метров
+Точность - очень высокая
+Сила взрыва - малая";"Щільний вогонь із мінометів. Ефективний проти легкої техніки.
+Дальність — 840 м
+Точність — дуже висока
+Сила вибуху — низька";"Ostrzał z moździerzy. Skuteczny przeciwko lekkim pojazdom.
+Zasięg - 840 m
+Celność - bardzo wysoka
+Siła rażenia - niska";"Fogo de saturação de morteiros. Eficaz contra veículos ligeiros.
+Alcance - 840 m
+Exatidão - muito alta
+Força explosiva - baixa";"Havanlardan satürasyon ateşi. Hafif araçlara karşı etkili
+Menzil - 840 m
+İsabet - çok yüksek
+Patlama gücü - düşük";"Saturační palba z minometů. Účinná proti lehkým vozidlům.
+Dostřel - 840 m
+Přesnost - velmi vysoká
+Výbušná síla - nízká";"Πυρά κορεσμού από όλμους. Αποτελεσματικά ενάντια σε ελαφριά οχήματα.
+Εμβέλεια - 840 m
+Ακρίβεια - πολύ υψηλή
+Εκρηκτική δύναμη - χαμηλή";"Tembakan saturasi dari mortir. Efektif terhadap kendaraan ringan.
+Jangkauan - 840 m
+Akurasi - sangat tinggi
+Daya ledak - rendah";"การยิงย้ำจุดจากปืนครก ได้ผลดีกับพาหนะเกราะเบา
+ระยะ - 840 ม.
+ความแม่นยำ - สูงมาก
+แรงระเบิด - ต่ำ";"박격포를 사용해 포화 공격을 진행합니다. 얇은 장갑을 지닌 장비에 타격을 입힐 수 있습니다.
+범위 - 840m
+정확도 - 매우 높음
+폭발력 - 낮음";"呼\t叫\t迫\t击\t炮\t对\t指\t定\t区\t域\t展\t开\t饱\t和\t炮\t击，\t对\t于\t轻\t装\t甲\t单\t位\t尤\t其\t致\t命。
+呼\t叫\t范\t围：\t840 米
+精\t确\t度：\t非\t常\t高
+爆\t炸\t威\t力：\t低";"迫撃砲による\t飽和攻撃。\t軽車両に\t対して\t効果的。\t
+射程 - 840 m
+精度 - 超高
+爆発力 - 低";"呼\t叫\t迫\t擊\t炮\t對\t指\t定\t區\t域\t展\t開\t飽\t和\t砲\t擊，\t對\t於\t輕\t裝\t甲\t單\t位\t尤\t其\t致\t命。
+呼\t叫\t範\t圍：\t840 公\t尺
+精\t確\t度：\t非\t常\t高
+爆\t炸\t威\t力：\t低";;
+"modification/art_support_smoke";"Smoke shells";"Obus fumigènes";"Granate fumogene";"Rauchmunition";"Proyectiles de humo";"Дымовые снаряды";"Димові снаряди";"Pociski dymne";"Projéteis de fumaça";"Sis Mermisi";"Dýmovnice";"Βλήματα καπνού";"Selongsong asap";"ลูกปืนควัน";"연막 포격";"烟\t雾\t弹";"発煙弾";"煙\t霧\t彈";"max 20 symbols";
+"modification/art_support_smoke/desc";"Non-lethal artillery. Covers an area with an aimed smoke screen.
+Range - 525 m
+Accuracy - high
+Explosive force - very low";"Artillerie non létale. Couvre une zone d'un écran de fumée ciblé.
+Portée - 525 m
+Précision - élevée
+Force explosive - très faible";"Artiglieria non letale. Copre l'area puntata con una cortina fumogena.
+Raggio - 525m
+Precisione - alta
+Forza esplosiva - molto bassa";"Nicht-tödliche Artillerie. Deckt ein Gebiet mit einer gezielten Nebelvorhang ab.
+Reichweite – 525 m
+Treffsicherheit – hoch
+Sprengkraft – sehr gering";"Artillería no letal. Cubre una zona con una pantalla de humo apuntada.
+Alcance - 525 m
+Precisión - alta
+Fuerza explosiva - muy baja";"Нелетальная артиллерия. Накрывает участок местности дымовой завесой.
+Дальность - 525 метров
+Точность - высокая
+Сила взрыва - очень маленькая";"Нелетальна артилерія. Укриває територію прицільною димовою завісою.
+Дальність — 525 м
+Точність — висока
+Сила вибуху — дуже низька";"Nieśmiercionośna artyleria. Pokrywa obszar zasłoną dymną.
+Zasięg - 525 m
+Dokładność - wysoka
+Siła rażenia - bardzo niska";"Artilharia não mortífera. Cobre uma área com uma cortina de fumaça.
+Alcance - 525 m
+Exatidão - alta
+Força explosiva - muito baixa";"Öldürücü olmayan topçu ateşi. Nişan alınan alanı sis perdesi ile kaplar.
+Menzil - 525 m
+İsabet - yüksek
+Patlama gücü - çok düşük";"Nesmrtící dělostřelectvo. Pokrývá oblast cílenou kouřovou clonou.
+Dostřel - 525 m
+Přesnost - vysoká
+Výbušná síla - velmi nízká";"Μη θανατηφόρο πυροβολικό. Καλύπτει μια περιοχή με ένα στοχευμένο προπέτασμα καπνού.
+Εμβέλεια - 525 m
+Ακρίβεια - υψηλή
+Εκρηκτική δύναμη - πολύ χαμηλή";"Artileri yang tidak mematikan. Mencakup area dengan tabir asap yang terarah.
+Jangkauan - 525 m
+Akurasi - tinggi
+Daya ledak - sangat rendah";"กระสุนปืนใหญ่ที่ไม่สร้างความเสียหาย ปกคลุมพื้นที่เป้าหมายด้วยฉากควัน
+ระยะ - 525 ม.
+ความแม่นยำ - สูง
+แรงระเบิด - ต่ำมาก";"지정한 위치에 살상력이 없는 연막탄을 투하합니다.
+범위 - 525m
+정확도 - 높음
+폭발력 - 매우 낮음";"呼\t叫\t火\t炮\t阵\t地\t对\t指\t定\t区\t域\t进\t行\t烟\t幕\t覆\t盖，\t无\t法\t对\t敌\t方\t装\t甲\t车\t辆\t造\t成\t伤\t害。
+呼\t叫\t范\t围：\t525 米
+精\t确\t度：\t高
+爆\t炸\t威\t力：\t非\t常\t低";"非致死性砲撃。\t煙幕で\tエリアを\t覆う。\t
+射程 - 525 m
+精度 - 高
+爆発力 - 超低";"呼\t叫\t火\t炮\t陣\t地\t對\t指\t定\t區\t域\t進\t行\t煙\t幕\t覆\t蓋，\t無\t法\t對\t敵\t方\t裝\t甲\t車\t輛\t造\t成\t傷\t害。
+呼\t叫\t範\t圍：\t525 公\t尺
+精\t確\t度：\t高
+爆\t炸\t威\t力：\t非\t常\t低";;
+"modification/smoke";"Smoke screen";"Écran de fumée";"Cortina fumogena";"Nebelvorhang";"Cortina de humo";"Дымовая завеса";"Димова завіса";"Zasłona dymna";"Cortina de fumaça";"Sis perdesi";"Kouřová clona";"Προπέτασμα καπνού";"Tabir asap";"ฉากควัน";"연막 차장";"释\t放\t烟\t雾";"煙幕";"煙\t霧";"max 20 symbols";
+"modification/tank_smoke_screen_low_cooldown";"Reload system";"Système de rechargement";"Ricarica il sistema";"Nachladen des Systems";"Sistema de recarga";"Система перезарядки";"Система перезаряджання";"Przeładowanie systemu";"Sistema de recarregamento";"Yükleme sistemi";"Systém dobíjení";"Σύστημα επαναγέμισης";"Sistem isi ulang";"ระบบเติมกระสุน";"재장전 시스템";"装\t填\t系\t统";"リロードシステム";"复\t裝\t系\t統";"max 20 symbols";
+"modification/tank_smoke_screen_low_cooldown/desc";"Increases the speed of a smoke screen and ESS reload by 60%.";"Augmente la vitesse de création d'un écran de fumée et le rechargement ESS de 60 %.";"Aumenta la velocità della ricarica della cortina fumogena e ESS del 60%.";"Erhöht die Geschwindigkeit des Nachladens eines Nebelvorhangs und des ESS um 60 %.";"Aumenta la velocidad de recarga de la cortina de humo y del ESS en un 60%.";"На 60% ускоряет перезарядку дымовых гранат и ТДА.";"Збільшує швидкість встановлення димової завіси та перезаряджання ТДА на 60%.";"Zwiększa szybkość przeładowania zasłony dymnej i ESS o 60%.";"Aumenta a rapidez de uma cortina de fumaça e recarregamento ESS em 60%.";"Sis perdesi hızı ve ESS yeniden yükleme hızını %60 oranında artırır.";"Zvyšuje rychlost dobíjení kouřové clony a ESS o 60 %.";"Αυξάνει την ταχύτητα ενός προπετάσματος καπνού και επαναγέμισης ESS κατά 60%.";"Meningkatkan kecepatan isi ulang tabir asap dan ESS sebesar 60%.";"เพิ่มความเร็วของการเติมกระสุน ESS และฉากควันขึ้น 60%";"ESS와 연막탄의 재장전 속도를 60% 증가시킵니다.";"烟\t雾\t弹\t装\t填\t速\t度\t以\t及\t引\t擎\t发\t烟\t装\t置\t整\t备\t速\t度\t加\t快 60%";"煙幕と\tエンジン\t発煙\tシステムの\tリロードスピードを\t60%アップする。";"煙\t霧\t彈\t裝\t填\t速\t度\t以\t及\t引\t擎\t發\t煙\t裝\t置\t整\t備\t速\t度\t加\t快 60%";;
+"modification/tank_smoke_screen_long_duration";"Dense smoke";"Fumée dense";"Fumogeno denso";"Dichter Rauch";"Humo denso";"Плотный дым";"Густий дим";"Gęsty dym";"Fumaça espessa";"Yoğun sis";"Hustý kouř";"Πυκνός καπνός";"Asap tebal";"ควันหนาแน่น";"짙은 연막";"密\t集\t烟\t幕";"濃煙";"密\t集\t煙\t幕";"max 20 symbols";
+"modification/tank_smoke_screen_long_duration/desc";"Increases the duration of smoke screen from smoke grenades and ESS.";"Augmente la durée de l'écran de fumée des grenades fumigènes et de l'ESS.";"Aumenta la durata delle cortine fumogene dalle granate fumogene e ESS.";"Erhöht die Dauer des Nebelvorhangs von Rauchgranaten und ESS.";"Aumenta la duración de la cortina de humo de las granadas de humo y ESS.";"На 40% увеличивает время действия дымовой завесы от дымовых гранат и ТДА.";"Збільшує тривалість димової завіси від димових гранат і ТДА.";"Wydłuża czas działania zasłony dymnej z granatów dymnych i ESS.";"Aumenta a duração da cortina de fumaça das granadas e ESS.";"Sis bombaları ve ESS' ile oluşturan sis perdesi süresini artırır.";"Zvyšuje dobu trvání kouřové clony z kouřových granátů a ESS.";"Αυξάνει τη διάρκεια του προπετάσματος καπνού από χειροβομβίδες καπνού και ESS.";"Menambah durasi tabir asap dari granat asap dan ESS.";"เพิ่มระยะเวลาของฉากควันจากระเบิดควันและ ESS";"연막탄과 ESS 에서 만들어진 연막의 지속 시간이 증가합니다.";"延\t长\t烟\t雾\t弹\t与\t引\t擎\t发\t烟\t装\t置\t产\t生\t烟\t幕\t的\t有\t效\t时\t间。";"発煙弾および\tエンジン\t発煙\tシステムによる\t煙幕の\t時間を\t長くする。";"延\t長\t煙\t霧\t彈\t與\t引\t擎\t發\t煙\t裝\t置\t產\t生\t煙\t幕\t的\t有\t效\t時\t間。";;
+"modification/tank_smoke_screen_smoke_shell";"Smoke shell";"Obus fumigène";"Granata fumogena";"Rauchmunition";"Proyectil de humo";"Дымовой снаряд";"Димовий снаряд";"Pocisk dymny";"Projétil de fumaça";"Sis Mermisi";"Dýmovnice";"Βλήμα καπνού";"Selongsong asap";"ลูกปืนควัน";"연막탄";"烟\t雾\t弹";"発煙弾";"煙\t霧\t彈";"max 20 symbols";
+"modification/tank_smoke_screen_smoke_shell/desc";"Gives access to smoke shells (maximum 2 per drive) to some tanks in the platoon. Before using them, change one of shell types to smoke in the battle vehicle and armament selection window.";"Donne accès aux obus fumigènes (maximum 2 par sortie) à certains chars du peloton. Avant de les utiliser, changez l'un des types d'obus en fumigène dans la fenêtre de sélection du véhicule de combat et de l'armement.";"Permette l'accesso alle granate fumogene (massimo 2 per guida) ad alcuni carri nel plotone. Prima di usarli, cambia un tipo di colpi a quello fumogeno nella finestra di scelta armamento del veicolo.";"Gewährt einigen Panzern im Zug Zugang zu Rauchmunition (maximal 2 pro Fahrt). Ändere vor der Verwendung einen der Munitionstypen im Auswahlfenster für Kampffahrzeuge und Bewaffnung auf Rauch.";"Da acceso a proyectiles de humo (máximo 2 por unidad) a algunos tanques del pelotón. Antes de utilizarlos, cambia uno de los tipos de proyectil a humo en la ventana de selección de vehículo de combate y armamento.";"Предоставляет доступ к дымовым снарядам (не более двух на выезд) некоторым танкам во взводе. Перед использованием необходимо заменить один из снарядов на дымовые в окне выбора техники в бою.";"Відкриває доступ до димових снарядів (макс. 2 на один привод) для деяких танків взводу. Перед їх використанням змініть один із типів снарядів на димовий у вікні вибору бойової техніки й озброєння.";"Daje dostęp do pocisków dymnych (maksymalnie 2 na pojazd) niektórym czołgom w plutonie. Przed ich użyciem należy zmienić jeden z typów pocisków na dymne w oknie wyboru pojazdu i uzbrojenia.";"Permite o acesso a projéteis de fumo (máximo de 2 por veículo) para alguns tanques do pelotão. Antes de os usar, mudeo tipo de projétil para fumo no veículo e na janela de seleção do armamento.";"Birlikteki bazı tanklara duman mermilerine (sürüş başı en fazla 2 adet) erişim hakkı verir. Kullanmadan önce, savaşılan aracın mühimmat seçim ekranında mermi tiplerinden birini duman olarak değiştirin.";"Umožňuje některým tankům ve skupině přístup k dýmovnicím (maximálně 2 na jednotku). Před jejich použitím změň v okně pro výběr bojového vozidla a výzbroje jeden z typů střel na kouřové.";"Δίνει πρόσβαση σε βλήματα καπνού (το πολύ 2 ανά κίνηση) σε κάποια τανκς της διμοιρίας. Πριν τα χρησιμοποιήσετε, αλλάξτε έναν από τους τύπους βλημάτων σε καπνό από το παράθυρο επιλογής οχήματος μάχης και οπλισμού.";"Memberikan akses ke selongsong asap (maksimum 2 setiap perjalanan) pada beberapa tank di platoon. Sebelum menggunakannya, ganti salah satu jenis selongsong menjadi selongsong asap di jendela pemilihan kendaraan tempur dan persenjataan.";"ทำให้รถถังบางคันในหน่วยรบสามารถใช้งานลูกปืนควันได้ (สูงสุด 2 ครั้งต่อรอบการขับ) ก่อนใช้งาน ให้เปลี่ยนประเภทลูกปืนเป็นลูกปืนควันในหน้าต่างเลือกอาวุธและพาหนะต่อสู้";"소대 내 일부 전차가 연막탄을 사용할 수 있게 됩니다 (최대 2대). 사용 전, 무장 선택 창에서 해당 장비의 탄종을 연막탄으로 변경해야 합니다. ";"允\t许\t队\t列\t中\t部\t分\t坦\t克\t携\t带\t烟\t雾\t弹\t（每\t辆\t坦\t克\t最\t多\t携\t带 2 枚）\t参\t加\t战\t斗。\t使\t用\t烟\t雾\t弹\t前\t必\t须\t在\t出\t击\t前\t或\t在\t武\t器\t选\t择\t界\t面\t为\t载\t具\t配\t备\t烟\t雾\t弹。";"小隊内の\t一部の\t戦車が\t発煙弾を\t使えるようになる（装置\t1基につき\t最大\t2発）。\t使用する\t前に、\t戦闘車両と\t兵器選択\tウィンドウで\t砲弾\tタイプの\t一つを\t煙に\t変更しよう。";"允\t許\t小\t隊\t中\t部\t分\t戰\t車\t攜\t帶\t煙\t霧\t彈\t（每\t輛\t坦\t克\t最\t多\t攜\t帶 2 枚）\t參\t加\t戰\t鬥。\t使\t用\t煙\t霧\t彈\t前\t必\t須\t在\t出\t擊\t前\t或\t在\t武\t器\t選\t擇\t界\t面\t為\t載\t具\t配\t備\t煙\t霧\t彈。";;
+"modification/belts";"Machine gun belts";"Ceinture de mitrailleuse";"Nastri di mitragliatrice";"Maschinengewehrgurte";"Cinturones de ametralladora";"Пулемётные ленты";"Кулеметні стрічки";"Taśmy do karabinu maszynowego";"Cintas de metralhadora";"Makineli tüfek kemeri";"Kulometné pásy";"Ιμάντες πολυβόλων";"Sabuk amunisi senapan mesin";"สายพานปืนกล";"기관총 탄띠";"机\t枪\t弹\t链";"機関銃\tベルト";"機\t槍\t彈\t鏈";"max 20 symbols";
+"modification/machinegun_belt_tracer";"Tracer belt";"Ceinture de balles traçantes";"Nastro con traccianti";"Leuchtspurgeschoss-Gurt";"Cinturón de trazadoras";"Трассирующая лента";"Трасуюча стрічка";"Taśma smugowa";"Cinta de balas tracejantes";"İzli mermi kemeri";"Trasovací pásy";"Ιμάντας τροχιοδεικτικών";"Sabuk amunisi tracer";"สายพานกระสุนส่องวิถี";"예광탄 탄띠";"曳\t光\t弹\t链";"曳光弾\tベルト";"曳\t光\t彈\t鏈";"max 20 symbols";
+"modification/machinegun_belt_tracer/desc";"Tracer bullets in the belt leave a smoke trace in the air. It is effective against unarmoured targets, causing fire on piercing more often, while piercing the armour less effectively.";"Les balles traçantes dans la ceinture laissent une trace de fumée dans l'air. C'est efficace contre les cibles non blindées, provoquant plus souvent des incendies lors des pénétrations, tout en perçant moins efficacement le blindage.";"I proiettili traccianti rilasciano una traccia fumogena in aria. E' efficace contro bersagli non corazzati, causando incendi più frequenti mentre la penetrazione è meno efficace.";"Leuchtspurgeschosse im Gurt hinterlassen eine Leuchtspur in der Luft. Sie sind effektiv gegen ungepanzerte Ziele und verursachen häufiger Feuer nach dem Durschlag, wobei sie die Panzerung weniger effektiv durchschlagen.";"Las balas trazadoras del cinturón dejan un rastro de humo en el aire. Es eficaz contra objetivos sin blindaje, provocando fuegos al perforar con mayor frecuencia, mientras que perfora el blindaje con menor eficacia.";"Трассирующие пули этой ленты оставляют в воздухе дымный след. Лента эффективна против небронированных целей и чаще вызывает возгорание при пробитии. Слабее прочих лент пробивает броню.";"Трасуючі кулі в стрічці залишають димовий слід у повітрі. Ефективно проти неброньованих цілей, частіше викликає пожежу при влучанні, але менш ефективно пробиває броню.";"Pociski smugowe w taśmie pozostawiają w powietrzu ślad dymu. Jest skuteczny przeciwko nieopancerzonym celom, częściej powodując pożar przy przebiciu, ale ma gorsze przebicie pancerza.";"As balas tracejantes no cinturão deixam um rasto de fumaça no ar. São eficazes contra alvos sem blindagem, provocando mais frequentemente incêndios quando penetram, mas são menos eficazes na penetração.";"Kemerdeki izli mermiler havada bir duman izi bırakır. Zırhsız hedeflere karşı etkildiir, delme halinde çok sık yangın çıkarır, ancak delme konusunda daha etkisizdir.";"Trasovací munice v nábojovém pásu zanechávají ve vzduchu kouřovou stopu. Je účinná proti nepancéřovaným cílům, častěji způsobuje požár po proniknutí, ale pancíř proráží s menší účinností.";"Οι τροχιοδεικτικές σφαίρες του ιμάντα αφήνουν ένα ίχνος καπνού στον αέρα. Είναι αποτελεσματικές ενάντια σε μη θωρακισμένους στόχους και προκαλούν φωτιά κατά τη διάτρηση, ενώ είναι λιγότερο αποτελεσματικές στη διάτρηση της θωράκισης.";"Peluru tracer dalam sabuk amunisi akan meninggalkan jejak asap di udara. Peluru ini efektif terhadap target yang tidak bersenjata, menyebabkan tembakan tepat sasaran, tetapi kurang efektif untuk menembus armor.";"กระสุนส่องวิถีในสายพานกระสุนนี้จะทิ้งรอยควันไว้ในอากาศ ใช้ได้ผลดีกับเป้าหมายที่ไม่หุ้มเกราะ ทำให้ติดไฟเมื่อเจาะเกราะสำเร็จได้มากขึ้น แต่ประสิทธิภาพการเจาะเกราะได้ผลน้อยลง";"탄띠에 든 예광탄은 공중에 옅은 연기를 남깁니다. 장갑이 없는 장비를 상대할 때 효과적이며 관통 시 화재가 일어날 확률이 높지만, 약간 낮은 관통력을 가지고 있습니다.";"曳\t光\t弹\t会\t留\t下\t明\t显\t的\t飞\t行\t轨\t迹。\t用\t于\t对\t抗\t非\t装\t甲\t目\t标\t非\t常\t有\t效，\t可\t大\t大\t提\t升\t目\t标\t被\t命\t中\t后\t的\t起\t火\t几\t率，\t而\t穿\t甲\t性\t能\t则\t有\t所\t下\t降。";"ベルトの\t曳光弾は\t空中に\t煙の\t跡を\t残す。\tこれは\t非装甲の\t標的に\t対して\t有効で、\t貫通時に\t発火する\t確率が\t高くなるが、\t装甲を\t貫通する\t効果は\t低い。";"該\t彈\t藥\t配\t置\t中\t的\t曳\t光\t彈\t藥\t會\t留\t下\t明\t顯\t的\t飛\t行\t軌\t跡。\t用\t於\t對\t抗\t非\t裝\t甲\t目\t標\t非\t常\t有\t效，\t可\t大\t大\t提\t升\t命\t中\t目\t標\t後\t的\t起\t火\t機\t率，\t而\t穿\t甲\t性\t能\t則\t有\t所\t下\t降。";;
+"modification/machinegun_belt_ap";"Armour piercing belt";"Ceinture anti-blindage";"Nastro con colpi perforanti";"Panzerbrechender Gurt";"Cinturón perforante de armadura";"Бронебойная лента";"Бронебійна стрічка";"Taśma przeciwpancerna";"Cinta de balas penetrantes";"Zırh delici mermi kemeri";"Průbojný pás";"Ιμάντας διάτρησης θωράκισης";"Sabuk amunisi penembus armor";"สายพานกระสุนเจาะเกราะ";"철갑탄 탄띠";"穿\t甲\t弹\t链";"装甲貫通\tベルト";"穿\t甲\t彈\t鏈";"max 20 symbols";
+"modification/machinegun_belt_ap/desc";"The belt mostly consists of armour piercing bullets. It easily pierces thinner armour, but it's worse against aircraft.";"La ceinture se compose principalement de balles perforantes. Elles percent facilement les blindages les plus fins, mais c'est moins efficace contre les avions.";"Il caricatore consiste in gran parti di colpi penetranti. Penetrano più facilmente le corazze sottili ma sono peggiori contro gli aerei.";"Der Gurt besteht hauptsächlich aus panzerbrechenden Geschossen. Sie durchschlagen leicht dünnere Panzerung, sind aber gegen Flugzeuge weniger effektiv.";"El cinturón se compone principalmente de balas perforantes. Perfora fácilmente los blindajes más finos, pero es peor contra los aviones.";"Большинство пуль в ленте бронебойные. Лента эффективна против тонкой брони. Слабее прочих лент справляется с авиацией.";"Здебільшого стрічка складається з бронебійних куль. Легко пробиває тоншу броню, але менш ефективно проти літаків.";"Taśma składa się głównie z pocisków przeciwpancernych. Z łatwością przebija cieńszy pancerz, ale gorzej radzi sobie z samolotami.";"O cinturão consiste principalmente em balas penetrantes. As munições penetram a blindagem mais fina, mas são piores contra aeronaves.";"Kemer büyük ölçüde zırh delici mermilerden oluşur. İnce zırhı rahatlıkla deler ancak uçaklara karşı daha kötüdür.";"Pás se většinou skládá z průbojných nábojů. Snadno prorazí tenčí pancíř, ale proti letadlům je to horší.";"Ο ιμάντας αποτελείται κυρίως από διατρητικές σφαίρες. Διαπερνά εύκολα τις λεπτότερες θωρακίσεις, αλλά έχει χειρότερες επιδόσεις ενάντια σε αεροσκάφη.";"Sabuk amunisi ini biasanya terdiri dari peluru yang bisa menembus armor. Peluru ini bisa menembus armor yang lebih tipis dengan mudah, tetapi kurang efektif untuk pesawat.";"สายพานนี้บรรจุกระสุนเจาะเกราะเป็นส่วนใหญ่ ใช้ได้ผลดีกับเกราะที่ค่อนข้างบาง แต่ได้ผลน้อยลงกับอากาศยาน";"대부분 철갑탄으로 이루어진 탄띠입니다. 얇은 장갑 정도는 쉽게 관통할 수 있지만, 항공기를 상대하기에는 효율적이지 않습니다.";"该\t弹\t链\t主\t要\t组\t分\t为\t穿\t甲\t弹。\t可\t轻\t易\t撕\t碎\t轻\t装\t甲\t目\t标\t的\t防\t护，\t但\t用\t于\t对\t抗\t空\t中\t单\t位\t的\t毁\t伤\t相\t较\t其\t他\t弹\t药\t要\t更\t弱\t一\t些。";"ベルトのほとんどは\t徹甲弾から\t構成されている。\t薄い\t装甲は\t簡単に\t貫通するが、\t航空機に\t対しては\t歯がたたない。";"該\t彈\t藥\t配\t置\t主\t要\t組\t分\t為\t穿\t甲\t彈。\t可\t輕\t易\t撕\t碎\t輕\t裝\t甲\t目\t標\t的\t防\t護，\t但\t用\t於\t對\t抗\t空\t中\t單\t位\t的\t毀\t傷\t相\t較\t其\t他\t彈\t藥\t要\t更\t弱\t一\t些。";;
+"modification/machinegun_belt_stealth";"Stealth belt";"Ceinture furtive";"Nastro senza traccianti";"Gurt ohne Leuchtspurmunition";"Cinturón de sigilo";"Скрытая лента";"Стрічка для скритних атак";"Taśma niewidzialna";"Cinta de munições furtivas";"Gizli kemer";"Přepadový pás";"Ιμάντας μυστικότητας";"Sabuk amunisi siluman";"สายพานลอบเร้น";"무예광 탄띠";"匿\t踪\t弹\t链";"ステルスベルト";"匿\t踪\t彈\t鏈";"max 20 symbols";
+"modification/machinegun_belt_stealth/desc";"The belt lacks tracer bullets, making firing less noticeable. It makes firing at long distances more difficult.";"La ceinture n'a pas de balles traçantes, ce qui rend le tir moins perceptible. Cela rend plus difficile le tir à longue distance.";"Le munizioni non hanno proiettili traccianti, facendoli diventare meno ravvisabili. Rendono il fuoco alle lunghe distanze più difficile.";"Der Gurt enthält keine Leuchtspurgeschosse, was das Abfeuern weniger gut erkennbar macht. Er erschwert das Schießen auf große Entfernungen.";"El cinturón carece de balas trazadoras, lo que hace que los disparos sean menos perceptibles. Hace más difícil disparar a larga distancia.";"В ленте отсутствуют трассирующие пули, делая стрельбу менее заметной. Затрудняет стрельбу на дальние дистанции.";"Стрічка без трасуючих куль, завдяки чому стрільба з неї менш помітна. Ускладнює стрільбу на далекі відстані.";"Taśma nie zawiera pocisków smugowych, dzięki czemu strzelanie jest mniej zauważalne. Utrudnia to strzelanie na duże odległości.";"Faltam balas tracejantes no cinturão, tornando o tiro menos evidente. Torna mais difícil disparar a grandes distâncias.";"Kemer'de izli mermi bulunmaz, bu yüzden atış daha az belirgin olur. Uzun mesafelerde atış yapmayı zorlaştırır.";"Pás postrádá trasovací střely, takže střelba je méně nápadná. Ztěžuje střelbu na velké vzdálenosti.";"Ο ιμάντας δεν διαθέτει τροχιοδεικτικές σφαίρες, κάτι που κάνει τα πυρά λιγότερο αντιληπτά. Κάνει, επίσης, το άνοιγμα πυρός σε μεγάλες αποστάσεις πιο δύσκολο.";"Sabuk amunisi tidak dilengkapi peluru tracer sehingga tembakannya tidak terlalu kentara. Hal ini membuat tembakan pada jarak jauh menjadi lebih sulit.";"สายพานกระสุนนี้ไม่มีกระสุนส่องวิถี ทำให้สังเกตร่องรอยจากการยิงได้ยากขึ้น แต่การยิงจากระยะไกลก็ยากขึ้นด้วยเช่นกัน";"탄띠에 예광탄이 존재하지 않으므로 사격하는 위치가 노출될 확률이 줄어들지만, 장거리 사격 시의 난이도가 올라갑니다.";"该\t弹\t链\t不\t包\t含\t任\t何\t曳\t光\t弹\t药。\t敌\t方\t单\t位\t难\t以\t察\t觉\t遭\t受\t火\t力，\t不\t过\t也\t让\t远\t距\t离\t命\t中\t敌\t人\t变\t得\t更\t加\t困\t难。";"ベルトに\t曳光弾がないため、\t発砲が\t目立たなくなる。\t遠距離射撃が\t難しくなる。";"該\t彈\t藥\t配\t置\t不\t包\t含\t任\t何\t曳\t光\t彈\t藥。\t敵\t方\t單\t位\t難\t以\t察\t覺\t遭\t受\t火\t力，\t不\t過\t也\t讓\t遠\t距\t離\t命\t中\t敵\t人\t變\t得\t更\t加\t困\t難。";;
+"modification/shipWeapons";"Weapons";"Armes";"Armi";"Waffen";"Armas";"Вооружение";"Зброя";"Uzbrojenie";"Armas";"Silahlar";"Výzbroj";"Όπλα";"Senjata";"อาวุธ";"무장";"武\t器\t配\t置";"武器";"武\t器\t配\t置";"max 20 symbols";
+"modification/shipProtection";"Protection";"Protection";"Protezione";"Schutz";"Protección";"Защита";"Захищеність";"Ochrona";"Proteção";"Koruma";"Výdrž a ochrana";"Προστασία";"Perlindungan";"การปกป้อง";"방어력";"装\t甲\t防\t护";"防御力";"防\t禦\t改\t裝";"max 20 symbols";
+"modification/shipMaintanance";"Maintenance";"Maintenance";"Manutenzione";"Instandsetzung";"Mantenimiento";"Подвижность и ремонт";"Обслуговування";"Konserwacja";"Manutenção";"Bakım";"Údržba";"Συντήρηση";"Pemeliharaan";"การบำรุงรักษา";"정비";"后\t勤\t维\t护";"メンテナンス";"後\t勤\t維\t護";"max 20 symbols";
+"modification/shipTorpedoes";"Torpedoes";"Torpilles";"Siluri";"Torpedos";"Torpedos";"Торпеды";"Торпеди";"Torpedy";"Torpedos";"Torpidolar";"Torpéda";"Τορπίλες";"Torpedo";"ตอร์ปิโด";"어뢰";"鱼\t雷\t管\t理";"魚雷";"魚\t雷";;
+"modification/weapons_contact_mines";"Moored contact mines";"Mines à orin à contact";"Mine a contatto ormeggiate";"Ankertauminen mit Kontaktzündung";"Minas de contacto amarradas";"Контактные мины";"Закріплені контактні міни";"Kontaktowe miny kotwiczne";"Minas de contacto ancoradas";"Demirlenmiş müsademeli mayınlar";"Ukotvené kontaktní miny";"Αγκυροβολημένες νάρκες επαφής";"Ranjau kontak tertambat";"ทุ่นแบบกระทบระเบิดทอดประจำที่";"계류식 접촉기뢰";"触\t发\t引\t信\t系\t留\t水\t雷";"係維触発機雷";"觸\t發\t引\t信\t繫\t留\t水\t雷";"max 20 symbols";
+"modification/weapons_contact_mines/desc";"Drops near the water surface
+Deal massive amount of damage on contact with enemies";"Larguée près de la surface de l'eau
+Inflige une quantité importante de dégâts au contact des ennemis";"Viene sganciata sulla superficie dell'acqua
+Infligge grossi danni al contatto con i nemici";"Abwurf nahe der Wasseroberfläche
+Verursachen bei Kontakt mit Feinden massiven Schaden";"Cae cerca de la superficie del agua
+Infligen una cantidad de daño masiva al contacto con los enemigos";"Устанавливаются у поверхности воды
+Наносят большое количество урона при контакте с противником";"Застосовуються біля поверхні води
+Завдають значної шкоди при контакті з ворогом";"Spada blisko powierzchni wody
+Zadaje ogromne obrażenia w kontakcie z wrogami";"Largadas perto da superfície da água
+Provocam danos massivos quando entram em contacto com o inimigo";"Su yüzeyine yakın bırakılır
+Doğrudan temasta düşmana çok büyük hasar verir";"Shoz u vodní hladiny
+Při kontaktu s nepřáteli způsobuje obrovské poškození";"Πέφτουν κοντά στην επιφάνεια του νερού
+Προκαλούν τεράστια ζημιά όταν έρχονται σε επαφή με τους εχθρούς";"Jatuh di dekat permukaan air
+Menimbulkan damage dalam jumlah besar jika musuh menyentuhnya";"ทิ้งไว้ใกล้ผิวน้ำ
+สร้างความเสียหายมหาศาลเมื่อกระทบศัตรู";"수면 위에 투하되는 무기입니다.
+적에게 닿을 경우, 폭발하여 큰 피해를 입힙니다.";"可\t投\t放\t系\t留\t在\t水\t面\t上
+一\t旦\t触\t发\t可\t对\t敌\t方\t目\t标\t造\t成\t可\t观\t伤\t害";"水面近くで\t落下する
+敵と\t接触すると\t大\tダメージを\t与える";"可\t投\t放\t系\t留\t在\t水\t面\t上
+一\t旦\t觸\t發\t可\t對\t敵\t方\t目\t標\t造\t成\t大\t量\t傷\t害";;
+"modification/weapons_depth_charges";"Depth charges";"Grenades anti-sous-marine";"Cariche di profondità";"Wasserbomben";"Cargas de profundidad";"Глубинные бомбы";"Глибинні бомби";"Bomby głębinowe";"Cargas de profundidade";"Sualtı bombaları";"Hlubinné nálože";"Βόμβες βυθού";"Peledak kedalaman";"ระเบิดน้ำลึก";"폭뢰";"深\t水\t炸\t弹";"爆雷";"深\t水\t炸\t彈";"max 20 symbols";
+"modification/weapons_depth_charges/desc";"Can be used to attack submarines near the vessel. Most effective when dropped underway.";"Peut être utilisé pour attaquer les sous-marins proches du navire. Plus efficace quand utilisé en mouvement.";"Può essere usato per attaccare i sommergibili vicino al vascello. Sono più efficaci quando sganciate in corsa.";"Kann zum Angriff auf U-Boote in der Nähe des Schiffes eingesetzt werden. Am effektivsten, wenn es während der Fahrt abgeworfen wird.";"Se puede usar para atacar a submarinos cerca del barco. Es más eficaz cuando se lanza durante la navegación.";"Используются для атаки подводных лодок вблизи корабля. Наиболее эффективны, если сбрасывать их на ходу.";"Можуть використовуватися для атаки підводних човнів поряд із кораблями. Найбільш ефективний при скиданні під час руху.";"Mogą być używane do ataku na okręty podwodne znajdujące się w pobliżu. Najskuteczniejsze po zrzuceniu z poruszającego się okrętu.";"Pode ser usado para atacar submarinos perto da embarcação. Mais eficaz quando largado em andamento.";"Geminin yakınındaki denizaltıları saldırmak için kullanılabilir. Seyir halindeyken atıldığında en etkili olur.";"Lze použít k útoku na ponorky v blízkosti plavidla. Nejúčinnější je při odhození během pohybu.";"Μπορούν να χρησιμοποιηθούν για επίθεση σε υποβρύχιο κοντά στο σκάφος";"Bisa digunakan untuk menyerang kapal selam di dekat kapal. Paling efektif jika dijatuhkan saat sedang berjalan.";"สามารถใช้โจมตีเรือดำน้ำใกล้กับเรือได้";"함선 근처에 있는 잠수함을 공격할 때 사용됩니다. 항로를 따라 투하할 경우에 가장 효과적입니다.";"可\t用\t于\t攻\t击\t舰\t船\t周\t围\t的\t潜\t艇，\t适\t合\t在\t航\t行\t途\t中\t布\t撒，\t以\t提\t升\t杀\t伤\t效\t率。";"艦船近くの\t潜水艦への\t攻撃に\t使用可能。\t航行中に\t投下することで\t最大の\t効果を\t発揮する。";"可\t用\t於\t攻\t擊\t船\t艦\t周\t圍\t的\t潛\t艇，\t在\t航\t行\t途\t中\t佈\t撒\t可\t有\t效\t提\t升\t殺\t傷\t範\t圍。";;
+"modification/weapons_torpedo_movement_mode";"Faster torpedo";"Torpille plus rapide";"Siluro più veloce";"Schnellerer Torpedo";"Torpedo más rápido";"Ускоренная торпеда";"Швидка торпеда";"Szybsza torpeda";"Torpedo mais rápido";"Daha hızlı torpidolar";"Rychlejší torpédo";"Ταχύτερη τορπίλη";"Torpedo yang lebih cepat";"ตอร์ปิโดความเร็วสูง";"고속 어뢰";"高\t速\t鱼\t雷";"高速魚雷";"高\t速\t魚\t雷";"max 20 symbols";
+"modification/weapons_torpedo_movement_mode/desc";"Faster but less powerful torpedo
++30% to torpedo speed
+-30% to damage";"Torpille plus rapide mais moins puissante
++30% à la vitesse des torpilles
+-30% aux dégâts";"Siluro più veloce ma meno potente
++30% alla velocità
+-30% ai danni";"Schnellerer, aber weniger starker Torpedo
++ 30 % auf Torpedogeschwindigkeit
+- 30 % auf Schaden";"Torpedo más rápido pero menos potente
++30% a la velocidad del torpedo;
+-30% al daño";"Более быстрая, но менее мощная торпеда
++30% к скорости торпеды
+-30% к урону";"Швидша, але менш потужна торпеда
++30% швидкості торпеди
+-30% шкоди";"Szybsza, ale mniej potężna torpeda
++30% do prędkości torpedy
+-30% do obrażeń";"Torpedo mais rápido, mas menos poderoso
++30% de velocidade do torpedo
+-30% de dano";"Daha hızlı fakat daha az güçlü torpido
++%30 torpido hızı
+-%30 hasar";"Rychlejší, ale méně výkonné torpédo
++30 % k rychlosti torpéda
+-30 % k poškození";"Ταχύτερη αλλά λιγότερο ισχυρή τορπίλη
++30% στην ταχύτητα τορπίλης
+-30% στη ζημιά που προκαλεί";"Torpedo yang lebih cepat tetapi kurang kuat
++30% untuk kecepatan torpedo
+-30% untuk damage";"ตอร์ปิโดความเร็วสูงแต่อำนาจการทำลายลดลง
+ความเร็วตอร์ปิโด +30%
+สร้างความเสียหาย -30%";"속도는 빠르지만, 파괴력은 낮은 어뢰입니다.
+어뢰 속도 +30%
+피해량 -30%";"牺\t牲\t部\t分\t装\t药\t量\t以\t提\t高\t航\t速
+鱼\t雷\t最\t大\t航\t速\t提\t升 30%
+命\t中\t后\t伤\t害\t减\t少 30%";"速度は\t速いが\t威力の\t低い\t魚雷
+魚雷\tスピード+30%
+ダメージ-30%";"犧\t牲\t部\t分\t裝\t藥\t量\t以\t提\t高\t航\t速
+魚\t雷\t最\t大\t航\t速\t提\t升 30%
+命\t中\t後\t傷\t害\t減\t少 30%";;
+"modification/weapons_torpedo_damage_mode";"Powered torpedo";"Torpille plus puissante";"Siluro potenziato";"Torpedo mit Antrieb";"Torpedo Potenciado";"Усиленная торпеда";"Підсилена торпеда";"Mocniejsza torpeda";"Torpedo poderoso";"Güçlendirilmiş torpido";"Posílené torpédo";"Τροφοδοτούμενη τορπίλη";"Torpedo bertenaga";"ตอร์ปิโดทำลายล้างสูง";"강화 어뢰";"高\t能\t鱼\t雷";"強化魚雷";"高\t能\t鱼\t雷";"max 20 symbols";
+"modification/weapons_torpedo_damage_mode/desc";"More powerful but less fast torpedo
++30% to damage
+-30% to torpedo speed";"Torpille plus puissante mais moins rapide
++30% aux dégâts
+-30% à la vitesse des torpilles";"Siluro più potente ma meno veloce
++30% ai danni
+-30% alla velocità";"Stärkerer, aber weniger schneller Torpedo
++ 30 % auf Schaden
+- 30 % auf Torpedo-Geschwindigkeit";"Torpedo más potente pero menos rápido
++30% al daño 
+-30% a la velocidad del torpedo";"Более мощная, но менее быстрая торпеда
++30% к урону
+-30% к скорости хода";"Потужніша, але повільніша торпеда
++30% шкоди
+-30% швидкості торпеди";"Potężniejsza, ale mniej szybka torpeda
++30% do obrażeń
+-30% do prędkości torpedy";"Torpedo mais poderoso mas mais lento
++30% de dano
+-30% de velocidade do torpedo";"Daha güçlü fakat daha yavaş torpido
++%30 hasar
+-%30 hız";"Výkonnější, ale méně rychlé torpédo
++30 % k poškození
+-30 % k rychlosti torpéda";"Ισχυρότερη αλλά πιο αργή τορπίλη
++30% στη ζημιά που προκαλεί
+-30% στην ταχύτητα τορπίλης";"Torpedo yang lebih kuat tetapi kurang cepat
++30% untuk damage
+-30% untuk kecepatan torpedo";"ตอร์ปิโดอำนาจการทำลายสูงแต่ความเร็วลดลง
+สร้างความเสียหาย +30%
+ความเร็วตอร์ปิโด -30%";"파괴력은 강하나, 속도가 느린 어뢰입니다.
+피해량 +30%
+어뢰 속도 -30%";"牺\t牲\t部\t分\t航\t行\t速\t度\t提\t升\t鱼\t雷\t威\t力
+命\t中\t后\t伤\t害\t提\t升 30%
+最\t大\t航\t行\t速\t度\t减\t少 30%";"威力は\t高いが\t速度は\t遅い\t魚雷
+ダメージ+30%
+魚雷\tスピード-30%";"犧\t牲\t部\t分\t航\t行\t速\t度\t提\t升\t魚\t雷\t威\t力
+命\t中\t後\t傷\t害\t提\t升 30%
+最\t大\t航\t行\t速\t度\t減\t少 30%";;
+"modification/protection_ammo_wetting";"Storage wetting";"Inondation des soutes";"Bagno munizioni";"Nasse Lagerung";"Humectación del almacenamiento";"Орошение боеукладки";"Зрошування при зберіганні";"Mokry magazyn";"Armazenamento húmido";"Depo ıslatma";"Mokrá munice";"Ύγρανση αποθηκών";"Penyimpanan basah";"พรมน้ำที่เก็บกระสุน";"습식 탄약고";"湿\t式\t弹\t药\t储\t备";"貯蔵庫湿潤";"濕\t式\t彈\t藥\t庫";"max 20 symbols";
+"modification/protection_ammo_wetting/desc";"Reduces damage in case of detonation of the ammunition storages by 25%";"Subissez moins de dégâts en cas de détonation des stocks de munitions de 25 %";"Riduce i danni in caso di detonazione delle stive munizioni del 25%";"Im Falle einer Detonation des Munitionslagers wird der Schaden um 25 % reduziert.";"Reduce el daño en caso de detonación de los depósitos de munición en un 25%";"Снижает урон при детонации погребов боезапаса на 25%";"Зменшує шкоду від детонації складу боєприпасів на 25%";"Mniejsze obrażenia w przypadku detonacji magazynów amunicji o 25%";"Sofre menos danos em caso de detonação do depósito de munições em 25%";"Mühimmat depolarının infilak etmesi durumunda hasarı %25 azaltır";"V případě výbuchu muničních zásobníků je poškození menší o 25 %";"Μικρότερη ζημιά σε περίπτωση πυροδότησης των αποθηκών πυρομαχικών κατά 25%";"Mengurangi damage sebesar 25% jika terjadi ledakan pada penyimpanan amunisi";"ได้รับความเสียหายลดลง 25% ในกรณีที่ที่เก็บกระสุนระเบิดขึ้น";"습식 탄약고 시스템을 채택하여 화재 발생 시 탄약고 유폭 확률을 25% 줄여줍니다.";"弹\t药\t殉\t爆\t造\t成\t伤\t害\t减\t少 25%";"弾薬庫が\t爆発した\t際の\tダメージを\t25%低下させる";"彈\t藥\t殉\t爆\t造\t成\t的\t傷\t害\t減\t少 25%";;
+"modification/protection_new_sonar";"Sonar station";"Station sonar";"Stazione sonar";"Sonarstation";"Estación de sonar";"Гидроакустика";"Сонарна станція";"Sonar";"Estação de SONAR";"Sonar istasyonu";"Sonarová stanice";"Σταθμός σόναρ";"Stasiun sonar";"สถานีโซนาร์";"소나 스테이션";"声\t呐\t设\t备";"音波探知基地";"聲\t吶\t設\t備";"max 20 symbols";
+"modification/protection_new_sonar/desc";"Detects submarines near the ship
+radius: up to 1,5 km 
+depth: up to 50 m";"Détecte les sous-marins à proximité du navire
+rayon: jusqu'à 1,5 km
+profondeur: jusqu'à 50 m";"Avvista i sommergibili vicino alla nave
+raggio: fino a 1,5km
+profondità: fino a 50m";"Erkennt U-Boote in der Nähe des Schiffes
+Radius: bis zu 1,5 km 
+Tiefe: bis zu 50 m";"Detecta submarinos cerca del barco
+radio: hasta 1,5 km 
+profundidad: hasta 50 m";"Обнаруживает подводные лодки вокруг корабля
+Радиус: до 1,5 км
+Глубина: до 50 м";"Виявляє підводні човни поряд із кораблями
+радіус: до 1,5 км 
+глибина: до 50 м";"Wykrywa okręty podwodne w pobliżu okrętu
+promień: do 1,5 km 
+głębokość: do 50 m";"Deteta submarinos perto do navio
+raio: até 1,5 km 
+profundidade: até 50 m";"Gemiye yakın denizaltıları tespit eder
+yarı çap: 1,5 km'ye kadar 
+derinlik: 50 m'ye kadar";"Detekuje ponorky v blízkosti lodi
+poloměr: až 1,5 km 
+hloubka: až 50 m";"Εντοπίζει υποβρύχια κοντά στο πλοίο
+ακτίνα: έως 1,5 km 
+βάθος: έως 50 m";"Mendeteksi kapal selam di dekat kapal
+radius: hingga 1,5 km 
+kedalaman: hingga 50 m";"ตรวจจับเรือดำน้ำใกล้ๆ เรือ
+รัศมี: สูงสุด 1.5 กม.
+ความลึก: สูงสุด 50 ม.";"함선 근처의 잠수함을 감지해낼 수 있습니다.
+범위: 최대 1.5km
+심도: 최대 50m";"探\t测\t舰\t艇\t周\t边\t潜\t艇\t单\t位\t的\t位\t置
+探\t测\t半\t径：\t1.5 千\t米
+探\t测\t深\t度：\t50 米";"艦船の\t辺くにある\t潜水艦を\t探知する
+半径：\t最大\t1,5 km 
+深度：\t最大\t50 m";"偵\t測\t船\t艦\t附\t近\t的\t潛\t艇
+半\t徑：\t最\t大 1.5 公\t里
+深\t度：\t最\t大 50 公\t尺";;
+"modification/protection_new_fireProtection";"Fire protection";"Protection contre l’incendie";"Sistema antincendio";"Brandschutz";"Protección contra incendios";"Защита от пожара";"Протипожежна система";"Ochrona przeciwpożarowa";"Proteção contra fogo";"Yangından korunma";"Požární ochrana";"Προστασία από φωτιά";"Proteksi kebakaran";"ทนไฟ";"방화 체계";"防\t火\t改\t造";"防火";"防\t火\t改\t造";"max 20 symbols";
+"modification/protection_new_fireProtection/desc";"Take 50% less fire damage";"Subit 50% de dégâts de feu en moins";"Si subiscono il 50% in meno di danni da incendio";"50 % weniger Feuerschaden";"Recibe un 50% menos de daño por fuego";"Снижает урон от пожара на 50%";"Зменшення шкоди від пожежі на 50%";"Otrzymuje 50% mniej obrażeń od pożaru";"Sofre menos 50% de danos de fogo";"%50 daha az yangın hasarı al";"O 50 % nižší poškození ohněm";"Αντιμετωπίστε 50% λιγότερη ζημιά από φωτιά";"Mengurangi damage akibat kebakaran sebesar 50%";"ได้รีบความเสียหายจากไฟลดลง 50%";"화재로 인한 피해가 50% 감소합니다.";"舰\t艇\t起\t火\t后\t造\t成\t的\t伤\t害\t减\t少 50%";"火災時の\tダメージを\t50%低下させる";"船\t艦\t起\t火\t後\t造\t成\t的\t傷\t害\t減\t少 50%";;
+"modification/maintanance_new_propellers";"New propellers";"Nouvelles hélices";"Nuove eliche";"Neue Propeller";"Hélices nuevas";"Новые винты";"Нові пропелери";"Nowe śruby napędowe";"Novas hélices";"Yeni pervaneler";"Nové lodní šrouby";"Νέες προπέλες";"Baling-baling baru";"ใบพัดใหม่";"새 프로펠러";"螺\t旋\t桨\t翻\t新";"新しい\tプロペラ";"螺\t旋\t槳\t翻\t新";"max 20 symbols";
+"modification/maintanance_new_propellers/desc";"Reduces the acceleration and deceleration times by 15%";"Réduit les temps d'accélération et de décélération de 15 %";"Riduce i tempi di accelerazione e decelerazione del 15%";"Reduziert die Beschleunigungs- und Abbremszeiten um 15 %";"Reduce el tiempo de aceleración y deceleración en un 15%";"Ускоряет разгон и остановку на 15%";"Зменшує час розгону та гальмування на 15%";"Skraca czas przyspieszania i zwalniania o 15%";"Reduz os tempos de aceleração e desaceleração em 15%";"Hızlanma ve yavaşlama süresini %15 azaltır";"Zkrácení doby zrychlení a zpomalení o 15 %";"Μειώνει τους χρόνους επιτάχυνσης και επιβράδυνσης κατά 15%";"Mengurangi waktu akselerasi dan deselerasi sebesar 15%";"ลดเวลาเร่งและชะลอลง 15%";"가속 시간과 제동 시간이 15% 감소합니다.";"加\t速\t与\t减\t速\t效\t率\t均\t提\t升 15%";"加減と\t減速の\t時間を\t15%短縮させる";"加\t速\t與\t減\t速\t效\t率\t均\t提\t升 15%";;
+"modification/maintanance_new_engines";"New engines";"Nouveaux moteurs";"Nuovi motori";"Neue Motoren";"Motores nuevos";"Новые машины";"Нові двигуни";"Nowe silniki";"Novos motores";"Yeni motorlar";"Nové motory";"Νέοι κινητήρες";"Mesin baru";"เครื่องยนต์ใหม่";"새 엔진";"轮\t机\t翻\t新";"新しい\tエンジン";"輪\t機\t翻\t新";"max 20 symbols";
+"modification/maintanance_new_engines/desc";"Increases the maximum speed by 20%";"Augmente la vitesse maximale de 20%";"Aumenta la velocità massima del 20%";"Erhöht die Höchstgeschwindigkeit um 20 %.";"Aumenta la velocidad máxima en un 20%";"Увеличивает максимальную скорость на 20%";"Збільшує максимальну швидкість ходу на 20%";"Zwiększa prędkość maksymalną o 20%";"Aumenta a velocidade máxima em 20%";"Son hızı %20 artırır";"Zvyšuje maximální rychlost o 20 %";"Αυξάνει τη μέγιστη ταχύτητα κατά 20%";"Meningkatkan kecepatan maksimum sebesar 20%";"เพิ่มความเร็วสูงสุด 20%";"최대 속도가 20% 증가합니다.";"航\t行\t极\t速\t提\t升 20%";"最大速度を\t20%向上させる";"航\t行\t極\t速\t提\t升 20%";;
+"modification/maintanance_powered_toolkit";"Enhanced toolkit";"Boîte à outils améliorée";"Attrezzi migliorati";"Verbessertes Toolkit";"Kit de herramientas mejorado";"Усиленный ремонт";"Покращений ремкомплект";"Ulepszony zestaw narzędzi";"Caixa de ferramentas melhorada";"İyileştirilmiş tamir kiti";"Vylepšená sada nástrojů";"Ενισχυμένη εργαλειοθήκη";"Toolkit sempurna";"ชุดเครื่องมือยกระดับ";"강화된 수리도구";"进\t阶\t维\t修\t套\t件";"強化工具\tセット";"進\t階\t維\t修\t套\t件";"max 20 symbols";
+"modification/maintanance_powered_toolkit/desc";"Toolkits restore 15% more damage
+Maximum times you can repair in battle is reduced by 3";"Les boîtes à outils restaurent 15 % de dégâts supplémentaires
+Le nombre maximum de réparations en combat est réduit de 3";"Le cassette degli attrezzi fanno recuperare il 15% di danni in più
+Le volte massime in cui ci si può riparare in battaglia è ridotto di 3";"Toolkits stellen 15 % mehr Schaden wieder her
+Die maximale Anzahl an Reparaturen in einer Schlacht wird um 3 reduziert.";"Los kits de herramientas restauran un 15% más de daño
+El número máximo de veces que puedes reparar en batalla se reducen por 3";"Ремкомплекты восстанавливают на 15% больше повреждений
+Максимальное количество ремонтов бою меньше на 3";"Ремкомплект відновлює на 15% шкоди більше
+Максимальну кількість ремонтів під час бою зменшено на 3";"Zestawy narzędzi przywracają 15% więcej uszkodzeń
+Maksymalny czas naprawy w bitwie został skrócony o 3";"A caixa de ferramentas restaura mais 15% de dano
+A quantidade máxima de vezes de reparações em combate é reduzida em 3";"Tamir kitleri %15 daha fazla hasar onarır
+Muharebede yapabileceğiniz en fazla tamir sayısı 3 azalır";"Sady nářadí obnovují o 15 % více poškození
+Maximální doba, po kterou můžeš opravovat v bitvě, se snižuje o 3";"Οι εργαλειοθήκες αποκαθιστούν 15% περισσότερη ζημιά
+Οι μέγιστοι χρόνοι που μπορείτε να επισκευάσετε στη μάχη μειώνονται κατά 3";"Toolkit akan memulihkan damage lebih banyak, yaitu sebesar 15%
+Waktu maksimum perbaikan dalam pertempuran berkurang sebanyak 3";"ชุดเครื่องมือฟื้นฟูความเสียหายได้เพิ่มขึ้น 15%
+จำนวนครั้งที่สามารถซ่อมแซมได้ต่อการต่อสู้ลดลง 3 ครั้ง";"수리도구를 통해 피해량의 15%를 추가로 복구합니다.
+전투 중 수리할 수 있는 횟수가 3회 감소합니다.";"使\t用\t修\t理\t套\t件\t能\t够\t额\t外\t恢\t复 15% 耐\t久\t值
+战\t斗\t中\t可\t用\t维\t修\t套\t件\t数\t量\t减\t少\t至 3 次";"工具\tセットの\tダメージ\t回復量が\t15%増加する
+バトルで\t修理できる\t回数が\t3回少なくなる";"使\t用\t修\t理\t套\t件\t能\t夠\t額\t外\t恢\t復 15% 耐\t久\t值
+戰\t鬥\t中\t可\t用\t維\t修\t套\t件\t數\t量\t減\t少\t至 3 次";;
+"modification/air/machinegun_belt_universal/desc";"The belt contains a variety of different rounds. It is designed to handle a wide range of tasks but has reduced armor-piercing capabilities.";"La ceinture contient une variété de balles différentes. Elle est conçue pour accomplir un large éventail de tâches, mais ses capacités de perforation de blindage sont réduites.";"Il nastro di munizioni è composto da colpi differenti. E' pensato per essere impiegato su vari tipi di bersagli ma ha capacità perforanti inferiori.";"Der Gurt enthält eine Vielzahl von verschiedenen Patronen. Er ist für eine breite Palette von Aufgaben ausgelegt, hat aber eine reduzierte panzerbrechende Wirkung.";"El cinturón contiene una variedad de rondas diferentes. Está diseñado para realizar una amplia gama de tareas, pero tiene una capacidad de perforación de blindaje reducida.";"Лента состоит из множества различных пуль. Предназначена для выполнения широкого спектра задач, однако слабее пробивает броню.";"Стрічка містить різноманітні набої. Вона призначена для використання в широкому спектрі завдань, але має знижену бронебійну силу.";"Taśma zawiera wiele różnych nabojów. Została zaprojektowany do obsługi szerokiego zakresu zadań, ale ma ograniczone możliwości przebijania pancerza.";"A cinta contém uma variedade de munições diferentes. Desenhado para lidar com uma vasta gama de tarefas, mas tem menos capacidade de penetração.";"Kemer farklı mermilerin bir karışımını içerir. Çok çeşitli görevlerin üstesinden gelmek için tasarlanmıştır, ancak zırh delme yetenekleri azaltılmıştır.";"Pás obsahuje různé náboje. Je navržen tak, aby zvládl širokou škálu úkolů, ale má sníženou schopnost prorazit pancíř.";"Ο ιμάντας περιέχει μια ποικιλία διαφορετικών βλημάτων. Έχει σχεδιαστεί για να χειρίζεται ένα ευρύ φάσμα εργασιών, αλλά έχει μειωμένες ικανότητες διάτρησης θωράκισης.";"Sabuk ini berisi berbagai macam peluru. Sabuk ini dirancang untuk menangani berbagai macam tugas, tetapi kemampuan penembus armornya berkurang.";"สายพานนี้บรรจุกระสุนหลายชนิด โดยถูกออกแบบมาให้รองรับการใช้งานหลายรูปแบบแต่มีความสามารถในการเจาะเกราะลดลง";"탄띠에는 다양한 종류의 탄이 포함되어 있습니다. 이 탄띠는 다양한 목적으로 사용될 수 있으나, 장갑 관통 능력은 떨어지는 편입니다.";"该\t弹\t链\t含\t有\t不\t同\t类\t型\t的\t弹\t药。\t能\t够\t用\t于\t应\t对\t更\t多\t类\t型\t的\t任\t务，\t但\t穿\t甲\t能\t力\t有\t所\t削\t减。";"ベルトには\t様々な\t種類の\t弾薬が\t入っている。\t幅広い\tタスクに\t対応できるように\t設計されているが、\t徹甲弾の\t威力は\t低下している。";"該\t彈\t藥\t配\t置\t包\t含\t各\t種\t不\t同\t的\t彈\t藥。\t它\t專\t門\t設\t計\t來\t處\t理\t各\t種\t任\t務，\t但\t穿\t甲\t能\t力\t降\t低。";;
+"modification/air/machinegun_belt_tracers/desc";"The rounds in this belt leave a visible trail in the air. Generally, it has weaker armor-piercing capability compared to other belts.";"Les balles de cette ceinture laissent une traînée visible dans l'air. En général, elle a une capacité de perforation de blindage plus faible que les autres ceintures.";"I colpi di questo nastro lasciano una traccia visibile in aria. Generalmente hanno capacità perforanti inferiori rispetto alle altre.";"Die Geschosse in diesem Gurt hinterlassen eine sichtbare Spur in der Luft. Im Vergleich zu anderen Gurten hat er eine schwächere panzerbrechende Wirkung.";"Las rondas de este cinturón dejan un rastro visible en el aire. En general, su capacidad de perforación de blindaje es menor que la de otros cinturones.";"Пули этой ленты оставляют заметный след в воздухе . Как правило, слабее прочих лент пробивает броню.";"Набої з цієї стрічки залишають видимий слід у повітрі. Зазвичай вона має слабшу бронебійну силу порівняно з іншими стрічками.";"Pociski z tej taśmy pozostawiają widoczny ślad w powietrzu. Ogólnie rzecz biorąc, ma słabszą zdolność przebijania pancerza w porównaniu do innych pasów.";"As munições desta cinta deixam um rasto visível no ar. Em geral, tem uma capacidade de penetração inferior quando comparada com outras cintas.";"Bu kemerdeki mermiler havada görünür bir iz bırakır. Genel olarak, diğer kemerlere kıyasla daha zayıf zırh delme kabiliyetine sahiptir.";"Náboje v tomto pásu zanechávají ve vzduchu viditelnou stopu. Obecně má ve srovnání s ostatními pásy slabší schopnost prorazit pancíř.";"Τα βλήματα αυτού του ιμάντα αφήνουν ένα ορατό ίχνος στον αέρα. Γενικά, έχει μικρότερη ικανότητα διάτρησης θωράκισης σε σύγκριση με άλλους ιμάντες.";"Peluru dalam sabuk ini meninggalkan jejak yang terlihat di udara. Secara umum, kemampuan penembus armor sabuk ini lebih lemah dibandingkan dengan sabuk lainnya.";"กระสุนในสายพานนี้จะทิ้งร่องรอยที่มองเห็นได้ในอากาศ โดยทั่วไปแล้วมีความสามารถในการเจาะเกราะน้อยกว่าสายพานอื่นๆ";"예광탄으로 탄의 궤적을 알 수 있는 탄띠입니다. 이 탄띠의 경우 다른 탄띠들보다 비교적 낮은 관통력을 가지고 있습니다.";"该\t弹\t链\t中\t的\t弹\t药\t在\t飞\t行\t时\t会\t留\t下\t曳\t光\t轨\t迹，\t可\t标\t示\t弹\t道。\t曳\t光\t弹\t的\t穿\t甲\t能\t力\t整\t体\t上\t要\t弱\t于\t其\t他\t弹\t药。";"この\tベルトの\t弾は\t空中に\t目に\t見える\t軌跡を\t残す。\t一般的に、\t他の\tベルトに\t比べて\t徹甲弾の\t威力は\t弱い。";"該\t彈\t藥\t配\t置\t能\t在\t空\t中\t留\t下\t可\t見\t的\t軌\t跡。\t與\t其\t他\t配\t置\t相\t比，\t通\t常\t穿\t甲\t能\t力\t較\t弱。";;
+"modification/air/machinegun_belt_armor_targets/desc";"Most of the rounds in the belt are armor-piercing. The belt is effective against armored targets.";"La plupart des balles de la ceinture sont perforantes. La ceinture est efficace contre les cibles blindées.";"I colpi di questo nastro sono per lo più perforanti. Questi sono efficaci contro i bersagli corazzati.";"Die meisten Geschosse des Gurtes sind panzerbrechend. Der Gurt ist effektiv gegen gepanzerte Ziele.";"La mayoría de los proyectiles del cinturón son perforantes. El cinturón es eficaz contra objetivos blindados.";"Большинство пуль в ленте бронебойные. Лента эффективна против бронированных целей.";"Більшість набоїв у стрічці — бронебійні. Стрічка ефективна проти броньованих цілей.";"Większość pocisków w taśmie jest przeciwpancerna. Taśma ta jest skuteczna przeciwko opancerzonym celom.";"A maioria das munições desta cinta são penetrantes. Eficaz contra alvos blindados.";"Kemerdeki mermilerin çoğu zırh delicidir. Kemer zırhlı hedeflere karşı etkilidir.";"Většina nábojů v pásu je průbojná. Pás je účinný proti obrněným cílům.";"Τα περισσότερα βλήματα του ιμάντα είναι διατρητικά. Ο ιμάντας είναι αποτελεσματικός εναντίον θωρακισμένων στόχων.";"Sebagian besar peluru di sabuk ini adalah penembus armor. Sabuk ini efektif terhadap target yang menggunakan armor.";"กระสุนส่วนใหญ่ในสายพานเป็นกระสุนเจาะเกราะ สายพานนี้ใช้ได้ผลดีกับเป้าหมายหุ้มเกราะ";"대부분이 철갑탄으로 이루어진 탄띠입니다. 중무장한 목표물을 상대하는 데 효과적입니다.";"弹\t链\t中\t的\t大\t多\t数\t弹\t药\t组\t分\t为\t穿\t甲\t弹，\t用\t于\t对\t付\t装\t甲\t目\t标\t相\t当\t有\t效。";"ベルトの\t弾の\t多くは\t徹甲弾である。\tベルトは\t装甲標的に\t対して\t効果的。";"該\t彈\t藥\t配\t置\t內\t的\t大\t部\t分\t彈\t藥\t都\t是\t穿\t甲\t彈。\t對\t裝\t甲\t目\t標\t能\t造\t成\t有\t效\t打\t擊。";;
+"modification/air/machinegun_belt_apt/desc";"The rounds in the belt are armor-piercing with tracing effect. The belt is effective against armored targets and its shots leave visible traces.";"Les balles de la ceinture de munitions sont perforantes et traçantes. La ceinture est efficace contre les cibles blindées et ses tirs laissent des traces visibles.";"I colpi di questi nastri hanno potere perforante con traccianti. Sono efficaci contro bersagli terrestri e mostrano un tracciante visibile.";"Die Geschosse im Gurt sind panzerbrechend und haben einen Leuchteffekt. Der Gurt ist gegen gepanzerte Ziele wirksam und seine Schüsse hinterlassen sichtbare Leuchtspuren.";"Las rondas del cinturón son perforantes con efecto trazador. El cinturón es eficaz contra objetivos blindados y sus disparos dejan rastros visibles.";"Пули в ленте бронебойные с трассирующим эффектом. Лента эффективна против бронированных целей, а выстрелы оставляют заметный след в воздухе.";"Набої в стрічці — бронебійні з ефектом трасування. Стрічка залишає видимі сліди й ефективна проти броньованих цілей.";"Pociski w taśmie są przeciwpancerne i pozostawiają widoczne ślady. Pas jest skuteczny przeciwko opancerzonym celom, a jego strzały pozostawiają widoczne smugi.";"As munições desta cinta são penetrantes com efeito tracejante. Eficaz contra alvos blindados e os tiros deixam traços visíveis.";"Kemerdeki mermiler iz bırakma etkisine sahip zırh delicidir. Kemer zırhlı hedeflere karşı etkilidir ve atışları görünür izler bırakır.";"Náboje v pásu jsou průbojné se stopovkou. Pás je účinný proti obrněným cílům a jeho střely zanechávají viditelné stopy.";"Τα βλήματα αυτού του ιμάντα είναι διατρητικά με τροχιοδεικτικό αποτέλεσμα. Ο ιμάντας είναι αποτελεσματικός εναντίον θωρακισμένων στόχων και οι βολές του αφήνουν ορατά ίχνη.";"Peluru di sabuk ini adalah penembus armor dengan efek jejak. Sabuk ini efektif terhadap target yang menggunakan armor dan tembakannya akan meninggalkan jejak yang terlihat.";"กระสุนในสายพานนี้เป็นกระสุนเจาะเกราะพร้อมเอฟเฟกต์ส่องวิถี สายพานนี้ใช้ได้ผลดีกับเป้าหมายหุ้มเกราะและทิ้งร่องรอยที่มองเห็นได้ในอากาศ";"철갑예광탄이 포함된 탄띠입니다. 중무장한 목표물을 상대하는 데 효과적이며, 탄의 궤적을 확인할 수 있습니다.";"弹\t链\t中\t装\t填\t有\t穿\t甲\t曳\t光\t弹，\t既\t适\t合\t用\t于\t对\t付\t装\t甲\t目\t标，\t此\t外\t在\t飞\t行\t过\t程\t中\t还\t能\t产\t生\t曳\t光\t轨\t迹\t以\t便\t修\t正\t提\t前\t量\t与\t落\t点。";"ベルトの\t弾は\tトレース\t効果のある\t徹甲弾である。\tベルトは\t装甲標的に\t対して\t効果的で、\t発射された\t弾は\t目に\t見える\t跡を\t残す。";"該\t彈\t藥\t配\t置\t內\t都\t是\t穿\t甲\t彈，\t配\t有\t曳\t光\t效\t果。\t對\t裝\t甲\t目\t標\t能\t造\t成\t有\t效\t打\t擊，\t而\t且\t會\t留\t下\t可\t見\t軌\t跡。";;
+"modification/air/machinegun_belt_apit/desc";"Designed for rapidly destroying lightly armored targets with shots leaving visible traces.";"Conçu pour détruire rapidement des cibles légèrement blindées avec des tirs laissant des traces visibles.";"Progettati per distruggere rapidamente i bersagli leggeri con colpi che lasciano una scia visibile.";"Entwickelt für die schnelle Zerstörung leicht gepanzerter Ziele mit Schüssen, die sichtbare Spuren hinterlassen.";"Diseñado para destruir rápidamente objetivos ligeramente blindados con disparos que dejan rastros visibles.";"Предназначена для быстрого уничтожения слабо бронированных целей, а выстрелы оставляют заметный след в воздухе.";"Призначено для швидкого знищення легкоброньованих цілей пострілами, що залишають видимі сліди.";"Zaprojektowany do szybkiego niszczenia lekko opancerzonych celów za pomocą strzałów pozostawiających widoczne smugi.";"Desenhada para abater rapidamente alvos com pouca blindagem com munições que deixam traços visíveis.";"Görünür izler bırakan atışlarla hafif zırhlı hedefleri hızla yok etmek için tasarlanmıştır.";"Určeno k rychlému ničení lehce obrněných cílů, přičemž střely zanechávají viditelné stopy.";"Έχει σχεδιαστεί για να καταστρέφει γρήγορα ελαφρά θωρακισμένους στόχους με βολές που αφήνουν ορατά ίχνη.";"Dirancang untuk menghancurkan target yang menggunakan armor ringan dengan cepat. Tembakannya akan meninggalkan jejak yang terlihat.";"ออกแบบมาเพื่อทำลายเป้าหมายหุ้มเกราะเบาอย่างรวดเร็วพร้อมทิ้งร่องรอยที่มองเห็นได้ในอากาศ";"경장갑 목표물을 빠르게 격파하기 좋은 탄입니다. 탄의 궤적을 확인할 수 있습니다.";"设\t计\t用\t于\t短\t时\t间\t内\t摧\t毁\t轻\t装\t甲\t目\t标\t的\t弹\t药，\t飞\t行\t过\t程\t中\t还\t能\t产\t生\t曳\t光\t轨\t迹\t以\t便\t修\t正\t提\t前\t量\t与\t落\t点。";"目に\t見える\t跡を\t残しながら、\t軽装甲標的を\t素早く\t破壊するように\t設計されている。";"專\t門\t用\t來\t快\t速\t摧\t毀\t輕\t裝\t甲\t目\t標，\t而\t且\t會\t留\t下\t可\t見\t軌\t跡。";;
+"modification/air/machinegun_belt_stealth/desc";"The belt contains no tracer rounds, making the firing less noticeable. This hinders long-range shooting, but increases average damage.";"La ceinture ne contient pas de balles traçantes, ce qui rend les tirs moins perceptibles. Cela gêne le tir à longue distance, mais augmente les dégâts moyens.";"Il nastro non contiene traccianti, questi sono molto meno avvistabili. Non sono indicati per raffiche a lungo raggio ma i danni sono aumentati.";"Der Gurt enthält keine Leuchtspurgeschosse, wodurch das Abfeuern weniger auffällt. Das erschwert das Schießen auf große Entfernungen, erhöht aber den durchschnittlichen Schaden.";"El cinturón no contiene rondas trazadoras, lo que hace que los disparos sean menos perceptibles. Esto dificulta los disparos a larga distancia, pero aumenta el daño medio.";"В ленте отсутствуют трассирующие пули, делая стрельбу менее заметной. Затрудняет стрельбу на дальние дистанции, но имеет в среднем больший урон.";"Стрічка не містить трасуючих набоїв, що робить постріли менш помітними. Це ускладнює стрільбу на великі відстані, але збільшує середню шкоду.";"Taśma nie zawiera pocisków smugowych, dzięki czemu ostrzał jest mniej zauważalny. Utrudnia to strzelanie na duże odległości, ale zwiększa średnie uszkodzenia.";"A cinta não contém munições tracejantes, tornando os disparos menos percetíveis. Dificulta o tiro a longa distância, mas aumenta o dano em geral.";"Kemer izli mermi içermez, bu da ateşlemeyi daha az fark edilir hale getirir. Bu, uzun menzilli atışları engeller, ancak ortalama hasarı artırır.";"Pás neobsahuje žádné stopovky, takže střelba je méně nápadná. To ztěžuje střelbu na velkou vzdálenost, ale zvyšuje průměrné poškození.";"Ο ιμάντας δεν περιέχει τροχιοδεικτικά βλήματα, καθιστώντας τη βολή λιγότερο ορατή. Αυτό δυσχεραίνει το άνοιγμα πυρός από μεγάλη απόσταση, αλλά αυξάνει τη μέση ζημιά.";"Sabuk ini tidak berisi peluru tracer, sehingga tembakannya tidak kentara. Hal ini menyulitkan tembakan jarak jauh, tetapi meningkatkan damage rata-rata.";"สายพานนี้ไม่มีกระสุนส่องวิถี ทำให้สังเกตร่องรอยจากการยิงได้ยากขึ้น ซึ่งทำให้การยิงจากระยะไกลยากขึ้นแต่เพิ่มความเสียหายทั่วไป";"탄띠에 예광탄이 존재하지 않으므로 사격하는 위치가 노출될 확률이 줄어들고 평균 피해량 또한 높지만, 장거리 사격 시의 난이도가 올라갑니다.";"该\t弹\t链\t中\t不\t包\t含\t曳\t光\t组\t分，\t在\t射\t击\t时\t更\t难\t被\t注\t意\t到。\t这\t一\t特\t性\t使\t得\t远\t距\t离\t开\t火\t时\t不\t方\t便\t修\t正\t弹\t道，\t但\t有\t助\t于\t提\t升\t攻\t击\t的\t突\t然\t性。";"ベルトには\t曳痕弾が\t入っていないため、\t発射が\t目立たない。\tそのため\t遠距離射撃の\t妨げになるが、\t平均的な\tダメージは\t増加する。";"該\t彈\t藥\t配\t置\t不\t含\t曳\t光\t彈，\t使\t開\t火\t不\t易\t被\t察\t覺。\t雖\t然\t不\t利\t於\t遠\t程\t射\t擊，\t但\t卻\t能\t提\t高\t平\t均\t傷\t害。";;
+"modification/air/machinegun_belt_ground_targets/desc";"The belt is designed for destroying armored ground targets.";"La ceinture est conçue pour détruire des cibles terrestres blindées.";"Questo nastro è progettato per distruggere i mezzi corazzati terrestri.";"Der Gurt ist für die Zerstörung von gepanzerten Bodenzielen gedacht.";"El cinturón está diseñado para destruir objetivos terrestres blindados.";"Лента предназначена для уничтожения бронированных наземных целей.";"Стрічка призначена для знищення броньованих наземних цілей.";"Taśma jest przeznaczona do niszczenia opancerzonych celów naziemnych.";"Cinta desenhada para abater alvos terrestres blindados.";"Kemer, zırhlı yer hedeflerini imha etmek için tasarlanmıştır.";"Pás je určen k ničení obrněných pozemních cílů.";"Ο ιμάντας έχει σχεδιαστεί για να καταστρέφει επίγειους θωρακισμένους στόχους.";"Sabuk ini dirancang untuk menghancurkan target darat yang menggunakan armor.";"สายพานนี้ออกแบบมาเพื่อทำลายเป้าหมายติดเกราะภาคพื้นดิน";"지상 목표물을 격파하기 위해 설계된 탄띠입니다.";"该\t弹\t链\t设\t计\t用\t于\t对\t付\t拥\t有\t装\t甲\t防\t护\t的\t地\t面\t目\t标。";"この\tベルトは、\t地上の\t装甲標的を\t破壊するために\t設計されている。";"該\t彈\t藥\t配\t置\t專\t門\t設\t計\t來\t摧\t毀\t帶\t有\t裝\t甲\t的\t地\t面\t目\t標。";;
+"modification/air/machinegun_belt_air_targets/desc";"The belt is designed for destroying aerial targets.";"La ceinture est conçue pour détruire des cibles aériennes.";"Questo nastro è progettato per distruggere bersagli aerei.";"Der Gurt ist für die Zerstörung von Luftzielen gedacht.";"El cinturón está diseñado para destruir objetivos aéreos.";"Лента предназначена для уничтожения воздушных целей.";"Стрічка призначена для знищення повітряних цілей.";"Taśma jest przeznaczona do niszczenia celów powietrznych.";"Cinta concebida para abater aeronaves.";"Kemer, hava hedeflerini imha etmek için tasarlanmıştır.";"Pás je určen k ničení vzdušných cílů.";"Ο ιμάντας έχει σχεδιαστεί για να καταστρέφει εναέριους στόχους.";"Sabuk ini dirancang untuk menghancurkan target di udara.";"สายพานนี้ออกแบบมาเพื่อทำลายเป้าหมายทางอากาศ";"공중 목표물을 격추하기 위해 설계된 탄띠입니다.";"该\t弹\t链\t主\t要\t设\t计\t用\t于\t对\t付\t空\t中\t目\t标。";"この\tベルトは、\t空中の\t標的を\t破壊するために\t設計されている。";"該\t彈\t藥\t配\t置\t專\t為\t對\t付\t空\t中\t目\t標\t而\t打\t造。";;
+"modification/air/machinegun_belt_heit/desc";"The rounds in this belt contain significantly more explosive incendiary material. It is designed for rapidly destroying lightly armored targets.";"Les balles de cette ceinture contiennent des matières incendiaires beaucoup plus explosives. Elle est conçue pour détruire rapidement des cibles légèrement blindées.";"I colpi di questo nastro sono composti in maggioranza da esplosivi. Sono pensati per distruggere velocemente bersagli leggeri.";"Die Geschosse in diesem Gurt enthalten deutlich mehr explosives Brandmaterial. Er ist für die schnelle Zerstörung von leicht gepanzerten Zielen gedacht.";"The rounds in this belt contain significantly more explosive incendiary material. It is designed for rapidly destroying lightly armored targets.";"Пули этой ленты содержат в себе намного больше разрывного зажигательного вещества. Предназначена для быстрого уничтожения слабо бронированных целей";"Набої з цієї стрічки містять значно більше вибухового запалювального матеріалу. Вони призначені для швидкого знищення легкоброньованих цілей.";"Naboje w tej taśmie zawierają znacznie więcej materiału zapalającego. Jest przeznaczony do szybkiego niszczenia lekko opancerzonych celów.";"As munições desta cinta contêm significativamente mais explosivo. Desenhada para abater rapidamente alvos com pouca blindagem.";"Bu kemerdeki mermiler önemli ölçüde daha fazla patlayıcı yangın çıkarıcı madde içerir. Hafif zırhlı hedefleri hızla imha etmek için tasarlanmıştır.";"Náboje v tomto pásu obsahují výrazně více výbušného zápalného materiálu. Je určen k rychlému ničení lehce obrněných cílů.";"Τα βλήματα αυτού του ιμάντα περιέχουν αρκετά περισσότερο εκρηκτικό εμπρηστικό υλικό. Έχει σχεδιαστεί για να καταστρέφει γρήγορα ελαφρά θωρακισμένους στόχους.";"Peluru dalam sabuk ini mengandung material pembakar yang jauh lebih mudah meledak. Sabuk ini dirancang untuk menghancurkan target yang menggunakan armor ringan dengan cepat.";"กระสุนในสายพานนี้มีวัตถุดิบระเบิดมากกว่าปกติ โดยออกแบบมาให้ทำลายเป้าหมายหุ้มเกราะเบาอย่างรวดเร็ว";"이 탄띠에 든 탄은 더 많은 소이 재료가 들어 있어 얇은 장갑을 두른 장비들을 상대하는 데 효과적입니다.";"弹\t链\t中\t的\t弹\t药\t组\t分\t装\t填\t有\t更\t多\t的\t装\t药\t与\t燃\t烧\t剂，\t适\t合\t用\t于\t快\t速\t摧\t毁\t轻\t装\t甲\t目\t标。";"この\tベルトの\t弾薬には、\tかなり\t多くの\t爆発性焼夷物質が\t含まれている。\t軽装甲の\t標的を\t迅速に\t破壊するように\t設計されている。";"該\t彈\t藥\t配\t置\t含\t有\t更\t多\t的\t爆\t炸\t燃\t燒\t物\t質，\t專\t門\t設\t計\t來\t快\t速\t摧\t毀\t輕\t裝\t甲\t目\t標。";;
+"modification/air/machinegun_belt_night/desc";"A special variant of tracer belt with dimmed glow. Generally, it has weaker armor-piercing capability compared to other belts.";"Une variante spéciale de la ceinture traçante avec une lueur atténuée. En général, sa capacité de perforation de blindage est plus faible que celle des autres ceintures.";"Una speciale versione dei nastri con traccianti a bassa visibilità. Generalmente è meno perforante rispetto ai nastri di altri tipi.";"Eine spezielle Variante des Gurtes mit Leuchtspur und gedämpftem Glimmen. Im Allgemeinen hat er im Vergleich zu anderen Gurten eine schwächere Panzerungsdurchschlagskraft.";"Una variante especial del cinturón trazador con brillo atenuado. Generalmente, su capacidad perforante es menor que la de otros cinturones.";"Специальный вариант трассирующей ленты с приглушенным свечением. Как правило, слабее прочих лент пробивает броню.";"Спеціальний тип трасувальної стрічки з приглушеним світінням. Зазвичай вона має слабшу бронебійну силу порівняно з іншими стрічками.";"Specjalny wariant taśmy smugowej z przyciemnioną poświatą. Ogólnie rzecz biorąc, ma słabszą zdolność przebijania pancerza w porównaniu do innych taśm.";"Variante especial da cinta tracejante com menos luminosidade. Em geral e em comparação, tem menos penetração.";"Sönük parıltılı özel bir izleyici kemer çeşididir. Genel olarak, diğer kemerlere kıyasla daha zayıf zırh delme kabiliyetine sahiptir.";"Speciální varianta trasovacího pásu s tlumeným svitem. V porovnání s ostatními pásy má obecně slabší schopnost prorazit pancíř.";"Μια ειδική παραλλαγή του ιμάντα τροχιοδεικτικών με αμυδρή λάμψη. Γενικά, έχει μικρότερη ικανότητα διάτρησης θωράκισης σε σύγκριση με άλλους ιμάντες.";"Sabuk amunisi tracer varian khusus dengan cahaya redup. Secara umum, kemampuan penembus armor sabuk ini lebih lemah dibandingkan dengan sabuk lainnya.";"สายพานส่องวิถีรุ่นพิเศษเรืองแสง โดยทั่วไปแล้วมีความสามารถในการเจาะเกราะน้อยกว่าสายพานอื่นๆ";"궤적이 비교적 흐릿하게 표시되는 예광탄입니다. 이 탄띠의 경우 다른 탄띠들보다 비교적 낮은 관통력을 가지고 있습니다.";"特\t殊\t类\t型\t的\t曳\t光\t弹\t链，\t留\t下\t的\t曳\t光\t轨\t迹\t较\t常\t规\t曳\t光\t弹\t略\t暗。\t整\t体\t穿\t甲\t能\t力\t有\t所\t削\t减。";"輝きが\t抑えられた\t特別な\tトレーサーベルト。\t一般的に\t他の\tベルトに\t比べ、\t徹甲能力は\t弱い。";"一\t種\t特\t殊\t的\t曳\t光\t彈\t藥\t配\t置，\t具\t有\t暗\t淡\t的\t光\t芒。\t一\t般\t來\t說，\t它\t的\t穿\t甲\t能\t力\t相\t較\t於\t其\t他\t彈\t藥\t帶\t較\t弱。";;
+"CLIPPED_LANG_KEEP_IT_ALWAYS_FIRST";;;;;;;;;;;;;;;;;;;"";

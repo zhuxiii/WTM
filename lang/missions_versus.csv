@@ -1,0 +1,889 @@
+"<ID|readonly|noverify>";"<English>";"<French>";"<Italian>";"<German>";"<Spanish>";"<Russian>";"<Ukrainian>";"<Polish>";"<Portuguese>";"<Turkish>";"<Czech>";"<Greek>";"<Indonesian>";"<Thai>";"<Korean>";"<Chinese>";"<Japanese>";"<TChinese>";"<Comments>";"<max_chars>"
+"missions/_Dom";"[Domination]";"[Domination]";"[Predominio]";"[Vorherrschaft]";"Dominación";"[Превосходство]";"[Панування]";"[Dominacja]";"[Domination]";"[Domination]";"[Nadvláda]";"[Κυριαρχία]";"[Dominasi]";"[ยึดครอง]";"[우세 점령]";"【战\t区\t控\t制\t】";"支配";"【戰\t區\t控\t制\t】";;
+"missions/_Dom1";"[Domination #1]";"[Domination #1]";"[Predominio #1]";"[Vorherrschaft #1]";"[Dominación #1]";"[Превосходство #1]";"[Домінування #1]";"[Dominacja #1]";"[Domínio #1]";"[Hakimiyet #1]";"[Nadvláda #1]";"[Domination #1]";"[Dominasi #1]";"[Domination #1]";"[우세 점령 #1]";"【战\t区\t控\t制\t】\t#1";"[支配 #1]";"【戰\t區\t控\t制 #1\t】";;
+"missions/_Dom2";"[Domination #2]";"[Domination #2]";"[Predominio #2]";"[Vorherrschaft #2]";"[Dominación #2]";"[Превосходство #2]";"[Домінування #2]";"[Dominacja #2]";"[Domínio #2]";"[Hakimiyet #2]";"[Nadvláda #2]";"[Domination #2]";"[Dominasi #2]";"[Domination #2]";"[우세 점령 #2]";"【战\t区\t控\t制\t】\t#2";"[支配 #2]";"【戰\t區\t控\t制 #2\t】";;
+"missions/_Dom3";"[Domination #3]";"[Domination #3]";"[Predominio #3]";"[Vorherrschaft #3]";"[Dominación #3]";"[Превосходство #3]";"[Домінування #3]";"[Dominacja #3]";"[Domínio #3]";"[Hakimiyet #3]";"[Nadvláda #3]";"[Domination #3]";"[Dominasi #3]";"[Domination #3]";"[우세 점령 #3]";"【战\t区\t控\t制\t】\t#3";"[支配 #3]";"【戰\t區\t控\t制 #3\t】";;
+"missions/_Dom/desc";"
+
+In [Domination] mode teams fight for control over three strategic points in the location.
+
+Ground forces objectives:
+- Capture and keep the advantage in points captured ╸,╹,╺";"
+
+En mode [Domination], les équipes s'affrontent pour le contrôle des trois points stratégiques de la zone.
+
+Objectifs des forces terrestres :
+
+-Capturez et conservez des points capturés ╸, ╹, ╺";"
+
+In modalità [Predominio] le squadre combattono per il controllo di tre punti strategici sulla mappa.
+
+Obbiettivi Esercito:
+
+- Cattura e mantieni il vantaggio sui punti ╸,╹,╺";"
+
+In 'Vorherrschaft' kämpfen die Teams um die Kontrolle über drei Zielgebiete auf der Karte.
+
+Missionsziele:
+- Erobere und Halte die Zielgebiete ╸,╹,╺";"
+
+En modo [Domination] los equipos luchan por el control de tres puntos estratégicos en el mapa.
+
+Objetivos de las fuerzas de tierra:
+- Capturar y mantener la ventaja por puntos capturados ╸,╹,╺";"
+
+В режиме [Превосходство] команды сражаются за контроль над тремя стратегическими точками локации.
+
+Задачи сухопутных войск:
+- Захватите и удержите превосходство по точкам ╸,╹,╺";"
+
+В режимі [Панування] команди б'ються за контроль над трьома стратегічними точками локації.
+
+Задачі сухопутних військ:
+- Захопіть стратегічні точки та зберігайте перевагу утримуючи їх ╸,╹,╺";"
+
+W trybie [Dominacja] drużyny walczą o kontrolę nad trzema punktami strategicznymi lokacji.
+
+Zadania wojsk lądowych:
+- Zajmij i utrzymaj przewagę w zajętych punktach ╸, ╹, ╺";"
+
+Em modo [Domination] as equipes combatem pelo controlo de três pontos estratégicos.
+
+Objetivos das forças terrestres:
+- Capturar e assegurar a vantagem via pontos capturados ╸,╹,╺";"
+
+[Domination] modunda takımlar konumun üç stratejik noktasının kontrolü için savaşır.
+
+Kara kuvvetleri görevleri:
+- Noktaları ele geçir ve avantajı elinde tut ╸,╹,╺";"Při získávání nadvlády bojují armády o ovládnutí strategických oblastí.
+
+Úkoly pozemních sil:
+- Obsaďte a udržte oblasti ╸,╹,╺";"
+
+Στη λειτουργία [Κυριαρχία] οι ομάδες μάχονται για τον έλεγχο τριών στρατηγικών σημείων στην τοποθεσία.
+
+Στόχοι των χερσαίων δυνάμεων:
+- Κατάληψη και διατήρηση του πλεονεκτήματος στα σημεία που έχουν καταληφθεί ╸,╹,╺";"
+
+Dalam mode [Dominasi], tim akan bertarung untuk menguasai tiga titik strategis di lokasi.
+
+Target angkatan darat:
+- Merebut dan mempertahankan dominasi di titik-titik yang direbut ╸, ╹, ╺.";"
+
+ในโหมด [ยึดครอง] ทีมจะสู้กันเพื่อยึดครองจุดยุทธศาสตร์สามแห่งในสถานที่
+
+เป้าหมายของทัพบก:
+- ยึดและรักษาการครอบครองตำแหน่ง ╸,╹,╺";"
+
+[우세 점령] 모드에서 각 편은 세 개의 전략적 지점을 점령하기 위해 싸우게 된다.
+
+지상군 목표:
+- ╸,╹,╺ 지점을 점령하고 우세를 유지하라";"
+
+在\t【战\t区\t控\t制\t】\t模\t式\t中，\t玩\t家\t的\t主\t要\t任\t务\t是\t占\t领\t并\t守\t住\t战\t区。\t当\t一\t方\t占\t领\t了\t更\t多\t战\t区\t时，\t另\t一\t方\t便\t会\t逐\t渐\t减\t分。\t分\t数\t耗\t尽\t的\t一\t方\t落\t败。
+
+任\t务\t目\t标：
+• 摧\t毁\t敌\t方\t的\t地\t面\t部\t队
+• 攻\t占\t并\t防\t守\t战\t区 ╸,╹,╺";"
+
+[支配] モードでは、\tチーム\t同士で\t3ヵ\t所の\t地上\tゾーンの\t支配権をめぐって\t戦います。\t
+
+地上部隊の\t目標: 
+- ゾーン ╸,╹,╺ を\t占領して\t維持せよ";"
+
+在\t【戰\t區\t控\t制\t】\t模\t式\t中，\t玩\t家\t的\t主\t要\t任\t務\t是\t佔\t領\t並\t守\t住\t戰\t區。\t當\t一\t方\t佔\t領\t了\t更\t多\t戰\t區\t時，\t另\t一\t方\t便\t會\t逐\t漸\t減\t分。\t分\t數\t耗\t盡\t的\t一\t方\t落\t敗。
+
+任\t務\t目\t標：
+• 摧\t毀\t敵\t方\t的\t地\t面\t部\t隊
+• 攻\t占\t並\t防\t守\t戰\t區 ╸,╹,╺";;
+"missions/_Conq";"[Conquest]";"[Conquest]";"[Conquista]";"[Eroberung]";"Conquista";"[Захват]";"[Захоплення]";"[Podbój]";"[Conquest]";"[Fetih]";"[Obsazování]";"[Κατάκτηση]";"[Penaklukan]";"[พิชิต]";"[거점 점령]";"【战\t区\t争\t夺\t】";"制圧";"【戰\t區\t爭\t奪\t】";;
+"missions/_Conq/desc";"
+
+In [Conquest] mode teams fight for control over one strategic point.
+
+Ground forces objectives:
+- Capture and hold the point ╸";"
+
+En mode [Conquest], chaque équipe combat pour le contrôle d'un point stratégique.
+
+Objectifs des forces terrestres :
+- Capturer et maintenir le point ╸";"
+
+In modalità [Conquista] le squadre combattono per il controllo di un punto strategico.
+
+Obbiettivi Esercito:
+- Cattura e mantieni il punto ╸";"
+
+In 'Eroberung' kämpfen die Teams um die Kontrolle über ein Zielgebiet auf der Karte.
+
+Missionsziele:
+- Erobere und Halte das Zielgebiet ╸";"
+
+En modo [Conquest] los equipos luchan por el control de un punto estratégico.
+
+Objetivos de las fuerzas de tierra:
+- Capturar y asegurar el punto ╸";"
+
+В режиме [Захват] команды сражаются за контроль над одной стратегической точкой.
+
+Задачи сухопутных войск:
+- Захватить и удержать под контролем точку ╸";"
+
+В режимі [Захоплення] команди б'ються за контроль над однією стратегічною точкою.
+
+Задачі сухопутних військ:
+- Захопіть і утримайте стратегічну точку ╸";"
+
+W trybie [Podbój] drużyny walczą o kontrolę nad pojedynczym punktem strategicznym.
+
+Cele wojsk lądowych:
+- Zajmij i utrzymaj punkt strategiczny –";"
+
+E modo [Conquest] as equipes lutam pelo controlo sobre um ponto estratégico.
+
+Objetivos das forças terrestres:
+- Capturar e segurar o ponto ╸";"
+
+[Fetih] modunda takımlar bir stratejik noktanın kontrolü için savaşır.
+
+Kara kuvvetleri görevleri:
+-Noktayı ele geçir ve elde tut ╸";"Při obsazování bojují armády o ovládnutí pozemní oblasti.
+
+Úkoly pozemních sil:
+- Obsaďte a udržte oblast ╸";"
+
+Στη λειτουργία [Κατάκτηση] οι ομάδες μάχονται για τον έλεγχο ενός στρατηγικού σημείου.
+
+Στόχοι των χερσαίων δυνάμεων:
+- Κατάληψη και διατήρηση του σημείου ╸";"
+
+Dalam mode [Penaklukan], tim akan bertarung untuk menguasai satu titik strategis.
+
+Target angkatan darat:
+- Merebut dan mempertahankan titik ╸";"
+
+ในโหมด [พิชิต] ทีมจะสู้กันเพื่อยึดครองจุดยุทธศาสตร์หนึ่งแห่ง
+
+เป้าหมายของทัพบก:
+- ยึดและรักษาการครอบครองตำแหน่ง ╸";"[거점 점령] 모드에서 각 편은 하나의 전략적 지점을 점령하기 위해 싸우게 된다.
+
+지상군 목표:
+- ╸ 지점을 점령하고 사수하라";"
+
+在\t【战\t区\t争\t夺\t】\t模\t式\t中，\t玩\t家\t的\t主\t要\t任\t务\t是\t占\t领\t并\t守\t住\t战\t区。\t丧\t失\t战\t区\t的\t一\t方\t会\t逐\t渐\t减\t分。\t分\t数\t耗\t尽\t的\t一\t方\t落\t败。
+本\t任\t务\t的\t重\t生\t基\t地\t在\t战\t斗\t开\t始\t后\t的\t两\t分\t钟\t内\t不\t可\t用。
+
+任\t务\t目\t标：
+• 摧\t毁\t敌\t方\t的\t地\t面\t部\t队
+• 攻\t占\t并\t防\t守\t战\t区 ╸";"
+
+[制圧] モードでは、\tチーム\t同士で\t1\tカ\t所の\t地上\tゾーンの\t支配権をめぐって\t戦います。\t
+
+ 地上部隊の\t目標:
+- ゾーン ╸ を\t占領して\t維持せよ";"
+
+在\t【戰\t區\t爭\t奪\t】\t模\t式\t中，\t玩\t家\t的\t主\t要\t任\t務\t是\t佔\t領\t並\t守\t住\t戰\t區。\t喪\t失\t戰\t區\t的\t一\t方\t會\t逐\t漸\t減\t分。\t分\t數\t耗\t盡\t的\t一\t方\t落\t敗。
+
+任\t務\t目\t標：
+• 摧\t毀\t敵\t方\t的\t地\t面\t部\t隊
+• 攻\t占\t並\t防\t守\t戰\t區 ╸";;
+"missions/_Bttl";"[Battle]";"[Battle]";"[Battaglia]";"[Schlacht]";"Batalla";"[Сражение]";"[Битва]";"[Bitwa]";"[Battle]";"[Muharebe]";"[Bitva]";"[Μάχη]";"[Pertempuran]";"[ต่อสู้]";"[전투]";"【战\t区\t攻\t陷\t】";"バトル";"【戰\t區\t攻\t陷\t】";;
+"missions/_Bttl/desc";"
+
+In [Battle] mode, each of the teams begins with one strategic point captured. If one of the teams manages to re-capture another team's point, it wins instantly.
+
+Ground forces objectives:
+- Capture the enemy point <color=@teamRedColor>╶</color>
+- Prevent the capture of the allied point <color=@teamBlueColor>╶</color>";"
+
+En mode [Battle], chaque équipe commence avec un point stratégique capturé. Si l'une des équipes arrive à capturer le point de l'autre équipe, elle gagne immédiatement.
+
+Objectifs des forces terrestres :
+- Capturer le point ennemi <color=@teamRedColor>╶</color>
+- Empêcher la capture du point allié <color=@teamBlueColor>╶</color>";"
+
+In modalità [Battaglia] ogni squadra inizia con un punto strategico catturato. Se una delle due squadre ricattura il punto, vince istantaneamente.
+
+Obbiettivi Esercito:
+- Cattura il punto nemico <color=@teamRedColor>╶</color>
+- Impedisci la cattura del punto alleato <color=@teamBlueColor>╶</color>";"
+
+In 'Schlacht' starten beide Teams mit je einem verbündeten Gebiet. Ein Team gewinnt, indem es das feindliche Zielgebiet erobert.
+
+Missionsziele:
+- Erobere das feindliche Zielgebiet <color=@teamRedColor>╶</color>
+- Halte das verbündete Gebiet <color=@teamBlueColor>╶</color>";"
+
+En modo [Battle] cada equipo empieza con un punto estratégico capturado. Si uno de los equipos consigue capturar el punto contrario, gana instantáneamente.
+
+Objetivos de las fuerzas terrestres:
+- Capturar el punto enemigo <color=@teamRedColor>╶</color>
+- Prevenir la captura del punto aliado <color=@teamBlueColor>╶</color>";"
+
+В режиме [Сражение] команды изначально имеют по одной стратегической точке. Захват точки, принадлежащей противоположной команде, приносит мгновенную победу.
+
+Задачи сухопутных войск:
+- Захватите вражескую точку <color=@teamRedColor>╶</color>
+- Не допустите захвата союзной точки <color=@teamBlueColor>╶</color>";"
+
+В режимі [Битва] команди з самого початку мають по одній стратегічній точці. Захоплення точки, що належить протилежній команді, приносить миттєву перемогу.
+
+Задачі сухопутних військ:
+- Захопіть точку ворога <color=@teamRedColor>╶</color>
+- Не допустіть захоплення союзної точки <color=@teamBlueColor>╶</color>";"
+
+W trybie [Bitwa] dwa zespoły walczą o przejęcie punktu strategicznego. Wygrywa drużyna, której uda się przejąć wrogą strefę.
+
+Cele wojsk lądowych:
+- Zajmij wrogi punkt <color=@teamRedColor>╶</color>
+- Nie pozwól na zajęcie sojuszniczej strefy <color=@teamBlueColor>╶</color>";"
+
+Em modo [Battle] cada uma das duas equipes começa com um ponto estratégico capturado. Se uma das equipas recapturar a zona da adversária, ganha instantaneamente.
+
+Objetivos das forças terrestres:
+- Capturar o ponto inimigo <color=@teamRedColor>╶</color>
+- Evitar a captura do ponto aliado <color=@teamBlueColor>╶</color>";"
+
+[Muharebe] modunda her takım bir stratejik nokta ele geçirilmiş olarak başlar. Eğer takımlardan biri diğer takımın bölgesini ele geçirirse hemen kazanır.
+
+Kara kuvvetleri görevleri:
+-Düşman noktasını ele geçir<color=@teamRedColor>-</color>
+-Müttefik noktasının ele geçirilmesini engelle <color=@teamBlueColor>-</color>";"V bitvě začíná každá armáda s obsazenou oblastí. Jestliže se jedné z nich podaří obsadit oblast nepřítele, okamžitě vyhrává.
+
+Úkoly pozemních sil:
+- Obsaďte nepřátelskou oblast <color=@teamRedColor>╶</color>
+- Udržte spojeneckou oblast <color=@teamBlueColor>╶</color>";"
+
+Στη λειτουργία [Μάχη], κάθε ομάδα ξεκινά έχοντας καταλάβει ένα στρατηγικό σημείο. Αν μία από τις ομάδες καταφέρει να καταλάβει ξανά το σημείο μιας άλλης ομάδας, κερδίζει αμέσως.
+
+Στόχοι των χερσαίων δυνάμεων:
+- Κατάληψη του εχθρικού σημείου <color=@teamRedColor>╶</color>
+- Να μην καταληφθεί το συμμαχικό σημείο <color=@teamBlueColor>╶</color>";"
+
+Dalam mode [Pertempuran], masing-masing tim akan memulai dengan merebut satu titik strategis. Jika salah satu tim berhasil merebut kembali titik tim lain, maka tim itu akan menang secara instan.
+
+Target angkatan darat:
+- Merebut titik musuh <color=@teamRedColor>╶</color>
+- Mencegah perebutan titik sekutu <color=@teamBlueColor>╶</color>";"
+
+ในโหมด [ต่อสู้] แต่ละทีมจะเริ่มต้นโดยยึดครองจุดยุทธศาสตร์ฝ่ายละจุด หากทีมใดทีมหนึ่งยึดตำแหน่งจากอีกทีมได้ก็จะชนะทันที
+
+เป้าหมายของทัพบก:
+- ยึดตำแหน่งของศัตรู <color=@teamRedColor>╶</color>
+- ป้องกันไม่ให้ตำแหน่งของพันธมิตรถูกยึด <color=@teamBlueColor>╶</color>";"
+
+[전투] 모드에서 각 편은 하나씩의 전략적 지점을 점령한 채로 시작한다. 만약 어떤 편이 다른 편의 지점을 점령하면 곧바로 승리하게 된다.
+
+지상군 목표:
+- 적의 지점(<color=@teamRedColor>╶</color>) 을 점령하라
+- 아군 지점(<color=@teamBlueColor>╶</color>) 이 점령되지 않게 하라";"
+
+在\t【战\t区\t攻\t陷\t】\t模\t式\t中，\t开\t局\t时\t双\t方\t各\t持\t一\t初\t始\t战\t区。\t此\t后，\t成\t功\t占\t领\t对\t方\t战\t区\t的\t一\t方\t立\t即\t获\t胜。
+
+任\t务\t目\t标：
+• 摧\t毁\t敌\t方\t的\t地\t面\t部\t队
+• 防\t守\t己\t方\t战\t区 <color=@teamBlueColor>\t╶\t</color>
+• 攻\t占\t敌\t方\t战\t区 <color=@teamRedColor>\t╶\t</color>";"
+
+[戦闘] モードでは\t各\tチームは\t制圧済みの\t地点から\tスタートします。\tいずれかの\tチームが\t相手\tチームの\tゾーンを\t再制圧できると、\t制圧した\tチームの\t勝利となります。\t
+
+地上部隊の\t目標: 
+- 敵\tチームの\tゾーン <color=@teamRedColor>╶</color> を\t占領せよ
+- 味方\tチームの\tゾーン <color=@teamBlueColor>╶</color> を\t防衛せよ";"
+
+在\t【戰\t區\t攻\t陷\t】\t模\t式\t中，\t開\t局\t時\t雙\t方\t各\t持\t一\t初\t始\t戰\t區。\t此\t後，\t成\t功\t佔\t領\t對\t方\t戰\t區\t的\t一\t方\t立\t即\t獲\t勝。
+
+任\t務\t目\t標：
+• 摧\t毀\t敵\t方\t的\t地\t面\t部\t隊
+• 防\t守\t己\t方\t戰\t區 <color=@teamBlueColor>\t╶\t</color>
+• 攻\t占\t敵\t方\t戰\t區 <color=@teamRedColor>\t╶\t</color>";;
+"missions/_Conq1";"[Conquest #1]";"[Conquest #1]";"[Conquista] #1";"[Eroberung #1]";"[Conquista] #1";"[Захват #1]";"[Захоплення №1]";"[Podbój #1]";"[Conquest #1]";"[Fetih #1]";"[Obsazování #1]";"[Κατάκτηση #1]";"[Penaklukan #1]";"[พิชิต #1]";"[거점 점령 #1]";"【战\t区\t争\t夺\t】\t#1";"[制圧] #1";"【戰\t區\t爭\t奪\t】\t#1";;
+"missions/_Conq1/desc";"
+
+In [Conquest] mode teams fight for control over one strategic point.
+
+Ground forces objectives:
+- Capture and hold the point ╸";"
+
+En mode [Conquest], chaque équipe combat pour le contrôle d'un point stratégique.
+
+Objectifs des forces terrestres :
+- Capturer et maintenir le point ╸";"
+
+In modalità [Conquista] le squadre combattono per il controllo di un punto strategico.
+
+Obbiettivi Esercito:
+- Cattura e mantieni il punto ╸";"
+
+In 'Eroberung' kämpfen die Teams um die Kontrolle über ein Zielgebiet auf der Karte.
+
+Missionsziele:
+- Erobere und Halte das Zielgebiet ╸";"
+
+En modo [Conquest] los equipos luchan por el control de un punto estratégico.
+
+Objetivos de las fuerzas de tierra:
+- Capturar y asegurar el punto ╸";"
+
+В режиме [Захват] команды сражаются за контроль над одной стратегической точкой.
+
+Задачи сухопутных войск:
+- Захватить и удержать под контролем точку ╸";"
+
+У режимі [Захоплення] команди борються за контроль над однією стратегічною точкою.
+
+Завдання сухопутних військ:
+- Захопити та утримати під контролем точку ╸";"
+
+W trybie [Podbój] drużyny walczą o panowanie nad pojedynczym punktem strategicznym.
+
+Cele wojsk lądowych:
+- Przejmij i utrzymaj punkt –";"
+
+Em modo [Conquest] as equipes lutam pelo controlo de um ponto estratégico.
+
+Objetivos das forças terrestres:
+- Capturar e segurar o ponto ╸";"
+
+[Fetih] modunda takımlar bir stratejik noktanın kontrolü için savaşır.
+
+Kara kuvvetleri görevleri:
+-Noktayı ele geçir ve elde tut ╸";"
+
+Při [Obsazování] bojují armády o ovládnutí jedné strategické oblasti.
+
+Úkoly pozemních sil:
+- Obsaď a udrž oblast ╸";"
+
+Στη λειτουργία [Κατάκτηση] οι ομάδες μάχονται για τον έλεγχο ενός στρατηγικού σημείου.
+
+Στόχοι των χερσαίων δυνάμεων:
+- Κατάληψη και διατήρηση του σημείου ╸";"
+
+Dalam mode [Penaklukan], tim akan bertarung untuk menguasai satu titik strategis.
+
+Target angkatan darat:
+- Merebut dan mempertahankan titik ╸";"
+
+ในโหมด [พิชิต] ทีมจะสู้กันเพื่อยึดครองจุดยุทธศาสตร์หนึ่งแห่ง
+
+เป้าหมายของทัพบก:
+- ยึดและรักษาการครอบครองตำแหน่ง ╸";"
+
+[거점 점령] 모드에서 각 편은 하나의 전략적 지점을 점령하기 위해 싸우게 된다.
+
+지상군 목표:
+- ╸ 지점을 점령하고 사수하라";"
+
+在\t【战\t区\t争\t夺\t】\t模\t式\t中，\t玩\t家\t的\t主\t要\t任\t务\t是\t占\t领\t并\t守\t住\t战\t区。\t丧\t失\t战\t区\t的\t一\t方\t会\t逐\t渐\t减\t分。\t分\t数\t耗\t尽\t的\t一\t方\t落\t败。
+
+任\t务\t目\t标：
+• 摧\t毁\t敌\t方\t的\t地\t面\t部\t队
+• 攻\t占\t并\t防\t守\t战\t区 ╸";"
+
+[制圧] モードでは、\tチーム\t同士で\t1\tカ\t所の\t地上\tゾーンの\t支配権をめぐって\t戦います。\t
+
+ 地上部隊の\t目標:
+- ゾーン ╸ を\t占領して\t維持せよ";"
+
+在\t【戰\t區\t爭\t奪\t】\t模\t式\t中，\t玩\t家\t的\t主\t要\t任\t務\t是\t佔\t領\t並\t守\t住\t戰\t區。\t喪\t失\t戰\t區\t的\t一\t方\t會\t逐\t漸\t減\t分。\t分\t數\t耗\t盡\t的\t一\t方\t落\t敗。
+
+任\t務\t目\t標：
+• 摧\t毀\t敵\t方\t的\t地\t面\t部\t隊
+• 攻\t占\t並\t防\t守\t戰\t區 ╸";;
+"missions/_Conq2";"[Conquest #2]";"[Conquest #2]";"[Conquista] #2";"[Eroberung #2]";"[Conquista] #2";"[Захват #2]";"[Захоплення №2]";"[Podbój #2]";"[Conquest #2]";"[Fetih #2]";"[Obsazování #2]";"[Κατάκτηση #2]";"[Penaklukan #2]";"[พิชิต #2]";"[거점 점령 #2]";"【战\t区\t争\t夺\t】\t#2";"[制圧] #2";"【戰\t區\t爭\t奪\t】\t#2";;
+"missions/_Conq2/desc";"
+
+In [Conquest] mode, teams fight for control over one strategic point.
+
+Ground forces objectives:
+- Capture and hold the point ╸";"
+
+En mode [Conquest], chaque équipe combat pour le contrôle d'un point stratégique.
+
+Objectifs des forces terrestres :
+- Capturer et maintenir le point ╸";"
+
+In modalità [Conquista] le squadre combattono per il controllo di un punto strategico.
+
+Obbiettivi Esercito:
+- Cattura e mantieni il punto ╸";"
+
+In 'Eroberung' kämpfen die Teams um die Kontrolle über ein Zielgebiet auf der Karte.
+
+Missionsziele:
+- Erobere und Halte das Zielgebiet ╸";"
+
+En modo [Conquest] los equipos luchan por el control de un punto estratégico.
+
+Objetivos de las fuerzas de tierra:
+- Capturar y asegurar el punto ╸";"
+
+В режиме [Захват] команды сражаются за контроль над одной стратегической точкой.
+
+Задачи сухопутных войск:
+- Захватить и удержать под контролем точку ╸";"
+
+У режимі [Захоплення] команди борються за контроль над однією стратегічною точкою.
+
+Завдання сухопутних військ:
+- Захопити та утримати під контролем точку ╸";"
+
+W trybie [Podbój] drużyny walczą o panowanie nad pojedynczym punktem strategicznym.
+
+Cele wojsk lądowych:
+- Przejmij i utrzymaj punkt –";"
+
+Em modo [Conquest] as equipes lutam pelo controlo de um ponto estratégico.
+
+Objetivos das forças terrestres:
+- Capturar e segurar o ponto ╸";"
+
+[Fetih] modunda takımlar bir stratejik noktanın kontrolü için savaşır.
+
+Kara kuvvetleri görevleri:
+-Noktayı ele geçir ve elde tut ╸";"
+
+Při [Obsazování] bojují armády o ovládnutí jedné strategické oblasti.
+
+Úkoly pozemních sil:
+- Obsaď a udrž oblast ╸";"
+
+Στη λειτουργία [Κατάκτηση] οι ομάδες μάχονται για τον έλεγχο ενός στρατηγικού σημείου.
+
+Στόχοι των χερσαίων δυνάμεων:
+- Κατάληψη και διατήρηση του σημείου ╸";"
+
+Dalam mode [Penaklukan], tim akan bertarung untuk menguasai satu titik strategis.
+
+Target angkatan darat:
+- Merebut dan mempertahankan titik ╸";"
+
+ในโหมด [พิชิต] ทีมจะสู้กันเพื่อยึดครองจุดยุทธศาสตร์หนึ่งแห่ง
+
+เป้าหมายของทัพบก:
+- ยึดและรักษาการครอบครองตำแหน่ง ╸";"[거점 점령] 모드에서 각 편은 하나의 전략적 지점을 점령하기 위해 싸우게 된다.
+
+지상군 목표:
+- ╸ 지점을 점령하고 사수하라";"
+
+在\t【战\t区\t争\t夺\t】\t模\t式\t中，\t玩\t家\t的\t主\t要\t任\t务\t是\t占\t领\t并\t守\t住\t战\t区。\t丧\t失\t战\t区\t的\t一\t方\t会\t逐\t渐\t减\t分。\t分\t数\t耗\t尽\t的\t一\t方\t落\t败。
+
+任\t务\t目\t标：
+• 摧\t毁\t敌\t方\t的\t地\t面\t部\t队
+• 攻\t占\t并\t防\t守\t战\t区 ╸";"
+
+[制圧] モードでは、\tチーム\t同士で\t1\tカ\t所の\t地上\tゾーンの\t支配権をめぐって\t戦います。\t
+
+ 地上部隊の\t目標:
+- ゾーン ╸ を\t占領して\t維持せよ";"
+
+在\t【戰\t區\t爭\t奪\t】\t模\t式\t中，\t玩\t家\t的\t主\t要\t任\t務\t是\t佔\t領\t並\t守\t住\t戰\t區。\t喪\t失\t戰\t區\t的\t一\t方\t會\t逐\t漸\t減\t分。\t分\t數\t耗\t盡\t的\t一\t方\t落\t敗。
+
+任\t務\t目\t標：
+• 摧\t毀\t敵\t方\t的\t地\t面\t部\t隊
+• 攻\t占\t並\t防\t守\t戰\t區 ╸";;
+"missions/_Conq3";"[Conquest #3]";"[Conquest #3]";"[Conquista] #3";"[Eroberung #3]";"[Conquista] #3";"[Захват #3]";"[Захоплення №3]";"[Podbój #3]";"[Conquest #3]";"[Fetih #3]";"[Obsazování #3]";"[Κατάκτηση #3]";"[Penaklukan #3]";"[พิชิต #3]";"[거점 점령 #3]";"【战\t区\t争\t夺\t】\t#3";"[制圧] #3";"【戰\t區\t爭\t奪\t】\t#3";;
+"missions/_Conq3/desc";"
+
+In [Conquest] mode, teams fight for control over one strategic point.
+
+Ground forces objectives:
+- Capture and hold the point ╸";"
+
+En mode [Conquest], chaque équipe combat pour le contrôle d'un point stratégique.
+
+Objectifs des forces terrestres :
+- Capturer et maintenir le point ╸";"
+
+In modalità [Conquista] le squadre combattono per il controllo di un punto strategico.
+
+Obbiettivi Esercito:
+- Cattura e mantieni il punto ╸";"
+
+In 'Eroberung' kämpfen die Teams um die Kontrolle über ein Zielgebiet auf der Karte.
+
+Missionsziele:
+- Erobere und Halte das Zielgebiet ╸";"
+
+En modo [Conquest] los equipos luchan por el control de un punto estratégico.
+
+Objetivos de las fuerzas de tierra:
+- Capturar y asegurar el punto ╸";"
+
+В режиме [Захват] команды сражаются за контроль над одной стратегической точкой.
+
+Задачи сухопутных войск:
+- Захватить и удержать под контролем точку ╸";"
+
+У режимі [Захоплення] команди борються за контроль над однією стратегічною точкою.
+
+Завдання сухопутних військ:
+- Захопити та утримати під контролем точку ╸";"
+
+W trybie [Podbój] drużyny walczą o panowanie nad pojedynczym punktem strategicznym.
+
+Cele wojsk lądowych:
+- Przejmij i utrzymaj punkt –";"
+
+Em modo [Conquest] as equipes lutam pelo controlo de um ponto estratégico.
+
+Objetivos das forças terrestres:
+- Capturar e segurar o ponto ╸";"
+
+[Fetih] modunda takımlar bir stratejik noktanın kontrolü için savaşır.
+
+Kara kuvvetleri görevleri:
+-Noktayı ele geçir ve elde tut ╸";"
+
+Při [Obsazování] bojují armády o ovládnutí jedné strategické oblasti.
+
+Úkoly pozemních sil:
+- Obsaď a udrž oblast ╸";"
+
+Στη λειτουργία [Κατάκτηση] οι ομάδες μάχονται για τον έλεγχο ενός στρατηγικού σημείου.
+
+Στόχοι των χερσαίων δυνάμεων:
+- Κατάληψη και διατήρηση του σημείου ╸";"
+
+Dalam mode [Penaklukan], tim akan bertarung untuk menguasai satu titik strategis.
+
+Target angkatan darat:
+- Merebut dan mempertahankan titik ╸";"
+
+ในโหมด [พิชิต] ทีมจะสู้กันเพื่อยึดครองจุดยุทธศาสตร์หนึ่งแห่ง
+
+เป้าหมายของทัพบก:
+- ยึดและรักษาการครอบครองตำแหน่ง ╸";"
+
+[거점 점령] 모드에서 각 편은 하나의 전략적 지점을 점령하기 위해 싸우게 된다.
+
+지상군 목표:
+- ╸ 지점을 점령하고 사수하라";"
+
+在\t【战\t区\t争\t夺\t】\t模\t式\t中，\t玩\t家\t的\t主\t要\t任\t务\t是\t占\t领\t并\t守\t住\t战\t区。\t丧\t失\t战\t区\t的\t一\t方\t会\t逐\t渐\t减\t分。\t分\t数\t耗\t尽\t的\t一\t方\t落\t败。
+
+任\t务\t目\t标：
+• 摧\t毁\t敌\t方\t的\t地\t面\t部\t队
+• 攻\t占\t并\t防\t守\t战\t区 ╸";"
+
+[制圧] モードでは、\tチーム\t同士で\t1\tカ\t所の\t地上\tゾーンの\t支配権をめぐって\t戦います。\t
+
+ 地上部隊の\t目標:
+- ゾーン ╸ を\t占領して\t維持せよ";"
+
+在\t【戰\t區\t爭\t奪\t】\t模\t式\t中，\t玩\t家\t的\t主\t要\t任\t務\t是\t佔\t領\t並\t守\t住\t戰\t區。\t喪\t失\t戰\t區\t的\t一\t方\t會\t逐\t漸\t減\t分。\t分\t數\t耗\t盡\t的\t一\t方\t落\t敗。
+
+任\t務\t目\t標：
+• 摧\t毀\t敵\t方\t的\t地\t面\t部\t隊
+• 攻\t占\t並\t防\t守\t戰\t區 ╸";;
+"missions/_CTF";"[Capture the Flag]";"[Capture de drapeau]";"[Cattura la Bandiera]";"[Erobere die Flagge]";"[Capturar la Bandera]";"[Захват Флага]";"[Захоплення прапора]";"[Przejęcie flagi]";"[Capturar a Bandeira]";"[Bayrak Ele Geçirme]";"[Boj o vlajku]";"[Αιχμαλωτίστε τη Σημαία]";"[Rebut Bendera]";"[ยึดธง]";"[깃발 뺏기]";"【夺\t旗\t】";"[旗の\t確保]";"【奪\t旗\t】";;
+"missions/_CTF/desc";"
+
+In [Capture the Flag] mode, teams will have to capture the enemy Flag at an enemy point and bring it to an allied point.
+
+Ground forces objectives:
+- Capture the enemy's Flag and deliver it to an allied point ╸";"
+
+En mode [Capture de drapeau], les équipes devront capturer le drapeau ennemi à un point ennemi et le ramener à un point allié. 
+
+Objectifs des forces terrestres : 
+- Capturer le drapeau de l'ennemi et l'amener à un point allié ╸";"
+
+In modalità [Cattura la Bandiera], le squadre devono catturare la Bandiera sul punto nemico e portarla a quello alleato.
+
+Obiettivi forze di terra:
+- Cattura la Bandiera nemica e trasportala al punto alleato -";"
+
+Im Flaggeneroberungsmodus müssen die Teams die gegnerische Flagge an einem gegnerischen Punkt erobern und sie zu einem verbündeten Punkt bringen
+
+Ziele der Bodentruppen:
+- Erobere die feindliche Flagge und bringe sie zu einem verbündeten Punkt ╸";"
+
+En el modo [Capturar la Bandera], los equipos tendrán que capturar la Bandera enemiga en un punto enemigo y llevarla a un punto aliado.
+
+Objetivos de las fuerzas terrestres:
+- Capturar la Bandera enemiga y llevarla a un punto aliado ╸";"
+
+В режиме [Захват Флага] командам предстоит захватить Флаг противника на вражеской точке и принести его на союзную точку.
+
+Задачи сухопутных войск:
+- Захватить Флаг противника и доставить его на союзную точку ╸";"
+
+У режимі [Захоплення прапора] командам потрібно захопити прапор противника на ворожій точці та доставити його до точки союзників.
+
+Цілі сухопутних військ:
+— захопити прапор противника та доставити його до точки союзників ╸";"
+
+W trybie [Przejęcie flagi] drużyny będą musiały przejąć flagę wroga w punkcie przeciwnika i dostarczyć ją do punktu sojuszniczego.
+
+Cele sił naziemnych:
+- Przechwyć flagę wroga i dostarcz ją do sojuszniczego punktu ╸";"
+
+No modo [Capturar a Bandeira], as equipes têm de capturar a Bandeira inimiga num ponto inimigo e traze-la para um ponto aliado.
+
+Objetivos das forças terrestres:
+- Capturar a Bandeira inimiga e traze-la para um ponto aliado ╸";"
+
+[Bayrağı Ele Geçir] modunda, takımların düşman noktasındaki düşman Bayrağını ele geçirmesi ve müttefik bir noktaya getirmesi gerekir.
+
+Kara kuvvetleri hedefleri:
+- Düşman Bayrağını ele geçirin ve müttefik bir noktaya teslim edin ╸";"
+
+V režimu [Boj o vlajku] mají týmy za úkol zmocnit se nepřátelské vlajky na nepřátelském bodě a dopravit ji na spojenecký bod.
+
+Cíle pozemních sil:
+- Zajměte vlajku nepřítele a doručte ji na spojenecký bod ╸";"
+
+Στη λειτουργία [Αιχμαλωτίστε τη Σημαία], οι ομάδες θα πρέπει να αιχμαλωτίσουν τη Σημαία του εχθρού σε κάποιο εχθρικό σημείο και να τη φέρουν σε ένα συμμαχικό σημείο.
+
+Στόχοι χερσαίων δυνάμεων:
+- Αιχμαλωτίστε τη Σημαία του εχθρού και παραδώστε τη σε ένα συμμαχικό σημείο ╸";"
+
+Dalam mode [Rebut Bendera], tim harus merebut Bendera musuh di titik musuh dan membawanya ke titik sekutu.
+
+Target angkatan darat:
+- Rebut Bendera musuh dan kirimkan ke titik sekutu ╸";"
+
+ในโหมด [ยึดธง] แต่ละทีมจะต้องยึดธงศัตรูที่ตำแหน่งของศัตรูแล้วนำมายังตำแหน่งฝ่ายเดียวกัน
+
+เป้าหมายทัพบก:
+- ยึดธงของศัตรูแล้วนำมายังตำแหน่งฝ่ายเดียวกัน -";"
+
+[깃발 뺏기] 모드에서 각 편은 적의 깃발을 탈취한 뒤 아군 지역으로 가져와야 합니다.
+
+지상군 목표:
+- 적의 깃발을 탈취한 뒤 아군 지역에 전달하라╸";"
+
+在\t【夺\t旗\t】\t模\t式\t下，\t双\t方\t队\t伍\t将\t争\t夺\t对\t方\t据\t点\t内\t的\t敌\t方\t旗\t帜，\t并\t将\t其\t护\t送\t至\t友\t方\t点\t位。
+
+地\t面\t部\t队\t目\t标：
+- 夺\t取\t敌\t方\t旗\t帜，\t将\t其\t护\t送\t至\t友\t方\t点\t位 ╸";"
+
+[旗の\t確保]モードでは、\tチームは\t敵拠点にある\t旗を\t奪い、\tそれを\t味方の\t拠点まで\t持ち\t帰る\t必要があります。\t
+
+地上部隊目標：\t
+- 敵の\t旗を\t奪い、\t自軍の\t拠点へ\t届ける ╸";"
+
+在\t【奪\t旗\t】\t模\t式\t下，\t雙\t方\t團\t隊\t將\t需\t要\t奪\t取\t對\t方\t據\t點\t內\t的\t旗\t幟，\t將\t其\t護\t送\t回\t己\t方\t據\t點\t以\t獲\t取\t優\t勢。
+
+地\t面\t部\t隊\t目\t標：
+- 奪\t取\t敵\t方\t旗\t幟，\t將\t其\t運\t回\t友\t方\t據\t點 ╸";;
+"missions/_CTC";"[Capture the Cargo]";"[Capture de la cargaison]";"[Cattura il Carico]";"[Eroberung die Fracht]";"[Captura la Carga]";"[Захват Груза]";"[Захоплення вантажу]";"[Przejmij ładunek]";"[Capturar a Carga]";"[Kargo'yu ele geçir]";"[Boj o náklad]";"[Αιχμαλωτίστε το Φορτίο]";"[Rebut Kargo]";"[ยึดสินค้า]";"[화물 확보]";"【坦\t克\t速\t递\t】";"[貨物争奪]";"【戰\t車\t速\t遞\t】";;
+"missions/_CTC/desc";"
+
+In [Capture the Cargo] mode, teams will have to capture the Cargo and deliver it to an allied point.
+
+Ground forces objectives:
+- Capture and deliver most of the Cargo to an allied point ╸";"
+
+En mode [Capture de la cargaison], les équipes devront capturer la cargaison et la livrer à un point allié. 
+
+Objectifs des forces terrestres : 
+- Capturer et livrer la plus grande partie de la cargaison à un point allié ╸";"
+
+In modalità [Cattura il Carico], le squadre devono catturare il Carico e trasportarlo al punto alleato.
+
+Obiettivi forze terrestri:
+- Cattura e porta il maggior numero di Carichi al punto alleato ╸";"
+
+Im Modus [Eroberung der Fracht] müssen Teams die Fracht erobern und an einen verbündeten Punkt liefern.
+
+Ziele der Bodentruppen:
+- Den Großteil der Fracht erbeuten und an einen verbündeten Punkt liefern ╸";"
+
+En el modo [Capturar la Carga], los equipos tendrán que capturar la Carga y entregarla en un punto aliado.
+
+Objetivos de las fuerzas terrestres:
+- Capturar y entregar la mayor parte de la Carga a un punto aliado ╸";"
+
+В режиме [Захват Груза] командам предстоит захватить Груз и доставить его на союзную точку.
+
+Задачи сухопутных войск:
+- Захватить и доставить бóльшую часть Груза на союзную точку.";"
+
+У режимі [Захоплення вантажу] командам потрібно захопити вантаж і доставити його до точки союзників.
+
+Цілі сухопутних військ:
+— захопити якнайбільшу частину вантажу та доставити його до точки союзників ╸";"
+
+W trybie [Przejmij ładunek] drużyny będą musiały przechwycić ładunek i dostarczyć go do sojuszniczego punktu.
+
+Cele sił naziemnych:
+- Przechwyć i dostarcz większość ładunku do sojuszniczego punktu ╸";"
+
+No modo [Capturar a Carga], as equipes têm de capturar a Carga e traze-la para um ponto aliado.
+
+Objetivos das forças terrestres:
+- Capturar e entregar a maior parte da Carga num ponto aliado ╸";"
+
+[Kargoyu Ele Geçir] modunda, takımlar Kargo'yu ele geçirmeli ve müttefik bir noktaya teslim etmelidir.
+
+Kara kuvvetleri hedefleri:
+- Kargo'nun çoğunu ele geçirin ve müttefik bir noktaya teslim edin ╸";"
+
+V režimu [Boj o náklad] musí týmy zajmout náklad a doručit ho na spojenecký bod.
+
+Cíle pozemních sil:
+- Zajměte a doručte většinu nákladu do spojeneckého bodu ╸";"
+
+Στη λειτουργία [Αιχμαλωτίστε το Φορτίο], οι ομάδες θα πρέπει να αιχμαλωτίσουν το Φορτίο και να το παραδώσουν σε ένα συμμαχικό σημείο.
+
+Στόχοι χερσαίων δυνάμεων:
+- Αιχμαλωτίστε και παραδώστε το μεγαλύτερο μέρος του Φορτίου σε ένα συμμαχικό σημείο ╸";"
+
+Dalam mode [Rebut Kargo], tim harus merebut Kargo dan mengirimkannya ke titik sekutu.
+
+Target angkatan darat:
+- Rebut dan kirimkan sebagian besar Kargo ke titik sekutu ╸";"
+
+ในโหมด [ยึดสินค้า] แต่ละทีมจะต้องยึดสินค้าแล้วนำมายังตำแหน่งฝ่ายเดียวกัน
+
+เป้าหมายทัพบก:
+- ยึดสินค้าแล้วนำมายังตำแหน่งฝ่ายเดียวกันให้มากที่สุด ╸";"
+
+[화물 확보] 모드에서 각 편은 화물을 확보한 뒤 아군 지역으로 가져와야 합니다.
+
+지상군 목표:
+- 아군 지역에 최대한 많은 화물을 확보하라╸";"
+
+在\t【坦\t克\t速\t递\t】\t模\t式\t下，\t双\t方\t队\t伍\t将\t围\t绕\t货\t物\t展\t开\t争\t夺，\t成\t功\t将\t货\t物\t护\t送\t至\t友\t方\t点\t位\t的\t队\t伍\t可\t获\t得\t优\t势。
+
+地\t面\t部\t队\t目\t标：
+- 夺\t取\t货\t物，\t将\t大\t部\t分\t货\t物\t护\t送\t至\t友\t方\t点\t位 ╸";"
+
+[貨物争奪]モードでは、\tチームは\t貨物を\t奪い、\tそれを\t味方の\t拠点まで\t持ち\t帰る\t必要があります。\t
+
+地上部隊目標：\t
+- 貨物の\t大半を\t捕獲し、\t味方の\tポイントに\t届ける。\t ╸";"
+
+在\t【戰\t車\t速\t遞\t】\t模\t式\t下，\t雙\t方\t團\t隊\t將\t圍\t繞\t貨\t物\t展\t開\t爭\t奪，\t將\t貨\t物\t護\t送\t回\t己\t方\t據\t點\t可\t獲\t取\t優\t勢。
+
+地\t面\t部\t隊\t目\t標：
+- 奪\t取\t盡\t可\t能\t多\t的\t貨\t物，\t將\t其\t運\t回\t友\t方\t據\t點 ╸";;
+"missions/_GS/light_tank";"[Ground Strike ⋢]";"[Attaque au sol ⋢]";"[Attacco al suolo ⋢]";"[Bodenangriff ⋢]";"[Ataque a Tierra ⋢]";"[Штурмовка ⋢]";"[Штурмування ⋢]";"[Atak na cele naziemne ⋢]";"[Ground Strike ⋢]";"[Kara Saldırısı ⋢]";"[Nálet ⋢]";"[Χτύπημα εδάφους ⋢]";"[Serangan Darat ⋢]";"[จู่โจมภาคพื้นดิน ⋢]";"[지상 공격 ⋢]";"【对\t地\t攻\t击 ⋢\t】";"[地上攻撃 ⋢]";"【對\t地\t攻\t擊 ⋢\t】";;
+"missions/_GS/medium_tank";"[Ground Strike ⋤]";"[Attaque au sol ⋤]";"[Attacco al suolo ⋤]";"[Bodenangriff ⋤]";"[Ataque a Tierra ⋤]";"[Штурмовка ⋤]";"[Штурмування ⋤]";"[Atak na cele naziemne ⋤]";"[Ground Strike ⋤]";"[Kara Saldırısı ⋤]";"[Nálet ⋤]";"[Χτύπημα εδάφους ⋤]";"[Serangan Darat ⋤]";"[จู่โจมภาคพื้นดิน ⋤]";"[지상 공격 ⋤]";"【对\t地\t攻\t击 ⋤\t】";"[地上攻撃 ⋤]";"【對\t地\t攻\t擊 ⋤\t】";;
+"missions/_GS/medium_tank_ship";"[Ground Strike ⋤/⋩]";"[Attaque au sol ⋤/⋩]";"[Attacco al suolo ⋤/⋩]";"[Bodenangriff ⋤/⋩]";"[Ataque a Tierra ⋤/⋩]";"[Штурмовка ⋤/⋩]";"[Штурмування ⋤/⋩]";"[Atak na cele naziemne ⋤/⋩]";"[Ground Strike ⋤/⋩]";"[Kara Saldırısı ⋤/⋩]";"[Nálet ⋤/⋩]";"[Χτύπημα εδάφους ⋤/⋩]";"[Serangan Darat ⋤/⋩]";"[จู่โจมภาคพื้นดิน ⋤/⋩]";"[지상 공격 ⋤/⋩]";"【对\t地\t攻\t击 ⋤\t/\t⋩\t】";"[地上攻撃 ⋤/⋩]";"【對\t地\t攻\t擊 ⋤\t/\t⋩\t】";;
+"missions/_GS/heavy_tank";"[Ground Strike ⋣]";"[Attaque au sol ⋣]";"[Attacco al suolo ⋣]";"[Bodenangriff ⋣]";"[Ataque a Tierra ⋣]";"[Штурмовка ⋣]";"[Штурмування ⋣]";"[Atak na cele naziemne ⋣]";"[Ground Strike ⋣]";"[Kara Saldırısı ⋣]";"[Nálet ⋣]";"[Χτύπημα εδάφους ⋣]";"[Serangan Darat ⋣]";"[จู่โจมภาคพื้นดิน ⋣]";"[지상 공격 ⋣]";"【对\t地\t攻\t击 ⋣\t】";"[地上攻撃 ⋣]";"【對\t地\t攻\t擊 ⋣\t】";;
+"missions/_GS/heavy_tank_ship";"[Ground Strike ⋣/⋩]";"[Attaque au sol ⋣/⋩]";"[Attacco al suolo ⋣/⋩]";"[Bodenangriff ⋣/⋩]";"[Ataque a Tierra ⋣/⋩]";"[Штурмовка ⋣/⋩]";"[Штурмування ⋣/⋩]";"[Atak na cele naziemne ⋣/⋩]";"[Ground Strike ⋣/⋩]";"[Kara Saldırısı ⋣/⋩]";"[Nálet ⋣/⋩]";"[Χτύπημα εδάφους ⋣/⋩]";"[Serangan Darat ⋣/⋩]";"[จู่โจมภาคพื้นดิน ⋣/⋩]";"[지상 공격 ⋣/⋩]";"【对\t地\t攻\t击 ⋣\t/\t⋩\t】";"[地上攻撃 ⋣/⋩]";"【對\t地\t攻\t擊 ⋣\t/\t⋩\t】";;
+"missions/_GS/ship";"[Ground Strike ⋩]";"[Attaque au sol ⋩]";"[Attacco al suolo ⋩]";"[Bodenangriff ⋩]";"[Ataque a Tierra ⋩]";"[Штурмовка ⋩]";"[Штурмування ⋩]";"[Atak na cele naziemne ⋩]";"[Ataque ao solo ⋩]";"[Kara Saldırısı ⋩]";"[Nálet ⋩]";"[Χτύπημα εδάφους ⋩]";"[Serangan Darat ⋩]";"[จู่โจมภาคพื้นดิน ⋩]";"[지상 공격 ⋩]";"【对\t地\t攻\t击 ⋩\t】";"[地上攻撃 ⋩]";"【對\t地\t攻\t擊 ⋩\t】";;
+"missions/_GS/desc";"In [Ground Strike] mode, teams should destroy indicated targets and fulfil other tasks in order to win. Every destroyed unit affects the result!";"Dans le mode [Attaque au sol], les équipes devront détruire les cibles indiquées et compléter les tâches afin de gagner. Chaque unité détruite affecte le résultat!";"In modalità [Attacco al suolo] le squadre devono distruggere i bersagli indicati e soddisfare le altre missioni per vincere.Ciascuna unità distrutta influisce sul risultato!";"Im Modus [Bodenangriff] sollten Teams angezeigte Ziele zerstören und andere Aufgaben erfüllen, um zu gewinnen. Jede zerstörte Einheit beeinflusst das Ergebnis!";"En el modo [Ataque a Tierra] los equipos deben destruir los objetivos indicados y completar otras tareas para ganar. Cada unidad destruida afecta el resultado.";"В режиме [Штурмовка] команды должны уничтожать отмеченные цели и выполнять сопутствующие задания для достижения победы. Каждая уничтоженная единица техники влияет на результат!";"У режимі [Штурмування] команди повинні знищувати зазначені цілі і виконувати супутні завдання для досягнення перемоги. Кожна знищена одиниця техніки впливає на результат!";"W misji [Atak na Cele Naziemne] celem jest zniszczenie wskazanych celów oraz wypełnienie pozostałych zadań. Liczy się każda zniszczona jednostka!";"In [Ground Strike] mode, teams should destroy indicated targets and fulfil other tasks in order to win. Every destroyed unit affects the result!";"[Kara Saldırısı] modunda takımlar kazanmak için belirtilmiş hedefleri yok etmeli ve diğer görevleri de tamamlamalıdır. Her yok edilen birim sonucu etkiler!";"V režimu [Nálet] musí týmy zničit určené cíle a splnit další úkoly, aby vyhrály. Každá zničená jednotka ovlivňuje výsledek!";"Στη λειτουργία [Χτύπημα εδάφους], οι ομάδες πρέπει να καταστρέψουν τους στόχους που υποδεικνύονται και να ολοκληρώσουν κι άλλες αποστολές για να κερδίσουν. Κάθε μονάδα που καταστρέφεται επηρεάζει το αποτέλεσμα!";"Dalam mode [Serangan Darat], tim harus menghancurkan target yang ditunjukkan dan memenuhi berbagai tugas lain untuk menang. Setiap unit yang dihancurkan akan memengaruhi hasil!";"ในโหมด [จู่โจมภาคพื้นดิน] แต่ละทีมจะต้องทำลายเป้าหมายที่ระบุและทำงานอีกอย่างหนึ่งให้สำเร็จเพื่อคว้าชัยชนะ พาหนะที่ถูกทำลายทั้งหมดจะส่งผลต่อผลลัพธ์!";"[지상 공격] 모드에서, 팀들은 지정된 목표를 격파하고 다른 임무를 완료해야 승리할 수 있다. 모든 파괴한 적은 결과에 영향을 미칩니다!";"在\t【对\t地\t攻\t击\t】\t模\t式\t中，\t玩\t家\t必\t须\t摧\t毁\t敌\t军\t的\t地\t面\t目\t标，\t并\t完\t成\t一\t系\t列\t任\t务\t才\t能\t获\t胜。\t你\t所\t摧\t毁\t的\t每\t一\t个\t单\t位\t都\t将\t影\t响\t战\t争\t进\t程！";"[地上攻撃]モードでは、\tチームの\t勝利のために\t指定された\tターゲットの\t破壊や\t他の\tタスクを\t実行する\t必要があります。\t 破壊された\tユニットの\t数が\t勝敗に\t影響します！";"在\t【對\t地\t攻\t擊\t】\t模\t式\t中，\t玩\t家\t必\t須\t摧\t毀\t敵\t軍\t的\t地\t面\t目\t標，\t並\t完\t成\t一\t系\t列\t任\t務\t才\t能\t獲\t勝。\t你\t所\t摧\t毀\t的\t每\t一\t個\t單\t位\t都\t將\t影\t響\t戰\t爭\t進\t程！";;
+"missions/_NTdm_WTM";"[┚ Encounter]";"[┚ Encounter]";"[┚ Scontro]";"[┚ Zusammenstoß]";"[┚ Encuentro]";"[┚ Столкновение]";"[┚ Зіткнення]";"[┚ Starcie]";"[┚ Encontro]";"[┚ Karşılaşma]";"[┚ Střetnutí]";"[┚ Συμπλοκή]";"[┚ Konfrontasi]";"[เผชิญหน้า ┚]";"[┚조우전]";"【┚ 海\t上\t交\t锋\t】";"[┚ 会戦]";"【┚ 海\t上\t交\t鋒\t】";;
+"missions/_NTdm_WTM/desc";"
+
+In [┚ Encounter] teams must destroy the enemy fleet.
+
+Fleet objectives:
+- Destroy the enemy fleet.";"
+
+En [┚ Encounter], les équipes doivent détruire la flotte ennemie.";"
+
+In modalità [┚ Scontro] le squadre devono affondare la flotta nemica.
+
+Obbiettivi della flotta:
+- Affonda la flotta nemica.";"
+
+In [┚ Zusammenstoß] müssen Teams die feindliche Flotte zerstören.
+
+Flottenziele:
+- Zerstöre die feindliche Flotte.";"
+
+En [┚ Encuentro] los equipos deben destruir la flota enemiga.
+
+Objetivos de la flota:
+- Destruir la flota enemiga.";"
+
+В режиме [┚ Столкновение] команды должны уничтожить вражеский флот.
+
+Задачи флота:
+- Уничтожить вражеский флот";"
+
+У режимі [┚ Зіткнення] команди повинні знищити ворожий флот.
+
+Завдання флоту:
+— Знищити ворожий флот.";"
+
+W [┚ Starciu] drużyny muszą zniszczyć flotę wroga.
+
+Cele floty:
+- Zniszcz flotę wroga.";"
+
+Em [┚ Encontro] as equipes têm de destruir a armada inimiga.
+
+Objetivos da armada:
+- Destruir a armada inimiga.";"
+
+[┚ Karşılaşma] modunda takımlar düşman filosunu imha etmelidir.
+
+Filo görevleri:
+- Düşman filosunu imha et.";"
+
+Ve režimu [┚ Střetnutí] musí týmy zničit nepřátelskou flotilu.
+
+Cíle flotily:
+- Znič nepřátelskou flotilu.";"
+
+Στη [┚ Συμπλοκή] οι ομάδες πρέπει να καταστρέψουν τον εχθρικό στόλο.
+
+Στόχοι στόλου:
+- Καταστρέψτε τον εχθρικό στόλο.";"
+
+Dalam [┚ Konfrontasi], tim harus menghancurkan armada musuh.
+
+Target armada:
+- Menghancurkan armada musuh.";"
+
+ใน [เผชิญหน้า ┚] แต่ละทีมจะต้องทำลายกองเรือศัตรู
+
+ภารกิจกองเรือ:
+- ทำลายกองเรือศัตรู";"
+
+[┚ 조우전] 에서 각 편은 적 함대를 격파해야 합니다.
+
+해군 목표:
+- 적 함대를 섬멸하라.";"
+
+在\t【┚ 海\t上\t交\t锋\t】\t模\t式\t中，\t玩\t家\t必\t须\t摧\t毁\t敌\t军\t舰\t队，\t消\t灭\t对\t方\t的\t有\t生\t力\t量。 
+
+任\t务\t目\t标： 
+• 摧\t毁\t敌\t方\t舰\t队";"
+
+[┚ 会戦] モードでは、\tチームは\t敵艦隊を\t撃破しなければなりません。\t
+
+艦隊の\t目標：\t
+- 敵艦隊を\t撃破する。";"
+
+在\t【┚ 海\t上\t交\t鋒\t】\t模\t式\t中，\t玩\t家\t必\t須\t摧\t毀\t敵\t軍\t艦\t隊，\t消\t滅\t對\t方\t的\t有\t生\t力\t量。
+
+任\t務\t目\t標：
+• 摧\t毀\t敵\t方\t艦\t隊";;
+"missions/BR";"[Battle Royale]";"[Battle Royale]";"[Battle Royale]";"[Battle Royale]";"[Battle Royale]";"[Королевская битва]";"[Королівська битва]";"[Battle Royale]";"[Battle Royale]";"[Battle Royale]";"[Battle Royale]";"[Battle Royale]";"[Battle Royale]";"[Battle Royale]";"[배틀 로얄]";"【大\t逃\t杀\t】";"[バトル・ロイヤル]";"【大\t逃\t殺\t】";;
+"missions/BR/desc";"Battle Royale is a variation of the ""free for all"" game mode. There are no respawns available in ""Battle Royale"", and the battle area shrinks over time.
+There can be only one!";"Le mode ""Battle Royale"" est une variante du mode ""Chacun pour soi"". Il n'y a aucune réapparition disponible en ""Battle Royale"", et la zone de combat rétrécit au fil du temps.
+Il ne peut en rester qu'un !";"La Battle Royale è una variante della ""Per Tutti"". Non vi sono rigenerazioni disponibili nella ""Battle Royale"" e l'area di combattimento si restringe col passare del tempo.
+Ci potrà essere un solo vincitore!";"'Battle Royal' ist eine abgewandelte Form des Spielmodus 'Jeder gegen Jeden'. In diesem Deathmatch sind keine Wiedereinstiege möglich und das Schlachtfeld wird schrittweise kleiner.
+Es kann nur einen geben!";"Battle Royale es una variación del modo de juego ""todos contra todos"". En ""Battle Royale"" no hay reapariciones, y el área de batalla se reduce con el tiempo.
+¡Sólo puede haber uno!";"Королевская битва - вариация режима игры ""все против всех"". Основными особенностями режима являются уменьшающаяся со временем боевая зона и отсутствие возрождений.
+В конце должен остаться только один!";"Королівська битва — варіація ігрового режиму «всі проти всіх». Основними особливостями режиму є бойова зона, яка постійно зменшується, і відсутність відроджень.
+Залишитися має тільки один!";"Battle Royale jest odmianą trybu „Każdy na każdego”. Nie ma dostępnych odrodzeń, a obszar bitwy zmniejsza się wraz z upływem czasu.
+Zwycięzca może być tylko jeden!";"Battle Royale é uma variação do modo de jogo ""free for all"". No ""Battle Royale"", não estão disponíveis respawns e a área de batalha vai encolhendo ao longo do tempo.
+Só um pode vencer!";"Battle Royale, ""herkes tek"" oyun modunun bir çeşididir. ""Battle Royale"" modunda yeniden doğma kullanılamaz ve savaş alanı gittikçe daralır.
+Sadece bir kişi ayakta kalacak!";"Battle Royale je variantou módu Všichni proti všem. Nejsou v ní žádná dodatečná nasazení a bitevní oblast se s postupujícím časem zmenšuje. Přežít může jen jeden!";"Battle Royale is a variation of the ""free for all"" game mode. There are no respawns available in ""Battle Royale"", and the battle area shrinks over time.
+There can be only one!";"Battle Royale adalah variasi dari mode game ""bebas untuk semua"". Tidak ada respawn yang tersedia dalam ""Battle Royale"", dan area pertempuran menyusut seiring waktu.
+Hanya ada satu pemenang!";"Battle Royale is a variation of the ""free for all"" game mode. There are no respawns available in ""Battle Royale"", and the battle area shrinks over time.
+There can be only one!";"배틀 로얄은 ""자유 전투"" 모드의 변형입니다. 배틀 로얄 모드에선 리스폰이 불가능하며 시간이 지날수록 전투지역이 줄어듭니다.
+오직 한 사람만이 남습니다!";"【大\t逃\t杀\t】\t是\t一\t种\t特\t别\t的\t死\t亡\t竞\t赛\t模\t式。\t在\t【大\t逃\t杀\t】\t模\t式\t中，\t玩\t家\t无\t法\t重\t生，\t且\t战\t斗\t区\t域\t会\t随\t时\t间\t推\t移\t逐\t渐\t缩\t小。
+
+在\t这\t里，\t只\t有\t唯\t一\t一\t人\t能\t成\t为\t最\t终\t赢\t家！";"バトル・ロイヤルは、\t「デスマッチ\t形式」\tの\tゲームモードの\t一種です。\t「バトル・ロイヤル」\tでは\tリスポーンはなく、\t戦闘\tエリアは\t時間とともに\t縮小していきます。\t
+最後に\t生き\t残るのは、\tただ\t一人！";"【大\t逃\t殺\t】\t是\t一\t種\t特\t別\t的\t免\t費\t死\t鬥\t模\t式。\t在\t【大\t逃\t殺\t】\t模\t式\t中，\t玩\t家\t無\t法\t重\t生，\t且\t戰\t鬥\t區\t域\t會\t隨\t時\t間\t推\t移\t逐\t漸\t縮\t小。
+
+在\t這\t裡，\t只\t有\t唯\t一\t一\t人\t能\t成\t為\t最\t終\t贏\t家！";;
+"missions/_v1_race_straight";"[#1]";"[#1]";"[#1]";"[#1]";"[#1]";"[#1]";"[#1]";"[#1]";"[#1]";"[#1]";"[#1]";"[#1]";"[#1]";"[#1]";"[#1]";"【一\t号\t赛\t道\t】";"[#1]";"【一\t號\t賽\t道\t】";;
+"missions/_v1_race_inverted";"[Reversed #1]";"[Inversé #1]";"[#1 Invertita]";"[Umgekehrte #1]";"[Invertida #1]";"[Обратный #1]";"[Зворотний #1]";"[Odwrócony #1]";"[Invertida #1]";"[Tersten #1]";"[Obrácený #1]";"[Reversed #1]";"[Terbalik #1]";"[Reversed #1]";"[리버스 #1]";"【一\t号\t赛\t道 • 反\t向\t】";"[逆走 #1]";"【一\t號\t賽\t道 • 反\t向\t】";;
+"missions/_v2_race_straight";"[#2]";"[#2]";"[#2]";"[#2]";"[#2]";"[#2]";"[#2]";"[#2]";"[#2]";"[#2]";"[#2]";"[#2]";"[#2]";"[#2]";"[#2]";"【二\t号\t赛\t道\t】";"[#2]";"【二\t號\t賽\t道\t】";;
+"missions/_v2_race_inverted";"[Reversed #2]";"[Inversé #2]";"[#2 Invertita]";"[Umgekehrte #2]";"[Invertida #2]";"[Обратный #2]";"[Зворотний #2]";"[Odwrócony #2]";"[Invertida #2]";"[Tersten #2]";"[Obrácený #2]";"[Reversed #2]";"[Terbalik #2]";"[Reversed #2]";"[리버스 #2]";"【二\t号\t赛\t道 • 反\t向\t】";"[逆走 #2]";"【二\t號\t賽\t道 • 反\t向\t】";;
+"missions/_v1_race_straight/desc";"Track 1, default";"Circuit 1, défaut";"Tracciato 1, normale";"Strecke 1, standard";"Pista 1, por defecto";"Трасса 1, стандартный маршрут";"Траса 1, звичайний маршрут";"Trasa 1, domyślna";"Pista 1, predefinida";"Parkur 1, varsayılan";"Trať 1, standardní";"Track 1, default";"Lintasan 1, standar";"Track 1, default";"트랙 1, 기본 방향";"赛\t道\t一，\t默\t认\t方\t向";"トラック\t1、\tデフォルト";"賽\t道\t一，\t默\t認\t方\t向";;
+"missions/_v1_race_inverted/desc";"Track 1, reversed";"Circuit 1, inversé";"Tracciato 1, inverso";"Strecke 1, umgekehrt";"Pista 1, invertida";"Трасса 1, обратный маршрут";"Траса 1, зворотний маршрут";"Trasa 1, odwrócona";"Pista 1, invertida";"Parkur 1, ters";"Trať 1, protisměr";"Track 1, reversed";"Lintasan 1, terbalik";"Track 1, reversed";"트랙 1, 반대 방향";"赛\t道\t一，\t反\t方\t向";"トラック\t1、\t逆走";"賽\t道\t一，\t反\t方\t向";;
+"missions/_v2_race_straight/desc";"Track 2, default";"Circuit 2, défaut";"Tracciato 2, normale";"Strecke 2, standard";"Pista 2, por defecto";"Трасса 2, стандартный маршрут";"Траса 2, звичайний маршрут";"Trasa 2, domyślna";"Pista 2, predefinida";"Parkur 2, varsayılan";"Trať 2, standardní";"Track 2, default";"Lintasan 2, standar";"Track 2, default";"트랙 2, 기본 방향";"赛\t道\t二，\t默\t认\t方\t向";"トラック\t2、\tデフォルト";"賽\t道\t二，\t默\t認\t方\t向";;
+"missions/_v2_race_inverted/desc";"Track 2, reversed";"Circuit 2, inversé";"Tracciato 2, inverso";"Strecke 2, umgekehrt";"Pista 2, invertida";"Трасса 2, обратный маршрут";"Траса 2, зворотний маршрут";"Trasa 2, odwrócona";"Pista 2, invertida";"Parkur 2, ters";"Trať 2, protisměr";"Track 2, reversed";"Lintasan 2, terbalik";"Track 2, reversed";"트랙 2, 반대 방향";"赛\t道\t二，\t反\t方\t向";"トラック\t2、\t逆走";"賽\t道\t二，\t反\t方\t向";;
+"MODES_LANG_KEEP_IT_ALWAYS_FIRST";;;;;;;;;;;;;;;;;;;"";
