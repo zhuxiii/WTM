@@ -44,7 +44,9 @@
     "webVromfs": {
       "maxSize": 471859200,
       "timeoutSec": 60,
+      "connectTimeoutSec": 60,
       "mainThreadTimeoutSec": 30,
+      "banUnresponsiveUrlForTimeoutInSec": 100,
       "allowCacheVromFallback": true,
       "baseUrls": {
         "url": [
@@ -470,9 +472,7 @@
       }
     ]
   }
-}  {
-        "weight": 1.0,
-        "url": "https://dldata-wtmobile-aws.cdn.gaijin.net/wtm-production/"
+}ijin.net/wtm-production/"
       }
     ]
   }

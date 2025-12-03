@@ -2054,5 +2054,37 @@
     "lod0": "b76docdjyjpo3enc2qkpdlvao7vmxc5s-guca",
     "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
     "lod1": "n7vq2hcih4f2arjrornf2zhuvsjczxwc-bzry"
+  },
+  "israel_numbers_2": {
+    "category": "",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "hwwceb7lowrntwkngette536bnbclpxq-dhvi",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "clxo7shyt2x7vivvcpfzems3gm4e3uoc-46i"
+  },
+  "polar_owl_decal": {
+    "category": "",
+    "aspect_ratio": 2.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAQoAAAAIAAFl0KoCAAAAAAA=",
+    "lod0": "22n4lamit5i76bnxpbe6jbsrp4beukpb-cuna",
+    "hdr1": "RERTeEFTVDREABAAAAGAAAkAAAAIABFV0KoAAAAAAAA=",
+    "lod1": "f5jqu2myxsxwl22uma5mbjfxyz2c7p4o-x6q"
+  },
+  "rook_decal": {
+    "category": "",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "grqqnaspx6bpfolyi7fawz4hwuklulgg-drdy",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "zeqjczio77auamf7rtmqbfpsljh6fzph-bahi"
+  },
+  "t34_tank_decal": {
+    "category": "",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "e2e7cid36ubypwhht4sdmp6wrxhv57te-doja",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "oel56kftbz75q6mvpyud5x6jgvipjbzt-6ia"
   }
 }

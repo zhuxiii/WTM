@@ -463,13 +463,13 @@
           "auxiliary_caliber_turret_08_dm"
         ],
         "onHit": {
-          "damageType": "generic",
-          "damage": 100.0,
+          "damageType": "explosion",
+          "damage": 500.0,
           "fire": 0.05,
           "action": {
             "type": "fxEvent",
             "probability": 0.6,
-            "fxEventName": "fire_after_hit_big"
+            "fxEventName": "fire_after_hit_huge"
           },
           "moduleStatusEffect": {
             "name": "shotFreqMult",
@@ -480,35 +480,14 @@
       {
         "name": [
           "elevator_01_dm",
-          "elevator_02_dm",
-          "elevator_03_dm"
-        ],
-        "onHit": {
-          "damageType": "generic",
-          "damage": 100.0,
-          "moduleStatusEffect": {
-            "name": "shotFreqMult2",
-            "prob": 1.0,
-            "parts": {
-              "part": [
-                "main_caliber_turret_01_dm",
-                "main_caliber_turret_02_dm"
-              ]
-            }
-          }
-        }
-      },
-      {
-        "name": [
-          "elevator_01_dm",
           "elevator_02_dm"
         ],
         "onHit": {
           "damageType": "generic",
-          "damage": 100.0,
+          "damage": 500.0,
           "moduleStatusEffect": {
             "name": "shotFreqMult2",
-            "prob": 1.0,
+            "prob": 0.33,
             "parts": {
               "part": [
                 "main_caliber_turret_01_dm",
@@ -522,10 +501,10 @@
         "name": "elevator_03_dm",
         "onHit": {
           "damageType": "generic",
-          "damage": 100.0,
+          "damage": 500.0,
           "moduleStatusEffect": {
             "name": "shotFreqMult2",
-            "prob": 1.0,
+            "prob": 0.33,
             "parts": {
               "part": "main_caliber_turret_03_dm"
             }
@@ -545,30 +524,23 @@
           "fire_director_06_dm",
           "fire_director_07_dm"
         ],
-        "onHit": [
-          {
-            "damageType": "explosion",
-            "damage": 500.0,
-            "fire": 0.05,
-            "action": {
-              "type": "fxEvent",
-              "probability": 0.6,
-              "fxEventName": "fire_after_hit_big"
-            }
-          },
-          {
-            "damageType": "generic",
-            "damage": 100.0,
-            "fire": 0.05
+        "onHit": {
+          "damageType": "explosion",
+          "fire": 0.07,
+          "damage": 750.0,
+          "action": {
+            "type": "fxEvent",
+            "probability": 0.6,
+            "fxEventName": "fire_after_hit_huge"
           }
-        ]
+        }
       },
       {
         "name": "bridge_dm",
         "onHit": [
           {
             "damageType": "generic",
-            "damage": 100.0,
+            "damage": 700.0,
             "action": {
               "type": "fxEvent",
               "probability": 0.6,
@@ -596,7 +568,7 @@
         "onHit": [
           {
             "damageType": "explosionTorpedo",
-            "damage": 100.0,
+            "damage": 500.0,
             "moduleStatusEffect": {
               "name": "moveControl",
               "prob": 1.0
@@ -604,7 +576,7 @@
           },
           {
             "damageType": "explosionTorpedo",
-            "damage": 500.0,
+            "damage": 2000.0,
             "moduleStatusEffect": {
               "name": "moveControl",
               "prob": 1.0
@@ -617,32 +589,25 @@
           "tt_01_dm",
           "tt_02_dm"
         ],
-        "onHit": [
-          {
-            "damage": 100.0,
-            "damageType": "generic",
-            "isSingleAction": false,
-            "moduleStatusEffect": {
-              "name": "shotFreqMult",
-              "prob": 1.0
-            },
-            "action": {
-              "type": "forcedExplosion",
-              "probability": 0.5,
-              "damage": 2000.0,
-              "damageType": "explosion",
-              "fxEvent": "ammo_expl",
-              "parts": {
-                "part": "compartment_05_dm"
-              }
-            }
+        "onHit": {
+          "damage": 900.0,
+          "damageType": "explosion",
+          "isSingleAction": false,
+          "moduleStatusEffect": {
+            "name": "shotFreqMult",
+            "prob": 1.0
           },
-          {
+          "action": {
+            "type": "forcedExplosion",
+            "probability": 0.01,
+            "damage": 2000.0,
             "damageType": "explosion",
-            "damage": 500.0,
-            "fire": 0.05
+            "fxEvent": "ammo_expl",
+            "parts": {
+              "part": "compartment_05_dm"
+            }
           }
-        ]
+        }
       },
       {
         "name": "funnel_01_dm",
@@ -658,8 +623,8 @@
       {
         "name": "engine_room_01_dm",
         "onHit": {
-          "damageType": "explosion",
-          "damage": 500.0,
+          "damageType": "generic",
+          "damage": 300.0,
           "moduleStatusEffect": {
             "name": "throttleBlock",
             "prob": 1.0
@@ -873,7 +838,7 @@
       40.0,
       -150.0
     ],
-    "detectionHeight": 50.0
+    "detectionHeight": 40.0
   },
   "optics": {
     "binoculars": "navy_binoculars"
@@ -14476,6 +14441,53 @@
       {
         "part": "compartment_02_dm",
         "weight": 1.0,
+        "maxWaterAlive": 0.6
+      },
+      {
+        "part": "compartment_03_dm",
+        "weight": 1.0,
+        "maxWaterAlive": 0.6
+      }
+    ]
+  },
+  "winch": {
+    "length": 250.0
+  },
+  "smokeWall": {
+    "distance": 450.0,
+    "speed": 350.0,
+    "height": 20.0,
+    "length": 450.0,
+    "fxOffset": 65.0
+  },
+  "difficulty": {
+    "arcade": {
+      "shipRudderAreaMult": 1.0,
+      "tankRearmOnCaptureZone": true
+    }
+  },
+  "battleHideNodes": {
+    "n": [
+      "portholes",
+      "details"
+    ]
+  },
+  "default_skin": {
+    "name": "prem_camo",
+    "replace_tex": {
+      "from": "camo_hellgrau_50*",
+      "to": "camo_threegray_spots*"
+    }
+  },
+  "vehicleSkins": {
+    "factory": {
+      "replace_tex": {
+        "from": "camo_threegray_spots*",
+        "to": "camo_hellgrau_50*"
+      }
+    }
+  }
+},
         "maxWaterAlive": 0.6
       },
       {

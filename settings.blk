@@ -2487,7 +2487,7 @@
     }
   },
   "metal": {
-    "enable_manual_hazard_tracking": false,
+    "enable_manual_hazard_tracking": true,
     "enable_postmortem": true
   },
   "win64": {
@@ -2526,7 +2526,7 @@
   "stcode": {
     "tag": "$version"
   }
-}  "tag": "$version"
+}}  "tag": "$version"
   }
 }      }
       },

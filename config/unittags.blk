@@ -35554,6 +35554,76 @@
     },
     "bullets": {}
   },
+  "go229_v3": {
+    "type": "aircraft",
+    "hangar_place": "aircraft",
+    "info": {
+      "engine1_dm": {
+        "manufacturer": "junkers",
+        "model": "jumo004d",
+        "mass": 750.0
+      },
+      "engine2_dm": {
+        "manufacturer": "junkers",
+        "model": "jumo004d",
+        "mass": 750.0
+      },
+      "tanks_params": {
+        "protected": true
+      }
+    },
+    "tags": {
+      "axis": true,
+      "country_germany": true,
+      "type_fighter": true,
+      "type_jet_fighter": true,
+      "berlin": true,
+      "western_front": true,
+      "eastern_front": true,
+      "air": true
+    },
+    "Shop": {
+      "maxAltitude": 12000.0,
+      "maxSpeed": 252.77,
+      "turnTime": 24.0,
+      "airfieldLen": 850.0,
+      "climbTime": 375.0,
+      "maxSpeedAlt": 8000.0,
+      "climbAlt": 6000.0,
+      "climbSpeed": 21.0,
+      "wingLoading": 151.0,
+      "thrustToWeightRatio": 0.14,
+      "rollRate": 70.0,
+      "pilotsCount": 1,
+      "gunnersCount": 0,
+      "pylonCount": 0,
+      "massPerSec": 5.36222,
+      "weapons": {
+        "cannonMK103_underwing_go229": {
+          "type": "cannon",
+          "gunsCount": 2,
+          "ammoCount": 340,
+          "shotFreq": 6.33333
+        }
+      }
+    },
+    "bullets": {
+      "cannonMK103_underwing_go229": {
+        "default": {
+          "icon": "he_i_t_mine/i/ap_i/"
+        },
+        "mk_103_armor_targets": {
+          "icon": "apcr_t/i/apcr_t/ap_i/"
+        },
+        "mk_103_air_targets": {
+          "icon": "he_i_t_mine/he_i_mine/he_i_mine/i/"
+        },
+        "mk_103_stealth": {
+          "icon": "ap_i/"
+        }
+      }
+    }
+  },
   "germ_cruiser_admiral_hipper": {
     "type": "ship",
     "hangar_place": "ship",
@@ -46679,6 +46749,61 @@
           "caliber": 533.0,
           "ammoCount": 20,
           "isBeltAmmo": false
+        }
+      }
+    },
+    "bullets": {}
+  },
+  "us_battleship_south_dakota": {
+    "type": "ship",
+    "hangar_place": "ship",
+    "testFlight": "testFlight_destroyer_usa_tfs",
+    "crewTotalCount": 2608,
+    "tierGroup": 8,
+    "tags": {
+      "country_usa": true,
+      "type_battleship": true,
+      "ship": true
+    },
+    "Shop": {
+      "shipCrewMax": 2500,
+      "shipCrewMin": 390,
+      "shipCrewRating": 4.14879,
+      "maxSpeed": 14.16,
+      "turningTime": 32,
+      "supportPlane": "os2u_1_naval",
+      "supportPlaneCount": 3,
+      "mainWeaponCaliber": 406.0,
+      "weapons": {
+        "406mm_45_mk6_naval_user_cannon": {
+          "wtype": "mainCannon",
+          "damage": 3000.0,
+          "shotFreq": 0.077,
+          "gunsCount": 9,
+          "caliber": 406.0,
+          "ammoCount": 1800,
+          "isBeltAmmo": false
+        },
+        "127mm_38_mk12_turret_mk28_twin_naval_user_cannon": {
+          "wtype": "auxCannon",
+          "damage": 450.0,
+          "shotFreq": 0.25,
+          "gunsCount": 8,
+          "gunsTotalCount": 16,
+          "gunsMult": 0.5,
+          "caliber": 127.0,
+          "ammoCount": 5760,
+          "isBeltAmmo": false
+        },
+        "40mm_l60_bofors_mk2_quad_naval_user_cannon_aaa": {
+          "wtype": "aaa",
+          "damage": 28.0,
+          "shotFreq": 2.6,
+          "aimMaxDist": 3500.0,
+          "gunsCount": 34,
+          "caliber": 40.0,
+          "ammoCount": 68000,
+          "isBeltAmmo": true
         }
       }
     },
@@ -91467,198 +91592,73 @@
         }
       }
     }
-  }
-}         "armorPower": 23.3753,
-          "reloadTime": 0.104167,
-          "gunnerTurretRotationSpeed": 90.0,
-          "isBeltAmmo": true
-        }
-      }
-    },
-    "bullets": {
-      "90mm_M3_user_cannon": {
-        "default": {
-          "icon": "hud_ammo_ap2_he0"
-        },
-        "90mm_us_M71_HE": {
-          "isHE": true,
-          "icon": "hud_ammo_he"
-        },
-        "90mm_us_M313_Smoke": {
-          "reqModification": "tank_smoke_screen_smoke_shell",
-          "maxCount": 2
-        },
-        "90mm_us_M82_APCBC": {
-          "icon": "hud_ammo_ap1_he1",
-          "reqLevel": 4
-        }
-      }
-    }
   },
-  "us_t28_prem": {
-    "type": "tank",
-    "hangar_place": "tank",
-    "testFlight": "testFlight_ussr_tft",
-    "tags": {
-      "country_usa": true,
-      "tank": true,
-      "type_tank_destroyer": true
-    },
-    "Shop": {
-      "mainWeaponCaliber": 105.0,
-      "armorThicknessFront": [
-        0.95,
-        0.05,
-        0.0
-      ],
-      "armorThicknessSide": [
-        0.25,
-        0.15,
-        0.6
-      ],
-      "crew": 4,
-      "mass": 59420.0,
-      "maxSpeedForward": 3.55655,
-      "maxSpeedBackward": 1.14788,
-      "powerToWeightRatio": 8.41468,
-      "weapons": {
-        "105mm_T15E2_user_cannon": {
-          "wtype": "mainCannon",
-          "caliber": 105.0,
-          "armorPower": 256.403,
-          "reloadTime": 15.3846,
-          "gunnerTurretRotationSpeed": 10.0,
-          "isBeltAmmo": false
-        },
-        "12_7mm_M2_HB_user_machinegun": {
-          "wtype": "machinegun",
-          "caliber": 12.7,
-          "armorPower": 23.3753,
-          "reloadTime": 0.104167,
-          "gunnerTurretRotationSpeed": 90.0,
-          "isBeltAmmo": true
-        }
-      }
-    },
-    "bullets": {
-      "105mm_T15E2_user_cannon": {
-        "default": {
-          "icon": "hud_ammo_ap2_he0"
-        },
-        "105mm_us_T30E1_HE": {
-          "isHE": true,
-          "icon": "hud_ammo_he"
-        },
-        "105mm_us_T13_APCBC": {
-          "icon": "hud_ammo_ap1_he1",
-          "reqLevel": 4
-        },
-        "105mm_us_T29E3_APCR": {
-          "icon": "hud_ammo_apcr",
-          "reqLevel": 8
-        }
-      }
-    }
-  },
-  "us_t54e2_prem": {
+  "fr_msc": {
     "type": "tank",
     "hangar_place": "tank",
     "testFlight": "testFlight_ERA_tft",
     "tags": {
-      "country_usa": true,
+      "country_france": true,
       "tank": true,
       "type_medium_tank": true
     },
-    "bullets": {
-      "105mm_t140e3_user_cannon": {
-        "default": {
-          "icon": "hud_ammo_ap1_he0"
-        },
-        "105mm_us_T279_APDS": {
-          "icon": "hud_ammo_apds"
-        },
-        "105mm_us_T298E1_HEAT": {
-          "icon": "hud_ammo_heat",
-          "reqLevel": 4
-        }
-      }
-    },
     "Shop": {
-      "mainWeaponCaliber": 105.0,
+      "mainWeaponCaliber": 120.0,
       "armorThicknessFront": [
         0.55,
         0.05,
         0.4
       ],
       "armorThicknessSide": [
-        0.2,
+        0.1,
         0.0,
-        0.8
+        0.9
       ],
-      "crew": 4,
-      "mass": 49400.0,
-      "maxSpeedForward": 12.0462,
-      "maxSpeedBackward": 2.34666,
-      "powerToWeightRatio": 16.3968,
+      "crew": 3,
+      "mass": 53900.0,
+      "maxSpeedForward": 19.5243,
+      "maxSpeedBackward": 10.5397,
+      "powerToWeightRatio": 27.8293,
       "weapons": {
-        "105mm_t140e3_user_cannon": {
+        "120mm_giat_cn120_26_f1_msc_user_cannon": {
           "wtype": "mainCannon",
-          "caliber": 105.0,
-          "armorPower": 266.821,
-          "reloadTime": 10.0,
-          "gunnerTurretRotationSpeed": 21.0,
+          "caliber": 120.0,
+          "armorPower": 480.0,
+          "reloadTime": 5.9988,
+          "autoLoader": true,
+          "gunnerTurretRotationSpeed": 40.0,
           "isBeltAmmo": false
         },
-        "7_62mm_M1919A4_user_machinegun": {
-          "wtype": "machinegun",
-          "caliber": 7.62,
-          "armorPower": 6.5,
-          "reloadTime": 0.120048,
-          "gunnerTurretRotationSpeed": 5.5,
-          "isBeltAmmo": true
-        },
-        "12_7mm_M2_HB_user_machinegun": {
+        "12_7mm_M2_HB_user_machinegun_for_leclerc": {
           "wtype": "machinegun",
           "caliber": 12.7,
           "armorPower": 23.3753,
-          "reloadTime": 0.104167,
+          "reloadTime": 0.104348,
           "gunnerTurretRotationSpeed": 30.0,
+          "isBeltAmmo": true
+        },
+        "7_62mm_AAN_F1_user_machinegun": {
+          "wtype": "machinegun",
+          "caliber": 7.62,
+          "armorPower": 6.5,
+          "reloadTime": 0.0666667,
+          "gunnerTurretRotationSpeed": 60.0,
           "isBeltAmmo": true
         }
       }
-    }
-  },
-  "us_xm1_chrysler_prem": {
-    "type": "tank",
-    "hangar_place": "tank",
-    "testFlight": "testFlight_ERA_tft",
-    "tags": {
-      "country_usa": true,
-      "tank": true,
-      "type_medium_tank": true
     },
-    "Shop": {
-      "mainWeaponCaliber": 105.0,
-      "armorThicknessFront": [
-        0.6,
-        0.05,
-        0.35
-      ],
-      "armorThicknessSide": [
-        0.05,
-        0.05,
-        0.9
-      ],
-      "crew": 4,
-      "mass": 52620.0,
-      "maxSpeedForward": 20.8744,
-      "maxSpeedBackward": 11.4926,
-      "powerToWeightRatio": 28.9054,
-      "weapons": {
-        "105mm_M68_XM_user_cannon": {
-          "wtype": "mainCannon",
-          "caliber": 105.0,
-          "armorPower": 258.0,
+    "bullets": {
+      "120mm_giat_cn120_26_f1_msc_user_cannon": {
+        "120mm_NATO_APDS_FS": {
+          "icon": "hud_ammo_apfsds"
+        },
+        "default": {
+          "icon": "hud_ammo_heat"
+        }
+      }
+    }
+  }
+} "armorPower": 258.0,
           "reloadTime": 6.66667,
           "gunnerTurretRotationSpeed": 36.0,
           "isBeltAmmo": false
