@@ -45,6 +45,7 @@
   "destroysRendInstances": true,
   "destroysTrees": true,
   "radarCanLockTargetFromTPV": false,
+  "guidanceAutoUnlockTime": 8.0,
   "radarAnimVar": "radar_drive",
   "radarAntenaSpeed": 720.0,
   "radarDeployTime": 3.525,
@@ -3237,9 +3238,7 @@
       "to": "rsa_camo_gray_earth_stone*"
     }
   }
-}
-        "turret": {
-          "head": "bone_commander_sight_h",
+}head": "bone_commander_sight_h",
           "gun": "bone_commander_sight_v",
           "gunnerDm": "commander_dm",
           "verDriveDm": "commander_panoramic_sight_dm",

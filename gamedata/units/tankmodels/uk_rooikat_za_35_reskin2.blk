@@ -45,6 +45,7 @@
   "destroysRendInstances": true,
   "destroysTrees": true,
   "radarCanLockTargetFromTPV": false,
+  "guidanceAutoUnlockTime": 8.0,
   "radarAnimVar": "radar_drive",
   "radarAntenaSpeed": 720.0,
   "radarDeployTime": 3.525,
@@ -3258,8 +3259,7 @@
       }
     }
   }
-}: {
-          "hasVerticalGunFreeMode": false,
+}eMode": false,
           "forceEnabled": true,
           "hasHorizontal": true,
           "horizontalOmegaMult": 1.0,

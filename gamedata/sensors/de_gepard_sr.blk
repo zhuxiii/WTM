@@ -6,7 +6,7 @@
       "power": 100.0,
       "band": 4,
       "rcs": 1.0,
-      "range": 16000.0,
+      "range": 5000.0,
       "rangeMax": 20000.0,
       "antenna": {
         "azimuth": {
@@ -68,7 +68,7 @@
   },
   "scopeRangeSets": {
     "search": {
-      "range1": 10000.0,
+      "range1": 5000.0,
       "range2": 20000.0
     }
   },
@@ -321,4 +321,5 @@
   "hideInAvailableModeNameIds": {
     "mode": "standby"
   }
+}
 }

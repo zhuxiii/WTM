@@ -6,7 +6,7 @@
       "power": 90.0,
       "band": 9,
       "rcs": 1.0,
-      "range": 15000.0,
+      "range": 5000.0,
       "rangeMax": 20000.0,
       "antenna": {
         "angleHalfSens": 1.5,
@@ -516,4 +516,4 @@
       }
     }
   }
-}
+}}

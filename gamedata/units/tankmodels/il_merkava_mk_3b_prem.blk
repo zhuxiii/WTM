@@ -73,6 +73,58 @@
       0.85
     ]
   },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
+    ]
+  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank_modern",
@@ -2080,7 +2132,7 @@
       ],
       "CenterOfGravityClampY": [
         0.0,
-        0.7
+        0.3
       ],
       "AdvancedMass": false,
       "trackMass": 2500.0
@@ -2092,6 +2144,12 @@
       "fricFrontal": [
         1.0,
         0.8
+      ],
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.1,
+        0.3
       ]
     },
     "collisionProps": {
@@ -2105,12 +2163,12 @@
       "minRPM": 700.0
     },
     "mechanics": {
-      "steerType": "clutch_braking",
       "maxBrakeForce": 300000.0,
       "driveGearRadius": 0.3,
       "mainGearRatio": 4.76,
       "sideGearRatio": 1.0,
       "neutralGearRatio": 9.04,
+      "alternativeGearControl": 2.0,
       "gearRatios": {
         "ratio": [
           -2.2,
@@ -3977,43 +4035,7 @@
       }
     }
   }
-}       -120.0,
-            120.0
-          ],
-          "pitch": [
-            -10.0,
-            50.0
-          ]
-        },
-        "limitsTable": {
-          "lim1": [
-            -120.0,
-            -115.0,
-            0.0,
-            50.0
-          ],
-          "lim2": [
-            -115.0,
-            -98.0,
-            -4.0,
-            50.0
-          ],
-          "lim3": [
-            -98.0,
-            -80.0,
-            2.0,
-            50.0
-          ],
-          "lim4": [
-            -80.0,
-            -63.0,
-            -2.0,
-            50.0
-          ],
-          "lim5": [
-            -63.0,
-            -30.0,
-            -10.0,
+}        -10.0,
             50.0
           ],
           "lim6": [

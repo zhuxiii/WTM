@@ -1885,8 +1885,7 @@
         "rocket_engine_2",
         "cannon_l",
         "cannon_r",
-        "no_cannon_l",
-        "no_cannon_r"
+        "no_cannon_l"
       ]
     },
     "HideDmParts": {
@@ -1902,10 +1901,7 @@
         "WeaponPreset": {
           "name": "default_common",
           "ShowNodes": {
-            "node": [
-              "cannon_l",
-              "no_cannon_r"
-            ]
+            "node": "cannon_l"
           },
           "Weapon": {
             "trigger": "cannon",
@@ -1930,6 +1926,18 @@
         "WeaponPreset": {
           "iconType": "gun_30mm",
           "name": "addition_cannon",
+          "HideNodes": {
+            "node": [
+              "no_cannon_l",
+              "no_cannon_r"
+            ]
+          },
+          "ShowNodes": {
+            "node": "cannon_r"
+          },
+          "ShowDmParts": {
+            "node": "cannon2_dm"
+          },
           "Weapon": {
             "trigger": "additional gun",
             "blk": "gameData/Weapons/cannonType5_external.blk",
@@ -2102,13 +2110,7 @@
       }
     ]
   }
-}s/jp_navy_mod80mark1_800kg.blk",
-              "emitter": "bomb_800",
-              "dm": "bomb_dm",
-              "bullets": 1,
-              "external": true
-            }
-          }
+}
         ]
       }
     ]

@@ -1,6 +1,6 @@
 {
   "back_02": {
-    "category": "",
+    "category": "common/roundels",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "ujnrrllfx7ulirhxwf6zx4sudn73u3fy-csry",
@@ -8,7 +8,7 @@
     "lod1": "54mzae7dkqizspv3ticnjolkxa7h6xio-4ii"
   },
   "back_03": {
-    "category": "",
+    "category": "common",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "jit27oysl4i6cr53bp4bglgev3jb54fj-d4ey",
@@ -16,7 +16,7 @@
     "lod1": "g3pa4rn3e5ya4bvqlar5kuscavp6frkd-bgcq"
   },
   "back_16": {
-    "category": "",
+    "category": "common/roundels",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "e2cypkk44jmyydh4j3lq4gxu2zv2z452-c2qq",
@@ -24,7 +24,7 @@
     "lod1": "g3vd4vwxfppyomfs4jf47vllw77vqmjk-7yy"
   },
   "back_19": {
-    "category": "",
+    "category": "common/roundels",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "5ppcmas55ny6a47sklcqtohg4rk5ezos-ckpq",
@@ -32,7 +32,7 @@
     "lod1": "33jhdsup6hv6k4zqvfp33rhxmswel7zh-yea"
   },
   "back_20": {
-    "category": "",
+    "category": "common/roundels",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "tvzthyvwi6x665wji4muwll42tql2xrv-cqei",
@@ -40,7 +40,7 @@
     "lod1": "y575pchhdjcqnlz3bqbgdu73va7ilbzg-3ei"
   },
   "back_27": {
-    "category": "",
+    "category": "common/roundels",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "odjeuxecuzoabldxm56mwbuzgcaor65p-e4ra",
@@ -48,7 +48,7 @@
     "lod1": "42ku2o3rkwogjapxx5y2lsozk7a4mtsh-boaq"
   },
   "canadian_tank_emblem_01": {
-    "category": "",
+    "category": "other_countries",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "rerfawjvpgv4xdojrvs5puqwml5gscbp-busi",
@@ -56,7 +56,7 @@
     "lod1": "obv66eq4ec535y4f4smee2fayrhukbqk-swy"
   },
   "ca_5th_armoured_division": {
-    "category": "",
+    "category": "other_countries",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "j32ofpjybujcinmwzcdpbkegu5ssfc2u-exei",
@@ -64,7 +64,7 @@
     "lod1": "il4qmc4tapjfue46yquwmbmjybmrlppm-bldy"
   },
   "china_numbers_0": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "i5mumgxqhsrqqoqy5ejnbvem4mei4wfx-yjq",
@@ -72,7 +72,7 @@
     "lod1": "mer2ycur7eth76xhdc3y34vzh5obhjce-iky"
   },
   "china_numbers_1": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "bklqzqvbywpdkzj4j5rizee6xnexqgao-kdq",
@@ -80,7 +80,7 @@
     "lod1": "qqyugrfkxnceqmi725inp5ro52lp53ib-doy"
   },
   "china_numbers_2": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "ucwajkmuuluzb4ossxcbbqsxl3cir7az-xka",
@@ -88,7 +88,7 @@
     "lod1": "zqlqhco3hshm455xpr5k5fe3s3rhiomg-hua"
   },
   "china_numbers_3": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "htkyreeuwmwqrqdpyhuzgiuwekgusadq-vmi",
@@ -96,7 +96,7 @@
     "lod1": "kg7rkfbuuys3gvvqx2lhqzhtzqzplfgb-hrq"
   },
   "china_numbers_6": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "gctzm7xbxrkrszuzzooq6fgd5xjt7oqo-25i",
@@ -104,7 +104,7 @@
     "lod1": "k34gl5dm4nqbzpnlo3tzceufbsxpvjk4-i6q"
   },
   "china_numbers_7": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "s3r7zrehbtrziiacgorhnxua5i5wkwum-qei",
@@ -112,7 +112,7 @@
     "lod1": "qed2b2fy6u5i4fqrjazs6r6pwywexv3g-frq"
   },
   "china_numbers_8": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "4fl2tnoto2rcf7foayr5r6ih7cdgd72n-yky",
@@ -120,7 +120,7 @@
     "lod1": "aet2hv3zt3qxm6cpj23fr5cw76n4ykts-iri"
   },
   "china_numbers_9": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "jsrzzn5xyuu2osw3dppdtsfmlntoodv4-xnq",
@@ -128,7 +128,7 @@
     "lod1": "y2ve5qe7ffw5y4omcyxbkilbxhzev2uw-imq"
   },
   "counters_16": {
-    "category": "",
+    "category": "common",
     "aspect_ratio": 4.0,
     "hdr0": "RERTeEFTVDREABAAAAKAAAoAAAAIAAFVkFUBAAAAAAA=",
     "lod0": "nirpyigvy64kognog74rrcj7jhft7zcw-ywy",
@@ -136,7 +136,7 @@
     "lod1": "3vtjjlrxk7uaklirmvxd7eufxyujxcuo-iqy"
   },
   "counters_25": {
-    "category": "",
+    "category": "common",
     "aspect_ratio": 4.0,
     "hdr0": "RERTeEFTVDREABAAAAKAAAoAAAAIAAFVkFUBAAAAAAA=",
     "lod0": "poawfzivrbdf7wkqt4zxz65zqcq6ptxi-ba5a",
@@ -144,7 +144,7 @@
     "lod1": "o5z4ftu6nkjlzznv6m2uekid2ybcx47g-kga"
   },
   "decal_215": {
-    "category": "",
+    "category": "other_countries",
     "aspect_ratio": 2.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAQoAAAAIAAFl0KoCAAAAAAA=",
     "lod0": "4w7zcw6g77g3qci2svwdfd2d46ysn3gv-cg3q",
@@ -152,7 +152,7 @@
     "lod1": "dvlfbvrkgis2uju75jamnalmq7x4k4jn-w7i"
   },
   "decal_402": {
-    "category": "",
+    "category": "other_countries",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "yvzie2ztnbsdqueodozc52sutmplzsa5-cjey",
@@ -160,7 +160,7 @@
     "lod1": "x2xxrpakq56464fz22jd6zaeblibhlk4-zda"
   },
   "de_flugabwehrregiment_2": {
-    "category": "",
+    "category": "germany",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "lmurhoqdqms3hmhw7rzo6huyz2o5lsce-ewxq",
@@ -168,7 +168,7 @@
     "lod1": "fhai4yzz2ukstma3le6p5thvkmwonddt-bnwq"
   },
   "elk_decal": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "43xfnrkgsebqxghbalp4q7pyas43ck2p-c55i",
@@ -176,7 +176,7 @@
     "lod1": "okkc4fgojnmx4ogclqfgezcvbmuqysyc-62y"
   },
   "fi_roundel_af_1945": {
-    "category": "",
+    "category": "common/roundels",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "r3jnskc75qg67e6krjhrkgk2bgd4iy3k-e3bi",
@@ -184,7 +184,7 @@
     "lod1": "zvscz7xsndziivvw4lyh5gr2vpltahim-bptq"
   },
   "flag_austria": {
-    "category": "",
+    "category": "un_flags",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "ijoe4hbmsy2n4ems3geoietm6nc6h3qh-bjxi",
@@ -192,7 +192,7 @@
     "lod1": "vb2ceb2rul75naw26ixlzgtpp45edyn6-mly"
   },
   "flag_china": {
-    "category": "",
+    "category": "un_flags",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "4cw3wqkimubir35dgso77cc7wwvyss2e-bbdi",
@@ -200,7 +200,7 @@
     "lod1": "vevfr64ncefojyctcnj2izspeqznrhts-kza"
   },
   "flag_france": {
-    "category": "",
+    "category": "un_flags",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "d5dfoq7pelri4pgjhqj653omujxyrn5x-bhvy",
@@ -208,7 +208,7 @@
     "lod1": "jhmzbmwnhfy7fxp5zbiemp27pxe7qxov-may"
   },
   "flag_great_britain": {
-    "category": "",
+    "category": "un_flags",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "pedx63vpqdw3uhorxn4kkdh7du2ml33n-bejy",
@@ -216,7 +216,7 @@
     "lod1": "ys47y6kdawyb4mlocmed7vfgrtanf24z-kvy"
   },
   "flag_italy": {
-    "category": "",
+    "category": "un_flags",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "axgfpqajt5fw6ieo5wkxyfwi45zxipqb-bfny",
@@ -224,7 +224,7 @@
     "lod1": "5bhw6zt455dgnh5pry35u5r5aeuasmdd-l4y"
   },
   "flag_japan": {
-    "category": "",
+    "category": "un_flags",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "rlhkqkitooini6dedsioohearqorm2uj-bj7a",
@@ -232,7 +232,7 @@
     "lod1": "7vd3u3s4xfhwzesstemc5waaee5lipif-m2q"
   },
   "flag_pakistan": {
-    "category": "",
+    "category": "un_flags",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "2mh66atdbzki3hdneauehbgsgvhxuhut-bh4a",
@@ -240,7 +240,7 @@
     "lod1": "wahodm2q4pc3mjurthas6r4tiechzmwv-mgi"
   },
   "flag_sweden": {
-    "category": "",
+    "category": "un_flags",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "uv2fk6dcjqlbcbgl4cx67laavakzu2in-63q",
@@ -248,7 +248,7 @@
     "lod1": "2laezl5op5dbe6z2mo5zcjd3w6jpbvds-j6i"
   },
   "french_tank_emblem_01": {
-    "category": "",
+    "category": "france",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "s5afdjmt4ny5g77w3b6l23gxvgtcm6pj-fq4q",
@@ -256,7 +256,7 @@
     "lod1": "755s65q4rbuhnp72tec6eovt332a5ytj-bwxy"
   },
   "french_tank_emblem_02": {
-    "category": "",
+    "category": "france",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "ikc2gjrknduy6jmbgunjoxyd72l32lq6-d6za",
@@ -264,7 +264,7 @@
     "lod1": "w2ecziabxlbwcxlsbrjmzye3xonf4nlc-bjfi"
   },
   "french_tank_emblem_03": {
-    "category": "",
+    "category": "france",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "vvdmjtynuftqiy72uletoku725u4qxng-fuli",
@@ -272,7 +272,7 @@
     "lod1": "w5ab3kwpqtl2glois3aetlk7yiep3ea4-b2oq"
   },
   "fr_1st_bat_2nd_company_1st_platoon": {
-    "category": "",
+    "category": "france",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "i3y4pvnhdd5evnqge4w5a26qhka4m5vm-hktq",
@@ -280,7 +280,7 @@
     "lod1": "uwzttd53xtjplp3lrrsq4hxf43ub3lvj-cgda"
   },
   "fr_1st_bat_2nd_platoon": {
-    "category": "",
+    "category": "france",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "ryl5a7tw4wnykghzaspxbqu6lrdzjh3s-eb4i",
@@ -288,7 +288,7 @@
     "lod1": "vhfodwhe2dkbkxc2tucqa7qrn2ygsdyb-bhlq"
   },
   "fr_1st_bat_3rd_platoon": {
-    "category": "",
+    "category": "france",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "ko7hivmyebbydeujcxamhrxjqtolt4i3-c6eq",
@@ -296,7 +296,7 @@
     "lod1": "gjniuz3seqt3ju4agh32tws6ed23yfpn-5mi"
   },
   "fr_2nd_bat_1st_platoon": {
-    "category": "",
+    "category": "france",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "pw724nqdgub3eeduujlk3ayy2634mwqk-eh5y",
@@ -304,7 +304,7 @@
     "lod1": "2kfyjx7z3htkvfo7zbp367hspua6t3ov-bjma"
   },
   "fr_2nd_bat_2nd_company_4th_platoon": {
-    "category": "",
+    "category": "france",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "si5tert2njg3sgs3qjkuvnpcja7eskux-fewa",
@@ -312,7 +312,7 @@
     "lod1": "xcd4jh2nuflchpepoxbfzfv5zqdvdadw-bs3q"
   },
   "fr_2nd_bat_4th_platoon": {
-    "category": "",
+    "category": "france",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "q4zq73qqv2tjbt6b65jmjnl37gw4b6on-em7i",
@@ -320,7 +320,7 @@
     "lod1": "hthlklqmqravlgm2cenwxshinesmbcso-blai"
   },
   "germany_numbers_0": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "4umxu5rqj2g4vumfjnknpme4bcsn6t4g-wxi",
@@ -328,7 +328,7 @@
     "lod1": "sqnukx4gjrsxnsqgomdnlyveo4gd4fub-h5q"
   },
   "germany_numbers_1": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 0.5,
     "hdr0": "RERTeEFTVDREABAAgAAAAQkAAAAIAAFV0KoAAAAAAAA=",
     "lod0": "ieqypld7nitdrjmgoqxerwyx3xdia2zs-mry",
@@ -336,7 +336,7 @@
     "lod1": "775gpt6z3lepqt3vux5il5gmx2j6mkq4-eki"
   },
   "germany_numbers_2": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "jewumdp7agg6ach4t4htsn4elahqkbp7-wyq",
@@ -344,7 +344,7 @@
     "lod1": "i4cajwrmonra44xfdrdtfy53j4fqkmve-hvi"
   },
   "germany_numbers_3": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "ypjvuiwjg5f62g3fagyxoqilpi7l2itx-xjq",
@@ -352,7 +352,7 @@
     "lod1": "7lpumvhunjtxyjgrlgtrkpdtepcodtcg-hry"
   },
   "germany_numbers_4": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "p2fzegv7ncxvtcreokan32e3f67uk4bi-t6i",
@@ -360,7 +360,7 @@
     "lod1": "63tabx7flsvinnggnkdwaufwk5r6ybna-gwa"
   },
   "germany_numbers_5": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "xd2iwilxosuqqjkmnkwpbrv5ydnubxv5-w4i",
@@ -368,7 +368,7 @@
     "lod1": "lgm4xz4z5k7pfxij5xxkrskayurvemdu-h7y"
   },
   "germany_numbers_6": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "3wuskzzlva3xsne4e72magi7js7nvgqv-3si",
@@ -376,7 +376,7 @@
     "lod1": "djgprw4mru47tp5jrsktxrbp64tv2ji7-jaa"
   },
   "germany_numbers_7": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "ag4w2dgrts3dhj3kstvgxluiodddjqbh-s7i",
@@ -384,7 +384,7 @@
     "lod1": "6luguetnoxq6yzggctjvqsuco6ygutiq-g6i"
   },
   "germany_numbers_8": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "65rak3k7q6rycn7ehp6mobcxs4ze7mwo-zji",
@@ -392,7 +392,7 @@
     "lod1": "36suoa5y353xsfdnwfp2bs2xqsyct6qy-i4q"
   },
   "germany_numbers_9": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "dlcf6xdqndj7qrsr2wvp66ukdtvtkr6s-y5q",
@@ -400,7 +400,7 @@
     "lod1": "73rf2ei2kxkwfgiqlmpaj42kaqdoubax-ivy"
   },
   "germany_numbers_red_0": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "43gt3lz27mevllftlny6x2kioddrrz76-usy",
@@ -408,7 +408,7 @@
     "lod1": "ezsgtab7ywt54ooqqhq6fm2ucp52xhup-hfi"
   },
   "germany_numbers_red_1": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "6wqgqj4mveabjlab35y4xvezniz5h7im-lna",
@@ -416,7 +416,7 @@
     "lod1": "afwnqay2x56bk3igrdq3u345xad3nrf2-d5a"
   },
   "germany_numbers_red_11": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 2.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAQoAAAAIAAFl0KoCAAAAAAA=",
     "lod0": "7stshro6nhbry3ulk3uqvztskxw52njv-ydy",
@@ -424,7 +424,7 @@
     "lod1": "l3qs4yrdfng5hqtzx4cd35mfusp4bcee-h2y"
   },
   "germany_numbers_red_13": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 2.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAQoAAAAIAAFl0KoCAAAAAAA=",
     "lod0": "6gcwn2wqzlinlelyyaa7qwv6hgqcmol2-bcua",
@@ -432,7 +432,7 @@
     "lod1": "kz4e5hmjz6oveb56gnstg7cfhd4jrkz5-ljq"
   },
   "germany_numbers_red_2": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "jyi5acgephqquu3mo2i5ormobyz3drjm-uya",
@@ -440,7 +440,7 @@
     "lod1": "g4c264wllvcp7jvy4aw2r4uvd743f2bu-hdy"
   },
   "germany_numbers_red_3": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "ckd5pejfjn2e3zns3wdiv3cx4tdsic6t-vnq",
@@ -448,7 +448,7 @@
     "lod1": "ohvamgy27zqyayjnyonqqevmjpssxg7q-heq"
   },
   "germany_numbers_red_33": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 2.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAQoAAAAIAAFl0KoCAAAAAAA=",
     "lod0": "ql7xx642qn4pkkozmhawuqeqybkmfpkq-bl4y",
@@ -456,7 +456,7 @@
     "lod1": "pr3u5e46ox3b6ilvazru3izrmxvqiwna-nzi"
   },
   "germany_numbers_red_4": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "vxis5mfj5fabbpytaebxzfwapwt2eusl-sky",
@@ -464,7 +464,7 @@
     "lod1": "bljo6ika3ojnmhacrklzlqqa2bfxcj3w-ggq"
   },
   "germany_numbers_red_5": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "cbijnlq7iig256hccsox57su643fptez-uvq",
@@ -472,7 +472,7 @@
     "lod1": "if324zhaza6zfb7wiq54yca7p5ljshke-hjq"
   },
   "germany_numbers_red_6": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "56uidxvqky2wrhcu3gi6fxm6dofpk4gz-zia",
@@ -480,7 +480,7 @@
     "lod1": "2d72gousu5mupr4zmhdxylccobz644cd-ijy"
   },
   "germany_numbers_red_7": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "xypcrvwigyiqbwhdb6dd4lc4q3rktjka-rey",
@@ -488,7 +488,7 @@
     "lod1": "yfvjwsljqwgk7gf4iddsm2kp3g6orlfh-gly"
   },
   "germany_numbers_red_9": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "ph4txxa5suzx4h5f54s76adbhljaxdpg-wwa",
@@ -496,7 +496,7 @@
     "lod1": "zb5u2b2pergl34aypcvw2vdkw667s4rg-ica"
   },
   "ge_15th_panzer_division": {
-    "category": "",
+    "category": "germany",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "azv2tjxybdncddggneghnqs7td7eipxi-b6ea",
@@ -504,7 +504,7 @@
     "lod1": "i5aaxqvspdggnzimahgsefpar4z4zber-t3i"
   },
   "ge_1st_panzerdivision": {
-    "category": "",
+    "category": "germany",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "4cmsdmr6ddmsmdrlesa7onynlxagyxwv-fdxq",
@@ -512,7 +512,7 @@
     "lod1": "4b7kh5n65jwwlwceyrskkn3jeqtaiera-bqfq"
   },
   "ge_507th_heavy_panzer_battaltion": {
-    "category": "",
+    "category": "germany",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "o2durjfai3rtj6tbbzjl37okz2ncgzn3-fc2y",
@@ -520,7 +520,7 @@
     "lod1": "kpkkt7yutukmlq45ykh6zzj7d5uyoihv-blha"
   },
   "ge_521h_pzj_abt": {
-    "category": "",
+    "category": "germany",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "yged3qqtrcd5i5vdg7ik7jjt3iflnhus-dcki",
@@ -528,7 +528,7 @@
     "lod1": "pmzgfxy4dim2qulchzrrxftwxanrjuzs-bbji"
   },
   "ge_653rd_heavy_panzerjager_battalion": {
-    "category": "",
+    "category": "germany",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "my2cqycxcvgqsw6dcoxcabw7avhvdi7q-emci",
@@ -536,7 +536,7 @@
     "lod1": "l7vzlexistgsfm43gnfute7ozzvvhp7c-bkmi"
   },
   "ge_716th_infantry_division": {
-    "category": "",
+    "category": "germany",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "ip5tng7o4g5h2lhesyo5obdcdu7e3duv-d6ba",
@@ -544,7 +544,7 @@
     "lod1": "56x6j2zc6r3eji4xe24nmz2lrekygh6y-bgsa"
   },
   "ge_93rd_pz_bat": {
-    "category": "",
+    "category": "germany",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "62thbf54dr2437titjyel2vbrjlih62w-fjgi",
@@ -552,7 +552,7 @@
     "lod1": "x4zoxzrrd2fwlkocfav5oajx44jiy2zg-btly"
   },
   "ge_afrika_korps_emblem": {
-    "category": "",
+    "category": "germany",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "sb4ysulc4hsu5qkwwlamjq2li4e2wb3i-cfqa",
@@ -560,7 +560,7 @@
     "lod1": "ms3jehfeqmgv5rzt73rzgrxcjnosywx4-x6y"
   },
   "ge_bundeswehr_insignia": {
-    "category": "",
+    "category": "common/roundels",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "2jzk5klm3qtnuvridfqt63nqck73qlwx-ehai",
@@ -568,7 +568,7 @@
     "lod1": "ejq6kwmsqfobbp3ths6rgjlrqjtughyo-boyi"
   },
   "ge_number_f_13": {
-    "category": "",
+    "category": "germany",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "vbsl36ay3btqz5oci43pme5klhddthci-cjri",
@@ -576,7 +576,7 @@
     "lod1": "azrupprtuhocmxjljcrwttyjwpqg7vu5-xwi"
   },
   "ge_ritter_emblem_v2": {
-    "category": "",
+    "category": "germany",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "crkfznf3qs7ofe2xfgzpmpgokhrt5ksc-bt2q",
@@ -584,7 +584,7 @@
     "lod1": "wwole7sktdbbhdha55kr6ppix7gqy3wj-tka"
   },
   "ge_stug_abt_189": {
-    "category": "",
+    "category": "germany",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "2prfshffe754r2ziojhjj65rivuq67pk-gpuq",
@@ -592,7 +592,7 @@
     "lod1": "jyxpe6kwldxam7rkkaux2vdpivhym4e2-bxyy"
   },
   "ge_tank_emblem_00": {
-    "category": "",
+    "category": "germany",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "cvz53k256m435k2qi6lt5zdfhvxraini-bdri",
@@ -600,7 +600,7 @@
     "lod1": "x4it23sixowurxsikyidkqrbrohc3sh4-nmq"
   },
   "ge_tank_emblem_10": {
-    "category": "",
+    "category": "germany",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "x55bexbwm7ownzphprrodkmoarun5w4e-bmmq",
@@ -608,7 +608,7 @@
     "lod1": "jhrwj46lysjkxbybxccize2t5v5qik7a-qoq"
   },
   "happy_new_year_decal": {
-    "category": "",
+    "category": "special",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "fvgl2xofahys24q5bvib2wg2tgntn7t3-7vy",
@@ -616,7 +616,7 @@
     "lod1": "jedsisnjbnp2nxynotbyyj4ry7i6dkjb-l6a"
   },
   "hu_af_roundel_1991": {
-    "category": "",
+    "category": "common/roundels",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "3m7xjhsvcepieinjwmedatyoa6ltjcaj-b24a",
@@ -624,7 +624,7 @@
     "lod1": "kpanw7l2bpbehypv7tigrchzjth7tsmm-sqa"
   },
   "ie_8th_kings_royal_irish_hussars": {
-    "category": "",
+    "category": "other_countries",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "4gv5jrpdd6v2d7s3usk7dyec25z2j4j3-ehwa",
@@ -632,7 +632,7 @@
     "lod1": "gnkms3co2ho5z2pc7p2ptj2kxkoy2v7u-biti"
   },
   "il_alef_decal": {
-    "category": "",
+    "category": "israel",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "3yyhoci6bamgi73yozp23mtdk5vtzmxs-dz7a",
@@ -640,7 +640,7 @@
     "lod1": "765hatkjdtlxmpqi5hoxwhrp7uqbjja4-bcry"
   },
   "il_bet_decal": {
-    "category": "",
+    "category": "israel",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "ynxlgw5cqpq75ufydi7urjpvpfzu7btr-c7nq",
@@ -648,7 +648,7 @@
     "lod1": "77uht5sry7o72qtvvtkwl4namhbvicap-2qy"
   },
   "il_dalet_decal": {
-    "category": "",
+    "category": "israel",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "bsz7uhiszh2qygda7jdzkwdjzfd7xkjj-cjhq",
@@ -656,7 +656,7 @@
     "lod1": "ea6h466r7rq5qg7givb3vkmlsmku6h3c-urq"
   },
   "il_first_company": {
-    "category": "",
+    "category": "israel",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "vn4ifsmxrg4ftkno3vi6j3naw4a3okzy-ck3q",
@@ -664,7 +664,7 @@
     "lod1": "g2jic57uo2v7ddq6oseiprfzxhdv3o75-v7a"
   },
   "il_fourth_company": {
-    "category": "",
+    "category": "israel",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "u54qow43agtq4dkxarz6crhauvdjsl7r-ciby",
@@ -672,7 +672,7 @@
     "lod1": "ju6itspytwxvtxncvbfh53swhqe5y6bn-u4y"
   },
   "il_second_company": {
-    "category": "",
+    "category": "israel",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "gxynlpjqyrdcheoc4tkbfwnt4qu22izj-ch2q",
@@ -680,7 +680,7 @@
     "lod1": "rwdxoyirm7u6aonrfuxn3jtjdirn6a2g-u3y"
   },
   "il_third_company": {
-    "category": "",
+    "category": "israel",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "mxmfmph7xl4ahbx6qitnrutqt6ijkxjz-cjja",
@@ -688,7 +688,7 @@
     "lod1": "diecjquc5umb4pqoeahm7og4vtqrxwd6-vra"
   },
   "israel_numbers_1": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "uoupybqov436jd53pddp5zimaqf37qan-caya",
@@ -696,7 +696,7 @@
     "lod1": "jj3ann72batr6n7fkiz6ptdqmeff5op7-r5y"
   },
   "it_2nd_company_1st_platoon": {
-    "category": "",
+    "category": "italy",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "xz4whnpqhqavzbciuwxlemewhi2643zk-ebcy",
@@ -704,7 +704,7 @@
     "lod1": "mellqbo5qsvbr2rdznbpteks4qahpnbm-bgoq"
   },
   "it_2nd_company_2nd_platoon": {
-    "category": "",
+    "category": "italy",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "jrjrsex64xwj3trfh5cb5ow4kyvnjf5p-endq",
@@ -712,7 +712,7 @@
     "lod1": "lm77cmt6xblr6e3eoia44bcepmergwgm-bjcy"
   },
   "it_2nd_company_3rd_platoon": {
-    "category": "",
+    "category": "italy",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "jehoxkhjsjifrtndhfyrs7wzjuioiial-eg3y",
@@ -720,7 +720,7 @@
     "lod1": "hljgcmbf6e234lahfnwt3jincgvfcddf-bigy"
   },
   "it_2nd_company_commander": {
-    "category": "",
+    "category": "italy",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "rpqoprbecbobj75rq5zqvzxbga64osmr-d5ry",
@@ -728,7 +728,7 @@
     "lod1": "6k5n3uhihovoco6spvaqj5didtq2vdnp-bfmy"
   },
   "japan_numbers_0": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "hgta2vhdowluoilzbwmhu6g2kuzjpcft-yia",
@@ -736,7 +736,7 @@
     "lod1": "pgxaslimwvq37qdqs37r6epbishypkgx-ici"
   },
   "japan_numbers_red_3": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "eayqwbl4aohxughdktregniwaqrkhfzz-tya",
@@ -744,7 +744,7 @@
     "lod1": "tndy5aginpuclrft7quh7mubmo435nwb-g7y"
   },
   "japan_numbers_red_4": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "26ehm3g5bwejzyknhxxlyisjzk4erv4d-uyq",
@@ -752,7 +752,7 @@
     "lod1": "vwlvtcs3lelj74vkeokgxweucj72ubox-hei"
   },
   "japan_numbers_red_5": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "7ncvesvzjoog7n35jkill5ifltnerlqs-xna",
@@ -760,7 +760,7 @@
     "lod1": "4netqvwhtih2ulbvhnswm7vy3emx7eei-hvy"
   },
   "japan_numbers_red_6": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "qrrhodjycglijzj64gl5t5zar7cmkgt6-xki",
@@ -768,7 +768,7 @@
     "lod1": "vtmju6tc3qhnfybyyzisanabot6yd2fy-ibi"
   },
   "japan_numbers_red_8": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "67m24ajwf6z4zmul7hxpwhq632o6qm7t-zia",
@@ -776,7 +776,7 @@
     "lod1": "niukvkvsvkf6gj3fgrgqvchkqqvqwain-ini"
   },
   "jp_10th_bat_6th_div": {
-    "category": "",
+    "category": "japan",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "xos5tc4eqwbldssxcdl4m4mersdzmdoe-d5iy",
@@ -784,7 +784,7 @@
     "lod1": "67mhsntcoqvtnqyjbhhfpnv42iu4ghk2-bhrq"
   },
   "jp_12th_reconnaissance_group": {
-    "category": "",
+    "category": "japan",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "7plb7tstwu43cfl47fl4q3kqvb26bi4r-di4y",
@@ -792,7 +792,7 @@
     "lod1": "wm2qxyf7icaa2wcrsnxlomehdb44rctc-baeq"
   },
   "jp_3rd_anti_aircraft_platoon": {
-    "category": "",
+    "category": "japan",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "sescheuwk5cicu4kzhchnbqs44somm3n-b4iq",
@@ -800,7 +800,7 @@
     "lod1": "z3zyhtftkk5mzlgqytdeetvl7dnhw3m4-vfa"
   },
   "jp_3rd_platoon_2nd_anti_aircraft_regiment": {
-    "category": "",
+    "category": "japan",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "x6apsjtom5vhgmjx2zusofakhaixft27-elii",
@@ -808,7 +808,7 @@
     "lod1": "jdmx7gvw36cehpjm3zuhj5zufy2tkdsb-bl6q"
   },
   "jp_3rd_tank_bat": {
-    "category": "",
+    "category": "japan",
     "aspect_ratio": 2.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAQoAAAAIAAFl0KoCAAAAAAA=",
     "lod0": "k34mudvkqbyc6fkwodqdx44oojmep5eu-b3vi",
@@ -816,7 +816,7 @@
     "lod1": "njiir7jpo2ptm74sz3e5tv5xxfkrvgyc-t7i"
   },
   "jp_4th_sensha_rentai_2_company": {
-    "category": "",
+    "category": "japan",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "rdoxbar6vrtxrvdgbuplb6j6xndncxdm-fulq",
@@ -824,7 +824,7 @@
     "lod1": "bzbq2ba3w6fd5qmyskv6dttg36ifo56l-buri"
   },
   "jp_5th_sensha_rentai_1_company": {
-    "category": "",
+    "category": "japan",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "tibc2qveayjg5i3re4jwstc3gftlu3u3-gilq",
@@ -832,7 +832,7 @@
     "lod1": "nyfz7jhatd2ayelkewler3ry3tldxhav-b4bq"
   },
   "jp_5th_sensha_rentai_2_company": {
-    "category": "",
+    "category": "japan",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "jnkee6vazq6ffb32vaduj7svhifdekxx-gh5a",
@@ -840,7 +840,7 @@
     "lod1": "vx5qx6atnxrafq4dr3waer53hoeq4ffx-b3xi"
   },
   "jp_5th_sensha_rentai_3_company": {
-    "category": "",
+    "category": "japan",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "bo67buxpjy5it2wngfjetgujfw3fegg2-geny",
@@ -848,7 +848,7 @@
     "lod1": "2onx7rm2z2zld27sp6pmnqdkb6ex5ccu-b2ui"
   },
   "jp_5th_sensha_rentai_4_company": {
-    "category": "",
+    "category": "japan",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "hsyexsseaewzk4wwb75lcy6riz5vyhh3-gbba",
@@ -856,7 +856,7 @@
     "lod1": "shcvzid3lkokx4rwwwu7ov7dup5g3c7f-bzkq"
   },
   "jp_6th_bat_6th_div": {
-    "category": "",
+    "category": "japan",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "adb4szzzjkbeg7ys3thsbmzuepc6pasp-ckva",
@@ -864,7 +864,7 @@
     "lod1": "sxt3zdvl7xd7s35vr2af7zc6a3isfpkl-xxa"
   },
   "jp_71st_tank_reg": {
-    "category": "",
+    "category": "japan",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "5vg46rt4ihljg2isqotyz3uuftd7w76f-ejza",
@@ -872,7 +872,7 @@
     "lod1": "7zdup6syybrtaxcdsp77lwpioget4743-blla"
   },
   "jp_71st_tank_reg_alt": {
-    "category": "",
+    "category": "japan",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "n252lxr2z5v73gg6efm5fhihd6kcu7db-eg4q",
@@ -880,7 +880,7 @@
     "lod1": "wgfc3fwpwror2xs2gsq3ofbfmmiv5slw-bk7i"
   },
   "jp_72nd_tank_reg": {
-    "category": "",
+    "category": "japan",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "fyw5bj47gi43gr6p4xx6iu767pi5dyph-c5bq",
@@ -888,7 +888,7 @@
     "lod1": "4vhuejhbbnotxpsy2chhcia254rofl55-6di"
   },
   "jp_9th_sensha_rentai_1_company": {
-    "category": "",
+    "category": "japan",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "zm55ntan7yyrwjnrpntud45zweoerwth-fi7y",
@@ -896,7 +896,7 @@
     "lod1": "rcjpsisfrfk753kkxivga6c64qegsznl-bseq"
   },
   "jp_9th_sensha_rentai_2_company": {
-    "category": "",
+    "category": "japan",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "75krkirocbj4iuhqbbguc7s4okmgtalu-ffoi",
@@ -904,7 +904,7 @@
     "lod1": "k2tc27maefqkv357eiapkme77xxnpc3v-bqza"
   },
   "jp_9th_sensha_rentai_3_company": {
-    "category": "",
+    "category": "japan",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "n4qglurkp3kkghru276nfcryesa5wyvm-fbaq",
@@ -912,7 +912,7 @@
     "lod1": "alpdtkqm5ae33uuzoaluw6uwecttuwx3-bpji"
   },
   "jp_9th_sensha_rentai_4_company": {
-    "category": "",
+    "category": "japan",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "oxqhqokflpejxl2cya37hwfyj3cnt3lh-fjwq",
@@ -920,7 +920,7 @@
     "lod1": "vzheb4wmhzlecqspmbp3lvxcqdfk6hpf-bsni"
   },
   "jp_eagle_decal": {
-    "category": "",
+    "category": "japan",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "7hpd4shxnpps7q7s4begfjlxixrynanj-c6wi",
@@ -928,7 +928,7 @@
     "lod1": "rtsgzvtv4jmz6i4iyjty75zdzj7whobq-6zi"
   },
   "jp_infantry_school_reg_5th_company": {
-    "category": "",
+    "category": "japan",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "obvhha2agebmugkj46yafwm6bx63jbg3-bwka",
@@ -936,7 +936,7 @@
     "lod1": "czotshbd4ble74d6nubxj2v2xtlxhtn7-tra"
   },
   "jp_northen_army_1st_tank_discrict": {
-    "category": "",
+    "category": "japan",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "tsuuoh2cbcq4w4fj6y7s2sqbwfwsdhki-cwra",
@@ -944,7 +944,7 @@
     "lod1": "kytrcwb3n3gut3eqyz7amwegh3srkqrt-57a"
   },
   "jp_panther_decal": {
-    "category": "",
+    "category": "japan",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "omjtav2wcwn3j6xxachc3q5t7a5e5upt-dtji",
@@ -952,7 +952,7 @@
     "lod1": "z5uhqcmq4wrkn3u76v3bypqjal6xrlb4-bdxa"
   },
   "jp_wasp_decal": {
-    "category": "",
+    "category": "japan",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "tont6trzcov6qj7jn7noqsy4ayqv6iaq-euzy",
@@ -960,7 +960,7 @@
     "lod1": "xwhdijsemthwfs47b62p37oq4f33h3ma-bmrq"
   },
   "leopard_457_decal": {
-    "category": "",
+    "category": "special",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "rzhzqgfdzhukyrj2mc7zrztcsnu53wn2-cc3y",
@@ -968,7 +968,7 @@
     "lod1": "mnf5v5kzxhccubvgcn77hyr3fk55gupp-v6y"
   },
   "m36b2_rbceo_decal": {
-    "category": "",
+    "category": "special",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "oj6omtsm3apclkwmsbam3ku6nnr7yzkx-dh4y",
@@ -976,7 +976,7 @@
     "lod1": "efn6gv3yk44x7dzlvcis4qzy3ikr7qjf-bbli"
   },
   "noak_gf_roundel": {
-    "category": "",
+    "category": "common/roundels",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "wdlt4gwrhfrereouxnb2rblexdwn2evq-cnma",
@@ -984,7 +984,7 @@
     "lod1": "jqnmovc346kpkpqdcgvl37yhf2kxrbw7-y5q"
   },
   "provence_decal": {
-    "category": "",
+    "category": "special",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "dq36x5lg6yo45jbhke6rfu6neukiuz43-bwcq",
@@ -992,7 +992,7 @@
     "lod1": "w4xfqxmrucq6qa4zq5vdqim6wqtkkmfm-q6q"
   },
   "roca_roundel_black": {
-    "category": "",
+    "category": "common/roundels",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "hxuuzembk4j2ysusio2fbmvo6yzzrxm2-epla",
@@ -1000,7 +1000,7 @@
     "lod1": "mzjh2kmed6qypacuhjg6ddbjoxwwtyqp-bmxi"
   },
   "rsa_1st_tank_regiment": {
-    "category": "",
+    "category": "other_countries",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "ud4ygmsz3tdkqmteo7i2cvshcwbggzgu-e5by",
@@ -1008,7 +1008,7 @@
     "lod1": "gpvqetwxh4ujctff33vwbktvw3out6hr-boua"
   },
   "rsa_6th_group_headquarters": {
-    "category": "",
+    "category": "other_countries",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "yelpgqe4xa3x5elblhsg7m5qozvmehx6-ejty",
@@ -1016,7 +1016,7 @@
     "lod1": "myouxlbergy3wtofgawiqavhgsyfb3pw-bkuy"
   },
   "savoie_decal": {
-    "category": "",
+    "category": "special",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "smjkqbklxtkcb3nc7huriwnmq4youioj-cima",
@@ -1024,7 +1024,7 @@
     "lod1": "pzrzj5i243zvikfangs6bjjsvq4j4dus-wta"
   },
   "se_p4_skaraborg_tank_regiment": {
-    "category": "",
+    "category": "other_countries",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "w6t7jqrdwg5kvvrovdttrhohx2t4lklk-d57a",
@@ -1032,7 +1032,7 @@
     "lod1": "t33psuuki5xmi44zuxy5kfx2y52kjo2k-bfmi"
   },
   "se_p7_southern_skane_regiment": {
-    "category": "",
+    "category": "other_countries",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "iclgc6rnowfhooer7y6fgeudjyza45y7-fb2i",
@@ -1040,7 +1040,7 @@
     "lod1": "l2ursmq7h3sbfgdqvkmtlszuthuvtd5k-bq7y"
   },
   "se_p7_south_scania_tank_regiment": {
-    "category": "",
+    "category": "other_countries",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "cazfppc7bolsvnxzhqi2s5qzlcjdx5ho-d2pi",
@@ -1048,7 +1048,7 @@
     "lod1": "ldqabbtk7crrid3qaiabipvtgmrhp2hz-beti"
   },
   "simple_02": {
-    "category": "",
+    "category": "common",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "a5puion5u6njbfhzb5krcvy6fonndthd-bdaa",
@@ -1056,7 +1056,7 @@
     "lod1": "wa63ey6gzsmz3opbilirjqkvpm73lhdu-l7q"
   },
   "simple_33": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "tkuwuwi4wtmq7cbu4oehxevvglr5ns6x-ef4a",
@@ -1064,7 +1064,7 @@
     "lod1": "keunrdlb3ciyfpuxlqnt7seybxbt466q-bjpa"
   },
   "text_10": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "ry55dgobgphpmbgdd52k3qxqnpops4bw-vey",
@@ -1072,7 +1072,7 @@
     "lod1": "4puce3wvh26o4f633eey3ecouwux6oyr-ibq"
   },
   "text_destroyer": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "raxfzvtlgk525bsr2aqp5z67fy52zbpy-2ta",
@@ -1080,7 +1080,7 @@
     "lod1": "ss5rb4zo4esb3fownxpbxyyvzzxazdpi-kci"
   },
   "text_got_you": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "5aoyxoxu4vivpcd6i6jdupdfn2cesu5j-bb4y",
@@ -1088,7 +1088,7 @@
     "lod1": "ougx2rvszw3ojav6tpfltxuu5ggizgu7-mby"
   },
   "text_kliment_voroshilov": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "3o3l7jnt2wqrihfe2lzwpo3i4afndd4g-bk2a",
@@ -1096,7 +1096,7 @@
     "lod1": "ul5zmribowlsxwtfoej3me6kyd7m7v4n-psi"
   },
   "text_towards_the_west": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "jjkoco7sfrl3ctqhj4ob6sd7dn3af4mm-bqza",
@@ -1104,7 +1104,7 @@
     "lod1": "wnsobs4kq7uewkirpwumdehkssy5mfpx-r3a"
   },
   "text_victory_is_ours": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAQABAsAAAAIAAGFcFUVAAAAAAA=",
     "lod0": "yopp3mrtvbs2jgmzutu2l723am36oa66-cz4a",
@@ -1112,7 +1112,7 @@
     "lod1": "ijgqrtehgre5lczfxqh6qvmr7lzqja3y-lla"
   },
   "text_war_bride": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "aalpcf4krgndaio6c5lu7e3q5thbscsc-yha",
@@ -1120,7 +1120,7 @@
     "lod1": "atogdxnluchr75ui3veuimkb4f6vjpy3-iqy"
   },
   "ttd_tank_decal": {
-    "category": "",
+    "category": "special",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "ju5k42rxb7wga776eo2wxkds5qel2bdi-d2uq",
@@ -1128,7 +1128,7 @@
     "lod1": "lko25kjzizx5xysjzytxilhyfipqovpi-ba6y"
   },
   "uk_1st_armoured_division": {
-    "category": "",
+    "category": "uk",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "5fjgrhaxrmmzdlofdz46cgb2bexjvfct-cluq",
@@ -1136,7 +1136,7 @@
     "lod1": "r626cjkmuk5drmfyc5nsa7462cpjniyx-2mi"
   },
   "uk_1st_army_badge": {
-    "category": "",
+    "category": "uk",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "paxhjqhg4fdievoskc5urysqacurevec-fd6y",
@@ -1144,7 +1144,7 @@
     "lod1": "5gew4wy4hzrl6trkpz5gvvhzsbh6oxa7-bqwq"
   },
   "uk_79_armoured_division": {
-    "category": "",
+    "category": "uk",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "haqwzq5v3celamxky5rfg6fqqomxurdp-dxbq",
@@ -1152,7 +1152,7 @@
     "lod1": "kmupb4wtqiuvsf2eifc27qduqpxg6w3q-beay"
   },
   "uk_blue_squadron_a": {
-    "category": "",
+    "category": "uk",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "adw5wosyheed5kxwan4nm2yaf6fwl2hq-b2fy",
@@ -1160,7 +1160,7 @@
     "lod1": "hn7nrkbllkderbnmhkkqva7ksmbae7kh-tba"
   },
   "uk_blue_squadron_b": {
-    "category": "",
+    "category": "uk",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "og6fbwhilqjvqbckpfqvpz4upqxj2aun-c5zq",
@@ -1168,7 +1168,7 @@
     "lod1": "tbn74yrrk3nhvbbhdyofpq5jtzzsk5bv-3zi"
   },
   "uk_blue_squadron_c": {
-    "category": "",
+    "category": "uk",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "jbrkxvgiw33marxy6uykhfp4r24lntyk-cody",
@@ -1176,7 +1176,7 @@
     "lod1": "rpgaxlmyywafjzxqz5nv6dsxv4woe76c-y3q"
   },
   "uk_blue_squadron_hq": {
-    "category": "",
+    "category": "uk",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "3qsy77l2bgw7wy52yvtgvjgoysahbwbq-bnhi",
@@ -1184,7 +1184,7 @@
     "lod1": "c3zmqfuqh2aboz4kidbtxhnzcghqo2gj-pli"
   },
   "uk_deer_335104_rat": {
-    "category": "",
+    "category": "uk",
     "aspect_ratio": 4.0,
     "hdr0": "RERTeEFTVDREABAAAAQAAQsAAAAIAAFlkFUFAAAAAAA=",
     "lod0": "gof6opedymatnsyajh7ndtybo3s3cwfy-c62q",
@@ -1192,7 +1192,7 @@
     "lod1": "zq475ounlaywogr6b4soygm2x3k6ebzd-j3a"
   },
   "uk_deer_rat": {
-    "category": "",
+    "category": "uk",
     "aspect_ratio": 4.0,
     "hdr0": "RERTeEFTVDREABAAAAQAAQsAAAAIAAFlkFUFAAAAAAA=",
     "lod0": "pdkceqvkx42qcupmvyjqxh7ehqo4xbb5-cn7i",
@@ -1200,7 +1200,7 @@
     "lod1": "udrzgdr4bh6vnwftoy7zqrz5ghjv6zin-hqi"
   },
   "uk_emblem_desert_rats": {
-    "category": "",
+    "category": "uk",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "iacgbkvnfduknf463s32om4owv7towva-e2qi",
@@ -1208,7 +1208,7 @@
     "lod1": "cipnatwcdz3cj5seulyd6kuuwl5iqwzj-brwy"
   },
   "uk_green_squadron_a": {
-    "category": "",
+    "category": "uk",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "nwn6yqwtavpwxbt4pyniw6bwnmt3h4ed-b3oy",
@@ -1216,7 +1216,7 @@
     "lod1": "5j3xx4cqr3xp2p342vziieptrd74tgut-tcy"
   },
   "uk_green_squadron_b": {
-    "category": "",
+    "category": "uk",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "4rjfgcrp5toc2snszuyxiutesowgkhke-cypq",
@@ -1224,7 +1224,7 @@
     "lod1": "obbterh6twro3gmgltujdu7oej6ogvtu-2xa"
   },
   "uk_green_squadron_c": {
-    "category": "",
+    "category": "uk",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "2xmrg5jtlj4rneunvmcznr3dqga5bicv-clma",
@@ -1232,7 +1232,7 @@
     "lod1": "azl6kh636lsqf5h6jcgy5s5alyeddimj-ycq"
   },
   "uk_green_squadron_hq": {
-    "category": "",
+    "category": "uk",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "zhtdcd437gf56tftyxwj4sr2sarmzhkz-boqa",
@@ -1240,7 +1240,7 @@
     "lod1": "6y7lfv5cst2bpuofrlum463yigro5uj3-pmi"
   },
   "uk_guards_armoured_division": {
-    "category": "",
+    "category": "uk",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "66wb5wvvqm3ntyh7fjliyaov57zzd3xh-d46y",
@@ -1248,7 +1248,7 @@
     "lod1": "zmsblkw3sielrzc3fh5meuqz6y456ema-bgey"
   },
   "uk_numbers_0": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "ffqe7lc6qw2fjujrqscak4ttyusjzyv3-ydy",
@@ -1256,7 +1256,7 @@
     "lod1": "dudtyyrxchb2onsh5ape4qjzusxqprkm-ihi"
   },
   "uk_numbers_1": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 0.5,
     "hdr0": "RERTeEFTVDREABAAgAAAAQkAAAAIAAFV0KoAAAAAAAA=",
     "lod0": "y3objmqlgsyzfmgxn5ykdexmme7ekeae-ley",
@@ -1264,7 +1264,7 @@
     "lod1": "cioawdyk7p6k7sykietmqkqfxtmdsvnj-d5q"
   },
   "uk_numbers_2": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "a65odba36564zeerdx2mjusajrpmbehk-yli",
@@ -1272,7 +1272,7 @@
     "lod1": "by4gjv4zhvzr3og4duhexq27onza324t-ioy"
   },
   "uk_numbers_3": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "qsaaox46d767mmcms7s3ou3ynpolexm6-xgi",
@@ -1280,7 +1280,7 @@
     "lod1": "tpv7jwyg2jkenjwj276yrz5mj3ff5dby-hxq"
   },
   "uk_numbers_4": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "y3oe3hjt6l422rp5hu5xivf5cinrtrnh-twa",
@@ -1288,7 +1288,7 @@
     "lod1": "4ijot3w3z3fwzxcghzo62fw3ptas7abt-gva"
   },
   "uk_numbers_5": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "bnfdux4fnkozij2xxtfkhdtbfoxlbdyp-vxa",
@@ -1296,7 +1296,7 @@
     "lod1": "546qxjy642qjpuw47nlmnktulmaazycf-h5y"
   },
   "uk_numbers_6": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "esjt5jsclkoprfspvpber4fagdbcot6a-ypa",
@@ -1304,7 +1304,7 @@
     "lod1": "zevcd4r4jfkkb25dbhqlytzwhqep4zzt-i6i"
   },
   "uk_numbers_7": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "svqxbks4fewg7wfjtyx7sdiu3k5v7p2l-thi",
@@ -1312,7 +1312,7 @@
     "lod1": "j2qq4f35ytptqo4isusnydq6ssd6isls-hfa"
   },
   "uk_numbers_8": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "tluisijj52nhgqixc4jm2fa4d73lftwp-yhi",
@@ -1320,7 +1320,7 @@
     "lod1": "w3siyow477ltnevqoquge3sf47f3pm5j-izq"
   },
   "uk_numbers_9": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "i2zv7dpoxjd42gmxy7irpt6q4ao2mikr-z3q",
@@ -1328,7 +1328,7 @@
     "lod1": "xilojgn7erjizarirarnoawpgli7edni-i7q"
   },
   "uk_numbers_red_0": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "a7dkru4n52ybiwfwsoyiefv2spqswh6x-vly",
@@ -1336,7 +1336,7 @@
     "lod1": "s7j57een62kguxoqdynm64ih3xtpssmz-hdq"
   },
   "uk_numbers_red_2": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "z6fm35mfcrx5ogc6oxa3bxwwg5h3gxeu-v3y",
@@ -1344,7 +1344,7 @@
     "lod1": "loozkryyw5aiuhmokedckftueq5tdem2-htq"
   },
   "uk_numbers_red_3": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "ev7je7ngeca5ynnmgh5xyi33bj3epzu2-u7i",
@@ -1352,7 +1352,7 @@
     "lod1": "7hymdtw6qeuthqvha65kkoht2ezq4fs2-haq"
   },
   "uk_numbers_red_4": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "acq5apnwtbzz6l2bki6vlmndnnuaeojl-r5a",
@@ -1360,7 +1360,7 @@
     "lod1": "cnfpeejzxoyqynzu57nfqjdloncwtfjn-gbq"
   },
   "uk_numbers_red_5": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "re53lhc5byxhhipvineqruijbjpaohvn-tna",
@@ -1368,7 +1368,7 @@
     "lod1": "fn6tkz6bdx2qaeo72t7xxoqsin6bcrdt-hca"
   },
   "uk_numbers_red_7": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "vt4r3cqtxpks72cvg7bjtyalrs63vura-rpa",
@@ -1376,7 +1376,7 @@
     "lod1": "rmlwheo5ck45jyfzc2pvk74w52jctmdl-gtq"
   },
   "uk_numbers_red_8": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "gzs34qogqftcxffi237rtn7smohluisu-vqi",
@@ -1384,7 +1384,7 @@
     "lod1": "2efgv2fd2l746go2u5tipowty22asooo-hwy"
   },
   "uk_numbers_red_9": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "jutedkhgtpp42eqy7euyk33kiycpaa7p-xki",
@@ -1392,7 +1392,7 @@
     "lod1": "kawafcvy53dc3cpsae5tyvdo4jr5zezq-ida"
   },
   "uk_queens_royal_hussars": {
-    "category": "",
+    "category": "uk",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "2lwxthoqqxoloxvtggfec3qopzrituxl-djwa",
@@ -1400,7 +1400,7 @@
     "lod1": "cqgyjdgcuhdyhbslfi3wfxvroxtz6gdq-5xi"
   },
   "uk_red_squadron_a": {
-    "category": "",
+    "category": "uk",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "hweez2vjo2pcib4cgvkpu5kktyodse7k-bz2q",
@@ -1408,7 +1408,7 @@
     "lod1": "j7zcka46quk5aogs7knojxnfdiocm2uc-s4q"
   },
   "uk_red_squadron_b": {
-    "category": "",
+    "category": "uk",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "g6ctgx6ks4gqxvfif54vymdzmcdk2va6-c3zq",
@@ -1416,7 +1416,7 @@
     "lod1": "tmcop7xrrgbk3ec4wohfgsiqat3ih6aj-3tq"
   },
   "uk_red_squadron_c": {
-    "category": "",
+    "category": "uk",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "6zsshozbzuggj2il6lmyoupiv5jnastc-ckzy",
@@ -1424,7 +1424,7 @@
     "lod1": "hv4vamqwdv4kvpf77kh3pfyy5z7vncay-yfi"
   },
   "uk_red_squadron_hq": {
-    "category": "",
+    "category": "uk",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "bb6jxlltktjphsqmmlpualdbdahvl7cn-bnzy",
@@ -1432,7 +1432,7 @@
     "lod1": "o7cz3gk3rjvgyzflxj3wydmh3grk5xk5-pnq"
   },
   "uk_tank_weight_15": {
-    "category": "",
+    "category": "uk",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "llqqzshiplgxh7iklyt5lzdx23n5uvh4-euai",
@@ -1440,7 +1440,7 @@
     "lod1": "3kveprgrqmlohd5xrvyeeq4xhitgzy4s-bmvy"
   },
   "uk_vechicle_recognition_marking": {
-    "category": "",
+    "category": "common/roundels",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "g3ukn7tmvenbian5ewjy2bkcs6ye65az-f3ay",
@@ -1448,7 +1448,7 @@
     "lod1": "f7ojfxnkn53pudsbzfizcyl7n6vu4qrd-bzqy"
   },
   "uk_yellow_squadron_a": {
-    "category": "",
+    "category": "uk",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "ch7r47k7aednlerkmb5koc6mfg6mnp3m-b4mq",
@@ -1456,7 +1456,7 @@
     "lod1": "hrb75g7ofzxorq7zi7ra3keubmbvyoqq-tpq"
   },
   "uk_yellow_squadron_c": {
-    "category": "",
+    "category": "uk",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "qffnnnfv6agn7wttmh5q7ixh2wzjx7kl-cmtq",
@@ -1464,7 +1464,7 @@
     "lod1": "qg4w2dnvgk3c7bggz5t4xfkv2ioyadua-yra"
   },
   "uk_yellow_squadron_hq": {
-    "category": "",
+    "category": "uk",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "gmx2hr6z3zhwwjpmencpaxmx2ybowkpm-bpjq",
@@ -1472,7 +1472,7 @@
     "lod1": "bv6dcq5dgqu2nb4ku7mivek5b3ckbscg-p2q"
   },
   "usa_1st_infantry_division": {
-    "category": "",
+    "category": "usa",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "ejvrgf6w5w3jpgiqkgdbeul4wettjspk-dv3a",
@@ -1480,7 +1480,7 @@
     "lod1": "qalrbjsnnmtpyuraibdmijamhn5pixm6-bdvy"
   },
   "usa_1st_plt_a_co": {
-    "category": "",
+    "category": "usa",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "to7dubwlmvvxoewbjb7ocac2ksunpo7h-btry",
@@ -1488,7 +1488,7 @@
     "lod1": "tbrtxtmmrdzhcqi2rtw4msvildkshk3w-qxa"
   },
   "usa_2nd_plt_a_co": {
-    "category": "",
+    "category": "usa",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "okd4rwhjdzu72nfijharrtfoiu5udahk-brna",
@@ -1496,7 +1496,7 @@
     "lod1": "765ef7yirtakwm4p2eycssf76z27q6nu-qxa"
   },
   "usa_3rd_plt_a_co": {
-    "category": "",
+    "category": "usa",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "fzc4dqtzhrferpj2cburdqcpaiovm3wt-bvwq",
@@ -1504,7 +1504,7 @@
     "lod1": "tkhhwxgevekmomdyzkcguxlpywc7ojdx-rzy"
   },
   "usa_3rd_plt_d_co": {
-    "category": "",
+    "category": "usa",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "gdz4jtg253zdkzsojtdmrdluoivkmqz2-cavq",
@@ -1512,7 +1512,7 @@
     "lod1": "ruqyq4r6fd5upqookn5g6xikgxodr76q-u6q"
   },
   "usa_761st_tank_battalion": {
-    "category": "",
+    "category": "usa",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "lueimoicvbjd7dfeufopjxu6sxskihvs-fyni",
@@ -1520,7 +1520,7 @@
     "lod1": "5mqvwwnzd22e6lvcrfisa6pxzexwrgkp-btsa"
   },
   "usa_commander_a_co": {
-    "category": "",
+    "category": "usa",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "fgd6n2bdtenwx52o7hohk72dkcasd7zj-bndq",
@@ -1528,7 +1528,7 @@
     "lod1": "2vudayqwr2dtxt2qzhboi6xrctv55wxh-pia"
   },
   "usa_numbers_0": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "g7vukbws6xvx7z262tj2ore5dpwkutoq-7uy",
@@ -1536,7 +1536,7 @@
     "lod1": "ac5igls7keptksxetf6cmp6n6cxf6jcy-kci"
   },
   "usa_numbers_1": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 0.5,
     "hdr0": "RERTeEFTVDREABAAgAAAAQkAAAAIAAFV0KoAAAAAAAA=",
     "lod0": "ggypn6fbyhuspqn53d2xnnvjilt4hsdr-njq",
@@ -1544,7 +1544,7 @@
     "lod1": "q2e7y6emn3p4g4dh27baebh4bkkbtuqs-epa"
   },
   "usa_numbers_2": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "iwtxhzv5pqq26psm6pn2i7zbi37zuggt-4sy",
@@ -1552,7 +1552,7 @@
     "lod1": "bm4fpybjwlj3lsh7553izkgso7g5hu7l-jui"
   },
   "usa_numbers_3": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "jtp5sxlqc4ihhs6b6scclnsosq5cgmag-ziy",
@@ -1560,7 +1560,7 @@
     "lod1": "s7fitrjeof7gisdj4ux4rdvig2eltu74-iwy"
   },
   "usa_numbers_5": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "yzknzhr73a3g4tdtb4t3dgtaynqcj6g7-zmi",
@@ -1568,7 +1568,7 @@
     "lod1": "7n5fgrpiw7qsvqo7ltsqnginh3gm63rp-jbq"
   },
   "usa_tank_emblem_03": {
-    "category": "",
+    "category": "usa",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "u7gnamnq6rr2bnthldkwzs2qe5omwetz-d7sq",
@@ -1576,7 +1576,7 @@
     "lod1": "7ecu4iynl34qssvpairxoqcuf55uusik-biai"
   },
   "usa_tank_emblem_04": {
-    "category": "",
+    "category": "usa",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "pkozdcsvqcf2nhnt5z5i7txs4amzkj5a-dv4y",
@@ -1584,7 +1584,7 @@
     "lod1": "q7jmpuzivpkvgvk2u3qbm2tcbkivihw3-bhia"
   },
   "usa_tank_emblem_05": {
-    "category": "",
+    "category": "usa",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "2l2smfhncr6xeiavddotjhhtkwup67fo-dn5a",
@@ -1592,7 +1592,7 @@
     "lod1": "gg57h7oxh7bwc2urseo2atlkifscxo2p-bdgi"
   },
   "usa_tank_emblem_08": {
-    "category": "",
+    "category": "common/roundels",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "hqvihv76dcb3pdlckwhmbait6usnytyx-cdnq",
@@ -1600,7 +1600,7 @@
     "lod1": "a5h2zfa3q3m57wbnpbhktxokwshpmtzo-wxy"
   },
   "usa_tank_emblem_09": {
-    "category": "",
+    "category": "common/roundels",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "6rfu2kpk5esbss2x6jxycbtnv26ezklo-d2sq",
@@ -1608,7 +1608,7 @@
     "lod1": "lawvdjezsrhypkptn2xsl6gzwes3qikh-biea"
   },
   "usa_tank_emblem_09_black": {
-    "category": "",
+    "category": "special",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "yqtcnfzoml453cyoykasmac5qzzujwku-cxbi",
@@ -1616,7 +1616,7 @@
     "lod1": "y75ejajsb6k7mcwzzeukwr6gjvomejiv-4ry"
   },
   "usa_tank_emblem_11": {
-    "category": "",
+    "category": "usa",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "kbz7shul2ujw4fjljhk6g72optwgbwco-ecsa",
@@ -1624,7 +1624,7 @@
     "lod1": "mtixfqkl4ngnjmcag3dxh7gazn4wmaik-bkua"
   },
   "usa_text_destruction": {
-    "category": "",
+    "category": "usa",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "ozl3im32bu4fglogerscz3vco73dwtyk-5kq",
@@ -1632,7 +1632,7 @@
     "lod1": "urbogzcyzb6shoxbgyz57qxhegheyf36-kpy"
   },
   "usa_text_foxhunter": {
-    "category": "",
+    "category": "usa",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "oilflxivnbx24lzwbikdx4ssjuou4hpp-64q",
@@ -1640,7 +1640,7 @@
     "lod1": "4spgrequgps6lzunnl5xmne3shsx3ftc-lwq"
   },
   "usa_text_franche_comte": {
-    "category": "",
+    "category": "usa",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "xsmlyi6w72oejforfjxylsuqihwrbhbu-s3y",
@@ -1648,7 +1648,7 @@
     "lod1": "dwpj7arjgdhtbv4jeren4ui7g4tjfroi-hjq"
   },
   "usa_text_good_luck": {
-    "category": "",
+    "category": "usa",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "rkda7ioieiwjb4pdslzxyahjmzyyc5fj-2fi",
@@ -1656,7 +1656,7 @@
     "lod1": "auc6rvl7raev4duvifo6i6nh4xemnmyl-kbi"
   },
   "usmc_tank_emblem": {
-    "category": "",
+    "category": "usa",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "lz3falhd3p5z4d37v7ddpen2i5jqpbyp-bjqq",
@@ -1664,7 +1664,7 @@
     "lod1": "spvadzup533sduokbdqtfx6z2y5g2mhh-ply"
   },
   "ussr_12th_guards_tank_corps": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "fiz3xvy45xr25lkzxms66kzvgl3rgoxn-ccka",
@@ -1672,7 +1672,7 @@
     "lod1": "zehzljkvqj4nn3pwjle27dskiytwy2eo-woy"
   },
   "ussr_14_guards_division": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "33gs6u3e27pphq7i62kbpwqlzm5bijcj-dniy",
@@ -1680,7 +1680,7 @@
     "lod1": "oomg2qhb6cfzdgmpbwqw5k26sd55jguw-bcnq"
   },
   "ussr_1gv_tank_brigade_emblem_light": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "wixjh2yj57xngvoddphfjdjq6nib52xt-bz3i",
@@ -1688,7 +1688,7 @@
     "lod1": "5onnmdu5obblmm2gkpecayog2pjdguru-ubi"
   },
   "ussr_1gv_tank_brigade_emblem_t34": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "bjmga3pt45cotowcytg4mathnvqpfof2-btwa",
@@ -1696,7 +1696,7 @@
     "lod1": "3sbmxtxmgemvu3fratt4goydcjeavntj-roy"
   },
   "ussr_90_guards_division": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "tb26nkepeec7p6uhcqz75w32vrbackee-e2py",
@@ -1704,7 +1704,7 @@
     "lod1": "a62qhcvky2zmxcjmgov2cnmtqwerncvt-brxy"
   },
   "ussr_9_guards_tank_corps": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "phqew73cpw5okaeprxga3nxui2hofuib-cqfq",
@@ -1712,7 +1712,7 @@
     "lod1": "ekfthifbqlmsongxxvfsltoagt7iujeb-23a"
   },
   "ussr_circles_emblem": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "avx32i23lo3rxjemjv76pnsphpdp6prz-c4gy",
@@ -1720,7 +1720,7 @@
     "lod1": "v53kqamhbfarhuhsrg2vshu5tlm7liqm-bbwi"
   },
   "ussr_hammer_and_sickle_emblem": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "hvicqrq7zf73jzsfectt6hmooabup3ft-crsq",
@@ -1728,7 +1728,7 @@
     "lod1": "phpmtlhnzd757z744ishnfd74bji74xr-5aq"
   },
   "ussr_numbers_0": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "7knxhda64h6z4hb2xux2w5gcr26btdwm-wta",
@@ -1736,7 +1736,7 @@
     "lod1": "c7laicvsa6w4hsueacr5fiqmakg2oop3-h2y"
   },
   "ussr_numbers_1": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 0.5,
     "hdr0": "RERTeEFTVDREABAAgAAAAQkAAAAIAAFV0KoAAAAAAAA=",
     "lod0": "mok4hrs3zsvpdtgomrjjia34hyvnglsf-noy",
@@ -1744,7 +1744,7 @@
     "lod1": "p6qdi4zjdnvn6m4nbwcz7mpu6msejczp-eri"
   },
   "ussr_numbers_2": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "wyueoprcosud6hfniwsqxg3vgaa2343f-y4y",
@@ -1752,7 +1752,7 @@
     "lod1": "rlixbc3abfegk5njvmqonx56lb4wstqw-igi"
   },
   "ussr_numbers_3": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "lmjuds5npimrrj3sgdl2beediwfzrp53-xyq",
@@ -1760,7 +1760,7 @@
     "lod1": "iamu4cfimj4utrljdmmv5abzj6s4m5tp-iby"
   },
   "ussr_numbers_4": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "q4kw2x4uomm657fuxqttpqsa5cy3j6k7-wdy",
@@ -1768,7 +1768,7 @@
     "lod1": "2jjh33eou3qrbm5c2losachtan2mx7fh-hhi"
   },
   "ussr_numbers_5": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "2mlqk2cnp6paq4xjcswcptgrcfrhcngm-zbq",
@@ -1776,7 +1776,7 @@
     "lod1": "z4tsguqdrnocgfgd77bkzlukigecmniw-iri"
   },
   "ussr_numbers_6": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "afyjun77j2vwenhdniwyxymm435w6kzd-yqi",
@@ -1784,7 +1784,7 @@
     "lod1": "yko76a3ykeudzrkr5ydhuw5xedshobyc-ivq"
   },
   "ussr_numbers_7": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "hapgk73t5sysufzwbmfpe2wjr65fngxp-ucy",
@@ -1792,7 +1792,7 @@
     "lod1": "muodv5tqdwx23plcopykbthpldeivvkz-hii"
   },
   "ussr_numbers_8": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "gcokzo63myfw4tcvq7erngax4zxflvx6-zha",
@@ -1800,7 +1800,7 @@
     "lod1": "wlrzzi642plluvirnkk3kkgbxa676hio-jba"
   },
   "ussr_numbers_9": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "exvenmt7koxpnmkg3vfa2k3jv6r7sosx-xra",
@@ -1808,7 +1808,7 @@
     "lod1": "dxqgehwixzwjt2bt5vtznyzldsqc2lgq-imq"
   },
   "ussr_numbers_red_0": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "lkrpbcaxu5a4mdvtgrnb64xjnhx7swsn-uky",
@@ -1816,7 +1816,7 @@
     "lod1": "5fr4f5xwl6isors62a57lliqkgfl5ovv-hdi"
   },
   "ussr_numbers_red_1": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "ic3r5vxfsk7um47gllj3qp4kcicxkzc2-mji",
@@ -1824,7 +1824,7 @@
     "lod1": "mc6rs6dbwkw6b6hdzm6gnthnhxqeexlk-eeq"
   },
   "ussr_numbers_red_2": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "kalzzkmmtlsrhhgviw7asr4xabgmdfzx-wua",
@@ -1832,7 +1832,7 @@
     "lod1": "dt5oo7e7f7nvmcx5tkesajvtedggumar-hoa"
   },
   "ussr_numbers_red_3": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "2ampa4wvpvqmr2ub7absyfaa5d22w6fc-voi",
@@ -1840,7 +1840,7 @@
     "lod1": "lhqtpcsyhiovdx55hgo65rpucklu4wus-hjy"
   },
   "ussr_numbers_red_4": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "7zsp6qwrhennmn6clt6sinvkhijudazl-uba",
@@ -1848,7 +1848,7 @@
     "lod1": "qn7mpesz7e26lpdpoqnfp373xe25zhv7-gpy"
   },
   "ussr_numbers_red_5": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "eiu4orknmkaaopb3mzr3lrc4gtvt5rm4-woq",
@@ -1856,7 +1856,7 @@
     "lod1": "rdco2mo6h2jpw6r5z7us73ntsbjbmpvy-huq"
   },
   "ussr_numbers_red_8": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "3g5dulkpdocmctpgsdb2yxeomeaelnge-w5i",
@@ -1864,7 +1864,7 @@
     "lod1": "xto6ltsu54bgxij7gv2fy2qudxxs34vw-ihy"
   },
   "ussr_number_20": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "cjo6zjeb7dcndrwegch7mjatwle4wjhu-cmbq",
@@ -1872,7 +1872,7 @@
     "lod1": "asyoxz632h6qmqlncwobiax7tnw3gpxt-zki"
   },
   "ussr_tactical_marking": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "tsqaapixtagwg2aylx3evkqne546o7zy-csvy",
@@ -1880,7 +1880,7 @@
     "lod1": "gpxm36zx5bvnswt6bqbn3sonstfqmrn5-3py"
   },
   "ussr_tank_emblem_03": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 2.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAQoAAAAIAAFl0KoCAAAAAAA=",
     "lod0": "hpqxvyd3b3m4t3izliocbjerrkeh2uo2-bira",
@@ -1888,7 +1888,7 @@
     "lod1": "cpbz65tzjsuod7yyfsmnavmmhzqu4wiq-opy"
   },
   "ussr_tank_emblem_05": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "w5vlirnq22ihla37ztpipozrzr6t4oza-dqaq",
@@ -1896,7 +1896,7 @@
     "lod1": "cnsv7jgvhwqy6ofdqpxh3zjotc2vjw32-beka"
   },
   "ussr_tank_emblem_08": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "gh2iw7gvoxnavm62chddb2f2uraa5yaa-brky",
@@ -1904,7 +1904,7 @@
     "lod1": "cjjyoi7tdkoy7lhpkp4vb7xyrbtx42ka-rtq"
   },
   "ussr_tank_emblem_09": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "flxqzz4bpo2tfbu5y6lrmd6yeikwevk4-esua",
@@ -1912,7 +1912,7 @@
     "lod1": "c2mf2o5zkyy7o5ondegpjut3pheh2swe-bmjy"
   },
   "ussr_text_otvet_stalingrada": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "zjh2vido2zvny2ho2gtq6uof3ltmp4qw-boya",
@@ -1920,7 +1920,7 @@
     "lod1": "6dnretsoedfdrndddvwltkgfwwaeddkg-qpi"
   },
   "ussr_text_smely": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "ab5ofgr72q2qv5hpihkxtv3iv5vz274p-b5da",
@@ -1928,7 +1928,7 @@
     "lod1": "2srhx7mm3rkxl3pokz3taaf6hjqsrbrz-vry"
   },
   "ussr_text_za_rodinu": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "oxm553nwow5ows6stsf7ycmf6fisyyxr-rqa",
@@ -1936,7 +1936,7 @@
     "lod1": "dbgzoogp4nt7kkpdgw6umdovmqqrbvfe-hai"
   },
   "ussr_vdv_1955_white": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "nugny7aivx23thebmne6f5sq7sddngkj-bpri",
@@ -1944,7 +1944,7 @@
     "lod1": "ohairabxerrrwmkqemgewh7s6baqooha-quy"
   },
   "ussr_white_star": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "cpfwmlol5mi6celiecch6nzyny47moxk-ci2q",
@@ -1952,7 +1952,7 @@
     "lod1": "2oewr2vnknd5sigjophniyfa232kgtmw-yiq"
   },
   "ussr_zsu_23_4_reskin_decal": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "o4kzb2i2ead6nfmdmx2e7zw2dh73r2xg-bgti",
@@ -1960,7 +1960,7 @@
     "lod1": "ripkehh4h2ncszokr7ruvflumdpfgjrj-nhi"
   },
   "vulcan_decal": {
-    "category": "",
+    "category": "special",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "c2gnffunndblizlhhyvfzccxkzrsllzw-ejxy",
@@ -1968,7 +1968,7 @@
     "lod1": "b4xbuhqwjifo6v5rxa7v5xub7ebyrtse-bjsa"
   },
   "yellow_square": {
-    "category": "",
+    "category": "uk",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "kyy3zvgiianhv2mueifctdvi4vosxyh2-cq4i",
@@ -1976,7 +1976,7 @@
     "lod1": "eyyafiibe26uw2j2mjqaadqn6ulrrx57-zbi"
   },
   "yugoslavia_1st_tank_battalion": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "btabewbhqjnvowevag2byov3kn4s7kvk-dcoy",
@@ -1984,7 +1984,7 @@
     "lod1": "tjtka7tp74tm7bdnuja7gsxdy62yg76k-bady"
   },
   "flag_india": {
-    "category": "",
+    "category": "un_flags",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "4nq7bll65om3yt4umpgnlhwddlhvzk3q-bbia",
@@ -1992,7 +1992,7 @@
     "lod1": "j6azmsxj77nnumvkuzt6etaysrlpmgxz-lgq"
   },
   "ussr_numbers_red_7": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "ept6q44bg2lxkrcz6xrsk4svxfixyzw7-sey",
@@ -2000,7 +2000,7 @@
     "lod1": "qdd4gy4grmka4x47jzlyacovgpenbvwo-gty"
   },
   "flag_russian_federation": {
-    "category": "",
+    "category": "un_flags",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
     "lod0": "fofyfvfw2lfp5yxlmczq5k2vppcmaghv-bisi",
@@ -2008,7 +2008,7 @@
     "lod1": "jphheryqhhjw2pstubir4oga5u7nfsjt-mly"
   },
   "eyes_decal_5": {
-    "category": "",
+    "category": "special",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "iajpb4lzvb56eozefaznyu6pipkg3fvv-czby",
@@ -2016,7 +2016,7 @@
     "lod1": "vb662sfxlqxavcxlftdicbv7gksoxajp-4cy"
   },
   "halloween_bat_decal": {
-    "category": "",
+    "category": "special/holidays",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "mpiymzysxxx6ldelnrvyr5il3y7myvaq-ccyq",
@@ -2024,7 +2024,7 @@
     "lod1": "ifkrwx4oe3i26kyzewg2ar2syauclx7x-vjq"
   },
   "back_21": {
-    "category": "",
+    "category": "common/roundels",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "alzrhpz6tnsqtd66srevw6hofj7rzsrt-fhsq",
@@ -2032,7 +2032,7 @@
     "lod1": "ayvauxuh3xcodf5lrcki775anawjxqd7-bvaq"
   },
   "back_25": {
-    "category": "",
+    "category": "common/roundels",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "trbfxkyjtk4okle6oxofchf5zthfyltn-gn4q",
@@ -2040,7 +2040,7 @@
     "lod1": "f234vvaemfv5nvg6unx4ivq5twilv6yq-b5bi"
   },
   "ussr_bmd_4m_decal": {
-    "category": "",
+    "category": "ussr",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "7brku7yn3dxqwkctnbx23kb5rwljpt3f-bzyi",
@@ -2048,7 +2048,7 @@
     "lod1": "4x2a2srkhucuetda7vg73dkf4m4s6rha-uky"
   },
   "south_wind_decal": {
-    "category": "",
+    "category": "common",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "b76docdjyjpo3enc2qkpdlvao7vmxc5s-guca",
@@ -2056,7 +2056,7 @@
     "lod1": "n7vq2hcih4f2arjrornf2zhuvsjczxwc-bzry"
   },
   "israel_numbers_2": {
-    "category": "",
+    "category": "common/numbers",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "hwwceb7lowrntwkngette536bnbclpxq-dhvi",
@@ -2064,7 +2064,7 @@
     "lod1": "clxo7shyt2x7vivvcpfzems3gm4e3uoc-46i"
   },
   "polar_owl_decal": {
-    "category": "",
+    "category": "special",
     "aspect_ratio": 2.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAQoAAAAIAAFl0KoCAAAAAAA=",
     "lod0": "22n4lamit5i76bnxpbe6jbsrp4beukpb-cuna",
@@ -2072,7 +2072,7 @@
     "lod1": "f5jqu2myxsxwl22uma5mbjfxyz2c7p4o-x6q"
   },
   "rook_decal": {
-    "category": "",
+    "category": "special",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
     "lod0": "grqqnaspx6bpfolyi7fawz4hwuklulgg-drdy",
@@ -2080,11 +2080,51 @@
     "lod1": "zeqjczio77auamf7rtmqbfpsljh6fzph-bahi"
   },
   "t34_tank_decal": {
-    "category": "",
+    "category": "special",
     "aspect_ratio": 1.0,
     "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
-    "lod0": "e2e7cid36ubypwhht4sdmp6wrxhv57te-doja",
+    "lod0": "rwba5uvhdn5rgp5asnnp7tj6lcazhojz-dska",
     "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
-    "lod1": "oel56kftbz75q6mvpyud5x6jgvipjbzt-6ia"
+    "lod1": "bcakpvjsxyhxudtzekyecrzewvfguu7l-7ly"
+  },
+  "new_year_26_lights_decal": {
+    "category": "special/holidays",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "cg5zw53eheknv25t2q3tpywp4vcz7joh-bjwa",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "njtzfvpqxf3qgxsyepmkfga7z45txldi-o7q"
+  },
+  "new_year_26_pinup_decal": {
+    "category": "special/holidays",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "vfuxdpycdsld3gslv4puarqy4bjb72hw-eezy",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "op2pbvx3t7m4kvpl3hi7htphgbqpcolg-bf5i"
+  },
+  "clapperboard_decal": {
+    "category": "promo",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "ueg6hw2aqz2d2pmqmcpmxke2k4oe3lwv-e4ra",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "lmpl4ba3ibmdknxbx73wd4sg4dzy5rbv-bocq"
+  },
+  "lightning_strike_decal": {
+    "category": "common",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "iy32de7vaybc5sdmavbz3tionrotj7me-g6la",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "qdv7ljs2uz7q2pp3gzjedsgbsgvvbexs-b3qi"
+  },
+  "vintage_camera_decal": {
+    "category": "promo",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "uh75ukqx44vlzndmh5j4f4alr4onircg-flqa",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "m2y7acelf7pl7lnfjsx2dkpqcjgtytxb-bsva"
   }
 }

@@ -48,6 +48,7 @@
   "radarAnimVar": "radar_drive",
   "radarDeployTime": 0.0,
   "radarAntenaSpeed": 720.0,
+  "guidanceAutoUnlockTime": 8.0,
   "type": "typeSPAA",
   "minRelativeTankCameraThreshold": 1.2,
   "autoSightDistanceCorrection": true,
@@ -190,6 +191,58 @@
       0.05,
       0.0,
       0.95
+    ]
+  },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
     ]
   },
   "ikGunner": [
@@ -2081,7 +2134,7 @@
       ],
       "CenterOfGravityClampY": [
         0.0,
-        0.7
+        0.3
       ],
       "AdvancedMass": false,
       "trackMass": 1500.0
@@ -2089,7 +2142,13 @@
     "tracks": {
       "animationMultiplier": -0.68,
       "height": 0.08,
-      "width": 0.57
+      "width": 0.57,
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.1,
+        0.3
+      ]
     },
     "collisionProps": {
       "cls_turret": "convex_hull",
@@ -2105,6 +2164,7 @@
       "driveGearRadius": 0.33,
       "mainGearRatio": 7.4,
       "sideGearRatio": 1.0,
+      "alternativeGearControl": 1.0,
       "gearRatios": {
         "ratio": [
           -0.62,
@@ -3254,39 +3314,7 @@
       "camo_rotation": 0.0
     }
   }
-}Dm": "commander_dm",
-          "verDriveDm": "commander_panoramic_sight_dm",
-          "horDriveDm": "drive_turret_h_dm",
-          "rotatedTurret": "bone_turret"
-        },
-        "limits": {
-          "yaw": [
-            -180.0,
-            180.0
-          ],
-          "pitch": [
-            -5.0,
-            85.0
-          ]
-        }
-      }
-    ],
-    "animatedBones": {
-      "node": [
-        "antenna_target_location",
-        "bone_roll_02"
-      ]
-    }
-  },
-  "weapon_presets": {
-    "preset": {
-      "name": "fr_amx_30_dca_legacy_default",
-      "blk": "gameData/units/tankModels/weaponPresets/fr_amx_30_dca_legacy_default.blk"
-    }
-  },
-  "vehicleSkins": {
-    "forest": {
-      "replace_tex": {
+} {
         "from": "fr_camo_vert_olive_arme*",
         "to": "fr_camo_carc*"
       }

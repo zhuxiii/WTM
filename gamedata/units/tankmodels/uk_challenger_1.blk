@@ -60,6 +60,58 @@
       0.8
     ]
   },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
+    ]
+  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank_modern",
@@ -2193,7 +2245,7 @@
       "trackMass": 3000.0,
       "CenterOfGravityClampY": [
         0.0,
-        0.5
+        0.3
       ]
     },
     "tracks": {
@@ -2203,6 +2255,12 @@
       "fricFrontal": [
         1.0,
         0.8
+      ],
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.1,
+        0.3
       ]
     },
     "collisionProps": {
@@ -2215,12 +2273,12 @@
       "minRPM": 660.0
     },
     "mechanics": {
-      "steerType": "clutch_braking",
       "maxBrakeForce": 280000.0,
       "driveGearRadius": 0.299,
       "mainGearRatio": 4.3,
       "sideGearRatio": 1.0,
       "neutralGearRatio": 15.0,
+      "alternativeGearControl": 2.0,
       "gearRatios": {
         "ratio": [
           -1.65,
@@ -3604,38 +3662,7 @@
       "details_10"
     ]
   }
-}  "camo_scale": 0.0,
-      "camo_rotation": 0.0
-    }
-  },
-  "upgraded_skin": {
-    "replace_tex": {
-      "from": "uk_camo_very_dark_drab*",
-      "to": "uk_camo_standart_modern_desert_bicolor*"
-    }
-  },
-  "upgradedDecals": {
-    "upgraded": {
-      "skin_condition": 100.0,
-      "camo_scale": 0.0,
-      "camo_rotation": 0.0,
-      "decal0Line0": [
-        1.32938,
-        -5.81088e-8,
-        -0.0026173,
-        -0.943286
-      ],
-      "decal0Line1": [
-        -0.0000122791,
-        -1.32936,
-        -0.00620727,
-        1.765
-      ],
-      "decal0Line2": [
-        -1.32938,
-        -5.81088e-8,
-        -0.0026173,
-        1.94329
+}9
       ],
       "decal0Line3": [
         -0.0000121629,

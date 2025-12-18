@@ -21,8 +21,10 @@
   "skirmish": {
     "air": {
       "m": [
+        "air_africa_canyon_GS",
         "air_africa_desert_GS",
         "air_alps_GS",
+        "air_grand_canyon_GS",
         "air_hurtgen_GS",
         "air_norway_green_GS",
         "air_phiphi_crater_GS",
@@ -34,20 +36,22 @@
       "m": [
         "abandoned_factory_Dom",
         "africa_desert_Dom",
+        "alaska_town_Dom",
         "american_valley_Dom",
+        "container_port_Dom1",
         "japan_Dom",
         "normandy_Dom",
         "poland_Dom",
         "rheinland_Dom",
         "stalingrad_factory_Dom",
-        "vietnam_hills_Dom",
-        "container_port_Dom1"
+        "vietnam_hills_Dom"
       ]
     },
     "ship": {
       "m": [
         "glaciers_NTdm",
         "greece_NTdm",
+        "japan_NTdm",
         "lofoten_islands_NTdm",
         "pacific_island_small_NTdm",
         "scotland_NTdm",
@@ -55,9 +59,7 @@
         "white_rocks_NTdm"
       ]
     },
-    "debug_air": {
-      "m": "air_grand_canyon_GS"
-    },
+    "debug_air": {},
     "debug_tank": {},
     "debug_ship": {}
   },
@@ -66,11 +68,7 @@
       "m": "small_mission"
     }
   }
-}  "air_zhengzhou_GS",
-        "air_grand_canyon_GS"
-      ]
-    },
-    "debug_tank": {
+}bug_tank": {
       "m": [
         "abandoned_factory_Dom",
         "africa_desert_Dom",

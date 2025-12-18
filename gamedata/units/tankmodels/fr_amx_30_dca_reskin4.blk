@@ -48,6 +48,7 @@
   "radarAnimVar": "radar_drive",
   "radarDeployTime": 0.0,
   "radarAntenaSpeed": 720.0,
+  "guidanceAutoUnlockTime": 8.0,
   "type": "typeSPAA",
   "minRelativeTankCameraThreshold": 1.2,
   "autoSightDistanceCorrection": true,
@@ -178,6 +179,58 @@
         "node": "bone_roll_driver_r_04",
         "absoluteValue": true
       }
+    ]
+  },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
     ]
   },
   "ikGunner": [
@@ -2069,7 +2122,7 @@
       ],
       "CenterOfGravityClampY": [
         0.0,
-        0.7
+        0.3
       ],
       "AdvancedMass": false,
       "trackMass": 1500.0
@@ -2077,7 +2130,13 @@
     "tracks": {
       "animationMultiplier": -0.68,
       "height": 0.08,
-      "width": 0.57
+      "width": 0.57,
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.1,
+        0.3
+      ]
     },
     "collisionProps": {
       "cls_turret": "convex_hull",
@@ -2093,6 +2152,7 @@
       "driveGearRadius": 0.33,
       "mainGearRatio": 7.4,
       "sideGearRatio": 1.0,
+      "alternativeGearControl": 1.0,
       "gearRatios": {
         "ratio": [
           -0.62,
@@ -3206,28 +3266,7 @@
       "details_10"
     ]
   }
-}emitterGenRange": [
-                1,
-                4
-              ],
-              "emitterGenFmt": "emtr_mortar_flame_%02d",
-              "ignoreLoaderPenalty": true,
-              "createGunEffects": true,
-              "defaultYaw": 0.0,
-              "defaultPitch": 0.0,
-              "allowableDelta": 360.0,
-              "shotFreq": 40.0,
-              "salvo": 2,
-              "salvoDelay": 5.0,
-              "speedYaw": 24.0,
-              "speedPitch": 15.0,
-              "fireConeAngle": 1.0,
-              "bullets": 4,
-              "salvoAmount": 100.0,
-              "ChainfireTime": 0.0,
-              "DelayAfterShoot": 5.0,
-              "AttackMaxDistance": 1000.0,
-              "AttackMaxRadius": 1000.0,
+}us": 1000.0,
               "AttackMaxHeight": 1000.0,
               "accuracyAir": 0.0,
               "accuracyGnd": 1.5,

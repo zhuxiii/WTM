@@ -11051,6 +11051,70 @@
       "immortal": true
     },
     {
+      "name": "avg_poland_iced_lake",
+      "immortal": true
+    },
+    {
+      "name": "snowdrift_a",
+      "immortal": true
+    },
+    {
+      "name": "snowdrift_a_dmg",
+      "immortal": true
+    },
+    {
+      "name": "snowdrift_b",
+      "immortal": true
+    },
+    {
+      "name": "snowdrift_b_dmg",
+      "immortal": true
+    },
+    {
+      "name": "snowdrift_c",
+      "immortal": true
+    },
+    {
+      "name": "snowdrift_c_dmg",
+      "immortal": true
+    },
+    {
+      "name": "snowdrift_d",
+      "immortal": true
+    },
+    {
+      "name": "snowdrift_d_dmg",
+      "immortal": true
+    },
+    {
+      "name": "snowdrift_e",
+      "immortal": true
+    },
+    {
+      "name": "snowdrift_e_dmg",
+      "immortal": true
+    },
+    {
+      "name": "snowdrift_f",
+      "immortal": true
+    },
+    {
+      "name": "snowdrift_f_dmg",
+      "immortal": true
+    },
+    {
+      "name": "hangar_field_snowdrift_a",
+      "immortal": true
+    },
+    {
+      "name": "hangar_field_snowdrift_b",
+      "immortal": true
+    },
+    {
+      "name": "hangar_field_snowdrift_c",
+      "immortal": true
+    },
+    {
       "name": "tree_maple_large_a",
       "destructionImpulse": 35000.0,
       "canopyTriangle": false,

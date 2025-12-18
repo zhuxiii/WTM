@@ -741,10 +741,7 @@
       "n": [
         "turret_05",
         "aa_turret_01",
-        "aa_gun_01",
-        "turret_02",
-        "auxiliary_caliber_turret_01",
-        "auxiliary_caliber_gun_01"
+        "aa_gun_01"
       ]
     },
     "Weapon": [
@@ -832,7 +829,6 @@
         "startSpeed": 20.0,
         "useStartSpeed": true,
         "allowableDelta": 40.0,
-        "enableCourseCorrection": true,
         "gyroAngle": 0.0,
         "courseSmoothness": 100.0,
         "maxAngularSpeed": 0.8,
@@ -877,7 +873,6 @@
         "startSpeed": 20.0,
         "useStartSpeed": true,
         "allowableDelta": 40.0,
-        "enableCourseCorrection": true,
         "gyroAngle": 0.0,
         "courseSmoothness": 100.0,
         "maxAngularSpeed": 0.8,
@@ -1011,6 +1006,85 @@
           "pitch": [
             10.0,
             10.0
+          ]
+        }
+      },
+      {
+        "trigger": "gunner6",
+        "triggerGroup": "special",
+        "blk": "gameData/weapons/rocketGuns/420mm_rur_5_alike_rocket_naval_bullet.blk",
+        "weaponType": "rockets",
+        "emitter": "rckt_head_17",
+        "flash": "rckt_head_17",
+        "ammoDpGenFmt": "rckt_head_%02d_dm",
+        "emitterGenRange": [
+          17,
+          20
+        ],
+        "emitterGenFmt": "rckt_head_%02d",
+        "useEmitter": true,
+        "allowableDelta": [
+          180.0,
+          1.0
+        ],
+        "bullets": 400,
+        "startFx": "smoke_rocketlaunch_ground",
+        "startFxOffset": [
+          1.5,
+          0.0,
+          0.0
+        ],
+        "defaultYaw": 0.0,
+        "defaultPitch": 10.0,
+        "speedYaw": 100.0,
+        "reloadTime": 20.0,
+        "ChainfireTime": 2.0,
+        "DelayAfterShoot": 0.0,
+        "aimMinDist": 10.0,
+        "aimMaxDist": 14000.0,
+        "randomAngle": 0.0,
+        "accuracyBotMultAir": 0.0,
+        "accuracyAir": 0.4,
+        "accuracyGnd": 1.0,
+        "errMeasureVel": 1.0,
+        "errTargettingOn100kmph": 0.0,
+        "errMeasureVelFast": 1.0,
+        "errMeasureVelFwdShift": 0.01,
+        "errMeasureVelDir": 0.1,
+        "errTargetting": 0.1,
+        "errExplTime": 0.0,
+        "turret": {
+          "head": "auxiliary_caliber_turret_01",
+          "gun": "auxiliary_caliber_gun_01"
+        },
+        "limits": {
+          "yaw": [
+            -135.0,
+            135.0
+          ],
+          "pitch": [
+            10.0,
+            10.0
+          ]
+        },
+        "limitsTable": {
+          "lim1": [
+            -135.0,
+            -65.0,
+            12.0,
+            13.0
+          ],
+          "lim2": [
+            -65.0,
+            65.0,
+            24.0,
+            25.0
+          ],
+          "lim3": [
+            65.0,
+            135.0,
+            12.0,
+            13.0
           ]
         }
       },
@@ -1242,10 +1316,7 @@
             "n": [
               "turret_05",
               "aa_turret_01",
-              "aa_gun_01",
-              "turret_02",
-              "auxiliary_caliber_turret_01",
-              "auxiliary_caliber_gun_01"
+              "aa_gun_01"
             ]
           },
           "Weapon": [
@@ -1333,7 +1404,6 @@
               "startSpeed": 20.0,
               "useStartSpeed": true,
               "allowableDelta": 40.0,
-              "enableCourseCorrection": true,
               "gyroAngle": 0.0,
               "courseSmoothness": 100.0,
               "maxAngularSpeed": 0.8,
@@ -1378,7 +1448,6 @@
               "startSpeed": 20.0,
               "useStartSpeed": true,
               "allowableDelta": 40.0,
-              "enableCourseCorrection": true,
               "gyroAngle": 0.0,
               "courseSmoothness": 100.0,
               "maxAngularSpeed": 0.8,
@@ -1512,6 +1581,85 @@
                 "pitch": [
                   10.0,
                   10.0
+                ]
+              }
+            },
+            {
+              "trigger": "gunner6",
+              "triggerGroup": "special",
+              "blk": "gameData/weapons/rocketGuns/420mm_rur_5_alike_rocket_naval_bullet.blk",
+              "weaponType": "rockets",
+              "emitter": "rckt_head_17",
+              "flash": "rckt_head_17",
+              "ammoDpGenFmt": "rckt_head_%02d_dm",
+              "emitterGenRange": [
+                17,
+                20
+              ],
+              "emitterGenFmt": "rckt_head_%02d",
+              "useEmitter": true,
+              "allowableDelta": [
+                180.0,
+                1.0
+              ],
+              "bullets": 400,
+              "startFx": "smoke_rocketlaunch_ground",
+              "startFxOffset": [
+                1.5,
+                0.0,
+                0.0
+              ],
+              "defaultYaw": 0.0,
+              "defaultPitch": 10.0,
+              "speedYaw": 100.0,
+              "reloadTime": 20.0,
+              "ChainfireTime": 2.0,
+              "DelayAfterShoot": 0.0,
+              "aimMinDist": 10.0,
+              "aimMaxDist": 14000.0,
+              "randomAngle": 0.0,
+              "accuracyBotMultAir": 0.0,
+              "accuracyAir": 0.4,
+              "accuracyGnd": 1.0,
+              "errMeasureVel": 1.0,
+              "errTargettingOn100kmph": 0.0,
+              "errMeasureVelFast": 1.0,
+              "errMeasureVelFwdShift": 0.01,
+              "errMeasureVelDir": 0.1,
+              "errTargetting": 0.1,
+              "errExplTime": 0.0,
+              "turret": {
+                "head": "auxiliary_caliber_turret_01",
+                "gun": "auxiliary_caliber_gun_01"
+              },
+              "limits": {
+                "yaw": [
+                  -135.0,
+                  135.0
+                ],
+                "pitch": [
+                  10.0,
+                  10.0
+                ]
+              },
+              "limitsTable": {
+                "lim1": [
+                  -135.0,
+                  -65.0,
+                  12.0,
+                  13.0
+                ],
+                "lim2": [
+                  -65.0,
+                  65.0,
+                  24.0,
+                  25.0
+                ],
+                "lim3": [
+                  65.0,
+                  135.0,
+                  12.0,
+                  13.0
                 ]
               }
             },
@@ -1727,10 +1875,7 @@
             "n": [
               "turret_05",
               "aa_turret_01",
-              "aa_gun_01",
-              "turret_02",
-              "auxiliary_caliber_turret_01",
-              "auxiliary_caliber_gun_01"
+              "aa_gun_01"
             ]
           },
           "Weapon": [
@@ -1818,7 +1963,6 @@
               "startSpeed": 20.0,
               "useStartSpeed": true,
               "allowableDelta": 40.0,
-              "enableCourseCorrection": true,
               "gyroAngle": 0.0,
               "courseSmoothness": 100.0,
               "maxAngularSpeed": 0.8,
@@ -1863,7 +2007,6 @@
               "startSpeed": 20.0,
               "useStartSpeed": true,
               "allowableDelta": 40.0,
-              "enableCourseCorrection": true,
               "gyroAngle": 0.0,
               "courseSmoothness": 100.0,
               "maxAngularSpeed": 0.8,
@@ -1997,6 +2140,85 @@
                 "pitch": [
                   10.0,
                   10.0
+                ]
+              }
+            },
+            {
+              "trigger": "gunner6",
+              "triggerGroup": "special",
+              "blk": "gameData/weapons/rocketGuns/420mm_rur_5_alike_rocket_naval_bullet.blk",
+              "weaponType": "rockets",
+              "emitter": "rckt_head_17",
+              "flash": "rckt_head_17",
+              "ammoDpGenFmt": "rckt_head_%02d_dm",
+              "emitterGenRange": [
+                17,
+                20
+              ],
+              "emitterGenFmt": "rckt_head_%02d",
+              "useEmitter": true,
+              "allowableDelta": [
+                180.0,
+                1.0
+              ],
+              "bullets": 400,
+              "startFx": "smoke_rocketlaunch_ground",
+              "startFxOffset": [
+                1.5,
+                0.0,
+                0.0
+              ],
+              "defaultYaw": 0.0,
+              "defaultPitch": 10.0,
+              "speedYaw": 100.0,
+              "reloadTime": 20.0,
+              "ChainfireTime": 2.0,
+              "DelayAfterShoot": 0.0,
+              "aimMinDist": 10.0,
+              "aimMaxDist": 14000.0,
+              "randomAngle": 0.0,
+              "accuracyBotMultAir": 0.0,
+              "accuracyAir": 0.4,
+              "accuracyGnd": 1.0,
+              "errMeasureVel": 1.0,
+              "errTargettingOn100kmph": 0.0,
+              "errMeasureVelFast": 1.0,
+              "errMeasureVelFwdShift": 0.01,
+              "errMeasureVelDir": 0.1,
+              "errTargetting": 0.1,
+              "errExplTime": 0.0,
+              "turret": {
+                "head": "auxiliary_caliber_turret_01",
+                "gun": "auxiliary_caliber_gun_01"
+              },
+              "limits": {
+                "yaw": [
+                  -135.0,
+                  135.0
+                ],
+                "pitch": [
+                  10.0,
+                  10.0
+                ]
+              },
+              "limitsTable": {
+                "lim1": [
+                  -135.0,
+                  -65.0,
+                  12.0,
+                  13.0
+                ],
+                "lim2": [
+                  -65.0,
+                  65.0,
+                  24.0,
+                  25.0
+                ],
+                "lim3": [
+                  65.0,
+                  135.0,
+                  12.0,
+                  13.0
                 ]
               }
             },
@@ -2700,10 +2922,7 @@
       "details",
       "turret_05",
       "aa_turret_01",
-      "aa_gun_01",
-      "turret_02",
-      "auxiliary_caliber_turret_01",
-      "auxiliary_caliber_gun_01"
+      "aa_gun_01"
     ]
   },
   "upgraded_skin": {
@@ -2711,240 +2930,6 @@
     "replace_tex": [
       {
         "from": "camo_warshipdeepgray*",
-        "to": "camo_asiatic_forest*"
-      },
-      {
-        "from": "camo_rot_5*",
-        "to": "camo_bottom_green*"
-      }
-    ]
-  }
-}setOrientation": true
-        }
-      },
-      {
-        "name": "fire_after_hit_med",
-        "lifetime": 8.0,
-        "fx": {
-          "name": "smoke_after_hit_med",
-          "setOrientation": true
-        }
-      },
-      {
-        "name": "fire_after_hit_small",
-        "lifetime": 5.0,
-        "fx": {
-          "name": "fire_after_hit_small",
-          "setOrientation": true
-        }
-      },
-      {
-        "name": "fire_after_hit_small",
-        "lifetime": 5.0,
-        "fx": {
-          "name": "smoke_after_hit_small",
-          "setOrientation": true
-        }
-      }
-    ]
-  },
-  "breaches": {
-    "repairSpeed": 50.0,
-    "waterMassVel": -120000.0,
-    "waterMassMult": 15.0,
-    "sizeToRepair": [
-      0.01,
-      10.0,
-      1.0,
-      10.0
-    ],
-    "additionalWaterDeathThreshold": 12600000.0,
-    "additionalWaterCoverPartsThreshold": 4000000.0,
-    "additionalWaterShouldDiePercent": 0.3,
-    "fatalBreachDrownTime": 20.0,
-    "maxHeelingAngle": 35.0,
-    "maxHeelingTime": 10.0,
-    "criticalHeelingAnglePercent": 0.75,
-    "maxCriticalHeelingTime": 3.0,
-    "heelingDeathHeightOffsetMult": 0.0,
-    "sideCenterOfMassOffsetPercent": 0.2,
-    "additionalWaterInfluenceOnSpeed": 3.0
-  },
-  "shipCover": {
-    "cover": [
-      {
-        "part": "compartment_01_dm",
-        "weight": 1.0,
-        "maxWaterAlive": 0.6
-      },
-      {
-        "part": "compartment_02_dm",
-        "weight": 1.0,
-        "maxWaterAlive": 0.6
-      },
-      {
-        "part": "compartment_03_dm",
-        "weight": 1.0,
-        "maxWaterAlive": 0.6
-      }
-    ]
-  },
-  "winch": {
-    "length": 136.0
-  },
-  "smokeWall": {
-    "distance": 450.0,
-    "speed": 350.0,
-    "height": 0.0,
-    "length": 450.0,
-    "fxOffset": 65.0
-  },
-  "difficulty": {
-    "arcade": {
-      "shipRudderAreaMult": 1.0,
-      "tankRearmOnCaptureZone": true
-    }
-  },
-  "battleHideNodes": {
-    "n": [
-      "portholes",
-      "details",
-      "turret_05",
-      "aa_turret_01",
-      "aa_gun_01",
-      "auxiliary_caliber_turret_01",
-      "auxiliary_caliber_gun_01",
-      "turret_02"
-    ]
-  },
-  "upgraded_skin": {
-    "name": "prem_camo",
-    "replace_tex": [
-      {
-        "from": "camo_warshipdeepgray*",
-        "to": "camo_asiatic_forest*"
-      },
-      {
-        "from": "camo_rot_5*",
-        "to": "camo_bottom_green*"
-      }
-    ]
-  }
-<<<<<<< HEAD
-}setOrientation": true
-        }
-      },
-      {
-        "name": "fire_after_hit_med",
-        "lifetime": 8.0,
-        "fx": {
-          "name": "smoke_after_hit_med",
-          "setOrientation": true
-        }
-      },
-      {
-        "name": "fire_after_hit_small",
-        "lifetime": 5.0,
-        "fx": {
-          "name": "fire_after_hit_small",
-          "setOrientation": true
-        }
-      },
-      {
-        "name": "fire_after_hit_small",
-        "lifetime": 5.0,
-        "fx": {
-          "name": "smoke_after_hit_small",
-          "setOrientation": true
-        }
-      }
-    ]
-  },
-  "breaches": {
-    "repairSpeed": 50.0,
-    "waterMassVel": -120000.0,
-    "waterMassMult": 15.0,
-    "sizeToRepair": [
-      0.01,
-      10.0,
-      1.0,
-      10.0
-    ],
-    "additionalWaterDeathThreshold": 12600000.0,
-    "additionalWaterCoverPartsThreshold": 4000000.0,
-    "additionalWaterShouldDiePercent": 0.3,
-    "fatalBreachDrownTime": 20.0,
-    "maxHeelingAngle": 35.0,
-    "maxHeelingTime": 10.0,
-    "criticalHeelingAnglePercent": 0.75,
-    "maxCriticalHeelingTime": 3.0,
-    "heelingDeathHeightOffsetMult": 0.0,
-    "sideCenterOfMassOffsetPercent": 0.2,
-    "additionalWaterInfluenceOnSpeed": 3.0
-  },
-  "shipCover": {
-    "cover": [
-      {
-        "part": "compartment_01_dm",
-        "weight": 1.0,
-        "maxWaterAlive": 0.6
-      },
-      {
-        "part": "compartment_02_dm",
-        "weight": 1.0,
-        "maxWaterAlive": 0.6
-      },
-      {
-        "part": "compartment_03_dm",
-        "weight": 1.0,
-        "maxWaterAlive": 0.6
-      }
-    ]
-  },
-  "winch": {
-    "length": 136.0
-  },
-  "smokeWall": {
-    "distance": 450.0,
-    "speed": 350.0,
-    "height": 0.0,
-    "length": 450.0,
-    "fxOffset": 65.0
-  },
-  "difficulty": {
-    "arcade": {
-      "shipRudderAreaMult": 1.0,
-      "tankRearmOnCaptureZone": true
-    }
-  },
-  "battleHideNodes": {
-    "n": [
-      "portholes",
-      "details",
-      "turret_05",
-      "aa_turret_01",
-      "aa_gun_01",
-      "auxiliary_caliber_turret_01",
-      "auxiliary_caliber_gun_01",
-      "turret_02"
-    ]
-  },
-  "upgraded_skin": {
-    "name": "prem_camo",
-    "replace_tex": [
-      {
-        "from": "camo_warshipdeepgray*",
-        "to": "camo_asiatic_forest*"
-      },
-      {
-        "from": "camo_rot_5*",
-        "to": "camo_bottom_green*"
-      }
-    ]
-  }
-=======
->>>>>>> parent of 31456a6 (1.21.0.16)
-}rshipdeepgray*",
         "to": "camo_asiatic_forest*"
       },
       {

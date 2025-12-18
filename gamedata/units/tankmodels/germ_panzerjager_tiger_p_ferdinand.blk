@@ -132,7 +132,8 @@
         "armorThickness": 80.0
       },
       "superstructure_front_dm": {
-        "armorThickness": 100.0
+        "armorThickness": 100.0,
+        "disableProjectleBreaking": true
       },
       "turret_01_front_dm": {
         "armorThickness": 100.0
@@ -161,6 +162,9 @@
       "body_bottom_dm": {
         "armorThickness": 20.0
       },
+      "turret_02_bottom_dm": {
+        "armorThickness": 20.0
+      },
       "superstructure_bottom_dm": {
         "armorThickness": 25.0
       },
@@ -174,7 +178,7 @@
         "armorThickness": 80.0
       },
       "turret_bottom_dm": {
-        "armorThickness": 50.0
+        "armorThickness": 20.0
       },
       "turret_02_back_dm": {
         "armorThickness": 30.0
@@ -200,6 +204,15 @@
       "turret_06_top_dm": {
         "armorThickness": 80.0
       },
+      "turret_04_top_dm": {
+        "armorThickness": 30.0
+      },
+      "turret_01_top_dm": {
+        "armorThickness": 80.0
+      },
+      "turret_03_side_dm": {
+        "armorThickness": 30.0
+      },
       "turret_07_side_dm": {
         "armorThickness": 10.0
       },
@@ -217,6 +230,9 @@
       },
       "turret_08_front_dm": {
         "armorThickness": 30.0
+      },
+      "turret_01_bottom_dm": {
+        "armorThickness": 30.0
       }
     },
     "body_shields": {
@@ -230,13 +246,15 @@
       "ex_decor_02_dm": {},
       "ex_decor_body_r_03_dm": {},
       "ex_decor_body_l_01_dm": {},
+      "ex_decor_body_r_01_dm": {},
       "ex_decor_body_r_02_dm": {}
     },
     "mask": {
       "armorClass": "CHA_tank",
       "gun_mask_dm": {
-        "armorThickness": 250.0,
-        "hp": 10000.0
+        "armorThickness": 30.0,
+        "hp": 10000.0,
+        "armorClass": "RHA_tank"
       },
       "gun_mask_03_dm": {
         "armorThickness": 125.0,

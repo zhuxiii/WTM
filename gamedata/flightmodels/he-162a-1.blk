@@ -1794,6 +1794,20 @@
     "maxSpeed": 250.0,
     "turnTime": 26.9654
   },
+  "vehicleSkins": {
+    "camo": {
+      "replace_tex": [
+        {
+          "from": "he_162a_2_a*",
+          "to": "he162a_camo_a*"
+        },
+        {
+          "from": "he_162a_2_n*",
+          "to": "he162a_white_n*"
+        }
+      ]
+    }
+  },
   "commonWeapons": {
     "Weapon": {
       "slot": 0,
@@ -1943,22 +1957,7 @@
       "to": "he_162a_1_prototype_a*"
     }
   }
-}ex": 2
-          }
-        ]
-      }
-    }
-  },
-  "default_skin_tomoe": {
-    "replace_tex": {
-      "from": "he_162a_1_a*",
-      "to": "he_162a_1_a_tomoe*"
-    }
-  },
-  "cutting": {
-    "_emtr_break_wing0_l_from": [
-      -0.770629,
-      0.323838,
+}    0.323838,
       0.60565
     ],
     "_emtr_break_wing0_l_to": [

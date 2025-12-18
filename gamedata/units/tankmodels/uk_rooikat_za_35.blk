@@ -45,6 +45,7 @@
   "destroysRendInstances": true,
   "destroysTrees": true,
   "radarCanLockTargetFromTPV": false,
+  "guidanceAutoUnlockTime": 8.0,
   "radarAnimVar": "radar_drive",
   "radarAntenaSpeed": 720.0,
   "radarDeployTime": 3.525,
@@ -3233,9 +3234,7 @@
   "battleHideNodes": {
     "n": "details"
   }
-}      0.0,
-      3.7,
-      0.4
+}
     ],
     "detectionHeight": 2.42
   },

@@ -3951,7 +3951,8 @@
       "speed": 2.0,
       "completely": true,
       "partRepairHp": 1.0,
-      "hpForRepair": 0.7
+      "hpForRepair": 0.7,
+      "modRequired": false
     },
     "antenna_target_location_01_dm": {
       "speed": 2.0,
@@ -3963,7 +3964,8 @@
       "speed": 2.0,
       "completely": true,
       "partRepairHp": 1.0,
-      "hpForRepair": 0.7
+      "hpForRepair": 0.7,
+      "modRequired": false
     },
     "commander_panoramic_sight_dm": {
       "speed": 1.0,
@@ -6888,9 +6890,7 @@
       125000.0
     ]
   }
-}terHitModelName": "tank_shell_apbc_destr"
-    },
-    "ap_tank": {
+}ap_tank": {
       "modelName": "tank_bullet_ap",
       "gbufferModelName": "tank_shell_apbc",
       "afterHitModelName": "tank_shell_apbc_destr"

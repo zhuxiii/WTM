@@ -59,6 +59,7 @@
     "day": 6
   },
   "clustered_lights": {
+    "enabled": true,
     "maxClusteredDist": 2000.0
   },
   "micro_details": {
@@ -120,8 +121,7 @@
   "technicsSkins": {
     "groundSkin": "sand"
   }
-} },
-  "technicsSkins": {
+}": {
     "groundSkin": "sand"
   }
 } },

@@ -103,6 +103,7 @@
   "rocketIndicatorShowFriendly": false,
   "rocketIndicatorShowUnguided": false,
   "rocketIndicatorShowSelf": false,
+  "rocketIndicatorShowAtmgEnemy": true,
   "rocketIndicatorLosCheck": true,
   "forceShowDetectedOnceShips": true,
   "rearmSupportPlaneInAir": false,
@@ -130,7 +131,8 @@
   "timeBeforeEngineNoticeFire": 0.5,
   "noAnimationForTankMisfire": true,
   "enableImpostorPreshadowCompression": false,
-  "forceDisableRadarsOnSpawnGm": true,
+  "forceDisableRadarsOnSpawnGm": false,
+  "enableRadarAfterRepairGm": true,
   "defaultTankAimPointOffset": [
     0.0,
     0.0,
@@ -305,6 +307,9 @@
     4.0
   ],
   "useBurningDecals": true,
+  "countermeasuresPeriods": 1.0,
+  "countermeasuresSeries": 4,
+  "countermeasuresSeriesPeriods": 1.0,
   "jetLightRadius": 40.0,
   "jetLightAttenuation": 0.8,
   "jetLightBrightness": 5.0,
@@ -365,7 +370,7 @@
   "physObjUseMovementDamping": true,
   "needCreateWreckedPartShip": false,
   "dayTimeSpeed": 0.0,
-  "syncWeatherPeriod": 1000000.0,
+  "syncWeatherPeriod": 86400.0,
   "useMedicalKitWithToolkit": true,
   "missionTeamTicketsPenaltyStatEnabled": true,
   "missionTeamTicketsPenaltyStatDebug": true,
@@ -381,6 +386,8 @@
   "rtsModeForAircraftCarrier": true,
   "allowSpectatingEnemiesInLastManStanding": false,
   "minTorpedoHitTimeThreatShow": 10.0,
+  "asrocTargetOnlySubmarine": true,
+  "autoLockSelectedTarget": true,
   "tracers": {
     "headFadeTime": 4.0,
     "headSpeedScale": [
@@ -18177,6 +18184,20 @@
     "normalY": 0.07,
     "sharpness": 3.5
   },
+  "tankEnviCover": {
+    "enabled": true,
+    "snowEmitterIntensity": 0.0,
+    "velocitySheddingMult": 0.0005,
+    "impulseEmitterLifetime": 0.3,
+    "impulseEmitterCaliberMult": 40.0,
+    "impulseEmitterMinCaliber": 0.05,
+    "sootEmitterMaxRadius": 1.7,
+    "sootEmitterRadiusMul": 0.8,
+    "sootEmitterIntensity": 0.3,
+    "explosionEmitterMinMass": 10.0,
+    "explosionEmitterMassMult": 0.05,
+    "explosionEmitterDuration": 1.0
+  },
   "apex": {
     "gravity": -9.8,
     "randomTorque": 100000.0,
@@ -19031,6 +19052,7 @@
   "reactivGuiBlk": {
     "reactivGuiForAircraft": true,
     "reactivGuiForArbiter": true,
+    "reactivGuiAAMSightActivated": true,
     "collapsedIconForRadarTws": true,
     "indicationForCollapsedRadar": false,
     "reactivGuiParamTableActivated": true

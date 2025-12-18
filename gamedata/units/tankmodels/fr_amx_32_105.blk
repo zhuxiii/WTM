@@ -189,6 +189,58 @@
       0.95
     ]
   },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
+    ]
+  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank_modern",
@@ -2332,7 +2384,7 @@
       ],
       "CenterOfGravityClampY": [
         0.0,
-        0.7
+        0.3
       ],
       "AdvancedMass": false,
       "trackMass": 2500.0
@@ -2340,7 +2392,13 @@
     "tracks": {
       "animationMultiplier": -0.63,
       "height": 0.085,
-      "width": 0.5
+      "width": 0.5,
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.1,
+        0.3
+      ]
     },
     "collisionProps": {
       "cls_turret_01": "convex_hull",
@@ -2352,12 +2410,12 @@
       "minRPM": 600.0
     },
     "mechanics": {
-      "steerType": "clutch_braking",
       "maxBrakeForce": 270000.0,
       "driveGearRadius": 0.33,
       "mainGearRatio": 7.4,
       "sideGearRatio": 1.0,
       "neutralGearRatio": 7.4,
+      "alternativeGearControl": 2.0,
       "gearRatios": {
         "ratio": [
           -0.62,
@@ -3489,19 +3547,6 @@
       "replace_tex": {
         "from": "fr_camo_vert_olive_arme*",
         "to": "ger_camo_carc*"
-      }
-    }
-  ],
-  "smokeScreenExhaustEmitters": {
-    "emitter": [
-      "emtr_exhaust_01",
-      "emtr_exhaust_04"
-    ]
-  },
-  "battleHideNodes": {
-    "n": "details"
-  }
-}o_carc*"
       }
     }
   ],

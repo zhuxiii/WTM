@@ -8,6 +8,7 @@
   "rejectFarOneshots": true,
   "androidUseOpenSLFallback": true,
   "blockFailedEvents": true,
+  "allowEventsWithoutAssets": true,
   "memoryPc": 100,
   "memoryPS4": 175,
   "memoryPCLowMode": 100,

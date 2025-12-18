@@ -1269,6 +1269,9 @@
     "sfxPathStudio": "aircraft/explosions",
     "sfxEvent": "heavy_explosion_air"
   },
+  "explosion_state_change": {
+    "fx": "explosion_state_change_cmps_fx"
+  },
   "muzzle_air_8mm": {
     "fx": "muzzle_air_8mm_cmps_fx",
     "soundEnableDistance": 100.0
@@ -3750,9 +3753,12 @@
     "sfxPathStudio": "naval/gui",
     "sfxEvent": "misc_open_tank"
   },
+  "misc_godray": {
+    "fx": "misc_godray_cmps_fx"
+  },
   "misc_christmas_cracker": {
     "fx": "misc_christmas_cracker_cmps_fx",
-    "sfxPathStudio": "event/explosions",
+    "sfxPathStudio": "event/ui",
     "sfxEvent": "gift_destroy"
   },
   "misc_christmas_gift_add": {
@@ -4230,10 +4236,6 @@
     "sfxPathStudio": "aircraft/effects"
   }
 }
-    "fx": "aerobatics_smoke_white_cmps_fx",
-    "sfxPath": "sounds/effects",
-    "sfxPathStudio": "aircraft/effects"
-  },
   "aerobatics_smoke_tail_2": {
     "fx": "aerobatics_smoke_red_cmps_fx",
     "sfxPath": "sounds/effects",

@@ -71,6 +71,58 @@
       0.8
     ]
   },
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
+    ]
+  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank",
@@ -2165,7 +2217,7 @@
       ],
       "CenterOfGravityClampY": [
         0.0,
-        0.5
+        0.3
       ],
       "AdvancedMass": false,
       "trackMass": 1300.0
@@ -2178,6 +2230,12 @@
         5.0,
         0.0,
         0.6,
+        0.3
+      ],
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.1,
         0.3
       ]
     },
@@ -2193,11 +2251,11 @@
       "model": "v_46_5m"
     },
     "mechanics": {
-      "steerType": "clutch_braking",
       "maxBrakeForce": 160000.0,
       "driveGearRadius": 0.28345,
       "mainGearRatio": 0.7,
       "sideGearRatio": 6.78,
+      "alternativeGearControl": 2.0,
       "gearRatios": {
         "ratio": [
           -6.0,
@@ -3655,42 +3713,7 @@
       "details_02"
     ]
   }
-}itters": {
-    "emitter": [
-      "emtr_exhaust_01",
-      "emtr_exhaust_04"
-    ]
-  },
-  "battleHideNodes": {
-    "n": [
-      "details_01",
-      "details_02"
-    ]
-  }
-}"explosionFx": "hit_28_38mm_metal_he",
-      "mountNode": "bone_grenade",
-      "mesh": "3uof_14_rocket",
-      "reactionTime": 0.06,
-      "aiming": true,
-      "targets": {
-        "all": {
-          "speed": [
-            70.0,
-            700.0
-          ],
-          "size": [
-            0.05,
-            0.5
-          ],
-          "self": false,
-          "ally": false
-        }
-      },
-      "ammo": {
-        "mass": 9.3,
-        "explosiveType": "tg_40",
-        "explosiveMass": 2.2,
-        "damage": {
+}    "damage": {
           "shatter": {
             "useRealShatters": true,
             "countPortion": 0.2,

@@ -45,6 +45,7 @@
   "fireFx": "ground_model_fire",
   "destroysRendInstances": true,
   "destroysTrees": true,
+  "guidanceAutoUnlockTime": 8.0,
   "radarAnimVar": "radar_drive",
   "radarAnimPitchVar": "radar_drive2",
   "radarAntenaSpeed": 720.0,

@@ -486,7 +486,7 @@
     "vaporCalcSunTransmittance": false,
     "replaceEnviProbeWithLocal": true,
     "allowRIsInDynamicCube": false,
-    "tiledRenderLights": false,
+    "tiledRenderLights": true,
     "tiledRenderLightsUseRt": true,
     "guiHdrTonemap": [
       1.25,
@@ -1028,9 +1028,10 @@
           "powWeight": 0.45
         },
         "hangar": {
-          "shadowDist": 150.0,
+          "shadowDist": 70.0,
           "powWeight": 0.9,
-          "zNearForCascadeDistribution": 0.5
+          "zNearForCascadeDistribution": 0.5,
+          "fadeOut": 5.0
         },
         "hangar_ship": {
           "shadowDist": 150.0,
@@ -1068,9 +1069,10 @@
           "powWeight": 0.6
         },
         "hangar": {
-          "shadowDist": 150.0,
+          "shadowDist": 70.0,
           "powWeight": 0.9,
-          "zNearForCascadeDistribution": 0.5
+          "zNearForCascadeDistribution": 0.5,
+          "fadeOut": 5.0
         },
         "hangar_ship": {
           "shadowDist": 250.0,
@@ -1109,9 +1111,10 @@
           "powWeight": 0.6
         },
         "hangar": {
-          "shadowDist": 150.0,
+          "shadowDist": 70.0,
           "powWeight": 0.9,
-          "zNearForCascadeDistribution": 0.5
+          "zNearForCascadeDistribution": 0.5,
+          "fadeOut": 5.0
         },
         "hangar_ship": {
           "shadowDist": 250.0,
@@ -1151,9 +1154,10 @@
           "powWeight": 0.6
         },
         "hangar": {
-          "shadowDist": 150.0,
+          "shadowDist": 70.0,
           "powWeight": 0.9,
-          "zNearForCascadeDistribution": 0.5
+          "zNearForCascadeDistribution": 0.5,
+          "fadeOut": 5.0
         },
         "hangar_ship": {
           "shadowDist": 250.0,
@@ -2526,13 +2530,7 @@
   "stcode": {
     "tag": "$version"
   }
-}}  "tag": "$version"
-  }
-}      }
-      },
-      "AMD": {
-        "driverProps": {
-          "clearColorBug": {
+}learColorBug": {
             "entry": {
               "data": {
                 "affected": true

@@ -46,12 +46,65 @@
   "destroysRendInstances": true,
   "destroysTrees": true,
   "autoSightDistanceCorrection": true,
+  "guidanceAutoUnlockTime": 8.0,
   "radarAnimVar": "radar_drive",
   "radarAntenaSpeed": 720.0,
   "type": "typeSPAA",
   "minRelativeTankCameraThreshold": 1.1,
   "rearmSmokeTimeOnField": 60.0,
   "canReloadNonGuns": true,
+  "steeringTableAlternative": {
+    "point": [
+      [
+        -12.0,
+        0.0
+      ],
+      [
+        -13.0,
+        0.4
+      ],
+      [
+        -45.0,
+        0.75
+      ],
+      [
+        -70.0,
+        0.9
+      ],
+      [
+        -75.0,
+        1.0
+      ],
+      [
+        12.0,
+        0.0
+      ],
+      [
+        13.0,
+        0.1
+      ],
+      [
+        20.0,
+        0.15
+      ],
+      [
+        55.0,
+        0.6
+      ],
+      [
+        60.0,
+        0.7
+      ],
+      [
+        74.0,
+        0.8
+      ],
+      [
+        75.0,
+        1.0
+      ]
+    ]
+  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "CHA_tank",
@@ -1812,7 +1865,7 @@
       ],
       "CenterOfGravityClampY": [
         0.0,
-        0.7
+        0.3
       ],
       "AdvancedMass": false,
       "trackMass": 2500.0
@@ -1820,7 +1873,13 @@
     "tracks": {
       "animationMultiplier": 0.71,
       "height": 0.095,
-      "width": 0.55
+      "width": 0.55,
+      "fricSideRotAlternative": [
+        5.0,
+        0.0,
+        1.1,
+        0.3
+      ]
     },
     "collisionProps": {
       "cls_turret": "convex_hull",
@@ -1837,6 +1896,7 @@
       "mainGearRatio": 5.42,
       "sideGearRatio": 1.0,
       "neutralGearRatio": 9.0,
+      "alternativeGearControl": 5.0,
       "gearRatios": {
         "ratio": [
           -6.89,
@@ -3222,44 +3282,7 @@
       "decal0Tex": "usa_tank_emblem_08"
     }
   }
-}false,
-      "decal0Abs": false,
-      "decal0OppositeMirrored": false,
-      "decal0WidthBox": 0.0,
-      "decal0Tex": "",
-      "decal1Line0": [
-        2.62989,
-        -1.50783e-7,
-        -0.00229538,
-        -0.909657
-      ],
-      "decal1Line1": [
-        -0.000731564,
-        -2.49279,
-        -0.838032,
-        4.82714
-      ],
-      "decal1Line2": [
-        -2.62989,
-        -1.36853e-7,
-        -0.00229543,
-        1.90967
-      ],
-      "decal1Line3": [
-        -0.000731334,
-        -2.49279,
-        0.838032,
-        4.82361
-      ],
-      "decal1HaveCP": true,
-      "decal1CPNormDepth": [
-        -0.000827317,
-        0.318657,
-        -0.94787,
-        -2.09893
-      ],
-      "decal1CPNormDepth1": [
-        -0.000827317,
+}7,
         0.318657,
         0.94787,
         -2.10292

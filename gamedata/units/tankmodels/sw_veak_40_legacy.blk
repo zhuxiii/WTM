@@ -48,6 +48,7 @@
   "fireFx": "ground_model_fire",
   "destroysRendInstances": true,
   "destroysTrees": true,
+  "guidanceAutoUnlockTime": 8.0,
   "type": "typeSPAA",
   "minRelativeTankCameraThreshold": 1.05,
   "drowningCheckHeightMultiplier": 0.45,

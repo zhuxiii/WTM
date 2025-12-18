@@ -233,7 +233,8 @@
     "_group": {
       "_replicate": true,
       "stats__damage": 0.0,
-      "stats__score": 0.0
+      "stats__score": 0.0,
+      "stats__flagsDelivered": 0
     }
   },
   "wtm_server_player": {
@@ -285,7 +286,8 @@
     "damageLogStats:object": {},
     "streakLog:object": {},
     "battleRoyaleLog:array": {},
-    "raceLog:array": {}
+    "raceLog:array": {},
+    "missionScoreLog:array": {}
   },
   "statistic_players": {
     "statisticPlayers:object": {},
@@ -305,6 +307,9 @@
     "lap_time_fast": 0.0,
     "lap_time_faster": 0.0,
     "lap_time_fastest": 0.0,
+    "userstat_battle_score": false,
+    "allow_spend_items": true,
+    "penalty_id": "",
     "userstat_modes:list<t>": {}
   },
   "battle_perfstat": {
@@ -357,14 +362,7 @@
       }
     ]
   }
-}      1.0
-      ],
-      "lightning__series_size_interval": [
-        2.0,
-        4.0
-      ],
-      "lightning__series_fadeout_time": 0.08,
-      "lightning__series_probability": 0.5,
+}ng__series_probability": 0.5,
       "lightning__series_create_bolt": true,
       "lightning__bolt_probability": 0.7,
       "lightning__bolt_step_size": 1300,
