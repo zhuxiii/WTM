@@ -2,6 +2,7 @@
   "model": "mig_19pt",
   "fmFile": "fm/mig-19.blk",
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/jet_fighter_metaparts.blk",
+  "useTouchTargeting": true,
   "gearSinkRangeLR": 0.135,
   "gearSinkRangeC": 0.088,
   "gyroSight": true,

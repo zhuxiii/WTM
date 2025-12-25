@@ -6,10 +6,10 @@
       "L_inv_white": 0.3
     },
     "adaptation": {
-      "useAdaptation": false,
+      "useAdaptation": true,
       "minExposure": 0.5,
       "maxExposure": 0.5,
-      "initialExposure": 0.5
+      "initialExposure": 0.7
     },
     "DemonPostFx": {
       "use": true,
@@ -28,8 +28,8 @@
       "hdrStarPowerMul": 0.0
     },
     "tonemapping": {
-      "tonemapContrast": 1.24,
-      "tonemapShoulder": 0.87,
+      "tonemapContrast": 1.5,
+      "tonemapShoulder": 0.92,
       "tonemapMidIn": 0.15,
       "tonemapMidOut": 0.26,
       "tonemapHdrMax": 4.0
@@ -706,4 +706,5 @@
       }
     }
   }
+}
 }

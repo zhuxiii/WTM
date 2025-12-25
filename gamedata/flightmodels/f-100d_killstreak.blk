@@ -3,6 +3,7 @@
   "fmFile": "fm/f_100d.blk",
   "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/jet_fighter_metaparts.blk",
   "harmonizationSuffix": "_tomoe",
+  "useTouchTargeting": true,
   "haveCCRPForBombs": true,
   "haveCCRPForRocket": false,
   "havePointOfInterestDesignator": true,

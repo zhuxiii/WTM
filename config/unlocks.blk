@@ -2651,7 +2651,7 @@
       "mode": {
         "type": "missionTriggerAction",
         "triggerId": "flagDelivery",
-        "num": 5
+        "num": 6
       }
     },
     {

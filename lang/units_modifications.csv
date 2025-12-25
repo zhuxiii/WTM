@@ -343,42 +343,42 @@ Menimbulkan damage dalam jumlah besar jika musuh menyentuhnya";"ทิ้งไ�
 "modification/protection_ammo_wetting/desc";"Reduces damage in case of detonation of the ammunition storages by 25%";"Subissez moins de dégâts en cas de détonation des stocks de munitions de 25 %";"Riduce i danni in caso di detonazione delle stive munizioni del 25%";"Im Falle einer Detonation des Munitionslagers wird der Schaden um 25 % reduziert.";"Reduce el daño en caso de detonación de los depósitos de munición en un 25%";"Снижает урон при детонации погребов боезапаса на 25%";"Зменшує шкоду від детонації складу боєприпасів на 25%";"Mniejsze obrażenia w przypadku detonacji magazynów amunicji o 25%";"Sofre menos danos em caso de detonação do depósito de munições em 25%";"Mühimmat depolarının infilak etmesi durumunda hasarı %25 azaltır";"V případě výbuchu muničních zásobníků je poškození menší o 25 %";"Μικρότερη ζημιά σε περίπτωση πυροδότησης των αποθηκών πυρομαχικών κατά 25%";"Mengurangi damage sebesar 25% jika terjadi ledakan pada penyimpanan amunisi";"ได้รับความเสียหายลดลง 25% ในกรณีที่ที่เก็บกระสุนระเบิดขึ้น";"습식 탄약고 시스템을 채택하여 화재 발생 시 탄약고 유폭 확률을 25% 줄여줍니다.";"弹\t药\t殉\t爆\t造\t成\t伤\t害\t减\t少 25%";"弾薬庫が\t爆発した\t際の\tダメージを\t25%低下させる";"彈\t藥\t殉\t爆\t造\t成\t的\t傷\t害\t減\t少 25%";;
 "modification/protection_new_sonar";"Sonar station";"Station sonar";"Stazione sonar";"Sonarstation";"Estación de sonar";"Гидроакустика";"Сонарна станція";"Sonar";"Estação de SONAR";"Sonar istasyonu";"Sonarová stanice";"Σταθμός σόναρ";"Stasiun sonar";"สถานีโซนาร์";"소나 스테이션";"声\t呐\t设\t备";"音波探知基地";"聲\t吶\t設\t備";"max 20 symbols";
 "modification/protection_new_sonar/desc";"Detects submarines near the ship
-radius: up to 1,5 km 
-depth: up to 50 m";"Détecte les sous-marins à proximité du navire
-rayon: jusqu'à 1,5 km
-profondeur: jusqu'à 50 m";"Avvista i sommergibili vicino alla nave
-raggio: fino a 1,5km
-profondità: fino a 50m";"Erkennt U-Boote in der Nähe des Schiffes
-Radius: bis zu 1,5 km 
-Tiefe: bis zu 50 m";"Detecta submarinos cerca del barco
-radio: hasta 1,5 km 
-profundidad: hasta 50 m";"Обнаруживает подводные лодки вокруг корабля
-Радиус: до 1,5 км
-Глубина: до 50 м";"Виявляє підводні човни поряд із кораблями
-радіус: до 1,5 км 
-глибина: до 50 м";"Wykrywa okręty podwodne w pobliżu okrętu
-promień: do 1,5 km 
-głębokość: do 50 m";"Deteta submarinos perto do navio
-raio: até 1,5 km 
-profundidade: até 50 m";"Gemiye yakın denizaltıları tespit eder
-yarı çap: 1,5 km'ye kadar 
-derinlik: 50 m'ye kadar";"Detekuje ponorky v blízkosti lodi
-poloměr: až 1,5 km 
-hloubka: až 50 m";"Εντοπίζει υποβρύχια κοντά στο πλοίο
+radius: up to 6 km
+depth: up to 30 m";"Détecte les sous-marins à proximité du navire
+rayon: jusqu'à 6 km
+profondeur: jusqu'à 30 m";"Avvista i sommergibili vicino alla nave
+raggio: fino a 6km
+profondità: fino a 30m";"Erkennt U-Boote in der Nähe des Schiffes
+Radius: bis zu 6 km 
+Tiefe: bis zu 30 m";"Detecta submarinos cerca del barco
+radio: hasta 6 km
+profundidad: hasta 30 m";"Обнаруживает подводные лодки вокруг корабля
+Радиус: до 6 км
+Глубина: до 30 м";"Виявляє підводні човни поряд із кораблями
+радіус: до 6 км
+глибина: до 30 м";"Wykrywa okręty podwodne w pobliżu
+zasięg: do 6 km
+głębokość: do 30 m";"Deteta submarinos perto do navio
+raio: até 6 km
+profundidade: até 30 m";"Gemiye yakın denizaltıları tespit eder
+yarı çap: 6 km'ye kadar
+derinlik: 30 m'ye kadar";"Detekuje ponorky v blízkosti lodi
+poloměr: až 6 km 
+hloubka: až 30 m";"Εντοπίζει υποβρύχια κοντά στο πλοίο
 ακτίνα: έως 1,5 km 
 βάθος: έως 50 m";"Mendeteksi kapal selam di dekat kapal
-radius: hingga 1,5 km
-kedalaman: hingga 50 m";"ตรวจจับเรือดำน้ำใกล้ๆ เรือ
+radius: hingga 6 km
+kedalaman: hingga 30 m";"ตรวจจับเรือดำน้ำใกล้ๆ เรือ
 รัศมี: สูงสุด 1.5 กม.
 ความลึก: สูงสุด 50 ม.";"함선 근처의 잠수함을 감지해낼 수 있습니다.
-범위: 최대 1.5km
-심도: 최대 50m";"探\t测\t舰\t艇\t周\t边\t潜\t艇\t单\t位\t的\t位\t置
-探\t测\t半\t径：\t1.5 千\t米
-探\t测\t深\t度：\t50 米";"艦船の\t辺くにある\t潜水艦を\t探知する
-半径：\t最大\t1,5 km 
-深度：\t最大\t50 m";"偵\t測\t船\t艦\t附\t近\t的\t潛\t艇
-半\t徑：\t最\t大 1.5 公\t里
-深\t度：\t最\t大 50 公\t尺";;
+범위: 최대 6km
+심도: 최대 30m";"探\t测\t舰\t艇\t周\t边\t潜\t艇\t单\t位\t的\t位\t置
+探\t测\t半\t径：\t最\t大 6 千\t米
+探\t测\t深\t度：\t最\t大 30 米";"艦船の\t辺くにある\t潜水艦を\t探知する
+半径：\t最大\t6 km 
+深度：\t最大\t30 m";"偵\t測\t船\t艦\t附\t近\t的\t潛\t艇
+半\t徑：\t最\t大 6 公\t里
+深\t度：\t最\t大 30 公\t尺";;
 "modification/protection_new_fireProtection";"Fire protection";"Protection contre l’incendie";"Sistema antincendio";"Brandschutz";"Protección contra incendios";"Защита от пожара";"Протипожежна система";"Ochrona przeciwpożarowa";"Proteção contra fogo";"Yangından korunma";"Požární ochrana";"Προστασία από φωτιά";"Proteksi kebakaran";"ทนไฟ";"방화 체계";"防\t火\t改\t造";"防火";"防\t火\t改\t造";"max 20 symbols";
 "modification/protection_new_fireProtection/desc";"Take 50% less fire damage";"Subit 50% de dégâts de feu en moins";"Si subiscono il 50% in meno di danni da incendio";"50 % weniger Feuerschaden";"Recibe un 50% menos de daño por fuego";"Снижает урон от пожара на 50%";"Зменшення шкоди від пожежі на 50%";"Otrzymuje 50% mniej obrażeń od pożaru";"Sofre menos 50% de danos de fogo";"%50 daha az yangın hasarı al";"O 50 % nižší poškození ohněm";"Αντιμετωπίστε 50% λιγότερη ζημιά από φωτιά";"Mengurangi damage akibat kebakaran sebesar 50%";"ได้รีบความเสียหายจากไฟลดลง 50%";"화재로 인한 피해가 50% 감소합니다.";"舰\t艇\t起\t火\t后\t造\t成\t的\t伤\t害\t减\t少 50%";"火災時の\tダメージを\t50%低下させる";"船\t艦\t起\t火\t後\t造\t成\t的\t傷\t害\t減\t少 50%";;
 "modification/maintanance_new_propellers";"New propellers";"Nouvelles hélices";"Nuove eliche";"Neue Propeller";"Hélices nuevas";"Новые винты";"Нові пропелери";"Nowe śruby napędowe";"Novas hélices";"Yeni pervaneler";"Nové lodní šrouby";"Νέες προπέλες";"Baling-baling baru";"ใบพัดใหม่";"새 프로펠러";"螺\t旋\t桨\t翻\t新";"新しい\tプロペラ";"螺\t旋\t槳\t翻\t新";"max 20 symbols";
@@ -416,4 +416,5 @@ Waktu maksimum perbaikan dalam pertempuran berkurang sebanyak 3";"ชุดเ�
 "modification/air/machinegun_belt_heit/desc";"The rounds in this belt contain significantly more explosive incendiary material. It is designed for rapidly destroying lightly armored targets.";"Les balles de cette ceinture contiennent des matières incendiaires beaucoup plus explosives. Elle est conçue pour détruire rapidement des cibles légèrement blindées.";"I colpi di questo nastro sono composti in maggioranza da esplosivi. Sono pensati per distruggere velocemente bersagli leggeri.";"Die Geschosse in diesem Gurt enthalten deutlich mehr explosives Brandmaterial. Er ist für die schnelle Zerstörung von leicht gepanzerten Zielen gedacht.";"The rounds in this belt contain significantly more explosive incendiary material. It is designed for rapidly destroying lightly armored targets.";"Пули этой ленты содержат в себе намного больше разрывного зажигательного вещества. Предназначена для быстрого уничтожения слабо бронированных целей";"Набої з цієї стрічки містять значно більше вибухового запалювального матеріалу. Вони призначені для швидкого знищення легкоброньованих цілей.";"Naboje w tej taśmie zawierają znacznie więcej materiału zapalającego. Jest przeznaczony do szybkiego niszczenia lekko opancerzonych celów.";"As munições desta cinta contêm significativamente mais explosivo. Desenhada para abater rapidamente alvos com pouca blindagem.";"Bu kemerdeki mermiler önemli ölçüde daha fazla patlayıcı yangın çıkarıcı madde içerir. Hafif zırhlı hedefleri hızla imha etmek için tasarlanmıştır.";"Náboje v tomto pásu obsahují výrazně více výbušného zápalného materiálu. Je určen k rychlému ničení lehce obrněných cílů.";"Τα βλήματα αυτού του ιμάντα περιέχουν αρκετά περισσότερο εκρηκτικό εμπρηστικό υλικό. Έχει σχεδιαστεί για να καταστρέφει γρήγορα ελαφρά θωρακισμένους στόχους.";"Peluru dalam sabuk ini mengandung material pembakar yang jauh lebih mudah meledak. Sabuk ini dirancang untuk menghancurkan target yang menggunakan armor ringan dengan cepat.";"กระสุนในสายพานนี้มีวัตถุดิบระเบิดมากกว่าปกติ โดยออกแบบมาให้ทำลายเป้าหมายหุ้มเกราะเบาอย่างรวดเร็ว";"이 탄띠에 든 탄은 더 많은 소이 재료가 들어 있어 얇은 장갑을 두른 장비들을 상대하는 데 효과적입니다.";"弹\t链\t中\t的\t弹\t药\t组\t分\t装\t填\t有\t更\t多\t的\t装\t药\t与\t燃\t烧\t剂，\t适\t合\t用\t于\t快\t速\t摧\t毁\t轻\t装\t甲\t目\t标。";"この\tベルトの\t弾薬には、\tかなり\t多くの\t爆発性焼夷物質が\t含まれている。\t軽装甲の\t標的を\t迅速に\t破壊するように\t設計されている。";"該\t彈\t藥\t配\t置\t含\t有\t更\t多\t的\t爆\t炸\t燃\t燒\t物\t質，\t專\t門\t設\t計\t來\t快\t速\t摧\t毀\t輕\t裝\t甲\t目\t標。";;
 "modification/air/machinegun_belt_night/desc";"A special variant of tracer belt with dimmed glow. Generally, it has weaker armor-piercing capability compared to other belts.";"Une variante spéciale de la ceinture traçante avec une lueur atténuée. En général, sa capacité de perforation de blindage est plus faible que celle des autres ceintures.";"Una speciale versione dei nastri con traccianti a bassa visibilità. Generalmente è meno perforante rispetto ai nastri di altri tipi.";"Eine spezielle Variante des Gurtes mit Leuchtspur und gedämpftem Glimmen. Im Allgemeinen hat er im Vergleich zu anderen Gurten eine schwächere Panzerungsdurchschlagskraft.";"Una variante especial del cinturón trazador con brillo atenuado. Generalmente, su capacidad perforante es menor que la de otros cinturones.";"Специальный вариант трассирующей ленты с приглушенным свечением. Как правило, слабее прочих лент пробивает броню.";"Спеціальний тип трасувальної стрічки з приглушеним світінням. Зазвичай вона має слабшу бронебійну силу порівняно з іншими стрічками.";"Specjalny wariant taśmy smugowej z przyciemnioną poświatą. Ogólnie rzecz biorąc, ma słabszą zdolność przebijania pancerza w porównaniu do innych taśm.";"Variante especial da cinta tracejante com menos luminosidade. Em geral e em comparação, tem menos penetração.";"Sönük parıltılı özel bir izleyici kemer çeşididir. Genel olarak, diğer kemerlere kıyasla daha zayıf zırh delme kabiliyetine sahiptir.";"Speciální varianta trasovacího pásu s tlumeným svitem. V porovnání s ostatními pásy má obecně slabší schopnost prorazit pancíř.";"Μια ειδική παραλλαγή του ιμάντα τροχιοδεικτικών με αμυδρή λάμψη. Γενικά, έχει μικρότερη ικανότητα διάτρησης θωράκισης σε σύγκριση με άλλους ιμάντες.";"Sabuk amunisi tracer varian khusus dengan cahaya redup. Secara umum, kemampuan penembus armor sabuk ini lebih lemah dibandingkan dengan sabuk lainnya.";"สายพานส่องวิถีรุ่นพิเศษเรืองแสง โดยทั่วไปแล้วมีความสามารถในการเจาะเกราะน้อยกว่าสายพานอื่นๆ";"궤적이 비교적 흐릿하게 표시되는 예광탄입니다. 이 탄띠의 경우 다른 탄띠들보다 비교적 낮은 관통력을 가지고 있습니다.";"特\t殊\t类\t型\t的\t曳\t光\t弹\t链，\t留\t下\t的\t曳\t光\t轨\t迹\t较\t常\t规\t曳\t光\t弹\t略\t暗。\t整\t体\t穿\t甲\t能\t力\t有\t所\t削\t减。";"輝きが\t抑えられた\t特別な\tトレーサーベルト。\t一般的に\t他の\tベルトに\t比べ、\t徹甲能力は\t弱い。";"一\t種\t特\t殊\t的\t曳\t光\t彈\t藥\t配\t置，\t具\t有\t暗\t淡\t的\t光\t芒。\t一\t般\t來\t說，\t它\t的\t穿\t甲\t能\t力\t相\t較\t於\t其\t他\t彈\t藥\t帶\t較\t弱。";;
 "CLIPPED_LANG_KEEP_IT_ALWAYS_FIRST";;;;;;;;;;;;;;;;;;;"";
+IRST";;;;;;;;;;;;;;;;;;;"";
 

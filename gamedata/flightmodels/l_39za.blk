@@ -2954,6 +2954,14 @@
       {
         "from": "l_39za_pylon_c*",
         "to": "l_39za_winter_pylon_c*"
+      },
+      {
+        "from": "cz_ub_16_57ump_73_c*",
+        "to": "cz_ub_16_57ump_73_xmas_c*"
+      },
+      {
+        "from": "cz_ub_16_57ump_73_n*",
+        "to": "cz_ub_16_57ump_73_xmas_n*"
       }
     ]
   },

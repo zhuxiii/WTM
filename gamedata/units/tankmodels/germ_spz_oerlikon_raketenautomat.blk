@@ -1572,7 +1572,7 @@
         "breechDP": "cannon_breech_01_dm",
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
-        "speedYaw": 20.0,
+        "speedYaw": 0.0,
         "speedPitch": 0.0,
         "bullets": 18,
         "fireConeAngle": 5.0,
@@ -2919,4 +2919,4 @@
       "details_10"
     ]
   }
-}
+}}

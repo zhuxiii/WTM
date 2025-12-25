@@ -74,8 +74,8 @@
         ],
         [
           1425.7,
-          14.0,
-          1696.5
+          12.0029,
+          1699.5
         ]
       ],
       "spawnPointType": "tank",
@@ -101,8 +101,8 @@
         ],
         [
           1440.3,
-          14.0,
-          1691.05
+          12.0136,
+          1694.11
         ]
       ],
       "spawnPointType": "tank",
@@ -128,8 +128,8 @@
         ],
         [
           1410.55,
-          14.0,
-          1691.9
+          11.965,
+          1694.94
         ]
       ],
       "spawnPointType": "tank",
@@ -295,41 +295,6 @@
       ],
       "camera_fx__radius": 250.0,
       "camera_fx__res": "location_camera_snow_cmps_fx"
-    },
-    {
-      "_template": "unit_loader",
-      "setting__unitType": "objectGroups",
-      "setting__playerNo": -1,
-      "setting__unit_class": "hangar_ny_objects",
-      "setting__name": "test_bridge",
-      "setting__weapons": "",
-      "setting__skin": "",
-      "setting__army": 2,
-      "setting__count": 1,
-      "setting__active": true,
-      "setting__loadSound": false,
-      "setting__tm": [
-        [
-          1.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.0,
-          1.0,
-          0.0
-        ],
-        [
-          0.0,
-          0.0,
-          1.0
-        ],
-        [
-          6943.3,
-          42.3,
-          2384.1
-        ]
-      ]
     },
     {
       "_template": "unit_loader",
@@ -516,6 +481,40 @@
       "_template": "unit_loader",
       "setting__unitType": "ship",
       "setting__playerNo": -1,
+      "setting__className": "ships/us_destroyer_fletcher",
+      "setting__unit_class": "us_destroyer_fletcher",
+      "setting__name": "armada_33",
+      "setting__weapons": "",
+      "setting__skin": "",
+      "setting__army": 1,
+      "setting__count": 1,
+      "setting__attack_type": "dont_aim",
+      "setting__loadSound": false,
+      "setting__tm": [
+        [
+          -0.996162,
+          0.0,
+          -0.087525
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.087525,
+          0.0,
+          -0.996162
+        ],
+        [
+          3381.5,
+          7.25002,
+          553.65
+        ]
+      ]
+    }
+  ]
+}1,
       "setting__className": "ships/us_destroyer_fletcher",
       "setting__unit_class": "us_destroyer_fletcher",
       "setting__name": "armada_33",

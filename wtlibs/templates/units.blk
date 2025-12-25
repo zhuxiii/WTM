@@ -374,6 +374,10 @@
     "unit_params__cloneCount": 1,
     "unit_params__behTreeName": ""
   },
+  "buffered_hud_data": {
+    "_replicate": true,
+    "buffered_hud_data:BufferedHudData": {}
+  },
   "unit_transferred_data": {
     "_singleton": true,
     "unit_transferred_data__componentsList:list<t>": {
@@ -401,7 +405,8 @@
       "base_unit_ext",
       "ecs_no_debug",
       "unit_init_params",
-      "unit_proximity_damage"
+      "unit_proximity_damage",
+      "buffered_hud_data"
     ],
     "uid": -1,
     "transform": [
@@ -830,12 +835,7 @@
       "mod__count": 0
     }
   }
-}e": [
-      "simple_ground_unit",
-      "infantry_troop_ext",
-      "vehicle_grid_obj"
-    ],
-    "unit_storage__infantry_troop": {},
+}y_troop": {},
     "unit_tag__infantry_troop:tag": {}
   },
   "expendable_mod": {

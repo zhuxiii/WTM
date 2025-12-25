@@ -163,16 +163,16 @@
       "ricochetEffect": "hit_59_80mm_metal_ap",
       "waterCollisionEffect": "hit_59_80mm_water",
       "explosionPatchRadius": 3.4,
-      "fireEffect": "rocket_fire_short",
-      "smokeEffect": "",
-      "hazeEffect": "haze_missile",
-      "endSmokeViscosity": 0.05,
       "effectOffset": [
         -1.17,
         0.0,
         0.0
       ],
       "endSpeed": 590.0,
+      "fireEffect": "rocket_fire_light_huge",
+      "smokeEffect": "",
+      "hazeEffect": "haze_missile",
+      "endSmokeViscosity": 0.5,
       "shellAnimation": "video/shells_animations/ir_homing_sam.ivf",
       "mesh": "9m39_rocket_deployed",
       "guidance": {
@@ -590,16 +590,16 @@
         "ricochetEffect": "hit_59_80mm_metal_ap",
         "waterCollisionEffect": "hit_59_80mm_water",
         "explosionPatchRadius": 3.4,
-        "fireEffect": "rocket_fire_short",
-        "smokeEffect": "",
-        "hazeEffect": "haze_missile",
-        "endSmokeViscosity": 0.05,
         "effectOffset": [
           -1.17,
           0.0,
           0.0
         ],
         "endSpeed": 590.0,
+        "fireEffect": "rocket_fire_light_huge",
+        "smokeEffect": "",
+        "hazeEffect": "haze_missile",
+        "endSmokeViscosity": 0.5,
         "shellAnimation": "video/shells_animations/ir_homing_sam.ivf",
         "mesh": "9m39_rocket_deployed",
         "guidance": {
@@ -1018,10 +1018,6 @@
         "ricochetEffect": "hit_59_80mm_metal_ap",
         "waterCollisionEffect": "hit_59_80mm_water",
         "explosionPatchRadius": 3.4,
-        "fireEffect": "rocket_fire_short",
-        "smokeEffect": "",
-        "hazeEffect": "haze_missile",
-        "endSmokeViscosity": 0.05,
         "effectOffset": [
           -1.17,
           0.0,
@@ -1029,6 +1025,10 @@
         ],
         "hasProximityFuse": true,
         "endSpeed": 600.0,
+        "fireEffect": "rocket_fire_light_huge",
+        "smokeEffect": "",
+        "hazeEffect": "haze_missile",
+        "endSmokeViscosity": 0.5,
         "shellAnimation": "video/shells_animations/ir_homing_sam.ivf",
         "mesh": "9m39_rocket_deployed",
         "guidance": {
