@@ -2126,5 +2126,21 @@
     "lod0": "uh75ukqx44vlzndmh5j4f4alr4onircg-flqa",
     "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
     "lod1": "m2y7acelf7pl7lnfjsx2dkpqcjgtytxb-bsva"
+  },
+  "viking_02": {
+    "category": "special",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "cufuegfkjuyboqntktzfvzhtgrdfyo2q-c6oq",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "7ohhakxcpfxwdkw3auqbaca3am72vwpe-3qy"
+  },
+  "viking_03": {
+    "category": "special",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "jqcipjgshb273renlepwntttpoixpndb-ehai",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "wxuiwlytexpdd25bz7c7uxo7ad72bshl-bi3q"
   }
 }
