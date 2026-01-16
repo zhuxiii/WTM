@@ -23,7 +23,7 @@
   "tailStartOffset": 10.0,
   "useSimpleDeathConditionsAndEffects": false,
   "drawHpProgressBarByMetaparts": true,
-  "multHpFromMetaparts": 53780.0,
+  "multHpFromMetaparts": 55990.0,
   "type": "typeDestroyer",
   "expClass": "exp_cruiser",
   "timeToFire": 40.0,
@@ -273,7 +273,7 @@
       "armorClass": "ship_structural_steel",
       "armorThickness": 15.0,
       "armorThrough": 50.0,
-      "hp": 53780.0,
+      "hp": 55990.0,
       "genericDamageMult": 1.0,
       "explosionDamageMult": 0.1,
       "compartment_01_dm": {
@@ -299,7 +299,7 @@
       "armorClass": "ship_structural_steel",
       "armorThickness": 15.0,
       "armorThrough": 50.0,
-      "hp": 53780.0,
+      "hp": 55990.0,
       "genericDamageMult": 1.0,
       "explosionDamageMult": 0.1,
       "fireParamsPreset": "common_ship_fire",
@@ -309,7 +309,7 @@
       "armorClass": "ship_structural_steel",
       "armorThickness": 15.0,
       "armorThrough": 300.0,
-      "hp": 53780.0,
+      "hp": 55990.0,
       "fireParamsPreset": "ship_turrets",
       "genericDamageMult": 1.0,
       "main_caliber_turret_01_dm": {},
@@ -329,7 +329,7 @@
     "fire_control": {
       "armorClass": "ship_structural_steel",
       "armorThickness": 15.0,
-      "hp": 53780.0,
+      "hp": 55990.0,
       "genericDamageMult": 1.0,
       "explosionDamageMult": 0.05,
       "fireParamsPreset": "ship_aux_fire",
@@ -379,7 +379,7 @@
       "armorClass": "ship_structural_steel",
       "armorThickness": 15.0,
       "armorThrough": 300.0,
-      "hp": 53780.0,
+      "hp": 55990.0,
       "genericDamageMult": 1.0,
       "fireParamsPreset": "ship_aux_fire",
       "tt_01_dm": {},
@@ -396,7 +396,7 @@
     "citadel_armor": {
       "armorClass": "ship_RHA",
       "armorThickness": 63.0,
-      "hp": 53780.0,
+      "hp": 55990.0,
       "fireDamageMult": 0.001,
       "armor_cit_01_dm": {}
     }
@@ -538,32 +538,25 @@
           "tt_09_dm",
           "tt_10_dm"
         ],
-        "onHit": [
-          {
-            "damage": 100.0,
-            "damageType": "generic",
-            "isSingleAction": false,
-            "moduleStatusEffect": {
-              "name": "shotFreqMult",
-              "prob": 1.0
-            },
-            "action": {
-              "type": "forcedExplosion",
-              "probability": 0.5,
-              "damage": 2000.0,
-              "damageType": "explosion",
-              "fxEvent": "ammo_expl",
-              "parts": {
-                "part": "compartment_05_dm"
-              }
-            }
+        "onHit": {
+          "damageType": "generic",
+          "damage": 400.0,
+          "isSingleAction": true,
+          "moduleStatusEffect": {
+            "name": "shotFreqMult",
+            "prob": 1.0
           },
-          {
+          "action": {
+            "type": "forcedExplosion",
+            "probability": 0.5,
+            "damage": 800.0,
             "damageType": "explosion",
-            "damage": 500.0,
-            "fire": 0.05
+            "fxEvent": "ammo_expl",
+            "parts": {
+              "part": "compartment_05_dm"
+            }
           }
-        ]
+        }
       },
       {
         "name": "bridge_dm",
@@ -684,7 +677,7 @@
   },
   "MetaParts": {
     "hull": {
-      "hp": 53780.0,
+      "hp": 55990.0,
       "maxDamageMode": true,
       "part": [
         "compartment_01_dm",
@@ -4236,6 +4229,16 @@
       "replace_tex": [
         {
           "from": "camo_warshipdeepgray*",
+          "to": "camo_warshipdeepgray*"
+        },
+        {
+          "from": "camo_rot_5*",
+          "to": "camo_rot_5*"
+        }
+      ]
+    }
+  }
+}"camo_warshipdeepgray*",
           "to": "camo_warshipdeepgray*"
         },
         {

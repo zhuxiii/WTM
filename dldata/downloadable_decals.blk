@@ -2142,5 +2142,13 @@
     "lod0": "jqcipjgshb273renlepwntttpoixpndb-ehai",
     "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
     "lod1": "wxuiwlytexpdd25bz7c7uxo7ad72bshl-bi3q"
+  },
+  "frost_edge_decal": {
+    "category": "common",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "zbyks6353l6iev5g27okrjwarxwxfuoc-gyyq",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "ztmcnkemhoglmgvqf2udelkqri6davlu-b3va"
   }
 }

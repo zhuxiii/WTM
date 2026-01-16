@@ -568,7 +568,7 @@
     "disableHangar": false,
     "disableChat": false,
     "workThreadsStackSize": 393216,
-    "dasLoadJobStackSize": 262144,
+    "dasLoadJobStackSize": 524288,
     "replayDofFar": [
       100.0,
       400.0,
@@ -1786,7 +1786,7 @@
         "applyCloudsShadow": true,
         "xrayOutlinesScale": 1.0,
         "underwaterCausticsEnabled": true,
-        "useVapor": false,
+        "useVapor": true,
         "planarReflectionTexDiv": 4
       },
       "render": {
@@ -1871,7 +1871,7 @@
         "applyCloudsShadow": true,
         "xrayOutlinesScale": 1.0,
         "underwaterCausticsEnabled": true,
-        "useVapor": false,
+        "useVapor": true,
         "planarReflectionTexDiv": 4
       },
       "render": {
@@ -1956,7 +1956,7 @@
         "applyCloudsShadow": true,
         "xrayOutlinesScale": 1.0,
         "underwaterCausticsEnabled": true,
-        "useVapor": false,
+        "useVapor": true,
         "planarReflectionTexDiv": 4
       },
       "render": {
@@ -2113,7 +2113,7 @@
         "applyCloudsShadow": true,
         "xrayOutlinesScale": 1.0,
         "underwaterCausticsEnabled": false,
-        "useVapor": false,
+        "useVapor": true,
         "planarReflectionTexDiv": 4
       },
       "clipmap": {
@@ -2187,7 +2187,7 @@
         "applyCloudsShadow": true,
         "xrayOutlinesScale": 1.0,
         "underwaterCausticsEnabled": true,
-        "useVapor": false,
+        "useVapor": true,
         "planarReflectionTexDiv": 4
       },
       "clipmap": {
@@ -2261,7 +2261,7 @@
         "applyCloudsShadow": true,
         "xrayOutlinesScale": 1.0,
         "underwaterCausticsEnabled": true,
-        "useVapor": false,
+        "useVapor": true,
         "planarReflectionTexDiv": 4
       },
       "clipmap": {
@@ -2538,6 +2538,8 @@
   "stcode": {
     "useBytecode": true,
     "tag": "$version"
+  }
+}
   }
 }: {
           "hasTileBasedArchitecture": {

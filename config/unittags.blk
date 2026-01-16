@@ -48548,7 +48548,7 @@
     "Shop": {
       "shipCrewMax": 450,
       "shipCrewMin": 110,
-      "shipCrewRating": 1.6297,
+      "shipCrewRating": 1.69667,
       "maxSpeed": 18.0,
       "turningTime": 15,
       "addTorpedoesCountPack": 2,
@@ -94030,6 +94030,12 @@
     "type": "tank",
     "hangar_place": "tank",
     "testFlight": "testFlight_ERA_tft",
+    "cameraEllipsoidWeights": [
+      0.3,
+      0.0,
+      0.0,
+      0.7
+    ],
     "tags": {
       "country_italy": true,
       "tank": true,
@@ -94597,9 +94603,7 @@
       }
     }
   }
-}5mm_M68_XM_user_cannon": {
-        "default": {
-          "icon": "hud_ammo_apds"
+}
         },
         "105mm_usa_HESH": {
           "isHE": true,

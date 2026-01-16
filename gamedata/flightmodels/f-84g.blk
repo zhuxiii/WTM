@@ -2891,6 +2891,18 @@
     "maxSpeed": 263.33,
     "turnTime": 31.0
   },
+  "default_skin_tomoe": {
+    "replace_tex": [
+      {
+        "from": "f_84g_late_usaf_aluminum_c*",
+        "to": "f_84g_late_usaf_aluminum_c_tomoe*"
+      },
+      {
+        "from": "f_84g_late_usaf_aluminum_n*",
+        "to": "f_84g_late_usaf_aluminum_tomoe_n*"
+      }
+    ]
+  },
   "cutting": {
     "_emtr_break_wing0_l_from": [
       -0.533279,

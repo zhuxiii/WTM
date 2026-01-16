@@ -1025,16 +1025,10 @@
         2.0
       ]
     },
-    "rain": [
-      {
-        "rainFromInvisibleClouds": false,
-        "probability": 0.7
-      },
-      {
-        "probability": 1.0,
-        "rainFromInvisibleClouds": true
-      }
-    ]
+    "rain": {
+      "probability": 1.0,
+      "rainFromInvisibleClouds": true
+    }
   },
   "thin_clouds": {
     "scatteringEffect": [
@@ -3528,6 +3522,15 @@
     },
     "puddlesPower": {
       "p": {
+        "value": [
+          0.5,
+          0.7
+        ],
+        "weight": 4.0
+      }
+    }
+  }
+}p": {
         "value": [
           0.5,
           0.7
