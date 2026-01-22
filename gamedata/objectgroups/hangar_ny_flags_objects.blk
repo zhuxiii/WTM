@@ -2,7 +2,7 @@
   "node": [
     {
       "type": "rendInst",
-      "name": "%major_banner_wall_a",
+      "name": "%major_banner_wall_b",
       "tm": [
         [
           0.648133,
@@ -29,7 +29,7 @@
     },
     {
       "type": "rendInst",
-      "name": "%major_banner_wall_a",
+      "name": "%major_banner_wall_b",
       "tm": [
         [
           -0.648001,
@@ -56,7 +56,7 @@
     },
     {
       "type": "rendInst",
-      "name": "%major_banner_wall_a",
+      "name": "%major_banner_wall_b",
       "tm": [
         [
           -0.765076,
@@ -83,7 +83,7 @@
     },
     {
       "type": "rendInst",
-      "name": "%major_banner_wall_a",
+      "name": "%major_banner_wall_b",
       "tm": [
         [
           -0.765076,
@@ -110,7 +110,7 @@
     },
     {
       "type": "rendInst",
-      "name": "%major_banner_buoy_a",
+      "name": "%major_banner_buoy_b",
       "tm": [
         [
           0.553185,
@@ -137,7 +137,7 @@
     },
     {
       "type": "rendInst",
-      "name": "%major_banner_buoy_a",
+      "name": "%major_banner_buoy_b",
       "tm": [
         [
           -0.150166,
@@ -164,7 +164,7 @@
     },
     {
       "type": "rendInst",
-      "name": "%major_banner_buoy_a",
+      "name": "%major_banner_buoy_b",
       "tm": [
         [
           0.733795,

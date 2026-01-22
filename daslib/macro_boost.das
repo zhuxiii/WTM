@@ -61,8 +61,8 @@ class CaptureBlock : AstVisitor {
 
 struct public CapturedVariable {
     
-    variable : Variable?
-    expression : ExprVar?
+    variable : Variable?    
+    expression : ExprVar?   
     eref : bool             
 }
 
@@ -147,7 +147,6 @@ class private ReturnSkipLockcheck : AstCallMacro {
         )
     }
 }
-ics
         )
     }
 }

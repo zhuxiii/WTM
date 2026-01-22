@@ -165,6 +165,7 @@ def private concat_impl_const(a : auto(ARGT); b : auto(ARGU); tt : auto(TT); res
 
 [skip_lock_check]
 def concat(a, b : array<auto(TT)>) : array<TT -const -&> {
+    
     return <- concat_impl_const(a, b, type<TT -const -&>, length(a) + length(b))
 }
 
@@ -2683,16 +2684,19 @@ def private select_impl_const(src : auto(ARGT); tt : auto(TT); len : int; select
 
 [skip_lock_check]
 def select(var src : iterator<auto(TT)>; result_selector) : iterator<typedecl(result_selector(type<TT>)) -const -&> {
+    
     return <- select_impl(src, type<TT -const -&>, 0, result_selector).to_sequence_move()
 }
 
 [skip_lock_check]
 def select(src : array<auto(TT)>; result_selector) : array<typedecl(result_selector(type<TT>)) -const -&> {
+    
     return <- select_impl_const(src, type<TT -const -&>, length(src), result_selector)
 }
 
 [skip_lock_check]
 def select_to_array(var src : iterator<auto(TT)>; result_selector) : array<typedecl(result_selector(type<TT>)) -const -&> {
+    
     return <- select_impl(src, type<TT -const -&>, 0, result_selector)
 }
 
@@ -2945,7 +2949,7 @@ def public order_unique_folded_inplace(var a : array<auto(TT)>) {
     order_inplace(a)
     unique_inplace(a)
 }
-collection_selector(type<TT>)))) -const -&> {
+type<TT>)))) -const -&> {
     
     return <- select_many_impl_const(src, type<TT -const -&>, collection_selector, result_selector).to_sequence_move()
 }
