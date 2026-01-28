@@ -86,6 +86,9 @@
         0.0,
         0.0
       ]
+    },
+    "collisionProps": {
+      "body_dm": "convex_hull"
     }
   },
   "sound": {
@@ -238,12 +241,7 @@
       }
     }
   ]
-}          90.0
-        ]
-      }
-    },
-    {
-      "trigger": "gunner3",
+}ger": "gunner3",
       "blk": "gameData/weapons/groundModels_weapons/searchLight_ship_gun.blk",
       "dm": "gun3_dm",
       "emitter": "gun3",

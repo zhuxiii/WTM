@@ -22,8 +22,8 @@
   "maxAngAccelV": 0.01,
   "groundNormSmoothViscosity": 4.5,
   "customUpdateDiv": 5,
-  "drownGFactor": 0.00001,
-  "drownRollSpeed": 0.01,
+  "drownGFactor": 0.007,
+  "drownRollSpeed": 0.05,
   "SoundMove": "models.Ship",
   "tailStartOffset": 0.0,
   "DamageParts": {
@@ -160,6 +160,9 @@
         0.0,
         0.0
       ]
+    },
+    "collisionProps": {
+      "bodypart1_dm": "convex_hull"
     }
   },
   "weapon": [
@@ -494,9 +497,7 @@
       }
     }
   ]
-}ingOn100kmph": 0.0,
-      "errMeasureVelFast": 40.0,
-      "errMeasureVelFwdShift": 1.0,
+}MeasureVelFwdShift": 1.0,
       "errMeasureVelDir": 3.0,
       "errTargetting": 1.0,
       "errExplTime": 0.0,

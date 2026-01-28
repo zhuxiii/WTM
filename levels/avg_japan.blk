@@ -10,10 +10,6 @@
   "numBorderCellsXNeg": 8,
   "numBorderCellsZPos": 8,
   "numBorderCellsZNeg": 8,
-  "mirrorShrinkXPos": 256.0,
-  "mirrorShrinkXNeg": 256.0,
-  "mirrorShrinkZPos": 256.0,
-  "mirrorShrinkZNeg": 256.0,
   "lastClip": true,
   "lastclip_horizon": true,
   "rendinstPreloadDistance": 8500.0,
@@ -333,6 +329,14 @@
   "overrideRiLodRange": {
     "tree_sakura_bush_a": {
       "lod0": 100.0,
+      "lod1": 1500.0
+    },
+    "tree_sakura_bush_b": {
+      "lod0": 100.0,
+      "lod1": 1500.0
+    }
+  }
+}100.0,
       "lod1": 1500.0
     },
     "tree_sakura_bush_b": {

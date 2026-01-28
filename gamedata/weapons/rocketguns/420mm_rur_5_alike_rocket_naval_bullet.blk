@@ -212,7 +212,7 @@
           ],
           "dropHeightRange": [
             -10.0,
-            105.0
+            250.0
           ],
           "dropAngleRange": [
             -90.0,

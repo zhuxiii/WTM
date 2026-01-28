@@ -21,7 +21,7 @@
       "rangeMax": 23000.0,
       "visibilityType": "infraRed",
       "range0": 0.0,
-      "range1": 100000.0,
+      "range1": 5000.0,
       "range2": 0.0,
       "range3": 0.0,
       "range4": 0.0,
@@ -1423,4 +1423,5 @@
       ]
     }
   ]
+}
 }

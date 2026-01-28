@@ -10,10 +10,6 @@
   "numBorderCellsXNeg": 8,
   "numBorderCellsZPos": 8,
   "numBorderCellsZNeg": 8,
-  "mirrorShrinkXPos": 256.0,
-  "mirrorShrinkXNeg": 256.0,
-  "mirrorShrinkZPos": 256.0,
-  "mirrorShrinkZNeg": 256.0,
   "lastClip": true,
   "lastclip_horizon": true,
   "rendinstPreloadDistance": 8500.0,
@@ -300,6 +296,13 @@
     "alaska_town_building_f_a": {
       "lod0": 50.0,
       "lod1": 100.0
+    },
+    "tree_picea_obovata_medium_b": {
+      "lod0": 300.0,
+      "lod1": 4000.0
+    }
+  }
+}     "lod1": 100.0
     },
     "tree_picea_obovata_medium_b": {
       "lod0": 300.0,

@@ -2351,6 +2351,12 @@
             -5.0,
             19.5
           ]
+        },
+        "hullAiming": {
+          "horizontal": true,
+          "defaultEnabled": false,
+          "isAutoTurner": true,
+          "maxSpeedForHorizontalAiming": 10.0
         }
       },
       {
@@ -2963,14 +2969,7 @@
       "details_10"
     ]
   }
-}0Wrap": false,
-      "decal0Abs": false,
-      "decal0OppositeMirrored": false,
-      "decal0WidthBox": 0.257491,
-      "decal0Tex": "usa_tank_emblem_09"
-    }
-  },
-  "battleHideNodes": {
+}Nodes": {
     "n": [
       "details",
       "details_01",

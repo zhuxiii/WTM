@@ -1,6 +1,7 @@
 options indenting = 2
 module random shared
 require math
+require math.base
 require DagorRandom public
 
 def rnd_point_on_disk(var seed : int&; radius : float) : float2
@@ -16,15 +17,10 @@ def rnd_point_on_ring(radius_from, radius_to : float) : float2
   if radius_from > radius_to
     return float2()
 
-  let rndX = gfrnd()
-  let rndY = gfrnd()
+  let rndRadius = gfrnd()
   let rndAngle = gfrnd()
 
-  var radius : float
-  if rndX * (radius_to - radius_from) + radius_from < rndY * (radius_to + radius_from)
-    radius =         rndX * (radius_to - radius_from) + radius_from
-  else
-    radius = (1.0 - rndX) * (radius_to - radius_from) + radius_from
+  let radius = sqrt(rndRadius * (square(radius_to) - square(radius_from)) + square(radius_from))
 
   var s, c : float
   sincos(2f * PI * rndAngle, s, c)
@@ -34,15 +30,10 @@ def rnd_point_on_ring(var seed : int&; radius_from, radius_to : float) : float2
   if radius_from > radius_to
     return float2()
 
-  let rndX = _rnd_float(seed, .0, 1.0)
-  let rndY = _rnd_float(seed, .0, 1.0)
+  let rndRadius = _rnd_float(seed, .0, 1.0)
   let rndAngle = _rnd_float(seed, .0, 1.0)
 
-  var radius : float
-  if rndX * (radius_to - radius_from) + radius_from < rndY * (radius_to + radius_from)
-    radius =         rndX * (radius_to - radius_from) + radius_from
-  else
-    radius = (1.0 - rndX) * (radius_to - radius_from) + radius_from
+  let radius = sqrt(rndRadius * (square(radius_to) - square(radius_from)) + square(radius_from))
 
   var s, c : float
   sincos(2f * PI * rndAngle, s, c)
@@ -154,6 +145,15 @@ def rnd_dir2()
 
 def rnd_dir3()
   let phi = 2. * PI * gfrnd()
+  let theta = acos(rnd_float(-1.0, 1.0))
+  return float3(sin(theta) * cos(phi), sin(theta) * sin(phi), cos(theta))
+
+def rnd_sign()
+  return (grnd() & 1) == 0 ? 1.0 : -1.0
+
+[generic]
+def random_in_tm(tm : float3x4)
+  return tm[3] + tm[0] * rnd_float(-0.5, 0.5) + tm[1] * rnd_float(-0.5, 0.5) + tm[2] * rnd_float(-0.5, 0.5) 2. * PI * gfrnd()
   let theta = acos(rnd_float(-1.0, 1.0))
   return float3(sin(theta) * cos(phi), sin(theta) * sin(phi), cos(theta))
 

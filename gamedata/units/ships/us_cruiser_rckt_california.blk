@@ -619,7 +619,7 @@
   },
   "ShipPhys": {
     "mass": {
-      "Empty": 11000000.0,
+      "Empty": 9000000.0,
       "momentOfInertia": [
         33.0,
         583.0,
@@ -916,8 +916,8 @@
         "errTargetting": 0.1,
         "errExplTime": 0.0,
         "turret": {
-          "head": "auxiliary_caliber_turret_04",
-          "gun": "auxiliary_caliber_turret_04"
+          "head": "auxiliary_caliber_turret_03",
+          "gun": "auxiliary_caliber_turret_03"
         },
         "limits": {
           "yaw": [
@@ -1620,8 +1620,8 @@
               "errTargetting": 0.1,
               "errExplTime": 0.0,
               "turret": {
-                "head": "auxiliary_caliber_turret_04",
-                "gun": "auxiliary_caliber_turret_04"
+                "head": "auxiliary_caliber_turret_03",
+                "gun": "auxiliary_caliber_turret_03"
               },
               "limits": {
                 "yaw": [
@@ -2303,8 +2303,8 @@
               "errTargetting": 0.1,
               "errExplTime": 0.0,
               "turret": {
-                "head": "auxiliary_caliber_turret_04",
-                "gun": "auxiliary_caliber_turret_04"
+                "head": "auxiliary_caliber_turret_03",
+                "gun": "auxiliary_caliber_turret_03"
               },
               "limits": {
                 "yaw": [
@@ -3346,4 +3346,4 @@
       ]
     }
   }
-}
+}}

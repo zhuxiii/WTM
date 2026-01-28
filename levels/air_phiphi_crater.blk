@@ -30,10 +30,6 @@
   "numBorderCellsXNeg": 0,
   "numBorderCellsZPos": 0,
   "numBorderCellsZNeg": 0,
-  "mirrorShrinkXPos": 64.0,
-  "mirrorShrinkXNeg": 64.0,
-  "mirrorShrinkZPos": 64.0,
-  "mirrorShrinkZNeg": 64.0,
   "gridSteps": [
     3250.0,
     3250.0
@@ -118,6 +114,13 @@
       "microdetail_metal_a_tex_n*",
       "microdetail_snow_a_tex_n*",
       "microdetail_generic_granules_a_tex_n*"
+    ],
+    "land_micro_details_uv_scale": 1.11
+  },
+  "technicsSkins": {
+    "groundSkin": "sand"
+  }
+}_tex_n*"
     ],
     "land_micro_details_uv_scale": 1.11
   },

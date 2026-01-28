@@ -2192,6 +2192,12 @@
             25.0
           ]
         },
+        "hullAiming": {
+          "horizontal": true,
+          "defaultEnabled": false,
+          "isAutoTurner": true,
+          "maxSpeedForHorizontalAiming": 4.0
+        },
         "limitsTable": {
           "lim1": [
             -120.0,

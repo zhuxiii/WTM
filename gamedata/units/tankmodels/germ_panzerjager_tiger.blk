@@ -1149,6 +1149,12 @@
           "gun": "bone_mg_body_v_01",
           "gunnerDm": "machine_gunner_dm"
         },
+        "hullAiming": {
+          "horizontal": true,
+          "defaultEnabled": false,
+          "isAutoTurner": true,
+          "maxSpeedForHorizontalAiming": 12.0
+        },
         "limits": {
           "yaw": [
             -7.0,
@@ -2681,6 +2687,12 @@
                 "head": "bone_mg_body_h_01",
                 "gun": "bone_mg_body_v_01",
                 "gunnerDm": "machine_gunner_dm"
+              },
+              "hullAiming": {
+                "horizontal": true,
+                "defaultEnabled": false,
+                "isAutoTurner": true,
+                "maxSpeedForHorizontalAiming": 12.0
               },
               "limits": {
                 "yaw": [

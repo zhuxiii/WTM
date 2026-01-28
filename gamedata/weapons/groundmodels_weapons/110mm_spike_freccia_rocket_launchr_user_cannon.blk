@@ -180,7 +180,7 @@
           "rangeBand8": 200.0,
           "rangeSurface": 10000.0,
           "rangeMax": 20000.0,
-          "fov": 1.0,
+          "fov": 0.1,
           "gateWidth": 0.05,
           "minAngleToSun": 1.0,
           "lockAngleMax": 45.0,
@@ -191,7 +191,8 @@
           "constantDesignationSourceTypeMask": 0,
           "groundVehiclesAsTarget": true,
           "surfaceAsTarget": false,
-          "targetRadiusMin": 1.5
+          "targetRadiusMin": 1.5,
+          "trackDeadTarget": false
         },
         "guidanceAutopilot": {
           "timeOut": 0.0,
@@ -601,7 +602,7 @@
             "rangeBand8": 200.0,
             "rangeSurface": 10000.0,
             "rangeMax": 20000.0,
-            "fov": 1.0,
+            "fov": 0.1,
             "gateWidth": 0.05,
             "minAngleToSun": 1.0,
             "lockAngleMax": 45.0,
@@ -612,7 +613,8 @@
             "constantDesignationSourceTypeMask": 0,
             "groundVehiclesAsTarget": true,
             "surfaceAsTarget": false,
-            "targetRadiusMin": 1.5
+            "targetRadiusMin": 1.5,
+            "trackDeadTarget": false
           },
           "guidanceAutopilot": {
             "timeOut": 0.0,

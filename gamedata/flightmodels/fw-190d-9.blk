@@ -1983,17 +1983,18 @@
   },
   "upgraded_skin": {
     "name": "prem_camo",
-    "replace_tex": {
-      "from": "fw_190d_9_a*",
-      "to": "fw-190d-9_gray_a*"
-    }
+    "replace_tex": [
+      {
+        "from": "fw_190d_9_a*",
+        "to": "fw-190d-9_gray_a*"
+      },
+      {
+        "from": "fw_190d_9_n*",
+        "to": "fw-190d-9_gray_n*"
+      }
+    ]
   }
-}1.97681,
-    "climbSpeed": 15.8238,
-    "maxSpeed": 152.316,
-    "turnTime": 27.4567
-  },
-  "cutting": {
+}ng": {
     "_emtr_break_wing0_l_from": [
       -0.240791,
       -0.454227,

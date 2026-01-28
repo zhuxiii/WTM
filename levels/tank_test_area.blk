@@ -34,22 +34,6 @@
     8,
     8
   ],
-  "mirrorShrinkXPos": [
-    256.0,
-    256.0
-  ],
-  "mirrorShrinkXNeg": [
-    256.0,
-    256.0
-  ],
-  "mirrorShrinkZPos": [
-    256.0,
-    256.0
-  ],
-  "mirrorShrinkZNeg": [
-    256.0,
-    256.0
-  ],
   "lastClip": true,
   "lastclip_horizon": true,
   "rendinstPreloadDistance": 8500.0,
@@ -123,6 +107,13 @@
       "microdetail_forest_floor_a_tex_n",
       "microdetail_fabric_a_tex_n",
       "microdetail_wood_b_tex_n",
+      "microdetail_metal_a_tex_n",
+      "microdetail_snow_a_tex_n",
+      "microdetail_generic_granules_a_tex_n"
+    ],
+    "land_micro_details_uv_scale": 0.51
+  }
+}      "microdetail_wood_b_tex_n",
       "microdetail_metal_a_tex_n",
       "microdetail_snow_a_tex_n",
       "microdetail_generic_granules_a_tex_n"

@@ -1622,6 +1622,12 @@
                 "gun": "bone_gun",
                 "barrel": "bone_gun_barrel"
               },
+              "hullAiming": {
+                "horizontal": true,
+                "defaultEnabled": false,
+                "isAutoTurner": true,
+                "maxSpeedForHorizontalAiming": 10.0
+              },
               "limits": {
                 "yaw": [
                   -8.0,
@@ -2618,6 +2624,12 @@
           "head": "bone_mg_twin",
           "gun": "bone_mg_twin",
           "gunnerDm": "gunner_dm"
+        },
+        "hullAiming": {
+          "horizontal": true,
+          "defaultEnabled": false,
+          "isAutoTurner": true,
+          "maxSpeedForHorizontalAiming": 10.0
         },
         "limits": {
           "yaw": [

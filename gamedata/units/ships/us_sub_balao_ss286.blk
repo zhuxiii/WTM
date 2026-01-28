@@ -685,6 +685,8 @@
         "bullets": 150,
         "useGunnerTargetingQuality": true,
         "fireConeAngle": 1.0,
+        "turretLongSalvo": true,
+        "salvoRndK": 0.15,
         "allowableDelta": 1.0,
         "ChainfireTime": 2.0,
         "DelayAfterShoot": 0.0,
@@ -1238,6 +1240,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "allowableDelta": 1.0,
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
@@ -2560,12 +2564,7 @@
       "camo_rotation": 20.0
     }
   }
-}       "to": "camo_measure_geometry*"
-        },
-        {
-          "from": "camo_deckgrey*",
-          "to": "camo_bottom_green*"
-        }
+}        }
       ]
     }
   },

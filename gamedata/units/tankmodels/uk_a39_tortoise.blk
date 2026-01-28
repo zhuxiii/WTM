@@ -1174,6 +1174,12 @@
             -10.0,
             18.0
           ]
+        },
+        "hullAiming": {
+          "horizontal": true,
+          "defaultEnabled": false,
+          "isAutoTurner": true,
+          "maxSpeedForHorizontalAiming": 4.0
         }
       },
       {
@@ -2583,6 +2589,12 @@
                   -10.0,
                   18.0
                 ]
+              },
+              "hullAiming": {
+                "horizontal": true,
+                "defaultEnabled": false,
+                "isAutoTurner": true,
+                "maxSpeedForHorizontalAiming": 4.0
               }
             },
             {

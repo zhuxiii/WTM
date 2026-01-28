@@ -98,6 +98,7 @@
   "dmgTurretScreenBorder": 32.0,
   "dmgTurretMinSize": 50.0,
   "dmgTurretFadeBorder": 23.0,
+  "colorCurrentDamagedTurret": false,
   "dmgLinePlaneColor": [
     0.6,
     0.6,

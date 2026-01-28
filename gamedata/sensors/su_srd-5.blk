@@ -53,7 +53,7 @@
     }
   },
   "scopeRanges": {
-    "range1": 7000.0
+    "range1": 5000.0
   },
   "fsms": {
     "main": {

@@ -106,7 +106,7 @@
   },
   "scopeRangeSets": {
     "search": {
-      "range1": 9250.0,
+      "range1": 5000.0,
       "range2": 46250.0,
       "range3": 120000.25,
       "range4": 1850.0

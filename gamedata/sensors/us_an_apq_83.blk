@@ -162,14 +162,14 @@
   },
   "scopeRangeSets": {
     "common": {
-      "range1": 18500.0,
+      "range1": 5000.0,
       "range2": 92500.0,
       "range3": 185000.0,
       "range4": 370000.0,
       "range5": 9250.0
     },
     "boresightLock": {
-      "range1": 9250.0
+      "range1": 5000.0
     }
   },
   "fsms": {
@@ -753,7 +753,7 @@
       }
     }
   }
-}est": {},
+}}est": {},
             "clearTargetsOfInterest": {
               "timeOut": 1.0
             },

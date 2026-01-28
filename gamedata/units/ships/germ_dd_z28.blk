@@ -148,6 +148,9 @@
         0.0,
         0.0
       ]
+    },
+    "collisionProps": {
+      "bodypart1_dm": "convex_hull"
     }
   },
   "weapon": [
@@ -465,9 +468,7 @@
       }
     }
   ]
-}el": 0.0,
-      "errTargettingOn100kmph": 0.0,
-      "errMeasureVelFast": 40.0,
+}elFast": 40.0,
       "errMeasureVelFwdShift": 1.0,
       "errMeasureVelDir": 3.0,
       "errTargetting": 1.0,

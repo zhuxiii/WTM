@@ -447,6 +447,13 @@
     "minVoxelSize": 0.02,
     "minObstacleSize": 0.02,
     "thicknessMapEnabled": true,
+    "thicknessMapResolution": 32,
+    "thicknessMapMinVoxelSize": 0.1,
+    "thicknessMapRelLimits": [
+      0.7,
+      6.0
+    ],
+    "thicknessMapMinObstacleSize": 0.02,
     "pushOutCenter": true,
     "squashArmorAnglesScale": {
       "p0": [
@@ -6890,12 +6897,7 @@
       125000.0
     ]
   }
-}ap_tank": {
-      "modelName": "tank_bullet_ap",
-      "gbufferModelName": "tank_shell_apbc",
-      "afterHitModelName": "tank_shell_apbc_destr"
-    },
-    "apbc_usa_tank": {
+}tank": {
       "modelName": "tank_bullet_apbc",
       "gbufferModelName": "tank_shell_apbc",
       "afterHitModelName": "tank_shell_apbc_destr"

@@ -109,7 +109,6 @@
   "countDecalsAtUnitInHangar": 4,
   "forceMusic": "music_ny",
   "overloadSoundsId": "new_year",
-  "isCustomDecalPos": true,
   "hangarMission": "gameData/scenes/hangar_field_ny_mission_wtm.blk",
   "hangarSoundEngineMult": 0.4,
   "hangarSoundMult": 0.15,
@@ -4151,6 +4150,10 @@
             0.6
           ]
         }
+      }
+    }
+  ]
+}       }
       }
     }
   ]

@@ -47,14 +47,9 @@
   "type": "typeLightTank",
   "minRelativeTankCameraThreshold": 0.9,
   "rearmSmokeTimeOnField": 60.0,
-  "canReloadNonGuns": [
-    true,
-    true
-  ],
+  "canReloadNonGuns": true,
   "radarCanLockTargetFromTPV": false,
-  "forceHideSearchRadar": true,
   "drowningCheckHeightMultiplier": 0.825,
-  "rearmTimeOnField": 45.0,
   "controlDevices": {
     "device": [
       {
@@ -3285,7 +3280,7 @@
       }
     },
     "ammo2": {
-      "weaponTrigger": "gunner2",
+      "weaponTrigger": "gunner3",
       "fatalFire": true,
       "fatalExplosion": true,
       "shells": [
@@ -3946,6 +3941,12 @@
       "details_05",
       "details_06",
       "details_07",
+      "details_08",
+      "details_09",
+      "details_10"
+    ]
+  }
+}ails_07",
       "details_08",
       "details_09",
       "details_10"

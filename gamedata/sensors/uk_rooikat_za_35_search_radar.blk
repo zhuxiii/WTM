@@ -64,7 +64,7 @@
   },
   "scopeRangeSets": {
     "search": {
-      "range1": 12000.0
+      "range1": 5000.0
     }
   },
   "fsms": {
@@ -319,4 +319,4 @@
   "hideInAvailableModeNameIds": {
     "mode": "standby"
   }
-}
+}}

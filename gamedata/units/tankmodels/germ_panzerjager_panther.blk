@@ -1,5 +1,5 @@
 {
-  "model": "panzerjager_panther_g1",
+  "model": "panzerjager_panther",
   "hasExpl": false,
   "hasDmg2": false,
   "hasQualityModels": true,
@@ -1903,6 +1903,12 @@
             -8.0,
             14.0
           ]
+        },
+        "hullAiming": {
+          "horizontal": true,
+          "defaultEnabled": false,
+          "isAutoTurner": true,
+          "maxSpeedForHorizontalAiming": 15.0
         }
       },
       {
@@ -2886,6 +2892,12 @@
                   -8.0,
                   14.0
                 ]
+              },
+              "hullAiming": {
+                "horizontal": true,
+                "defaultEnabled": false,
+                "isAutoTurner": true,
+                "maxSpeedForHorizontalAiming": 15.0
               }
             },
             {

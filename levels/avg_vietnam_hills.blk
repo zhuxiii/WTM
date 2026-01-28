@@ -32,22 +32,6 @@
     8,
     0
   ],
-  "mirrorShrinkXPos": [
-    256.0,
-    256.0
-  ],
-  "mirrorShrinkXNeg": [
-    256.0,
-    256.0
-  ],
-  "mirrorShrinkZPos": [
-    256.0,
-    256.0
-  ],
-  "mirrorShrinkZNeg": [
-    256.0,
-    256.0
-  ],
   "lastClip": true,
   "lastclip_horizon": true,
   "rendinstPreloadDistance": 8500.0,
@@ -736,6 +720,15 @@
       "norway_rocks_tex_n*",
       "sea_ivy_tex_d*",
       "soil_rocks_a_tex_d*",
+      "soil_rocks_a_tex_n*",
+      "vietnam_soil_erosion_cliff_a_tex_n*",
+      "vietnam_soil_erosion_cliff_a_overlay*"
+    ]
+  },
+  "technicsSkins": {
+    "groundSkin": "forest"
+  }
+}ocks_a_tex_d*",
       "soil_rocks_a_tex_n*",
       "vietnam_soil_erosion_cliff_a_tex_n*",
       "vietnam_soil_erosion_cliff_a_overlay*"

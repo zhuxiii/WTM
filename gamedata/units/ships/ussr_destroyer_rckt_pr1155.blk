@@ -1088,7 +1088,7 @@
         "emitterGenFmt": "bone_rocket_%02d",
         "useEmitter": true,
         "allowableDelta": [
-          180.0,
+          30.0,
           1.0
         ],
         "bullets": 400,
@@ -1701,7 +1701,7 @@
               "emitterGenFmt": "bone_rocket_%02d",
               "useEmitter": true,
               "allowableDelta": [
-                180.0,
+                30.0,
                 1.0
               ],
               "bullets": 400,
@@ -2302,7 +2302,7 @@
               "emitterGenFmt": "bone_rocket_%02d",
               "useEmitter": true,
               "allowableDelta": [
-                180.0,
+                30.0,
                 1.0
               ],
               "bullets": 400,
@@ -3071,4 +3071,5 @@
       }
     ]
   }
+}}
 }

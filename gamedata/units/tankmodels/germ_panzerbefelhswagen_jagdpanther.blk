@@ -1893,6 +1893,12 @@
             ]
           }
         },
+        "hullAiming": {
+          "horizontal": true,
+          "defaultEnabled": false,
+          "isAutoTurner": true,
+          "maxSpeedForHorizontalAiming": 15.0
+        },
         "limits": {
           "yaw": [
             -11.0,
@@ -2767,6 +2773,12 @@
                     180.0
                   ]
                 }
+              },
+              "hullAiming": {
+                "horizontal": true,
+                "defaultEnabled": false,
+                "isAutoTurner": true,
+                "maxSpeedForHorizontalAiming": 15.0
               },
               "limits": {
                 "yaw": [

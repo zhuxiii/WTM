@@ -1969,18 +1969,19 @@
   },
   "battleHideNodes": {
     "n": "details"
-  }
-}.0,
-      "maxWaterAlive": 1.0
-    }
   },
-  "difficulty": {
-    "arcade": {
-      "shipRudderAreaMult": 1.0,
-      "tankRearmOnCaptureZone": true
+  "vehicleSkins": {
+    "factory": {
+      "replace_tex": [
+        {
+          "from": "sub_m1_c*",
+          "to": "sub_m1_c_default*"
+        },
+        {
+          "from": "sub_m1_c*",
+          "to": "sub_m1_c_default*"
+        }
+      ]
     }
-  },
-  "battleHideNodes": {
-    "n": "details"
   }
 }

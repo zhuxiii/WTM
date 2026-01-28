@@ -131,13 +131,13 @@
   },
   "scopeRangeSets": {
     "search": {
-      "range1": 18500.0,
+      "range1": 5000.0,
       "range2": 37000.0,
       "range3": 74000.0,
       "range4": 9250.0
     },
     "acmLock": {
-      "range1": 18500.0
+      "range1": 5000.0
     }
   },
   "fsms": {
@@ -783,4 +783,5 @@
       }
     }
   }
+}
 }

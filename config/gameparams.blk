@@ -70,6 +70,7 @@
   "effectsZNearOffsetInCockpit": 2.0,
   "invisibleSupportUnits": true,
   "allowShipAnimCharInHangar": true,
+  "isCustomDecalPosInHangar": true,
   "unitDefaultVisibilityDistance": 2000.0,
   "sleeveFallFx": "hit_12_18mm_water",
   "minMassMultApexObjectsCollidedWithHero": 0.002,
@@ -240,6 +241,7 @@
   "leaveKillerSearchDistanceMax": 3000.0,
   "airfieldSafeLeaveZoneRadius": -1.0,
   "enableAircraftSevereDamage": true,
+  "shipCrewKilledPartForAssist": 0.2,
   "showDamageReport": false,
   "damageReportTimeOut": 1.0,
   "showFireDamageReport": true,
@@ -385,9 +387,6 @@
   "shiftUpSteerThreshold": 0.35,
   "rtsModeForAircraftCarrier": true,
   "allowSpectatingEnemiesInLastManStanding": false,
-  "minTorpedoHitTimeThreatShow": 10.0,
-  "asrocTargetOnlySubmarine": true,
-  "autoLockSelectedTarget": true,
   "tracers": {
     "headFadeTime": 4.0,
     "headSpeedScale": [
@@ -9745,8 +9744,6 @@
     "landedSpeed": 10.0,
     "drivingHeight": 7.0,
     "drivingSpeed": 180.0,
-    "nearGroundHeight": 100.0,
-    "nearGroundSpeed": 200.0,
     "flyingMaximumHeight": 200.0,
     "flyingMaximumSpeed": 300.0
   },
@@ -15991,6 +15988,38 @@
         {
           "name": "wheel_l_04_",
           "modelNames": "boxer_cockerill_3105"
+        },
+        {
+          "name": "wheel_r_01_",
+          "modelNames": "freccia"
+        },
+        {
+          "name": "wheel_l_01_",
+          "modelNames": "freccia"
+        },
+        {
+          "name": "wheel_r_02_",
+          "modelNames": "freccia"
+        },
+        {
+          "name": "wheel_l_02_",
+          "modelNames": "freccia"
+        },
+        {
+          "name": "wheel_r_03_",
+          "modelNames": "freccia"
+        },
+        {
+          "name": "wheel_l_03_",
+          "modelNames": "freccia"
+        },
+        {
+          "name": "wheel_r_04_",
+          "modelNames": "freccia"
+        },
+        {
+          "name": "wheel_l_04_",
+          "modelNames": "freccia"
         }
       ]
     },

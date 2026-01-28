@@ -70,7 +70,7 @@
   },
   "scopeRangeSets": {
     "search": {
-      "range1": 10000.0,
+      "range1": 5000.0,
       "range2": 20000.0
     }
   },
@@ -323,4 +323,4 @@
   "hideInAvailableModeNameIds": {
     "mode": "standby"
   }
-}
+}}

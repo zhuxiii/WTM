@@ -285,6 +285,13 @@
     "minVoxelSize": 0.02,
     "minObstacleSize": 0.02,
     "thicknessMapEnabled": true,
+    "thicknessMapResolution": 32,
+    "thicknessMapMinVoxelSize": 0.1,
+    "thicknessMapRelLimits": [
+      0.7,
+      6.0
+    ],
+    "thicknessMapMinObstacleSize": 0.02,
     "pushOutCenter": true,
     "squashArmorAnglesScale": {
       "p0": [
@@ -346,16 +353,7 @@
   "secondaryShatterDamage": {
     "damageType": "secondaryShatter"
   }
-}icDamage": {
-    "damageType": "generic"
-  },
-  "cumulativeDamage": {
-    "damageType": "cumulative"
-  },
-  "splashDamage": {
-    "damageType": "explosion"
-  },
-  "shatterDamage": {
+} "shatterDamage": {
     "damageType": "shatter"
   },
   "secondaryShatterDamage": {

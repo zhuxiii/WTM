@@ -298,13 +298,13 @@
   },
   "scopeRangeSets": {
     "common": {
-      "range1": 37000.0,
+      "range1": 5000.0,
       "range2": 74000.0,
       "range3": 148000.0,
       "range4": 18500.0
     },
     "acm": {
-      "range1": 18500.0
+      "range1": 5000.0
     }
   },
   "fsms": {
@@ -1558,4 +1558,5 @@
       "sideLobesSensitivity": -30.0
     }
   }
+}
 }

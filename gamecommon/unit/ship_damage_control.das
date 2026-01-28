@@ -1,4 +1,5 @@
 require ecs
+require net
 require app
 require Unit
 require WTDamageModel
@@ -7,6 +8,7 @@ require DagorMath
 require DagorDataBlock
 require DagorRandom
 require WarShipModel
+require GuiOptions
 require %game.unit.repair_system_common
 require %game.unit.extinguish_system_common
 require %game.unit.unit_events
@@ -47,7 +49,7 @@ def get_process_priority_idx(priorities : uint; running_processes : uint; proces
 
 
 [es]
-def ship_start_damage_control_es(evt : EventShipStartDamageControl;
+def ship_start_damage_control_es(evt : CmdShipStartDamageControl;
                                  eid : EntityId;
                                  ship_damage_control__isPresetBased : bool;
                                  ship_damage_control__cooldownTime : float;
@@ -72,13 +74,14 @@ def ship_start_damage_control_es(evt : EventShipStartDamageControl;
 
 [es(before=ship_damage_control_load_priorities_es)]
 def ship_damage_control_init_es(evt : CmdInitComponent;
+                                unit__ref : UnitRef;
                                 var ship_damage_control__isPresetBased : bool&;
                                 var ship_damage_control__cooldownTime : float&;
                                 var ship_damage_control__priorities : uint&;
                                 var ship_damage_control__timePenalty : float3&)
   ship_damage_control__isPresetBased = false
   *evt.modelBlk |> datablock_get_block("shipDamageControl") <| $(blk)
-    ship_damage_control__isPresetBased = blk |> datablock_getBool("shipDamageControlEnabled", false)
+    ship_damage_control__isPresetBased = blk |> datablock_getBool("shipDamageControlEnabled", false) && unit__ref.unit.isHumanPlayer
     ship_damage_control__cooldownTime = blk |> datablock_getReal("switchPresetCooldown", ship_damage_control__cooldownTime)
     ship_damage_control__timePenalty = blk |> datablock_getPoint3("shipboardDamageControlWeight", ship_damage_control__timePenalty)
     let damageControlCoeff = blk |> datablock_getReal("shipDamageControlCoeff", 0.0f)
@@ -86,6 +89,17 @@ def ship_damage_control_init_es(evt : CmdInitComponent;
 
   ship_damage_control__priorities = 0u
 
+[es(tag=gameClient, after=ship_damage_control_init_es, before=ship_damage_control_load_priorities_es)]
+def ship_damage_control_get_mode_option_es(evt : CmdInitComponent; eid : EntityId; ownedByPlr : EntityId; var ship_damage_control__isPresetBased : bool&)
+  if get_local_player_eid() != ownedByPlr
+    return
+  if ship_damage_control__isPresetBased
+    ship_damage_control__isPresetBased = guioptions_getBool("OPTIONS_MODE_GAMEPLAY", "USEROPT_SHIP_PRESET_BASED_DAMAGE_CONTROL", true)
+  send_net_event(eid, CmdShipSetDamageControlSystemMode(isPresetBased = ship_damage_control__isPresetBased))
+
+[es(tag=server)]
+def ship_damage_control_apply_mode_es(evt : CmdShipSetDamageControlSystemMode; var ship_damage_control__isPresetBased : bool&)
+  ship_damage_control__isPresetBased = evt.isPresetBased
 
 [es(no_order)]
 def ship_update_damage_control_es(act : UpdateStageInfoAct;

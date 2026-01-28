@@ -1742,6 +1742,12 @@
         "secondGunnerDm": "commander_dm",
         "rotatedTurret": "bone_turret"
       },
+      "hullAiming": {
+        "horizontal": true,
+        "defaultEnabled": false,
+        "isAutoTurner": true,
+        "maxSpeedForHorizontalAiming": 5.0
+      },
       "limits": {
         "yaw": [
           -110.0,

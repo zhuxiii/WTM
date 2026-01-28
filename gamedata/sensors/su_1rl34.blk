@@ -180,7 +180,7 @@
   },
   "scopeRangeSets": {
     "common": {
-      "range1": 10000.0,
+      "range1": 5000.0,
       "range2": 25000.0
     }
   },
@@ -775,7 +775,7 @@
   "hideInAvailableModeNameIds": {
     "mode": "standby"
   }
-}"activeTargetOfInterest",
+}}"activeTargetOfInterest",
               "width": 0.0
             }
           }

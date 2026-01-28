@@ -49,8 +49,8 @@
       "power": 50.0,
       "band": 1,
       "rcs": 24000.0,
-      "range": 12000.0,
-      "range1": 3000.0,
+      "range": 5000.0,
+      "range1": 5000.0,
       "rangeMax": 40000.0,
       "visibilityType": "infraRed",
       "antenna": {
@@ -359,15 +359,15 @@
   },
   "scopeRangeSets": {
     "radarSearchHighAlt": {
-      "range1": 30000.0,
+      "range1": 5000.0,
       "range2": 60000.0,
       "range3": 90000.0
     },
     "radarSearchLowAlt": {
-      "range1": 30000.0
+      "range1": 5000.0
     },
     "acm": {
-      "range1": 10000.0
+      "range1": 5000.0
     }
   },
   "fsms": {
@@ -2114,6 +2114,7 @@
       }
     }
   }
+} }
 }angeMult": 1.0
             }
           }

@@ -272,7 +272,8 @@
       "value": 0
     },
     "sentStatsToUserstat:object": {},
-    "sentMinStatsToUserstat:object": {}
+    "sentMinStatsToUserstat:object": {},
+    "sentAvgStatsToUserstat:object": {}
   },
   "damage_log": {
     "nextStatsSyncTime": 0.0,
@@ -363,8 +364,7 @@
       }
     ]
   }
-}ng__series_create_bolt": true,
-      "lightning__bolt_probability": 0.7,
+}htning__bolt_probability": 0.7,
       "lightning__bolt_step_size": 1300,
       "lightning__bolt_strike_time": 0.2,
       "lightning__emissive_multiplier": 50.0,

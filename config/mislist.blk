@@ -4,6 +4,7 @@
       "m": [
         "benchmark_ships_regular",
         "benchmark_pacific",
+        "benchmark_ships_real_distance",
         "benchmark_tank",
         "benchmark_tank_corpses",
         "benchmark_tank_paused",
@@ -68,9 +69,7 @@
       "m": "small_mission"
     }
   }
-}bug_tank": {
-      "m": [
-        "abandoned_factory_Dom",
+}ned_factory_Dom",
         "africa_desert_Dom",
         "american_valley_Dom",
         "japan_Dom",

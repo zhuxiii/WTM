@@ -542,5 +542,12 @@
   "human_ext": {},
   "light_vehicle_ext": {},
   "fortification_ext": {},
-  "infantry_troop_ext": {}
+  "infantry_troop_ext": {},
+  "capsules_ao": {
+    "capsules_ao__max_units_per_cell": 4,
+    "_singleton": true,
+    "capsules_ao": {
+      "_tags": "render"
+    }
+  }
 }

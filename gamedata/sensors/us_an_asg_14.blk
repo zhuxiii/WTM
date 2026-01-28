@@ -128,7 +128,7 @@
   },
   "scopeRangeSets": {
     "search": {
-      "range1": 37000.0
+      "range1": 5000.0
     }
   },
   "fsms": {
@@ -589,7 +589,7 @@
       }
     }
   }
-}"source": "activeTargetOfInterest",
+}}"source": "activeTargetOfInterest",
               "width": 0.0
             }
           }

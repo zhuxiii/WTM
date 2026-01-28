@@ -10,10 +10,6 @@
   "numBorderCellsXNeg": 0,
   "numBorderCellsZPos": 0,
   "numBorderCellsZNeg": 16,
-  "mirrorShrinkXPos": 256.0,
-  "mirrorShrinkXNeg": 256.0,
-  "mirrorShrinkZPos": 256.0,
-  "mirrorShrinkZNeg": 256.0,
   "lastClip": true,
   "lastclip_horizon": true,
   "rendinstPreloadDistance": 8500.0,
@@ -761,6 +757,15 @@
           242,
           247,
           255
+        ]
+      }
+    ]
+  },
+  "technicsSkins": {
+    "groundSkin": "forest"
+  },
+  "overrideRiLodRange": {}
+}  255
         ]
       }
     ]

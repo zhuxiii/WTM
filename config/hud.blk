@@ -104,8 +104,11 @@
   "allowableAnglesSectorRadius": 2000.0,
   "drawNativeTankSpeedInSpectator": false,
   "drawNativeRespawnIndicators": false,
+  "drawPointersInReplay": true,
+  "isPlayerHudInReplay": true,
   "maxShipRelativeHpRepairHint": 0.12,
   "heightTresholdForCriticalSpeedHint": 100.0,
+  "updateProlongatingAgmTracker": false,
   "skins": {
     "defSkin": "ui/gameuiskin"
   },
@@ -1679,6 +1682,7 @@
     },
     "ship_bullet_fall_spot": {
       "enabled": false,
+      "bombEnabled": false,
       "widthLimitsPx": [
         20.0,
         30.0
@@ -2118,9 +2122,10 @@
       50,
       118
     ],
-    "fontFxType": 2,
-    "unitNameFontFxType": 2,
+    "fontFxType": 3,
+    "unitNameFontFxType": 3,
     "fontFxOffset": 0,
+    "useResolutionIndependentFontFxScale": true,
     "notVisibleColorAlpha": [
       128,
       170
@@ -2273,6 +2278,7 @@
     "indicatorAnimationTime": 0.5,
     "scalingTextToTargetFrame": false,
     "drawDistStrOverModel": true,
+    "lineOfSightDelay": 1.5,
     "objectivesEnemyBlinkFxColor": [
       0,
       0,
@@ -2388,6 +2394,7 @@
       -0.5,
       0.5
     ],
+    "shouldShowAiTargetIcons": false,
     "aiTargetIconScale": 2.0,
     "iconBomb": "bomb_mark",
     "colorBomb": [

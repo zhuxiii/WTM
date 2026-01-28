@@ -31,7 +31,8 @@
         250,
         255
       ],
-      "fontFxScale": 24,
+      "fontFxScale": 45,
+      "downscaledFontFxScaleMul": 1.0,
       "fontFxColorFriend": [
         0,
         0,
@@ -189,6 +190,7 @@
       ],
       "notVisibleK": 0.75,
       "fontFxScale": 45,
+      "downscaledFontFxScaleMul": 0.8,
       "notVisibleTextMultiplier": 0.5,
       "uselessFontFxOpacity": 0.7,
       "objectivesBlinkColor": [
