@@ -532,7 +532,7 @@
     "enableVR": false
   },
   "phys": {
-    "fixedTimeStepHz": 30,
+    "fixedTimeStepHz": -60,
     "maxSubSteps": 1
   },
   "input": {
@@ -2569,7 +2569,7 @@
   "stcode": {
     "tag": "$version"
   }
-}ain": "wtm_loginData",
+}in": "wtm_loginData",
     "graphics": {
       "asyncPSO": true,
       "asyncLoadPSOCache": true

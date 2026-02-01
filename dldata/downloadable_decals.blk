@@ -2150,5 +2150,77 @@
     "lod0": "zbyks6353l6iev5g27okrjwarxwxfuoc-gyyq",
     "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
     "lod1": "ztmcnkemhoglmgvqf2udelkqri6davlu-b3va"
+  },
+  "china_numbers_4": {
+    "category": "common/numbers",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
+    "lod0": "iyfvnkwtydzsejpnmh7njfmha3cvqfs2-upq",
+    "hdr1": "RERTeEFTVDREABAAgACAAAgAAAAIABFVcFUAAAAAAAA=",
+    "lod1": "3v5fbsybtjbcfkhq5f2yygg4dumcnbzm-hbq"
+  },
+  "china_numbers_5": {
+    "category": "common/numbers",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAEAAQkAAAAIAAFlcFUBAAAAAAA=",
+    "lod0": "c3wlzchogjn6qaxqwpc2epbyc64zs7y7-whi",
+    "hdr1": "RERTeEFTVDREABAAgACAAAgAAAAIABFVcFUAAAAAAAA=",
+    "lod1": "ah6afmnktjkgcnhf7noxeaajhm5ssaep-h4q"
+  },
+  "rocaf_roundel_1949": {
+    "category": "common/roundels",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "fjvvzr6pbba3bwgngmxwxkawodl2mrnu-f3bi",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "o3hr36l5uu6ufnzbnavqhip434l2cy3y-by4q"
+  },
+  "ww_s2_shark": {
+    "category": "special",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "vtv4qmpon7s354imw6o4ugp4sjrpdji2-ezxi",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "sshc75hgsvbohga5plhebtitvirorbsi-bllq"
+  },
+  "ww_s2_tiger": {
+    "category": "special",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "ya6rep6hq2mu2pzff5bl5zyhkhxrku2r-e2ky",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "vffyv7mnrtixmbv4mdabukssjjtgup6n-blda"
+  },
+  "bamboo_shoots_decal": {
+    "category": "china",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "bf7mf63ynvajzepb7rtzvvo6zn5a5kpn-ei5a",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "7wls5akm3g4f3y63hbl35cyucld5ug5e-bisi"
+  },
+  "bi_disc_decal": {
+    "category": "china",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "sxf74sibwjg7gnz3axyuzsi352sus3wa-hvhi",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "mp7aioj3uttraee4sckkxcydpwusa4b4-ca2y"
+  },
+  "lucky_knots_decal": {
+    "category": "china",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "kaibbdbhcsmrdtyc6iy75fdwy5pvajbs-gi2y",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "b4jrerajms2kgzm4y6imkhqdlpmsrpp4-bxta"
+  },
+  "shan_shui_decal": {
+    "category": "china",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "fdibngqu75pnynsm6nx64sftogsajvhm-f56q",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "kdgm65gb46x3ewnfemnaksujascamygp-bu6a"
   }
 }
