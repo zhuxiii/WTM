@@ -2568,27 +2568,30 @@
   },
   "stcode": {
     "tag": "$version"
-  }
-}in": "wtm_loginData",
-    "graphics": {
-      "asyncPSO": true,
-      "asyncLoadPSOCache": true
-    },
-    "debug": {
-      "showFreeMemThresholdMb": 0
-    }
   },
-  "stcode": {
-    "tag": "$version"
+  "consent": {
+    "iab": {
+      "id": [
+        986,
+        755
+      ]
+    },
+    "google": {
+      "id": [
+        89,
+        2878,
+        3234,
+        1301
+      ]
+    },
+    "vendors": {
+      "vendor": {
+        "name": "AppsFlyer Ltd.",
+        "policy": "https://www.appsflyer.com/legal/services-privacy-policy/"
+      }
+    }
   }
-<<<<<<< HEAD
-}      }
-      },
-      "AMD": {
-        "driverProps": {
-          "clearColorBug": {
-            "entry": {
-              "data": {
+}              "data": {
                 "affected": true
               }
             }

@@ -370,6 +370,12 @@
   "useYawDeadzone": true,
   "showStreaksForOwnerOnly": true,
   "physObjUseMovementDamping": true,
+  "minTorpedoHitTimeThreatShow": 10.0,
+  "asrocTargetOnlySubmarine": true,
+  "separateTorpedoInitialSpeedMult": 0.2,
+  "autoLockSelectedTarget": true,
+  "shouldAutoSelectTargetForAiGunners": true,
+  "shouldSyncLockedTarget": true,
   "needCreateWreckedPartShip": false,
   "dayTimeSpeed": 0.0,
   "syncWeatherPeriod": 86400.0,
@@ -16020,6 +16026,38 @@
         {
           "name": "wheel_l_04_",
           "modelNames": "freccia"
+        },
+        {
+          "name": "wheel_r_01_",
+          "modelNames": "lav_ad"
+        },
+        {
+          "name": "wheel_l_01_",
+          "modelNames": "lav_ad"
+        },
+        {
+          "name": "wheel_r_02_",
+          "modelNames": "lav_ad"
+        },
+        {
+          "name": "wheel_l_02_",
+          "modelNames": "lav_ad"
+        },
+        {
+          "name": "wheel_r_03_",
+          "modelNames": "lav_ad"
+        },
+        {
+          "name": "wheel_l_03_",
+          "modelNames": "lav_ad"
+        },
+        {
+          "name": "wheel_r_04_",
+          "modelNames": "lav_ad"
+        },
+        {
+          "name": "wheel_l_04_",
+          "modelNames": "lav_ad"
         }
       ]
     },

@@ -26,6 +26,7 @@
         -10.0,
         85.0
       ],
+      "yawStabLimit": 180.0,
       "pitchStabLimit": 85.0,
       "rollStabLimit": 10.0,
       "period": 0.25,
@@ -37,6 +38,7 @@
     },
     "track": {
       "type": "no",
+      "yawStabLimit": 180.0,
       "pitchStabLimit": 85.0,
       "rollStabLimit": 10.0,
       "azimuthLimits": [
@@ -377,8 +379,7 @@
       }
     }
   }
-}         "extrapolateTargetsOfInterest": {},
-            "clearTargetsOfInterest": {
+}clearTargetsOfInterest": {
               "timeOut": 2.0,
               "dirRateLim": 0.78
             },
