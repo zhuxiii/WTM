@@ -49411,6 +49411,60 @@
     },
     "bullets": {}
   },
+  "esp_battleship_espana": {
+    "type": "ship",
+    "hangar_place": "ship",
+    "operatorCountry": "country_spain_kingdom",
+    "testFlight": "testFlight_destroyer_usa_tfs",
+    "crewTotalCount": 812,
+    "tierGroup": 5,
+    "tags": {
+      "country_uk": true,
+      "type_battleship": true,
+      "ship": true
+    },
+    "Shop": {
+      "shipCrewMax": 850,
+      "shipCrewMin": 160,
+      "shipCrewRating": 2.56364,
+      "maxSpeed": 10.8,
+      "turningTime": 29,
+      "mainWeaponCaliber": 305.0,
+      "weapons": {
+        "305mm_50_12inch_mark_h_naval_user_cannon": {
+          "wtype": "mainCannon",
+          "damage": 1800.0,
+          "shotFreq": 0.114,
+          "gunsCount": 8,
+          "caliber": 305.0,
+          "ammoCount": 880,
+          "isBeltAmmo": false
+        },
+        "102mm_50_4inch_bl_mk7_naval_user_cannon": {
+          "wtype": "auxCannon",
+          "damage": 250.0,
+          "shotFreq": 0.5,
+          "gunsTotalCount": 20,
+          "gunsMult": 0.5,
+          "gunsCount": 10,
+          "caliber": 102.0,
+          "ammoCount": 3000,
+          "isBeltAmmo": false
+        },
+        "47mm_qf3pdr_vickers_naval_user_cannon_aaa": {
+          "wtype": "aaa",
+          "damage": 52.0,
+          "shotFreq": 0.3,
+          "aimMaxDist": 3500.0,
+          "gunsCount": 4,
+          "caliber": 47.0,
+          "ammoCount": 1200,
+          "isBeltAmmo": false
+        }
+      }
+    },
+    "bullets": {}
+  },
   "cn_frigate_rckt_type053h": {
     "type": "ship",
     "hangar_place": "ship",
@@ -49470,62 +49524,6 @@
           "gunsCount": 6,
           "caliber": 130.0,
           "ammoCount": 600,
-          "isBeltAmmo": false
-        }
-      }
-    },
-    "bullets": {}
-  },
-  "esp_battleship_espana": {
-    "type": "ship",
-    "hangar_place": "ship",
-    "operatorCountry": "country_spain_kingdom",
-    "testFlight": "testFlight_destroyer_usa_tfs",
-    "crewTotalCount": 812,
-    "tierGroup": 5,
-    "tags": {
-      "country_uk": true,
-      "type_battleship": true,
-      "ship": true
-    },
-    "Shop": {
-      "shipCrewMax": 850,
-      "shipCrewMin": 160,
-      "shipCrewRating": 2.56364,
-      "maxSpeed": 10.0,
-      "turningTime": 34,
-      "mainWeaponCaliber": 305.0,
-      "weapons": {
-        "305mm_50_12inch_mark_h_naval_user_cannon": {
-          "wtype": "mainCannon",
-          "damage": 1800.0,
-          "shotFreq": 0.1,
-          "gunsCount": 8,
-          "caliber": 305.0,
-          "ammoCount": 880,
-          "isBeltAmmo": false
-        },
-        "102mm_50_4inch_bl_mk7_naval_user_cannon": {
-          "wtype": "auxCannon",
-          "damage": 250.0,
-          "shotFreq": 0.5,
-          "gunsCount": [
-            20,
-            10
-          ],
-          "gunsMult": 0.5,
-          "caliber": 102.0,
-          "ammoCount": 3000,
-          "isBeltAmmo": false
-        },
-        "47mm_qf3pdr_vickers_naval_user_cannon_aaa": {
-          "wtype": "aaa",
-          "damage": 52.0,
-          "shotFreq": 0.3,
-          "aimMaxDist": 3500.0,
-          "gunsCount": 4,
-          "caliber": 47.0,
-          "ammoCount": 1200,
           "isBeltAmmo": false
         }
       }
@@ -98256,5 +98254,7 @@
         }
       }
     }
+  }
+} }
   }
 }

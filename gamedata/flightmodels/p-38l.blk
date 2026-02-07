@@ -2058,7 +2058,7 @@
     "Range": 1367.94
   },
   "Sound": {
-    "Engine": "engine01",
+    "Engine": "engine_bomber_v12",
     "gun": "gun_default"
   },
   "cockpit": {

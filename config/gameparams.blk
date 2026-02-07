@@ -375,7 +375,7 @@
   "separateTorpedoInitialSpeedMult": 0.2,
   "autoLockSelectedTarget": true,
   "shouldAutoSelectTargetForAiGunners": true,
-  "shouldSyncLockedTarget": true,
+  "shouldSyncLockedTarget": false,
   "needCreateWreckedPartShip": false,
   "dayTimeSpeed": 0.0,
   "syncWeatherPeriod": 86400.0,
