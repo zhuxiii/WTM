@@ -4122,13 +4122,15 @@
         "from": "camo_hellgrau_50*",
         "to": "camo_hellgrau_50*"
       }
+    },
+    "pink_vd": {
+      "replace_tex": {
+        "from": "camo_atlanticocean*",
+        "to": "camo_pink*"
+      }
     }
   }
-}"barrel": "gun_barrel_05",
-                "gunnerDm": "aa_turret_01_dm"
-              },
-              "limits": {
-                "yaw": [
+}               "yaw": [
                   -180.0,
                   180.0
                 ],

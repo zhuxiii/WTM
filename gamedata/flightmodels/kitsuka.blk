@@ -2109,23 +2109,22 @@
         "to": "kitsuka_camo_n*"
       }
     ]
+  },
+  "vehicleSkins": {
+    "valentines": {
+      "replace_tex": [
+        {
+          "from": "kitsuka_c*",
+          "to": "kitsuka_valentines_c*"
+        },
+        {
+          "from": "kitsuka_n*",
+          "to": "kitsuka_valentines_n*"
+        }
+      ]
+    }
   }
-}
-        ]
-      }
-    ]
-  },
-  "turbulence": {
-    "segmentlength": 100.0,
-    "startSpeed": 28.0,
-    "maxSpeed": 140.0,
-    "maxPower": 6.0,
-    "initialRadius": 12.0,
-    "radiusSpeed": 2.0
-  },
-  "engineFx": {
-    "haze": "haze_jet",
-    "trail": "trail_jet",
+}"trail_jet",
     "exhaust": {
       "standard": "jet_exhaust",
       "afterburner": "jet_afterburner_exhaust",

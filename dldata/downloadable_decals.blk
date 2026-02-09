@@ -2222,5 +2222,21 @@
     "lod0": "fdibngqu75pnynsm6nx64sftogsajvhm-f56q",
     "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
     "lod1": "kdgm65gb46x3ewnfemnaksujascamygp-bu6a"
+  },
+  "fire_heart_decal": {
+    "category": "special",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "zbp7k5pxefhnjqymksykmdvptzcjqv2f-egiy",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "ndjy6dsn63u6dc4heycjbkalzh6vnuyp-bjqi"
+  },
+  "valentine_kiss": {
+    "category": "special",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "avr74dqj2ecurja3joxvt2n635ew6y4g-dfra",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "gdgpgd3lnnusfzvz5kubfqkxoeamkl7j-6jq"
   }
 }

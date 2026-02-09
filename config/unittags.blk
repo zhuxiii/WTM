@@ -98254,7 +98254,52 @@
         }
       }
     }
-  }
-} }
+  },
+  "cn_hj_9_reskin_vday": {
+    "type": "tank",
+    "hangar_place": "tank",
+    "testFlight": "testFlight_ERA_china_tft",
+    "tags": {
+      "country_china": true,
+      "tank": true,
+      "type_tank_destroyer": true,
+      "type_missile_tank": true
+    },
+    "bullets": {
+      "152mm_hj_9_launcher_user_cannon": {
+        "default": {
+          "icon": "hud_ammo_atgm_tandem_ap1_he1"
+        }
+      }
+    },
+    "Shop": {
+      "mainWeaponCaliber": 152.0,
+      "armorThicknessFront": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "armorThicknessSide": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "crew": 4,
+      "mass": 13750.0,
+      "maxSpeedForward": 26.4076,
+      "maxSpeedBackward": 2.24364,
+      "powerToWeightRatio": 23.2727,
+      "weapons": {
+        "152mm_hj_9_launcher_user_cannon": {
+          "wtype": "mainCannon",
+          "caliber": 152.0,
+          "armorPower": 1200.0,
+          "reloadTime": 1.0,
+          "autoLoader": true,
+          "gunnerTurretRotationSpeed": 15.0,
+          "isBeltAmmo": false
+        }
+      }
+    }
   }
 }

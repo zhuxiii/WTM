@@ -239,11 +239,6 @@
     }
   },
   "shader_vars": {
-    "tonemapContrast": 1.4,
-    "tonemapShoulder": 1.2,
-    "tonemapMidIn": 0.24,
-    "tonemapMidOut": 0.26,
-    "tonemapHdrMax": 4.0,
     "land_bump_scale": -4.0,
     "land_smoothness_detect_color": [
       0.36,
@@ -385,6 +380,13 @@
     ]
   },
   "forceTexLQ": {
+    "tex": [
+      "flak_36_set_tex_d*",
+      "studebaker_us6_bm_13h_tex_d*",
+      "studebaker_us6_bm_13h_tex_n*"
+    ]
+  }
+}xLQ": {
     "tex": [
       "flak_36_set_tex_d*",
       "studebaker_us6_bm_13h_tex_d*",
