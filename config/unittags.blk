@@ -97841,7 +97841,7 @@
       "type_spaa": true
     },
     "Shop": {
-      "mainWeaponCaliber": 72.0,
+      "mainWeaponCaliber": 25.0,
       "armorThicknessFront": [
         0.0,
         0.0,
@@ -97852,7 +97852,6 @@
         0.0,
         1.0
       ],
-      "mainWeaponType": "rockets",
       "crew": 3,
       "mass": 22700.0,
       "maxSpeedForward": 15.3507,
@@ -97860,7 +97859,7 @@
       "powerToWeightRatio": 16.8722,
       "weapons": {
         "25mm_PG87_PGZ_user_cannon": {
-          "wtype": "auxCannon",
+          "wtype": "mainCannon",
           "caliber": 25.0,
           "armorPower": 33.9672,
           "reloadTime": 0.1,
@@ -97868,9 +97867,9 @@
           "isBeltAmmo": true
         },
         "72mm_HN_6_launcher_user_cannon": {
-          "wtype": "rockets",
+          "wtype": "auxCannon",
           "caliber": 72.0,
-          "armorPower": 0,
+          "armorPower": 11.3333,
           "reloadTime": 1.0,
           "gunnerTurretRotationSpeed": 80.0,
           "isBeltAmmo": false
@@ -98299,6 +98298,10 @@
           "gunnerTurretRotationSpeed": 15.0,
           "isBeltAmmo": false
         }
+      }
+    }
+  }
+}     }
       }
     }
   }
