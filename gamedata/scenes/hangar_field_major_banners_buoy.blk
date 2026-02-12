@@ -1,0 +1,108 @@
+{
+  "entity": [
+    {
+      "_template": "hangar_major_banner_ship",
+      "ri_extra__name": "major_banner_buoy_b",
+      "transform": [
+        [
+          -0.382683,
+          0.0,
+          0.923879
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -0.923879,
+          0.0,
+          -0.382683
+        ],
+        [
+          2966.05,
+          6.8,
+          -2649.45
+        ]
+      ]
+    },
+    {
+      "_template": "hangar_major_banner_ship",
+      "ri_extra__name": "major_banner_buoy_b",
+      "transform": [
+        [
+          0.715288,
+          0.0,
+          -0.225529
+        ],
+        [
+          0.0,
+          0.75,
+          0.0
+        ],
+        [
+          0.225529,
+          0.0,
+          0.715288
+        ],
+        [
+          3296.35,
+          14.35,
+          -2529.25
+        ]
+      ]
+    },
+    {
+      "_template": "hangar_major_banner_ship",
+      "ri_extra__name": "major_banner_buoy_b",
+      "transform": [
+        [
+          0.724444,
+          0.0,
+          -0.194114
+        ],
+        [
+          0.0,
+          0.75,
+          0.0
+        ],
+        [
+          0.194114,
+          0.0,
+          0.724444
+        ],
+        [
+          3044.8,
+          14.2,
+          -3315.3
+        ]
+      ]
+    },
+    {
+      "_template": "hangar_major_banner_ship",
+      "ri_extra__name": "major_banner_buoy_b",
+      "transform": [
+        [
+          -1.03923,
+          0.0,
+          -0.6
+        ],
+        [
+          0.0,
+          1.2,
+          0.0
+        ],
+        [
+          0.6,
+          0.0,
+          -1.03923
+        ],
+        [
+          2908.95,
+          6.79996,
+          -2823.75
+        ]
+      ]
+    }
+  ]
+}

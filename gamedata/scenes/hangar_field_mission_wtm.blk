@@ -1,14 +1,13 @@
 {
-  "entity": [
+  "import": [
     {
-      "_template": "backmodel_spawn_point",
-      "transform": [
-        [
-          -0.313162,
-          0.0,
-          -0.9497
-        ],
-        [
+      "scene": "gamedata/scenes/hangar_field_units.blk"
+    },
+    {
+      "scene": "gamedata/scenes/hangar_field_major_banners.blk"
+    }
+  ]
+}    [
           0.0,
           1.0,
           0.0

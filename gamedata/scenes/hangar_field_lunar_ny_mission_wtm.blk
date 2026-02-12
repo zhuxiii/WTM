@@ -1,30 +1,22 @@
 {
-  "entity": [
+  "import": [
     {
-      "_template": "backmodel_spawn_point",
-      "transform": [
-        [
-          0.775791,
-          0.0,
-          0.63099
-        ],
-        [
-          -0.160464,
-          0.978375,
-          -0.130514
-        ],
-        [
-          -0.617345,
-          -0.20684,
-          0.759014
-        ],
-        [
-          -2650.52,
-          1.21304,
-          373.84
-        ]
-      ],
-      "spawnPointType": "ship",
+      "scene": "gamedata/scenes/hangar_field_lunar_ny_units.blk"
+    },
+    {
+      "scene": "gamedata/scenes/hangar_field_major_banners.blk"
+    },
+    {
+      "scene": "gamedata/scenes/hangar_field_lunar_ny_lights.blk"
+    },
+    {
+      "scene": "gamedata/scenes/hangar_field_lunar_ny_fx.blk"
+    },
+    {
+      "scene": "gamedata/scenes/hangar_field_lunar_ny_objects.blk"
+    }
+  ]
+}      "spawnPointType": "ship",
       "forPremiumVehicle": true
     },
     {

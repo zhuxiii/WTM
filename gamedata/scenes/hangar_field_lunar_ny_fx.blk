@@ -1,0 +1,1443 @@
+{
+  "entity": [
+    {
+      "_template": "camera_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          469.256,
+          139.578,
+          3600.34
+        ]
+      ],
+      "camera_fx__radius": 150.0,
+      "camera_fx__res": "location_camera_leaves_pink_cmps_fx",
+      "camera_fx__is_cylindrical": false,
+      "camera_fx__height": 0.0
+    },
+    {
+      "_template": "camera_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3029.41,
+          7.0,
+          -2762.89
+        ]
+      ],
+      "camera_fx__radius": 250.0,
+      "camera_fx__res": "location_camera_leaves_pink_cmps_fx",
+      "camera_fx__is_cylindrical": false,
+      "camera_fx__height": 0.0
+    },
+    {
+      "_template": "camera_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3712.65,
+          23.7444,
+          3550.43
+        ]
+      ],
+      "camera_fx__res": "location_camera_leaves_pink_cmps_fx",
+      "camera_fx__radius": 250.0,
+      "camera_fx__is_cylindrical": false,
+      "camera_fx__height": 0.0
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          437.862,
+          171.539,
+          3675.73
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          501.793,
+          170.748,
+          3639.76
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3674.43,
+          46.0693,
+          3463.9
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_light"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3788.58,
+          46.1729,
+          3628.26
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3718.45,
+          27.0497,
+          3635.86
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3737.52,
+          27.0497,
+          3640.8
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3652.48,
+          27.0497,
+          3636.13
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3685.07,
+          38.1731,
+          3649.28
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3719.76,
+          56.0838,
+          3642.96
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3653.1,
+          69.0959,
+          3646.68
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3651.52,
+          54.67,
+          3644.35
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3583.34,
+          56.0326,
+          3642.38
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3585.49,
+          27.0497,
+          3636.13
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3618.58,
+          37.634,
+          3647.73
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3679.69,
+          27.0498,
+          3488.48
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3664.57,
+          27.0498,
+          3503.57
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3643.24,
+          27.0498,
+          3522.15
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3621.83,
+          27.0498,
+          3541.71
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3601.88,
+          27.0498,
+          3559.55
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3701.55,
+          27.0497,
+          3468.94
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3722.31,
+          27.0497,
+          3450.46
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3738.64,
+          27.0502,
+          3434.21
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3644.07,
+          34.2069,
+          3491.65
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3639.13,
+          26.0844,
+          3497.28
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3022.61,
+          35.088,
+          -2545.72
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_light"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3023.48,
+          35.088,
+          -2545.89
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_light"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3025.19,
+          35.088,
+          -2546.34
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3187.93,
+          41.9076,
+          -2719.36
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3188.23,
+          41.9076,
+          -2718.48
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3188.55,
+          41.9076,
+          -2717.64
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3188.81,
+          41.9076,
+          -2716.82
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          2957.97,
+          11.8533,
+          -2775.48
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          2963.98,
+          11.047,
+          -2775.89
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          2972.81,
+          11.8533,
+          -2779.9
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3002.47,
+          11.8533,
+          -2788.74
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          2987.63,
+          11.8533,
+          -2784.31
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3032.12,
+          11.8533,
+          -2797.57
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3017.29,
+          11.8533,
+          -2793.15
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3061.78,
+          11.8533,
+          -2806.41
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3046.94,
+          11.8533,
+          -2801.98
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3091.6,
+          11.8533,
+          -2815.22
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3076.76,
+          11.8533,
+          -2810.8
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3113.81,
+          12.104,
+          -2817.12
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3111.28,
+          12.104,
+          -2826.25
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3133.53,
+          17.9135,
+          -2823.18
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3131.0,
+          17.9135,
+          -2832.3
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3217.73,
+          39.6799,
+          -2598.84
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3120.36,
+          42.0607,
+          -2953.99
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          465.598,
+          171.006,
+          3550.64
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_light"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          438.297,
+          171.539,
+          3676.82
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          438.819,
+          171.539,
+          3677.7
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    },
+    {
+      "_template": "ecs_fx",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          439.341,
+          171.539,
+          3678.58
+        ]
+      ],
+      "ecs_fx__res": "hangar_hmb_low_light_yellow"
+    }
+  ]
+}

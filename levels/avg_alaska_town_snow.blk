@@ -47,7 +47,7 @@
   "customLevelMap": "avg_alaska_town_snow_tankmap*",
   "customLevelTankMap": "avg_alaska_town_snow_tankmap*",
   "weatherPreset": "gameData/environments/weather_preset_1.blk",
-  "weatherTypes": "gameData/environments/weather_types.blk",
+  "weatherTypes": "gameData/environments/weather_types_winter.blk",
   "water_level": -10.0,
   "forceDisableRefraction": true,
   "soundAmbientPath": "sounds/ambient",
@@ -382,8 +382,7 @@
       "lod1": 600.0
     }
   }
-}.0
-    }
+}}
   }
 }00.0,
       "lod1": 600.0

@@ -12,7 +12,6 @@
   "numBorderCellsZNeg": 8,
   "lastClip": true,
   "lastclip_horizon": true,
-  "rendinstPreloadDistance": 8500.0,
   "clipmap_tex_mips": 6,
   "addLandToSky": true,
   "max_wind_strength": 3.0,
@@ -807,6 +806,9 @@
       "hangar_sound": "new_hangar/hangar_ships_xmas",
       "hangar_sound_tanks": "new_hangar/hangar_tanks_xmas",
       "hangar_sound_ships": "new_hangar/hangar_ships_xmas"
+    }
+  }
+}hangar/hangar_ships_xmas"
     }
   }
 }sound_tanks": "new_hangar/hangar_tanks_xmas",

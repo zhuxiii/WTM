@@ -115,6 +115,10 @@
       "coloring": 0.5
     }
   },
+  "clustered_lights": {
+    "enabled": false,
+    "maxClusteredDist": 3000.0
+  },
   "stars": {
     "latitude": 52.0,
     "longitude": 19.0,
@@ -771,8 +775,7 @@
       "hangar_sound_ships": "new_hangar/hangar_ships_xmas"
     }
   }
-}sound_tanks": "new_hangar/hangar_tanks_xmas",
-      "hangar_sound_ships": "new_hangar/hangar_ships_xmas"
+}gar/hangar_ships_xmas"
     }
   }
 }_bush_c": {

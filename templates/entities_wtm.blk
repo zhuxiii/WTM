@@ -363,14 +363,20 @@
         "air_speed_booster__enableWep": true
       }
     ]
+  },
+  "hangar_major_banner_tank": {
+    "_use": "rendinst",
+    "hangarMajorBannerTank:tag": {}
+  },
+  "hangar_major_banner_ship": {
+    "_use": "rendinst",
+    "hangarMajorBannerShip:tag": {}
+  },
+  "hangar_major_banner_air": {
+    "_use": "rendinst",
+    "hangarMajorBannerAir:tag": {}
   }
-}htning__bolt_probability": 0.7,
-      "lightning__bolt_step_size": 1300,
-      "lightning__bolt_strike_time": 0.2,
-      "lightning__emissive_multiplier": 50.0,
-      "lightning__emissive_fadein_time": 0.5,
-      "lightning__emissive_fadeout_time": 0.2,
-      "lightning__vert_noise_scale": 1000.0,
+}: 1000.0,
       "lightning__vert_noise_strength": 0.005,
       "lightning__vert_noise_time": 10.0,
       "lightning__vert_noise_speed": 0.2,
