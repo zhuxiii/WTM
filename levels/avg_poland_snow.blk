@@ -81,7 +81,8 @@
     "water3d": true,
     "staticScene": true,
     "riExtraMinSizeForReflection": 5.0,
-    "riExToHeightmap": true
+    "riExToHeightmap": true,
+    "unormRtPack": 3.0
   },
   "clipmap": {
     "texelSize": 0.03125,
@@ -239,11 +240,6 @@
     }
   },
   "shader_vars": {
-    "tonemapContrast": 1.4,
-    "tonemapShoulder": 1.2,
-    "tonemapMidIn": 0.24,
-    "tonemapMidOut": 0.26,
-    "tonemapHdrMax": 4.0,
     "land_bump_scale": -4.0,
     "land_smoothness_detect_color": [
       0.36,
@@ -387,6 +383,11 @@
   "forceTexLQ": {
     "tex": [
       "flak_36_set_tex_d*",
+      "studebaker_us6_bm_13h_tex_d*",
+      "studebaker_us6_bm_13h_tex_n*"
+    ]
+  }
+}   "flak_36_set_tex_d*",
       "studebaker_us6_bm_13h_tex_d*",
       "studebaker_us6_bm_13h_tex_n*"
     ]

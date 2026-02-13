@@ -49478,8 +49478,8 @@
     },
     "Shop": {
       "shipCrewMax": 300,
-      "shipCrewMin": 60,
-      "shipCrewRating": 2.4203,
+      "shipCrewMin": 50,
+      "shipCrewRating": 2.68909,
       "maxSpeed": 12.7,
       "turningTime": 13,
       "asmCaptureDuration": 4.5,
@@ -98301,7 +98301,7 @@
       }
     }
   }
-}     }
+}    }
       }
     }
   }

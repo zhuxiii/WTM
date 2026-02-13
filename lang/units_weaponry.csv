@@ -23,7 +23,7 @@
 "mass/kg";"%d kg";"%d kg";"%d kg";"%d kg";"%d kg";"%d кг";"%d кг";"%d kg";"%d kg";"%d kg";"%d kg";"%d kg";"%d kg";"%d กก.";"%d kg";"%d 千\t克";"%d kg";"%d 公\t斤";;
 "mass/lbs";"%d lbs";"%d lbs";"%d lbs";"%d lbs";"%d lbs";"%d фнт";"%d ф";"%d lb";"%d lbs";"%d libre";"%d lb";"%d lbs";"%d lbs";"%d ปอนด์";"%d lbs";"%d 磅";"%d ポンド";"%d 磅";;
 "caliber/mm";"%d mm";"%d mm";"%d mm";"%dmm";"%d mm";"%d-мм";"%d-мм";"%d mm ";"%d mm";"%d mm";"%d mm";"%d mm";"%d mm";"%d มม.";"%d mm";"%d 毫\t米";"%d mm";"%d 毫\t米";;
-"countermeasures/desc";"Countermeasures";"Contre mesures";"Contromisure";"Gegenmaßnahmen";"Contramedidas";"Средства противодействия";"Засоби протидії";"Środki zakłócające ";"Contramedidas";"Сountermeasures";"Protiopatření";"Αντίμετρα";"Pencegahan";"มาตรการโต้ตอบ";"기만체";"干\t扰\t物\t（对\t抗\t措\t施）";"対抗手段";"紅\t外\t對\t抗\t措\t施";;
+"countermeasures/desc";"Countermeasures";"Contre mesures";"Contromisure";"Gegenmaßnahmen";"Contramedidas";"Средства противодействия";"Засоби протидії";"Środki zakłócające ";"Contramedidas";"Countermeasures";"Protiopatření";"Αντίμετρα";"Pencegahan";"มาตรการโต้ตอบ";"기만체";"干\t扰\t物\t（对\t抗\t措\t施）";"対抗手段";"紅\t外\t對\t抗\t措\t施";;
 "default/name";"Default";"Défaut";"Predefinito";"Standard";"Predeterminado";"Стандарт";"Стандарт";"Domyślna";"Padrão";"Varsayılan";"Výchozí";"Προεπιλογή";"Default";"ค่าเริ่มต้น";"기본";"默\t认";"既定";"默\t認";"Default belt name for machine gun";
 "weapon/noSecondaryWeapon";"Without load";"Sans charge";"Senza carico";"Ohne";"Sin carga";"Без подвесного оружия";"Без підвісного озброєння";"Bez ładunku";"Sem carga";"Yüksüz";"Bez výzbroje";"Χωρίς φορτίο";"Tanpa beban";"ไม่ติดอาวุธรอง";"보조무장 없음";"无\t挂\t载";"搭載なし";"無\t掛\t載";;
 "weapon/noAdditionalWeapon";"Without load";"Sans charge";"Senza carico";"Ohne";"Sin carga";"Без доп. оружия";"Без дод. зброї";"Bez ładunku";"Sem carga";"Yüksüz";"Bez výzbroje";"Χωρίς φορτίο";"Tanpa beban";"ไม่ติดอาวุธรอง";"보조무장 없음";"无\t挂\t载";"搭載なし";"無\t掛\t載";;
@@ -1717,4 +1717,5 @@ Działo 50 O.T.O. Mod.1933 kal. 120 mm";"Canhão 120 mm/50 O.T.O. Mod.1933";"120
 "weapons/100mm_PTP86_user_cannon";"100 mm PTP86 cannon";"Canon de 100 mm PTP86";"Cannone da 100mm PTP86";"100 mm PTP86 Geschütz";"Cañón PTP86 de 100 mm";"100-мм пушка PTP86";"100-мм гармата PTP86";"Działo PTP86 kal. 100 mm";"Canhão de 100 mm PTP86";"100 mm PTP86 top";"100 mm kanón PTP86";"100 mm PTP86 cannon";"Meriam 100 mm/PTP86";"100 mm PTP86 cannon";"100 mm PTP86 전차포";"100 毫\t米 PTP86 式\t反\t坦\t克\t炮";"100 mm PTP86 砲";"100 毫\t米 PTP86 式\t戰\t車\t炮";;
 "weapons/72mm_HN_6_launcher_user_cannon";"HN-6 SAM";"SAM HN-6";"HN-6 SAM";"HN-6 SAM";"SAM HN-6";"ЗУР HN-6";"ЗРК HN-6";"PZR HN-6";"HN-6 SAM";"HN-6 SAM";"HN-6 SAM";"HN-6 SAM";"SAM HN-6";"HN-6 SAM";"HN-6 대공미사일";"红\t缨\t-6 便\t携\t式\t防\t空\t导\t弹";"HN-6 SAM";"紅\t纓\t-6 便\t攜\t式\t防\t空\t飛\t彈";;
 "WEAPON_LANG_KEEP_IT_ALWAYS_FIRST";;;;;;;;;;;;;;;;;;;"";
+
 ;;;;;"";
