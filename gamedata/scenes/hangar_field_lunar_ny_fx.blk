@@ -86,8 +86,9 @@
       "camera_fx__radius": 250.0,
       "camera_fx__is_cylindrical": false,
       "camera_fx__height": 0.0
-    },
-    {
+    }
+  ]
+}{
       "_template": "ecs_fx",
       "transform": [
         [
