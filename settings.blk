@@ -492,6 +492,8 @@
       1.25,
       1.2
     ],
+    "allowSceneSnowCover": true,
+    "decalHack": false,
     "raytraced_shadows": {
       "maxBlasBuildFrames": 30,
       "additionalElementsCheck": false,
@@ -1481,6 +1483,12 @@
           }
         }
       }
+    },
+    "broken_snow_cover": {
+      "gpu": "Adreno (TM) 660",
+      "graphics": {
+        "decalHack": true
+      }
     }
   },
   "gamepad_layout": {
@@ -1820,7 +1828,7 @@
         "applyCloudsShadow": true,
         "xrayOutlinesScale": 1.0,
         "underwaterCausticsEnabled": true,
-        "useVapor": true,
+        "useVapor": false,
         "planarReflectionTexDiv": 4
       },
       "render": {
@@ -1905,7 +1913,7 @@
         "applyCloudsShadow": true,
         "xrayOutlinesScale": 1.0,
         "underwaterCausticsEnabled": true,
-        "useVapor": true,
+        "useVapor": false,
         "planarReflectionTexDiv": 4
       },
       "render": {
@@ -1990,7 +1998,7 @@
         "applyCloudsShadow": true,
         "xrayOutlinesScale": 1.0,
         "underwaterCausticsEnabled": true,
-        "useVapor": true,
+        "useVapor": false,
         "planarReflectionTexDiv": 4
       },
       "render": {
@@ -2147,7 +2155,7 @@
         "applyCloudsShadow": true,
         "xrayOutlinesScale": 1.0,
         "underwaterCausticsEnabled": false,
-        "useVapor": true,
+        "useVapor": false,
         "planarReflectionTexDiv": 4
       },
       "clipmap": {
@@ -2221,7 +2229,7 @@
         "applyCloudsShadow": true,
         "xrayOutlinesScale": 1.0,
         "underwaterCausticsEnabled": true,
-        "useVapor": true,
+        "useVapor": false,
         "planarReflectionTexDiv": 4
       },
       "clipmap": {
@@ -2295,7 +2303,7 @@
         "applyCloudsShadow": true,
         "xrayOutlinesScale": 1.0,
         "underwaterCausticsEnabled": true,
-        "useVapor": true,
+        "useVapor": false,
         "planarReflectionTexDiv": 4
       },
       "clipmap": {
@@ -2570,6 +2578,8 @@
     }
   },
   "stcode": {
+    "useBytecodeForDynstcode": true,
+    "useBytecodeForStblkcode": true,
     "tag": "$version"
   },
   "consent": {
@@ -2594,18 +2604,7 @@
       }
     }
   }
-}            }
-            }
-          }
-        }
-      },
-      "default": {
-        "driverProps": {
-          "hasTileBasedArchitecture": {
-            "affected": true
-          },
-          "disableMultiDrawIndirect": {
-            "affected": true
+}": true
           },
           "memsetOnRub": {
             "affected": false

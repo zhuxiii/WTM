@@ -1464,13 +1464,13 @@
           1.0
         ],
         [
-          3792.45,
-          36.1,
-          3687.55
+          3793.9,
+          30.05,
+          3690.5
         ]
       ],
       "light__nightly": false,
-      "light__brightness": 400.0,
+      "light__brightness": 200.0,
       "light__radius_scale": 1.0,
       "light__max_radius": 100.0,
       "light__color": [
@@ -1554,4 +1554,4 @@
       "omni_light__shadows": true
     }
   ]
-}
+}}

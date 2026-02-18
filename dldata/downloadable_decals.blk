@@ -2254,5 +2254,13 @@
     "lod0": "lrpxxefrilbxambim5eft6xnf4rx7yqe-fvyi",
     "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
     "lod1": "dr5a6piewtyrlvp4avdx5boxgseglbae-bsna"
+  },
+  "steel_dragons_decal": {
+    "category": "common",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "rsils7b475knfg7f55hkgtlnbibdjhco-e4ii",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "ehpxt7zs3bcxa3jk5kuydposw2zoqxb4-bm4i"
   }
 }

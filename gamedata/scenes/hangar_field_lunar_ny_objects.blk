@@ -3304,32 +3304,6 @@
     },
     {
       "_template": "rendinst_replicated",
-      "ri_extra__name": "lunar_asian_portal_c",
-      "transform": [
-        [
-          -2.98023e-8,
-          0.0,
-          0.8
-        ],
-        [
-          0.0,
-          0.8,
-          0.0
-        ],
-        [
-          -0.8,
-          0.0,
-          -2.98023e-8
-        ],
-        [
-          171.027,
-          55.7431,
-          3146.3
-        ]
-      ]
-    },
-    {
-      "_template": "rendinst_replicated",
       "ri_extra__name": "lunar_asian_terrace_a_full",
       "transform": [
         [
@@ -3642,58 +3616,6 @@
     },
     {
       "_template": "rendinst_replicated",
-      "ri_extra__name": "lunar_asian_portal_b",
-      "transform": [
-        [
-          -2.6077e-8,
-          0.0,
-          0.7
-        ],
-        [
-          0.0,
-          0.7,
-          0.0
-        ],
-        [
-          -0.7,
-          0.0,
-          -2.6077e-8
-        ],
-        [
-          9372.87,
-          19.6456,
-          5253.58
-        ]
-      ]
-    },
-    {
-      "_template": "rendinst_replicated",
-      "ri_extra__name": "lunar_asian_portal_a",
-      "transform": [
-        [
-          -2.6077e-8,
-          0.0,
-          0.7
-        ],
-        [
-          0.0,
-          0.7,
-          0.0
-        ],
-        [
-          -0.7,
-          0.0,
-          -2.6077e-8
-        ],
-        [
-          9370.98,
-          19.6456,
-          5119.17
-        ]
-      ]
-    },
-    {
-      "_template": "rendinst_replicated",
       "ri_extra__name": "lunar_ny_lantern_box",
       "transform": [
         [
@@ -3897,32 +3819,6 @@
           3691.44,
           19.6456,
           3278.7
-        ]
-      ]
-    },
-    {
-      "_template": "rendinst_replicated",
-      "ri_extra__name": "lunar_asian_portal_b",
-      "transform": [
-        [
-          -2.6077e-8,
-          0.0,
-          0.7
-        ],
-        [
-          0.0,
-          0.7,
-          0.0
-        ],
-        [
-          -0.7,
-          0.0,
-          -2.6077e-8
-        ],
-        [
-          3939.15,
-          19.6456,
-          3384.37
         ]
       ]
     },
@@ -6034,79 +5930,53 @@
     },
     {
       "_template": "rendinst_replicated",
-      "ri_extra__name": "lunar_asian_portal_a",
+      "ri_extra__name": "lunar_ny_gate",
       "transform": [
         [
-          -0.368856,
+          1.01339,
           0.0,
-          2.80174
+          1.10592
         ],
         [
           0.0,
-          2.82592,
+          1.5,
           0.0
         ],
         [
-          -2.80174,
+          -1.10592,
           0.0,
-          -0.368856
+          1.01339
         ],
         [
-          3898.82,
-          23.8071,
-          3496.78
+          3440.6,
+          23.6806,
+          3547.05
         ]
       ]
     },
     {
       "_template": "rendinst_replicated",
-      "ri_extra__name": "lunar_asian_portal_a",
+      "ri_extra__name": "lunar_ny_gate",
       "transform": [
         [
-          -1.79193,
+          -0.0872388,
           0.0,
-          1.50361
+          -1.9981
         ],
         [
           0.0,
-          2.3392,
+          2.0,
           0.0
         ],
         [
-          -1.50361,
+          1.9981,
           0.0,
-          -1.79193
+          -0.0872388
         ],
         [
-          3439.0,
-          21.1798,
-          3537.78
-        ]
-      ]
-    },
-    {
-      "_template": "rendinst_replicated",
-      "ri_extra__name": "lunar_asian_portal_b",
-      "transform": [
-        [
-          1.28096,
-          0.0,
-          -0.112069
-        ],
-        [
-          0.0,
-          1.28585,
-          0.0
-        ],
-        [
-          0.112069,
-          0.0,
-          1.28096
-        ],
-        [
-          3792.77,
-          28.5478,
-          3688.98
+          3794.8,
+          23.7631,
+          3692.25
         ]
       ]
     },
@@ -6141,9 +6011,9 @@
       "ri_extra__name": "lunar_asian_portal_c",
       "transform": [
         [
-          0.842929,
+          0.878895,
           0.0,
-          -0.842929
+          -0.805359
         ],
         [
           0.0,
@@ -6151,14 +6021,14 @@
           0.0
         ],
         [
-          0.842929,
+          0.805359,
           0.0,
-          0.842929
+          0.878895
         ],
         [
-          3465.67,
-          20.2497,
-          3459.98
+          3437.15,
+          23.6784,
+          3543.2
         ]
       ]
     },
@@ -6505,32 +6375,6 @@
       "ri_extra__name": "lunar_ny_lantern_spheres",
       "transform": [
         [
-          -1.09959,
-          0.0,
-          0.594063
-        ],
-        [
-          0.0,
-          1.2498,
-          0.0
-        ],
-        [
-          -0.594063,
-          0.0,
-          -1.09959
-        ],
-        [
-          513.97,
-          135.059,
-          3613.48
-        ]
-      ]
-    },
-    {
-      "_template": "rendinst_replicated",
-      "ri_extra__name": "lunar_ny_lantern_spheres",
-      "transform": [
-        [
           1.13643,
           0.0,
           -0.520124
@@ -6651,7 +6495,7 @@
         ],
         [
           2007.49,
-          22.6137,
+          19.4,
           -3134.29
         ]
       ]
@@ -6679,58 +6523,6 @@
           2354.22,
           18.2412,
           -1710.04
-        ]
-      ]
-    },
-    {
-      "_template": "rendinst_replicated",
-      "ri_extra__name": "lunar_asian_portal_a",
-      "transform": [
-        [
-          0.789054,
-          0.0,
-          -1.14028
-        ],
-        [
-          0.0,
-          1.38667,
-          0.0
-        ],
-        [
-          1.14028,
-          0.0,
-          0.789054
-        ],
-        [
-          2057.92,
-          23.3633,
-          -3075.23
-        ]
-      ]
-    },
-    {
-      "_template": "rendinst_replicated",
-      "ri_extra__name": "lunar_asian_portal_b",
-      "transform": [
-        [
-          1.0,
-          0.0,
-          0.0
-        ],
-        [
-          0.0,
-          1.0,
-          0.0
-        ],
-        [
-          0.0,
-          0.0,
-          1.0
-        ],
-        [
-          2035.52,
-          22.8396,
-          -3026.7
         ]
       ]
     },
@@ -11538,9 +11330,9 @@
           -0.537922
         ],
         [
-          2278.72,
-          27.8763,
-          -1848.74
+          2246.8,
+          24.5,
+          -1845.9
         ]
       ]
     },
@@ -14632,9 +14424,9 @@
           1.0
         ],
         [
-          3469.8,
+          3456.55,
           23.7685,
-          3480.25
+          3478.65
         ]
       ]
     },
@@ -14745,6 +14537,213 @@
     {
       "_template": "rendinst_replicated",
       "ri_extra__name": "tree_prunus_persica_medium_a",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          3837.9,
+          23.7685,
+          3621.3
+        ]
+      ]
+    },
+    {
+      "_template": "rendinst_replicated",
+      "ri_extra__name": "tree_prunus_persica_medium_b",
+      "transform": [
+        [
+          -0.950912,
+          0.0,
+          -0.30946
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.30946,
+          0.0,
+          -0.950912
+        ],
+        [
+          3213.5,
+          14.9097,
+          -2798.9
+        ]
+      ]
+    },
+    {
+      "_template": "rendinst_replicated",
+      "ri_extra__name": "lunar_ny_lantern_spheres",
+      "transform": [
+        [
+          0.462419,
+          0.0,
+          -1.16111
+        ],
+        [
+          0.0,
+          1.2498,
+          0.0
+        ],
+        [
+          1.16111,
+          0.0,
+          0.462419
+        ],
+        [
+          420.9,
+          139.739,
+          3627.9
+        ]
+      ]
+    },
+    {
+      "_template": "rendinst_replicated",
+      "ri_extra__name": "tree_sakura_a",
+      "transform": [
+        [
+          1.21562,
+          -2.26142e-24,
+          1.99027e-13
+        ],
+        [
+          1.15958e-8,
+          1.21562,
+          -8.14423e-8
+        ],
+        [
+          7.35178e-8,
+          0.0,
+          1.21562
+        ],
+        [
+          3464.15,
+          23.6633,
+          3459.15
+        ]
+      ]
+    },
+    {
+      "_template": "rendinst_replicated",
+      "ri_extra__name": "lunar_asian_pagoda_c_middle",
+      "transform": [
+        [
+          1.37049,
+          0.0,
+          -0.00177445
+        ],
+        [
+          0.0,
+          1.37049,
+          0.0
+        ],
+        [
+          0.00177445,
+          0.0,
+          1.37049
+        ],
+        [
+          2007.49,
+          35.15,
+          -3134.29
+        ]
+      ]
+    },
+    {
+      "_template": "rendinst_replicated",
+      "ri_extra__name": "lunar_asian_pagoda_c_top",
+      "transform": [
+        [
+          1.37049,
+          0.0,
+          -0.00177445
+        ],
+        [
+          0.0,
+          1.37049,
+          0.0
+        ],
+        [
+          0.00177445,
+          0.0,
+          1.37049
+        ],
+        [
+          2007.49,
+          45.35,
+          -3134.29
+        ]
+      ]
+    },
+    {
+      "_template": "rendinst_replicated",
+      "ri_extra__name": "lunar_asian_pagoda_c_middle",
+      "transform": [
+        [
+          1.51981,
+          0.0,
+          -0.497514
+        ],
+        [
+          0.0,
+          1.59917,
+          0.0
+        ],
+        [
+          0.497514,
+          0.0,
+          1.51981
+        ],
+        [
+          2277.56,
+          42.45,
+          -1845.04
+        ]
+      ]
+    },
+    {
+      "_template": "rendinst_replicated",
+      "ri_extra__name": "lunar_asian_pagoda_c_top",
+      "transform": [
+        [
+          1.51981,
+          0.0,
+          -0.497514
+        ],
+        [
+          0.0,
+          1.59917,
+          0.0
+        ],
+        [
+          0.497514,
+          0.0,
+          1.51981
+        ],
+        [
+          2277.56,
+          54.35,
+          -1845.04
+        ]
+      ]
+    }
+  ]
+}i_extra__name": "tree_prunus_persica_medium_a",
       "transform": [
         [
           1.0,
