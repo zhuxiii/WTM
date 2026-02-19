@@ -2578,8 +2578,6 @@
     }
   },
   "stcode": {
-    "useBytecodeForDynstcode": true,
-    "useBytecodeForStblkcode": true,
     "tag": "$version"
   },
   "consent": {
@@ -2601,6 +2599,10 @@
       "vendor": {
         "name": "AppsFlyer Ltd.",
         "policy": "https://www.appsflyer.com/legal/services-privacy-policy/"
+      }
+    }
+  }
+}ps://www.appsflyer.com/legal/services-privacy-policy/"
       }
     }
   }

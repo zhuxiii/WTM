@@ -2,7 +2,7 @@
   "entity": [
     {
       "_template": "hangar_major_banner_air",
-      "ri_extra__name": "major_banner_wall_b",
+      "ri_extra__name": "major_banner_wall_even",
       "transform": [
         [
           -0.451059,
@@ -28,7 +28,7 @@
     },
     {
       "_template": "hangar_major_banner_air",
-      "ri_extra__name": "major_banner_wall_b",
+      "ri_extra__name": "major_banner_wall_even",
       "transform": [
         [
           0.510721,
@@ -54,7 +54,7 @@
     },
     {
       "_template": "hangar_major_banner_air",
-      "ri_extra__name": "major_banner_wall_b",
+      "ri_extra__name": "major_banner_wall_even",
       "transform": [
         [
           0.782825,
@@ -80,7 +80,7 @@
     },
     {
       "_template": "hangar_major_banner_air",
-      "ri_extra__name": "major_banner_wall_b",
+      "ri_extra__name": "major_banner_wall_even",
       "transform": [
         [
           -0.000769659,
@@ -106,7 +106,7 @@
     },
     {
       "_template": "hangar_major_banner_air",
-      "ri_extra__name": "major_banner_wall_b",
+      "ri_extra__name": "major_banner_wall_even",
       "transform": [
         [
           -0.00472834,
@@ -132,7 +132,7 @@
     },
     {
       "_template": "hangar_major_banner_air",
-      "ri_extra__name": "major_banner_wall_b",
+      "ri_extra__name": "major_banner_wall_even",
       "transform": [
         [
           0.00584367,
@@ -158,7 +158,7 @@
     },
     {
       "_template": "hangar_major_banner_air",
-      "ri_extra__name": "major_banner_wall_b",
+      "ri_extra__name": "major_banner_wall_even",
       "transform": [
         [
           -1.42875,
@@ -184,7 +184,7 @@
     },
     {
       "_template": "hangar_major_banner_air",
-      "ri_extra__name": "major_banner_wall_b",
+      "ri_extra__name": "major_banner_wall_even",
       "transform": [
         [
           -1.42875,
@@ -210,7 +210,7 @@
     },
     {
       "_template": "hangar_major_banner_air",
-      "ri_extra__name": "major_banner_wall_b",
+      "ri_extra__name": "major_banner_wall_even",
       "transform": [
         [
           -1.42875,

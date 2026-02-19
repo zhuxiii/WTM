@@ -2,7 +2,7 @@
   "entity": [
     {
       "_template": "hangar_major_banner_tank",
-      "ri_extra__name": "major_banner_b",
+      "ri_extra__name": "major_banner_even",
       "transform": [
         [
           -0.67292,
@@ -28,7 +28,7 @@
     },
     {
       "_template": "hangar_major_banner_tank",
-      "ri_extra__name": "major_banner_b",
+      "ri_extra__name": "major_banner_even",
       "transform": [
         [
           1.39012,
@@ -54,7 +54,7 @@
     },
     {
       "_template": "hangar_major_banner_tank",
-      "ri_extra__name": "major_banner_b",
+      "ri_extra__name": "major_banner_even",
       "transform": [
         [
           0.633414,

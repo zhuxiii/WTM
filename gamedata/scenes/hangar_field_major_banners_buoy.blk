@@ -2,7 +2,7 @@
   "entity": [
     {
       "_template": "hangar_major_banner_ship",
-      "ri_extra__name": "major_banner_buoy_b",
+      "ri_extra__name": "major_banner_buoy_even",
       "transform": [
         [
           -0.382683,
@@ -28,7 +28,7 @@
     },
     {
       "_template": "hangar_major_banner_ship",
-      "ri_extra__name": "major_banner_buoy_b",
+      "ri_extra__name": "major_banner_buoy_even",
       "transform": [
         [
           -1.03923,
@@ -53,8 +53,7 @@
       ]
     }
   ]
-}  },
-    {
+}   {
       "_template": "hangar_major_banner_ship",
       "ri_extra__name": "major_banner_buoy_b",
       "transform": [

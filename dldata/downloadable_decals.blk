@@ -2262,5 +2262,21 @@
     "lod0": "rsils7b475knfg7f55hkgtlnbibdjhco-e4ii",
     "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
     "lod1": "ehpxt7zs3bcxa3jk5kuydposw2zoqxb4-bm4i"
+  },
+  "mace_decal": {
+    "category": "special",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "wovnwuxhx7kykel3o6uzkvx367juzign-dpga",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "rhexnfarht43dprs4slj6ouwmlfwdk36-bauq"
+  },
+  "teutonic_helmet_decal": {
+    "category": "special",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "tl67i2vuys27wainm62jrj7qt7xmrdmc-en5y",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "ufajwuf5xfztpctjdct7x3leonuhvb5g-bi3a"
   }
 }
