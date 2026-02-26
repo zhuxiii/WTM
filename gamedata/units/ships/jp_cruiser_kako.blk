@@ -492,7 +492,7 @@
           "engine_room_02_dm"
         ],
         "onHit": {
-          "damageType": "explosion",
+          "damageType": "generic",
           "damage": 500.0,
           "moduleStatusEffect": {
             "name": "throttleBlock",
@@ -4563,6 +4563,7 @@
       ]
     }
   }
+}
 }     "auxiliary_caliber_turret_02_dm": {},
             "auxiliary_caliber_turret_03_dm": {},
             "auxiliary_caliber_turret_04_dm": {},

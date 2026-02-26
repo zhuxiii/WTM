@@ -627,7 +627,7 @@
           "engine_room_02_dm"
         ],
         "onHit": {
-          "damageType": "explosion",
+          "damageType": "generic",
           "damage": 500.0,
           "moduleStatusEffect": {
             "name": "throttleBlock",
@@ -4337,6 +4337,7 @@
       }
     }
   }
+}
 }e": 1.0,
     "heelingDeathHeightOffsetMult": 0.0,
     "sideCenterOfMassOffsetPercent": 0.25,

@@ -309,6 +309,7 @@
     "lap_time_faster": 0.0,
     "lap_time_fastest": 0.0,
     "userstat_battle_score": false,
+    "userstat_rating": false,
     "allow_spend_items": true,
     "penalty_id": "",
     "userstat_modes:list<t>": {},
@@ -376,8 +377,7 @@
     "_use": "rendinst",
     "hangarMajorBannerAir:tag": {}
   }
-}: 1000.0,
-      "lightning__vert_noise_strength": 0.005,
+}rt_noise_strength": 0.005,
       "lightning__vert_noise_time": 10.0,
       "lightning__vert_noise_speed": 0.2,
       "lightning__point_light_fadeout_time": 0.3,

@@ -600,7 +600,7 @@
           "engine_room_02_dm"
         ],
         "onHit": {
-          "damageType": "explosion",
+          "damageType": "generic",
           "damage": 500.0,
           "moduleStatusEffect": {
             "name": "throttleBlock",
@@ -7024,6 +7024,7 @@
       }
     ]
   }
+}
 }            "name": "ship_smoke_medium",
             "emitter": "emtr_smoke_engine_06"
           }
