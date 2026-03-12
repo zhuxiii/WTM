@@ -2635,6 +2635,7 @@
         "index": 1,
         "tier": 6,
         "order": 1,
+        "hasMirrored": false,
         "WeaponPreset": [
           {
             "iconType": "bomb_100kg_group",
@@ -3074,6 +3075,7 @@
         "index": 2,
         "tier": 6,
         "order": 1,
+        "hasMirrored": false,
         "WeaponPreset": {
           "iconType": "torppedo",
           "name": "torpedo",
@@ -3224,8 +3226,7 @@
       "to": "b_26b_c_shark_c*"
     }
   }
-}bs",
-                "blk": "gameData/Weapons/BombGuns/us_1600lb_ap_an_mk1.blk",
+}600lb_ap_an_mk1.blk",
                 "emitter": "bomb_2000lb_2",
                 "bullets": 1
               }
