@@ -12,6 +12,7 @@
   "wind_scale": 0.7,
   "max_wind_strength": 3.0,
   "water_level": 0.0,
+  "riMinSizeForReflections": 1000.0,
   "precisionNotDetectedUnits": 200.0,
   "notDetectedUnitsSizeMul": 0.9,
   "soundAmbientPathStudio": "aircraft/ambient",
@@ -117,8 +118,7 @@
       "lod1": 8000.0
     }
   }
-}  "tree_date_palm_small_c": {
-      "lod0": 140.0,
+}"lod0": 140.0,
       "lod1": 8000.0
     }
   }

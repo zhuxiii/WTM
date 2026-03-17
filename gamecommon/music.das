@@ -73,15 +73,14 @@ def music_init_es(evt : Event;
   music__lockedHangar = false
   music__curBattleState = int(BattleState.CALM)
   init_delayed_forced_track()
-  using() <| $(var blk : DataBlock)
-    if datablock_load(blk, "config/sound_studio.blk")
-      let musicBlk = blk |> datablock_get_block_by_name("music")
-      music__battleRadiusAirSq = square(musicBlk |> datablock_getReal("battleRadius", 3000.))
-      music__battleRadiusGroundSq = square(musicBlk |> datablock_getReal("battleRadiusGround", 500.))
-      music__battleEnemiesThreshold = musicBlk |> datablock_getInt("battleEnemiesThreshold", 3)
-      music__cooldownCalm = musicBlk |> datablock_getReal("cooldown_calm", 300.)
-      music__cooldownBattle = musicBlk |> datablock_getReal("cooldown_battle", 180.)
-      music__useHangarMusicForUnitType = musicBlk |> datablock_getBool("use_hangar_music_for_type", false)
+  datablock_load_cached("config/sound_studio.blk") <| $(blk : DataBlock)
+    let musicBlk = blk |> datablock_get_block_by_name("music")
+    music__battleRadiusAirSq = square(musicBlk |> datablock_getReal("battleRadius", 3000.))
+    music__battleRadiusGroundSq = square(musicBlk |> datablock_getReal("battleRadiusGround", 500.))
+    music__battleEnemiesThreshold = musicBlk |> datablock_getInt("battleEnemiesThreshold", 3)
+    music__cooldownCalm = musicBlk |> datablock_getReal("cooldown_calm", 300.)
+    music__cooldownBattle = musicBlk |> datablock_getReal("cooldown_battle", 180.)
+    music__useHangarMusicForUnitType = musicBlk |> datablock_getBool("use_hangar_music_for_type", false)
   print("[MUSIC] es inited")
 
 
@@ -395,5 +394,8 @@ def music_lock_hangar_es(evt : Event;
 def music_set_operator_country_es(evt : CmdSetOperatorCountry;
                                   var music__operatorCountryId : int&)
   music__operatorCountryId = get_operator_country_id(string(evt.country))
+
+
+ry_id(string(evt.country))
 
 

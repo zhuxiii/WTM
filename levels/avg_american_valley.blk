@@ -25,6 +25,7 @@
     true
   ],
   "rendinstPreloadDistance": 8500.0,
+  "riMinSizeForReflections": 1000.0,
   "clipmap_tex_mips": 6,
   "addLandToSky": true,
   "max_wind_strength": 3.0,
@@ -930,8 +931,7 @@
   "technicsSkins": {
     "groundSkin": "desert"
   }
-} "forceTexMQ": {
-    "tex": "decal_asphalt_road_b_tex_d*"
+}phalt_road_b_tex_d*"
   },
   "technicsSkins": {
     "groundSkin": "desert"

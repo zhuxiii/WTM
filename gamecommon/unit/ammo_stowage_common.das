@@ -86,7 +86,7 @@ def public ammo_slot_set_dm_enabled(var unit : Unit?; slot_id : int; is_enabled 
   assume dvm = *unit.visual
   if dvm |> dm_is_part_enabled(slot_part_id) != is_enabled
     dvm |> dm_set_part_enabled(slot_part_id, is_enabled)
-    dvm |> dm_set_decor_by_part_id(int(slot_part_id.globalId), is_enabled)
+    dvm |> dm_set_decor_by_part_id(int(slot_part_id.id), is_enabled)
     if is_enabled
       dvm |> dm_set_rel_hp(int(slot_part_id.globalId), 1.0f, false)
     return true
@@ -636,3 +636,4 @@ def public ammo_stowage_send_net_sync(eid : EntityId; v : tuple<
         continue
       bs |> WriteCompressed(slot_ammo.x)
     send_net_event(eid, EventAmmoStowageNetSync(bs = ecs_addr(bs)))
+s)))

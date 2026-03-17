@@ -1,7 +1,8 @@
 {
-  "import": [
-    {
-      "scene": "gamedata/scenes/hangar_field_units.blk"
+  "import": {
+    "scene": "gamedata/scenes/hangar_field_units.blk"
+  }
+}k"
     },
     {
       "scene": "gamedata/scenes/hangar_field_major_banners.blk"

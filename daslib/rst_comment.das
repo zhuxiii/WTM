@@ -8,6 +8,12 @@ options strict_smart_pointers = true
 
 module rst_comment shared private
 
+
+
+
+
+
+
 require daslib/ast_boost
 require daslib/rst
 require fio
@@ -15,6 +21,7 @@ require strings
 require daslib/strings_boost
 
 enum ParserState
+    
     none
     structure
     field
@@ -72,6 +79,7 @@ def get_module_name(prog, mod)
 
 [comment_reader]
 class RstComment : AstCommentReader
+    
     chars : array<uint8>
     state : ParserState = ParserState.none
     comment : string
@@ -359,7 +367,7 @@ class RstComment : AstCommentReader
                 panic_rst("can't open {fname}")
             else
                 f |> fwrite(text)
-arserState.none ? ParserState.func : ParserState.method
+ ParserState.func : ParserState.method
     }
     def override afterFunction(fn : FunctionPtr; prog : ProgramPtr; mod : Module?; info : LineInfo) : void {
         debug_rst("afterFunction {state} {prog.thisModuleName}::{fn.name} // {function_comment}")

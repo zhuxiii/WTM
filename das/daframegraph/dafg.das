@@ -600,11 +600,11 @@ def handle(self : VirtualBufferRequest) : VirtualBufferHandle
   return <- VirtualBufferHandle(provider = self.registry |> getProvider(), resUid = self.resUid)
 
 
-def view(self : VirtualTextureHandle) : ManagedTexView
+def view(self : VirtualTextureHandle) : TextureView
   return self.provider |> getTexView(self.resUid.nameId, self.resUid.history)
 
 
-def view(self : VirtualBufferHandle) : ManagedBufView
+def view(self : VirtualBufferHandle) : BufferView
   return self.provider |> getBufView(self.resUid.nameId, self.resUid.history)
 
 
@@ -793,6 +793,7 @@ def vrsRate(var self : VirtualPassRequest; attachment : VirtualAttachmentRequest
           This is currently supported by NONE of our drivers and will be ignored.")
 
   return self
+ self
 pecify a mip level or a layer for a VRS rate texture in node {selfName}. \
           This is currently supported by NONE of our drivers and will be ignored.")
 

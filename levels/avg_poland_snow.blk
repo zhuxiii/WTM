@@ -13,6 +13,7 @@
   "lastClip": true,
   "lastclip_horizon": true,
   "rendinstPreloadDistance": 8500.0,
+  "riMinSizeForReflections": 1000.0,
   "clipmap_tex_mips": 6,
   "addLandToSky": true,
   "max_wind_strength": 3.0,
@@ -387,8 +388,7 @@
       "studebaker_us6_bm_13h_tex_n*"
     ]
   }
-}   "flak_36_set_tex_d*",
-      "studebaker_us6_bm_13h_tex_d*",
+}baker_us6_bm_13h_tex_d*",
       "studebaker_us6_bm_13h_tex_n*"
     ]
   }

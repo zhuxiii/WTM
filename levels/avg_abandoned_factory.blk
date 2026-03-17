@@ -12,6 +12,7 @@
   "numBorderCellsZNeg": 8,
   "lastClip": true,
   "lastclip_horizon": true,
+  "riMinSizeForReflections": 1000.0,
   "clipmap_tex_mips": 6,
   "addLandToSky": true,
   "max_wind_strength": 3.0,
@@ -776,9 +777,7 @@
       "hangar_sound_ships": "new_hangar/hangar_ships_xmas"
     }
   }
-} }
-}_bush_c": {
-      "lod0": 200.0,
+}
       "lod1": 1500.0
     },
     "tree_sea_bush_d": {

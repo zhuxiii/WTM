@@ -450,7 +450,7 @@
     "thicknessMapResolution": 32,
     "thicknessMapMinVoxelSize": 0.1,
     "thicknessMapRelLimits": [
-      0.7,
+      0.35,
       6.0
     ],
     "thicknessMapMinObstacleSize": 0.02,
@@ -3810,6 +3810,36 @@
       "completely": true,
       "modRequired": false
     },
+    "suspension_l_01_dm": {
+      "speed": 1.7,
+      "completely": true,
+      "modRequired": false
+    },
+    "suspension_l_02_dm": {
+      "speed": 1.7,
+      "completely": true,
+      "modRequired": false
+    },
+    "suspension_l_03_dm": {
+      "speed": 1.7,
+      "completely": true,
+      "modRequired": false
+    },
+    "suspension_r_01_dm": {
+      "speed": 1.7,
+      "completely": true,
+      "modRequired": false
+    },
+    "suspension_r_02_dm": {
+      "speed": 1.7,
+      "completely": true,
+      "modRequired": false
+    },
+    "suspension_r_03_dm": {
+      "speed": 1.7,
+      "completely": true,
+      "modRequired": false
+    },
     "gun_barrel_dm": {
       "speed": 1.5,
       "completely": true,
@@ -6897,25 +6927,7 @@
       125000.0
     ]
   }
-}tank": {
-      "modelName": "tank_bullet_apbc",
-      "gbufferModelName": "tank_shell_apbc",
-      "afterHitModelName": "tank_shell_apbc_destr"
-    },
-    "ap_large_caliber_tank": {
-      "modelName": "tank_bullet_ap",
-      "gbufferModelName": "tank_shell_apbc",
-      "afterHitModelName": "tank_shell_apbc_destr"
-    },
-    "apc_solid_medium_caliber_tank": {
-      "modelName": "tank_bullet_apc",
-      "gbufferModelName": "tank_shell_apbc",
-      "afterHitModelName": "tank_shell_apbc_destr"
-    },
-    "apcbc_solid_medium_caliber_tank": {
-      "modelName": "tank_bullet_apcbc",
-      "gbufferModelName": "tank_shell_apbc",
-      "afterHitModelName": "tank_shell_apbc_destr"
+}   "afterHitModelName": "tank_shell_apbc_destr"
     },
     "heat_tank": {
       "modelName": "tank_bullet_heat",

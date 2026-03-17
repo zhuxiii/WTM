@@ -38,11 +38,13 @@
         "abandoned_factory_Dom",
         "africa_desert_Dom",
         "alaska_town_Dom",
+        "alaska_town_snow_Dom",
         "american_valley_Dom",
         "container_port_Dom1",
         "japan_Dom",
         "normandy_Dom",
         "poland_Dom",
+        "poland_snow_Dom",
         "rheinland_Dom",
         "stalingrad_factory_Dom",
         "vietnam_hills_Dom"
@@ -69,9 +71,7 @@
       "m": "small_mission"
     }
   }
-}ned_factory_Dom",
-        "africa_desert_Dom",
-        "american_valley_Dom",
+}rican_valley_Dom",
         "japan_Dom",
         "normandy_Dom",
         "poland_Dom",

@@ -391,7 +391,7 @@
         }
       },
       {
-        "name": "engine_room_01_01_dm",
+        "name": "engine_room_01_dm",
         "onHit": {
           "damageType": "generic",
           "damage": 100.0,
@@ -1828,6 +1828,7 @@
       }
     ]
   }
+}}
 }      },
       {
         "from": "camo_bottom_green*",

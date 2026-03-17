@@ -6,6 +6,12 @@ options strict_smart_pointers = true
 
 module unroll shared private
 
+
+
+
+
+
+
 require ast
 require rtti
 require daslib/ast_boost
@@ -61,5 +67,4 @@ class UnrollMacro : AstFunctionAnnotation {
         return <- nblk
     }
 }
-
 

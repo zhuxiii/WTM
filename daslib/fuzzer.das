@@ -6,6 +6,13 @@ options strict_smart_pointers = true
 
 module fuzzer shared private
 
+
+
+
+
+
+
+
 require daslib/faker
 require daslib/constant_expression
 
@@ -382,7 +389,7 @@ def public fuzz_numeric_op4(t; var fake : Faker; funcname : string) {
     invoke(funcname, t, fake |> random_double, fake |> random_double, fake |> random_double, fake |> random_double)
 }
 
-dom_float, fake |> random_float)
+t, fake |> random_float)
     invoke(funcname, t, fake |> random_double, fake |> random_double, fake |> random_double, fake |> random_double)
 }
 

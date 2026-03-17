@@ -37,6 +37,7 @@
   "lastClip": true,
   "lastclip_horizon": true,
   "rendinstPreloadDistance": 8500.0,
+  "riMinSizeForReflections": 1000.0,
   "clipmap_tex_mips": 6,
   "addLandToSky": true,
   "max_wind_strength": 3.0,
@@ -113,8 +114,7 @@
     ],
     "land_micro_details_uv_scale": 0.51
   }
-}      "microdetail_wood_b_tex_n",
-      "microdetail_metal_a_tex_n",
+}   "microdetail_metal_a_tex_n",
       "microdetail_snow_a_tex_n",
       "microdetail_generic_granules_a_tex_n"
     ],

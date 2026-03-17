@@ -13,6 +13,7 @@
   "lastClip": true,
   "lastclip_horizon": true,
   "rendinstPreloadDistance": 8500.0,
+  "riMinSizeForReflections": 1000.0,
   "clipmap_tex_mips": 6,
   "addLandToSky": true,
   "max_wind_strength": 3.0,
@@ -336,10 +337,7 @@
       "lod1": 1500.0
     }
   }
-}100.0,
-      "lod1": 1500.0
-    },
-    "tree_sakura_bush_b": {
+}  "tree_sakura_bush_b": {
       "lod0": 100.0,
       "lod1": 1500.0
     }

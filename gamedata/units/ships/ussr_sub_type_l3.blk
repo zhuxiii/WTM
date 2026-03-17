@@ -392,7 +392,7 @@
         }
       },
       {
-        "name": "engine_room_01_01_dm",
+        "name": "engine_room_01_dm",
         "onHit": {
           "damageType": "generic",
           "damage": 100.0,
@@ -2140,6 +2140,7 @@
       "camo_rotation": 0.0
     }
   }
+}}
 }  "skin_condition": 100.0,
       "camo_scale": -70.0,
       "camo_rotation": 0.0

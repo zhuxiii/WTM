@@ -12,6 +12,7 @@
   "numBorderCellsZNeg": 8,
   "lastClip": true,
   "lastclip_horizon": true,
+  "riMinSizeForReflections": 1000.0,
   "clipmap_tex_mips": 6,
   "addLandToSky": true,
   "max_wind_strength": 3.0,
@@ -383,11 +384,7 @@
       "lod1": 600.0
     }
   }
-}": 600.0
-    }
-  }
-} 200.0,
-      "lod1": 600.0
+}d1": 600.0
     },
     "garland_sphere_a_1m": {
       "lod0": 200.0,

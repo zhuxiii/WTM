@@ -1976,10 +1976,6 @@
                 "pylon_bomb2",
                 "flare4",
                 "flare5",
-                "pylon_cannon_empty",
-                "pylon_cannon_empty",
-                "pylon_cannon_r6_l",
-                "pylon_cannon_r6_r",
                 "flare6",
                 "flare7"
               ]
@@ -2258,6 +2254,15 @@
       1.36926,
       3.98199e-7
     ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": {
+      "from": "bf_109g_6_a*",
+      "to": "bf_109g_6_aom_rall_a*"
+    }
+  }
+}
   },
   "upgraded_skin": {
     "name": "prem_camo",

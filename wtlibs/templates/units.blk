@@ -381,6 +381,14 @@
     "_replicate": true,
     "buffered_hud_data:BufferedHudData": {}
   },
+  "ik_pilot_inertia_seats": {
+    "_tags": "gameClient",
+    "ik_pilot_inertia_seats__enabled": false,
+    "ik_pilot_inertia_seats__data": {
+      "_tags": "gameClient"
+    },
+    "ik_pilot_inertia_seats__pos:list<p3>": {}
+  },
   "unit_transferred_data": {
     "_singleton": true,
     "unit_transferred_data__componentsList:list<t>": {
@@ -839,15 +847,7 @@
       "mod__count": 0
     }
   }
-}cating",
-      "ecs_no_debug",
-      "replicate_early"
-    ],
-    "mod__enabled_without_mod": false,
-    "mod__count_effects_mod": false,
-    "mod__send_economic_spend": true,
-    "mod__name": "",
-    "mod__type_name": "",
+}",
     "mod__ownerEid:eid": {},
     "_group": {
       "_replicate": true,
