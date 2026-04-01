@@ -120,7 +120,10 @@
     }
   },
   "walker_wtm": {
-    "_use": "walker",
+    "_use": [
+      "walker",
+      "gm_engine_sound"
+    ],
     "mods:list<t>": {
       "mod": [
         "tank_wtm_toolkit_ecs",
@@ -391,8 +394,7 @@
     "_use": "rendinst",
     "hangarMajorBannerAir:tag": {}
   }
-}9000.0,
-      "lightning__point_light_extinction_threshold": 0.1,
+}xtinction_threshold": 0.1,
       "lightning__point_light_strength_interval": [
         10.0,
         200.0
