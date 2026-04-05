@@ -1492,12 +1492,33 @@
         "checkMemoryLeaksMb": 500
       }
     },
-    "broken_snow_cover": {
-      "gpu": "Adreno (TM) 660",
-      "graphics": {
-        "decalHack": true
+    "broken_snow_cover": [
+      {
+        "gpu": "Adreno (TM) 660",
+        "graphics": {
+          "decalHack": true
+        }
+      },
+      {
+        "gpu": "Adreno (TM) 660",
+        "android_presets": {
+          "medium": {
+            "clipmap": {
+              "texSize": [
+                3072,
+                3072
+              ],
+              "texTileSize": 192,
+              "swFeedbackMipTiles0": 10,
+              "swFeedbackMipTiles1": 8,
+              "swFeedbackInnerMipTiles": 4,
+              "virtualTextureAnisotropy": 4,
+              "nearGroundTexMips": 10
+            }
+          }
+        }
       }
-    },
+    ],
     "broken_sgsr": {
       "gpu": "PowerVR BXM-8-256",
       "graphics": {
@@ -2646,30 +2667,7 @@
       }
     }
   }
-}  "asyncLoadPSOCache": true
-    },
-    "debug": {
-      "showFreeMemThresholdMb": 0
-    }
-  },
-  "stcode": {
-    "tag": "$version"
-  }
-=======
->>>>>>> parent of 31456a6 (1.21.0.16)
-}eMemThresholdMb": 0
-    }
-  },
-  "stcode": {
-    "tag": "$version"
-  }
-}tPlayerAirplaneUnitsLod": 1,
-        "limitPlayerTankUnitsLod": 1,
-        "limitPlayerShipUnitsLod": 1,
-        "limitNonPlayerAirplaneUnitsLod": 1,
-        "limitNonPlayerTankUnitsLod": 1,
-        "limitNonPlayerShipUnitsLod": 1,
-        "hangarTankLod": 1,
+} "hangarTankLod": 1,
         "hangarShipLod": 0,
         "hangarAirplaneLod": 0,
         "battleHideNodesInHangar": false,
