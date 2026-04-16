@@ -885,7 +885,6 @@
       "--verbose"
     ],
     "android": {
-      "flag": "--notime",
       "addons": {
         "flag": [
           "--noversion",
@@ -901,7 +900,6 @@
       }
     },
     "iOS": {
-      "flag": "--notime",
       "addons": {
         "flag": [
           "--noversion",
@@ -2664,6 +2662,10 @@
       "vendor": {
         "name": "AppsFlyer Ltd.",
         "policy": "https://www.appsflyer.com/legal/services-privacy-policy/"
+      }
+    }
+  }
+}/legal/services-privacy-policy/"
       }
     }
   }
