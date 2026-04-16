@@ -2310,5 +2310,101 @@
     "lod0": "gy5uwkye54jk7adtvn73hv4tuepeofbn-fnqi",
     "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
     "lod1": "r3klngbsgt4kj6qmrjq43q6svjchv2ts-brpi"
+  },
+  "april_event_2026_victory_marks": {
+    "category": "special",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "u6mdbsxxjncm64c2gpegiw5qduvvsuam-zva",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "yoq5lofbvcam67m33sedgfw3vqhcdtam-jbi"
+  },
+  "jp_2nd_company_tank_school_fuji": {
+    "category": "japan",
+    "aspect_ratio": 2.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAQoAAAAIAAFl0KoCAAAAAAA=",
+    "lod0": "o4lcvofdftzi33ajtfzuxvbfmod2fjdi-bbqq",
+    "hdr1": "RERTeEFTVDREABAAAAGAAAkAAAAIABFV0KoAAAAAAAA=",
+    "lod1": "6ubzehygc7f7lhl2th3lmtub6betly7w-lta"
+  },
+  "jp_sign_11th_sensha_rentai_kurile_islands_1945": {
+    "category": "japan",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "6bzeutwc6zjkzz2ujsg6pt7cfkfa2g2v-dqry",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "5kuw34x447rtk7g42xcbeinhruf6rr4m-bcaa"
+  },
+  "albatross_decal": {
+    "category": "special",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "pscfllcrjcbim2ca2phm4637xvd4p2v2-hhzy",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "w5yhjzroycj5f4dum6lg7hcuhc7bwyhc-b56a"
+  },
+  "arabian_cobra_decal": {
+    "category": "special",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "pfjahz52tdrq6xutoreluukzl5aqhgvg-hdtq",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "s624w7cm3ljyqc4fektlnsyic2wkckh6-b6pa"
+  },
+  "jgsdf_eagle_head": {
+    "category": "japan",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "iubl6qcej7rupt3jfjmfbc7bwnc7ccy4-chly",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "b44o3zbl6p35w76qxreri7jr5qb3d6gz-xey"
+  },
+  "uk_heart_decal": {
+    "category": "uk",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "qps3xajf47num65hpvkixodomnlwjdzq-eysy",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "c3vfe32dopgyttg4w3rpbqglbsdcidvb-bosq"
+  },
+  "uk_heraldic_flag_decal": {
+    "category": "uk",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "sznv2puwiz5fiafwmxyrxgpcotkmw4uv-cwfy",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "7kxrj27skhhvhd6p32pvvfz4pty3xylb-ymy"
+  },
+  "uk_heraldic_shield_decal": {
+    "category": "uk",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "pu6ulf2nniow3kxsvuwcakt47sfi2f4k-fkoa",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "z7wbmrwpznuamkxosqyaqnzjhre42pa5-boby"
+  },
+  "uk_tudor_crown_decal": {
+    "category": "uk",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "nc3j7p4npegd5bibsr7hxn7l3johgasw-fxnq",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "ljts4s5o6eryu5vgfsi7cg7q2rojvjv7-brii"
+  },
+  "uk_tudor_rose_decal": {
+    "category": "uk",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "vylrmhahxtpwdapkaqua2cyk4bhespsv-g3pq",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "wx6hwviewttupmruejol6biwb2fb4e2j-b2ta"
+  },
+  "wtm_firestorm_decal": {
+    "category": "common",
+    "aspect_ratio": 1.0,
+    "hdr0": "RERTeEFTVDREABAAAAIAAgoAAAAIAAF1cFUFAAAAAAA=",
+    "lod0": "d43hr7q3hn64vowjml2gw7rc5ndbzftz-hvui",
+    "hdr1": "RERTeEFTVDREABAAAAEAAQkAAAAIABFlcFUBAAAAAAA=",
+    "lod1": "44gicijxtnrezrat7hwpso2w7g2lgzut-b7wy"
   }
 }

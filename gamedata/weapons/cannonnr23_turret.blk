@@ -1774,19 +1774,29 @@
       }
     ]
   },
-  "nr23_turret_ltc": {
-    "bullet": [
-      {
-        "mass": 0.09,
-        "sound_path": "sounds/guns",
-        "sound_pathStudio": "aircraft/weapon",
-        "sound": "flare_launcher_outside",
-        "sound_inside": "flare_launcher_inside",
-        "isBulletBelt": false,
-        "bulletType": "flr",
-        "helicopterGroup": 2,
-        "reloadTime": 8.0,
-        "allowHumanReload": true,
+  "nr23_turret_new_gun": {
+    "maxDeltaAngle": 0.74,
+    "overheat": {
+      "overheat": [
+        [
+          4.3,
+          0.0
+        ],
+        [
+          7.0,
+          0.05
+        ]
+      ]
+    }
+  },
+  "gunSound": {
+    "path": "sounds/guns",
+    "pathStudio": "aircraft/weapon",
+    "outside": "vya23_gun_outside",
+    "cockpit": "vya23_gun_inside",
+    "ai": "vya23_gun_ai"
+  }
+}ue,
         "bulletName": "flare_launcher",
         "tags": {
           "antiTankRocket": true,

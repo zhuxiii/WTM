@@ -182,18 +182,6 @@
         "src": "../../skyquake/prog/gamebase_wtm/mis_vrom"
       },
       {
-        "vrom": "dldata.staging.vromfs.bin",
-        "vromOptional": true
-      },
-      {
-        "vrom": "dldata.production.vromfs.bin",
-        "vromOptional": true
-      },
-      {
-        "vrom": "dldata.pc.vromfs.bin",
-        "vromOptional": true
-      },
-      {
         "vrom": "game-dev.vromfs.bin",
         "vromOptional": true
       },
@@ -2649,6 +2637,23 @@
         986,
         755
       ]
+    },
+    "google": {
+      "id": [
+        89,
+        2878,
+        3234,
+        1301
+      ]
+    },
+    "vendors": {
+      "vendor": {
+        "name": "AppsFlyer Ltd.",
+        "policy": "https://www.appsflyer.com/legal/services-privacy-policy/"
+      }
+    }
+  }
+}
     },
     "google": {
       "id": [

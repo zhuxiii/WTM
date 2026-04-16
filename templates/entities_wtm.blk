@@ -204,6 +204,7 @@
     }
   },
   "player_battle_data": {
+    "squadId": -1,
     "isBoostersApplied": false,
     "isOfflineUser": false,
     "_group": {
@@ -227,6 +228,7 @@
   },
   "server_player": {
     "_use": "replicating",
+    "lockToReady": true,
     "server_player__playerId": -1,
     "server_player__localTemplate": "wtm_local_player",
     "serverPlayer:tag": {},
@@ -306,6 +308,19 @@
     "battleRoyaleLog:array": {},
     "raceLog:array": {},
     "missionScoreLog:array": {}
+  },
+  "team_balancer": {
+    "min_wait_time": 10.0,
+    "max_wait_time": 60.0,
+    "stats_wait_time": 15.0,
+    "areTeamsBalanced": false,
+    "leaveDefaultOrder": false,
+    "statsReceived": 0,
+    "balancerLifeTime": -1.0,
+    "timeAfterAdd": 0.0,
+    "lateTeamA": 0,
+    "lateTeamB": 0,
+    "allIds:object": {}
   },
   "statistic_players": {
     "statisticPlayers:object": {},
@@ -394,16 +409,7 @@
     "_use": "rendinst",
     "hangarMajorBannerAir:tag": {}
   }
-}xtinction_threshold": 0.1,
-      "lightning__point_light_strength_interval": [
-        10.0,
-        200.0
-      ],
-      "lightning__point_light_flickering_probability": 0.8,
-      "lightning__point_light_flickering_speed": 10.0,
-      "lightning__point_light_natural_fade": false,
-      "lightning__scene_illumination_multiplier": 0.3,
-      "lightning__scene_illumination_enable_for_flash": true,
+}ne_illumination_enable_for_flash": true,
       "lightning__scene_illumination_near_sun_threshold": 30.0
     },
     "lightning__animchars_eids:list<eid>": {},

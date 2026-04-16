@@ -107,9 +107,6 @@
       "superstructure_side_dm": {
         "armorThickness": 70.0
       },
-      "superstructure_side_01_dm": {
-        "armorThickness": 80.0
-      },
       "superstructure_top_dm": {
         "armorThickness": 30.0
       },
@@ -2213,6 +2210,11 @@
   "defaultDecals": {
     "default": {
       "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  }
+}tion": 100.0,
       "camo_scale": 0.0,
       "camo_rotation": 0.0
     }
