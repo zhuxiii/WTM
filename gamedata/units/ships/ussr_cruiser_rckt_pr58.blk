@@ -426,6 +426,26 @@
     "part": [
       {
         "name": [
+          "main_caliber_turret_01_dm",
+          "main_caliber_turret_02_dm"
+        ],
+        "onHit": {
+          "damageType": "generic",
+          "damage": 150.0,
+          "fire": 0.05,
+          "action": {
+            "type": "fxEvent",
+            "probability": 0.6,
+            "fxEventName": "fire_after_hit_med"
+          },
+          "moduleStatusEffect": {
+            "name": "shotFreqMult",
+            "prob": 1.0
+          }
+        }
+      },
+      {
+        "name": [
           "auxiliary_caliber_turret_01_dm",
           "auxiliary_caliber_turret_02_dm",
           "auxiliary_caliber_turret_05_dm"
@@ -3366,34 +3386,7 @@
       "camo_rotation": 0.0
     }
   }
-}: {
-    "n": [
-      "portholes",
-      "details",
-      "aa_gun_01",
-      "aa_gun_02",
-      "aa_gun_03",
-      "aa_gun_04",
-      "aa_turret_01",
-      "aa_turret_02",
-      "aa_turret_03",
-      "aa_turret_04"
-    ]
-  },
-  "upgraded_skin": {
-    "name": "prem_camo",
-    "replace_tex": [
-      {
-        "from": "camo_hazegray*",
-        "to": "camo_northern_fleet_contrast*"
-      },
-      {
-        "from": "camo_rot_5*",
-        "to": "camo_syntheticblackpaint*"
-      }
-    ]
-  },
-  "upgradedDecals": {
+} "upgradedDecals": {
     "upgraded": {
       "skin_condition": 50.0,
       "camo_scale": -30.0,
