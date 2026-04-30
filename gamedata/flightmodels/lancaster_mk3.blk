@@ -3123,16 +3123,6 @@
             }
           },
           {
-            "iconType": "bomb_500kg",
-            "name": "uk_mk2_cookie",
-            "Weapon": {
-              "trigger": "bombs",
-              "blk": "gameData/Weapons/BombGuns/uk_mk2_cookie.blk",
-              "emitter": "mine3",
-              "bullets": 1
-            }
-          },
-          {
             "iconType": "bomb_1000kg",
             "name": "uk_8000lb",
             "Weapon": {
@@ -3277,6 +3267,24 @@
       3.99724
     ],
     "emtr_break_stab_r_from": [
+      -10.864,
+      -0.0673042,
+      -0.99931
+    ],
+    "emtr_break_stab_r_to": [
+      -10.864,
+      -0.0673042,
+      -3.99724
+    ]
+  },
+  "upgraded_skin": {
+    "name": "prem",
+    "replace_tex": {
+      "from": "lancaster_c*",
+      "to": "lancaster_raf_c*"
+    }
+  }
+}_break_stab_r_from": [
       -10.864,
       -0.0673042,
       -0.99931
