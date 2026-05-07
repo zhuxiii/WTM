@@ -955,7 +955,6 @@
       ]
     },
     "optional_game_resources": {
-      "strictVersionCheck": false,
       "disableFastVersionCheck": true,
       "flag": [
         "--norespatch",
@@ -2654,6 +2653,10 @@
       "vendor": {
         "name": "AppsFlyer Ltd.",
         "policy": "https://www.appsflyer.com/legal/services-privacy-policy/"
+      }
+    }
+  }
+}rivacy-policy/"
       }
     }
   }
