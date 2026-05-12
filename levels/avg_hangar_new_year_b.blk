@@ -168,7 +168,8 @@
           "metalness": 0.1,
           "texScale": 3.4,
           "maxLevel": 1.0,
-          "topProjScale": 4.00997
+          "topProjScale": 4.00997,
+          "useRemoval": true
         },
         "mud": {
           "name": "mud",
@@ -303,8 +304,7 @@
       "lod1": 4000.0
     }
   }
-}icea_obovata_medium_b": {
-      "lod0": 300.0,
+}  "lod0": 300.0,
       "lod1": 4000.0,
       "lod2": 10000.0
     }

@@ -134,6 +134,7 @@ def instance_spoof(temp : string; passed_arguments : array<string>) : tuple<resu
                     return k.argName == ident
                 }
                 if (index != -1) {
+                    result |> reserve(length(result) + length(instance_arguments[index]))
                     for (c in instance_arguments[index]) {
                         result |> push(uint8(c))
                     }
@@ -306,9 +307,7 @@ class SpoofInstanceReader : AstReaderMacro {
         return result.result
     }
 }
-{
-            prog |> macro_error(info, "spoof instance error {result.result}")
-            return ""
+   return ""
         }
         return result.result
     }

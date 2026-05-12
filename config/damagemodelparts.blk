@@ -63,11 +63,23 @@
     "composite_armor_turret_NN": {
       "template": "composite_armor_turret_#15#"
     },
+    "ex_composite_armor_NN": {
+      "template": "ex_composite_armor_#20#"
+    },
+    "ex_aps_launcher_NN": {
+      "template": "ex_aps_launcher_#10#"
+    },
+    "ex_aps_launcher_r_NN": {
+      "template": "ex_aps_launcher_r_#10#"
+    },
+    "ex_aps_launcher_l_NN": {
+      "template": "ex_aps_launcher_l_#10#"
+    },
     "ex_era_hull_NN": {
       "template": "ex_era_hull_#90#"
     },
     "ex_era_turret_NN": {
-      "template": "ex_era_turret_#50#"
+      "template": "ex_era_turret_#70#"
     },
     "bow": {},
     "bow_l": {},
@@ -1293,24 +1305,7 @@
   "ext_armor": {
     "ext_armor": {}
   }
-}
-  "cover": {
-    "coverN": {
-      "template": "cover#1:16#"
-    }
-  },
-  "prop01_N_dmg": {
-    "template": "prop01_#1:16#_dmg"
-  },
-  "emtr_inversion_l": {},
-  "emtr_inversion_r": {},
-  "emtr_oilN": {
-    "template": "emtr_oil#1:12#"
-  },
-  "emtr_waterN": {
-    "template": "emtr_water#1:6#"
-  },
-  "emtr_fuelN": {
+}"emtr_fuelN": {
     "template": "emtr_fuel#1:8#"
   },
   "emtr_engineN": {

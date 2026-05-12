@@ -7,7 +7,7 @@ require WTHangar
 require HeroManager
 require Music
 require app
-require %dasGameLibs.math.base
+require %gameLibs.das.math.base
 require MPlayer
 require %game.utils.utils_common
 require %game.events
@@ -396,6 +396,6 @@ def music_set_operator_country_es(evt : CmdSetOperatorCountry;
   music__operatorCountryId = get_operator_country_id(string(evt.country))
 
 
-ry_id(string(evt.country))
+y_id(string(evt.country))
 
 

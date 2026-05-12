@@ -3,7 +3,6 @@ require ecs
 require dm
 require DagorMath
 require WTDamageModel
-require DmFire
 
 
 [cpp_event(unicast)]
@@ -70,3 +69,4 @@ struct EventFireSystemOnStartBurn
 struct EventFireSystemNetSync
   isBurning : bool
   data : IntList const?  
+ntList const?  

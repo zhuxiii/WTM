@@ -293,6 +293,12 @@
     ],
     "thicknessMapMinObstacleSize": 0.02,
     "pushOutCenter": true,
+    "underwaterPenetrationScale": 1.0,
+    "underwaterDamageScale": 1.0,
+    "underwaterRadiusScale": [
+      1.0,
+      1.0
+    ],
     "squashArmorAnglesScale": {
       "p0": [
         0.0,
@@ -338,6 +344,12 @@
       ]
     }
   },
+  "shatter": {
+    "underwaterDamageScale": 1.0,
+    "underwaterPenetrationScale": 1.0,
+    "underwaterCountScale": 1.0,
+    "underwaterRadiusScale": 0.5
+  },
   "kineticDamage": {
     "damageType": "generic"
   },
@@ -353,21 +365,7 @@
   "secondaryShatterDamage": {
     "damageType": "secondaryShatter"
   }
-}"shatterDamage": {
-    "damageType": "shatter"
-  },
-  "secondaryShatterDamage": {
-    "damageType": "secondaryShatter"
-  }
-<<<<<<< HEAD
-}icDamage": {
-    "damageType": "generic"
-  },
-  "cumulativeDamage": {
-    "damageType": "cumulative"
-  },
-  "splashDamage": {
-    "damageType": "explosion"
+}e": "explosion"
   },
   "shatterDamage": {
     "damageType": "shatter"

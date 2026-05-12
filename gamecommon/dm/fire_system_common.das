@@ -2,7 +2,6 @@ module fire_system_common shared public
 require ecs
 require dm
 require WTDamageModel
-require DmFire
 require DagorMath
 require GeomNodeTree
 require AmmoStowage
@@ -159,4 +158,6 @@ def fire_system_can_part_burn(part_id : PartId;
   if remap.partId.valid
     return !get_flag(v.ammo_slots__state[remap.slotId], AmmoSlotState.FLOODED)
   return true
+
+ return true
 

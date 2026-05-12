@@ -455,6 +455,12 @@
     ],
     "thicknessMapMinObstacleSize": 0.02,
     "pushOutCenter": true,
+    "underwaterPenetrationScale": 1.0,
+    "underwaterDamageScale": 1.0,
+    "underwaterRadiusScale": [
+      1.0,
+      1.0
+    ],
     "squashArmorAnglesScale": {
       "p0": [
         0.0,
@@ -499,6 +505,12 @@
         0.0
       ]
     }
+  },
+  "shatter": {
+    "underwaterDamageScale": 1.0,
+    "underwaterPenetrationScale": 1.0,
+    "underwaterCountScale": 1.0,
+    "underwaterRadiusScale": 0.5
   },
   "kineticDamage": {
     "damageType": "generic"
@@ -7294,16 +7306,7 @@
       125000.0
     ]
   }
-}  "sap_tank": {
-      "modelName": "tank_bullet_aphe",
-      "gbufferModelName": "tank_shell_apbc",
-      "afterHitModelName": "tank_shell_apbc_destr"
-    },
-    "sapbc_tank": {
-      "modelName": "tank_bullet_he",
-      "gbufferModelName": "tank_shell_he"
-    },
-    "sapcbc_tank": {
+} {
       "modelName": "tank_bullet_apcbc",
       "gbufferModelName": "tank_shell_apbc",
       "afterHitModelName": "tank_shell_apbc_destr"

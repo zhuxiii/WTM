@@ -260,57 +260,6 @@ def draw_vec4f(eid : array<EntityId> implicit; flags : uint; name : string; refs
   default_menu(eid, name, "vec4f", $() => to_string(*val), $(str) { update_value(vec4f(to_float4(str)), val, changed); }, $() => to_string_via_blk(name, eid[0]), changed, sub_menu)
 
 
-def draw_edit_position_rotation_scale_tm(var val : float3x4&; name : string; var changed : bool?) : void
-  let rotMin = -180.0
-  let rotMax = 180.0
-  let rotStep = 1.0
-
-  let posMin = -1.5
-  let posMax = 1.5
-  let posStep = 0.01
-
-  var scale = float3(length(val[0]), length(val[1]), length(val[2]))
-  var euler = float3(0.0)
-  matrix_to_euler(val, euler.x, euler.y, euler.z)
-
-  euler = rad_to_deg(euler)
-  var newChanged = false
-
-  imgui::Text("Scale: ")
-  imgui::SameLine()
-  SetNextItemWidth(-FLT_MIN)
-  newChanged = InputFloat3("##{name}_0", unsafe(addr(scale.x)), "%.4f", ImGuiInputTextFlags.None) || newChanged
-
-  imgui::Text("Rot: ")
-  imgui::SameLine()
-  SetNextItemWidth(-FLT_MIN)
-  newChanged = imgui::DragScalarN("##{name}_1", ImGuiDataType.Float, unsafe(addr(euler.x)), 3,
-    rotStep, safe_addr(rotMin), safe_addr(rotMax), "%.4f", ImGuiSliderFlags.None) || newChanged
-
-  imgui::Text("Pos: ")
-  imgui::SameLine()
-  SetNextItemWidth(-FLT_MIN)
-  newChanged = imgui::DragScalarN("##{name}_2", ImGuiDataType.Float, unsafe(addr(val[3].x)), 3,
-    posStep, safe_addr(posMin), safe_addr(posMax), "%.4f", ImGuiSliderFlags.None) || newChanged
-
-  if newChanged
-    *changed = newChanged
-    euler = deg_to_rad(euler)
-
-    var q : quat
-    euler_to_quat(euler.x, euler.y, euler.z, q)
-    var rotTm : float3x4
-    make_tm(q, float3(0.0f, 0.0f, 0.0f), rotTm)
-
-    rotTm[0] *= scale.x
-    rotTm[1] *= scale.y
-    rotTm[2] *= scale.z
-
-    rotTm[3] = val[3]
-
-    val = rotTm
-
-
 [ecs_inspector(type_name="TMatrix", is_multi_line=true)]
 def draw_TMatrix(eid : array<EntityId> implicit; flags : uint; name : string; refs : array<ComponentRenderInfo#>#; level : int; var changed : bool?; sub_menu : block<(var changed : bool?) : bool>) : void
   var val = unsafe(reinterpret<float3x4?> refs[0].rawData)
@@ -844,6 +793,13 @@ def draw_SharedIPoint2List(eid : array<EntityId> implicit; flags : uint; name : 
 def draw_SharedIPoint3List(eid : array<EntityId> implicit; flags : uint; name : string; refs : array<ComponentRenderInfo#>#; level : int; var changed : bool?; sub_menu : block<(var changed : bool?) : bool>) : void {}
 [ecs_inspector(type_name="ecs::SharedComponent< ::ecs::BoolList>", is_multi_line=true, is_container=true), no_aot, instance_function::instance_function(draw_any_shared_list, ContType = SharedBoolList, SubType = "bool")]
 def draw_SharedBoolList(eid : array<EntityId> implicit; flags : uint; name : string; refs : array<ComponentRenderInfo#>#; level : int; var changed : bool?; sub_menu : block<(var changed : bool?) : bool>) : void {}
+[ecs_inspector(type_name="ecs::SharedComponent< ::ecs::TMatrixList>", is_multi_line=true, is_container=true), no_aot, instance_function::instance_function(draw_any_shared_list, ContType = SharedTMatrixList, SubType = "float3x4")]
+def draw_SharedTMatrixList(eid : array<EntityId> implicit; flags : uint; name : string; refs : array<ComponentRenderInfo#>#; level : int; var changed : bool?; sub_menu : block<(var changed : bool?) : bool>) : void {}
+[ecs_inspector(type_name="ecs::SharedComponent< ::ecs::ColorList>", is_multi_line=true, is_container=true), no_aot, instance_function::instance_function(draw_any_shared_list, ContType = SharedColorList, SubType = "E3DCOLOR")]
+def draw_SharedColorList(eid : array<EntityId> implicit; flags : uint; name : string; refs : array<ComponentRenderInfo#>#; level : int; var changed : bool?; sub_menu : block<(var changed : bool?) : bool>) : void {}
+[ecs_inspector(type_name="ecs::SharedComponent< ::ecs::Int64List>", is_multi_line=true, is_container=true), no_aot, instance_function::instance_function(draw_any_shared_list, ContType = SharedInt64List, SubType = "int64")]
+def draw_SharedInt64List(eid : array<EntityId> implicit; flags : uint; name : string; refs : array<ComponentRenderInfo#>#; level : int; var changed : bool?; sub_menu : block<(var changed : bool?) : bool>) : void {}
+eid : array<EntityId> implicit; flags : uint; name : string; refs : array<ComponentRenderInfo#>#; level : int; var changed : bool?; sub_menu : block<(var changed : bool?) : bool>) : void {}
 [ecs_inspector(type_name="ecs::SharedComponent< ::ecs::TMatrixList>", is_multi_line=true, is_container=true), no_aot, instance_function::instance_function(draw_any_shared_list, ContType = SharedTMatrixList, SubType = "float3x4")]
 def draw_SharedTMatrixList(eid : array<EntityId> implicit; flags : uint; name : string; refs : array<ComponentRenderInfo#>#; level : int; var changed : bool?; sub_menu : block<(var changed : bool?) : bool>) : void {}
 [ecs_inspector(type_name="ecs::SharedComponent< ::ecs::ColorList>", is_multi_line=true, is_container=true), no_aot, instance_function::instance_function(draw_any_shared_list, ContType = SharedColorList, SubType = "E3DCOLOR")]

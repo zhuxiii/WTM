@@ -4,74 +4,82 @@
       "scene": "gamedata/scenes/hangar_field_units.blk"
     },
     {
-      "scene": "gamedata/scenes/hangar_field_major_banners.blk"
+      "scene": "gamedata/scenes/hangar_field_major_banners_tank.blk",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "scene": "gamedata/scenes/hangar_field_major_banners_ship.blk",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "scene": "gamedata/scenes/hangar_field_major_banners_plane.blk",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
     }
   ]
-}    [
-          0.0,
-          1.0,
-          0.0
-        ],
-        [
-          0.9497,
-          0.0,
-          -0.313132
-        ],
-        [
-          2955.72,
-          7.00009,
-          -2958.63
-        ]
-      ],
-      "spawnPointType": "ship",
-      "forPremiumVehicle": true
-    },
-    {
-      "_template": "backmodel_spawn_point",
-      "transform": [
-        [
-          -0.807473,
-          0.0,
-          -0.589905
-        ],
-        [
-          0.0,
-          1.0,
-          0.0
-        ],
-        [
-          0.589905,
-          0.0,
-          -0.807473
-        ],
-        [
-          2777.38,
-          6.99944,
-          -3172.01
-        ]
-      ],
-      "spawnPointType": "ship",
-      "forPremiumVehicle": false
-    },
-    {
-      "_template": "backmodel_spawn_point",
-      "transform": [
-        [
-          -0.289548,
-          0.0,
-          -0.957163
-        ],
-        [
-          0.0,
-          1.0,
-          0.0
-        ],
-        [
-          0.957163,
-          0.0,
-          -0.289548
-        ],
-        [
+}
           3053.74,
           6.99998,
           -2503.93

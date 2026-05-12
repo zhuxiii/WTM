@@ -382,12 +382,6 @@
     }
   },
   "explosiveTypeToSplashParams": {
-    "underwaterPenetrationScale": 1.0,
-    "underwaterDamageScale": 1.0,
-    "underwaterRadiusScale": [
-      1.0,
-      1.0
-    ],
     "explosiveMassToInnerRadius": {
       "p0": [
         0.001,
@@ -1156,10 +1150,6 @@
     }
   },
   "explosiveTypeToShattersParams": {
-    "underwaterDamageScale": 1.0,
-    "underwaterPenetrationScale": 1.0,
-    "underwaterCountScale": 1.0,
-    "underwaterRadiusScale": 0.5,
     "aphe_sc": {
       "fillingRatio": 0.0005,
       "explosiveMassToRadius": {
@@ -1788,6 +1778,25 @@
           40000.0
         ],
         "p9": [
+          1000.0,
+          80000.0
+        ],
+        "p10": [
+          2000.0,
+          100000.0
+        ],
+        "p11": [
+          3000.0,
+          120000.0
+        ],
+        "p12": [
+          3500.0,
+          150000.0
+        ]
+      }
+    }
+  }
+}    "p9": [
           1000.0,
           80000.0
         ],

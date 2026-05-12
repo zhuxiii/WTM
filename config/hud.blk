@@ -4043,6 +4043,13 @@
           "triggerGroup": "primary"
         },
         {
+          "shortcutIdx": 0,
+          "triggerNo": 10,
+          "bulletType": 1,
+          "bulletTypeInGroup": 0,
+          "triggerGroup": "primary"
+        },
+        {
           "shortcutIdx": 1,
           "triggerNo": 10,
           "bulletType": 1,
@@ -4097,6 +4104,10 @@
         "shortcutIdx": -1,
         "showLoadedCount": true
       },
+      "rocket_tertiary_activate": {
+        "shortcutIdx": -1,
+        "showLoadedCount": true
+      },
       "rocket_asw_activate": {
         "shortcutIdx": -1,
         "showLoadedCount": true
@@ -4112,6 +4123,9 @@
         "showReloadProgress": true
       },
       "acoustic_decoy_activate": {
+        "shortcutIdx": -1
+      },
+      "ciws_activate": {
         "shortcutIdx": -1
       },
       "depth_charge_activate": {
@@ -4932,7 +4946,5 @@
         ]
       ]
     }
-  }
-}   }
   }
 }

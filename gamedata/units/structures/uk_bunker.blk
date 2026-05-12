@@ -87,9 +87,7 @@
     "salvoAmount": 100.0,
     "ChainfireTime": 0.0,
     "DelayAfterShoot": 0.0,
-    "AttackMaxDistance": 1500.0,
     "AttackMaxRadius": 1500.0,
-    "AttackMaxHeight": 1500.0,
     "accuracyAir": 0.0,
     "accuracyGnd": 0.6,
     "errMeasureVel": 0.0,
@@ -107,6 +105,13 @@
         -35.0,
         35.0
       ],
+      "pitch": [
+        -5.0,
+        10.0
+      ]
+    }
+  }
+}
       "pitch": [
         -5.0,
         10.0

@@ -2121,12 +2121,7 @@
   },
   "WeaponSlots": {
     "HideNodes": {
-      "node": [
-        "water1_dm",
-        "pylon_bomb1",
-        "pylon_bomb2",
-        "pylon_bomb3"
-      ]
+      "node": "water1_dm"
     },
     "WeaponSlot": {
       "index": 0,
@@ -2311,6 +2306,13 @@
       1.20862,
       0.000150639
     ],
+    "emtr_break_fin_to": [
+      -5.4729,
+      1.72157,
+      0.000150639
+    ]
+  }
+}
     "emtr_break_fin_to": [
       -5.4729,
       1.72157,

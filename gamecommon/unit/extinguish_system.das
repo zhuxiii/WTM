@@ -7,7 +7,6 @@ require DagorDataBlock
 require DagorRandom
 require IGroundModel
 require dm
-require DmFire
 require WTDamageModel
 require WarShipModel
 require %game.utils.component_bundle_macro
@@ -588,3 +587,4 @@ def extinguish_system_net_sync_handle_es(evt : EventExtinguishSystemNetSync;
   sendEventImmediate(eid, EventExtinguishSystemNotifyCrewBusy(busy = is_crew_busy(fire_damage__isBurn, extinguish_system_is_assisting, extinguish_system_crew_busy_time_end)))
   if !was_extinguisher_active && evt.extinguisherRemainingTime > 0.0f
     sendEvent(eid, EventExtinguishSystemOnExtinguisherActivate(active = true))
+ctive = true))

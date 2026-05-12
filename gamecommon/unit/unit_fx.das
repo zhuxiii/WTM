@@ -1,7 +1,6 @@
 require ecs
 require Unit
 require UnitFx
-require DmFire
 require WTDamageModel
 require %game.utils.utils_common
 require %game.dm.fire_system_events
@@ -114,3 +113,4 @@ def unit_fx_stop_burn_es(evt : Event;
   fire_fx__id |> clear()
   fire_fx__fxId |> clear()
   fire_fx__paramsId |> clear()
+sId |> clear()
