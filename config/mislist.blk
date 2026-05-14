@@ -25,6 +25,7 @@
         "air_africa_canyon_GS",
         "air_africa_desert_GS",
         "air_alps_GS",
+        "air_britain_GS",
         "air_grand_canyon_GS",
         "air_hurtgen_GS",
         "air_norway_green_GS",
@@ -71,8 +72,7 @@
       "m": "small_mission"
     }
   }
-}rican_valley_Dom",
-        "japan_Dom",
+} "japan_Dom",
         "normandy_Dom",
         "poland_Dom",
         "rheinland_Dom",
