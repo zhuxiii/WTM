@@ -66,15 +66,6 @@
     "ex_composite_armor_NN": {
       "template": "ex_composite_armor_#20#"
     },
-    "ex_aps_launcher_NN": {
-      "template": "ex_aps_launcher_#10#"
-    },
-    "ex_aps_launcher_r_NN": {
-      "template": "ex_aps_launcher_r_#10#"
-    },
-    "ex_aps_launcher_l_NN": {
-      "template": "ex_aps_launcher_l_#10#"
-    },
     "ex_era_hull_NN": {
       "template": "ex_era_hull_#90#"
     },
@@ -1293,6 +1284,19 @@
   },
   "emtr_exhaustN": {
     "template": "emtr_exhaust#1:12#"
+  },
+  "jet_flame": {},
+  "jet_flameN": {
+    "template": "jet_flame#1:16#"
+  },
+  "jet_flame_1": {},
+  "jet_flameN_1": {
+    "template": "jet_flame#1:16#_1"
+  },
+  "ext_armor": {
+    "ext_armor": {}
+  }
+}emplate": "emtr_exhaust#1:12#"
   },
   "jet_flame": {},
   "jet_flameN": {

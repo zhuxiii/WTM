@@ -45,7 +45,6 @@
   "destroysRendInstances": true,
   "destroysTrees": true,
   "type": "typeLightTank",
-  "cruiseVelocity": 5.0,
   "partDamageFx": "part_damage",
   "explosionFx": "tank_explosion",
   "fireFx": "ground_model_fire",
@@ -3818,6 +3817,9 @@
       "details_08",
       "details_09",
       "details_10"
+    ]
+  }
+} "details_10"
     ]
   }
 }
