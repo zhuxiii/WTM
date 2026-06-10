@@ -1627,6 +1627,8 @@
         "bullets": 150,
         "useGunnerTargetingQuality": true,
         "fireConeAngle": 1.0,
+        "turretLongSalvo": true,
+        "salvoRndK": 0.15,
         "turret": {
           "head": "auxiliary_caliber_turret_01",
           "gun": "auxiliary_caliber_gun_01",
@@ -1682,6 +1684,8 @@
         "bullets": 150,
         "useGunnerTargetingQuality": true,
         "fireConeAngle": 1.0,
+        "turretLongSalvo": true,
+        "salvoRndK": 0.15,
         "turret": {
           "head": "auxiliary_caliber_turret_02",
           "gun": "auxiliary_caliber_gun_02",
@@ -1737,6 +1741,8 @@
         "bullets": 150,
         "useGunnerTargetingQuality": true,
         "fireConeAngle": 1.0,
+        "turretLongSalvo": true,
+        "salvoRndK": 0.15,
         "turret": {
           "head": "auxiliary_caliber_turret_03",
           "gun": "auxiliary_caliber_gun_03",
@@ -1792,6 +1798,8 @@
         "bullets": 150,
         "useGunnerTargetingQuality": true,
         "fireConeAngle": 1.0,
+        "turretLongSalvo": true,
+        "salvoRndK": 0.15,
         "turret": {
           "head": "auxiliary_caliber_turret_04",
           "gun": "auxiliary_caliber_gun_04",
@@ -1847,6 +1855,8 @@
         "bullets": 150,
         "useGunnerTargetingQuality": true,
         "fireConeAngle": 1.0,
+        "turretLongSalvo": true,
+        "salvoRndK": 0.15,
         "turret": {
           "head": "auxiliary_caliber_turret_05",
           "gun": "auxiliary_caliber_gun_05",
@@ -1902,6 +1912,8 @@
         "bullets": 150,
         "useGunnerTargetingQuality": true,
         "fireConeAngle": 1.0,
+        "turretLongSalvo": true,
+        "salvoRndK": 0.15,
         "turret": {
           "head": "auxiliary_caliber_turret_06",
           "gun": "auxiliary_caliber_gun_06",
@@ -1957,6 +1969,8 @@
         "bullets": 150,
         "useGunnerTargetingQuality": true,
         "fireConeAngle": 1.0,
+        "turretLongSalvo": true,
+        "salvoRndK": 0.15,
         "turret": {
           "head": "auxiliary_caliber_turret_07",
           "gun": "auxiliary_caliber_gun_07",
@@ -2012,6 +2026,8 @@
         "bullets": 150,
         "useGunnerTargetingQuality": true,
         "fireConeAngle": 1.0,
+        "turretLongSalvo": true,
+        "salvoRndK": 0.15,
         "turret": {
           "head": "auxiliary_caliber_turret_08",
           "gun": "auxiliary_caliber_gun_08",
@@ -2067,6 +2083,8 @@
         "bullets": 150,
         "useGunnerTargetingQuality": true,
         "fireConeAngle": 1.0,
+        "turretLongSalvo": true,
+        "salvoRndK": 0.15,
         "turret": {
           "head": "auxiliary_caliber_turret_09",
           "gun": "auxiliary_caliber_gun_09",
@@ -2122,6 +2140,8 @@
         "bullets": 150,
         "useGunnerTargetingQuality": true,
         "fireConeAngle": 1.0,
+        "turretLongSalvo": true,
+        "salvoRndK": 0.15,
         "turret": {
           "head": "auxiliary_caliber_turret_10",
           "gun": "auxiliary_caliber_gun_10",
@@ -2177,6 +2197,8 @@
         "bullets": 150,
         "useGunnerTargetingQuality": true,
         "fireConeAngle": 1.0,
+        "turretLongSalvo": true,
+        "salvoRndK": 0.15,
         "turret": {
           "head": "auxiliary_caliber_turret_11",
           "gun": "auxiliary_caliber_gun_11",
@@ -2232,6 +2254,8 @@
         "bullets": 150,
         "useGunnerTargetingQuality": true,
         "fireConeAngle": 1.0,
+        "turretLongSalvo": true,
+        "salvoRndK": 0.15,
         "turret": {
           "head": "auxiliary_caliber_turret_12",
           "gun": "auxiliary_caliber_gun_12",
@@ -2287,6 +2311,8 @@
         "bullets": 150,
         "useGunnerTargetingQuality": true,
         "fireConeAngle": 1.0,
+        "turretLongSalvo": true,
+        "salvoRndK": 0.15,
         "turret": {
           "head": "auxiliary_caliber_turret_13",
           "gun": "auxiliary_caliber_gun_13",
@@ -2342,6 +2368,8 @@
         "bullets": 150,
         "useGunnerTargetingQuality": true,
         "fireConeAngle": 1.0,
+        "turretLongSalvo": true,
+        "salvoRndK": 0.15,
         "turret": {
           "head": "auxiliary_caliber_turret_14",
           "gun": "auxiliary_caliber_gun_14",
@@ -2411,6 +2439,8 @@
         "bullets": 150,
         "useGunnerTargetingQuality": true,
         "fireConeAngle": 1.0,
+        "turretLongSalvo": true,
+        "salvoRndK": 0.15,
         "turret": {
           "head": "auxiliary_caliber_turret_15",
           "gun": "auxiliary_caliber_gun_15",
@@ -2486,6 +2516,8 @@
         "bullets": 150,
         "useGunnerTargetingQuality": true,
         "fireConeAngle": 1.0,
+        "turretLongSalvo": true,
+        "salvoRndK": 0.15,
         "turret": {
           "head": "auxiliary_caliber_turret_16",
           "gun": "auxiliary_caliber_gun_16",
@@ -2541,6 +2573,8 @@
         "bullets": 150,
         "useGunnerTargetingQuality": true,
         "fireConeAngle": 1.0,
+        "turretLongSalvo": true,
+        "salvoRndK": 0.15,
         "turret": {
           "head": "auxiliary_caliber_turret_17",
           "gun": "auxiliary_caliber_gun_17",
@@ -2610,6 +2644,8 @@
         "bullets": 150,
         "useGunnerTargetingQuality": true,
         "fireConeAngle": 1.0,
+        "turretLongSalvo": true,
+        "salvoRndK": 0.15,
         "turret": {
           "head": "auxiliary_caliber_turret_18",
           "gun": "auxiliary_caliber_gun_18",
@@ -2685,6 +2721,8 @@
         "bullets": 150,
         "useGunnerTargetingQuality": true,
         "fireConeAngle": 1.0,
+        "turretLongSalvo": true,
+        "salvoRndK": 0.15,
         "turret": {
           "head": "auxiliary_caliber_turret_19",
           "gun": "auxiliary_caliber_gun_19",
@@ -2740,6 +2778,8 @@
         "bullets": 150,
         "useGunnerTargetingQuality": true,
         "fireConeAngle": 1.0,
+        "turretLongSalvo": true,
+        "salvoRndK": 0.15,
         "turret": {
           "head": "auxiliary_caliber_turret_20",
           "gun": "auxiliary_caliber_gun_20",
@@ -2795,6 +2835,8 @@
         "bullets": 150,
         "useGunnerTargetingQuality": true,
         "fireConeAngle": 1.0,
+        "turretLongSalvo": true,
+        "salvoRndK": 0.15,
         "turret": {
           "head": "auxiliary_caliber_turret_21",
           "gun": "auxiliary_caliber_gun_21",
@@ -2850,6 +2892,8 @@
         "bullets": 150,
         "useGunnerTargetingQuality": true,
         "fireConeAngle": 1.0,
+        "turretLongSalvo": true,
+        "salvoRndK": 0.15,
         "turret": {
           "head": "auxiliary_caliber_turret_22",
           "gun": "auxiliary_caliber_gun_22",
@@ -2894,6 +2938,7 @@
         "ChainfireTime": 2.0,
         "DelayAfterShoot": 0.0,
         "AimMaxDist": 1750.0,
+        "AimMinDist": 150.0,
         "randomAngle": 0.0,
         "accuracyBotMultAir": 0.4,
         "accuracyAir": 0.4,
@@ -2973,6 +3018,7 @@
         "ChainfireTime": 2.0,
         "DelayAfterShoot": 0.0,
         "AimMaxDist": 1750.0,
+        "AimMinDist": 150.0,
         "randomAngle": 0.0,
         "accuracyBotMultAir": 0.4,
         "accuracyAir": 0.4,
@@ -3052,6 +3098,7 @@
         "ChainfireTime": 2.0,
         "DelayAfterShoot": 0.0,
         "AimMaxDist": 1750.0,
+        "AimMinDist": 150.0,
         "randomAngle": 0.0,
         "accuracyBotMultAir": 0.4,
         "accuracyAir": 0.4,
@@ -3117,6 +3164,7 @@
         "ChainfireTime": 2.0,
         "DelayAfterShoot": 0.0,
         "AimMaxDist": 1750.0,
+        "AimMinDist": 150.0,
         "randomAngle": 0.0,
         "accuracyBotMultAir": 0.4,
         "accuracyAir": 0.4,
@@ -3910,6 +3958,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_01",
                 "gun": "auxiliary_caliber_gun_01",
@@ -3965,6 +4015,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_02",
                 "gun": "auxiliary_caliber_gun_02",
@@ -4020,6 +4072,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_03",
                 "gun": "auxiliary_caliber_gun_03",
@@ -4075,6 +4129,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_04",
                 "gun": "auxiliary_caliber_gun_04",
@@ -4130,6 +4186,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_05",
                 "gun": "auxiliary_caliber_gun_05",
@@ -4185,6 +4243,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_06",
                 "gun": "auxiliary_caliber_gun_06",
@@ -4240,6 +4300,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_07",
                 "gun": "auxiliary_caliber_gun_07",
@@ -4295,6 +4357,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_08",
                 "gun": "auxiliary_caliber_gun_08",
@@ -4350,6 +4414,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_09",
                 "gun": "auxiliary_caliber_gun_09",
@@ -4405,6 +4471,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_10",
                 "gun": "auxiliary_caliber_gun_10",
@@ -4460,6 +4528,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_11",
                 "gun": "auxiliary_caliber_gun_11",
@@ -4515,6 +4585,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_12",
                 "gun": "auxiliary_caliber_gun_12",
@@ -4570,6 +4642,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_13",
                 "gun": "auxiliary_caliber_gun_13",
@@ -4625,6 +4699,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_14",
                 "gun": "auxiliary_caliber_gun_14",
@@ -4694,6 +4770,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_15",
                 "gun": "auxiliary_caliber_gun_15",
@@ -4769,6 +4847,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_16",
                 "gun": "auxiliary_caliber_gun_16",
@@ -4824,6 +4904,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_17",
                 "gun": "auxiliary_caliber_gun_17",
@@ -4893,6 +4975,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_18",
                 "gun": "auxiliary_caliber_gun_18",
@@ -4968,6 +5052,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_19",
                 "gun": "auxiliary_caliber_gun_19",
@@ -5023,6 +5109,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_20",
                 "gun": "auxiliary_caliber_gun_20",
@@ -5078,6 +5166,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_21",
                 "gun": "auxiliary_caliber_gun_21",
@@ -5133,6 +5223,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_22",
                 "gun": "auxiliary_caliber_gun_22",
@@ -5177,6 +5269,7 @@
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
               "AimMaxDist": 1750.0,
+              "AimMinDist": 150.0,
               "randomAngle": 0.0,
               "accuracyBotMultAir": 0.4,
               "accuracyAir": 0.4,
@@ -5256,6 +5349,7 @@
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
               "AimMaxDist": 1750.0,
+              "AimMinDist": 150.0,
               "randomAngle": 0.0,
               "accuracyBotMultAir": 0.4,
               "accuracyAir": 0.4,
@@ -5335,6 +5429,7 @@
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
               "AimMaxDist": 1750.0,
+              "AimMinDist": 150.0,
               "randomAngle": 0.0,
               "accuracyBotMultAir": 0.4,
               "accuracyAir": 0.4,
@@ -5400,6 +5495,7 @@
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
               "AimMaxDist": 1750.0,
+              "AimMinDist": 150.0,
               "randomAngle": 0.0,
               "accuracyBotMultAir": 0.4,
               "accuracyAir": 0.4,
@@ -6195,6 +6291,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_01",
                 "gun": "auxiliary_caliber_gun_01",
@@ -6250,6 +6348,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_02",
                 "gun": "auxiliary_caliber_gun_02",
@@ -6305,6 +6405,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_03",
                 "gun": "auxiliary_caliber_gun_03",
@@ -6360,6 +6462,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_04",
                 "gun": "auxiliary_caliber_gun_04",
@@ -6415,6 +6519,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_05",
                 "gun": "auxiliary_caliber_gun_05",
@@ -6470,6 +6576,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_06",
                 "gun": "auxiliary_caliber_gun_06",
@@ -6525,6 +6633,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_07",
                 "gun": "auxiliary_caliber_gun_07",
@@ -6580,6 +6690,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_08",
                 "gun": "auxiliary_caliber_gun_08",
@@ -6635,6 +6747,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_09",
                 "gun": "auxiliary_caliber_gun_09",
@@ -6690,6 +6804,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_10",
                 "gun": "auxiliary_caliber_gun_10",
@@ -6745,6 +6861,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_11",
                 "gun": "auxiliary_caliber_gun_11",
@@ -6800,6 +6918,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_12",
                 "gun": "auxiliary_caliber_gun_12",
@@ -6855,6 +6975,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_13",
                 "gun": "auxiliary_caliber_gun_13",
@@ -6910,6 +7032,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_14",
                 "gun": "auxiliary_caliber_gun_14",
@@ -6979,6 +7103,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_15",
                 "gun": "auxiliary_caliber_gun_15",
@@ -7054,6 +7180,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_16",
                 "gun": "auxiliary_caliber_gun_16",
@@ -7109,6 +7237,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_17",
                 "gun": "auxiliary_caliber_gun_17",
@@ -7178,6 +7308,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_18",
                 "gun": "auxiliary_caliber_gun_18",
@@ -7253,6 +7385,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_19",
                 "gun": "auxiliary_caliber_gun_19",
@@ -7308,6 +7442,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_20",
                 "gun": "auxiliary_caliber_gun_20",
@@ -7363,6 +7499,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_21",
                 "gun": "auxiliary_caliber_gun_21",
@@ -7418,6 +7556,8 @@
               "bullets": 150,
               "useGunnerTargetingQuality": true,
               "fireConeAngle": 1.0,
+              "turretLongSalvo": true,
+              "salvoRndK": 0.15,
               "turret": {
                 "head": "auxiliary_caliber_turret_22",
                 "gun": "auxiliary_caliber_gun_22",
@@ -7462,6 +7602,7 @@
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
               "AimMaxDist": 1750.0,
+              "AimMinDist": 150.0,
               "randomAngle": 0.0,
               "accuracyBotMultAir": 0.4,
               "accuracyAir": 0.4,
@@ -7541,6 +7682,7 @@
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
               "AimMaxDist": 1750.0,
+              "AimMinDist": 150.0,
               "randomAngle": 0.0,
               "accuracyBotMultAir": 0.4,
               "accuracyAir": 0.4,
@@ -7620,6 +7762,7 @@
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
               "AimMaxDist": 1750.0,
+              "AimMinDist": 150.0,
               "randomAngle": 0.0,
               "accuracyBotMultAir": 0.4,
               "accuracyAir": 0.4,
@@ -7685,6 +7828,7 @@
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
               "AimMaxDist": 1750.0,
+              "AimMinDist": 150.0,
               "randomAngle": 0.0,
               "accuracyBotMultAir": 0.4,
               "accuracyAir": 0.4,
@@ -8295,227 +8439,6 @@
     }
   }
 }
-          },
-          {
-            "name": "ship_smoke_medium",
-            "emitter": "emtr_fire_dmg_01"
-          },
-          {
-            "name": "ship_smoke_medium",
-            "emitter": "emtr_fire_dmg_02"
-          }
-        ]
-      },
-      {
-        "name": "ammo_expl",
-        "fx": {
-          "name": "explosion_ship_ammo",
-          "centerDmgPart": true
-        }
-      },
-      {
-        "name": "fire_after_hit_huge",
-        "lifetime": 8.0,
-        "fx": {
-          "name": "fire_after_hit_huge",
-          "setOrientation": true
-        }
-      },
-      {
-        "name": "fire_after_hit_huge",
-        "lifetime": 8.0,
-        "fx": {
-          "name": "smoke_after_hit_huge",
-          "setOrientation": true
-        }
-      },
-      {
-        "name": "fire_after_hit_big",
-        "lifetime": 8.0,
-        "fx": {
-          "name": "fire_after_hit_big",
-          "setOrientation": true
-        }
-      },
-      {
-        "name": "fire_after_hit_big",
-        "lifetime": 8.0,
-        "fx": {
-          "name": "smoke_after_hit_big",
-          "setOrientation": true
-        }
-      },
-      {
-        "name": "fire_after_hit_med",
-        "lifetime": 8.0,
-        "fx": {
-          "name": "fire_after_hit_med",
-          "setOrientation": true
-        }
-      },
-      {
-        "name": "fire_after_hit_med",
-        "lifetime": 8.0,
-        "fx": {
-          "name": "smoke_after_hit_med",
-          "setOrientation": true
-        }
-      },
-      {
-        "name": "fire_after_hit_small",
-        "lifetime": 5.0,
-        "fx": {
-          "name": "fire_after_hit_small",
-          "setOrientation": true
-        }
-      },
-      {
-        "name": "fire_after_hit_small",
-        "lifetime": 5.0,
-        "fx": {
-          "name": "smoke_after_hit_small",
-          "setOrientation": true
-        }
-      }
-    ]
-  },
-  "breaches": {
-    "repairSpeed": 150.0,
-    "waterMassVel": -1300000.0,
-    "waterMassMult": 75.0,
-    "sizeToRepair": [
-      0.01,
-      5.0,
-      25.0,
-      600.0
-    ],
-    "additionalWaterDeathThreshold": 100000000.0,
-    "additionalWaterCoverPartsThreshold": 7000000.0,
-    "additionalWaterShouldDiePercent": 0.15,
-    "fatalBreachDrownTime": 30.0,
-    "maxHeelingAngle": 36.0,
-    "maxHeelingTime": 50.0,
-    "criticalHeelingAnglePercent": 0.5,
-    "maxCriticalHeelingTime": 1.0,
-    "heelingDeathHeightOffsetMult": 1.0,
-    "sideCenterOfMassOffsetPercent": 0.35,
-    "additionalWaterInfluenceOnSpeed": 1.6
-  },
-  "shipCover": {
-    "cover": [
-      {
-        "part": "compartment_01_dm",
-        "weight": 1.0,
-        "maxWaterAlive": 0.6
-      },
-      {
-        "part": "compartment_02_dm",
-        "weight": 1.0,
-        "maxWaterAlive": 0.6
-      },
-      {
-        "part": "compartment_03_dm",
-        "weight": 1.0,
-        "maxWaterAlive": 0.6
-      }
-    ]
-  },
-  "winch": {
-    "length": 500.0
-  },
-  "smokeWall": {
-    "distance": 450.0,
-    "speed": 350.0,
-    "height": 30.0,
-    "length": 450.0,
-    "fxOffset": 65.0
-  },
-  "difficulty": {
-    "arcade": {
-      "shipRudderAreaMult": 1.0,
-      "tankRearmOnCaptureZone": true
-    }
-  },
-  "battleHideNodes": {
-    "n": [
-      "portholes",
-      "details"
-    ]
-  },
-  "vehicleSkins": {
-    "factory": {
-      "replace_tex": [
-        {
-          "from": "camo_navygrey_5*",
-          "to": "camo_navygrey_5*"
-        },
-        {
-          "from": "camo_fadedgreen*",
-          "to": "camo_fadedgreen*"
-        },
-        {
-          "from": "camo_rot_5*",
-          "to": "camo_rot_5*"
-        }
-      ]
-    }
-  },
-  "default_skin": {
-    "name": "prem_camo",
-    "replace_tex": [
-      {
-        "from": "camo_navygrey_5*",
-        "to": "camo_multicolor_waves*"
-      },
-      {
-        "from": "camo_fadedgreen*",
-        "to": "camo_syntheticblackpaint*"
-      },
-      {
-        "from": "camo_rot_5*",
-        "to": "camo_syntheticblackpaint*"
-      }
-    ]
-  },
-  "defaultDecals": {
-    "default": {
-      "skin_condition": 100.0,
-      "camo_scale": 82.0,
-      "camo_rotation": -70.0
-    }
-  }
-}ter": "emtr_fire_engine_02"
-          },
-          {
-            "name": "ship_fire_big",
-            "emitter": "emtr_fire_engine_03"
-          },
-          {
-            "name": "ship_fire_huge",
-            "emitter": "emtr_fire_engine_04"
-          },
-          {
-            "name": "ship_fire_big",
-            "emitter": "emtr_fire_engine_05"
-          },
-          {
-            "name": "ship_fire_big",
-            "emitter": "emtr_fire_engine_06"
-          },
-          {
-            "name": "ship_smoke_big",
-            "emitter": "emtr_smoke_engine_01"
-          },
-          {
-            "name": "ship_smoke_medium",
-            "emitter": "emtr_smoke_engine_02"
-          },
-          {
-            "name": "ship_smoke_big",
-            "emitter": "emtr_smoke_engine_03"
-          },
-          {
-            "name": "ship_smoke_medium",
             "emitter": "emtr_smoke_engine_04"
           },
           {

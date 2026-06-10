@@ -692,6 +692,7 @@
         "ChainfireTime": 2.0,
         "DelayAfterShoot": 0.0,
         "AimMaxDist": 1750.0,
+        "AimMinDist": 150.0,
         "randomAngle": 0.0,
         "accuracyBotMultAir": 0.4,
         "accuracyAir": 0.4,
@@ -749,6 +750,7 @@
         "ChainfireTime": 2.0,
         "DelayAfterShoot": 0.0,
         "AimMaxDist": 1750.0,
+        "AimMinDist": 150.0,
         "randomAngle": 0.0,
         "accuracyBotMultAir": 0.4,
         "accuracyAir": 0.4,
@@ -1192,6 +1194,7 @@
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
               "AimMaxDist": 1750.0,
+              "AimMinDist": 150.0,
               "randomAngle": 0.0,
               "accuracyBotMultAir": 0.4,
               "accuracyAir": 0.4,
@@ -1249,6 +1252,7 @@
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
               "AimMaxDist": 1750.0,
+              "AimMinDist": 150.0,
               "randomAngle": 0.0,
               "accuracyBotMultAir": 0.4,
               "accuracyAir": 0.4,
@@ -2410,13 +2414,7 @@
       }
     ]
   }
-}},
-  "upgraded_skin": {
-    "name": "prem_camo",
-    "replace_tex": [
-      {
-        "from": "camo_inside_white*",
-        "to": "camo_designpt328*"
+}: "camo_designpt328*"
       },
       {
         "from": "camo_deckgrey*",

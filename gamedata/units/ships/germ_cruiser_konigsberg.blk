@@ -2717,6 +2717,7 @@
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
               "AimMaxDist": 1750.0,
+              "AimMinDist": 150.0,
               "randomAngle": 0.0,
               "accuracyBotMultAir": 0.4,
               "accuracyAir": 0.4,
@@ -2728,8 +2729,8 @@
               "errMeasureVelFwdShift": 0.01,
               "errMeasureVelDir": 0.1,
               "errTargetting": 0.1,
-              "speedYaw": 75.0,
-              "speedPitch": 75.0,
+              "speedYaw": 85.0,
+              "speedPitch": 85.0,
               "bullets": 2000,
               "useGunnerTargetingQuality": false,
               "turret": {
@@ -2790,6 +2791,7 @@
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
               "AimMaxDist": 1750.0,
+              "AimMinDist": 150.0,
               "randomAngle": 0.0,
               "accuracyBotMultAir": 0.4,
               "accuracyAir": 0.4,
@@ -2801,8 +2803,8 @@
               "errMeasureVelFwdShift": 0.01,
               "errMeasureVelDir": 0.1,
               "errTargetting": 0.1,
-              "speedYaw": 75.0,
-              "speedPitch": 75.0,
+              "speedYaw": 85.0,
+              "speedPitch": 85.0,
               "bullets": 2000,
               "useGunnerTargetingQuality": false,
               "turret": {
@@ -2863,6 +2865,7 @@
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
               "AimMaxDist": 1750.0,
+              "AimMinDist": 150.0,
               "randomAngle": 0.0,
               "accuracyBotMultAir": 0.4,
               "accuracyAir": 0.4,
@@ -2874,8 +2877,8 @@
               "errMeasureVelFwdShift": 0.01,
               "errMeasureVelDir": 0.1,
               "errTargetting": 0.1,
-              "speedYaw": 75.0,
-              "speedPitch": 75.0,
+              "speedYaw": 85.0,
+              "speedPitch": 85.0,
               "bullets": 2000,
               "useGunnerTargetingQuality": false,
               "turret": {
@@ -2936,6 +2939,7 @@
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
               "AimMaxDist": 1750.0,
+              "AimMinDist": 150.0,
               "randomAngle": 0.0,
               "accuracyBotMultAir": 0.4,
               "accuracyAir": 0.4,
@@ -2947,8 +2951,8 @@
               "errMeasureVelFwdShift": 0.01,
               "errMeasureVelDir": 0.1,
               "errTargetting": 0.1,
-              "speedYaw": 75.0,
-              "speedPitch": 75.0,
+              "speedYaw": 85.0,
+              "speedPitch": 85.0,
               "bullets": 2000,
               "useGunnerTargetingQuality": false,
               "turret": {
@@ -4745,6 +4749,7 @@
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
               "AimMaxDist": 1750.0,
+              "AimMinDist": 150.0,
               "randomAngle": 0.0,
               "accuracyBotMultAir": 0.4,
               "accuracyAir": 0.4,
@@ -4756,8 +4761,8 @@
               "errMeasureVelFwdShift": 0.01,
               "errMeasureVelDir": 0.1,
               "errTargetting": 0.1,
-              "speedYaw": 75.0,
-              "speedPitch": 75.0,
+              "speedYaw": 85.0,
+              "speedPitch": 85.0,
               "bullets": 2000,
               "useGunnerTargetingQuality": false,
               "turret": {
@@ -4818,6 +4823,7 @@
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
               "AimMaxDist": 1750.0,
+              "AimMinDist": 150.0,
               "randomAngle": 0.0,
               "accuracyBotMultAir": 0.4,
               "accuracyAir": 0.4,
@@ -4829,8 +4835,8 @@
               "errMeasureVelFwdShift": 0.01,
               "errMeasureVelDir": 0.1,
               "errTargetting": 0.1,
-              "speedYaw": 75.0,
-              "speedPitch": 75.0,
+              "speedYaw": 85.0,
+              "speedPitch": 85.0,
               "bullets": 2000,
               "useGunnerTargetingQuality": false,
               "turret": {
@@ -4891,6 +4897,7 @@
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
               "AimMaxDist": 1750.0,
+              "AimMinDist": 150.0,
               "randomAngle": 0.0,
               "accuracyBotMultAir": 0.4,
               "accuracyAir": 0.4,
@@ -4902,8 +4909,8 @@
               "errMeasureVelFwdShift": 0.01,
               "errMeasureVelDir": 0.1,
               "errTargetting": 0.1,
-              "speedYaw": 75.0,
-              "speedPitch": 75.0,
+              "speedYaw": 85.0,
+              "speedPitch": 85.0,
               "bullets": 2000,
               "useGunnerTargetingQuality": false,
               "turret": {
@@ -4964,6 +4971,7 @@
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
               "AimMaxDist": 1750.0,
+              "AimMinDist": 150.0,
               "randomAngle": 0.0,
               "accuracyBotMultAir": 0.4,
               "accuracyAir": 0.4,
@@ -4975,8 +4983,8 @@
               "errMeasureVelFwdShift": 0.01,
               "errMeasureVelDir": 0.1,
               "errTargetting": 0.1,
-              "speedYaw": 75.0,
-              "speedPitch": 75.0,
+              "speedYaw": 85.0,
+              "speedPitch": 85.0,
               "bullets": 2000,
               "useGunnerTargetingQuality": false,
               "turret": {
@@ -6936,6 +6944,7 @@
         "ChainfireTime": 2.0,
         "DelayAfterShoot": 0.0,
         "AimMaxDist": 1750.0,
+        "AimMinDist": 150.0,
         "randomAngle": 0.0,
         "accuracyBotMultAir": 0.4,
         "accuracyAir": 0.4,
@@ -6947,8 +6956,8 @@
         "errMeasureVelFwdShift": 0.01,
         "errMeasureVelDir": 0.1,
         "errTargetting": 0.1,
-        "speedYaw": 75.0,
-        "speedPitch": 75.0,
+        "speedYaw": 85.0,
+        "speedPitch": 85.0,
         "bullets": 2000,
         "useGunnerTargetingQuality": false,
         "turret": {
@@ -7009,6 +7018,7 @@
         "ChainfireTime": 2.0,
         "DelayAfterShoot": 0.0,
         "AimMaxDist": 1750.0,
+        "AimMinDist": 150.0,
         "randomAngle": 0.0,
         "accuracyBotMultAir": 0.4,
         "accuracyAir": 0.4,
@@ -7020,8 +7030,8 @@
         "errMeasureVelFwdShift": 0.01,
         "errMeasureVelDir": 0.1,
         "errTargetting": 0.1,
-        "speedYaw": 75.0,
-        "speedPitch": 75.0,
+        "speedYaw": 85.0,
+        "speedPitch": 85.0,
         "bullets": 2000,
         "useGunnerTargetingQuality": false,
         "turret": {
@@ -7082,6 +7092,7 @@
         "ChainfireTime": 2.0,
         "DelayAfterShoot": 0.0,
         "AimMaxDist": 1750.0,
+        "AimMinDist": 150.0,
         "randomAngle": 0.0,
         "accuracyBotMultAir": 0.4,
         "accuracyAir": 0.4,
@@ -7093,8 +7104,8 @@
         "errMeasureVelFwdShift": 0.01,
         "errMeasureVelDir": 0.1,
         "errTargetting": 0.1,
-        "speedYaw": 75.0,
-        "speedPitch": 75.0,
+        "speedYaw": 85.0,
+        "speedPitch": 85.0,
         "bullets": 2000,
         "useGunnerTargetingQuality": false,
         "turret": {
@@ -7155,6 +7166,7 @@
         "ChainfireTime": 2.0,
         "DelayAfterShoot": 0.0,
         "AimMaxDist": 1750.0,
+        "AimMinDist": 150.0,
         "randomAngle": 0.0,
         "accuracyBotMultAir": 0.4,
         "accuracyAir": 0.4,
@@ -7166,8 +7178,8 @@
         "errMeasureVelFwdShift": 0.01,
         "errMeasureVelDir": 0.1,
         "errTargetting": 0.1,
-        "speedYaw": 75.0,
-        "speedPitch": 75.0,
+        "speedYaw": 85.0,
+        "speedPitch": 85.0,
         "bullets": 2000,
         "useGunnerTargetingQuality": false,
         "turret": {
@@ -7444,24 +7456,7 @@
       "to": "camo_blackwhite_geometry*"
     }
   }
-}llowableDelta": 40.0,
-        "gyroAngle": 0.0,
-        "courseSmoothness": 100.0,
-        "maxAngularSpeed": 0.8,
-        "shotFreq": 0.13,
-        "turret": {
-          "head": "tt_head_03",
-          "gun": "tt_03",
-          "gunnerDm": "tt_03_dm"
-        },
-        "limits": {
-          "yaw": [
-            -150.0,
-            0.0
-          ],
-          "pitch": [
-            0.0,
-            0.0
+}     0.0
           ]
         },
         "limitsDeadzone": {

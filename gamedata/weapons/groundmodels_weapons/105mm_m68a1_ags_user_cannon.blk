@@ -25,11 +25,6 @@
   "fxSnowDust": "",
   "fxConcreteDust": "",
   "fxWaterShockWave": "dust_waterwave_big",
-  "fxTypeEjector": "smoke_gunpowder_ejector",
-  "ejectionFxSpeedRange": [
-    25.0,
-    45.0
-  ],
   "shouldCollideWithRendinsts": true,
   "sound_path": "tanks/weapon_tanks/cannons",
   "sound_pathStudio": "ground/weapon/cannons",
@@ -1565,6 +1560,13 @@
         "fabric": {
           "fx": "hit_106_132mm_stone_ap"
         },
+        "stone_snow": {
+          "fx": "hit_106_132mm_snow_ap"
+        }
+      }
+    }
+  }
+}  },
         "stone_snow": {
           "fx": "hit_106_132mm_snow_ap"
         }

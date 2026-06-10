@@ -740,6 +740,7 @@
         "ChainfireTime": 2.0,
         "DelayAfterShoot": 0.0,
         "AimMaxDist": 1750.0,
+        "AimMinDist": 150.0,
         "randomAngle": 0.0,
         "accuracyBotMultAir": 0.4,
         "accuracyAir": 0.4,
@@ -792,6 +793,7 @@
         "ChainfireTime": 2.0,
         "DelayAfterShoot": 0.0,
         "AimMaxDist": 1750.0,
+        "AimMinDist": 150.0,
         "randomAngle": 0.0,
         "accuracyBotMultAir": 0.4,
         "accuracyAir": 0.4,
@@ -853,7 +855,7 @@
         ],
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
-        "reloadTime": 12.0,
+        "reloadTime": 13.0,
         "ChainfireTime": 2.0,
         "DelayAfterShoot": 0.0,
         "aimMinDist": 10.0,
@@ -978,7 +980,7 @@
         "courseSmoothness": 100.0,
         "maxAngularSpeed": 0.8,
         "speedYaw": 40.0,
-        "shotFreq": 0.1,
+        "shotFreq": 0.083,
         "turret": {
           "head": "tt_head_01",
           "gun": "tt_01",
@@ -1023,7 +1025,7 @@
         "courseSmoothness": 100.0,
         "maxAngularSpeed": 0.8,
         "speedYaw": 40.0,
-        "shotFreq": 0.1,
+        "shotFreq": 0.083,
         "turret": {
           "head": "tt_head_02",
           "gun": "tt_02",
@@ -1282,6 +1284,7 @@
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
               "AimMaxDist": 1750.0,
+              "AimMinDist": 150.0,
               "randomAngle": 0.0,
               "accuracyBotMultAir": 0.4,
               "accuracyAir": 0.4,
@@ -1334,6 +1337,7 @@
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
               "AimMaxDist": 1750.0,
+              "AimMinDist": 150.0,
               "randomAngle": 0.0,
               "accuracyBotMultAir": 0.4,
               "accuracyAir": 0.4,
@@ -1395,7 +1399,7 @@
               ],
               "defaultYaw": 0.0,
               "defaultPitch": 0.0,
-              "reloadTime": 12.0,
+              "reloadTime": 13.0,
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
               "aimMinDist": 10.0,
@@ -1520,7 +1524,7 @@
               "courseSmoothness": 100.0,
               "maxAngularSpeed": 0.8,
               "speedYaw": 40.0,
-              "shotFreq": 0.1,
+              "shotFreq": 0.083,
               "turret": {
                 "head": "tt_head_01",
                 "gun": "tt_01",
@@ -1565,7 +1569,7 @@
               "courseSmoothness": 100.0,
               "maxAngularSpeed": 0.8,
               "speedYaw": 40.0,
-              "shotFreq": 0.1,
+              "shotFreq": 0.083,
               "turret": {
                 "head": "tt_head_02",
                 "gun": "tt_02",
@@ -1808,6 +1812,7 @@
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
               "AimMaxDist": 1750.0,
+              "AimMinDist": 150.0,
               "randomAngle": 0.0,
               "accuracyBotMultAir": 0.4,
               "accuracyAir": 0.4,
@@ -1860,6 +1865,7 @@
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
               "AimMaxDist": 1750.0,
+              "AimMinDist": 150.0,
               "randomAngle": 0.0,
               "accuracyBotMultAir": 0.4,
               "accuracyAir": 0.4,
@@ -1921,7 +1927,7 @@
               ],
               "defaultYaw": 0.0,
               "defaultPitch": 0.0,
-              "reloadTime": 12.0,
+              "reloadTime": 13.0,
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
               "aimMinDist": 10.0,
@@ -2046,7 +2052,7 @@
               "courseSmoothness": 100.0,
               "maxAngularSpeed": 0.8,
               "speedYaw": 40.0,
-              "shotFreq": 0.1,
+              "shotFreq": 0.083,
               "turret": {
                 "head": "tt_head_01",
                 "gun": "tt_01",
@@ -2091,7 +2097,7 @@
               "courseSmoothness": 100.0,
               "maxAngularSpeed": 0.8,
               "speedYaw": 40.0,
-              "shotFreq": 0.1,
+              "shotFreq": 0.083,
               "turret": {
                 "head": "tt_head_02",
                 "gun": "tt_02",
@@ -2827,20 +2833,7 @@
       }
     }
   }
-}eaMult": 1.0,
-      "tankRearmOnCaptureZone": true
-    }
-  },
-  "battleHideNodes": {
-    "n": [
-      "portholes",
-      "details"
-    ]
-  },
-  "upgraded_skin": {
-    "name": "prem_camo",
-    "replace_tex": {
-      "from": "camo_navygrey_5*",
+}     "from": "camo_navygrey_5*",
       "to": "camo_mtb_spots*"
     }
   },

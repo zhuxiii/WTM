@@ -83,6 +83,9 @@
       true
     ]
   },
+  "clipmap": {
+    "texelSize": 0.1
+  },
   "micro_details": {
     "micro_detail": [
       "microdetail_stone_a_tex_n*",
@@ -101,11 +104,7 @@
     "land_micro_details_uv_scale": 1.11
   },
   "technicsSkins": {}
-}.11
-  },
-  "technicsSkins": {}
-}
-    "land_micro_details_uv_scale": 1.11
+}"land_micro_details_uv_scale": 1.11
   },
   "technicsSkins": {}
 }

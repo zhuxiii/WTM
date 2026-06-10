@@ -65,6 +65,9 @@
     "riExtraMinSizeForReflection": 100.0,
     "riExToHeightmap": true
   },
+  "clipmap": {
+    "texelSize": 0.1
+  },
   "micro_details": {
     "micro_detail": [
       "microdetail_stone_a_tex_n*",
@@ -118,9 +121,7 @@
       "lod1": 8000.0
     }
   }
-}"lod0": 140.0,
-      "lod1": 8000.0
-    }
+} }
   }
 <<<<<<< HEAD
 }  "tree_date_palm_small_c": {

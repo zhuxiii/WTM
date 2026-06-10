@@ -736,6 +736,7 @@
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
               "AimMaxDist": 1750.0,
+              "AimMinDist": 150.0,
               "randomAngle": 0.0,
               "accuracyBotMultAir": 0.4,
               "accuracyAir": 0.4,
@@ -1830,6 +1831,7 @@
         "ChainfireTime": 2.0,
         "DelayAfterShoot": 0.0,
         "AimMaxDist": 1750.0,
+        "AimMinDist": 150.0,
         "randomAngle": 0.0,
         "accuracyBotMultAir": 0.4,
         "accuracyAir": 0.4,
@@ -2103,10 +2105,7 @@
       "to": "camo_violetgray_geometry*"
     }
   }
-}ponPresets/ussr_sub_type_l4_default.blk"
-    }
-  },
-  "upgraded_skin": {
+}skin": {
     "name": "prem_camo",
     "replace_tex": {
       "from": "camo_hazegray*",

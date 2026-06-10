@@ -22,6 +22,7 @@
   "useSimpleDeathConditionsAndEffects": false,
   "useTouchTargeting": true,
   "ecsTemplate": "tank_wtm",
+  "deadZoneForTurnAround": 100.0,
   "subclass": "heavyVehicle",
   "onRadarAs": "tracked",
   "moveType": "vehicle",
@@ -2369,10 +2370,12 @@
       "minRPM": 600.0
     },
     "mechanics": {
+      "steerType": "double_differential",
       "maxBrakeForce": 44000.0,
       "driveGearRadius": 0.26,
       "mainGearRatio": 4.38,
       "sideGearRatio": 1.0,
+      "doubleDiffGearRatio": 30.0,
       "tracked": false,
       "gearRatios": {
         "ratio": [
@@ -3705,13 +3708,7 @@
   "battleHideNodes": {
     "n": "details"
   }
-}       -1.90215e-7,
-        -4.35162,
-        2.32018e-7,
-        6.90154
-      ],
-      "decal1HaveCP": true,
-      "decal1CPNormDepth": [
+}      "decal1CPNormDepth": [
         -3.32199e-8,
         -5.33175e-8,
         1.0,
