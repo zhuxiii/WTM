@@ -1857,16 +1857,6 @@
               "spread": 1.0,
               "traceOffset": 1,
               "counterIndex": 4
-            },
-            {
-              "trigger": "cannon",
-              "blk": "gameData/Weapons/cannonMG15120.blk",
-              "emitter": "flare3",
-              "flash": "flare3",
-              "dm": "cannon1_dm",
-              "bullets": 200,
-              "spread": 1.0,
-              "counterIndex": 3
             }
           ]
         }
@@ -2282,6 +2272,25 @@
       0.872524,
       -1.18792
     ],
+    "emtr_break_fin_from": [
+      -5.19187,
+      0.842989,
+      3.98199e-7
+    ],
+    "emtr_break_fin_to": [
+      -5.19187,
+      1.36926,
+      3.98199e-7
+    ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": {
+      "from": "bf_109g_6_a*",
+      "to": "bf_109g_6_aom_rall_a*"
+    }
+  }
+}
     "emtr_break_fin_from": [
       -5.19187,
       0.842989,

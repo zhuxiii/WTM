@@ -1450,6 +1450,31 @@
       "graphics": {
         "disallowTaa": true
       }
+    },
+    "broken_grass": {
+      "gpu": "Adreno (TM) 840",
+      "android_presets": {
+        "low": {
+          "graphics": {
+            "grassRadiusMul": 0.0
+          }
+        },
+        "medium": {
+          "graphics": {
+            "grassRadiusMul": 0.0
+          }
+        },
+        "high": {
+          "graphics": {
+            "grassRadiusMul": 0.0
+          }
+        },
+        "max": {
+          "graphics": {
+            "grassRadiusMul": 0.0
+          }
+        }
+      }
     }
   },
   "gamepad_layout": {
@@ -2548,7 +2573,7 @@
     }
   },
   "metal": {
-    "enable_manual_hazard_tracking": true,
+    "enable_manual_hazard_tracking": false,
     "enable_postmortem": true,
     "brokenUAVOnlyPasses": true,
     "allowResourceHeaps": false
@@ -2641,27 +2666,7 @@
       ]
     }
   }
-}
-        },
-        {
-          "name": "ironSource Mobile Ltd.",
-          "policy": "https://cdn.iads.unity3d.com/privacy-policy/privacypolicy.html"
-        }
-      ]
-    }
-  }
-}unity3d.com/privacy-policy/privacypolicy.html"
-        }
-      ]
-    }
-  }
-}        "hangarAirplaneLod": 0,
-        "battleHideNodesInHangar": false,
-        "shadowQuality": "low",
-        "hangarShadowQuality": "low",
-        "grassRadiusMul": 0.45,
-        "grassDensityMul": 0.15,
-        "fxDensityMul": 0.5,
+}": 0.5,
         "rendinstDistMul": 0.5,
         "compatibilityRendinstDistMul": 0.5,
         "tireTracksQuality": 0,
