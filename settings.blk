@@ -702,6 +702,11 @@
       "url": "http://public-configs.warthunder.com/"
     }
   },
+  "net": {
+    "useServerRouteEvaluation": true,
+    "echoTimeoutMs": 5000,
+    "addRtt": -20
+  },
   "general": {
     "environment": "day",
     "weather": "clear"
@@ -2666,10 +2671,7 @@
       ]
     }
   }
-}": 0.5,
-        "rendinstDistMul": 0.5,
-        "compatibilityRendinstDistMul": 0.5,
-        "tireTracksQuality": 0,
+}reTracksQuality": 0,
         "anisotropy": 1,
         "compatibilityAnisotropy": 1,
         "xrayUpdateFrames": 2,
