@@ -2042,6 +2042,7 @@ challenger_1_turret_n$tq.ddsx
 challenger_2_body_ao$tq.ddsx
 challenger_2_body_c$tq.ddsx
 challenger_2_body_n$tq.ddsx
+challenger_2_body_skin_c$tq.ddsx
 challenger_2_dl2_ao$tq.ddsx
 challenger_2_dl2_c$tq.ddsx
 challenger_2_dl2_n$tq.ddsx
@@ -2051,9 +2052,11 @@ challenger_2_dorchester_n$tq.ddsx
 challenger_2_dorchester_net_ao$tq.ddsx
 challenger_2_dorchester_net_c$tq.ddsx
 challenger_2_dorchester_net_n$tq.ddsx
+challenger_2_dorchester_skin_c$tq.ddsx
 challenger_2_gun_ao$tq.ddsx
 challenger_2_gun_c$tq.ddsx
 challenger_2_gun_n$tq.ddsx
+challenger_2_gun_skin_c$tq.ddsx
 challenger_2_lep_body_c$tq.ddsx
 challenger_2_lep_body_n$tq.ddsx
 challenger_2_lep_gun_ao$tq.ddsx
@@ -2067,13 +2070,16 @@ challenger_2_tes_c$tq.ddsx
 challenger_2_tes_mount_ao$tq.ddsx
 challenger_2_tes_mount_c$tq.ddsx
 challenger_2_tes_mount_n$tq.ddsx
+challenger_2_tes_mount_skin_c$tq.ddsx
 challenger_2_tes_n$tq.ddsx
 challenger_2_tes_ribbon_ao$tq.ddsx
 challenger_2_tes_ribbon_c$tq.ddsx
 challenger_2_tes_ribbon_n$tq.ddsx
+challenger_2_tes_skin_c$tq.ddsx
 challenger_2_turret_ao$tq.ddsx
 challenger_2_turret_c$tq.ddsx
 challenger_2_turret_n$tq.ddsx
+challenger_2_turret_skin_c$tq.ddsx
 challenger_mk_3_ao$tq.ddsx
 challenger_mk_3_c$tq.ddsx
 challenger_mk_3_n$tq.ddsx
@@ -11623,6 +11629,9 @@ vfm_5_gun_n$tq.ddsx
 vfm_5_turret_ao$tq.ddsx
 vfm_5_turret_c$tq.ddsx
 vfm_5_turret_n$tq.ddsx
+vgt_fir_ao$tq.ddsx
+vgt_fir_c$tq.ddsx
+vgt_fir_n$tq.ddsx
 vgt_palm_ao$tq.ddsx
 vgt_palm_c$tq.ddsx
 vgt_palm_n$tq.ddsx
