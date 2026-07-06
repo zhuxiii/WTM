@@ -279,12 +279,17 @@
       "folder": "content.hq/pkg_secondary_hq",
       "hq": false,
       "modelsPatch": false,
+      "downloadOnly": true,
       "conditions": {
         "isDownloadLast": true
       }
     },
-    "pkg_dev": {},
-    "pkg_downloadable": {},
+    "pkg_dev": {
+      "downloadOnly": true
+    },
+    "pkg_downloadable": {
+      "downloadOnly": true
+    },
     "pkg_hangar_event": {
       "hq": false,
       "modelsPatch": false
@@ -1480,6 +1485,17 @@
           }
         }
       }
+    },
+    "broken_foliage": {
+      "codename": [
+        "motorola moto g(20) ",
+        "motorola moto e40 "
+      ],
+      "graphics": {
+        "filtered_materials": {
+          "name": "dynamic_tank_foliage"
+        }
+      }
     }
   },
   "gamepad_layout": {
@@ -2672,17 +2688,7 @@
       ]
     }
   }
-}y": 0,
-        "anisotropy": 1,
-        "compatibilityAnisotropy": 1,
-        "xrayUpdateFrames": 2,
-        "force8bitRT": true,
-        "usePostfxGlow": false,
-        "lenseFlares": false,
-        "mobile_ssao_active": 1,
-        "renderImmDecals": false,
-        "renderImpostorsToDraftDepth": true,
-        "grassQuality": "high",
+}rassQuality": "high",
         "shaderlod": "high",
         "underwaterFogUseShadows": 1,
         "underwaterFogUseSimple": true,
