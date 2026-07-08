@@ -3053,8 +3053,8 @@
       "decal1WidthBox": 0.287998,
       "decal1Tex": "back_16"
     }
-  },
-  "skin": [
+  }
+}  "skin": [
     {
       "name": "green",
       "nameLocId": "skin/ger_camo_dunkelgelb_green",
