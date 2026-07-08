@@ -1794,9 +1794,9 @@
         0.05
       ],
       "suspensionOffsets": [
-        -0.17,
-        -0.15,
-        0.07
+        -0.19,
+        -0.11,
+        0.09
       ],
       "defaultGearRadius": 0.324,
       "topGearRadius": 0.147,
@@ -2405,58 +2405,6 @@
   "battleHideNodes": {
     "n": "details"
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "commonWeapons": {
     "Weapon": [
       {
@@ -2886,6 +2834,36 @@
       ],
       "decal0Line3": [
         2.0024,
+        -2.0024,
+        1.23783e-7,
+        -1.36125
+      ],
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        0.707107,
+        0.707107,
+        0.0,
+        -2.33356
+      ],
+      "decal0CPNormDepth1": [
+        -0.707107,
+        -0.707107,
+        -0.0,
+        2.28107
+      ],
+      "decal0RotScale": [
+        1.5708,
+        0.353129
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.238295,
+      "decal0Tex": "rocaf_roundel_1949"
+    }
+  }
+}4,
         -2.0024,
         1.23783e-7,
         -1.36125

@@ -63,58 +63,6 @@
       1.0
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "controlDevices": {
     "device": [
       {
@@ -2907,6 +2855,37 @@
     }
   },
   "modifications": {
+    "upgraded": {},
+    "art_support": {},
+    "tank_extinguisher": {},
+    "tank_tool_kit_expendable": {},
+    "art_support_smoke": {},
+    "art_support_mortars": {},
+    "art_support_highcaliber": {}
+  },
+  "upgraded_skin": {
+    "replace_tex": {
+      "from": "se_camo_green*",
+      "to": "se_camo_modern_deform*"
+    }
+  },
+  "upgradedDecals": {
+    "upgraded": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  },
+  "dmgAngles": {
+    "hatch_04": [
+      20.0,
+      30.0
+    ]
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}
     "upgraded": {},
     "art_support": {},
     "tank_extinguisher": {},

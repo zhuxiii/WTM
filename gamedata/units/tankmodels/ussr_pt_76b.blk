@@ -72,58 +72,6 @@
       0.95
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank",
@@ -2631,6 +2579,7 @@
     "detectionHeight": 2.195
   },
   "modifications": {
+    "upgraded": {},
     "art_support": {},
     "tank_extinguisher": {},
     "tank_tool_kit_expendable": {},
@@ -2815,6 +2764,35 @@
         0.570394,
         0.791169,
         -1.91771
+      ],
+      "decal1CPNormDepth1": [
+        0.220688,
+        0.570394,
+        -0.791169,
+        -1.91771
+      ],
+      "decal1RotScale": [
+        1.5708,
+        0.257399
+      ],
+      "decal1Mirrored": false,
+      "decal1Wrap": false,
+      "decal1Abs": false,
+      "decal1OppositeMirrored": false,
+      "decal1WidthBox": 0.211851,
+      "decal1Tex": "back_20"
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  },
+  "smokeScreenExhaustEmitters": {
+    "emitter": [
+      "emtr_exhaust_01",
+      "emtr_exhaust_04"
+    ]
+  }
+}        -1.91771
       ],
       "decal1CPNormDepth1": [
         0.220688,

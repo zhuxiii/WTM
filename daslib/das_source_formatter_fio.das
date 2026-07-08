@@ -1,7 +1,5 @@
 options gen2
 options indenting = 4
-options no_unused_block_arguments = false
-options no_unused_function_arguments = false
 options strict_smart_pointers = true
 
 module das_source_formatter_fio shared private
@@ -48,6 +46,56 @@ def public format_file(file_name : string const) {
 def public format_files(file_names : array<string>&) {
     
     for (fname in file_names) {
+        format_file(fname)
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
         format_file(fname)
     }
 }

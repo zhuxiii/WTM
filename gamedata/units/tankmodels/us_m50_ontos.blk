@@ -58,58 +58,6 @@
       0.8
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank",
@@ -1824,8 +1772,7 @@
         "hullAiming": {
           "horizontal": true,
           "defaultEnabled": false,
-          "isAutoTurner": true,
-          "maxSpeedForHorizontalAiming": 10.0
+          "isAutoTurner": true
         }
       },
       {
@@ -3085,6 +3032,37 @@
         0.00180131,
         0.687511,
         0.726171,
+        -1.38713
+      ],
+      "decal0RotScale": [
+        1.5708,
+        0.358076
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": false,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.205903,
+      "decal0Tex": "usa_tank_emblem_08"
+    }
+  },
+  "vehicleSkins": {
+    "forest": {
+      "replace_tex": {
+        "from": "uk_camo_very_dark_drab*",
+        "to": "us_camo_olive*"
+      },
+      "decal": {
+        "skin_condition": 100.0,
+        "camo_scale": 0.0,
+        "camo_rotation": 0.0
+      }
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+} 0.726171,
         -1.38713
       ],
       "decal0RotScale": [

@@ -1,6 +1,4 @@
 options gen2
-options no_unused_block_arguments = false
-options no_unused_function_arguments = false
 options indenting = 4
 options strict_smart_pointers = true
 
@@ -232,6 +230,12 @@ def public cast_to_string(data : float4) {
 
 def public cast_to_pointer(data : float4) {
     
+    var v : Vec4f
+    unsafe {
+        v.data  = data
+        return v.ptr
+    }
+}
     var v : Vec4f
     unsafe {
         v.data  = data

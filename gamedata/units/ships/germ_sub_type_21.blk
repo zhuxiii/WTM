@@ -688,6 +688,7 @@
         "accuracyAir": 0.4,
         "accuracyGnd": 0.0,
         "shootingErrorAir": 4.0,
+        "fireConeAngleShell": 8.0,
         "errMeasureVel": 1.0,
         "errTargettingOn100kmph": 0.0,
         "errMeasureVelFast": 1.0,
@@ -743,6 +744,7 @@
         "accuracyAir": 0.4,
         "accuracyGnd": 0.0,
         "shootingErrorAir": 4.0,
+        "fireConeAngleShell": 8.0,
         "errMeasureVel": 1.0,
         "errTargettingOn100kmph": 0.0,
         "errMeasureVelFast": 1.0,
@@ -798,6 +800,7 @@
         "accuracyAir": 0.4,
         "accuracyGnd": 0.0,
         "shootingErrorAir": 4.0,
+        "fireConeAngleShell": 8.0,
         "errMeasureVel": 1.0,
         "errTargettingOn100kmph": 0.0,
         "errMeasureVelFast": 1.0,
@@ -853,6 +856,7 @@
         "accuracyAir": 0.4,
         "accuracyGnd": 0.0,
         "shootingErrorAir": 4.0,
+        "fireConeAngleShell": 8.0,
         "errMeasureVel": 1.0,
         "errTargettingOn100kmph": 0.0,
         "errMeasureVelFast": 1.0,
@@ -1142,6 +1146,7 @@
               "accuracyAir": 0.4,
               "accuracyGnd": 0.0,
               "shootingErrorAir": 4.0,
+              "fireConeAngleShell": 8.0,
               "errMeasureVel": 1.0,
               "errTargettingOn100kmph": 0.0,
               "errMeasureVelFast": 1.0,
@@ -1197,6 +1202,7 @@
               "accuracyAir": 0.4,
               "accuracyGnd": 0.0,
               "shootingErrorAir": 4.0,
+              "fireConeAngleShell": 8.0,
               "errMeasureVel": 1.0,
               "errTargettingOn100kmph": 0.0,
               "errMeasureVelFast": 1.0,
@@ -1252,6 +1258,7 @@
               "accuracyAir": 0.4,
               "accuracyGnd": 0.0,
               "shootingErrorAir": 4.0,
+              "fireConeAngleShell": 8.0,
               "errMeasureVel": 1.0,
               "errTargettingOn100kmph": 0.0,
               "errMeasureVelFast": 1.0,
@@ -1307,6 +1314,7 @@
               "accuracyAir": 0.4,
               "accuracyGnd": 0.0,
               "shootingErrorAir": 4.0,
+              "fireConeAngleShell": 8.0,
               "errMeasureVel": 1.0,
               "errTargettingOn100kmph": 0.0,
               "errMeasureVelFast": 1.0,
@@ -2311,24 +2319,7 @@
       }
     ]
   }
-}skin": {
-    "name": "prem_camo",
-    "replace_tex": [
-      {
-        "from": "camo_navygrey_5*",
-        "to": "camo_sboat_splotch*"
-      },
-      {
-        "from": "camo_deckgrey*",
-        "to": "camo_inside_white*"
-      }
-    ]
-  }
-}}
-}ficulty": {
-    "arcade": {
-      "shipRudderAreaMult": 1.0,
-      "tankRearmOnCaptureZone": true
+}      "tankRearmOnCaptureZone": true
     }
   },
   "battleHideNodes": {

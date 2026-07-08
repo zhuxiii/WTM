@@ -168,10 +168,6 @@ struct CmdHeroRespawn
 struct CmdLockHangarMusic
 {}
 
-[cpp_event(unicast, with_scheme)]
-struct EventOnTrailerDead
-{}
-
 [cpp_event(broadcast, with_scheme, routing=ROUTING_CLIENT_TO_SERVER)]
 struct EventTryControlBurav
   eid : EntityId
@@ -496,4 +492,5 @@ struct EventGameObjectsCreated
   game_objects : EntityId
 
 [cpp_event(broadcast, with_scheme)]
+struct EventEcsMissionLoaded {}[cpp_event(broadcast, with_scheme)]
 struct EventEcsMissionLoaded {}

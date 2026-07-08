@@ -897,58 +897,6 @@
       0.8
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "tank_crew": {
     "changeTimeMult": 1.0,
     "gunner": {
@@ -2721,9 +2669,7 @@
     "machinegun_belt_stealth": {},
     "art_support_smoke": {},
     "art_support_mortars": {},
-    "art_support_highcaliber": {},
-    "tank_smoke_screen_low_cooldown": {},
-    "tank_smoke_screen_long_duration": {}
+    "art_support_highcaliber": {}
   },
   "upgraded_skin": {
     "replace_tex": {
@@ -2892,6 +2838,41 @@
       "decal3Line2": [
         -2.39935,
         -1.30495e-7,
+        0.709694,
+        1.7594
+      ],
+      "decal3Line3": [
+        0.250352,
+        -2.34126,
+        0.846396,
+        4.41432
+      ],
+      "decal3HaveCP": true,
+      "decal3CPNormDepth": [
+        0.265404,
+        0.352761,
+        -0.897285,
+        -1.69761
+      ],
+      "decal3CPNormDepth1": [
+        0.265404,
+        0.352761,
+        0.897285,
+        -1.69761
+      ],
+      "decal3RotScale": [
+        1.5708,
+        0.399663
+      ],
+      "decal3Mirrored": false,
+      "decal3Wrap": false,
+      "decal3Abs": false,
+      "decal3OppositeMirrored": false,
+      "decal3WidthBox": 0.21519,
+      "decal3Tex": "ussr_numbers_2"
+    }
+  }
+},
         0.709694,
         1.7594
       ],

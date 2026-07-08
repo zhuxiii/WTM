@@ -46,58 +46,6 @@
   "explosionFx": "tank_explosion",
   "fireFx": "ground_model_fire",
   "minRelativeTankCameraThreshold": 1.38,
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "controlDevices": {
     "device": [
       {
@@ -3006,6 +2954,37 @@
       "decal0CPNormDepth1": [
         -0.707107,
         -0.707107,
+        -0.0,
+        2.6382
+      ],
+      "decal0RotScale": [
+        1.5708,
+        0.353558
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": false,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.224961,
+      "decal0Tex": "rocaf_roundel_1949"
+    }
+  },
+  "battleHideNodes": {
+    "n": [
+      "details",
+      "details_01",
+      "details_02",
+      "details_03",
+      "details_04",
+      "details_05",
+      "details_06",
+      "details_07",
+      "details_08",
+      "details_09",
+      "details_10"
+    ]
+  }
+}107,
         -0.0,
         2.6382
       ],

@@ -75,58 +75,6 @@
       1.0
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank",
@@ -3175,6 +3123,39 @@
           },
           "ammo_body_01_dm": {
             "count": 1
+          },
+          "ammo_body_02_dm": {
+            "count": 1
+          }
+        }
+      ]
+    }
+  },
+  "defaultDecals": {
+    "fiction": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": -41.0
+    }
+  },
+  "vehicleSkins": {
+    "fiction": {
+      "replace_tex": {
+        "from": "ussr_camo_green*",
+        "to": "ussr_t_34_85_zis_53_dislike*"
+      }
+    }
+  },
+  "smokeScreenExhaustEmitters": {
+    "emitter": [
+      "emtr_exhaust_01",
+      "emtr_exhaust_04"
+    ]
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}         "count": 1
           },
           "ammo_body_02_dm": {
             "count": 1

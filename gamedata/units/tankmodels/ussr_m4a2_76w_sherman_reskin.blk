@@ -2911,58 +2911,6 @@
       0.85
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "modifications": {
     "art_support": {},
     "tank_extinguisher": {},
@@ -3018,6 +2966,32 @@
           "to": "m4a3e8_76w_noskin_sherman_hvss_turret_c*",
           "param": "camo_skin_tex"
         },
+        {
+          "from": "m4a2_76w_sherman_body_c*",
+          "to": "m4a2_76w_noskin_sherman_body_c*",
+          "param": "camo_skin_tex"
+        },
+        {
+          "from": "mg_browning_m2hb_mount_c*",
+          "to": "mg_browning_m2hb_noskin_mount_c*",
+          "param": "camo_skin_tex"
+        }
+      ],
+      "decal": {
+        "skin_condition": 100.0,
+        "camo_scale": 0.0,
+        "camo_rotation": 0.0
+      }
+    }
+  },
+  "defaultDecals": {
+    "default": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  }
+}    },
         {
           "from": "m4a2_76w_sherman_body_c*",
           "to": "m4a2_76w_noskin_sherman_body_c*",

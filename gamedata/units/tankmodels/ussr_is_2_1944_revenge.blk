@@ -782,58 +782,6 @@
       ]
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "VehiclePhys": {
     "Mass": {
       "Empty": 45610.0,
@@ -2720,6 +2668,33 @@
     "turret_turn": "turret_turn_manual_y",
     "EngineNameAi": "engine_tank_ai_heavy",
     "TrackSoundNameAi": "tracks_ai_heavy"
+  },
+  "default_skin": {
+    "set_tex": {
+      "from": "is_2_1944_turret_c*",
+      "to": "is_2_1944_skin_turret_c*",
+      "param": "camo_skin_tex"
+    }
+  },
+  "vehicleSkins": {
+    "forest": {
+      "replace_tex": {
+        "from": "ussr_camo_green*",
+        "to": "ussr_camo_green*"
+      },
+      "set_tex": {
+        "from": "is_2_1944_turret_c*",
+        "to": "is_2_1944_noskin_turret_c*",
+        "param": "camo_skin_tex"
+      },
+      "decal": {
+        "skin_condition": 100.0,
+        "camo_scale": 0.0,
+        "camo_rotation": 0.0
+      }
+    }
+  }
+}ks_ai_heavy"
   },
   "default_skin": {
     "set_tex": {

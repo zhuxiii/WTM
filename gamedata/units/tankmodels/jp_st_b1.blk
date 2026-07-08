@@ -61,58 +61,6 @@
       0.9
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank",
@@ -3249,6 +3197,34 @@
         2.56324
       ],
       "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        0.355739,
+        0.510326,
+        -0.782954,
+        -2.08877
+      ],
+      "decal0CPNormDepth1": [
+        0.355739,
+        0.510326,
+        0.782954,
+        -2.10194
+      ],
+      "decal0RotScale": [
+        1.64959,
+        0.486643
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.210102,
+      "decal0Tex": "jp_infantry_school_reg_5th_company"
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}decal0HaveCP": true,
       "decal0CPNormDepth": [
         0.355739,
         0.510326,

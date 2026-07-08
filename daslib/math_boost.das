@@ -1,6 +1,4 @@
 options gen2
-options no_unused_block_arguments = false
-options no_unused_function_arguments = false
 options indenting = 4
 options strict_smart_pointers = true
 
@@ -229,5 +227,8 @@ def planar_shadow(Light, Plane : float4) {
     Result[1] = float4(P.y * L.x,      P.y * L.y + d,  P.y * L.z,      P.y * L.w)
     Result[2] = float4(P.z * L.x,      P.z * L.y,      P.z * L.z + d,  P.z * L.w)
     Result[3] = float4(P.w * L.x,      P.w * L.y,      P.w * L.z,      P.w * L.w + d)
+    return Result
+}
+t4(P.w * L.x,      P.w * L.y,      P.w * L.z,      P.w * L.w + d)
     return Result
 }

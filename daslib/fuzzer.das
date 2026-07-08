@@ -1,6 +1,4 @@
 options gen2
-options no_unused_block_arguments = false
-options no_unused_function_arguments = false
 options indenting = 4
 options strict_smart_pointers = true
 
@@ -21,7 +19,7 @@ var private total_fuzz_count : int = 1000
 def public fuzz(blk : block) {
     
     
-    for (i in range(total_fuzz_count)) {
+    for (_i in range(total_fuzz_count)) {
         try {
             invoke(blk)
         } recover {
@@ -33,7 +31,7 @@ def public fuzz(blk : block) {
 def public fuzz(fuzz_count : int; blk : block) {
     
     
-    for (i in range(fuzz_count)) {
+    for (_i in range(fuzz_count)) {
         try {
             invoke(blk)
         } recover {
@@ -46,7 +44,7 @@ def public fuzz_debug(blk : block) {
     
     
     
-    for (i in range(total_fuzz_count)) {
+    for (_i in range(total_fuzz_count)) {
         invoke(blk)
     }
 }
@@ -55,7 +53,7 @@ def public fuzz_debug(fuzz_count : int; blk : block) {
     
     
     
-    for (i in range(fuzz_count)) {
+    for (_i in range(fuzz_count)) {
         invoke(blk)
     }
 }
@@ -387,6 +385,9 @@ def public fuzz_numeric_op4(t; var fake : Faker; funcname : string) {
     invoke(funcname, t, fake |> random_uint, fake |> random_uint, fake |> random_uint, fake |> random_uint)
     invoke(funcname, t, fake |> random_float, fake |> random_float, fake |> random_float, fake |> random_float)
     invoke(funcname, t, fake |> random_double, fake |> random_double, fake |> random_double, fake |> random_double)
+}
+
+m_double, fake |> random_double, fake |> random_double, fake |> random_double)
 }
 
 t, fake |> random_float)

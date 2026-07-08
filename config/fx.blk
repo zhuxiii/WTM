@@ -2624,6 +2624,12 @@
     "sfxEvent": "art_explosion",
     "soundEnableDistance": 5000.0
   },
+  "hit_ash_missile_metal_he": {
+    "fx": "hit_huge_metal_he_cmps_fx",
+    "sfxPathStudio": "aircraft/explosions",
+    "sfxEvent": "misl_explosion_mid",
+    "soundEnableDistance": 5000.0
+  },
   "hit_291_390mm_sand_ap": {
     "fx": "hit_huge_dirt_he_cmps_fx",
     "sfxPathStudio": "ground/explosions",
@@ -4254,13 +4260,7 @@
     "sfxPath": "sounds/effects",
     "sfxPathStudio": "aircraft/effects"
   }
-}ail_5": {
-    "fx": "aerobatics_smoke_green_cmps_fx",
-    "sfxPath": "sounds/effects",
-    "sfxPathStudio": "aircraft/effects"
-  },
-  "aerobatics_smoke_tail_6": {
-    "fx": "aerobatics_smoke_blue_cmps_fx",
+}moke_blue_cmps_fx",
     "sfxPath": "sounds/effects",
     "sfxPathStudio": "aircraft/effects"
   },

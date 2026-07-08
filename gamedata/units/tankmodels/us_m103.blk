@@ -56,58 +56,6 @@
       0.75
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "CHA_tank",
@@ -2671,6 +2619,35 @@
         1.00738,
         2.81067
       ],
+      "decal1HaveCP": true,
+      "decal1CPNormDepth": [
+        0.190907,
+        0.530129,
+        -0.826146,
+        -2.14432
+      ],
+      "decal1CPNormDepth1": [
+        0.190907,
+        0.530129,
+        0.826146,
+        -2.14432
+      ],
+      "decal1RotScale": [
+        1.67561,
+        0.486538
+      ],
+      "decal1Mirrored": false,
+      "decal1Wrap": false,
+      "decal1Abs": false,
+      "decal1OppositeMirrored": false,
+      "decal1WidthBox": 0.228653,
+      "decal1Tex": "usa_tank_emblem_08"
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}     ],
       "decal1HaveCP": true,
       "decal1CPNormDepth": [
         0.190907,

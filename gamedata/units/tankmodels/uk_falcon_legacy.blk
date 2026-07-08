@@ -58,58 +58,6 @@
       0.95
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank",
@@ -2967,6 +2915,30 @@
     },
     "forest2": {
       "replace_tex": {
+        "from": "uk_camo_very_dark_drab*",
+        "to": "uk_camo_middle_deep_bronze_greens*"
+      }
+    },
+    "desert": {
+      "replace_tex": {
+        "from": "uk_camo_very_dark_drab*",
+        "to": "uk_camo_standart_modern_light_stone*"
+      }
+    },
+    "desert2": {
+      "replace_tex": {
+        "from": "uk_camo_very_dark_drab*",
+        "to": "uk_camo_standart_modern_desert_bicolor*"
+      }
+    },
+    "winter": {
+      "replace_tex": {
+        "from": "uk_camo_very_dark_drab*",
+        "to": "fr_camo_winter_green_white*"
+      }
+    }
+  }
+}     "replace_tex": {
         "from": "uk_camo_very_dark_drab*",
         "to": "uk_camo_middle_deep_bronze_greens*"
       }

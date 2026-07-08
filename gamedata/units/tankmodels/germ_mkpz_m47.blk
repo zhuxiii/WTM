@@ -60,58 +60,6 @@
       0.95
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "CHA_tank",
@@ -3058,6 +3006,34 @@
     }
   },
   "upgraded_skin": {
+    "replace_tex": {
+      "from": "us_camo_olive*",
+      "to": "ger_camo_carc*"
+    },
+    "set_tex": [
+      {
+        "from": "m47_patton_II_body_c*",
+        "to": "mkpz_m47_skin_body_c*",
+        "param": "camo_skin_tex"
+      },
+      {
+        "from": "m47_patton_II_turret_c*",
+        "to": "mkpz_m47_skin_turret_c*",
+        "param": "camo_skin_tex"
+      }
+    ]
+  },
+  "upgradedDecals": {
+    "upgraded": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 63.0
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}upgraded_skin": {
     "replace_tex": {
       "from": "us_camo_olive*",
       "to": "ger_camo_carc*"

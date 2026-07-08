@@ -59,58 +59,6 @@
       1.0
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "aluminum_armor_7039",
@@ -2611,6 +2559,35 @@
         0.000298601,
         3.56992
       ],
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        0.000108383,
+        0.000106987,
+        -1.0,
+        -1.12934
+      ],
+      "decal0CPNormDepth1": [
+        0.000108383,
+        0.000106987,
+        1.0,
+        -1.12934
+      ],
+      "decal0RotScale": [
+        1.5708,
+        0.358294
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": true,
+      "decal0WidthBox": 0.200004,
+      "decal0Tex": "usa_tank_emblem_08"
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}      ],
       "decal0HaveCP": true,
       "decal0CPNormDepth": [
         0.000108383,

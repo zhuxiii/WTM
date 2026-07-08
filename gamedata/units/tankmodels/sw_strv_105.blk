@@ -59,58 +59,6 @@
       0.95
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "steeringTable": {
     "point": [
       [
@@ -3342,6 +3290,37 @@
         4.13528
       ],
       "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        -1.93538e-11,
+        -4.78896e-7,
+        -1.0,
+        -1.68231
+      ],
+      "decal0CPNormDepth1": [
+        -1.93538e-11,
+        -4.78896e-7,
+        1.0,
+        -1.68231
+      ],
+      "decal0RotScale": [
+        1.5708,
+        0.35832
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": false,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.200001,
+      "decal0Tex": "flag_sweden"
+    }
+  },
+  "battleHideNodes": {
+    "n": [
+      "details_01",
+      "details_02"
+    ]
+  }
+}ue,
       "decal0CPNormDepth": [
         -1.93538e-11,
         -4.78896e-7,

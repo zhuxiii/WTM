@@ -2312,58 +2312,6 @@
       "collisionNode": "cls_turret_01"
     }
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "commonWeapons": {
     "Weapon": [
       {
@@ -2657,6 +2605,35 @@
       "decal3Line3": [
         -0.101352,
         -2.63321,
+        1.02237,
+        5.06243
+      ],
+      "decal3HaveCP": true,
+      "decal3CPNormDepth": [
+        -0.0919032,
+        0.363477,
+        -0.927059,
+        -1.66822
+      ],
+      "decal3CPNormDepth1": [
+        -0.0919032,
+        0.363477,
+        0.927059,
+        -1.66822
+      ],
+      "decal3RotScale": [
+        1.5708,
+        0.35379
+      ],
+      "decal3Mirrored": false,
+      "decal3Wrap": false,
+      "decal3Abs": false,
+      "decal3OppositeMirrored": false,
+      "decal3WidthBox": 0.241539,
+      "decal3Tex": "china_numbers_5"
+    }
+  }
+}    -2.63321,
         1.02237,
         5.06243
       ],

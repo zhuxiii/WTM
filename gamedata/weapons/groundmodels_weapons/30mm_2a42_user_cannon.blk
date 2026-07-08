@@ -33,22 +33,6 @@
   "soundLoop": true,
   "sfxReloadBullet": "grd_cannon_belt_reload",
   "isBulletBelt": false,
-  "overheat": {
-    "overheat": [
-      [
-        7.0,
-        0.0
-      ],
-      [
-        9.0,
-        0.1
-      ],
-      [
-        11.0,
-        0.5
-      ]
-    ]
-  },
   "bullet": [
     {
       "mass": 0.4,
@@ -3727,6 +3711,16 @@
             "fx": "hit_28_38mm_stone_ap"
           },
           "fabric": {
+            "fx": "hit_28_38mm_stone_ap"
+          },
+          "stone_snow": {
+            "fx": "hit_28_38mm_snow_ap"
+          }
+        }
+      }
+    ]
+  }
+}abric": {
             "fx": "hit_28_38mm_stone_ap"
           },
           "stone_snow": {

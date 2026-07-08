@@ -706,6 +706,7 @@
         "accuracyAir": 0.4,
         "accuracyGnd": 0.0,
         "shootingErrorAir": 4.0,
+        "fireConeAngleShell": 8.0,
         "errMeasureVel": 1.0,
         "errTargettingOn100kmph": 0.0,
         "errMeasureVelFast": 1.0,
@@ -762,6 +763,7 @@
         "accuracyAir": 0.4,
         "accuracyGnd": 0.0,
         "shootingErrorAir": 4.0,
+        "fireConeAngleShell": 8.0,
         "errMeasureVel": 1.0,
         "errTargettingOn100kmph": 0.0,
         "errMeasureVelFast": 1.0,
@@ -817,6 +819,7 @@
         "accuracyAir": 0.4,
         "accuracyGnd": 0.0,
         "shootingErrorAir": 4.0,
+        "fireConeAngleShell": 8.0,
         "errMeasureVel": 1.0,
         "errTargettingOn100kmph": 0.0,
         "errMeasureVelFast": 1.0,
@@ -1078,6 +1081,7 @@
               "accuracyAir": 0.4,
               "accuracyGnd": 0.0,
               "shootingErrorAir": 4.0,
+              "fireConeAngleShell": 8.0,
               "errMeasureVel": 1.0,
               "errTargettingOn100kmph": 0.0,
               "errMeasureVelFast": 1.0,
@@ -1134,6 +1138,7 @@
               "accuracyAir": 0.4,
               "accuracyGnd": 0.0,
               "shootingErrorAir": 4.0,
+              "fireConeAngleShell": 8.0,
               "errMeasureVel": 1.0,
               "errTargettingOn100kmph": 0.0,
               "errMeasureVelFast": 1.0,
@@ -1189,6 +1194,7 @@
               "accuracyAir": 0.4,
               "accuracyGnd": 0.0,
               "shootingErrorAir": 4.0,
+              "fireConeAngleShell": 8.0,
               "errMeasureVel": 1.0,
               "errTargettingOn100kmph": 0.0,
               "errMeasureVelFast": 1.0,
@@ -2164,21 +2170,7 @@
       }
     ]
   }
-} "from": "camo_hazegray*",
-        "to": "camo_greyblack_geometry*"
-      },
-      {
-        "from": "camo_deckbasaltgrau*",
-        "to": "camo_deepdark_wood*"
-      }
-    ]
-  }
-}}
-}r_gun_03",
-      "gun_barrel_01"
-    ]
-  },
-  "upgraded_skin": {
+} "upgraded_skin": {
     "name": "prem_camo",
     "replace_tex": [
       {

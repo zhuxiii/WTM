@@ -67,58 +67,6 @@
       1.0
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "ikGunner": [
     {
       "model": "italian_gunner_char",
@@ -2395,7 +2343,7 @@
           "horizontal": true,
           "defaultEnabled": false,
           "isAutoTurner": true,
-          "maxSpeedForHorizontalAiming": 10.0
+          "maxSpeedForHorizontalAiming": 100.0
         }
       },
       {
@@ -3138,6 +3086,36 @@
           "count": 1
         },
         "ammo_body_05_dm": {
+          "count": 1
+        },
+        "ammo_body_06_dm": {
+          "count": 1
+        },
+        "ammo_body_07_dm": {
+          "count": 1
+        },
+        "ammo_body_08_dm": {
+          "count": 1
+        },
+        "ammo_body_09_dm": {
+          "count": 1
+        },
+        "ammo_body_10_dm": {
+          "count": 1
+        },
+        "ammo_body_01_dm": {
+          "count": 1,
+          "fatalFire": false,
+          "fatalExplosion": false,
+          "removeLoadedAmmo": false
+        }
+      }
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}ody_05_dm": {
           "count": 1
         },
         "ammo_body_06_dm": {

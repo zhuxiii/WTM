@@ -58,58 +58,6 @@
       0.95
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "controlDevices": {
     "device": [
       {
@@ -2810,6 +2758,36 @@
         -2.79113,
         0.00795262,
         5.88349
+      ],
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        0.149749,
+        0.00288173,
+        -0.98872,
+        -1.24401
+      ],
+      "decal0CPNormDepth1": [
+        0.149749,
+        0.00288173,
+        0.98872,
+        -1.24401
+      ],
+      "decal0RotScale": [
+        1.5708,
+        0.358276
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.208256,
+      "decal0Tex": "back_27"
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}  5.88349
       ],
       "decal0HaveCP": true,
       "decal0CPNormDepth": [

@@ -41,10 +41,6 @@ def is_repair_needed(unit : Unit const?; repair_state : uint; speed_multiplier :
         elif with_mods
           if repair_with_mods_available
             return true
-    if with_mods && repair_with_mods_available
-      var trailer = get_unit_by_eid(unit.trailerEid)
-      if trailer != null && !trailer.isAlive
-        return true
   return false
 
 
@@ -89,7 +85,7 @@ def get_part_current_hp(dmData : DamageModelData; part_id : PartId; part_state :
 def calc_time_to_repair(unit : Unit const?; speed_multiplier : float; repair_system_repair_hp_multiplier : float;
                         repair_system_parts_id : PartIdList; repair_system_parts_state : UInt32List;
                         var repair_system_parts_hp : Point4List&; repair_system_parts_speed_mult : FloatList;
-                        repair_with_mods_available : bool; repair_trailer_time : float; repair_trailer_progress : float)
+                        repair_with_mods_available : bool)
   var total_normal_time_to_repair = 0.0f
   var total_serial_time_to_repair = 0.0f
   assume dmData = unit.dmData
@@ -99,6 +95,11 @@ def calc_time_to_repair(unit : Unit const?; speed_multiplier : float; repair_sys
       let needed_hp = dmData |> get_part_needed_hp(part_id, part_hp, repair_system_repair_hp_multiplier)
       let time = safediv(needed_hp - current_hp, part_mult * speed_multiplier)
       if get_flag(part_state, DmPartRepairState.SERIALLY_REPAIR)
+        total_serial_time_to_repair += time
+      else
+        total_normal_time_to_repair = max(total_normal_time_to_repair, time)
+  return max(total_normal_time_to_repair, total_serial_time_to_repair)
+State.SERIALLY_REPAIR)
         total_serial_time_to_repair += time
       else
         total_normal_time_to_repair = max(total_normal_time_to_repair, time)

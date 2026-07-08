@@ -52,58 +52,6 @@
   "drowningCheckHeightMultiplier": 0.45,
   "rearmSmokeTimeOnField": 60.0,
   "canReloadNonGuns": true,
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank",
@@ -3187,6 +3135,35 @@
       "decal0Line3": [
         1.22003e-7,
         -2.79111,
+        3.3926e-7,
+        7.58526
+      ],
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        -9.93869e-8,
+        1.21551e-7,
+        -1.0,
+        -0.727709
+      ],
+      "decal0CPNormDepth1": [
+        -9.93869e-8,
+        1.21551e-7,
+        1.0,
+        -0.72771
+      ],
+      "decal0RotScale": [
+        1.5708,
+        0.358281
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.210035,
+      "decal0Tex": "ge_bundeswehr_insignia"
+    }
+  }
+}.79111,
         3.3926e-7,
         7.58526
       ],

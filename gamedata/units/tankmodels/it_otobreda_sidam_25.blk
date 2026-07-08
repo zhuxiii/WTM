@@ -59,58 +59,6 @@
       1.0
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "aluminum_armor_5083",
@@ -2850,6 +2798,35 @@
         2.34158
       ],
       "decal0RotScale": [
+        1.5708,
+        0.358439
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.200331,
+      "decal0Tex": "flag_italy"
+    }
+  },
+  "vehicleSkins": {
+    "forest": {
+      "replace_tex": {
+        "from": "it_camo_olive_green*",
+        "to": "it_camo_green*"
+      }
+    },
+    "forest2": {
+      "replace_tex": {
+        "from": "it_camo_olive_green*",
+        "to": "it_camo_modern_three_color*"
+      }
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}: [
         1.5708,
         0.358439
       ],

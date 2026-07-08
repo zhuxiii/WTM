@@ -64,58 +64,6 @@
       0.95
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank",
@@ -3305,6 +3253,35 @@
       ],
       "decal0HaveCP": true,
       "decal0CPNormDepth": [
+        -9.93869e-8,
+        1.21551e-7,
+        -1.0,
+        -0.727709
+      ],
+      "decal0CPNormDepth1": [
+        -9.93869e-8,
+        1.21551e-7,
+        1.0,
+        -0.72771
+      ],
+      "decal0RotScale": [
+        1.5708,
+        0.358281
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.210035,
+      "decal0Tex": "ge_bundeswehr_insignia"
+    },
+    "forest2": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  }
+}[
         -9.93869e-8,
         1.21551e-7,
         -1.0,

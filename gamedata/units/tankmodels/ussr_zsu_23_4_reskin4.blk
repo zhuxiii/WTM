@@ -52,58 +52,6 @@
   "fireFx": "ground_model_fire",
   "minRelativeTankCameraThreshold": 1.2,
   "drowningCheckHeightMultiplier": 0.45,
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank",
@@ -2961,6 +2909,35 @@
       "decal3Line3": [
         -1.14665e-7,
         -2.62317,
+        -0.00000684575,
+        3.77772
+      ],
+      "decal3HaveCP": true,
+      "decal3CPNormDepth": [
+        -4.36361e-7,
+        0.00000260972,
+        1.0,
+        -1.44734
+      ],
+      "decal3CPNormDepth1": [
+        -4.36361e-7,
+        0.00000260972,
+        -1.0,
+        -1.44734
+      ],
+      "decal3RotScale": [
+        1.5708,
+        0.381218
+      ],
+      "decal3Mirrored": false,
+      "decal3Wrap": false,
+      "decal3Abs": false,
+      "decal3OppositeMirrored": false,
+      "decal3WidthBox": 0.24769,
+      "decal3Tex": "ussr_numbers_8"
+    }
+  }
+}2317,
         -0.00000684575,
         3.77772
       ],

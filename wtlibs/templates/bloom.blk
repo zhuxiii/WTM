@@ -20,7 +20,7 @@
       "bloom__halation_end_mip": 1,
       "bloom__max_mips": 7
     },
-    "bloom__downsample_node:dafg::NodeHandle": {},
+    "bloom__downsample_node:resource_slot::NodeHandleWithSlotsAccess": {},
     "bloom__downsample_chain:dag::Vector<dafg::NodeHandle>": {},
     "bloom__upsample_chain:dag::Vector<dafg::NodeHandle>": {}
   },
@@ -41,7 +41,7 @@
     "bloom_settings__halation_mip_factor": 2.0,
     "bloom_settings__halation_end_mip": 1
   }
-}om_settings__halation_mip_factor": 2.0,
+}p_factor": 2.0,
       "bloom_settings__halation_end_mip": 1
     }
   }

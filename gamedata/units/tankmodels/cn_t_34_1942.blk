@@ -2498,58 +2498,6 @@
     ],
     "detectionHeight": 2.4
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "commonWeapons": {
     "Weapon": [
       {
@@ -2744,6 +2692,35 @@
       "decal0Line3": [
         0.232528,
         -2.60845,
+        0.946264,
+        5.06632
+      ],
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        0.223545,
+        0.349941,
+        -0.909708,
+        -1.53568
+      ],
+      "decal0CPNormDepth1": [
+        0.223545,
+        0.349941,
+        0.909708,
+        -1.54073
+      ],
+      "decal0RotScale": [
+        1.5708,
+        0.359129
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.252601,
+      "decal0Tex": "noak_gf_roundel"
+    }
+  }
+}       -2.60845,
         0.946264,
         5.06632
       ],

@@ -2505,58 +2505,6 @@
   "battleHideNodes": {
     "n": "details"
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "commonWeapons": {
     "Weapon": [
       {
@@ -2724,6 +2672,32 @@
       "replace_tex": {
         "from": "ussr_camo_green*",
         "to": "ussr_camo_green*"
+      },
+      "set_tex": [
+        {
+          "from": "is_1_gun_c*",
+          "to": "is_1_noskin_gun_c*",
+          "param": "camo_skin_tex"
+        },
+        {
+          "from": "is_1_turret_c*",
+          "to": "is_1_noskin_turret_c*",
+          "param": "camo_skin_tex"
+        },
+        {
+          "from": "is_2_body_c*",
+          "to": "is_2_noskin_body_c*",
+          "param": "camo_skin_tex"
+        }
+      ],
+      "decal": {
+        "skin_condition": 100.0,
+        "camo_scale": 0.0,
+        "camo_rotation": 0.0
+      }
+    }
+  }
+}     "to": "ussr_camo_green*"
       },
       "set_tex": [
         {

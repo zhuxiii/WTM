@@ -328,41 +328,6 @@
   "torpedo_gun": {
     "_use": "weapon"
   },
-  "background_model": {
-    "background_model__model": "",
-    "background_model__skin": "",
-    "background_model__unitName": "",
-    "background_model__weapon": "",
-    "background_model__isPlane": false,
-    "background_model__tm": [
-      [
-        1.0,
-        0.0,
-        0.0
-      ],
-      [
-        0.0,
-        1.0,
-        0.0
-      ],
-      [
-        0.0,
-        0.0,
-        1.0
-      ],
-      [
-        0.0,
-        0.0,
-        0.0
-      ]
-    ],
-    "background_model__canOutline": false,
-    "background_model_res": {
-      "_tags": "gameClient"
-    },
-    "background_model__bullets:list<t>": {},
-    "background_model__spawnEid:eid": {}
-  },
   "destructed_model": {
     "_use": "replicating",
     "destructed_model__fx": "fire_tank_destructed",
@@ -517,6 +482,35 @@
   },
   "camera_snow_light_effect": {
     "_use": "camera_bound_rain_effect_template",
+    "_group": {
+      "_tags": "render",
+      "camera_effect__offset": [
+        0.0,
+        -4.0,
+        0.0
+      ],
+      "camera_effect__distance": 3.0,
+      "effect__name": "camera_snow_light_cmps_fx"
+    }
+  },
+  "base_unit_ext": {
+    "base_unit__kill_score_mult": 1.0
+  },
+  "aircraft_ext": {},
+  "barrage_ballon_ext": {},
+  "ground_unit_ext": {},
+  "ship_ext": {},
+  "tank_ext": {},
+  "walker_ext": {},
+  "simple_ground_unit_ext": {},
+  "simple_ship_ext": {},
+  "simple_tank_ext": {},
+  "trailer_ext": {},
+  "human_ext": {},
+  "light_vehicle_ext": {},
+  "fortification_ext": {},
+  "infantry_troop_ext": {}
+}se": "camera_bound_rain_effect_template",
     "_group": {
       "_tags": "render",
       "camera_effect__offset": [

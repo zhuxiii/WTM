@@ -69,58 +69,6 @@
       0.85
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank",
@@ -2919,6 +2867,36 @@
         0.433879,
         -0.817178,
         -1.74412
+      ],
+      "decal0CPNormDepth1": [
+        0.379433,
+        0.433879,
+        0.817178,
+        -1.74412
+      ],
+      "decal0RotScale": [
+        1.59701,
+        0.358151
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.267489,
+      "decal0Tex": "ussr_tank_emblem_09"
+    }
+  },
+  "smokeScreenExhaustEmitters": {
+    "emitter": [
+      "emtr_exhaust_01",
+      "emtr_exhaust_04",
+      "emtr_exhaust_02"
+    ]
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}
       ],
       "decal0CPNormDepth1": [
         0.379433,

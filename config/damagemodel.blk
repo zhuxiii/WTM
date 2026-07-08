@@ -39,7 +39,6 @@
   "splashPenetrationPrecheck": true,
   "shattersMinSolidArmorThicknessMult": 0.5,
   "defaultCaliberToArmorForGuiPenetrationTable": 1.25,
-  "secondaryShattersCountLimitForTest": 30,
   "massKineticRange": 7.0,
   "massKineticHitPowerK": 0.00001,
   "massKineticArmorPowerK": 0.0001,
@@ -4374,6 +4373,66 @@
       "partRepairHp": 1.0,
       "hpForRepair": 0.7
     },
+    "aps_sensor_01_dm": {
+      "speed": 2.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "aps_sensor_02_dm": {
+      "speed": 2.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "aps_sensor_03_dm": {
+      "speed": 2.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "aps_sensor_04_dm": {
+      "speed": 2.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "aps_sensor_05_dm": {
+      "speed": 2.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "aps_sensor_06_dm": {
+      "speed": 2.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "aps_launcher_01_dm": {
+      "speed": 2.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "aps_launcher_02_dm": {
+      "speed": 2.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "aps_launcher_03_dm": {
+      "speed": 2.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
+    "aps_launcher_04_dm": {
+      "speed": 2.0,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
     "optic_gun_dm": {
       "speed": 1.0,
       "completely": true,
@@ -7306,47 +7365,7 @@
       125000.0
     ]
   }
-} {
-      "modelName": "tank_bullet_apcbc",
-      "gbufferModelName": "tank_shell_apbc",
-      "afterHitModelName": "tank_shell_apbc_destr"
-    },
-    "sapbc_flat_nose_tank": {
-      "modelName": "tank_bullet_aphebc",
-      "gbufferModelName": "tank_shell_apbc",
-      "afterHitModelName": "tank_shell_apbc_destr"
-    },
-    "common_tank": {
-      "modelName": "tank_bullet_he",
-      "gbufferModelName": "tank_shell_he"
-    },
-    "special_common_tank": {
-      "modelName": "tank_bullet_he",
-      "gbufferModelName": "tank_shell_he"
-    },
-    "heat_grenade_tank": {
-      "modelName": "tank_bullet_grenade_heat_fs",
-      "gbufferModelName": "tank_shell_heat_mp_vt_fs"
-    },
-    "heat_fs_tank": {
-      "modelName": "tank_bullet_heat_fs",
-      "gbufferModelName": "tank_shell_heat_fs"
-    },
-    "heat_fs_rocket": {
-      "modelName": "tank_bullet_heat_fs",
-      "gbufferModelName": "tank_shell_heat_fs"
-    },
-    "atgm_tank": {
-      "modelName": "tank_bullet_heat_fs",
-      "gbufferModelName": "tank_shell_he_fs"
-    },
-    "atgm_vt_fuze_tank": {
-      "modelName": "tank_bullet_he",
-      "gbufferModelName": "tank_shell_he"
-    },
-    "atgm_he_tank": {
-      "modelName": "tank_bullet_he",
-      "gbufferModelName": "tank_shell_he"
+}shell_he"
     },
     "sam_tank": {
       "modelName": "tank_bullet_he",

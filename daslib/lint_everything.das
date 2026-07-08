@@ -1,7 +1,5 @@
 options gen2
 options indenting = 4
-options no_unused_block_arguments = false
-options no_unused_function_arguments = false
 options strict_smart_pointers = true
 
 module lint_everything shared private
@@ -18,6 +16,11 @@ require daslib/lint
 class LintEverythingGlobal : AstPassMacro {
     
     def override apply(prog : ProgramPtr; mod : Module?) : bool {
+        paranoid(prog, true)
+        return true
+    }
+}
+r; mod : Module?) : bool {
         paranoid(prog, true)
         return true
     }

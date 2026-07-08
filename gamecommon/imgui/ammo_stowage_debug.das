@@ -2,7 +2,7 @@ options no_aot
 require ecs
 require imgui
 require daslib/enum_trait
-require %danetlibs.imgui_daeditor.imgui.imgui_common
+require %gameLibs.imgui_daeditor.imgui.imgui_common
 require %game.utils.component_bundle_macro
 
 require app
@@ -109,3 +109,4 @@ def ammo_stowage_im_dbg(evt : Event;
   imgui::Text("Global Flags:")
   imgui_text_flags_inline(AmmoState.ENABLE_PER_AMMO_TYPES, v.ammo_stowage__ammoState)
   imgui::TreePop()
+

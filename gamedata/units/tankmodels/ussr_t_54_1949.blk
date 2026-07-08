@@ -46,58 +46,6 @@
   "minRelativeTankCameraThreshold": 1.45,
   "rearmSmokeTimeOnField": 60.0,
   "canReloadNonGuns": true,
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "sound": {
     "EngineName": "engine_medium_diesel",
     "TrackSoundPathStudio": "ground/engines",
@@ -3046,6 +2994,36 @@
       ],
       "decal2Line3": [
         0.391533,
+        -2.67903,
+        0.674292,
+        4.00212
+      ],
+      "decal2HaveCP": true,
+      "decal2CPNormDepth": [
+        0.401563,
+        0.278296,
+        -0.872524,
+        -1.5346
+      ],
+      "decal2CPNormDepth1": [
+        0.401563,
+        0.278296,
+        0.872524,
+        -1.5346
+      ],
+      "decal2RotScale": [
+        1.59724,
+        0.358399
+      ],
+      "decal2Mirrored": false,
+      "decal2Wrap": false,
+      "decal2Abs": false,
+      "decal2OppositeMirrored": false,
+      "decal2WidthBox": 0.23159,
+      "decal2Tex": "ussr_numbers_3"
+    }
+  }
+}
         -2.67903,
         0.674292,
         4.00212

@@ -2739,58 +2739,6 @@
   "battleHideNodes": {
     "n": "details"
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "ikGunner": [
     {
       "model": "chinese_gunner_char",
@@ -3290,6 +3238,36 @@
       ],
       "decal0Line3": [
         2.00205,
+        -2.00205,
+        -1.23761e-7,
+        -2.29597
+      ],
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        0.707107,
+        0.707107,
+        0.0,
+        -2.42468
+      ],
+      "decal0CPNormDepth1": [
+        0.707107,
+        0.707107,
+        0.0,
+        -2.42468
+      ],
+      "decal0RotScale": [
+        1.5708,
+        0.353192
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.243821,
+      "decal0Tex": "rocaf_roundel_1949"
+    }
+  }
+}5,
         -2.00205,
         -1.23761e-7,
         -2.29597

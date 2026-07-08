@@ -1562,58 +1562,6 @@
       0.9
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank",
@@ -2347,8 +2295,7 @@
         "hullAiming": {
           "horizontal": true,
           "defaultEnabled": false,
-          "isAutoTurner": true,
-          "maxSpeedForHorizontalAiming": 10.0
+          "isAutoTurner": true
         },
         "limits": {
           "yaw": [
@@ -2563,8 +2510,7 @@
               "hullAiming": {
                 "horizontal": true,
                 "defaultEnabled": false,
-                "isAutoTurner": true,
-                "maxSpeedForHorizontalAiming": 10.0
+                "isAutoTurner": true
               },
               "limits": {
                 "yaw": [
@@ -2853,6 +2799,37 @@
       "replace_tex": {
         "from": "ger_camo_dunkelgelb*",
         "to": "ger_camo_dunkelgelb*"
+      },
+      "decal": {
+        "skin_condition": 100.0,
+        "camo_scale": 0.0,
+        "camo_rotation": 0.0
+      }
+    },
+    "forest2": {
+      "replace_tex": {
+        "from": "ger_camo_dunkelgelb*",
+        "to": "ger_camo_dunkelgelb_green_braun_lines*"
+      },
+      "decal": {
+        "skin_condition": 100.0,
+        "camo_scale": 0.0,
+        "camo_rotation": 0.0
+      }
+    },
+    "winter": {
+      "replace_tex": {
+        "from": "ger_camo_dunkelgelb*",
+        "to": "ger_camo_winter_lines*"
+      },
+      "decal": {
+        "skin_condition": 100.0,
+        "camo_scale": 0.0,
+        "camo_rotation": 0.0
+      }
+    }
+  }
+}    "to": "ger_camo_dunkelgelb*"
       },
       "decal": {
         "skin_condition": 100.0,

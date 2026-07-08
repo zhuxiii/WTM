@@ -46,58 +46,6 @@
   "explosionFx": "tank_explosion",
   "fireFx": "ground_model_fire",
   "minRelativeTankCameraThreshold": 1.38,
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "controlDevices": {
     "device": [
       {
@@ -3130,6 +3078,34 @@
         0.00786022,
         -2.79105,
         0.0123322,
+        6.5117
+      ],
+      "decal3HaveCP": true,
+      "decal3CPNormDepth": [
+        -0.537478,
+        -0.00523964,
+        0.843261,
+        -0.8358
+      ],
+      "decal3CPNormDepth1": [
+        -0.537478,
+        -0.00523964,
+        -0.843261,
+        -0.8358
+      ],
+      "decal3RotScale": [
+        1.5708,
+        0.358283
+      ],
+      "decal3Mirrored": false,
+      "decal3Wrap": false,
+      "decal3Abs": false,
+      "decal3OppositeMirrored": false,
+      "decal3WidthBox": 0.289238,
+      "decal3Tex": "jp_9th_sensha_rentai_4_company"
+    }
+  }
+}   0.0123322,
         6.5117
       ],
       "decal3HaveCP": true,

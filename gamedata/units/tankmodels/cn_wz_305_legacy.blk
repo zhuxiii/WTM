@@ -44,58 +44,6 @@
   "explosionFx": "tank_explosion",
   "fireFx": "ground_model_fire",
   "minRelativeTankCameraThreshold": 1.48,
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "ikGunner": [
     {
       "model": "chinese_gunner_char",
@@ -3525,6 +3473,34 @@
         -1.84658
       ],
       "decal3CPNormDepth1": [
+        0.00398235,
+        0.264367,
+        -0.964414,
+        -1.84658
+      ],
+      "decal3RotScale": [
+        1.5708,
+        0.358393
+      ],
+      "decal3Mirrored": false,
+      "decal3Wrap": false,
+      "decal3Abs": true,
+      "decal3OppositeMirrored": false,
+      "decal3WidthBox": 0.203815,
+      "decal3Tex": "noak_gf_roundel"
+    },
+    "forest3": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    },
+    "winter": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  }
+}mDepth1": [
         0.00398235,
         0.264367,
         -0.964414,

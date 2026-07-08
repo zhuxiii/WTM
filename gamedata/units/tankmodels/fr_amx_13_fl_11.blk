@@ -60,58 +60,6 @@
       0.75
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "controlDevices": {
     "device": [
       {
@@ -2072,24 +2020,24 @@
     },
     "engine": {
       "horsePowers": 270.0,
-      "maxRPM": 3200.0,
+      "maxRPM": 3300.0,
       "minRPM": 400.0
     },
     "mechanics": {
       "maxBrakeForce": 60480.0,
       "driveGearRadius": 0.268,
-      "mainGearRatio": 1.94,
-      "sideGearRatio": 2.774,
+      "mainGearRatio": 7.87,
+      "sideGearRatio": 1.0,
       "alternativeGearControl": 5.0,
       "gearRatios": {
         "ratio": [
-          -8.714,
+          -6.25,
           0.0,
-          8.714,
-          3.812,
-          2.259,
-          1.452,
-          1.0
+          5.95,
+          2.68,
+          1.58,
+          1.0,
+          0.698
         ]
       }
     },
@@ -3044,6 +2992,34 @@
         -1.9204
       ],
       "decal1RotScale": [
+        1.5708,
+        0.248843
+      ],
+      "decal1Mirrored": false,
+      "decal1Wrap": false,
+      "decal1Abs": true,
+      "decal1OppositeMirrored": false,
+      "decal1WidthBox": 0.217014,
+      "decal1Tex": "fr_2nd_bat_1st_platoon"
+    }
+  },
+  "vehicleSkins": {
+    "forest": {
+      "replace_tex": {
+        "from": "fr_camo_vert_olive_arme*",
+        "to": "fr_camo_vert_olive_arme*"
+      },
+      "decal": {
+        "skin_condition": 100.0,
+        "camo_scale": 0.0,
+        "camo_rotation": 0.0
+      }
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}ale": [
         1.5708,
         0.248843
       ],

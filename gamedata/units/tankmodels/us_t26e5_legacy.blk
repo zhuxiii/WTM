@@ -58,58 +58,6 @@
       0.6
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "CHA_tank",
@@ -3200,6 +3148,35 @@
       "decal2OppositeMirrored": false,
       "decal2WidthBox": 0.214104,
       "decal2Tex": "usa_tank_emblem_08"
+    }
+  },
+  "vehicleSkins": {
+    "forest": {
+      "replace_tex": {
+        "from": "us_camo_olive*",
+        "to": "us_camo_dark_green_dark_earth*"
+      }
+    },
+    "forest2": {
+      "replace_tex": {
+        "from": "us_camo_olive*",
+        "to": "usa_camo_forest_green_threecolour_lines*"
+      }
+    },
+    "forest3": {
+      "replace_tex": {
+        "from": "us_camo_olive*",
+        "to": "us_camo_olive*"
+      }
+    },
+    "forest4": {
+      "replace_tex": {
+        "from": "us_camo_olive*",
+        "to": "us_camo_olive_drab_olive*"
+      }
+    }
+  }
+}k_emblem_08"
     }
   },
   "vehicleSkins": {

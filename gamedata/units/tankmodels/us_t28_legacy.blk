@@ -2055,58 +2055,6 @@
       0.6
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "sound": {
     "EngineName": "engine_heavy_petrol",
     "TrackSoundPathStudio": "ground/engines",
@@ -2701,8 +2649,7 @@
         "hullAiming": {
           "horizontal": true,
           "defaultEnabled": false,
-          "isAutoTurner": true,
-          "maxSpeedForHorizontalAiming": 10.0
+          "isAutoTurner": true
         }
       },
       {
@@ -2789,6 +2736,40 @@
         1.08764,
         0.0,
         0.353356,
+        2.37214
+      ],
+      "decal0Line3": [
+        -0.353356,
+        0.0,
+        1.08764,
+        -0.119359
+      ],
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        0.0,
+        1.0,
+        0.0,
+        -2.03506
+      ],
+      "decal0CPNormDepth1": [
+        -0.0,
+        -1.0,
+        -0.0,
+        1.80174
+      ],
+      "decal0RotScale": [
+        3.45572,
+        0.874432
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": false,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.257491,
+      "decal0Tex": "usa_tank_emblem_09"
+    }
+  }
+}53356,
         2.37214
       ],
       "decal0Line3": [

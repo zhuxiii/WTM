@@ -56,58 +56,6 @@
       0.95
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "ikGunner": [
     {
       "model": "german_gunner_early_char",
@@ -2259,8 +2207,7 @@
         "hullAiming": {
           "horizontal": true,
           "defaultEnabled": false,
-          "isAutoTurner": true,
-          "maxSpeedForHorizontalAiming": 10.0
+          "isAutoTurner": true
         },
         "limits": {
           "yaw": [
@@ -3333,6 +3280,39 @@
       ],
       "decal0Line3": [
         -0.000476799,
+        -2.69334,
+        0.728137,
+        4.63479
+      ],
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        -0.00063229,
+        0.260978,
+        -0.965345,
+        -1.69816
+      ],
+      "decal0CPNormDepth1": [
+        -0.00063229,
+        0.260978,
+        0.965345,
+        -1.69816
+      ],
+      "decal0RotScale": [
+        1.5708,
+        0.358419
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.215669,
+      "decal0Tex": "back_16"
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}
         -2.69334,
         0.728137,
         4.63479

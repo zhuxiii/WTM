@@ -698,6 +698,7 @@
         "accuracyAir": 0.4,
         "accuracyGnd": 0.0,
         "shootingErrorAir": 4.0,
+        "fireConeAngleShell": 8.0,
         "errMeasureVel": 1.0,
         "errTargettingOn100kmph": 0.0,
         "errMeasureVelFast": 1.0,
@@ -756,6 +757,7 @@
         "accuracyAir": 0.4,
         "accuracyGnd": 0.0,
         "shootingErrorAir": 4.0,
+        "fireConeAngleShell": 8.0,
         "errMeasureVel": 1.0,
         "errTargettingOn100kmph": 0.0,
         "errMeasureVelFast": 1.0,
@@ -1200,6 +1202,7 @@
               "accuracyAir": 0.4,
               "accuracyGnd": 0.0,
               "shootingErrorAir": 4.0,
+              "fireConeAngleShell": 8.0,
               "errMeasureVel": 1.0,
               "errTargettingOn100kmph": 0.0,
               "errMeasureVelFast": 1.0,
@@ -1258,6 +1261,7 @@
               "accuracyAir": 0.4,
               "accuracyGnd": 0.0,
               "shootingErrorAir": 4.0,
+              "fireConeAngleShell": 8.0,
               "errMeasureVel": 1.0,
               "errTargettingOn100kmph": 0.0,
               "errMeasureVelFast": 1.0,
@@ -2414,18 +2418,7 @@
       }
     ]
   }
-}: "camo_designpt328*"
-      },
-      {
-        "from": "camo_deckgrey*",
-        "to": "camo_rot_5*"
-      }
-    ]
-  }
-}}
-}mo",
-    "replace_tex": [
-      {
+}   {
         "from": "camo_inside_white*",
         "to": "camo_designpt328*"
       },

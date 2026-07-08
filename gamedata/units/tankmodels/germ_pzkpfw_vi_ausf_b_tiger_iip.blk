@@ -58,58 +58,6 @@
       0.85
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank",
@@ -3144,6 +3092,36 @@
         -1.80599,
         0.919494,
         3.69445
+      ],
+      "decal3HaveCP": true,
+      "decal3CPNormDepth": [
+        0.213408,
+        0.474927,
+        -0.853757,
+        -2.03098
+      ],
+      "decal3CPNormDepth1": [
+        0.213408,
+        0.474927,
+        0.853757,
+        -2.0272
+      ],
+      "decal3RotScale": [
+        1.62311,
+        0.486615
+      ],
+      "decal3Mirrored": false,
+      "decal3Wrap": false,
+      "decal3Abs": false,
+      "decal3OppositeMirrored": false,
+      "decal3WidthBox": 0.249071,
+      "decal3Tex": "germany_numbers_7"
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}
       ],
       "decal3HaveCP": true,
       "decal3CPNormDepth": [

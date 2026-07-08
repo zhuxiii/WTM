@@ -2911,58 +2911,6 @@
       0.85
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "modifications": {
     "art_support": {},
     "tank_extinguisher": {},
@@ -3075,6 +3023,37 @@
         -5.58043e-8,
         -0.00000428603,
         0.759685
+      ],
+      "decal1Line3": [
+        5.56956e-8,
+        -1.27665,
+        0.000032393,
+        2.3389
+      ],
+      "decal1CPNormDepth1": [
+        -0.00000335724,
+        0.0000253734,
+        1.0,
+        -1.29034
+      ],
+      "decal1OppositeMirrored": false,
+      "decal1WidthBox": 0.200001
+    }
+  },
+  "vehicleSkins": {
+    "forest": {
+      "replace_tex": {
+        "from": "us_camo_olive*",
+        "to": "ussr_camo_green*"
+      },
+      "decal": {
+        "skin_condition": 100.0,
+        "camo_scale": 0.0,
+        "camo_rotation": 0.0
+      }
+    }
+  }
+}759685
       ],
       "decal1Line3": [
         5.56956e-8,

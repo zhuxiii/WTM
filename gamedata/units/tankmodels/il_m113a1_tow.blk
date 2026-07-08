@@ -55,58 +55,6 @@
   "minRelativeTankCameraThreshold": 1.33,
   "drowningCheckHeightMultiplier": 0.7,
   "rearmTimeOnField": 45.0,
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "controlDevices": {
     "device": [
       {
@@ -3038,7 +2986,7 @@
           "horizontal": true,
           "defaultEnabled": false,
           "isAutoTurner": true,
-          "maxSpeedForHorizontalAiming": 10.0
+          "maxSpeedForHorizontalAiming": 100.0
         }
       },
       {
@@ -3127,6 +3075,35 @@
       }
     },
     "desert2": {
+      "replace_tex": {
+        "from": "it_camo_olive_green*",
+        "to": "camo_f_blue_orng*"
+      }
+    }
+  },
+  "defaultDecals": {
+    "default": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    },
+    "forest": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    },
+    "desert": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    },
+    "desert2": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  }
+}desert2": {
       "replace_tex": {
         "from": "it_camo_olive_green*",
         "to": "camo_f_blue_orng*"

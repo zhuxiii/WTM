@@ -58,58 +58,6 @@
       0.55
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_is_3",
@@ -2777,6 +2725,39 @@
                   -0.0,
                   0.0
                 ],
+                "pitch": [
+                  0.0,
+                  0.0
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "enabled_modifications": {
+    "tank_smoke_screen_system_mod": true
+  },
+  "defaultDecals": {
+    "fiction": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": -41.0
+    }
+  },
+  "vehicleSkins": {
+    "fiction": {
+      "replace_tex": {
+        "from": "ussr_camo_green*",
+        "to": "ussr_t_34_85_zis_53_dislike*"
+      }
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}],
                 "pitch": [
                   0.0,
                   0.0

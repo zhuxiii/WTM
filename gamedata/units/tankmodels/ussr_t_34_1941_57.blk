@@ -89,58 +89,6 @@
       ]
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "sound": {
     "EngineName": "engine_medium_diesel",
     "TrackSoundPathStudio": "ground/engines",
@@ -2611,7 +2559,6 @@
     ]
   },
   "modifications": {
-    "tank_additional_armor": {},
     "art_support": {},
     "tank_extinguisher": {},
     "tank_tool_kit_expendable": {},
@@ -2792,6 +2739,37 @@
         3.7214
       ],
       "decal0Line3": [
+        0.487042,
+        -3.51067,
+        2.08356,
+        5.46071
+      ],
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        0.194363,
+        0.520443,
+        -0.831482,
+        -1.69281
+      ],
+      "decal0CPNormDepth1": [
+        0.194363,
+        0.520443,
+        0.831482,
+        -1.69281
+      ],
+      "decal0RotScale": [
+        1.5708,
+        0.243229
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.201907,
+      "decal0Tex": "back_19"
+    }
+  }
+}      "decal0Line3": [
         0.487042,
         -3.51067,
         2.08356,

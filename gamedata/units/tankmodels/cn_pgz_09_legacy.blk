@@ -63,58 +63,6 @@
       1.0
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank",
@@ -3515,6 +3463,36 @@
         -2.88338,
         0.0,
         4.17996
+      ],
+      "decal3HaveCP": true,
+      "decal3CPNormDepth": [
+        0.0,
+        0.0,
+        1.0,
+        -1.584
+      ],
+      "decal3CPNormDepth1": [
+        0.0,
+        0.0,
+        -1.0,
+        -1.584
+      ],
+      "decal3RotScale": [
+        1.5708,
+        0.346815
+      ],
+      "decal3Mirrored": false,
+      "decal3Wrap": false,
+      "decal3Abs": true,
+      "decal3OppositeMirrored": false,
+      "decal3WidthBox": 0.20318,
+      "decal3Tex": "china_numbers_8",
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  }
+}6
       ],
       "decal3HaveCP": true,
       "decal3CPNormDepth": [

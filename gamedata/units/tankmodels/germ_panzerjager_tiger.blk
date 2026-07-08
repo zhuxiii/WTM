@@ -58,58 +58,6 @@
       0.85
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank",
@@ -1156,8 +1104,7 @@
         "hullAiming": {
           "horizontal": true,
           "defaultEnabled": false,
-          "isAutoTurner": true,
-          "maxSpeedForHorizontalAiming": 12.0
+          "isAutoTurner": true
         },
         "limits": {
           "yaw": [
@@ -2691,8 +2638,7 @@
               "hullAiming": {
                 "horizontal": true,
                 "defaultEnabled": false,
-                "isAutoTurner": true,
-                "maxSpeedForHorizontalAiming": 12.0
+                "isAutoTurner": true
               },
               "limits": {
                 "yaw": [
@@ -3002,6 +2948,46 @@
       "decal2HaveCP": true,
       "decal2CPNormDepth": [
         6.21909e-7,
+        0.444547,
+        -0.895756,
+        -2.09932
+      ],
+      "decal2CPNormDepth1": [
+        6.21909e-7,
+        0.444547,
+        0.895756,
+        -2.09932
+      ],
+      "decal2RotScale": [
+        1.5708,
+        0.358183
+      ],
+      "decal2Mirrored": false,
+      "decal2Wrap": false,
+      "decal2Abs": false,
+      "decal2OppositeMirrored": false,
+      "decal2WidthBox": 0.200001,
+      "decal2Tex": "germany_numbers_2"
+    }
+  },
+  "dmgAngles": {
+    "hatch_03": [
+      45.0,
+      50.0
+    ],
+    "hatch_04": [
+      140.0,
+      140.0
+    ],
+    "hatch_06": [
+      10.0,
+      20.0
+    ]
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}    6.21909e-7,
         0.444547,
         -0.895756,
         -2.09932

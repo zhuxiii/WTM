@@ -46,58 +46,6 @@
   "explosionFx": "tank_explosion",
   "fireFx": "ground_model_fire",
   "minRelativeTankCameraThreshold": 1.38,
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "controlDevices": {
     "device": [
       {
@@ -2981,6 +2929,35 @@
         "to": "us_camo_modern_green*"
       },
       "set_tex": [
+        {
+          "from": "m42_duster_turret_c*",
+          "to": "m42_duster_noskin_lunar_turret_c*",
+          "param": "camo_skin_tex"
+        },
+        {
+          "from": "m42_duster_body_c*",
+          "to": "m42_duster_noskin_lunar_body_c*",
+          "param": "camo_skin_tex"
+        }
+      ]
+    }
+  },
+  "battleHideNodes": {
+    "n": [
+      "details",
+      "details_01",
+      "details_02",
+      "details_03",
+      "details_04",
+      "details_05",
+      "details_06",
+      "details_07",
+      "details_08",
+      "details_09",
+      "details_10"
+    ]
+  }
+} [
         {
           "from": "m42_duster_turret_c*",
           "to": "m42_duster_noskin_lunar_turret_c*",

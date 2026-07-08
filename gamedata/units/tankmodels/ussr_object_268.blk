@@ -69,58 +69,6 @@
       0.65
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "RHA_tank",
@@ -1079,8 +1027,7 @@
         "hullAiming": {
           "horizontal": true,
           "defaultEnabled": false,
-          "isAutoTurner": true,
-          "maxSpeedForHorizontalAiming": 10.0
+          "isAutoTurner": true
         }
       },
       {
@@ -1978,8 +1925,7 @@
               "hullAiming": {
                 "horizontal": true,
                 "defaultEnabled": false,
-                "isAutoTurner": true,
-                "maxSpeedForHorizontalAiming": 10.0
+                "isAutoTurner": true
               }
             },
             {
@@ -2842,6 +2788,43 @@
       },
       {
         "name": "ex_decor_r_01_dm",
+        "onKill": {
+          "ex_decor_r_14_dm": 1.0
+        }
+      },
+      {
+        "name": "ex_decor_l_01_dm",
+        "onKill": {
+          "ex_decor_l_14_dm": 1.0
+        }
+      }
+    ]
+  },
+  "defaultDecals": {
+    "fiction": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": -41.0
+    }
+  },
+  "vehicleSkins": {
+    "fiction": {
+      "replace_tex": {
+        "from": "ussr_camo_green*",
+        "to": "ussr_t_34_85_zis_53_dislike*"
+      }
+    }
+  },
+  "smokeScreenExhaustEmitters": {
+    "emitter": [
+      "emtr_exhaust_01",
+      "emtr_exhaust_04"
+    ]
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}"name": "ex_decor_r_01_dm",
         "onKill": {
           "ex_decor_r_14_dm": 1.0
         }

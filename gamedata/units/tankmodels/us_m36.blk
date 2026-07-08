@@ -56,58 +56,6 @@
       0.9
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "ikGunner": [
     {
       "model": "us_gunner_officer_char",
@@ -3483,6 +3431,37 @@
         0.117303,
         -2.63424,
         -0.914358,
+        5.20109
+      ],
+      "decal2HaveCP": true,
+      "decal2CPNormDepth": [
+        0.120105,
+        0.330309,
+        0.9362,
+        -1.62125
+      ],
+      "decal2CPNormDepth1": [
+        0.120105,
+        0.330309,
+        -0.9362,
+        -1.62125
+      ],
+      "decal2RotScale": [
+        1.5708,
+        0.35831
+      ],
+      "decal2Mirrored": false,
+      "decal2Wrap": false,
+      "decal2Abs": false,
+      "decal2OppositeMirrored": false,
+      "decal2WidthBox": 0.21416,
+      "decal2Tex": "back_02"
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}
         5.20109
       ],
       "decal2HaveCP": true,

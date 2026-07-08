@@ -71,58 +71,6 @@
       1.0
     ]
   },
-  "steeringTableAlternative": {
-    "point": [
-      [
-        -12.0,
-        0.0
-      ],
-      [
-        -13.0,
-        0.4
-      ],
-      [
-        -45.0,
-        0.75
-      ],
-      [
-        -70.0,
-        0.9
-      ],
-      [
-        -75.0,
-        1.0
-      ],
-      [
-        12.0,
-        0.0
-      ],
-      [
-        13.0,
-        0.1
-      ],
-      [
-        20.0,
-        0.15
-      ],
-      [
-        55.0,
-        0.6
-      ],
-      [
-        60.0,
-        0.7
-      ],
-      [
-        74.0,
-        0.8
-      ],
-      [
-        75.0,
-        1.0
-      ]
-    ]
-  },
   "DamageParts": {
     "formatVersion": 2,
     "armorClass": "ABT-101",
@@ -2992,6 +2940,36 @@
         -2.17374,
         1.74886,
         2.70658
+      ],
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        0.0559852,
+        0.626681,
+        -0.777263,
+        -2.01836
+      ],
+      "decal0CPNormDepth1": [
+        0.0559852,
+        0.626681,
+        0.777263,
+        -2.01836
+      ],
+      "decal0RotScale": [
+        1.54438,
+        0.358371
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": false,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.215201,
+      "decal0Tex": "back_20"
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}2.70658
       ],
       "decal0HaveCP": true,
       "decal0CPNormDepth": [

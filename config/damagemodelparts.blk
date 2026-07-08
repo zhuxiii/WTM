@@ -1,6 +1,7 @@
 {
   "ver": 2,
   "default": {
+    "physMaterial": "steel",
     "hitTestType": "armor",
     "malfunctionDamage": 0.7,
     "stopChanceOnDeadPart": 1.0,
@@ -65,6 +66,15 @@
     },
     "ex_composite_armor_NN": {
       "template": "ex_composite_armor_#20#"
+    },
+    "ex_aps_launcher_NN": {
+      "template": "ex_aps_launcher_#10#"
+    },
+    "ex_aps_launcher_r_NN": {
+      "template": "ex_aps_launcher_r_#10#"
+    },
+    "ex_aps_launcher_l_NN": {
+      "template": "ex_aps_launcher_l_#10#"
     },
     "ex_era_hull_NN": {
       "template": "ex_era_hull_#90#"
@@ -1296,21 +1306,7 @@
   "ext_armor": {
     "ext_armor": {}
   }
-}emplate": "emtr_exhaust#1:12#"
-  },
-  "jet_flame": {},
-  "jet_flameN": {
-    "template": "jet_flame#1:16#"
-  },
-  "jet_flame_1": {},
-  "jet_flameN_1": {
-    "template": "jet_flame#1:16#_1"
-  },
-  "ext_armor": {
-    "ext_armor": {}
-  }
-}"emtr_fuelN": {
-    "template": "emtr_fuel#1:8#"
+}e": "emtr_fuel#1:8#"
   },
   "emtr_engineN": {
     "template": "emtr_engine#1:6#"
