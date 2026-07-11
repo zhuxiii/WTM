@@ -4095,6 +4095,334 @@
       "immortal": true
     },
     {
+      "name": "concrete_fence_b",
+      "immortal": true
+    },
+    {
+      "name": "mitsukoshi_ginza",
+      "immortal": true
+    },
+    {
+      "name": "kabukiza_theatre",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_mini_park_a",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_mini_park_b",
+      "immortal": true
+    },
+    {
+      "name": "fuji_mountain_a",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_avia_set_a",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_avia_set_b",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_avia_set_c",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_scaffolding_a",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_scaffolding_b",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_a_banners_a_back",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_a_banners_a_front",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_a_banners_a_left",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_a_banners_a_right",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_a_banners_b_back",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_a_banners_b_front",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_a_banners_b_left",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_a_banners_b_right",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_b_banners_a_back",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_b_banners_a_front",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_b_banners_a_left",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_b_banners_a_right",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_b_banners_b_back",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_b_banners_b_front",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_b_banners_b_left",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_b_banners_b_right",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_f_banners_a_back",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_f_banners_a_front",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_f_banners_a_left",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_f_banners_a_right",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_f_banners_b_back",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_f_banners_b_front",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_f_banners_b_left",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_f_banners_b_right",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_g_banners_a_back",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_g_banners_a_front",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_g_banners_a_left",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_g_banners_a_right",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_a_balcony_a",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_a_balcony_b",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_a_balcony_c",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_a_balcony_d",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_b_balcony_a",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_b_balcony_b",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_b_balcony_c",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_b_balcony_d",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_c_balcony_a",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_c_balcony_b",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_c_balcony_c",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_c_balcony_d",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_d_balcony_a",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_d_balcony_b",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_d_balcony_c",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_d_balcony_d",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_f_balcony_a",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_f_balcony_b",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_f_balcony_c",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_f_balcony_d",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_g_balcony_a",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_g_balcony_b",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_g_balcony_c",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_g_balcony_d",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_a",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_b",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_c",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_d",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_f",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_buildings_set_g",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_bridge_a",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_bridge_b_30m",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_bridge_b_38m",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_bridge_b_50m",
+      "immortal": true
+    },
+    {
+      "name": "chuo_wako",
+      "immortal": true
+    },
+    {
+      "name": "ichi_office_block_a",
+      "immortal": true
+    },
+    {
+      "name": "nichigeki_theater",
+      "immortal": true
+    },
+    {
+      "name": "bowling_sphere_a",
+      "immortal": true
+    },
+    {
+      "name": "sanai_dream_a",
+      "immortal": true
+    },
+    {
+      "name": "sokyo_building",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_tower_a",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_train_wall_a",
+      "immortal": true
+    },
+    {
+      "name": "tokyo_train_wall_b",
+      "immortal": true
+    },
+    {
       "name": "tree_maple_large_a",
       "destructionImpulse": 35000.0,
       "canopyTriangle": false,
@@ -7830,355 +8158,7 @@
     "timeToSink": 32.0,
     "timeToStartFracture": 1.0
   }
-}d_cliff_c",
-      "immortal": true,
-      "material": "rocks"
-    },
-    {
-      "name": "finland_clsn_cliff_on_a",
-      "immortal": true,
-      "material": "stone_snow"
-    },
-    {
-      "name": "finland_clsn_cliff_on_b",
-      "immortal": true,
-      "material": "stone_snow"
-    },
-    {
-      "name": "finland_clsn_cliff_on_c",
-      "immortal": true,
-      "material": "stone_snow"
-    },
-    {
-      "name": "finland_clsn_cliff_on_d",
-      "immortal": true,
-      "material": "stone_snow"
-    },
-    {
-      "name": "finland_clsn_cliff_on_e",
-      "immortal": true,
-      "material": "stone_snow"
-    },
-    {
-      "name": "finland_stone_small_a",
-      "immortal": true,
-      "material": "stone_snow"
-    },
-    {
-      "name": "finland_stone_small_b",
-      "immortal": true,
-      "material": "stone_snow"
-    },
-    {
-      "name": "finland_stone_small_c",
-      "immortal": true,
-      "material": "stone_snow"
-    },
-    {
-      "name": "finland_stone_small_d",
-      "immortal": true,
-      "material": "stone_snow"
-    },
-    {
-      "name": "finland_stone_small_e",
-      "immortal": true,
-      "material": "stone_snow"
-    },
-    {
-      "name": "tunis_big_stone_a",
-      "immortal": true
-    },
-    {
-      "name": "tunis_big_stone_b",
-      "immortal": true
-    },
-    {
-      "name": "tunis_big_stone_c",
-      "immortal": true
-    },
-    {
-      "name": "tunis_big_stone_d",
-      "immortal": true
-    },
-    {
-      "name": "tunis_big_stone_e",
-      "immortal": true
-    },
-    {
-      "name": "small_rock_a",
-      "immortal": true
-    },
-    {
-      "name": "small_rock_b",
-      "immortal": true
-    },
-    {
-      "name": "norway_stone_small_a",
-      "immortal": true
-    },
-    {
-      "name": "norway_stone_small_b",
-      "immortal": true
-    },
-    {
-      "name": "norway_stone_small_c",
-      "immortal": true
-    },
-    {
-      "name": "norway_stone_small_d",
-      "immortal": true
-    },
-    {
-      "name": "norway_stone_small_e",
-      "immortal": true
-    },
-    {
-      "name": "norway_stone_small_f",
-      "immortal": true
-    },
-    {
-      "name": "norway_stone_small_h",
-      "immortal": true
-    },
-    {
-      "name": "norway_stone_small_i",
-      "immortal": true
-    },
-    {
-      "name": "norway_stone_small_j",
-      "immortal": true
-    },
-    {
-      "name": "moss_tussock_a",
-      "immortal": true
-    },
-    {
-      "name": "ruins_desert_stones_01",
-      "immortal": true
-    },
-    {
-      "name": "ruins_desert_stones_02",
-      "immortal": true
-    },
-    {
-      "name": "ruins_desert_stones_03",
-      "immortal": true
-    },
-    {
-      "name": "ruins_desert_stones_04",
-      "immortal": true
-    },
-    {
-      "name": "ruins_desert_build_01",
-      "immortal": true
-    },
-    {
-      "name": "ruins_desert_build_02",
-      "immortal": true
-    },
-    {
-      "name": "ruins_desert_build_03",
-      "immortal": true
-    },
-    {
-      "name": "ruins_desert_build_04",
-      "immortal": true
-    },
-    {
-      "name": "ruins_desert_columnl_01",
-      "immortal": true
-    },
-    {
-      "name": "ruins_desert_columnl_02",
-      "immortal": true
-    },
-    {
-      "name": "ruins_desert_corner_01",
-      "immortal": true
-    },
-    {
-      "name": "ruins_desert_corner_02",
-      "immortal": true
-    },
-    {
-      "name": "ruins_desert_corner_03",
-      "immortal": true
-    },
-    {
-      "name": "ruins_desert_corner_04",
-      "immortal": true
-    },
-    {
-      "name": "ruins_desert_corner_05",
-      "immortal": true
-    },
-    {
-      "name": "ruins_desert_wall_01",
-      "immortal": true
-    },
-    {
-      "name": "ruins_desert_wall_02",
-      "immortal": true
-    },
-    {
-      "name": "ruins_desert_wall_03",
-      "immortal": true
-    },
-    {
-      "name": "ruins_desert_wall_04",
-      "immortal": true
-    },
-    {
-      "name": "ruins_desert_wall_05",
-      "immortal": true
-    },
-    {
-      "name": "ruins_desert_wall_06",
-      "immortal": true
-    },
-    {
-      "name": "ruins_desert_well_01",
-      "immortal": true
-    },
-    {
-      "name": "tree_crimea_pine_stump_a",
-      "immortal": true
-    },
-    {
-      "name": "tree_crimea_pine_stump_b",
-      "immortal": true
-    },
-    {
-      "name": "tree_crimea_pine_stump_c",
-      "immortal": true
-    },
-    {
-      "name": "birch_stump_a_dmg",
-      "immortal": true,
-      "material": "wood"
-    },
-    {
-      "name": "birch_stump_b_dmg",
-      "immortal": true,
-      "material": "wood"
-    },
-    {
-      "name": "birch_stump_c",
-      "immortal": true,
-      "material": "wood"
-    },
-    {
-      "name": "cypress_stump_a_dmg",
-      "immortal": true,
-      "material": "wood"
-    },
-    {
-      "name": "cypress_stump_b_dmg",
-      "immortal": true,
-      "material": "wood"
-    },
-    {
-      "name": "cypress_stump_c_dmg",
-      "immortal": true,
-      "material": "wood"
-    },
-    {
-      "name": "pine_stump_a",
-      "immortal": true,
-      "material": "wood"
-    },
-    {
-      "name": "pine_stump_b_dmg",
-      "immortal": true,
-      "material": "wood"
-    },
-    {
-      "name": "pine_stump_c",
-      "immortal": true,
-      "material": "wood"
-    },
-    {
-      "name": "pine_stump_d_dmg",
-      "immortal": true,
-      "material": "wood"
-    },
-    {
-      "name": "pine_logs_stack_a",
-      "immortal": true,
-      "material": "wood"
-    },
-    {
-      "name": "pine_logs_stack_a_snow",
-      "immortal": true,
-      "material": "wood"
-    },
-    {
-      "name": "pine_logs_stack_b",
-      "immortal": true,
-      "material": "wood"
-    },
-    {
-      "name": "pine_logs_stack_b_snow",
-      "immortal": true,
-      "material": "wood"
-    },
-    {
-      "name": "pine_logs_stack_c",
-      "immortal": true,
-      "material": "wood"
-    },
-    {
-      "name": "pine_logs_stack_c_snow",
-      "immortal": true,
-      "material": "wood"
-    },
-    {
-      "name": "pine_logs_stack_d",
-      "immortal": true,
-      "material": "wood"
-    },
-    {
-      "name": "pine_logs_stack_d_snow",
-      "immortal": true,
-      "material": "wood"
-    },
-    {
-      "name": "pine_logs_stack_e",
-      "immortal": true,
-      "material": "wood"
-    },
-    {
-      "name": "pine_logs_stack_e_snow",
-      "immortal": true,
-      "material": "wood"
-    },
-    {
-      "name": "pine_logs_stack_f",
-      "immortal": true,
-      "material": "wood"
-    },
-    {
-      "name": "pine_logs_stack_f_snow",
-      "immortal": true,
-      "material": "wood"
-    },
-    {
-      "name": "snow_cliff_a",
-      "immortal": true,
-      "material": "stone_snow"
-    },
-    {
-      "name": "snow_cliff_b",
-      "immortal": true,
-      "material": "stone_snow"
-    },
-    {
-      "name": "snow_cliff_huge_a",
-      "immortal": true,
-      "material": "stone_snow"
-    },
-    {
-      "name": "snow_cliff_huge_b",
+}_cliff_huge_b",
       "immortal": true,
       "material": "stone_snow"
     },

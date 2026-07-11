@@ -3940,6 +3940,7 @@ ground_decal_debris_concrete_trash_tex_d$tq.ddsx
 ground_decal_debris_concrete_trash_tex_r$tq.ddsx
 ground_decal_desert_trampled_soil_tex_d$tq.ddsx
 ground_decal_desert_trampled_soil_tex_r$tq.ddsx
+ground_decal_leaves_pink_tex_d$tq.ddsx
 ground_decal_leaves_red_tex_d$tq.ddsx
 ground_decal_leaves_summer_tex_d$tq.ddsx
 ground_decal_leaves_summer_tex_r$tq.ddsx

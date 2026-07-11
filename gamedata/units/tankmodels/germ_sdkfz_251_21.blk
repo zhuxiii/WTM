@@ -3100,10 +3100,10 @@
       }
     }
   },
-  "skin": [
-    {
-      "name": "green",
-      "nameLocId": "skin/ger_camo_dunkelgelb_green",
+  "battleHideNodes": {
+    "n": "details"
+  }
+}"nameLocId": "skin/ger_camo_dunkelgelb_green",
       "descLocId": "skin/ger_camo_dunkelgelb_green/desc",
       "replace_tex": {
         "from": "ger_camo_dunkelgelb*",
