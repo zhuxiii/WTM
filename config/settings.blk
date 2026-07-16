@@ -503,6 +503,7 @@
     "shadowSunDirDeltaThreshold": 0.999,
     "srgb8bitRT": true,
     "forceCullUnderwaterRiAboveWater": true,
+    "forceRenderWaves": true,
     "raytraced_shadows": {
       "maxBlasBuildFrames": 30,
       "additionalElementsCheck": false,
@@ -2531,6 +2532,13 @@
                 "data": {
                   "maxSecondaryThreads": 0,
                   "usePipelineCacheMutex": true
+                }
+              },
+              {
+                "gpu": "G610",
+                "driverMaxVer0": 30,
+                "data": {
+                  "allowPipelineCache": false
                 }
               },
               {
