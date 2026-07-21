@@ -47,6 +47,7 @@
         "poland_Dom",
         "poland_snow_Dom",
         "rheinland_Dom",
+        "silver_district_Dom",
         "stalingrad_factory_Dom",
         "vietnam_hills_Dom"
       ]
@@ -72,8 +73,7 @@
       "m": "small_mission"
     }
   }
-} "japan_Dom",
-        "normandy_Dom",
+}_Dom",
         "poland_Dom",
         "rheinland_Dom",
         "stalingrad_factory_Dom",
