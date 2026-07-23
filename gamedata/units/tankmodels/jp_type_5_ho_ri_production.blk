@@ -1636,19 +1636,6 @@
             0.0
           ]
         }
-      },
-      "suspension_01_02": {
-        "limitMin": [
-          -0.5,
-          0.0,
-          0.0
-        ],
-        "limitMax": [
-          0.5,
-          0.0,
-          0.0
-        ],
-        "name": "suspension_$1_$2_02"
       }
     },
     "constraints": {
@@ -1656,21 +1643,14 @@
         "point": "suspension_01_01",
         "from": "wheel_01",
         "to": "wheel_02",
-        "moveEdge": true
+        "moveEdge": true,
+        "moveNodes": false
       },
-      "edge": [
-        {
-          "from": "lever",
-          "to": "suspension_01_01",
-          "moveSecond": false
-        },
-        {
-          "moveSecond": false,
-          "from": "suspension_01_02",
-          "to": "suspension_01_01",
-          "moveOnly": true
-        }
-      ],
+      "edge": {
+        "from": "lever",
+        "to": "suspension_01_01",
+        "moveSecond": false
+      },
       "direction": {
         "moveNodes": true,
         "rotateSecond": false,
@@ -3234,6 +3214,25 @@
     "default": {
       "skin_condition": 100.0,
       "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    },
+    "forest": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    },
+    "forest2": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    },
+    "forest3": {
+      "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  }
+}    "camo_scale": 0.0,
       "camo_rotation": 0.0
     },
     "forest": {
