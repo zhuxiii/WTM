@@ -1727,12 +1727,6 @@
     ],
     "detectionHeight": 2.63
   },
-  "default_skin": {
-    "replace_tex": {
-      "from": "jp_camo_sdf_green*",
-      "to": "jp_camo_modern_green*"
-    }
-  },
   "upgraded_skin": {
     "replace_tex": {
       "from": "jp_camo_sdf_green*",
@@ -3472,6 +3466,13 @@
       "replace_tex": {
         "from": "jp_camo_sdf_green*",
         "to": "camo_f_purp_orng*"
+      }
+    }
+  },
+  "enabled_modifications": {
+    "tank_smoke_screen_system_mod": true
+  }
+}    "to": "camo_f_purp_orng*"
       }
     }
   },
