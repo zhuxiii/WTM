@@ -716,7 +716,7 @@
       ],
       "CenterOfGravity": [
         5.9,
-        0.4,
+        -0.5,
         0.0
       ]
     },
@@ -7051,7 +7051,7 @@
       ]
     }
   }
-}_after_hit_small",
+}after_hit_small",
           "setOrientation": true
         }
       },

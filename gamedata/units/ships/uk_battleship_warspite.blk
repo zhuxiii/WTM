@@ -707,7 +707,7 @@
       ],
       "CenterOfGravity": [
         -3.0,
-        0.5,
+        -0.5,
         0.0
       ]
     },
@@ -6374,7 +6374,7 @@
       }
     ]
   }
-}axHeelingTime": 50.0,
+}xHeelingTime": 50.0,
     "criticalHeelingAnglePercent": 0.5,
     "maxCriticalHeelingTime": 1.0,
     "heelingDeathHeightOffsetMult": 1.0,

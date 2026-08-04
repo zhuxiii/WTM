@@ -711,7 +711,7 @@
       ],
       "CenterOfGravity": [
         0.0,
-        0.0,
+        -2.0,
         0.0
       ]
     },
@@ -8744,7 +8744,7 @@
       ]
     }
   }
-}  "from": "camo_rot_5*",
+} "from": "camo_rot_5*",
         "to": "camo_syntheticblackpaint*"
       }
     ]

@@ -43,11 +43,6 @@
     "startSpeed": 0.0,
     "startPropulsionDelay": 0.1,
     "useStartSpeed": true,
-    "autoaimEnabled": false,
-    "aaMaxAimAngle": 0.0,
-    "aaSpeedPrediction": 0.0,
-    "aaAccelPrediction": 0.0,
-    "aaAngleCorrection": 0.0,
     "explodeTreshold": 0.00001,
     "relativeVelArmorShift": [
       200.0,
@@ -102,6 +97,16 @@
             "penetrationScale": 0.5,
             "damageScale": 1.0,
             "angles": [
+              270.0,
+              359.0
+            ],
+            "countPortion": 0.5
+          }
+        ]
+      }
+    }
+  }
+}    "angles": [
               270.0,
               359.0
             ],

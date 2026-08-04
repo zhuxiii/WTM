@@ -38,11 +38,6 @@
     "propellerEffect": "underwater_trp_propeller_water_splashes",
     "explosionEffect": "water_under_explosion_medium",
     "underwaterExplosionEffect": "underwater_explosion",
-    "autoaimEnabled": false,
-    "aaMaxAimAngle": 0.0,
-    "aaSpeedPrediction": 0.0,
-    "aaAccelPrediction": 0.0,
-    "aaAngleCorrection": 0.0,
     "relativeVelHitShift": [
       300.0,
       1000.0
@@ -102,6 +97,16 @@
             "penetrationScale": 0.5,
             "damageScale": 1.0,
             "angles": [
+              270.0,
+              359.0
+            ],
+            "countPortion": 0.5
+          }
+        ]
+      }
+    }
+  }
+}    "angles": [
               270.0,
               359.0
             ],

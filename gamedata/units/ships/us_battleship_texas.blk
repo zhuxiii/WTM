@@ -725,7 +725,7 @@
       ],
       "CenterOfGravity": [
         0.5,
-        1.0,
+        -0.5,
         0.0
       ]
     },
@@ -14066,7 +14066,7 @@
       ]
     }
   }
-}er": {
+}r": {
       "replace_tex": [
         {
           "from": "camo_navygrey_5*",
