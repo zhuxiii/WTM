@@ -64371,3 +64371,4 @@ AN/APS-54
 bigQueryEvents:object
 isArtilleryTimerBesideMap
 isGlobalFinalBlow
+factory_building_a_awning

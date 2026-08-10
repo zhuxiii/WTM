@@ -2591,6 +2591,10 @@
       "blk": "gameData/units/ships/weaponPresets/ussr_cruiser_maxim_gorky_default.blk"
     }
   },
+  "torpedoSeries": {
+    "delay": 0.1,
+    "count": 1
+  },
   "modifications": {
     "ship_tool_kit": {},
     "ship_smoke_screen_system_mod": {},
@@ -6613,14 +6617,7 @@
       "camo_rotation": 0.0
     }
   }
-}
-      }
-    ]
-  },
-  "winch": {
-    "length": 350.0
-  },
-  "smokeWall": {
+} "smokeWall": {
     "distance": 450.0,
     "speed": 350.0,
     "height": 0.0,

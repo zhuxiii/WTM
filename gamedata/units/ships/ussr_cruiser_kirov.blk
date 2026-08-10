@@ -2136,6 +2136,10 @@
       "blk": "gameData/units/ships/weaponPresets/ussr_cruiser_kirov_default.blk"
     }
   },
+  "torpedoSeries": {
+    "delay": 0.1,
+    "count": 1
+  },
   "modifications": {
     "ship_tool_kit": {},
     "ship_smoke_screen_system_mod": {},
@@ -5211,9 +5215,7 @@
       }
     ]
   }
-}0.0,
-    "additionalWaterCoverPartsThreshold": 11000000.0,
-    "additionalWaterShouldDiePercent": 0.22,
+}    "additionalWaterShouldDiePercent": 0.22,
     "fatalBreachDrownTime": 25.0,
     "maxHeelingAngle": 42.0,
     "maxHeelingTime": 40.0,

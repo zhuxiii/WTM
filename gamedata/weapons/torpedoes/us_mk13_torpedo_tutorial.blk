@@ -39,6 +39,11 @@
     "explosionEffect": "water_under_explosion_medium",
     "underwaterExplosionEffect": "underwater_explosion",
     "startPropulsionDelay": 0.1,
+    "autoaimEnabled": false,
+    "aaMaxAimAngle": 0.0,
+    "aaSpeedPrediction": 0.0,
+    "aaAccelPrediction": 0.0,
+    "aaAngleCorrection": 0.0,
     "hitPowerMult": 1.0,
     "nearHitPower": [
       1.0,
@@ -84,14 +89,6 @@
       46.0
     ],
     "DamageParts": {
-      "body": {
-        "hp": 100.0,
-        "armorClass": "ship_structural_steel",
-        "armorThickness": 1.0
-      }
-    }
-  }
-}geParts": {
       "body": {
         "hp": 100.0,
         "armorClass": "ship_structural_steel",

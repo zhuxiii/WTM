@@ -3661,6 +3661,11 @@
       "blk": "gameData/units/ships/weaponPresets/jp_battleship_yamashiro_default.blk"
     }
   },
+  "torpedoSeries": {
+    "delay": 0.1,
+    "count": 1,
+    "isDeadzoneCheck": true
+  },
   "modifications": {
     "ship_tool_kit": {},
     "ship_smoke_screen_system_mod": {},
@@ -9707,12 +9712,7 @@
       ]
     }
   }
-}  "waterMassMult": 75.0,
-    "sizeToRepair": [
-      0.01,
-      5.0,
-      25.0,
-      600.0
+}600.0
     ],
     "additionalWaterDeathThreshold": 100000000.0,
     "additionalWaterCoverPartsThreshold": 7000000.0,

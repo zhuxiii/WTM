@@ -1195,6 +1195,10 @@
       "blk": "gameData/units/ships/weaponPresets/uk_destroyer_hunt_4series_default.blk"
     }
   },
+  "torpedoSeries": {
+    "delay": 0.1,
+    "count": 1
+  },
   "modifications": {
     "ship_tool_kit": {},
     "ship_smoke_screen_system_mod": {},
@@ -2790,10 +2794,7 @@
       }
     ]
   }
-}": {
-    "distance": 450.0,
-    "speed": 350.0,
-    "height": 0.0,
+}": 0.0,
     "length": 450.0,
     "fxOffset": 65.0
   },

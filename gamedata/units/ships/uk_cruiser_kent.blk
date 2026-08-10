@@ -878,6 +878,10 @@
     ],
     "detectionHeight": 46.2
   },
+  "torpedoSeries": {
+    "delay": 0.1,
+    "count": 1
+  },
   "sound": {
     "EngineName": "engine_shipbig01",
     "EngineNameAi": "engine_shipbig_ai",
@@ -5110,9 +5114,7 @@
       }
     ]
   }
-}ingAnglePercent": 0.75,
-    "maxCriticalHeelingTime": 1.0,
-    "heelingDeathHeightOffsetMult": 0.0,
+}    "heelingDeathHeightOffsetMult": 0.0,
     "sideCenterOfMassOffsetPercent": 0.27,
     "additionalWaterInfluenceOnSpeed": 2.3
   },

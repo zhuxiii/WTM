@@ -2866,6 +2866,10 @@
       "blk": "gameData/units/ships/weaponPresets/ussr_cruiser_sverdlov_default.blk"
     }
   },
+  "torpedoSeries": {
+    "delay": 0.1,
+    "count": 1
+  },
   "modifications": {
     "ship_tool_kit": {},
     "ship_smoke_screen_system_mod": {},
@@ -7424,11 +7428,7 @@
       }
     ]
   }
-}  }
-      },
-      {
-        "name": "fire_after_hit_med",
-        "lifetime": 8.0,
+}        "lifetime": 8.0,
         "fx": {
           "name": "smoke_after_hit_med",
           "setOrientation": true
