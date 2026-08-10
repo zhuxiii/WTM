@@ -108,6 +108,7 @@
 "icon/hud_msg_mp_dmg/crash_t";"▕";"▕";"▕";"▕";"▕";"▕";"▕";"▕";"▕";"▕";"▕";"▕";"▕";"▕";"▕";"▕";"▕";"▕";;
 "icon/hud_msg_mp_dmg/crash_s";"▕";"▕";"▕";"▕";"▕";"▕";"▕";"▕";"▕";"▕";"▕";"▕";"▕";"▕";"▕";"▕";"▕";"▕";;
 "icon/hud_msg_mp_dmg/kill_zone";"▢";"▢";"▢";"▢";"▢";"▢";"▢";"▢";"▢";"▢";"▢";"▢";"▢";"▢";"▢";"▢";"▢";"▢";;
+"icon/hud_msg_mp_dmg/map_area";"►";"►";"►";"►";"►";"►";"►";"►";"►";"►";"►";"►";"►";"►";"►";"►";"►";"►";;
 "icon/hud_msg_mp_dmg/crit";"░";"░";"░";"░";"░";"░";"░";"░";"░";"░";"░";"░";"░";"░";"░";"░";"░";"░";;
 "icon/hud_msg_mp_dmg/burn";"▐";"▐";"▐";"▐";"▐";"▐";"▐";"▐";"▐";"▐";"▐";"▐";"▐";"▐";"▐";"▐";"▐";"▐";;
 "icon/hud_msg_mp_dmg/exit";"␡";"␡";"␡";"␡";"␡";"␡";"␡";"␡";"␡";"␡";"␡";"␡";"␡";"␡";"␡";"␡";"␡";"␡";;
@@ -251,7 +252,7 @@
 "password_mask_char";"•";"•";"•";"•";"•";"•";"•";"•";"•";"•";"•";"•";"•";"•";"•";"•";"•";"•";;
 "voiceMessageDefaultVoice";;;;;;;;;;;;;;;;;;;;
 "current_lang";"en";"fr";"it";"de";"es";"ru";"uk";"pl";"pt";"tr";"cz";"el";"id";"th";"ko";"zh";"ja";"zh";;
-Português";"Português";"Português";"Português";"Português";"Português";"Português";"Português";"Português";"Português";"Português";"Português";"Português";;
+"Português";"Português";;
 "language/Vietnamese";"Việt";"Việt";"Việt";"Việt";"Việt";"Việt";"Việt";"Việt";"Việt";"Việt";"Việt";"Việt";"Việt";"Việt";"Việt";"Việt";"Việt";"Việt";;
 "language/Romanian";"Română";"Română";"Română";"Română";"Română";"Română";"Română";"Română";"Română";"Română";"Română";"Română";"Română";"Română";"Română";"Română";"Română";"Română";;
 "language/Greek";"Ελληνικά";"Ελληνικά";"Ελληνικά";"Ελληνικά";"Ελληνικά";"Ελληνικά";"Ελληνικά";"Ελληνικά";"Ελληνικά";"Ελληνικά";"Ελληνικά";"Ελληνικά";"Ελληνικά";"Ελληνικά";"Ελληνικά";"Ελληνικά";"Ελληνικά";"Ελληνικά";;

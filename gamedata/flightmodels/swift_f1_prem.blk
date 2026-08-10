@@ -1826,12 +1826,6 @@
       ]
     }
   },
-  "sensors": {
-    "sensor": {
-      "blk": "gameData/sensors/uk_ari_5857.blk",
-      "dmPart": "radar_dm"
-    }
-  },
   "commonWeapons": {
     "Weapon": {
       "slot": 0,
@@ -2365,6 +2359,14 @@
       {
         "from": "swift_f1_c*",
         "to": "swift_f1_navy_c*"
+      },
+      {
+        "from": "swift_f1_n*",
+        "to": "swift_f1_navy_n*"
+      }
+    ]
+  }
+}swift_f1_navy_c*"
       },
       {
         "from": "swift_f1_n*",

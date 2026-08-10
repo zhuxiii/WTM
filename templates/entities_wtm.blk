@@ -305,7 +305,8 @@
     "battleRoyaleLog:array": {},
     "raceLog:array": {},
     "missionScoreLog:array": {},
-    "unitClasses:object": {}
+    "unitClasses:object": {},
+    "bigQueryEvents:object": {}
   },
   "statistic_players": {
     "statisticPlayers:object": {},
@@ -396,9 +397,7 @@
     "_use": "rendinst",
     "hangarMajorBannerAir:tag": {}
   }
-}   ]
-  },
-  "hangar_major_banner_tank": {
+}tank": {
     "_use": "rendinst",
     "hangarMajorBannerTank:tag": {}
   },
