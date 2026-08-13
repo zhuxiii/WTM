@@ -1106,7 +1106,6 @@
         ],
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
-        "bulletsCartridge": 2,
         "reloadTime": 19.0,
         "ChainfireTime": 2.0,
         "DelayAfterShoot": 0.0,
@@ -1166,7 +1165,6 @@
         ],
         "defaultYaw": 0.0,
         "defaultPitch": 0.0,
-        "bulletsCartridge": 2,
         "reloadTime": 19.0,
         "ChainfireTime": 2.0,
         "DelayAfterShoot": 0.0,
@@ -2229,7 +2227,6 @@
               ],
               "defaultYaw": 0.0,
               "defaultPitch": 0.0,
-              "bulletsCartridge": 2,
               "reloadTime": 19.0,
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
@@ -2289,7 +2286,6 @@
               ],
               "defaultYaw": 0.0,
               "defaultPitch": 0.0,
-              "bulletsCartridge": 2,
               "reloadTime": 19.0,
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
@@ -3333,7 +3329,6 @@
               ],
               "defaultYaw": 0.0,
               "defaultPitch": 0.0,
-              "bulletsCartridge": 2,
               "reloadTime": 19.0,
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
@@ -3393,7 +3388,6 @@
               ],
               "defaultYaw": 0.0,
               "defaultPitch": 0.0,
-              "bulletsCartridge": 2,
               "reloadTime": 19.0,
               "ChainfireTime": 2.0,
               "DelayAfterShoot": 0.0,
@@ -4595,6 +4589,17 @@
     "bluewater_geometry": {
       "replace_tex": [
         {
+          "from": "camo_hazegray*",
+          "to": "camo_bluewater_geometry*"
+        },
+        {
+          "from": "camo_rot_5*",
+          "to": "camo_syntheticblackpaint*"
+        }
+      ]
+    }
+  }
+}  {
           "from": "camo_hazegray*",
           "to": "camo_bluewater_geometry*"
         },

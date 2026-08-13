@@ -289,6 +289,7 @@
     },
     "sentStatsToUserstat:object": {},
     "sentMinStatsToUserstat:object": {},
+    "sentMaxStatsToUserstat:object": {},
     "sentAvgStatsToUserstat:object": {}
   },
   "damage_log": {
@@ -396,29 +397,20 @@
   "hangar_major_banner_air": {
     "_use": "rendinst",
     "hangarMajorBannerAir:tag": {}
+  },
+  "pickup_zone_airdrop_parachute": {
+    "_use": "pickup_zone_airdrop_base",
+    "simpleObject__resName": "airdrop_ammo_box",
+    "simpleObject__charName": "airdrop_ammo_box_char",
+    "pickup_airdrop__total_time": 60.0,
+    "pickup_airdrop__max_fall_speed": 6.0,
+    "pickup_airdrop__time_ratio_freefly": 0.01,
+    "pickup_airdrop__time_ratio_opening": 0.01,
+    "pickup_airdrop__duration_landed": 5.0,
+    "pickup_airdrop__groundFx": "smoke_point_red",
+    "pickup_zone__miniMapIconName": "iconAirDrop"
   }
-}tank": {
-    "_use": "rendinst",
-    "hangarMajorBannerTank:tag": {}
-  },
-  "hangar_major_banner_ship": {
-    "_use": "rendinst",
-    "hangarMajorBannerShip:tag": {}
-  },
-  "hangar_major_banner_air": {
-    "_use": "rendinst",
-    "hangarMajorBannerAir:tag": {}
-  }
-}ne_illumination_enable_for_flash": true,
-      "lightning__scene_illumination_near_sun_threshold": 30.0
-    },
-    "lightning__animchars_eids:list<eid>": {},
-    "transform": {}
-  },
-  "lightning_panorama": {
-    "_singleton": true,
-    "_use": "lightning_volumetric",
-    "lightning__is_volumetric": false,
+}is_volumetric": false,
     "lightning__point_light_radius": 4000.0,
     "lightning__point_light_strength_interval": [
       1.0,

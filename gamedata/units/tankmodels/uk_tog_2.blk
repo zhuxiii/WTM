@@ -3070,6 +3070,48 @@
           "param": "camo_skin_tex"
         }
       ]
+    },
+    "fiction": {
+      "set_tex": [
+        {
+          "from": "tog_2_body_c*",
+          "to": "tog_2_body_anniversary_skin_c*",
+          "param": "camo_skin_tex"
+        },
+        {
+          "from": "tog_2_gun_c*",
+          "to": "tog_2_gun_anniversary_skin_c*",
+          "param": "camo_skin_tex"
+        },
+        {
+          "from": "tog_2_mods_c*",
+          "to": "tog_2_mods_anniversary_skin_c*",
+          "param": "camo_skin_tex"
+        },
+        {
+          "from": "tog_2_turret_c*",
+          "to": "tog_2_turret_anniversary_skin_c*",
+          "param": "camo_skin_tex"
+        }
+      ],
+      "replace_tex": [
+        {
+          "from": "tog_2_body_n*",
+          "to": "tog_2_body_anniversary_skin_n*"
+        },
+        {
+          "from": "tog_2_gun_n*",
+          "to": "tog_2_gun_anniversary_skin_n*"
+        },
+        {
+          "from": "tog_2_mods_n*",
+          "to": "tog_2_mods_anniversary_skin_n*"
+        },
+        {
+          "from": "tog_2_turret_n*",
+          "to": "tog_2_turret_anniversary_skin_n*"
+        }
+      ]
     }
   },
   "defaultDecals": {
@@ -3100,50 +3142,6 @@
     ]
   }
 } },
-  "modifications": {
-    "art_support": {},
-    "tank_extinguisher": {},
-    "tank_tool_kit_expendable": {},
-    "machinegun_belt_ap": {},
-    "machinegun_belt_tracer": {},
-    "machinegun_belt_stealth": {},
-    "art_support_smoke": {},
-    "art_support_mortars": {},
-    "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {}
-  },
-  "default_skin": {
-    "set_tex": [
-      {
-        "from": "tog_2_body_c*",
-        "to": "tog_2_skin_2y_body_c*",
-        "param": "camo_skin_tex"
-      },
-      {
-        "from": "tog_2_gun_c*",
-        "to": "tog_2_skin_2y_gun_c*",
-        "param": "camo_skin_tex"
-      },
-      {
-        "from": "tog_2_mods_c*",
-        "to": "tog_2_skin_2y_mods_c*",
-        "param": "camo_skin_tex"
-      },
-      {
-        "from": "tog_2_turret_c*",
-        "to": "tog_2_skin_2y_turret_c*",
-        "param": "camo_skin_tex"
-      }
-    ]
-  },
-  "vehicleSkins": {
-    "forest": {
-      "set_tex": [
-        {
-          "from": "tog_2_body_c*",
-          "to": "tog_2_skin_body_c*",
-          "param": "camo_skin_tex"
-        },
         {
           "from": "tog_2_gun_c*",
           "to": "tog_2_skin_gun_c*",
