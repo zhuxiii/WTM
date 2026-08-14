@@ -1,39 +1,15 @@
 {
-  "entity": [
+  "import": [
     {
-      "_template": "backmodel_spawn_point",
-      "transform": [
-        [
-          -0.313163,
-          0.0,
-          -0.9497
-        ],
-        [
-          0.0,
-          1.0,
-          0.0
-        ],
-        [
-          0.9497,
-          0.0,
-          -0.313162
-        ],
-        [
-          2955.73,
-          7.00009,
-          -2958.63
-        ]
-      ],
-      "spawnPointType": "ship",
-      "forPremiumVehicle": true
+      "scene": "gamedata/scenes/hangar_field_units.blk"
     },
     {
-      "_template": "backmodel_spawn_point",
+      "scene": "gamedata/scenes/hangar_field_major_banners_tank.blk",
       "transform": [
         [
-          -0.807473,
+          1.0,
           0.0,
-          -0.589905
+          0.0
         ],
         [
           0.0,
@@ -41,26 +17,24 @@
           0.0
         ],
         [
-          0.589905,
           0.0,
-          -0.807473
+          0.0,
+          1.0
         ],
         [
-          2777.38,
-          6.99944,
-          -3172.01
+          0.0,
+          0.0,
+          0.0
         ]
-      ],
-      "spawnPointType": "ship",
-      "forPremiumVehicle": false
+      ]
     },
     {
-      "_template": "backmodel_spawn_point",
+      "scene": "gamedata/scenes/hangar_field_major_banners_ship.blk",
       "transform": [
         [
-          -0.289548,
+          1.0,
           0.0,
-          -0.957163
+          0.0
         ],
         [
           0.0,
@@ -68,26 +42,24 @@
           0.0
         ],
         [
-          0.957163,
           0.0,
-          -0.289548
+          0.0,
+          1.0
         ],
         [
-          3053.74,
-          6.99998,
-          -2503.93
+          0.0,
+          0.0,
+          0.0
         ]
-      ],
-      "spawnPointType": "ship",
-      "forPremiumVehicle": false
+      ]
     },
     {
-      "_template": "backmodel_spawn_point",
+      "scene": "gamedata/scenes/hangar_field_major_banners_plane.blk",
       "transform": [
         [
-          0.978113,
+          1.0,
           0.0,
-          -0.208075
+          0.0
         ],
         [
           0.0,
@@ -95,6 +67,44 @@
           0.0
         ],
         [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    },
+    {
+      "scene": "gamedata/scenes/hangar_field_objects_birthday.blk",
+      "transform": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    }
+  ]
+}[
           0.208075,
           0.0,
           0.978113

@@ -58,7 +58,6 @@
   "weather": "hangar_weather",
   "hqWeather": "hangar_weather",
   "level": "levels/avg_abandoned_factory.bin",
-  "clusteredLightsOverride": true,
   "defCameraTime": [
     5.0,
     10.0
@@ -109,9 +108,7 @@
   "verticalCameraShiftShip": 0.1,
   "verticalCameraShiftTank": 0.3,
   "countDecalsAtUnitInHangar": 4,
-  "forceMusic": "music_chinese_ny",
-  "overloadSoundsId": "lunar_new_year",
-  "hangarMission": "gameData/scenes/hangar_field_lunar_ny_mission_wtm.blk",
+  "hangarMission": "gameData/scenes/hangar_field_birthday_mission_wtm.blk",
   "hangarSoundEngineMult": 0.4,
   "hangarSoundMult": 0.15,
   "buoyUnitName": "anchor_buoy",
@@ -822,7 +819,7 @@
     }
   ],
   "env": {
-    "env": "18.5",
+    "env": "14.5",
     "weight": 1.0,
     "compatibilityWeight": 1.0
   },
@@ -2686,14 +2683,14 @@
           "id": "v1",
           "musicName": "naval/music/cutscene_offer_tanks",
           "from": [
-            421.5,
-            139.8,
-            3611.5
+            2163.9,
+            8.05,
+            1666.9
           ],
           "to": [
-            442.6,
-            139.8,
-            3601.2
+            2140.4,
+            8.05,
+            1666.9
           ],
           "startSpeed": 4.0,
           "timeToStop": 0.7,
@@ -2750,14 +2747,14 @@
           "id": "v3",
           "musicName": "naval/music/cutscene_offer_tanks",
           "from": [
-            421.5,
-            139.8,
-            3611.5
+            2163.9,
+            8.05,
+            1666.9
           ],
           "to": [
-            442.6,
-            139.8,
-            3601.2
+            2140.4,
+            8.05,
+            1666.9
           ],
           "startSpeed": 4.0,
           "timeToStop": 0.7,
@@ -2814,14 +2811,14 @@
           "id": "v4",
           "musicName": "naval/music/cutscene_offer_tanks",
           "from": [
-            421.5,
-            139.8,
-            3611.5
+            2163.9,
+            8.05,
+            1666.9
           ],
           "to": [
-            442.6,
-            139.8,
-            3601.2
+            2140.4,
+            8.05,
+            1666.9
           ],
           "startSpeed": 4.0,
           "timeToStop": 0.7,
@@ -3731,12 +3728,12 @@
           "musicName": "naval/music/cutscene_offer_planes",
           "from": [
             3560.2,
-            454.0,
+            660.0,
             -2529.6
           ],
           "to": [
             145.0,
-            488.05,
+            660.0,
             -3397.9
           ],
           "startRoll": 20.0,
@@ -3822,7 +3819,7 @@
                 ],
                 [
                   2861.7,
-                  454.8,
+                  660.0,
                   -2399.5
                 ]
               ],
@@ -3850,7 +3847,7 @@
                   ],
                   [
                     2093.1,
-                    454.8,
+                    660.0,
                     -2395.6
                   ]
                 ],
@@ -3877,7 +3874,7 @@
                   ],
                   [
                     1292.5,
-                    454.8,
+                    660.0,
                     -2660.5
                   ]
                 ],
@@ -4053,12 +4050,12 @@
           "musicName": "naval/music/cutscene_offer_planes",
           "from": [
             3745.9,
-            200.0,
+            600.0,
             -1649.9
           ],
           "to": [
             11.1,
-            275.0,
+            600.0,
             -3187.9
           ],
           "startRoll": 10.0,
@@ -4132,7 +4129,7 @@
                 ],
                 [
                   2247.5,
-                  200.0,
+                  600.0,
                   -2256.7
                 ]
               ],
@@ -4159,7 +4156,7 @@
                 ],
                 [
                   1447.1,
-                  200.0,
+                  600.0,
                   -2674.0
                 ]
               ],
@@ -4283,6 +4280,15 @@
                   -2763.1
                 ]
               ],
+              "objLayer": 0,
+              "props": {}
+            }
+          }
+        }
+      ]
+    }
+  }
+},
               "objLayer": 0,
               "props": {}
             }
