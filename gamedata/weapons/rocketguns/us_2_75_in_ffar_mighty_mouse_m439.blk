@@ -27,24 +27,9 @@
     "endSpeed": 0.0,
     "maxDistance": 6200.0,
     "minDistance": 30.0,
-    "autoaimEnabled": false,
-    "effectOffset": [
-      -0.5,
-      0.0,
-      0.0
-    ],
     "explosiveType": "comp_b",
     "explosiveMass": 0.404,
     "explodeTreshold": 0.00001,
-    "rendinstDamageRadius": 6.0,
-    "spawnExplosionFx": [
-      false,
-      false
-    ],
-    "spawnExplosionWreckage": [
-      false,
-      false
-    ],
     "hasProximityFuse": true,
     "dragCx": 0.00203,
     "amountPerTier": 52.0,
@@ -314,6 +299,25 @@
         0.05
       ],
       "mod2": [
+        20.0,
+        0.1
+      ],
+      "mod3": [
+        [
+          30.0,
+          0.2
+        ],
+        [
+          45.0,
+          0.3
+        ]
+      ]
+    },
+    "pressureDamage": {
+      "damageType": "pressure"
+    }
+  }
+}   "mod2": [
         20.0,
         0.1
       ],
