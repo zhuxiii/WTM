@@ -1477,31 +1477,6 @@
         "disallowTaa": true
       }
     },
-    "broken_grass": {
-      "gpu": "Adreno (TM) 840",
-      "android_presets": {
-        "low": {
-          "graphics": {
-            "grassRadiusMul": 0.0
-          }
-        },
-        "medium": {
-          "graphics": {
-            "grassRadiusMul": 0.0
-          }
-        },
-        "high": {
-          "graphics": {
-            "grassRadiusMul": 0.0
-          }
-        },
-        "max": {
-          "graphics": {
-            "grassRadiusMul": 0.0
-          }
-        }
-      }
-    },
     "broken_foliage": {
       "codename": [
         "motorola moto g(20) ",
@@ -2790,6 +2765,23 @@
         {
           "name": "Unity LLC",
           "policy": "https://unity.com/legal/privacy-policy"
+        },
+        {
+          "name": "AppLovin Corporation",
+          "policy": "https://www.applovin.com/privacy"
+        },
+        {
+          "name": "Pangle (Bytedance Pte. Ltd.)",
+          "policy": "https://www.pangleglobal.com/privacy/enduser-en"
+        },
+        {
+          "name": "ironSource Mobile Ltd.",
+          "policy": "https://cdn.iads.unity3d.com/privacy-policy/privacypolicy.html"
+        }
+      ]
+    }
+  }
+}  "policy": "https://unity.com/legal/privacy-policy"
         },
         {
           "name": "AppLovin Corporation",
