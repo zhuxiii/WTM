@@ -15,7 +15,6 @@ options strict_smart_pointers = false
 require daslib/rtti
 require daslib/ast
 require daslib/ast_boost
-require daslib/strings_boost
 
 class SetPrinterFlags : AstVisitor {
     
@@ -95,6 +94,9 @@ class SetPrinterFlags : AstVisitor {
 def used_flags() {
     
     new SetPrinterFlags();
+    panic("unused");
+}
+();
     panic("unused");
 }e.printFlags := ExprPrintFlags.argLevel
         }

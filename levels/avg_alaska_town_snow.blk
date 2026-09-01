@@ -50,7 +50,6 @@
   "weatherPreset": "gameData/environments/weather_preset_1.blk",
   "weatherTypes": "gameData/environments/weather_types_winter.blk",
   "water_level": -10.0,
-  "forceDisableRefraction": true,
   "soundAmbientPath": "sounds/ambient",
   "soundAmbientPathStudio": "aircraft/ambient",
   "soundAmbientEvent": "global_amb",
@@ -382,6 +381,10 @@
     },
     "garland_sphere_a_1m": {
       "lod0": 200.0,
+      "lod1": 600.0
+    }
+  }
+}0,
       "lod1": 600.0
     }
   }

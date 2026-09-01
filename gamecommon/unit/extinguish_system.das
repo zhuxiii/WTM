@@ -21,9 +21,10 @@ require %game.events
 
 
 
-[es(no_order)]
+[es(after=main_update_pausable_es)]
 def extinguish_system_update_es(act : UpdateStageInfoAct;
                                 eid : EntityId;
+                                curUnitTickDt : float;
                                 var unit__ref : UnitRef;
                                 extinguish_system_penalty_without_mod : bool;
                                 fire_damage__isBurn : bool;
@@ -36,6 +37,8 @@ def extinguish_system_update_es(act : UpdateStageInfoAct;
                                 var extinguish_system_crew_busy_time_end : float&;
                                 var extinguish_system_next_extinguisher_time : float&;
                                 var extinguish_system_require_net_sync : bool&)
+  if curUnitTickDt == 0.f
+    return
   let unit = unit__ref.unit
   if unit.isDelayed || !unit.isAuthority
     return
@@ -587,4 +590,3 @@ def extinguish_system_net_sync_handle_es(evt : EventExtinguishSystemNetSync;
   sendEventImmediate(eid, EventExtinguishSystemNotifyCrewBusy(busy = is_crew_busy(fire_damage__isBurn, extinguish_system_is_assisting, extinguish_system_crew_busy_time_end)))
   if !was_extinguisher_active && evt.extinguisherRemainingTime > 0.0f
     sendEvent(eid, EventExtinguishSystemOnExtinguisherActivate(active = true))
-ctive = true))

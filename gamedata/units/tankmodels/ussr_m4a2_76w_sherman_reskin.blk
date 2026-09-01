@@ -2018,7 +2018,7 @@
       "maxBrakeForce": 130000.0,
       "driveGearRadius": 0.305,
       "mainGearRatio": 3.615,
-      "sideGearRatio": 2.74,
+      "sideGearRatio": 2.7,
       "alternativeGearControl": 1.0,
       "gearRatios": {
         "ratio": [
@@ -2991,7 +2991,7 @@
       "camo_rotation": 0.0
     }
   }
-}    },
+}}    },
         {
           "from": "m4a2_76w_sherman_body_c*",
           "to": "m4a2_76w_noskin_sherman_body_c*",

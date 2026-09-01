@@ -2290,7 +2290,7 @@
         0.0,
         0.3
       ],
-      "AdvancedMass": false,
+      "AdvancedMass": true,
       "trackMass": 300.0
     },
     "tracks": {
@@ -2967,7 +2967,7 @@
   "battleHideNodes": {
     "n": "details"
   }
-}_rotation": 0.0
+}}_rotation": 0.0
     },
     "desert": {
       "skin_condition": 100.0,

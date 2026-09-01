@@ -47,7 +47,6 @@
   "weatherPreset": "gameData/environments/weather_preset_1.blk",
   "weatherTypes": "gameData/environments/weather_types.blk",
   "water_level": -10.0,
-  "forceDisableRefraction": true,
   "soundAmbientPath": "sounds/ambient",
   "soundAmbientPathStudio": "aircraft/ambient",
   "soundAmbientEvent": "global_amb",
@@ -807,6 +806,9 @@
       "hangar_sound": "new_hangar/hangar_ships_xmas",
       "hangar_sound_tanks": "new_hangar/hangar_tanks_xmas",
       "hangar_sound_ships": "new_hangar/hangar_ships_xmas"
+    }
+  }
+}gar/hangar_ships_xmas"
     }
   }
 }sound_tanks": "new_hangar/hangar_tanks_xmas",

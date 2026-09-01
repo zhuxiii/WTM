@@ -6,7 +6,6 @@ require daslib/aot_cpp
 require daslib/macro_boost
 require daslib/templates_boost
 require daslib/ast_boost
-require strings
 require daslib/fio
 
 
@@ -34,6 +33,10 @@ class AstAot : AstSimulateMacro {
             print("Somehow aot result is empty.\n")
         }
         return is_ok
+    }
+}
+
+_ok
     }
 }
 

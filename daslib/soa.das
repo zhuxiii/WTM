@@ -73,11 +73,6 @@ class SoaCallMacro : AstFunctionAnnotation {
 [structure_macro(name=soa)]
 class SoaStructMacro : AstStructureAnnotation {
     
-    
-    
-    
-    
-    
     def override apply(var st : StructurePtr; var group : ModuleGroup; args : AnnotationArgumentList; var errors : das_string) : bool {
         if (is_in_completion()) {
             var tdef = new TypeDecl(at = st.at,
@@ -380,6 +375,10 @@ class SoaForLoop : AstForLoopMacro {
             return <- new_for_e
         }
         return null
+    }
+}
+
+return null
     }
 }
 

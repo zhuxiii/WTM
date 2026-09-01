@@ -102,15 +102,16 @@ class B2LVisitor : AstVisitor {
 [macro_function]
 def public convert_block_to_loop(var blk : Expression?; failOnReturn, replaceReturnWithContinue, requireContinueCond : bool) {
     
-    
-    
-    
     var astVisitor = new B2LVisitor(failOnReturn, replaceReturnWithContinue, requireContinueCond)
     make_visitor(*astVisitor) $(astVisitorAdapter) {
         visit(blk, astVisitorAdapter)
     }
     unsafe {
         delete astVisitor
+    }
+}
+
+r
     }
 }
 

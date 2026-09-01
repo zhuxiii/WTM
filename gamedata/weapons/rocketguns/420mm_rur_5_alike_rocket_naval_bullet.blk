@@ -236,11 +236,6 @@
           "startSpeed": 0.0,
           "startPropulsionDelay": 0.1,
           "useStartSpeed": true,
-          "autoaimEnabled": false,
-          "aaMaxAimAngle": 0.0,
-          "aaSpeedPrediction": 0.0,
-          "aaAccelPrediction": 0.0,
-          "aaAngleCorrection": 0.0,
           "explodeTreshold": 0.00001,
           "relativeVelArmorShift": [
             200.0,
@@ -384,6 +379,16 @@
         "rocksSlippery": {
           "fx": "hit_291_390mm_stone_he"
         },
+        "fabric": {
+          "fx": "hit_291_390mm_stone_he"
+        },
+        "stone_snow": {
+          "fx": "hit_291_390mm_snow_he"
+        }
+      }
+    }
+  }
+}       },
         "fabric": {
           "fx": "hit_291_390mm_stone_he"
         },

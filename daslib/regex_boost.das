@@ -24,10 +24,6 @@ require daslib/regex public
 [reader_macro(name="regex")]
 class RegexReader : AstReaderMacro {
     
-    
-    
-    
-    
     def override accept(prog : ProgramPtr; mod : Module?; var expr : ExprReader?; ch : int; info : LineInfo) : bool {
         if (ch != '\n' && ch != '\r') {
             append(expr.sequence, ch)
@@ -78,6 +74,9 @@ class RegexReader : AstReaderMacro {
         var creg = new ExprCall(at = expr.at, name := "regex::regex_compile")
         emplace(creg.arguments, re_data)
         return <- creg
+    }
+}
+ <- creg
     }
 }
 scope creg <- new ExprCall(at = expr.at, name := "regex::regex_compile")

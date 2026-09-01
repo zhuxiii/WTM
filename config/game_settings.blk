@@ -556,9 +556,11 @@
     "ReflexLowLatency": {
       "condition": ""
     },
-    "delayedDownloadContent": {
+    "replayRewind": {
       "condition": ""
-    },
+    }
+  }
+}   },
     "replayRewind": {
       "condition": ""
     }

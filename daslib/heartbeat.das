@@ -14,7 +14,6 @@ module heartbeat private
 
 require daslib/ast_boost
 require daslib/templates_boost
-require daslib/strings_boost
 
 var g_hbCallback : lambda<() : void>
 var g_inHB : bool = false
@@ -84,6 +83,9 @@ class HeartbeatPass : AstPassMacro {
             delete astVisitor
         }
         return result
+    }
+}
+     return result
     }
 }
 var inscope astVisitorAdapter <- make_visitor(*astVisitor)

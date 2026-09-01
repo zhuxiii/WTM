@@ -9,21 +9,13 @@ module flatten_opt shared private
 
 
 
-
-
-
-require daslib/ast
-require daslib/ast_boost
-require daslib/ast_match
-require daslib/templates_boost
-require daslib/macro_boost
-require daslib/match
-require daslib/rtti
-require strings
-
-def private is_flat_temp(name : das_string) : bool {
-    return name |> starts_with("__flat_")
-}
+require daslib/flatten_opt_common public
+require daslib/flatten_opt_straightline public
+require daslib/flatten_opt_fold public
+require daslib/flatten_opt_swizzle public
+require daslib/flatten_opt_preshade public
+require daslib/flatten_opt_fuse public
+require daslib/flatten_opt_pack public
 
 
 

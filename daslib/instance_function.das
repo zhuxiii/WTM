@@ -15,16 +15,9 @@ require daslib/rtti
 require daslib/ast_boost
 require daslib/templates_boost
 require daslib/defer
-require strings
 
 [function_macro(name="instance_function")]
 class InstanceFunctionAnnotation : AstFunctionAnnotation {
-    
-    
-    
-    
-    
-    
     
     def override apply(var func : FunctionPtr; var group : ModuleGroup; args : AnnotationArgumentList; var errors : das_string) : bool {
         var generic_name = ""
@@ -55,6 +48,10 @@ class InstanceFunctionAnnotation : AstFunctionAnnotation {
         }
         func.body = clone_expression(fn.body)
         apply_template(rules, func.at, func.body)
+        return true
+    }
+}
+at, func.body)
         return true
     }
 }

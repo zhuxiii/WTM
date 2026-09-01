@@ -53,7 +53,6 @@
   "weatherPreset": "gameData/environments/weather_preset_1.blk",
   "weatherTypes": "gameData/environments/weather_types.blk",
   "water_level": 7.0,
-  "forceDisableRefraction": true,
   "soundAmbientPath": "sounds/ambient",
   "soundAmbientPathStudio": "aircraft/ambient",
   "soundAmbientEvent": "global_amb",
@@ -301,6 +300,10 @@
     },
     "tree_picea_obovata_medium_b": {
       "lod0": 300.0,
+      "lod1": 4000.0
+    }
+  }
+},
       "lod1": 4000.0
     }
   }

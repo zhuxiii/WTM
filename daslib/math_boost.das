@@ -36,16 +36,6 @@ struct Ray {
     origin : float3 
 }
 
-def degrees(f : float) {
-    
-    return f * 180. / PI
-}
-
-def radians(f : float) {
-    
-    return f * PI / 180.
-}
-
 def RGBA_TO_UCOLOR(x, y, z, w : float) {
     
     return pack_float_to_byte(float4(x, y, z, w) * 255.)
@@ -146,6 +136,7 @@ def look_at_rh(Eye, At, Up : float3) {
     return tm
 }
 
+[deprecated(message="w-row bug (m[3][3] left at 1 -> clip.w = -z+1); mirror perspective_rh_0_to_1 for a corrected left-handed variant")]
 def perspective_lh(fovy, aspect, zn, zf : float) {
     
     let yScale = 1. / tan(fovy / 2.)
@@ -160,6 +151,7 @@ def perspective_lh(fovy, aspect, zn, zf : float) {
     return Result
 }
 
+[deprecated(message="w-row bug (m[3][3] left at 1 -> clip.w = -z+1); use perspective_rh_0_to_1 (corrected, z in [0..1])")]
 def perspective_rh(fovy, aspect, zn, zf : float) {
     
     let yScale = 1. / tan(fovy / 2.)
@@ -174,6 +166,7 @@ def perspective_rh(fovy, aspect, zn, zf : float) {
     return Result
 }
 
+[deprecated(message="w-row bug (m[3][3] left at 1 -> clip.w = -z+1); use perspective_rh_minus1_to_1 (corrected, z in [-1..1])")]
 def perspective_rh_opengl(fovy, aspect, zn, zf : float) {
     
     let yScale = 1. / tan(fovy / 2.)
@@ -185,6 +178,37 @@ def perspective_rh_opengl(fovy, aspect, zn, zf : float) {
     Result[2][2] = (zf + zn) / (zn - zf)
     Result[2][3] = -1.0
     Result[3][2] = 2. * zn * zf / (zn - zf)
+    return Result
+}
+
+
+def perspective_rh_0_to_1(fovy, aspect, zn, zf : float) {
+    
+    let yScale = 1. / tan(fovy / 2.)
+    let xScale = yScale / aspect
+    var Result : float4x4
+    identity(Result)
+    Result[0][0] = xScale
+    Result[1][1] = yScale
+    Result[2][2] = zf / (zn - zf)
+    Result[2][3] = -1.0
+    Result[3][2] = zn * zf / (zn - zf)
+    Result[3][3] = 0.
+    return Result
+}
+
+def perspective_rh_minus1_to_1(fovy, aspect, zn, zf : float) {
+    
+    let yScale = 1. / tan(fovy / 2.)
+    let xScale = yScale / aspect
+    var Result : float4x4
+    identity(Result)
+    Result[0][0] = xScale
+    Result[1][1] = yScale
+    Result[2][2] = (zf + zn) / (zn - zf)
+    Result[2][3] = -1.0
+    Result[3][2] = 2. * zn * zf / (zn - zf)
+    Result[3][3] = 0.
     return Result
 }
 
@@ -227,8 +251,5 @@ def planar_shadow(Light, Plane : float4) {
     Result[1] = float4(P.y * L.x,      P.y * L.y + d,  P.y * L.z,      P.y * L.w)
     Result[2] = float4(P.z * L.x,      P.z * L.y,      P.z * L.z + d,  P.z * L.w)
     Result[3] = float4(P.w * L.x,      P.w * L.y,      P.w * L.z,      P.w * L.w + d)
-    return Result
-}
-t4(P.w * L.x,      P.w * L.y,      P.w * L.z,      P.w * L.w + d)
     return Result
 }

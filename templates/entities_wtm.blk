@@ -215,7 +215,6 @@
       "unitSlots:list<t>": {},
       "commonStats:object": {}
     },
-    "unitDailyApplied:object": {},
     "battleData:object": {}
   },
   "wtm_local_player": {
@@ -409,6 +408,8 @@
     "pickup_airdrop__duration_landed": 5.0,
     "pickup_airdrop__groundFx": "smoke_point_red",
     "pickup_zone__miniMapIconName": "iconAirDrop"
+  }
+}niMapIconName": "iconAirDrop"
   }
 }is_volumetric": false,
     "lightning__point_light_radius": 4000.0,

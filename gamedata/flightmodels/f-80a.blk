@@ -1,7 +1,7 @@
 {
   "fmFile": "fm/f-80a.blk",
   "model": "f_80a",
-  "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/jet_fighter_metaparts.blk",
+  "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/1x_engine_jet_fighter_metaparts.blk",
   "harmonizationSuffix": "_tomoe",
   "useTouchTargeting": true,
   "gyroSight": true,
@@ -2362,8 +2362,7 @@
       }
     ]
   }
-}0,
-    "maxSpeed": 140.0,
+}axSpeed": 140.0,
     "maxPower": 6.0,
     "initialRadius": 12.0,
     "radiusSpeed": 2.0

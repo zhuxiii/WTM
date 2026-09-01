@@ -396,7 +396,7 @@ def joj(val : JsonValue?; id : string) : JsonValue? {
     var res : JsonValue? = null
     if (val == null || !(val is _object)) return res
     get(val as _object, id) $(v) {
-        res = unsafe(reinterpret<JsonValue?> v)
+        res = unsafe(reinterpret<JsonValue?>(v))
     }
     return res
 }
@@ -443,7 +443,7 @@ def job(val : JsonValue?; id : string; defVal = false) : bool {
     }
     return res
 }
-value as _object, id) $(v) {
+alue as _object, id) $(v) {
         if (v.value is _bool) {
             res = v.value as _bool
         }

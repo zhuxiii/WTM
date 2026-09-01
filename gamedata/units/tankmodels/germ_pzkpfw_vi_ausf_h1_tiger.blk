@@ -2097,7 +2097,7 @@
         0.0,
         0.3
       ],
-      "AdvancedMass": true,
+      "AdvancedMass": false,
       "trackMass": 3300.0
     },
     "tracks": {
@@ -3055,7 +3055,7 @@
   "battleHideNodes": {
     "n": "details"
   }
-}    -3.00937,
+}   -3.00937,
         0.0,
         5.29677
       ],

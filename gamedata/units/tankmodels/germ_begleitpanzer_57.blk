@@ -3417,7 +3417,6 @@
       ]
     },
     "ammo2": {
-      "removeLoadedAmmo": false,
       "weaponTrigger": "gunner2",
       "fatalFire": true,
       "fatalExplosion": true,
@@ -3475,6 +3474,9 @@
     }
   },
   "battleHideNodes": {
+    "n": "details"
+  }
+}odes": {
     "n": "details"
   }
 }   "camo_rotation": 0.0

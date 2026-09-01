@@ -1677,17 +1677,18 @@
     "mechanics": {
       "maxBrakeForce": 100000.0,
       "driveGearRadius": 0.23,
-      "mainGearRatio": 3.8536,
+      "mainGearRatio": 7.45,
       "sideGearRatio": 1.0,
       "alternativeGearControl": 3.0,
       "gearRatios": {
         "ratio": [
-          -6.0,
+          -3.4,
           0.0,
-          2.8,
-          2.0,
-          1.43,
-          0.9
+          3.154,
+          1.773,
+          1.032,
+          0.658,
+          0.465
         ]
       }
     },
@@ -2937,8 +2938,7 @@
       "decal3Tex": "ussr_numbers_8"
     }
   }
-}2317,
-        -0.00000684575,
+}684575,
         3.77772
       ],
       "decal3HaveCP": true,

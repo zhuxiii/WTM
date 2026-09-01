@@ -749,7 +749,7 @@
       ],
       "CenterOfGravity": [
         3.1,
-        0.3,
+        -0.7,
         0.0
       ]
     },
@@ -5517,7 +5517,7 @@
       ]
     }
   }
-}       "maxWaterAlive": 0.6
+}      "maxWaterAlive": 0.6
       },
       {
         "part": "compartment_02_dm",

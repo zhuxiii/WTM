@@ -56,6 +56,8 @@ let country_names = fixed_array<string>("australia",
 
 let operator_country_names = fixed_array<string>("south_africa",
                                   "hungary",
+                                  "thailand",
+                                  "benelux",
                                   "finland")
 
 [es(tag=sound, on_event=(EventEntityCreated, EventComponentsAppear))]
@@ -394,8 +396,5 @@ def music_lock_hangar_es(evt : Event;
 def music_set_operator_country_es(evt : CmdSetOperatorCountry;
                                   var music__operatorCountryId : int&)
   music__operatorCountryId = get_operator_country_id(string(evt.country))
-
-
-y_id(string(evt.country))
 
 

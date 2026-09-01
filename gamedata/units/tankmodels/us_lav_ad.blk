@@ -3387,7 +3387,6 @@
       ]
     },
     "ammo3": {
-      "removeLoadedAmmo": false,
       "weaponTrigger": "gunner3",
       "fatalFire": true,
       "fatalExplosion": true,
@@ -3995,6 +3994,10 @@
       "details_07",
       "details_08",
       "details_09",
+      "details_10"
+    ]
+  }
+}",
       "details_10"
     ]
   }

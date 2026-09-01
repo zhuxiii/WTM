@@ -1,7 +1,7 @@
 {
   "model": "f_84b",
   "fmFile": "fm/f-84b.blk",
-  "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/jet_fighter_metaparts.blk",
+  "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/1x_engine_jet_fighter_metaparts.blk",
   "harmonizationSuffix": "_tomoe",
   "useTouchTargeting": true,
   "gyroSight": true,
@@ -2710,7 +2710,7 @@
       }
     ]
   }
-} "to": "f_84b_c_tomoe*"
+}84b_c_tomoe*"
       },
       {
         "from": "f_84b_n*",

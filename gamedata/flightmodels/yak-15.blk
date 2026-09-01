@@ -1,6 +1,6 @@
 {
   "model": "yak_15",
-  "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/jet_fighter_metaparts.blk",
+  "MetaPartsBlk": "gameData/FlightModels/dm/metaparts/1x_engine_jet_fighter_metaparts.blk",
   "useTouchTargeting": true,
   "gyroSight": false,
   "type": "typeFighter",
@@ -2047,7 +2047,7 @@
       }
     ]
   }
-}"cutting": {
+} {
     "_emtr_break_wing0_l_from": [
       -0.267275,
       -0.0133164,

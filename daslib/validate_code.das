@@ -50,7 +50,7 @@ def check_recursive(at : LineInfo; var fun : Function?) {
 def collect_call_tree(fun : Function?; var visited : table<Function?>) {
     if (fun.flags.builtIn || visited |> key_exists(fun)) return
     visited |> insert(fun)
-    unsafe(reinterpret<FunctionPtr> fun) |> get_use_functions() $(f) {
+    unsafe(reinterpret<FunctionPtr>(fun)) |> get_use_functions() $(f) {
         collect_call_tree(f, visited)
     }
 }
@@ -100,9 +100,6 @@ class ValidateCompletionVisitor : AstVisitor {
 
 [function_macro(name="verify_completion")]
 class VerifyCompletion : AstFunctionAnnotation {
-    
-    
-    
     
     def override lint(var func : FunctionPtr; var group : ModuleGroup; args, progArgs : AnnotationArgumentList; var errors : das_string) : bool {
         var visited : table<Function?>
@@ -180,6 +177,9 @@ class JIT_LLVM : AstSimulateMacro {
 def init_shader_like {
     if (is_compiling_macros_in_module("validate_code")) {
         this_module() |> add_module_option("shader_like", Type.tBool)
+    }
+}
+l)
     }
 }
 

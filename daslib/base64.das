@@ -119,6 +119,7 @@ def base64_decode(inp : array<uint8> | #; var out : array<uint8>) : int {
     return j
 }
 
+[temp_string_result]
 def public base64_encode(_inp : string) {
     
     var res : string
@@ -161,7 +162,6 @@ def public base64_encode(inp : array<uint8> | #) {
     return string(out)
 }
 
-lif ((i % 3) == 1) {
         out[j++] = uint8(base64en[(uint(inp[i]) & 0xF) << 2u])
         out[j++] = uint8('=')
     }

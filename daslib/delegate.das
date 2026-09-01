@@ -22,7 +22,6 @@ module delegate shared private
 
 require daslib/macro_boost
 require daslib/typemacro_boost
-require strings
 
 
 
@@ -294,6 +293,9 @@ def public delegate(macroArgument, passArgument : TypeDeclPtr; FuncType : TypeDe
     }
 
     return resType
+}
+
+rn resType
 }
 
 template_instance(resType.structType, template_struct, extra_template_arguments)

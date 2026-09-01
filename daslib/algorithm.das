@@ -36,7 +36,7 @@ def sort_unique(var a : array<auto(TT)>) {
     sort(a)
     var b <- unique(a)
     delete a
-    a <- b
+    a <- b   
 }
 
 def reverse(var a : array<auto>) {
@@ -656,7 +656,7 @@ def is_subset(a, b : table<auto(TT)>) : bool {
     }
     return true
 }
-exists(k)) {
+ists(k)) {
             result |> insert(k)
         }
     }

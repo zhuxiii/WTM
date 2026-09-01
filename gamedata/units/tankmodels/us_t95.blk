@@ -1156,7 +1156,7 @@
           -0.756,
           0.0,
           2.0,
-          0.85,
+          1.0,
           0.428,
           0.244
         ]
@@ -2534,7 +2534,7 @@
   "battleHideNodes": {
     "n": "details"
   }
-}        "to": "us_camo_winter_olive*"
+}}        "to": "us_camo_winter_olive*"
       }
     },
     {

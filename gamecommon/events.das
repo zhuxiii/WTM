@@ -11,6 +11,7 @@ require %game.unit.extinguish_system_events
 require %game.unit.aircraft_events
 require %game.unit.ship_events
 require %game.unit.unit_proximity_damage_events
+require %game.sound.sound_events
 require Weapon
 require DaWeapons
 require PropsManager
@@ -269,20 +270,6 @@ struct CmdLoadAmmo
   ammoNum : int
 
 
-[event(unicast, routing=ROUTING_CLIENT_CONTROLLED_ENTITY_TO_SERVER)]
-struct RequestMultipleGunsSlotEquipGun
-  gunEid : EntityId
-  slot : int
-
-[event(unicast, routing=ROUTING_CLIENT_CONTROLLED_ENTITY_TO_SERVER)]
-struct RequestMultipleGunsSlotSelectGun
-  gunEid : EntityId
-  slot : int
-
-[event(unicast, routing=ROUTING_CLIENT_CONTROLLED_ENTITY_TO_SERVER)]
-struct RequestMultipleGunsSlotEquipNextGun
-  slot : int
-
 [event(unicast, routing=ROUTING_SERVER_TO_CLIENT)]
 struct CmdSelectWeaponSlot
   slot : uint8
@@ -476,6 +463,24 @@ struct EventUnitToUnitCollision
 [event(unicast, routing=ROUTING_SERVER_TO_CLIENT)]
 struct CmdShowHitMark
   victim : EntityId
+  collNodeId : int
+  armorEfficiency : float
+  damageToArmorPercent : float
+  hitResult : int
+
+[cpp_event(unicast, with_scheme)]
+struct CmdTrySpawnSlave {}
+
+[cpp_event(broadcast)]
+struct EventEntityManagerBeforeClear {}
+
+[cpp_event(broadcast)]
+struct EventGameObjectsCreated
+  game_objects : EntityId
+
+[cpp_event(broadcast, with_scheme)]
+struct EventEcsMissionLoaded {}
+Id
   collNodeId : int
   armorEfficiency : float
   damageToArmorPercent : float
