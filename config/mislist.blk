@@ -62,7 +62,8 @@
         "pacific_island_small_NTdm",
         "scotland_NTdm",
         "ships_graveyard_NTdm",
-        "white_rocks_NTdm"
+        "white_rocks_NTdm",
+        "african_gulf_NTdm"
       ]
     },
     "debug_air": {},
@@ -74,8 +75,7 @@
       "m": "small_mission"
     }
   }
-}   "rheinland_Dom",
-        "stalingrad_factory_Dom",
+}stalingrad_factory_Dom",
         "vietnam_hills_Dom",
         "container_port_Dom1"
       ]
