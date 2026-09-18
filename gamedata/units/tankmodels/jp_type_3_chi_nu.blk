@@ -2159,34 +2159,73 @@
       "blk": "gameData/units/tankModels/weaponPresets/jp_type_3_chi_nu_default.blk"
     }
   },
-  "ammoLoadDistribution": {
-    "primaryShells": {
-      "ammo_turret_dm": {
-        "count": 6
-      },
-      "ammo_turret_01_dm": {
-        "count": 6
-      },
-      "ammo_turret_02_dm": {
-        "count": 6
-      },
-      "ammo_turret_03_dm": {
-        "count": 6
-      },
-      "ammo_turret_04_dm": {
-        "count": 6
-      },
-      "ammo_turret_05_dm": {
-        "count": 6
-      },
-      "ammo_body_01_dm": {
-        "count": 7
-      },
-      "ammo_body_02_dm": {
-        "count": 7
-      },
-      "ammo_body_03_dm": {
-        "count": 5
+  "ammoStowages": {
+    "ammo1": {
+      "removeLoadedAmmo": false,
+      "weaponTrigger": "gunner0",
+      "fatalFire": true,
+      "fatalExplosion": true,
+      "shells": {
+        "ammo_turret_01_dm": {
+          "count": 4
+        },
+        "ammo_turret_02_dm": {
+          "count": 4
+        },
+        "ammo_turret_03_dm": {
+          "count": 4
+        },
+        "ammo_turret_04_dm": {
+          "count": 4
+        },
+        "ammo_turret_05_dm": {
+          "count": 3
+        },
+        "ammo_turret_06_dm": {
+          "count": 3
+        },
+        "ammo_turret_07_dm": {
+          "count": 3
+        },
+        "ammo_turret_08_dm": {
+          "count": 3
+        },
+        "ammo_turret_09_dm": {
+          "count": 3
+        },
+        "ammo_turret_10_dm": {
+          "count": 3
+        },
+        "ammo_turret_11_dm": {
+          "count": 3
+        },
+        "ammo_turret_12_dm": {
+          "count": 3
+        },
+        "ammo_body_01_dm": {
+          "count": 4
+        },
+        "ammo_body_02_dm": {
+          "count": 4
+        },
+        "ammo_body_03_dm": {
+          "count": 4
+        },
+        "ammo_body_04_dm": {
+          "count": 4
+        },
+        "ammo_body_05_dm": {
+          "count": 4
+        },
+        "ammo_body_06_dm": {
+          "count": 3
+        },
+        "ammo_body_07_dm": {
+          "count": 4
+        },
+        "ammo_body_08_dm": {
+          "count": 3
+        }
       }
     }
   },
@@ -2293,48 +2332,7 @@
       "decal0Tex": "flag_japan"
     }
   }
-}0kmph": 0.0,
-        "errTargetting": 3.0,
-        "forestallTime": 0.1,
-        "turret": {
-          "head": "bone_mg_aa_h_01",
-          "gun": "bone_mg_aa_v_01",
-          "gunnerDm": "commander_dm"
-        },
-        "limits": {
-          "yaw": [
-            -60.0,
-            60.0
-          ],
-          "pitch": [
-            -10.0,
-            70.0
-          ]
-        }
-      }
-    ],
-    "hideNodes": {
-      "node": "ex_smoke_01"
-    }
-  },
-  "weapon_presets": {
-    "preset": {
-      "name": "jp_type_3_chi_nu_default",
-      "blk": "gameData/units/tankModels/weaponPresets/jp_type_3_chi_nu_default.blk"
-    }
-  },
-  "ammoLoadDistribution": {
-    "primaryShells": {
-      "ammo_turret_dm": {
-        "count": 6
-      },
-      "ammo_turret_01_dm": {
-        "count": 6
-      },
-      "ammo_turret_02_dm": {
-        "count": 6
-      },
-      "ammo_turret_03_dm": {
+}": {
         "count": 6
       },
       "ammo_turret_04_dm": {
