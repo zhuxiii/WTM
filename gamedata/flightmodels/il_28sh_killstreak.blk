@@ -1994,7 +1994,7 @@
     }
   },
   "WeaponSlots": {
-    "maxloadMass": 3010.0,
+    "maxloadMass": 3120.0,
     "maxloadMassLeftConsoles": 1520.0,
     "maxloadMassRightConsoles": 1520.0,
     "maxDisbalance": 1250.0,
@@ -2359,22 +2359,6 @@
               "external": true,
               "separate": true
             }
-          },
-          {
-            "iconType": "napalm_large",
-            "name": "zb500",
-            "reqModification": "zb_500",
-            "ShowNodes": {
-              "node": "il_28_pylon_011"
-            },
-            "Weapon": {
-              "trigger": "bombs",
-              "blk": "gameData/Weapons/bombGuns/su_zb_500.blk",
-              "emitter": "su_fab250_017",
-              "bullets": 1,
-              "external": true,
-              "separate": true
-            }
           }
         ]
       },
@@ -2437,22 +2421,6 @@
             }
           },
           {
-            "iconType": "napalm_large",
-            "name": "zb500",
-            "reqModification": "zb_500",
-            "ShowNodes": {
-              "node": "il_28_pylon_001"
-            },
-            "Weapon": {
-              "trigger": "bombs",
-              "blk": "gameData/Weapons/bombGuns/su_zb_500.blk",
-              "emitter": "su_fab250_009",
-              "bullets": 1,
-              "external": true,
-              "separate": true
-            }
-          },
-          {
             "iconType": "gun_12mm",
             "name": "upk",
             "reqModification": "il_28sh_upk23_gunpod",
@@ -2493,6 +2461,7 @@
           {
             "iconType": "bomb_100kg_group",
             "name": "fab100_x12",
+            "isDefault": true,
             "Weapon": [
               {
                 "trigger": "bombs",
@@ -2762,22 +2731,6 @@
             }
           },
           {
-            "iconType": "napalm_large",
-            "name": "zb500",
-            "reqModification": "zb_500",
-            "ShowNodes": {
-              "node": "il_28_pylon_002"
-            },
-            "Weapon": {
-              "trigger": "bombs",
-              "blk": "gameData/Weapons/bombGuns/su_zb_500.blk",
-              "emitter": "su_fab250_010",
-              "bullets": 1,
-              "external": true,
-              "separate": true
-            }
-          },
-          {
             "iconType": "gun_12mm",
             "name": "upk",
             "reqModification": "il_28sh_upk23_gunpod",
@@ -2861,22 +2814,6 @@
             "Weapon": {
               "trigger": "bombs",
               "blk": "gameData/Weapons/bombGuns/su_fab_250m_46.blk",
-              "emitter": "su_fab250_018",
-              "bullets": 1,
-              "external": true,
-              "separate": true
-            }
-          },
-          {
-            "iconType": "napalm_large",
-            "name": "zb500",
-            "reqModification": "zb_500",
-            "ShowNodes": {
-              "node": "il_28_pylon_012"
-            },
-            "Weapon": {
-              "trigger": "bombs",
-              "blk": "gameData/Weapons/bombGuns/su_zb_500.blk",
               "emitter": "su_fab250_018",
               "bullets": 1,
               "external": true,
@@ -4801,6 +4738,119 @@
           "su_upk_ub_pylon_010",
           "il_28_pylon_010",
           "ub_57_16_b010",
+          "su_upk_ub_pylon_012",
+          "il_28_pylon_012",
+          "ub_57_16_b012"
+        ]
+      }
+    ]
+  },
+  "balanceData": {
+    "accSpd": 4.03451,
+    "climbSpeed": 20.0,
+    "maxSpeed": 240.27,
+    "turnTime": 28.1492
+  },
+  "modifications": {},
+  "cutting": {
+    "_emtr_break_wing0_l_from": [
+      -1.59483,
+      0.573293,
+      1.40752
+    ],
+    "_emtr_break_wing0_l_to": [
+      -1.59483,
+      0.573293,
+      2.41209
+    ],
+    "emtr_break_wing1_l_from": [
+      -1.59483,
+      0.573293,
+      4.37478
+    ],
+    "emtr_break_wing1_l_to": [
+      -1.59483,
+      0.573293,
+      5.54002
+    ],
+    "emtr_break_wing2_l_from": [
+      -1.59483,
+      0.573293,
+      7.37948
+    ],
+    "emtr_break_wing2_l_to": [
+      -1.59483,
+      0.573293,
+      8.67743
+    ],
+    "_emtr_break_wing0_r_from": [
+      -1.59483,
+      0.573293,
+      -1.40752
+    ],
+    "_emtr_break_wing0_r_to": [
+      -1.59483,
+      0.573293,
+      -2.41209
+    ],
+    "emtr_break_wing1_r_from": [
+      -1.59483,
+      0.573293,
+      -4.37478
+    ],
+    "emtr_break_wing1_r_to": [
+      -1.59483,
+      0.573293,
+      -5.54002
+    ],
+    "emtr_break_wing2_r_from": [
+      -1.59483,
+      0.573293,
+      -7.37948
+    ],
+    "emtr_break_wing2_r_to": [
+      -1.59483,
+      0.573293,
+      -8.67743
+    ],
+    "emtr_break_wing_tail": [
+      -5.82709,
+      0.0,
+      0.0
+    ],
+    "finCut": false,
+    "emtr_break_stab_l_from": [
+      -7.46015,
+      1.47939,
+      0.74572
+    ],
+    "emtr_break_stab_l_to": [
+      -7.46015,
+      1.47939,
+      2.98288
+    ],
+    "emtr_break_stab_r_from": [
+      -7.46015,
+      1.47939,
+      -0.745721
+    ],
+    "emtr_break_stab_r_to": [
+      -7.46015,
+      1.47939,
+      -2.98288
+    ],
+    "emtr_break_fin_from": [
+      -7.18654,
+      1.21616,
+      -0.000173773
+    ],
+    "emtr_break_fin_to": [
+      -7.18654,
+      3.42164,
+      -0.000173773
+    ]
+  }
+}10",
           "su_upk_ub_pylon_012",
           "il_28_pylon_012",
           "ub_57_16_b012"

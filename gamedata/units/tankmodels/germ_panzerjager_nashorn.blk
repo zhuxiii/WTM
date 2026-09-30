@@ -2977,18 +2977,7 @@
     "machinegun_belt_stealth": {},
     "art_support_smoke": {},
     "art_support_mortars": {},
-    "art_support_highcaliber": {},
-    "ostketten_tank_tracks": {
-      "disableModEffects": {
-        "hideNodes": {
-          "node": [
-            "track_l_01",
-            "track_r_01"
-          ]
-        }
-      }
-    },
-    "tank_additional_armor": {}
+    "art_support_highcaliber": {}
   },
   "vehicleSkins": {
     "forest": {
@@ -3302,6 +3291,17 @@
         0.358419
       ],
       "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.215669,
+      "decal0Tex": "back_16"
+    }
+  },
+  "battleHideNodes": {
+    "n": "details"
+  }
+}ed": false,
       "decal0Wrap": false,
       "decal0Abs": true,
       "decal0OppositeMirrored": false,

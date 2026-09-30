@@ -2679,45 +2679,7 @@
     "tank_tool_kit_expendable": {},
     "art_support_smoke": {},
     "art_support_mortars": {},
-    "art_support_highcaliber": {},
-    "ostketten_tank_tracks": {
-      "invertEnableLogic": false,
-      "turn_it_off": false,
-      "effects": {
-        "mulFrontalStaticFriction": 1.02,
-        "mulFrontalSlidingFriction": 1.05,
-        "mulSideRotMinSpd": 1.05,
-        "mulSideRotMaxSpd": 1.05,
-        "mulSideRotMinFric": 0.95,
-        "mulSideRotMaxFric": 0.95,
-        "hideNodes": {
-          "node": [
-            "track_l",
-            "track_r"
-          ]
-        },
-        "tracks": {
-          "width": 0.56,
-          "trackMesh": "ger_ostketten_phys_track_line",
-          "nonSymmetricMesh": true
-        },
-        "damagePartsOverride": {
-          "tracks": {
-            "hpMult": 1.2,
-            "track_l_01_dm": {},
-            "track_r_01_dm": {}
-          }
-        }
-      },
-      "disableModEffects": {
-        "hideNodes": {
-          "node": [
-            "track_l_01",
-            "track_r_01"
-          ]
-        }
-      }
-    }
+    "art_support_highcaliber": {}
   },
   "default_skin": {
     "replace_tex": [
@@ -2740,6 +2702,48 @@
     "default": {
       "skin_condition": 100.0,
       "camo_scale": 0.0,
+      "camo_rotation": 0.0
+    }
+  },
+  "vehicleSkins": {
+    "forest": {
+      "replace_tex": [
+        {
+          "from": "ger_camo_dunkelgelb*",
+          "to": "ger_camo_dunkelgelb*"
+        },
+        {
+          "from": "sturmpanzer_iv_brummbar_skin_hw_body_c*",
+          "to": "sturmpanzer_iv_brummbar_body_c*"
+        },
+        {
+          "from": "sturmpanzer_iv_brummbar_skin_hw_gun_c*",
+          "to": "sturmpanzer_iv_brummbar_gun_c*"
+        }
+      ],
+      "set_tex": {
+        "from": "sturmpanzer_iv_brummbar_addarmor_c*",
+        "to": "sturmpanzer_iv_brummbar_noskin_hw_addarmor_c*",
+        "param": "camo_skin_tex"
+      }
+    }
+  },
+  "battleHideNodes": {
+    "n": [
+      "details",
+      "details_01",
+      "details_02",
+      "details_03",
+      "details_04",
+      "details_05",
+      "details_06",
+      "details_07",
+      "details_08",
+      "details_09",
+      "details_10"
+    ]
+  }
+}cale": 0.0,
       "camo_rotation": 0.0
     }
   },
