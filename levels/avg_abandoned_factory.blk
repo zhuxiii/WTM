@@ -121,7 +121,8 @@
   },
   "clustered_lights": {
     "enabled": false,
-    "maxClusteredDist": 3000.0
+    "maxClusteredDist": 3000.0,
+    "waterReflectionLights": true
   },
   "stars": {
     "latitude": 52.0,
@@ -780,11 +781,7 @@
       "hangar_sound_ships": "new_hangar/hangar_ships_xmas"
     }
   }
-}   }
-  }
-}500.0
-    },
-    "tree_sea_bush_e": {
+}sea_bush_e": {
       "lod0": 200.0,
       "lod1": 1500.0
     },

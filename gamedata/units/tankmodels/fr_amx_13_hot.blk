@@ -2732,7 +2732,6 @@
     "art_support_highcaliber": {},
     "tank_smoke_screen_low_cooldown": {},
     "tank_smoke_screen_long_duration": {},
-    "tank_additional_armor": {},
     "tank_smoke_screen_system_mod": {
       "tier": 3,
       "effects": {
@@ -3004,6 +3003,10 @@
       "replace_tex": {
         "from": "fr_camo_vert_olive_arme*",
         "to": "tl_camo_usa_colors*"
+      }
+    }
+  }
+}_usa_colors*"
       }
     }
   }

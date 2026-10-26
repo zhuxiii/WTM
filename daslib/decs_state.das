@@ -74,7 +74,6 @@ class ContextStateAgent : DapiDebugAgent {
             report_to_debugger(ctx, "DECS archetype", "{arq.hash}", arq)
             delete arq
         }
-        
         for (eq in decsState.ecsQueries) {
             var prq = EcsRequestView(file = eq.at.file, line = int(eq.at.line), hash = eq.hash)
             if (!empty(eq.req)) {
@@ -103,6 +102,8 @@ def private auto_start_decs_state() {
             fork_debug_agent_context(@@decs_state_agent)
         }
     }
+}
+   }
 }
 t]
 def private auto_start_decs_state() {

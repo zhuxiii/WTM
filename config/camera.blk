@@ -2822,7 +2822,6 @@
       },
       "shot5": {
         "focus": true,
-        "showFx": true,
         "points": {
           "p1": [
             {
@@ -4177,6 +4176,10 @@
         "to": "tps_ground",
         "smooth": true,
         "blur": false
+      }
+    ]
+  }
+}alse
       }
     ]
   }

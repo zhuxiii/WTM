@@ -3173,7 +3173,6 @@
     "detectionHeight": 2.71
   },
   "modifications": {
-    "tank_additional_armor": {},
     "art_support": {},
     "tank_extinguisher": {},
     "tank_tool_kit_expendable": {},
@@ -3459,6 +3458,9 @@
     }
   },
   "battleHideNodes": {
+    "n": "details"
+  }
+}odes": {
     "n": "details"
   }
 }

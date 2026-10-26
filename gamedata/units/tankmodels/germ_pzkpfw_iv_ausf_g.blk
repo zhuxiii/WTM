@@ -2930,6 +2930,8 @@
         "changeMass": -150.0,
         "hideNodes": {
           "node": [
+            "ex_armor_body_01",
+            "ex_armor_body_02",
             "ex_armor_body_r_04",
             "ex_armor_body_r_05",
             "ex_armor_body_l_03"
@@ -3054,10 +3056,7 @@
       "decal1Tex": "back_16"
     }
   }
-}  "skin": [
-    {
-      "name": "green",
-      "nameLocId": "skin/ger_camo_dunkelgelb_green",
+}n/ger_camo_dunkelgelb_green",
       "descLocId": "skin/ger_camo_dunkelgelb_green/desc",
       "replace_tex": {
         "from": "ger_camo_dunkelgelb*",

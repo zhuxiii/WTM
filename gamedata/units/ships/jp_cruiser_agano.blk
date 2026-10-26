@@ -2190,7 +2190,6 @@
           4
         ],
         "emitterGenFmt": "bone_torpedo_%02d",
-        "ammoDpGenFmt": "torpedo_%02d_dm",
         "startFx": "start_torpedo",
         "startFxOffset": [
           4.0,
@@ -2245,7 +2244,6 @@
           8
         ],
         "emitterGenFmt": "bone_torpedo_%02d",
-        "ammoDpGenFmt": "torpedo_%02d_dm",
         "startFx": "start_torpedo",
         "startFxOffset": [
           4.0,
@@ -3651,7 +3649,6 @@
                 4
               ],
               "emitterGenFmt": "bone_torpedo_%02d",
-              "ammoDpGenFmt": "torpedo_%02d_dm",
               "startFx": "start_torpedo",
               "startFxOffset": [
                 4.0,
@@ -3706,7 +3703,6 @@
                 8
               ],
               "emitterGenFmt": "bone_torpedo_%02d",
-              "ammoDpGenFmt": "torpedo_%02d_dm",
               "startFx": "start_torpedo",
               "startFxOffset": [
                 4.0,
@@ -5109,7 +5105,6 @@
                 4
               ],
               "emitterGenFmt": "bone_torpedo_%02d",
-              "ammoDpGenFmt": "torpedo_%02d_dm",
               "startFx": "start_torpedo",
               "startFxOffset": [
                 4.0,
@@ -5164,7 +5159,6 @@
                 8
               ],
               "emitterGenFmt": "bone_torpedo_%02d",
-              "ammoDpGenFmt": "torpedo_%02d_dm",
               "startFx": "start_torpedo",
               "startFxOffset": [
                 4.0,
@@ -5750,6 +5744,24 @@
     "default": {
       "skin_condition": 100.0,
       "camo_scale": -20.0,
+      "camo_rotation": 12.0
+    }
+  },
+  "vehicleSkins": {
+    "factory": {
+      "replace_tex": [
+        {
+          "from": "camo_b15*",
+          "to": "camo_b15*"
+        },
+        {
+          "from": "camo_rot_5*",
+          "to": "camo_rot_5*"
+        }
+      ]
+    }
+  }
+}
       "camo_rotation": 12.0
     }
   },

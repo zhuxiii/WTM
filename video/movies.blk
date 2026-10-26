@@ -1,6 +1,6 @@
 {
-  "intro": {
-    "movie": {
+  "intro": {}
+}  "movie": {
       "file": "video/gaijin_logo.blk",
       "minTime": 1000,
       "win32": false,

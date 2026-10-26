@@ -213,7 +213,7 @@ struct EventOnUnitDead
 [cpp_event(broadcast, with_scheme)]
 struct EventRendInstDestroyed
   pos : float3
-  riType : uint
+  riexHandle : uint64
 
 [cpp_event(unicast, with_scheme, routing=ROUTING_CLIENT_TO_SERVER)]
 struct CmdActionInRespawn {}
@@ -402,6 +402,9 @@ struct CmdTurnOffSingleReloadInterruptByHold {}
 [event(unicast)]
 struct EventHumanStartedReload {}
 
+[cpp_event(unicast)]
+struct EventSegPhysLoaded {}
+
 [event(broadcast)]
 struct CmdUIShowWeaponsBlock {}
 
@@ -480,10 +483,7 @@ struct EventGameObjectsCreated
 
 [cpp_event(broadcast, with_scheme)]
 struct EventEcsMissionLoaded {}
-Id
-  collNodeId : int
-  armorEfficiency : float
-  damageToArmorPercent : float
+oArmorPercent : float
   hitResult : int
 
 [cpp_event(unicast, with_scheme)]

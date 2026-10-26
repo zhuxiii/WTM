@@ -8,11 +8,11 @@ require DagorSystem
 [init]
 def load
   var ok = true
-  if is_in_aot() || (get_DAGOR_DBGLEVEL() > 0 && get_TARGET_PC() != 0 && find_index(get_command_line_arguments(), "--das-no-linter") == -1)
+  if is_in_aot() || (get_DAGOR_DBGLEVEL() > 0 && get_TARGET_PC() != 0 && get_DAECS_EXTENSIVE_CHECKS() != 0 && find_index(get_command_line_arguments(), "--das-no-linter") == -1)
     ok = load_das_linter("%game/linter/linter.das") && ok
   if is_in_aot()
     assert(ok)
-EL() > 0 && is_pc() && find_index(get_command_line_arguments(), "--das-no-linter") == -1)
+_command_line_arguments(), "--das-no-linter") == -1)
     ok = load_das_linter("%game/linter/linter.das") && ok
   if is_in_aot()
     assert(ok)

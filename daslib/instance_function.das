@@ -19,7 +19,7 @@ require daslib/defer
 [function_macro(name="instance_function")]
 class InstanceFunctionAnnotation : AstFunctionAnnotation {
     
-    def override apply(var func : FunctionPtr; var group : ModuleGroup; args : AnnotationArgumentList; var errors : das_string) : bool {
+    def override apply(var func : FunctionPtr; var group : ModuleGroup; var args : AnnotationArgumentList; var errors : das_string) : bool {
         var generic_name = ""
         var rules : Template
         for (argv in args) {
@@ -51,7 +51,7 @@ class InstanceFunctionAnnotation : AstFunctionAnnotation {
         return true
     }
 }
-at, func.body)
+func.body)
         return true
     }
 }

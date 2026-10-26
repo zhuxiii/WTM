@@ -2829,41 +2829,7 @@
     "art_support_smoke": {},
     "art_support_mortars": {},
     "art_support_highcaliber": {},
-    "tank_smoke_screen_smoke_shell": {},
-    "tank_additional_armor": {
-      "invertEnableLogic": true,
-      "turn_it_off": false,
-      "effects": {
-        "changeMass": -650.0,
-        "hideNodes": {
-          "node": [
-            "ex_armor_body_01",
-            "ex_armor_body_02",
-            "ex_armor_body_03",
-            "ex_armor_body_r_01",
-            "ex_armor_body_r_02",
-            "ex_armor_body_r_03",
-            "ex_armor_body_r_04",
-            "ex_armor_body_r_05",
-            "ex_armor_body_r_06",
-            "ex_armor_body_r_07",
-            "ex_armor_body_l_01",
-            "ex_armor_body_l_02",
-            "ex_armor_body_l_03",
-            "ex_armor_body_l_04",
-            "ex_armor_body_l_05",
-            "ex_armor_body_l_06",
-            "ex_armor_body_l_07",
-            "ex_armor_turret_r_01",
-            "ex_armor_turret_r_02",
-            "ex_armor_turret_r_03",
-            "ex_armor_turret_l_01",
-            "ex_armor_turret_l_02",
-            "ex_armor_turret_l_03"
-          ]
-        }
-      }
-    }
+    "tank_smoke_screen_smoke_shell": {}
   },
   "default_skin": {
     "replace_tex": {
@@ -2887,6 +2853,58 @@
   "upgradedDecals": {
     "upgraded": {
       "skin_condition": 100.0,
+      "camo_scale": 0.0,
+      "camo_rotation": 0.0,
+      "decal0Line0": [
+        -1.65273,
+        -7.79539e-8,
+        0.556162,
+        0.417824
+      ],
+      "decal0Line1": [
+        0.129744,
+        -1.69569,
+        0.385557,
+        4.12483
+      ],
+      "decal0Line2": [
+        1.65273,
+        -6.49616e-8,
+        0.556162,
+        0.582176
+      ],
+      "decal0Line3": [
+        0.129744,
+        -1.69569,
+        -0.385557,
+        4.12483
+      ],
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        0.310137,
+        0.233285,
+        0.921625,
+        -1.43706
+      ],
+      "decal0CPNormDepth1": [
+        0.310137,
+        0.233285,
+        -0.921625,
+        -1.43706
+      ],
+      "decal0RotScale": [
+        1.5708,
+        0.57346
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": false,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.305654,
+      "decal0Tex": "jp_4th_bat_4th_div"
+    }
+  }
+}dition": 100.0,
       "camo_scale": 0.0,
       "camo_rotation": 0.0,
       "decal0Line0": [

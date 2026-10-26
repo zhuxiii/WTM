@@ -2,7 +2,6 @@
   "fast_grass_settings": {
     "_singleton": true,
     "_use": "replicating",
-    "_tags": "render",
     "_group": [
       {
         "_track": true,
@@ -217,6 +216,10 @@
           90,
           255
         ]
+      }
+    ]
+  }
+}  ]
       }
     ]
   }

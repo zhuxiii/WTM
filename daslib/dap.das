@@ -115,7 +115,6 @@ struct DataBreakpointInfoResponse {
     
     dataId : string 
     description : string 
-    
 }
 
 
@@ -442,6 +441,8 @@ def job(val : JsonValue?; id : string; defVal = false) : bool {
         }
     }
     return res
+}
+
 }
 alue as _object, id) $(v) {
         if (v.value is _bool) {

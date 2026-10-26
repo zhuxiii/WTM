@@ -1346,7 +1346,6 @@
           5
         ],
         "emitterGenFmt": "bone_torpedo_%02d",
-        "ammoDpGenFmt": "torpedo_%02d_dm",
         "startFx": "start_torpedo",
         "startFxOffset": [
           4.0,
@@ -1425,7 +1424,6 @@
           10
         ],
         "emitterGenFmt": "bone_torpedo_%02d",
-        "ammoDpGenFmt": "torpedo_%02d_dm",
         "startFx": "start_torpedo",
         "startFxOffset": [
           4.0,
@@ -2074,7 +2072,6 @@
                 5
               ],
               "emitterGenFmt": "bone_torpedo_%02d",
-              "ammoDpGenFmt": "torpedo_%02d_dm",
               "startFx": "start_torpedo",
               "startFxOffset": [
                 4.0,
@@ -2153,7 +2150,6 @@
                 10
               ],
               "emitterGenFmt": "bone_torpedo_%02d",
-              "ammoDpGenFmt": "torpedo_%02d_dm",
               "startFx": "start_torpedo",
               "startFxOffset": [
                 4.0,
@@ -2799,7 +2795,6 @@
                 5
               ],
               "emitterGenFmt": "bone_torpedo_%02d",
-              "ammoDpGenFmt": "torpedo_%02d_dm",
               "startFx": "start_torpedo",
               "startFxOffset": [
                 4.0,
@@ -2878,7 +2873,6 @@
                 10
               ],
               "emitterGenFmt": "bone_torpedo_%02d",
-              "ammoDpGenFmt": "torpedo_%02d_dm",
               "startFx": "start_torpedo",
               "startFxOffset": [
                 4.0,
@@ -3657,6 +3651,22 @@
     "arcade": {
       "shipRudderAreaMult": 1.0,
       "tankRearmOnCaptureZone": true
+    }
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": [
+      {
+        "from": "camo_hazegray*",
+        "to": "camo_violetgray_geometry*"
+      },
+      {
+        "from": "camo_rot_5*",
+        "to": "camo_inside_white*"
+      }
+    ]
+  }
+}aptureZone": true
     }
   },
   "upgraded_skin": {

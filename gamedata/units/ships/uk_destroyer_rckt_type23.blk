@@ -785,7 +785,6 @@
           2
         ],
         "emitterGenFmt": "bone_torpedo_%02d",
-        "ammoDpGenFmt": "torpedo_%02d_dm",
         "isSharedAmmoOnTriggerGroup": true,
         "startFx": "start_torpedo",
         "startFxOffset": [
@@ -830,7 +829,6 @@
           4
         ],
         "emitterGenFmt": "bone_torpedo_%02d",
-        "ammoDpGenFmt": "torpedo_%02d_dm",
         "startFx": "start_torpedo",
         "startFxOffset": [
           4.0,
@@ -1375,7 +1373,6 @@
                 2
               ],
               "emitterGenFmt": "bone_torpedo_%02d",
-              "ammoDpGenFmt": "torpedo_%02d_dm",
               "isSharedAmmoOnTriggerGroup": true,
               "startFx": "start_torpedo",
               "startFxOffset": [
@@ -1420,7 +1417,6 @@
                 4
               ],
               "emitterGenFmt": "bone_torpedo_%02d",
-              "ammoDpGenFmt": "torpedo_%02d_dm",
               "startFx": "start_torpedo",
               "startFxOffset": [
                 4.0,
@@ -1949,7 +1945,6 @@
                 2
               ],
               "emitterGenFmt": "bone_torpedo_%02d",
-              "ammoDpGenFmt": "torpedo_%02d_dm",
               "isSharedAmmoOnTriggerGroup": true,
               "startFx": "start_torpedo",
               "startFxOffset": [
@@ -1994,7 +1989,6 @@
                 4
               ],
               "emitterGenFmt": "bone_torpedo_%02d",
-              "ammoDpGenFmt": "torpedo_%02d_dm",
               "startFx": "start_torpedo",
               "startFxOffset": [
                 4.0,
@@ -2933,6 +2927,23 @@
   "difficulty": {
     "arcade": {
       "shipRudderAreaMult": 1.0,
+      "tankRearmOnCaptureZone": true
+    }
+  },
+  "battleHideNodes": {
+    "n": [
+      "portholes",
+      "details"
+    ]
+  },
+  "upgraded_skin": {
+    "name": "prem_camo",
+    "replace_tex": {
+      "from": "camo_navygrey_5*",
+      "to": "camo_greygreen_curves*"
+    }
+  }
+}1.0,
       "tankRearmOnCaptureZone": true
     }
   },

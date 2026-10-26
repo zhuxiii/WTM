@@ -1991,22 +1991,26 @@
     "wheel_l_01_dm": {
       "speed": 1.7,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_r_01_dm": {
       "speed": 1.7,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "track_r_dm": {
       "speed": 1.7,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "track_l_dm": {
       "speed": 1.7,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     }
   },
   "unitFx": {
@@ -2488,13 +2492,6 @@
         "skin_condition": 100.0,
         "camo_scale": 0.0,
         "camo_rotation": 0.0
-      }
-    }
-  },
-  "battleHideNodes": {
-    "n": "details"
-  }
-} 0.0
       }
     }
   },

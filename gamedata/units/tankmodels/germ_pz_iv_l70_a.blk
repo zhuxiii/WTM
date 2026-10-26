@@ -2624,6 +2624,25 @@
           }
         }
       }
+    },
+    "tank_additional_armor": {
+      "tier": 4,
+      "modClass": "protection",
+      "invertEnableLogic": true,
+      "turn_it_off": false,
+      "effects": {
+        "rcostAddParam": 1.0405,
+        "changeMass": -450.0,
+        "hideNodes": {
+          "node": [
+            "ex_armor_body_05",
+            "ex_armor_body_l_05",
+            "ex_armor_body_l_06",
+            "ex_armor_body_l_07",
+            "ex_armor_body_r_05"
+          ]
+        }
+      }
     }
   },
   "enabled_modifications": {
@@ -2829,28 +2848,7 @@
       }
     }
   }
-}    "to": "ger_camo_dunkelgelb*"
-      },
-      "decal": {
-        "skin_condition": 100.0,
-        "camo_scale": 0.0,
-        "camo_rotation": 0.0
-      }
-    },
-    "forest2": {
-      "replace_tex": {
-        "from": "ger_camo_dunkelgelb*",
-        "to": "ger_camo_dunkelgelb_green_braun_lines*"
-      },
-      "decal": {
-        "skin_condition": 100.0,
-        "camo_scale": 0.0,
-        "camo_rotation": 0.0
-      }
-    },
-    "winter": {
-      "replace_tex": {
-        "from": "ger_camo_dunkelgelb*",
+}     "from": "ger_camo_dunkelgelb*",
         "to": "ger_camo_winter_lines*"
       },
       "decal": {

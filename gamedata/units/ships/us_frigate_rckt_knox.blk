@@ -833,7 +833,6 @@
         "weaponType": "rockets",
         "emitter": "bone_rocket_06",
         "flash": "bone_rocket_06",
-        "ammoDpGenFmt": "bone_rocket_%02d_dm",
         "emitterGenRange": [
           5,
           8
@@ -894,7 +893,6 @@
         "weaponType": "rockets",
         "emitter": "bone_rocket_09",
         "flash": "bone_rocket_09",
-        "ammoDpGenFmt": "bone_rocket_%02d_dm",
         "emitterGenRange": [
           9,
           12
@@ -1301,7 +1299,6 @@
               "weaponType": "rockets",
               "emitter": "bone_rocket_06",
               "flash": "bone_rocket_06",
-              "ammoDpGenFmt": "bone_rocket_%02d_dm",
               "emitterGenRange": [
                 5,
                 8
@@ -1362,7 +1359,6 @@
               "weaponType": "rockets",
               "emitter": "bone_rocket_09",
               "flash": "bone_rocket_09",
-              "ammoDpGenFmt": "bone_rocket_%02d_dm",
               "emitterGenRange": [
                 9,
                 12
@@ -1757,7 +1753,6 @@
               "weaponType": "rockets",
               "emitter": "bone_rocket_06",
               "flash": "bone_rocket_06",
-              "ammoDpGenFmt": "bone_rocket_%02d_dm",
               "emitterGenRange": [
                 5,
                 8
@@ -1818,7 +1813,6 @@
               "weaponType": "rockets",
               "emitter": "bone_rocket_09",
               "flash": "bone_rocket_09",
-              "ammoDpGenFmt": "bone_rocket_%02d_dm",
               "emitterGenRange": [
                 9,
                 12
@@ -2559,6 +2553,23 @@
     "replace_tex": {
       "from": "camo_navygrey_5*",
       "to": "camo_multicolor_cubes*"
+    }
+  },
+  "vehicleSkins": {
+    "grayriver": {
+      "replace_tex": {
+        "from": "camo_navygrey_5*",
+        "to": "camo_grayriver*"
+      }
+    },
+    "darkgray_blotch": {
+      "replace_tex": {
+        "from": "camo_navygrey_5*",
+        "to": "camo_darkgray_blotch*"
+      }
+    }
+  }
+}_cubes*"
     }
   },
   "vehicleSkins": {

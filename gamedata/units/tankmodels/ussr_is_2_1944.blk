@@ -1709,25 +1709,7 @@
           ]
         }
       }
-    ],
-    "hideNodes": {
-      "node": [
-        "ex_armor_turret_r_01",
-        "ex_armor_turret_r_02",
-        "ex_armor_turret_r_03",
-        "ex_armor_turret_l_01",
-        "ex_armor_turret_l_02",
-        "ex_armor_turret_l_03",
-        "ex_armor_01",
-        "ex_armor_02",
-        "ex_armor_03",
-        "ex_armor_04",
-        "ex_armor_05",
-        "ex_armor_06",
-        "ex_armor_07",
-        "ex_armor_08"
-      ]
-    }
+    ]
   },
   "weapon_presets": {
     "preset": {
@@ -2168,25 +2150,7 @@
                 ]
               }
             }
-          ],
-          "hideNodes": {
-            "node": [
-              "ex_armor_turret_r_01",
-              "ex_armor_turret_r_02",
-              "ex_armor_turret_r_03",
-              "ex_armor_turret_l_01",
-              "ex_armor_turret_l_02",
-              "ex_armor_turret_l_03",
-              "ex_armor_01",
-              "ex_armor_02",
-              "ex_armor_03",
-              "ex_armor_04",
-              "ex_armor_05",
-              "ex_armor_06",
-              "ex_armor_07",
-              "ex_armor_08"
-            ]
-          }
+          ]
         }
       }
     }
@@ -2718,6 +2682,57 @@
     "upgraded": {
       "skin_condition": 100.0,
       "camo_scale": 0.0,
+      "camo_rotation": 0.0,
+      "decal0Line0": [
+        2.64894,
+        -1.24737e-7,
+        0.876899,
+        -2.4136
+      ],
+      "decal0Line1": [
+        0.317153,
+        -2.60142,
+        -0.95806,
+        4.6899
+      ],
+      "decal0Line2": [
+        -2.64894,
+        -1.66316e-7,
+        0.876899,
+        3.4136
+      ],
+      "decal0Line3": [
+        0.317154,
+        -2.60142,
+        0.95806,
+        4.6899
+      ],
+      "decal0HaveCP": true,
+      "decal0CPNormDepth": [
+        0.292991,
+        0.361676,
+        -0.885069,
+        -1.95023
+      ],
+      "decal0CPNormDepth1": [
+        0.292991,
+        0.361676,
+        0.885069,
+        -1.95023
+      ],
+      "decal0RotScale": [
+        1.5708,
+        0.358382
+      ],
+      "decal0Mirrored": false,
+      "decal0Wrap": false,
+      "decal0Abs": true,
+      "decal0OppositeMirrored": false,
+      "decal0WidthBox": 0.273218,
+      "decal0Tex": "back_20"
+    }
+  }
+}e": 0.0,
       "camo_rotation": 0.0,
       "decal0Line0": [
         2.64894,

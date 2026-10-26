@@ -1839,7 +1839,6 @@
           4
         ],
         "emitterGenFmt": "bone_torpedo_%02d",
-        "ammoDpGenFmt": "torpedo_%02d_dm",
         "startFx": "start_torpedo",
         "startFxOffset": [
           4.0,
@@ -2607,7 +2606,6 @@
                 4
               ],
               "emitterGenFmt": "bone_torpedo_%02d",
-              "ammoDpGenFmt": "torpedo_%02d_dm",
               "startFx": "start_torpedo",
               "startFxOffset": [
                 4.0,
@@ -3376,7 +3374,6 @@
                 4
               ],
               "emitterGenFmt": "bone_torpedo_%02d",
-              "ammoDpGenFmt": "torpedo_%02d_dm",
               "startFx": "start_torpedo",
               "startFxOffset": [
                 4.0,
@@ -3667,6 +3664,15 @@
         {
           "from": "camo_warshipdeepgray*",
           "to": "camo_warshipdeepgray*"
+        },
+        {
+          "from": "camo_rot_5*",
+          "to": "camo_rot_5*"
+        }
+      ]
+    }
+  }
+}o": "camo_warshipdeepgray*"
         },
         {
           "from": "camo_rot_5*",

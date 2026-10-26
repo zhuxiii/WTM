@@ -24,9 +24,7 @@
     },
     "tank_tool_kit_expendable": {
       "image": "#ui/gameuiskin#tank_tool_kit",
-      "effects": {
-        "repairAvailable": true
-      }
+      "effects": {}
     },
     "weapons_torpedo_damage_mode": {
       "image": "#ui/gameuiskin#weapons_torpedo_damage_mode"
@@ -245,6 +243,10 @@
     "horsepower": {
       "effects": {
         "gForceTolerationMult": 2.9
+      }
+    }
+  }
+}olerationMult": 2.9
       }
     }
   }

@@ -2159,54 +2159,64 @@
   },
   "repairParts": {
     "wheel_l_01_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_r_01_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_l_02_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_r_02_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_l_03_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_r_03_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_l_04_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_r_04_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_l_drive_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_r_drive_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     }
   },
   "dmgAngles": {
@@ -2980,24 +2990,7 @@
   "battleHideNodes": {
     "n": "details"
   }
-} [
-      0.2,
-      700.0
-    ],
-    "relativeVelArmorShift": [
-      200.0,
-      1000.0
-    ],
-    "explodeTreshold": 0.0001,
-    "explodeArmorPower": 30.0,
-    "explodeRadius": [
-      1.5,
-      10.0
-    ]
-  },
-  "wreckedParts": {
-    "part": {
-      "node": "bone_turret",
+}urret",
       "mass": 4300.0,
       "cutDamage": 350.0,
       "deviation": 0.4,

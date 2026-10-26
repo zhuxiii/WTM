@@ -2922,7 +2922,9 @@
           "node": [
             "ex_armor_body_r_01",
             "ex_armor_body_r_02",
-            "ex_armor_body_l_01"
+            "ex_armor_body_l_01",
+            "ex_armor_body_04",
+            "ex_armor_body_05"
           ]
         }
       }
@@ -3071,10 +3073,6 @@
       "replace_tex": {
         "from": "ger_camo_grey*",
         "to": "ger_camo_winter_lines*"
-      }
-    }
-  ]
-}er_camo_winter_lines*"
       }
     }
   ]

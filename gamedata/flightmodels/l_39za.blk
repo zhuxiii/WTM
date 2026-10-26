@@ -36,7 +36,6 @@
   "fireParamsPreset": "900kph",
   "fightAiBehaviour": "assault",
   "autopilotImpl": "FBW",
-  "paratrooper": "ally",
   "DamageParts": {
     "armor10": {
       "cannon1_dm": {
@@ -2808,18 +2807,6 @@
     "maxSpeed": 309.44,
     "turnTime": 21.5
   },
-  "parachutes": {
-    "emitterRange": [
-      1,
-      1
-    ],
-    "emitterName": "emtr_chute",
-    "chuteModel": "chute_mig_19_char",
-    "chuteAnimVarName": "chute_state_switch",
-    "chuteFlapVarName": "fire_chute",
-    "chuteTimeScaleParam": "chute_time_scale",
-    "chuteFallSpeed": 1.0
-  },
   "cutting": {
     "_emtr_break_wing0_l_from": [
       -0.556693,
@@ -2950,6 +2937,22 @@
       {
         "from": "pk3_gunpod_c*",
         "to": "pk3_winter_gunpod_c*"
+      },
+      {
+        "from": "l_39za_pylon_c*",
+        "to": "l_39za_winter_pylon_c*"
+      },
+      {
+        "from": "cz_ub_16_57ump_73_c*",
+        "to": "cz_ub_16_57ump_73_xmas_c*"
+      },
+      {
+        "from": "cz_ub_16_57ump_73_n*",
+        "to": "cz_ub_16_57ump_73_xmas_n*"
+      }
+    ]
+  }
+}ter_gunpod_c*"
       },
       {
         "from": "l_39za_pylon_c*",

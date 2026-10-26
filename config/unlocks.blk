@@ -2740,8 +2740,9 @@
         "triggerId": "flagReturn",
         "num": 5
       }
-    },
-    {
+    }
+  ]
+}{
       "id": "ciws_rocket_interception",
       "type": "streak",
       "amount_exp": 0,

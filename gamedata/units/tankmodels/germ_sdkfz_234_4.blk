@@ -2876,54 +2876,64 @@
   },
   "repairParts": {
     "wheel_l_01_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_r_01_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_l_02_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_r_02_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_l_03_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_r_03_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_l_04_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_r_04_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_l_drive_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_r_drive_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     }
   },
   "ammo": {
@@ -3569,22 +3579,7 @@
   "battleHideNodes": {
     "n": "details"
   }
-}
-        0.503419,
-        -2.72224,
-        1.76006,
-        2.98144
-      ],
-      "decal0HaveCP": true,
-      "decal0CPNormDepth": [
-        0.228197,
-        0.558033,
-        -0.797825,
-        -1.79939
-      ],
-      "decal0CPNormDepth1": [
-        0.228197,
-        0.558033,
+}   0.558033,
         0.797825,
         -1.79939
       ],

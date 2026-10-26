@@ -136,7 +136,6 @@ def array_view(bytes : array<auto(TT)> ==const; offset, length : int | int64; bl
     
     unsafe {
         static_if (typeinfo is_int(offset)) {
-            
             if (offset < 0 || length < 0 || uint(offset) + uint(length) > uint(_::length(bytes))) {
                 panic("array_view: out of range")
             }
@@ -325,4 +324,6 @@ def pod_view(bytes : array<uint8> ==const; byte_offset : int | int64; t : type<a
         }
     }
     return result
+}
+n result
 }

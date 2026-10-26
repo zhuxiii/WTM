@@ -44,7 +44,6 @@ class ApplyMacro : AstCallMacro {
     }
 }
 
-
         }
         return null
     }

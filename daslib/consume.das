@@ -28,7 +28,7 @@ def private isConsumeArgument(expr : Expression?) : bool {
 class CheckConsumeArguments : AstFunctionAnnotation {
     
     
-    def override verifyCall(var call : ExprCallFunc?; args, progArgs : AnnotationArgumentList; var errors : das_string) : bool {
+    def override verifyCall(var call : ExprCallFunc?; var args : AnnotationArgumentList; progArgs : AnnotationArgumentList; var errors : das_string) : bool {
         
         let check_args <- {for (aa in args); string(aa.name)}
         for (ca, ce in call.func.arguments, call.arguments) {
@@ -42,8 +42,7 @@ class CheckConsumeArguments : AstFunctionAnnotation {
         return true;
     }
 }
-, i.e. <-{describe(ce)}"
-                    return false
+                 return false
                 }
             }
         }

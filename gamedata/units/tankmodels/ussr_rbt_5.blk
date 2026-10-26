@@ -2196,7 +2196,6 @@
     "art_support": {},
     "tank_extinguisher": {},
     "tank_tool_kit_expendable": {},
-    "tank_additional_armor": {},
     "machinegun_belt_ap": {},
     "machinegun_belt_tracer": {},
     "machinegun_belt_stealth": {},
@@ -2317,6 +2316,10 @@
       "details_07",
       "details_08",
       "details_09",
+      "details_10"
+    ]
+  }
+}",
       "details_10"
     ]
   }

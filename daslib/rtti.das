@@ -260,8 +260,6 @@ def RttiValue_nothing {
     return t
 }
 
-
-
 var private nolint_consumed : table<string>
 
 
@@ -287,3 +285,4 @@ def public extract_lint_code(text : string) : string {
     return "" if (colon < 0)
     return slice(text, 0, colon)
 }
+

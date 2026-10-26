@@ -2224,54 +2224,64 @@
   },
   "repairParts": {
     "wheel_l_01_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_r_01_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_l_02_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_r_02_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_l_03_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_r_03_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_l_04_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_r_04_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_l_drive_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     },
     "wheel_r_drive_dm": {
-      "speed": 1.7,
+      "speed": 3.825,
       "completely": true,
-      "modRequired": false
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
     }
   },
   "unitFx": {
@@ -3035,22 +3045,6 @@
     "forest": {
       "replace_tex": {
         "from": "fr_camo_vert_olive_arme*",
-        "to": "fr_camo_vert_olive_arme*"
-      },
-      "decal": {
-        "skin_condition": 100.0,
-        "camo_scale": 0.0,
-        "camo_rotation": 0.0
-      }
-    }
-  },
-  "battleHideNodes": {
-    "n": "details"
-  }
-}es": {
-    "n": "details"
-  }
-}",
         "to": "fr_camo_vert_olive_arme*"
       },
       "decal": {
