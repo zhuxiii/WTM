@@ -4277,6 +4277,12 @@
       "partRepairHp": 1.0,
       "hpForRepair": 0.7
     },
+    "gun_barrel_06_dm": {
+      "speed": 1.5,
+      "completely": true,
+      "partRepairHp": 1.0,
+      "hpForRepair": 0.7
+    },
     "cannon_breech_dm": {
       "speed": 1.2,
       "completely": true,
@@ -7426,11 +7432,7 @@
       125000.0
     ]
   }
-}delName": "tank_bullet_he",
-      "gbufferModelName": "tank_shell_he"
-    },
-    "hesh_tank": {
-      "modelName": "tank_bullet_hesh",
+}_hesh",
       "gbufferModelName": "tank_shell_hesh"
     },
     "hesh_tank_rr": {

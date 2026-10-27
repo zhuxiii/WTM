@@ -2951,22 +2951,6 @@
         "to": "cz_ub_16_57ump_73_xmas_n*"
       }
     ]
-  }
-}ter_gunpod_c*"
-      },
-      {
-        "from": "l_39za_pylon_c*",
-        "to": "l_39za_winter_pylon_c*"
-      },
-      {
-        "from": "cz_ub_16_57ump_73_c*",
-        "to": "cz_ub_16_57ump_73_xmas_c*"
-      },
-      {
-        "from": "cz_ub_16_57ump_73_n*",
-        "to": "cz_ub_16_57ump_73_xmas_n*"
-      }
-    ]
   },
   "vehicleSkins": {
     "standart": {
@@ -2982,6 +2966,23 @@
         {
           "from": "l_39za_gsh_23_c*",
           "to": "l_39za_gsh_23_c*"
+        },
+        {
+          "from": "l_39za_gsh_23_n*",
+          "to": "l_39za_gsh_23_n*"
+        },
+        {
+          "from": "pk3_gunpod_c*",
+          "to": "pk3_gunpod_c*"
+        },
+        {
+          "from": "l_39za_pylon_c*",
+          "to": "l_39za_pylon_c*"
+        }
+      ]
+    }
+  }
+} "l_39za_gsh_23_c*"
         },
         {
           "from": "l_39za_gsh_23_n*",

@@ -10481,8 +10481,9 @@
           -1541.75
         ]
       ]
-    },
-    {
+    }
+  ]
+}{
       "_template": "rendinst_replicated",
       "ri_extra__name": "halloween_lighthouse_a",
       "transform": [
