@@ -1,10 +1,6 @@
 {
   "interactable_grid": {
     "editableObj": false,
-    "_use": [
-      "replicating",
-      "replicate_early"
-    ],
     "_singleton": true,
     "grid_holder__type": "interactable",
     "grid_holder__typeHash": 0,
@@ -13,10 +9,6 @@
   },
   "vehicles_grid": {
     "editableObj": false,
-    "_use": [
-      "replicating",
-      "replicate_early"
-    ],
     "_singleton": true,
     "grid_holder__type": "vehicles",
     "grid_holder__typeHash": 0,
@@ -25,10 +17,6 @@
   },
   "aircrafts_grid": {
     "editableObj": false,
-    "_use": [
-      "replicating",
-      "replicate_early"
-    ],
     "_singleton": true,
     "grid_holder__type": "aircrafts",
     "grid_holder__typeHash": 0,
@@ -37,10 +25,6 @@
   },
   "attract_points_grid": {
     "editableObj": false,
-    "_use": [
-      "replicating",
-      "replicate_early"
-    ],
     "_singleton": true,
     "grid_holder__type": "attract_point",
     "grid_holder__typeHash": 0,
@@ -49,10 +33,6 @@
   },
   "humans_grid": {
     "editableObj": false,
-    "_use": [
-      "replicating",
-      "replicate_early"
-    ],
     "_singleton": true,
     "grid_holder__type": "humans",
     "grid_holder__typeHash": 0,
@@ -61,10 +41,6 @@
   },
   "loot_grid": {
     "editableObj": false,
-    "_use": [
-      "replicating",
-      "replicate_early"
-    ],
     "_singleton": true,
     "grid_holder__type": "loot",
     "grid_holder__typeHash": 0,
@@ -94,6 +70,21 @@
     "grid_obj__gridType": "humans",
     "grid_obj__hidden": 0,
     "grid_obj__fixedTmScale": -1.0,
+    "_replicated": "grid_obj__hidden",
+    "_tracked": "grid_obj__hidden",
+    "grid_obj": {},
+    "grid_obj__updateInMainThread:tag": {},
+    "grid_obj__updateAlways:tag": {}
+  },
+  "doors_grid": {
+    "editableObj": false,
+    "_singleton": true,
+    "grid_holder__type": "doors",
+    "grid_holder__typeHash": 0,
+    "grid_holder__cellSize": 16,
+    "grid_holder": {}
+  }
+}fixedTmScale": -1.0,
     "_replicated": "grid_obj__hidden",
     "_tracked": "grid_obj__hidden",
     "grid_obj": {},
