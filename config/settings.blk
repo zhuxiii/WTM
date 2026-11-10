@@ -3064,6 +3064,9 @@
     },
     "video": {
       "dynamic_hdr": true
+    },
+    "clipmap": {
+      "useFramegraphBuffers": false
     }
   },
   "stcode": {
@@ -3122,9 +3125,7 @@
       ]
     }
   }
-}driverMaxVer0": 38,
-                "driverMaxVer1": 1,
-                "data": {
+}            "data": {
                   "affected": true
                 }
               }
